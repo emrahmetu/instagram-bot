@@ -21,8 +21,10 @@ import argparse
 import calendar
 import datetime as dt
 import html
+import io
 import json
 import os
+import random
 import re
 import sys
 import time
@@ -64,6 +66,7 @@ BRAND_HANDLE = os.environ.get("BRAND_HANDLE", "@emresterling")
 GRAPH_API_BASE = os.environ.get("GRAPH_API_BASE", "https://graph.facebook.com").rstrip("/")
 GRAPH_API_VERSION = os.environ.get("GRAPH_API_VERSION", "v23.0")
 DRY_RUN = os.environ.get("DRY_RUN", "0") == "1"
+POST_STORY = os.environ.get("POST_STORY", "1") == "1"   # post sonrası hikâye de paylaşılsın mı
 
 # Ücretsiz RSS/Atom kaynakları: (kaynak adı, adres, kaç saat geriye bakılacak)
 # Bir kaynak çalışmazsa bot onu atlar ve diğerleriyle devam eder.
@@ -196,6 +199,20 @@ def fetch_news(limit=120, max_hours=None, exclude=()):
 # --------------------------------------------------------------------------- #
 # 2) Claude ile Türkçe özet
 # --------------------------------------------------------------------------- #
+TERMS = """İsim ve terim kuralları (çok önemli, yanlış çeviri hesabı küçük düşürür):
+- Kişi, kurum, kuruluş, şirket, parti, program, yasa, vize ve sosyal yardım ADLARINI ÇEVİRME; orijinal İngilizce halini aynen yaz.
+  Gerekirse ilk geçtiği yerde parantez içinde kısa Türkçe açıklama ekle.
+  Örnekler: "Home Office (İçişleri Bakanlığı)", "DWP (Çalışma ve Emeklilik Bakanlığı)", "HMRC (vergi idaresi)", "NHS", "Ofgem",
+  "Ofcom", "Met Police", "Bank of England", "Reform UK", "Labour", "Conservatives", "Lib Dems", "SNP", "Plaid Cymru",
+  "Universal Credit", "Pension Credit", "PIP", "Skilled Worker visa", "triple lock", "Budget" yerine "bütçe" olabilir.
+- Unvanlardan YALNIZCA yerleşik Türkçe karşılığı olanları çevir: "Prime Minister" = "Başbakan", "Chancellor" (Chancellor of the Exchequer) = "Maliye Bakanı"
+  (asla "şansölye" yazma), "Home Secretary" = "İçişleri Bakanı", "Foreign Secretary" = "Dışişleri Bakanı", "Health Secretary" = "Sağlık Bakanı".
+  Karşılığından emin olmadığın unvanı İngilizce bırak (ör. "Shadow Chancellor", "Speaker", "Black Rod").
+- Yer adlarında yalnızca yerleşik Türkçe adları kullan: Londra, İngiltere, Birleşik Krallık, İskoçya, Galler, Kuzey İrlanda, Manş Denizi.
+  Diğerlerini İngilizce bırak: Westminster, Downing Street, Holyrood, Senedd, Stormont, Heathrow, Gatwick vb.
+- Emin olmadığın hiçbir ismi ya da terimi tahmin ederek çevirme; İngilizce bırak."""
+
+
 SYSTEM_PROMPT = """Sen İngiltere'de yaşayan Türk topluluğu için Türkçe haber özeti hazırlayan bir editörsün.
 
 Kurallar:
@@ -204,13 +221,15 @@ Kurallar:
 - Öncelik sırası: göç/vize, yaşam maliyeti/vergi/sosyal yardım/emeklilik, siyaset, sağlık/NHS, ekonomi/iş, güvenlik, sonra ilgi çekici haberler.
 - Şunları SEÇME: cinsel suçlar, çocuk istismarı, intihar/kendine zarar, bireysel cinayet ve şiddet ayrıntıları, ünlü/kraliyet dedikodusu, diyet/zayıflama.
 - Aynı olayı iki kez yazma.
-- Terimler: "Chancellor" = "Maliye Bakanı" (asla "şansölye" yazma). "Prime Minister" = "Başbakan". "Home Office" = "İçişleri Bakanlığı". "DWP" = "DWP (Çalışma ve Emeklilik Bakanlığı)". "Budget" = "bütçe".
 - Dil sade, tarafsız, haber dili. Para birimini "sterlin" ya da "£" ile yaz.
+- photo_query: haberi temsil eden bir MEKÂN ya da NESNE fotoğrafı için İngilizce arama terimi (ör. "UK parliament", "passport stamp", "hospital corridor", "London bus", "pound coins"). Gerçek kişilerin adını, yüzü ön planda olan insanları, şiddet ya da suç içeren görselleri arama.
 
 Çıktı: SADECE geçerli JSON, başka hiçbir metin yok:
-{"items":[{"ref":listedeki sıra numarası (tam sayı),"emoji":"tek emoji","title":"en fazla 70 karakter başlık","body":"2 cümle, en fazla 260 karakter","source":"kaynak adı"}],
+{"items":[{"ref":listedeki sıra numarası (tam sayı),"emoji":"tek emoji","title":"en fazla 70 karakter başlık","body":"2 cümle, en fazla 260 karakter","source":"kaynak adı","photo_query":"Pexels için 2-4 kelimelik İNGİLİZCE fotoğraf arama terimi"}],
  "hashtags":["#ornek", "..."]}
 hashtags: 8-12 adet, ilgili Türkçe ve İngilizce etiketler (ör. #İngiltere #Londra #UKNews)."""
+
+SYSTEM_PROMPT += "\n\n" + TERMS
 
 USER_TEMPLATE = """Aşağıda İngiltere'nin güncel haber başlıkları var (genel haberler son 24 saat, resmi göç kaynakları son 3 gün). Bunlardan en önemli {n} haberi seç ve kurallara göre JSON üret. Her haber için "ref" alanına listedeki numarasını yaz.
 
@@ -258,11 +277,14 @@ Yalnızca şunlar son dakika sayılır:
 Son dakika SAYILMAZ: sıradan siyasi tartışmalar, anketler, yorum yazıları, bireysel suç ve mahkeme haberleri, cinsel suçlar, intihar, ünlü ve magazin haberleri, spor.
 Günde en fazla birkaç ara paylaşım yapılabildiği için çıta çok yüksek. Emin değilsen paylaşma.
 
-Kurallar: YALNIZCA verilen başlık ve özetteki bilgileri kullan, rakam, isim, alıntı uydurma. "Chancellor" = "Maliye Bakanı". Dil sade ve tarafsız.
+Kurallar: YALNIZCA verilen başlık ve özetteki bilgileri kullan, rakam, isim, alıntı uydurma. Dil sade ve tarafsız. photo_query: haberi temsil eden MEKÂN ya da NESNE için İngilizce arama terimi; kişi adı, yüz, şiddet içeren görsel arama.
 
 Çıktı SADECE JSON:
 Paylaşılacak haber yoksa: {"breaking": false}
-Varsa: {"breaking": true, "ref": listedeki numara, "emoji": "tek emoji", "title": "en fazla 70 karakter", "body": "2-3 cümle, en fazla 300 karakter", "source": "kaynak adı", "hashtags": ["#SonDakika", "..."]}"""
+Varsa: {"breaking": true, "ref": listedeki numara, "emoji": "tek emoji", "title": "en fazla 70 karakter", "body": "2-3 cümle, en fazla 300 karakter", "source": "kaynak adı", "photo_query": "2-4 kelimelik İNGİLİZCE fotoğraf arama terimi", "hashtags": ["#SonDakika", "..."]}"""
+
+
+BREAKING_PROMPT += "\n\n" + TERMS
 
 
 def judge_breaking(items):
@@ -295,6 +317,7 @@ def normalize(data, n):
                 "title": title,
                 "body": body,
                 "source": clean(it.get("source", ""))[:30],
+                "photo_query": clean(it.get("photo_query", ""))[:60],
             })
     tags = [t if t.startswith("#") else f"#{t}" for t in (data.get("hashtags") or [])]
     tags = [re.sub(r"\s+", "", t) for t in tags if len(t) > 1][:20]
@@ -429,37 +452,136 @@ def upper_tr(s):
     return s.replace("i", "İ").replace("ı", "I").upper()
 
 
-def render_item(it, idx, total, path):
+PHOTO_H = 540  # kartlarda fotoğraf bandının yüksekliği
+
+
+def render_item(it, idx, total, path, photo=None):
     img, d = base_canvas()
     top = 100
-    d.text((MARGIN, top), f"{idx:02d} / {total:02d}", font=font("bold", 34), fill=ACCENT)
+    if photo is not None:
+        img, d = draw_photo(img, photo, (0, 0, W, PHOTO_H))
+        top = 70  # başlık satırı fotoğrafın üstünde (koyu gölgenin içinde)
+    d.text((MARGIN, top), f"{idx:02d} / {total:02d}", font=font("bold", 34), fill=ACCENT if photo is None else TEXT)
     label = upper_tr(BRAND_TITLE)
     fl = font("regular", 26)
-    d.text((W - MARGIN - d.textlength(label, font=fl), top + 6), label, font=fl, fill=MUTED)
-    draw_story(d, it, top + 100, H - 170)
+    d.text((W - MARGIN - d.textlength(label, font=fl), top + 6), label, font=fl,
+           fill=MUTED if photo is None else (235, 240, 246))
+    draw_story(d, it, PHOTO_H + 30 if photo is not None else top + 100, H - 170)
     footer(d, f"Kaynak: {it['source']}" if it.get("source") else BRAND_TITLE)
     img.save(path, "JPEG", quality=92, optimize=True)
 
 
-def render_breaking(it, when, path):
+def render_breaking(it, when, path, photo=None):
     img, d = base_canvas()
+    y0 = 100
+    if photo is not None:
+        img, d = draw_photo(img, photo, (0, 0, W, PHOTO_H))
+        y0 = 70
     d.rectangle([0, 0, W, 16], fill=ACCENT)
     label = "SON DAKİKA"
     f = font("bold", 44)
     tw = d.textlength(label, font=f)
-    d.rectangle([MARGIN, 100, MARGIN + tw + 48, 178], fill=ACCENT)
-    d.text((MARGIN + 24, 112), label, font=f, fill=TEXT)
+    d.rectangle([MARGIN, y0, MARGIN + tw + 48, y0 + 78], fill=ACCENT)
+    d.text((MARGIN + 24, y0 + 12), label, font=f, fill=TEXT)
     stamp = f"{when.day} {MONTHS_TR[when.month - 1]} {when.year}, {when:%H:%M}"
-    d.text((MARGIN, 205), stamp, font=font("regular", 32), fill=MUTED)
-    draw_story(d, it, 280, H - 170)
+    if photo is not None:
+        sf = font("bold", 32)
+        d.text((MARGIN + tw + 72, y0 + 22), stamp, font=sf, fill=TEXT)
+        draw_story(d, it, PHOTO_H + 30, H - 170)
+    else:
+        d.text((MARGIN, 205), stamp, font=font("regular", 32), fill=MUTED)
+        draw_story(d, it, 280, H - 170)
     footer(d, f"Kaynak: {it['source']}" if it.get("source") else BRAND_TITLE)
     img.save(path, "JPEG", quality=92, optimize=True)
 
 
-def draw_story(d, it, area_top, area_bottom):
+# ------------------------------ Fotoğraflar (Pexels) ------------------------------ #
+PHOTOS_FILE = OUT_ROOT / "photos_used.json"   # aynı fotoğraf sık tekrar etmesin
+UK_FALLBACK_QUERIES = [
+    "London skyline", "Big Ben London", "Tower Bridge", "Westminster London", "London red bus",
+    "London street", "British countryside", "Edinburgh city", "Cardiff Wales", "Manchester city",
+    "Thames river London", "London underground", "English village", "Scottish highlands",
+    "Union Jack flag", "London taxi", "Belfast city", "Brighton seafront",
+]
+
+
+def pexels_search(query, orientation="landscape"):
+    key = os.environ.get("PEXELS_API_KEY", "").strip()
+    if not key or not query:
+        return []
+    try:
+        r = requests.get("https://api.pexels.com/v1/search",
+                         params={"query": query, "per_page": 15, "orientation": orientation},
+                         headers={"Authorization": key}, timeout=20)
+        if r.status_code != 200:
+            log(f"[uyarı] Pexels araması başarısız ({r.status_code}): {query}")
+            return []
+        return r.json().get("photos", [])
+    except Exception as e:
+        log(f"[uyarı] Pexels'e ulaşılamadı: {e}")
+        return []
+
+
+def load_photo(url):
+    from PIL import Image
+
+    try:
+        r = requests.get(url, timeout=30)
+        r.raise_for_status()
+        return Image.open(io.BytesIO(r.content)).convert("RGB")
+    except Exception as e:
+        log(f"[uyarı] Fotoğraf indirilemedi: {e}")
+        return None
+
+
+def photo_for(it, used, orientation="landscape"):
+    """Önce habere uygun fotoğraf, bulunamazsa rastgele bir İngiltere fotoğrafı. Hiçbiri yoksa None."""
+    if not os.environ.get("PEXELS_API_KEY", "").strip():
+        return None
+    queries = [q for q in [it.get("photo_query")] if q] + random.sample(UK_FALLBACK_QUERIES, 3)
+    for q in queries:
+        candidates = [p for p in pexels_search(q, orientation) if str(p.get("id")) not in used]
+        random.shuffle(candidates)
+        for p in candidates[:3]:
+            src = p.get("src", {})
+            im = load_photo(src.get("large2x") or src.get("large") or src.get("original"))
+            if im is not None:
+                used.add(str(p["id"]))
+                it["photo"] = {"id": p["id"], "query": q, "photographer": p.get("photographer"),
+                               "page": p.get("url"), "fallback": q != it.get("photo_query")}
+                return im
+    return None
+
+
+def draw_photo(img, photo, box):
+    """Fotoğrafı kutuya kırparak yerleştirir; üstte/altta okunabilirlik için koyu geçiş, köşede etiket."""
+    from PIL import Image, ImageDraw, ImageOps
+
+    x0, y0, x1, y1 = box
+    w, h = x1 - x0, y1 - y0
+    fitted = ImageOps.fit(photo, (w, h), method=Image.LANCZOS, centering=(0.5, 0.45))
+    base = img.convert("RGBA")
+    base.paste(fitted, (x0, y0))
+    shade = Image.new("RGBA", (w, h), (0, 0, 0, 0))
+    sd = ImageDraw.Draw(shade)
+    for i in range(170):                       # üstte koyu geçiş (başlık satırı okunsun)
+        sd.line([(0, i), (w, i)], fill=(11, 31, 58, int(190 * (1 - i / 170))))
+    for i in range(200):                       # altta zemine yumuşak geçiş
+        sd.line([(0, h - 200 + i), (w, h - 200 + i)], fill=BG + (int(255 * (i / 200) ** 1.6),))
+    base.alpha_composite(shade, (x0, y0))
+    img = base.convert("RGB")
+    d = ImageDraw.Draw(img)
+    tag, ft = "Temsili görsel", font("regular", 22)
+    tw = d.textlength(tag, font=ft)
+    d.rounded_rectangle([x1 - MARGIN - tw - 24, y1 - 70, x1 - MARGIN, y1 - 34], radius=8, fill=(11, 31, 58))
+    d.text((x1 - MARGIN - tw - 12, y1 - 66), tag, font=ft, fill=MUTED)
+    return img, d
+
+
+def draw_story(d, it, area_top, area_bottom, title_start=72):
     """Başlık + kırmızı çizgi + gövde metnini verilen alana sığdırıp dikeyde ortalar."""
     max_w = W - 2 * MARGIN
-    t_fnt, t_lines, t_lh = fit_text(d, no_emoji(it["title"]), "bold", max_w, 420, 72, 44, 1.15)
+    t_fnt, t_lines, t_lh = fit_text(d, no_emoji(it["title"]), "bold", max_w, 420, title_start, 40, 1.15)
     title_h = t_lh * len(t_lines)
     gap = 30 + 8 + 55  # başlık altı boşluk + çizgi + gövde üstü boşluk
     b_fnt, b_lines, b_lh = fit_text(d, no_emoji(it["body"]), "regular", max_w,
@@ -482,12 +604,90 @@ def build_breaking_caption(it, tags, when):
         "",
         it["body"],
         "",
-        f"Kaynak: {it['source']}" if it.get("source") else "",
+        (f"Kaynak: {it['source']}" if it.get("source") else "") + (" | Görsel temsilidir (Pexels)" if it.get("photo") else ""),
         f"{BRAND_TITLE} | {when.day} {MONTHS_TR[when.month - 1]} {when:%H:%M}",
         "",
         " ".join(tags),
     ])
     return text[:2200].strip()
+
+
+SW, SH = 1080, 1920  # hikâye (story) formatı 9:16
+STORY_SAFE_TOP, STORY_SAFE_BOTTOM = 250, SH - 260  # Instagram'ın üst/alt arayüzünün kapattığı alanlar
+
+
+def story_canvas():
+    from PIL import Image, ImageDraw
+
+    img = Image.new("RGB", (SW, SH), BG)
+    d = ImageDraw.Draw(img)
+    d.rectangle([0, 0, SW, 16], fill=ACCENT)
+    d.rectangle([0, SH - 16, SW, SH], fill=ACCENT)
+    return img, d
+
+
+def story_cta(d, line1="Tüm haberler ve detaylar", line2="profildeki son gönderide"):
+    """Alttaki yönlendirme kutusu (API ile link/çıkartma eklenemediği için)."""
+    top, bottom = STORY_SAFE_BOTTOM - 250, STORY_SAFE_BOTTOM
+    d.rounded_rectangle([MARGIN, top, SW - MARGIN, bottom], radius=28, fill=PANEL)
+    d.rectangle([MARGIN, top, MARGIN + 12, bottom], fill=ACCENT)
+    f1, f2, f3 = font("bold", 46), font("regular", 40), font("bold", 40)
+    d.text((MARGIN + 50, top + 40), line1, font=f1, fill=TEXT)
+    d.text((MARGIN + 50, top + 105), line2, font=f2, fill=MUTED)
+    d.text((MARGIN + 50, top + 170), BRAND_HANDLE, font=f3, fill=ACCENT)
+
+
+def render_story(items, day, path):
+    img, d = story_canvas()
+    max_w = SW - 2 * MARGIN
+    y = STORY_SAFE_TOP
+    d.text((MARGIN, y), COVER_LABEL, font=font("bold", 40), fill=ACCENT)
+    y += 75
+    fnt, lines, lh = fit_text(d, BRAND_TITLE, "bold", max_w, 260, 100, 64, 1.1)
+    y = draw_lines(d, MARGIN, y, lines, fnt, lh, TEXT) + 10
+    d.text((MARGIN, y), date_tr(day), font=font("regular", 42), fill=MUTED)
+    y += 95
+    d.rectangle([MARGIN, y, MARGIN + 140, y + 8], fill=ACCENT)
+    y += 60
+
+    box_bottom = STORY_SAFE_BOTTOM - 340
+    shown = items[:6]
+    for size in range(44, 27, -2):
+        f_num, f_t = font("bold", size), font("regular", size)
+        lh = int(size * 1.3)
+        blocks, total = [], 0
+        for i, it in enumerate(shown, 1):
+            ls = wrap(d, no_emoji(it["title"]), f_t, max_w - 80)[:2]
+            blocks.append((i, ls))
+            total += lh * len(ls) + int(size * 0.7)
+        if y + total <= box_bottom:
+            break
+    for i, ls in blocks:
+        d.text((MARGIN, y), f"{i:02d}", font=f_num, fill=ACCENT)
+        y = draw_lines(d, MARGIN + 80, y, ls, f_t, lh, TEXT) + int(size * 0.7)
+    if len(items) > len(shown):
+        d.text((MARGIN + 80, y), f"+ {len(items) - len(shown)} haber daha", font=font("regular", 34), fill=MUTED)
+
+    story_cta(d)
+    img.save(path, "JPEG", quality=92, optimize=True)
+
+
+def render_breaking_story(it, when, path, photo=None):
+    img, d = story_canvas()
+    y = STORY_SAFE_TOP
+    label, f = "SON DAKİKA", font("bold", 52)
+    tw = d.textlength(label, font=f)
+    d.rectangle([MARGIN, y, MARGIN + tw + 56, y + 90], fill=ACCENT)
+    d.text((MARGIN + 28, y + 14), label, font=f, fill=TEXT)
+    stamp = f"{when.day} {MONTHS_TR[when.month - 1]} {when.year}, {when:%H:%M}"
+    d.text((MARGIN, y + 125), stamp, font=font("regular", 38), fill=MUTED)
+    if photo is not None:
+        img, d = draw_photo(img, photo, (0, y + 195, SW, y + 555))
+        draw_story(d, it, y + 580, STORY_SAFE_BOTTOM - 275, title_start=60)
+    else:
+        draw_story(d, it, y + 220, STORY_SAFE_BOTTOM - 300)
+    story_cta(d, "Ayrıntılar", "profildeki son gönderide")
+    img.save(path, "JPEG", quality=92, optimize=True)
 
 
 CAPTION_LIMIT = 2200  # Instagram açıklama sınırı
@@ -505,7 +705,8 @@ def build_caption(items, tags, day):
             sources.append(it["source"])
     src_txt = ", ".join(sources) if sources else "İngiliz basını"
     head = f"🇬🇧 {BRAND_TITLE} | {date_tr(day)}\n\n"
-    foot = f"\nKaynaklar: {src_txt}. Haberler Türkçe özet olarak derlenmiştir.\n\n" + " ".join(tags[:30])
+    photo_note = " Görseller temsilidir (Pexels)." if any(it.get("photo") for it in items) else ""
+    foot = f"\nKaynaklar: {src_txt}. Haberler Türkçe özet olarak derlenmiştir.{photo_note}\n\n" + " ".join(tags[:30])
 
     def compose(bodies):
         blocks = [f"{i}. {it['emoji']} {it['title']}\n{b}" for i, (it, b) in enumerate(zip(items, bodies), 1)]
@@ -561,17 +762,23 @@ def cmd_prepare(args):
 
     for old in out.glob("*.jpg"):
         old.unlink()
+    seen_photos = set(load_keys(PHOTOS_FILE))
+    used_photos = set(seen_photos)
     images = []
     p = out / "00.jpg"
     render_cover(items, day, p)
     images.append(p.as_posix())
     for i, it in enumerate(items, 1):
         p = out / f"{i:02d}.jpg"
-        render_item(it, i, len(items), p)
+        render_item(it, i, len(items), p, photo=photo_for(it, used_photos))
         images.append(p.as_posix())
 
+    save_keys(PHOTOS_FILE, list(used_photos - seen_photos), keep=400)
+    story = out / "story.jpg"
+    render_story(items, day, story)
     post = {"date": day.isoformat(), "caption": build_caption(items, tags, day),
-            "images": images, "items": items, "history_keys": history_keys}
+            "images": images, "story_image": story.as_posix(),
+            "items": items, "history_keys": history_keys}
     (out / "post.json").write_text(json.dumps(post, ensure_ascii=False, indent=2), encoding="utf-8")
     log(f"{len(images)} görsel hazırlandı: {out}")
 
@@ -649,10 +856,33 @@ def cmd_publish(args):
                      children=",".join(children), caption=post["caption"])["id"]
     wait_ready(carousel)
     media_id = graph("POST", f"{ig_user}/media_publish", creation_id=carousel)["id"]
-    (out / "published.json").write_text(json.dumps(
-        {"media_id": media_id, "published_at": dt.datetime.now(TZ).isoformat()}, indent=2))
+    record = {"media_id": media_id, "published_at": dt.datetime.now(TZ).isoformat()}
+    (out / "published.json").write_text(json.dumps(record, indent=2))
     save_history(post.get("history_keys", []))
     log(f"Yayınlandı. Instagram medya ID: {media_id}")
+
+    story_id = publish_story(post, base)
+    if story_id:
+        record["story_id"] = story_id
+        (out / "published.json").write_text(json.dumps(record, indent=2))
+
+
+def publish_story(post, base):
+    """Post yayınlandıktan sonra dikey hikâye görselini paylaşır. Hata olursa postu bozmaz."""
+    if not POST_STORY or not post.get("story_image"):
+        return None
+    url = f"{base}/{post['story_image']}"
+    try:
+        wait_public([url])
+        ig_user = os.environ["IG_USER_ID"]
+        cid = graph("POST", f"{ig_user}/media", image_url=url, media_type="STORIES")["id"]
+        wait_ready(cid)
+        story_id = graph("POST", f"{ig_user}/media_publish", creation_id=cid)["id"]
+        log(f"Hikâye paylaşıldı. Instagram medya ID: {story_id}")
+        return story_id
+    except Exception as e:
+        log(f"[uyarı] Post paylaşıldı ama hikâye paylaşılamadı: {e}")
+        return None
 
 
 def check_account():
@@ -798,9 +1028,16 @@ def cmd_breaking(args):
     while (out / f"breaking-{stamp}.json").exists():  # aynı anda iki kart üst üste yazılmasın
         stamp, n = f"{now:%H%M%S}-{n}", n + 1
     img = out / f"breaking-{stamp}.jpg"
-    render_breaking(it, now, img)
+    seen_photos = set(load_keys(PHOTOS_FILE))
+    used_photos = set(seen_photos)
+    photo = photo_for(it, used_photos)
+    render_breaking(it, now, img, photo=photo)
+    story = out / f"breaking-{stamp}-story.jpg"
+    render_breaking_story(it, now, story, photo=photo)
+    save_keys(PHOTOS_FILE, list(used_photos - seen_photos), keep=400)
     post = {"type": "breaking", "created_at": now.isoformat(), "item": it,
             "caption": build_breaking_caption(it, tags, now), "images": [img.as_posix()],
+            "story_image": story.as_posix(),
             "history_keys": [hkey] if hkey else [], "published": False}
     (out / f"breaking-{stamp}.json").write_text(json.dumps(post, ensure_ascii=False, indent=2), encoding="utf-8")
     log(f"SON DAKİKA kartı hazırlandı: {it['title']}")
@@ -834,6 +1071,11 @@ def cmd_breaking_publish(args):
     path.write_text(json.dumps(post, ensure_ascii=False, indent=2), encoding="utf-8")
     save_history(post.get("history_keys", []))
     log(f"Son dakika yayınlandı. Instagram medya ID: {media_id}")
+
+    story_id = publish_story(post, base)
+    if story_id:
+        post["story_id"] = story_id
+        path.write_text(json.dumps(post, ensure_ascii=False, indent=2), encoding="utf-8")
 
 
 def main():
