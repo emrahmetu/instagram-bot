@@ -1,0 +1,83 @@
+{
+  "date": "2026-10-19",
+  "caption": "🇬🇧 Birleşik Krallık Gündemi | 19 Ekim 2026, Pazartesi\n\n1. 🚤 İngiliz Kanalı'nda göçmen aktivitesi verileri yayımlandı\n2. 🤝 İngiltere ve Nijerya göç konusunda anlaştı\n3. 💉 Hindistan'da vize başvurusu için tüberküloz testleri\n4. ⚖️ Filistinli aileler için vize başvurusu yeniden değerlendirilecek\n5. 🔒 İçişleri Bakanı AB ile güvenlik işbirliği görüşmeleri yapacak\n6. 💻 Microsoft, İngiltere'nin en büyük yapay zeka veri merkezi projesinden çekildi\n7. 📊 Maliye Bakanı 28 Ekim'de bütçeyi açıklayacak\n8. 🏠 Isı pompaları ve yalıtım yaşam maliyetini daha çok düşürecek\n\nDetaylar için kaydırın 👉\nKaynaklar: GOV.UK, Free Movement, Guardian, BBC ve Guardian, BBC. Haberler Türkçe özet olarak derlenmiştir.\n\n#İngiltere #Londra #Göç #Vize #Türkleriİngiltere #UKNews #İçişleriPolitikası #AB #Bütçe #EconomicNews #BritishPolitics",
+  "images": [
+    "output/2026-10-19/00.jpg",
+    "output/2026-10-19/01.jpg",
+    "output/2026-10-19/02.jpg",
+    "output/2026-10-19/03.jpg",
+    "output/2026-10-19/04.jpg",
+    "output/2026-10-19/05.jpg",
+    "output/2026-10-19/06.jpg",
+    "output/2026-10-19/07.jpg",
+    "output/2026-10-19/08.jpg"
+  ],
+  "items": [
+    {
+      "ref": 1,
+      "emoji": "🚤",
+      "title": "İngiliz Kanalı'nda göçmen aktivitesi verileri yayımlandı",
+      "body": "İçişleri Bakanlığı, küçük teknelerle İngiltere'ye ulaşan göçmenler ve Fransız otoritelerinin geçişini engellediği kişi sayılarını içeren veriler yayımladı.",
+      "source": "GOV.UK"
+    },
+    {
+      "ref": 2,
+      "emoji": "🤝",
+      "title": "İngiltere ve Nijerya göç konusunda anlaştı",
+      "body": "İngiltere ve Nijerya, göç, adalet ve iç işleri konularında diyalog sağlamayı taahhüt etti. Taraflar güvenlik ve refah için işbirliği yapacak.",
+      "source": "GOV.UK"
+    },
+    {
+      "ref": 4,
+      "emoji": "💉",
+      "title": "Hindistan'da vize başvurusu için tüberküloz testleri",
+      "body": "İngiltere vizesi başvurusu yapacak Hindistan vatandaşları için uygun tüberküloz test klinikleri listesi yayımlandı.",
+      "source": "GOV.UK"
+    },
+    {
+      "ref": 11,
+      "emoji": "⚖️",
+      "title": "Filistinli aileler için vize başvurusu yeniden değerlendirilecek",
+      "body": "Yüksek Mahkeme, gazze'de iki Filistinli ailenin güvenli olmayan seyahat politikasından dolayı reddedilen vize başvurularının yeniden incelenmesi gerektiğine karar verdi.",
+      "source": "Free Movement"
+    },
+    {
+      "ref": 50,
+      "emoji": "🔒",
+      "title": "İçişleri Bakanı AB ile güvenlik işbirliği görüşmeleri yapacak",
+      "body": "Shabana Mahmood, AB'nin iç işleri sorumlusu ile Brexit sonrası erişilemez hale gelen polis veri tabanları hakkında görüşecek.",
+      "source": "Guardian"
+    },
+    {
+      "ref": 58,
+      "emoji": "💻",
+      "title": "Microsoft, İngiltere'nin en büyük yapay zeka veri merkezi projesinden çekildi",
+      "body": "Microsoft, elektrik arzı endişeleri nedeniyle Essex'teki büyük yapay zeka veri merkezi projesinden ayrıldı. Nscale şirketi proje devam etme konusunda kararlı.",
+      "source": "BBC ve Guardian"
+    },
+    {
+      "ref": 94,
+      "emoji": "📊",
+      "title": "Maliye Bakanı 28 Ekim'de bütçeyi açıklayacak",
+      "body": "Maliye Bakanı John Healey, İngiltere'nin vergiler ve kamu finansmanı hakkında planlarını 28 Ekim'de açıklayacak.",
+      "source": "BBC"
+    },
+    {
+      "ref": 115,
+      "emoji": "🏠",
+      "title": "Isı pompaları ve yalıtım yaşam maliyetini daha çok düşürecek",
+      "body": "Araştırma gösteriyor ki ev ısıtması planı, yeni petrol sahalarından daha fazla iş yaratacak ve yaşam maliyetini daha çok düşürecek.",
+      "source": "Guardian"
+    }
+  ],
+  "history_keys": [
+    "transparencydatasmallboatactivityintheenglishchannel",
+    "policypaperuknigeriamigrationjusticeandhomeaffairsdialogue2026",
+    "guidanceindiatuberculosistestclinicsforaukvisa",
+    "homeofficemustreconsiderapplicationsbypalestinianfamiliesfailedbyunsafejourneyspolicy",
+    "shabanamahmoodtoholdtalkswitheuoverlawenforcementcooperation",
+    "microsoftpullsoutofukslargestaidatacentre",
+    "whatisthebudgetandwhatcouldbeinit",
+    "heatpumpsandinsulationwouldcutuklivingcostsmorethannewoilfieldsstudysuggests"
+  ]
+}
