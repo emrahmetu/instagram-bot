@@ -649,17 +649,85 @@ def check_account():
 
 
 def cmd_whoami(args):
-    data = graph("GET", "me/accounts", fields="name,id,instagram_business_account{id,username}")
-    pages = data.get("data", [])
-    if not pages:
-        log("Bu token'ın erişebildiği Facebook Sayfası yok. Sistem kullanıcısına sayfa atandı mı? (KURULUM.md, Adım 3)")
-        return
+    """Token'ın hangi sayfa/Instagram hesabına eriştiğini farklı yollardan arar ve sorunu açıklar."""
+    def safe(path, **params):
+        try:
+            return graph("GET", path, **params), None
+        except Exception as e:
+            return None, str(e)[:300]
+
+    ig_fields = "id,name,instagram_business_account{id,username}"
+    found = {}  # ig_id -> (username, sayfa adı)
+
+    me, err = safe("me", fields="id,name")
+    log("=" * 70)
+    log(f"Token sahibi: {me.get('name')} (ID {me.get('id')})" if me else f"Token okunamadı: {err}")
+
+    # 1) Token'a (sistem kullanıcısına) doğrudan atanmış sayfalar
+    acc, err = safe("me/accounts", fields=ig_fields)
+    pages = (acc or {}).get("data", [])
+    log(f"\n[1] Sistem kullanıcısına atanmış Facebook Sayfaları: {len(pages)}" + (f"  (hata: {err})" if err else ""))
     for pg in pages:
         ig = pg.get("instagram_business_account")
+        log(f"    - {pg['name']}  →  " + (f"Instagram @{ig.get('username')} (ID {ig['id']})" if ig else "bağlı Instagram YOK"))
         if ig:
-            log(f"Facebook Sayfası: {pg['name']}  →  Instagram: @{ig.get('username')}  |  IG_USER_ID = {ig['id']}")
+            found[ig["id"]] = (ig.get("username"), pg["name"])
+
+    # 2) İşletme hesabının sahip olduğu sayfalar ve Instagram hesapları
+    biz_ids = []
+    if os.environ.get("BUSINESS_ID"):
+        biz_ids.append((os.environ["BUSINESS_ID"], "BUSINESS_ID ayarı"))
+    bz, err = safe("me/businesses", fields="id,name")
+    biz_ids += [(b["id"], b.get("name", "")) for b in (bz or {}).get("data", [])]
+    log(f"\n[2] Görülen işletme hesapları: {len(biz_ids)}" + (f"  (hata: {err})" if err and not biz_ids else ""))
+    seen_biz = set()
+    for bid, bname in biz_ids:
+        if bid in seen_biz:
+            continue
+        seen_biz.add(bid)
+        log(f"    İşletme: {bname} (ID {bid})")
+        op, err = safe(f"{bid}/owned_pages", fields=ig_fields)
+        opages = (op or {}).get("data", [])
+        log(f"      Sahip olunan sayfalar: {len(opages)}" + (f"  (hata: {err})" if err else ""))
+        for pg in opages:
+            ig = pg.get("instagram_business_account")
+            log(f"        - {pg['name']}  →  " + (f"Instagram @{ig.get('username')} (ID {ig['id']})" if ig else "bağlı Instagram YOK"))
+            if ig:
+                found.setdefault(ig["id"], (ig.get("username"), pg["name"]))
+        oi, err = safe(f"{bid}/owned_instagram_accounts", fields="id,username")
+        igs = (oi or {}).get("data", [])
+        log(f"      Sahip olunan Instagram hesapları: {len(igs)}" + (f"  (hata: {err})" if err else ""))
+        for ig in igs:
+            log(f"        - @{ig.get('username')} (ID {ig['id']})")
+
+    # 3) Bulunan her Instagram hesabına token gerçekten erişebiliyor mu?
+    log("\n[3] Erişim testi")
+    ok = []
+    for ig_id, (user, page) in found.items():
+        test, err = safe(ig_id, fields="username")
+        if test:
+            ok.append((ig_id, test.get("username") or user, page))
+            log(f"    ✓ @{test.get('username') or user}: token bu hesaba ERİŞEBİLİYOR")
         else:
-            log(f"Facebook Sayfası: {pg['name']}  →  bağlı Instagram profesyonel hesabı YOK")
+            log(f"    ✗ @{user}: hesap var ama token erişemiyor ({err})")
+
+    log("\n" + "=" * 70)
+    if ok:
+        ig_id, user, page = ok[0]
+        log(f"SONUÇ: Hazır. Instagram: @{user} (Facebook Sayfası: {page})")
+        log(f"       GitHub Secrets'a ekle →  IG_USER_ID = {ig_id}")
+        log(f"       GitHub Variables'a ekle → EXPECTED_IG_USERNAME = {user}")
+    elif found:
+        log("SONUÇ: Instagram hesabı bulundu ama sistem kullanıcısına atanmamış.")
+        log("       business.facebook.com/settings → Hesaplar → Sayfalar ve Instagram hesapları →")
+        log("       her birinde 'Kişi ata' → listeden SİSTEM KULLANICISINI (instagram-bot) seç → Tam kontrol.")
+    elif not biz_ids:
+        log("SONUÇ: Token işletme hesabını da göremiyor. Bu çıktının ekran görüntüsünü gönder;")
+        log("       bir sonraki adımda işletme ID'sini elle tanımlayacağız.")
+    else:
+        log("SONUÇ: İşletme hesabında Instagram'a bağlı bir Facebook Sayfası görünmüyor.")
+        log("       Kontrol et: (a) Sayfa bu işletme hesabına ekli mi? (b) Instagram bu sayfaya bağlı mı?")
+        log("       (Instagram → Profili düzenle → Sayfa satırında sayfanın adı görünmeli.)")
 
 
 # --------------------------- Son dakika (ara paylaşım) --------------------------- #
