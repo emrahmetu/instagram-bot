@@ -38,6 +38,7 @@ jobs:
       - name: Yeni başlıkları kontrol et
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
           FORCE: ${{ github.event_name == 'workflow_dispatch' && '1' || '0' }}
         run: python bot.py breaking
 
@@ -51,7 +52,7 @@ jobs:
             echo "Değişiklik yok."
           else
             git commit -q -m "Son dakika kontrolü $(date -u +%F' '%H:%M)"
-            git push -q
+            for i in 1 2 3; do git pull --rebase -q origin "${GITHUB_REF_NAME}" && git push -q && ok=1 && break; sleep 5; done; [ "$ok" = 1 ] || exit 1
           fi
           echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
 
@@ -70,5 +71,5 @@ jobs:
           git add output
           if ! git diff --cached --quiet; then
             git commit -q -m "Son dakika kaydı $(date -u +%F' '%H:%M)"
-            git push -q
+            for i in 1 2 3; do git pull --rebase -q origin "${GITHUB_REF_NAME}" && git push -q && ok=1 && break; sleep 5; done; [ "$ok" = 1 ] || exit 1
           fi
