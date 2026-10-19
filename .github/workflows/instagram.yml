@@ -1,0 +1,78 @@
+name: Instagram Günlük Paylaşım
+
+on:
+  schedule:
+    # Hedef: her sabah Londra saatiyle 08:00.
+    # GitHub saatleri UTC'dir. Yaz saatinde 08:00 Londra = 07:00 UTC, kış saatinde = 08:00 UTC.
+    # Bu yüzden iki kez tetiklenir; bot Londra saatine bakar, erken olanı atlar,
+    # aynı gün ikinci kez paylaşmaz. GitHub işleri 5-30 dakika gecikmeyle başlatabilir.
+    - cron: "0 7 * * *"
+    - cron: "0 8 * * *"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Deneme: görselleri üret ama Instagram'a gönderme"
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: instagram-post
+  cancel-in-progress: false
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Font ve kütüphaneleri kur
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq fonts-dejavu-core
+          pip install -q -r requirements.txt
+
+      - name: Haberleri hazırla (RSS + Claude + görseller)
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          FORCE: ${{ github.event_name == 'workflow_dispatch' && '1' || '0' }}
+        run: python bot.py prepare
+
+      - name: Görselleri depoya yükle
+        id: push
+        run: |
+          git config user.name "instagram-bot"
+          git config user.email "instagram-bot@users.noreply.github.com"
+          git add output
+          if git diff --cached --quiet; then
+            echo "Yeni dosya yok."
+          else
+            git commit -q -m "Günlük görseller $(date -u +%F)"
+            git push -q
+          fi
+          echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+
+      - name: Instagram'a yayınla
+        env:
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          EXPECTED_IG_USERNAME: ${{ vars.EXPECTED_IG_USERNAME }}
+          IMAGE_BASE_URL: https://raw.githubusercontent.com/${{ github.repository }}/${{ steps.push.outputs.sha }}
+          DRY_RUN: ${{ (github.event_name == 'workflow_dispatch' && inputs.dry_run) && '1' || '0' }}
+          FORCE: ${{ github.event_name == 'workflow_dispatch' && '1' || '0' }}
+        run: python bot.py publish
+
+      - name: Yayın kaydını sakla (aynı gün iki kez paylaşmasın)
+        if: always()
+        run: |
+          git add output
+          if ! git diff --cached --quiet; then
+            git commit -q -m "Yayın kaydı $(date -u +%F)"
+            git push -q
+          fi
