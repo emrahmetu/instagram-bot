@@ -1,0 +1,74 @@
+name: Instagram Son Dakika Kontrolü
+
+on:
+  schedule:
+    # Saat başı :20'de (sabah bülteniyle çakışmasın). Bot Londra saatine bakar:
+    # 08:00–22:00 dışında kontrol yapmaz, günde en fazla 2 ara paylaşım yapar.
+    - cron: "20 6-22 * * *"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Deneme: kart üret ama Instagram'a gönderme"
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: instagram-post          # sabah bülteniyle aynı anda çalışmasın
+  cancel-in-progress: false
+
+jobs:
+  breaking:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Font ve kütüphaneleri kur
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq fonts-dejavu-core
+          pip install -q -r requirements.txt
+
+      - name: Yeni başlıkları kontrol et
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          FORCE: ${{ github.event_name == 'workflow_dispatch' && '1' || '0' }}
+        run: python bot.py breaking
+
+      - name: Kartı depoya yükle
+        id: push
+        run: |
+          git config user.name "instagram-bot"
+          git config user.email "instagram-bot@users.noreply.github.com"
+          git add output
+          if git diff --cached --quiet; then
+            echo "Değişiklik yok."
+          else
+            git commit -q -m "Son dakika kontrolü $(date -u +%F' '%H:%M)"
+            git push -q
+          fi
+          echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+
+      - name: Instagram'a yayınla
+        env:
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          EXPECTED_IG_USERNAME: ${{ vars.EXPECTED_IG_USERNAME }}
+          IMAGE_BASE_URL: https://raw.githubusercontent.com/${{ github.repository }}/${{ steps.push.outputs.sha }}
+          DRY_RUN: ${{ (github.event_name == 'workflow_dispatch' && inputs.dry_run) && '1' || '0' }}
+        run: python bot.py breaking-publish
+
+      - name: Yayın kaydını sakla
+        if: always()
+        run: |
+          git add output
+          if ! git diff --cached --quiet; then
+            git commit -q -m "Son dakika kaydı $(date -u +%F' '%H:%M)"
+            git push -q
+          fi
