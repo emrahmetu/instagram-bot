@@ -490,22 +490,38 @@ def build_breaking_caption(it, tags, when):
     return text[:2200].strip()
 
 
+CAPTION_LIMIT = 2200  # Instagram açıklama sınırı
+
+
+def first_sentence(text):
+    return re.split(r"(?<=[.!?])\s+", text.strip(), maxsplit=1)[0]
+
+
 def build_caption(items, tags, day):
-    lines = [f"🇬🇧 {BRAND_TITLE} | {date_tr(day)}", ""]
-    for i, it in enumerate(items, 1):
-        lines.append(f"{i}. {it['emoji']} {it['title']}")
+    """Başlık + her haberin özeti. Sınıra sığmazsa önce ilk cümleye, sonra kısaltmaya düşer."""
     sources = []
     for it in items:
         if it.get("source") and it["source"] not in sources:
             sources.append(it["source"])
     src_txt = ", ".join(sources) if sources else "İngiliz basını"
-    lines += ["", "Detaylar için kaydırın 👉",
-              f"Kaynaklar: {src_txt}. Haberler Türkçe özet olarak derlenmiştir.", ""]
-    caption = "\n".join(lines)
-    tag_line = " ".join(tags[:30])
-    if len(caption) + len(tag_line) + 1 > 2200:  # Instagram açıklama sınırı
-        caption = caption[: 2200 - len(tag_line) - 2]
-    return f"{caption}\n{tag_line}".strip()
+    head = f"🇬🇧 {BRAND_TITLE} | {date_tr(day)}\n\n"
+    foot = f"\nKaynaklar: {src_txt}. Haberler Türkçe özet olarak derlenmiştir.\n\n" + " ".join(tags[:30])
+
+    def compose(bodies):
+        blocks = [f"{i}. {it['emoji']} {it['title']}\n{b}" for i, (it, b) in enumerate(zip(items, bodies), 1)]
+        return head + "\n\n".join(blocks) + "\n" + foot
+
+    # 1) Tam özetler  2) Her haberden ilk cümle  3) İlk cümleler eşit uzunlukta kısaltılır
+    full = [it["body"] for it in items]
+    short = [first_sentence(b) for b in full]
+    for bodies in (full, short):
+        text = compose(bodies)
+        if len(text) <= CAPTION_LIMIT:
+            return text.strip()
+    budget = CAPTION_LIMIT - len(compose([""] * len(items)))
+    per = max(40, budget // max(1, len(items)))
+    cut = [b if len(b) <= per else b[: per - 1].rstrip(" ,.;:") + "…" for b in short]
+    return compose(cut)[:CAPTION_LIMIT].strip()
 
 
 # --------------------------------------------------------------------------- #
