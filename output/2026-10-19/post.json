@@ -1,6 +1,6 @@
 {
   "date": "2026-10-19",
-  "caption": "🇬🇧 Birleşik Krallık Gündemi | 19 Ekim 2026, Pazartesi\n\n1. 🚤 İngiliz Kanalı'nda göçmen aktivitesi verileri yayımlandı\n2. 🤝 İngiltere ve Nijerya göç konusunda anlaştı\n3. 💉 Hindistan'da vize başvurusu için tüberküloz testleri\n4. ⚖️ Filistinli aileler için vize başvurusu yeniden değerlendirilecek\n5. 🔒 İçişleri Bakanı AB ile güvenlik işbirliği görüşmeleri yapacak\n6. 💻 Microsoft, İngiltere'nin en büyük yapay zeka veri merkezi projesinden çekildi\n7. 📊 Maliye Bakanı 28 Ekim'de bütçeyi açıklayacak\n8. 🏠 Isı pompaları ve yalıtım yaşam maliyetini daha çok düşürecek\n\nDetaylar için kaydırın 👉\nKaynaklar: GOV.UK, Free Movement, Guardian, BBC ve Guardian, BBC. Haberler Türkçe özet olarak derlenmiştir.\n\n#İngiltere #Londra #Göç #Vize #Türkleriİngiltere #UKNews #İçişleriPolitikası #AB #Bütçe #EconomicNews #BritishPolitics",
+  "caption": "🇬🇧 Birleşik Krallık Gündemi | 19 Ekim 2026, Pazartesi\n\n1. 🚢 İngiltere'ye küçük teknelerle gelenler hakkında veriler yayınlandı\nİçişleri Bakanlığı, İngiliz Kanalı'nda küçük teknelerle İngiltere'ye gelen göçmenlerin sayısı ve Fransız yetkililerce sınır geçişi engellenen kişiler hakkında şeffaflık verilerini yayınladı.\n\n2. 🤝 İngiltere ve Nijerya göç konularında diyalog gerçekleştirdi\nİngiltere ve Nijerya, Göç, Adalet ve İç İşleri diyaloğunda her iki ülkenün güvenliği ve refahını destekleme konusunda taahhütlerini yinelediler.\n\n3. 🩺 Hindistan'da İngiltere vizesi için tüberküloz test merkezleri\nİçişleri Bakanlığı, Hindistan'da İngiltere viza başvurusu için tüberküloz testi yapılabilecek kliniklerin listesini yayınladı.\n\n4. ⚖️ Filistinli ailelere viza başvurusu yeniden gözden geçirilecek\nYüksek Mahkeme, Gazze'deki Filistinli ailelerin viza başvurularının güvensiz yolculuk politikası nedeniyle reddedilmesinin mantıksız ve insan hakları ihlali olduğunu belirledi.\n\n5. 🔐 İngiltere AB'yle kolluk kuvvetleri işbirliği müzakerelerine başlıyor\nİçişleri Sekreteri Shabana Mahmood, Brexit sonrası erişim kaybedilen Avrupa Birliği polis veritabanlarına yeniden katılma olasılığını tartışmak için AB ile görüşecek.\n\n6. 💷 Maliye Bakanı 28 Ekim'de bütçesini açıklayacak\nMaliye Bakanı John Healey, 28 Ekim'de vergi planları ve harcama kararlarını içeren bütçesini açıklayacak. Dijital platformlar için KDV sorumluluk değişiklikleri bekleniyor.\n\n7. 🏥 Sağlık Sekreteri, hastanelerde çocuklar için koridor bakımını bitirmeyi önceliklendiriyor\nSağlık Sekreteri Yvette Cooper, çocukların hastanelerde koridor bakımını bitirmeyi başlık hedef olarak belirledi ve acil bakım sistemine 140 milyon sterlin yatırım duyurdu.\n\n8. 🔥 Isıtma yağı müşterileri zor bir kış geçirecek\nHükümet, fiyat artışlarının ardından ısıtma yağı fiyatlarını düzenlemeyi planlıyor. Pek çok müşteri bu kış yüksek enerji maliyetleriyle karşı karşıya kalacak.\n\nKaynaklar: GOV.UK İçişleri, GOV.UK Vize ve Göç, Free Movement, Guardian, BBC. Haberler Türkçe özet olarak derlenmiştir.\n\n#İngiltere #Göç #Viza #UKNews #LondonNews #GöçmenlHaklari #EuropeNews #UKGovernment #İçişleriBakanlığı #MAaliyeBütçesi",
   "images": [
     "output/2026-10-19/00.jpg",
     "output/2026-10-19/01.jpg",
@@ -15,59 +15,59 @@
   "items": [
     {
       "ref": 1,
-      "emoji": "🚤",
-      "title": "İngiliz Kanalı'nda göçmen aktivitesi verileri yayımlandı",
-      "body": "İçişleri Bakanlığı, küçük teknelerle İngiltere'ye ulaşan göçmenler ve Fransız otoritelerinin geçişini engellediği kişi sayılarını içeren veriler yayımladı.",
-      "source": "GOV.UK"
+      "emoji": "🚢",
+      "title": "İngiltere'ye küçük teknelerle gelenler hakkında veriler yayınlandı",
+      "body": "İçişleri Bakanlığı, İngiliz Kanalı'nda küçük teknelerle İngiltere'ye gelen göçmenlerin sayısı ve Fransız yetkililerce sınır geçişi engellenen kişiler hakkında şeffaflık verilerini yayınladı.",
+      "source": "GOV.UK İçişleri"
     },
     {
       "ref": 2,
       "emoji": "🤝",
-      "title": "İngiltere ve Nijerya göç konusunda anlaştı",
-      "body": "İngiltere ve Nijerya, göç, adalet ve iç işleri konularında diyalog sağlamayı taahhüt etti. Taraflar güvenlik ve refah için işbirliği yapacak.",
-      "source": "GOV.UK"
+      "title": "İngiltere ve Nijerya göç konularında diyalog gerçekleştirdi",
+      "body": "İngiltere ve Nijerya, Göç, Adalet ve İç İşleri diyaloğunda her iki ülkenün güvenliği ve refahını destekleme konusunda taahhütlerini yinelediler.",
+      "source": "GOV.UK İçişleri"
     },
     {
       "ref": 4,
-      "emoji": "💉",
-      "title": "Hindistan'da vize başvurusu için tüberküloz testleri",
-      "body": "İngiltere vizesi başvurusu yapacak Hindistan vatandaşları için uygun tüberküloz test klinikleri listesi yayımlandı.",
-      "source": "GOV.UK"
+      "emoji": "🩺",
+      "title": "Hindistan'da İngiltere vizesi için tüberküloz test merkezleri",
+      "body": "İçişleri Bakanlığı, Hindistan'da İngiltere viza başvurusu için tüberküloz testi yapılabilecek kliniklerin listesini yayınladı.",
+      "source": "GOV.UK Vize ve Göç"
     },
     {
       "ref": 11,
       "emoji": "⚖️",
-      "title": "Filistinli aileler için vize başvurusu yeniden değerlendirilecek",
-      "body": "Yüksek Mahkeme, gazze'de iki Filistinli ailenin güvenli olmayan seyahat politikasından dolayı reddedilen vize başvurularının yeniden incelenmesi gerektiğine karar verdi.",
+      "title": "Filistinli ailelere viza başvurusu yeniden gözden geçirilecek",
+      "body": "Yüksek Mahkeme, Gazze'deki Filistinli ailelerin viza başvurularının güvensiz yolculuk politikası nedeniyle reddedilmesinin mantıksız ve insan hakları ihlali olduğunu belirledi.",
       "source": "Free Movement"
     },
     {
-      "ref": 50,
-      "emoji": "🔒",
-      "title": "İçişleri Bakanı AB ile güvenlik işbirliği görüşmeleri yapacak",
-      "body": "Shabana Mahmood, AB'nin iç işleri sorumlusu ile Brexit sonrası erişilemez hale gelen polis veri tabanları hakkında görüşecek.",
+      "ref": 51,
+      "emoji": "🔐",
+      "title": "İngiltere AB'yle kolluk kuvvetleri işbirliği müzakerelerine başlıyor",
+      "body": "İçişleri Sekreteri Shabana Mahmood, Brexit sonrası erişim kaybedilen Avrupa Birliği polis veritabanlarına yeniden katılma olasılığını tartışmak için AB ile görüşecek.",
       "source": "Guardian"
-    },
-    {
-      "ref": 58,
-      "emoji": "💻",
-      "title": "Microsoft, İngiltere'nin en büyük yapay zeka veri merkezi projesinden çekildi",
-      "body": "Microsoft, elektrik arzı endişeleri nedeniyle Essex'teki büyük yapay zeka veri merkezi projesinden ayrıldı. Nscale şirketi proje devam etme konusunda kararlı.",
-      "source": "BBC ve Guardian"
     },
     {
       "ref": 94,
-      "emoji": "📊",
-      "title": "Maliye Bakanı 28 Ekim'de bütçeyi açıklayacak",
-      "body": "Maliye Bakanı John Healey, İngiltere'nin vergiler ve kamu finansmanı hakkında planlarını 28 Ekim'de açıklayacak.",
+      "emoji": "💷",
+      "title": "Maliye Bakanı 28 Ekim'de bütçesini açıklayacak",
+      "body": "Maliye Bakanı John Healey, 28 Ekim'de vergi planları ve harcama kararlarını içeren bütçesini açıklayacak. Dijital platformlar için KDV sorumluluk değişiklikleri bekleniyor.",
       "source": "BBC"
     },
     {
-      "ref": 115,
-      "emoji": "🏠",
-      "title": "Isı pompaları ve yalıtım yaşam maliyetini daha çok düşürecek",
-      "body": "Araştırma gösteriyor ki ev ısıtması planı, yeni petrol sahalarından daha fazla iş yaratacak ve yaşam maliyetini daha çok düşürecek.",
-      "source": "Guardian"
+      "ref": 88,
+      "emoji": "🏥",
+      "title": "Sağlık Sekreteri, hastanelerde çocuklar için koridor bakımını bitirmeyi önceliklendiriyor",
+      "body": "Sağlık Sekreteri Yvette Cooper, çocukların hastanelerde koridor bakımını bitirmeyi başlık hedef olarak belirledi ve acil bakım sistemine 140 milyon sterlin yatırım duyurdu.",
+      "source": "BBC"
+    },
+    {
+      "ref": 114,
+      "emoji": "🔥",
+      "title": "Isıtma yağı müşterileri zor bir kış geçirecek",
+      "body": "Hükümet, fiyat artışlarının ardından ısıtma yağı fiyatlarını düzenlemeyi planlıyor. Pek çok müşteri bu kış yüksek enerji maliyetleriyle karşı karşıya kalacak.",
+      "source": "BBC"
     }
   ],
   "history_keys": [
@@ -76,8 +76,8 @@
     "guidanceindiatuberculosistestclinicsforaukvisa",
     "homeofficemustreconsiderapplicationsbypalestinianfamiliesfailedbyunsafejourneyspolicy",
     "shabanamahmoodtoholdtalkswitheuoverlawenforcementcooperation",
-    "microsoftpullsoutofukslargestaidatacentre",
     "whatisthebudgetandwhatcouldbeinit",
-    "heatpumpsandinsulationwouldcutuklivingcostsmorethannewoilfieldsstudysuggests"
+    "endingcorridorcareinhospitalsforchildrenaprioritysayshealthsecretary",
+    "heatingoilcustomersfacetoughwinter"
   ]
 }
