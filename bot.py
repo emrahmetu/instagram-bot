@@ -495,7 +495,7 @@ def render_breaking(it, when, path, photo=None):
     img.save(path, "JPEG", quality=92, optimize=True)
 
 
-# ------------------------------ Fotoğraflar (Pexels) ------------------------------ #
+# ------------------------- Fotoğraflar (Pixabay / Pexels) ------------------------- #
 PHOTOS_FILE = OUT_ROOT / "photos_used.json"   # aynı fotoğraf sık tekrar etmesin
 UK_FALLBACK_QUERIES = [
     "London skyline", "Big Ben London", "Tower Bridge", "Westminster London", "London red bus",
@@ -505,21 +505,61 @@ UK_FALLBACK_QUERIES = [
 ]
 
 
-def pexels_search(query, orientation="landscape"):
-    key = os.environ.get("PEXELS_API_KEY", "").strip()
-    if not key or not query:
-        return []
+_PHOTO_WARNED = set()
+
+
+def _photo_warn(msg):
+    """Aynı uyarıyı bir kez, GitHub Annotations kutusunda görünecek şekilde yazar."""
+    if msg not in _PHOTO_WARNED:
+        _PHOTO_WARNED.add(msg)
+        print(f"::warning::{msg}", flush=True)
+
+
+def photo_provider():
+    """Hangi fotoğraf servisi kullanılacak: Pixabay anahtarı varsa Pixabay, yoksa Pexels, ikisi de yoksa None."""
+    if os.environ.get("PIXABAY_API_KEY", "").strip():
+        return "Pixabay"
+    if os.environ.get("PEXELS_API_KEY", "").strip():
+        return "Pexels"
+    return None
+
+
+def _get_json(name, url, **kw):
     try:
-        r = requests.get("https://api.pexels.com/v1/search",
-                         params={"query": query, "per_page": 15, "orientation": orientation},
-                         headers={"Authorization": key}, timeout=20)
+        r = requests.get(url, timeout=20, **kw)
         if r.status_code != 200:
-            log(f"[uyarı] Pexels araması başarısız ({r.status_code}): {query}")
-            return []
-        return r.json().get("photos", [])
+            log(f"[uyarı] {name} araması başarısız ({r.status_code})")
+            _photo_warn(f"{name} araması başarısız (HTTP {r.status_code}). 400/401/403 ise {name.upper()}_API_KEY yanlış.")
+            return None
+        return r.json()
     except Exception as e:
-        log(f"[uyarı] Pexels'e ulaşılamadı: {e}")
+        log(f"[uyarı] {name}'e ulaşılamadı: {e}")
+        _photo_warn(f"{name}'e ulaşılamadı: {type(e).__name__}")
+        return None
+
+
+def photo_search(query, orientation="landscape"):
+    """Ortak biçimde sonuç döndürür: [{'id','url','photographer','page'}]."""
+    prov = photo_provider()
+    if not prov or not query:
         return []
+    if prov == "Pixabay":
+        data = _get_json("Pixabay", "https://pixabay.com/api/", params={
+            "key": os.environ["PIXABAY_API_KEY"].strip(), "q": query[:100], "image_type": "photo",
+            "orientation": "vertical" if orientation == "portrait" else "horizontal",
+            "safesearch": "true", "per_page": 15, "lang": "en"})
+        return [{"id": f"pb:{h['id']}", "url": h.get("largeImageURL") or h.get("webformatURL"),
+                 "photographer": h.get("user"), "page": h.get("pageURL")}
+                for h in (data or {}).get("hits", []) if h.get("largeImageURL") or h.get("webformatURL")]
+    data = _get_json("Pexels", "https://api.pexels.com/v1/search",
+                     params={"query": query, "per_page": 15, "orientation": orientation},
+                     headers={"Authorization": os.environ["PEXELS_API_KEY"].strip()})
+    out = []
+    for p in (data or {}).get("photos", []):
+        src = p.get("src", {})
+        out.append({"id": str(p["id"]), "url": src.get("large2x") or src.get("large") or src.get("original"),
+                    "photographer": p.get("photographer"), "page": p.get("url")})
+    return out
 
 
 def load_photo(url):
@@ -536,19 +576,20 @@ def load_photo(url):
 
 def photo_for(it, used, orientation="landscape"):
     """Önce habere uygun fotoğraf, bulunamazsa rastgele bir İngiltere fotoğrafı. Hiçbiri yoksa None."""
-    if not os.environ.get("PEXELS_API_KEY", "").strip():
+    prov = photo_provider()
+    if not prov:
+        _photo_warn("PIXABAY_API_KEY (ya da PEXELS_API_KEY) tanımlı değil; kartlar fotoğrafsız üretildi.")
         return None
     queries = [q for q in [it.get("photo_query")] if q] + random.sample(UK_FALLBACK_QUERIES, 3)
     for q in queries:
-        candidates = [p for p in pexels_search(q, orientation) if str(p.get("id")) not in used]
+        candidates = [p for p in photo_search(q, orientation) if p["id"] not in used and p.get("url")]
         random.shuffle(candidates)
         for p in candidates[:3]:
-            src = p.get("src", {})
-            im = load_photo(src.get("large2x") or src.get("large") or src.get("original"))
+            im = load_photo(p["url"])
             if im is not None:
-                used.add(str(p["id"]))
-                it["photo"] = {"id": p["id"], "query": q, "photographer": p.get("photographer"),
-                               "page": p.get("url"), "fallback": q != it.get("photo_query")}
+                used.add(p["id"])
+                it["photo"] = {"id": p["id"], "provider": prov, "query": q, "photographer": p.get("photographer"),
+                               "page": p.get("page"), "fallback": q != it.get("photo_query")}
                 return im
     return None
 
@@ -604,7 +645,7 @@ def build_breaking_caption(it, tags, when):
         "",
         it["body"],
         "",
-        (f"Kaynak: {it['source']}" if it.get("source") else "") + (" | Görsel temsilidir (Pexels)" if it.get("photo") else ""),
+        (f"Kaynak: {it['source']}" if it.get("source") else "") + (f" | Görsel temsilidir ({it['photo'].get('provider', 'Pexels')})" if it.get("photo") else ""),
         f"{BRAND_TITLE} | {when.day} {MONTHS_TR[when.month - 1]} {when:%H:%M}",
         "",
         " ".join(tags),
@@ -705,7 +746,8 @@ def build_caption(items, tags, day):
             sources.append(it["source"])
     src_txt = ", ".join(sources) if sources else "İngiliz basını"
     head = f"🇬🇧 {BRAND_TITLE} | {date_tr(day)}\n\n"
-    photo_note = " Görseller temsilidir (Pexels)." if any(it.get("photo") for it in items) else ""
+    provs = sorted({it["photo"].get("provider", "Pexels") for it in items if it.get("photo")})
+    photo_note = f" Görseller temsilidir ({', '.join(provs)})." if provs else ""
     foot = f"\nKaynaklar: {src_txt}. Haberler Türkçe özet olarak derlenmiştir.{photo_note}\n\n" + " ".join(tags[:30])
 
     def compose(bodies):
@@ -1093,5 +1135,25 @@ def main():
      "breaking-publish": cmd_breaking_publish, "whoami": cmd_whoami}[args.cmd](args)
 
 
+def _annotate_error(msg):
+    """Hatayı GitHub'ın 'Annotations' kutusunda görünür yapar (token'ı gizleyerek)."""
+    msg = str(msg)
+    tok = os.environ.get("IG_ACCESS_TOKEN")
+    if tok:
+        msg = msg.replace(tok, "***")
+    msg = re.sub(r"access_token=[^&\s'\"]+", "access_token=***", msg)
+    msg = msg.replace("%", "%25").replace("\r", "").replace("\n", " ")[:900]
+    print(f"::error::{msg}", flush=True)
+
+
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+    except SystemExit as e:
+        if e.code not in (None, 0):
+            if not isinstance(e.code, int):
+                _annotate_error(e.code)
+        raise
+    except Exception as e:
+        _annotate_error(f"{type(e).__name__}: {e}")
+        raise
