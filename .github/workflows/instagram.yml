@@ -59,7 +59,7 @@ jobs:
             echo "Yeni dosya yok."
           else
             git commit -q -m "Günlük görseller $(date -u +%F)"
-            for i in 1 2 3; do git pull --rebase -q origin "${GITHUB_REF_NAME}" && git push -q && ok=1 && break; sleep 5; done; [ "$ok" = 1 ] || exit 1
+            for i in 1 2 3; do if git pull --rebase -X theirs -q origin "${GITHUB_REF_NAME}" && git push -q; then ok=1; break; fi; git rebase --abort 2>/dev/null || true; sleep 5; done; [ "$ok" = 1 ] || exit 1
           fi
           echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
 
@@ -79,5 +79,5 @@ jobs:
           git add output
           if ! git diff --cached --quiet; then
             git commit -q -m "Yayın kaydı $(date -u +%F)"
-            for i in 1 2 3; do git pull --rebase -q origin "${GITHUB_REF_NAME}" && git push -q && ok=1 && break; sleep 5; done; [ "$ok" = 1 ] || exit 1
+            for i in 1 2 3; do if git pull --rebase -X theirs -q origin "${GITHUB_REF_NAME}" && git push -q; then ok=1; break; fi; git rebase --abort 2>/dev/null || true; sleep 5; done; [ "$ok" = 1 ] || exit 1
           fi
