@@ -1,0 +1,92 @@
+{
+  "date": "2026-10-20",
+  "caption": "🇬🇧 Birleşik Krallık Gündemi | 20 Ekim 2026, Salı\n\n1. ⚖️ Mülteci tarama kuralları kurban cezalandırma riski taşıyor\nImmigration and Asylum Bill'deki yeni hükümler, insan ticareti mağdurlarının geç bildirim veya tutarsızlıklar nedeniyle güvenilirlik sorgulamasından geçmelerini zorlaştıracak.\n\n2. 💼 Sığınmacılar asıl başvuru beklerken çalışabilir\nBaşvurusu inceleme aşamasında olan sığınmacılar, belirli koşullar altında İngiltere'de çalışma izni alabilir.\n\n3. 🚫 Hong Kong BN(O) vize başvurularında hukuki endişeler\nHome Office, protesto geçmişine dayalı olarak Hong Kong aktivistlerinin British National (Overseas) vizelerini reddettiği iddiasıyla karşı karşıya.\n\n4. 📊 İşsizlik düşerken küçük işletmeler işe alımı kesiyor\nİşsizlik oranı iyileşmeye rağmen, küçük firmaların çoğu işgücü maliyetlerini gerekçe göstererek işe alımı azaltıyor.\n\n5. 📈 İşsizlik şaşırtıcı düşüşle 4.7% oldu\nAğustos ayı verilerine göre İngiltere'de işsizlik oranı beklenmedik şekilde 4.9% düzeyinden 4.7%'ye gerilerken, iş pozisyonları sayısı azalış gösterdi.\n\n6. 🏥 Hastanede tutulu suçlular yardım kaybedecek\nCezaevi yerine hastanede tutulu mahkumlar, Universal Credit dahil sosyal yardımlarını kaybedecek.\n\n7. 🚑 A&E doktorları: NHS kış için hazır değil\nAcil Tıp doktorları, hastanelerin 'korkunç' durumla karşı karşıya olacağı ve bir kriz bitip diğerinin başladığını söylemek zor olacağı uyarısında bulundu.\n\n8. 🛂 Bakanın göç politikasıyla entegrasyonun aksayacağı endişesi\nEnerji Bakanı Miatta Fahnbulleh, yerleşim başvurusu için gerekli çalışma süresinin uzatılmasının entegrasyon sürecini olumsuz etkileyebileceğini ifade etti.\n\nKaynaklar: Free Movement, GOV.UK Vize ve Göç, BBC, Guardian, The Independent. Haberler Türkçe özet olarak derlenmiştir.\n\n#İngiltere #Londra #göç #vize #NHS #işsizlik #UKNews #sosyalpolitika #sığınma #ekonomi",
+  "images": [
+    "output/2026-10-20/00.jpg",
+    "output/2026-10-20/01.jpg",
+    "output/2026-10-20/02.jpg",
+    "output/2026-10-20/03.jpg",
+    "output/2026-10-20/04.jpg",
+    "output/2026-10-20/05.jpg",
+    "output/2026-10-20/06.jpg",
+    "output/2026-10-20/07.jpg",
+    "output/2026-10-20/08.jpg"
+  ],
+  "story_image": "output/2026-10-20/story.jpg",
+  "items": [
+    {
+      "ref": 3,
+      "emoji": "⚖️",
+      "title": "Mülteci tarama kuralları kurban cezalandırma riski taşıyor",
+      "body": "Immigration and Asylum Bill'deki yeni hükümler, insan ticareti mağdurlarının geç bildirim veya tutarsızlıklar nedeniyle güvenilirlik sorgulamasından geçmelerini zorlaştıracak. Haklar savunucuları, bu değişikliklerin travma yaşayanları ek cezaya çarptıracağını uyarıyor.",
+      "source": "Free Movement",
+      "photo_query": "immigration office documents desk"
+    },
+    {
+      "ref": 6,
+      "emoji": "💼",
+      "title": "Sığınmacılar asıl başvuru beklerken çalışabilir",
+      "body": "Başvurusu inceleme aşamasında olan sığınmacılar, belirli koşullar altında İngiltere'de çalışma izni alabilir. Resmi rehberlik, uygunluk kriterleri ve başvuru prosedürünü ayrıntıyla açıklıyor.",
+      "source": "GOV.UK Vize ve Göç",
+      "photo_query": "asylum application form official"
+    },
+    {
+      "ref": 11,
+      "emoji": "🚫",
+      "title": "Hong Kong BN(O) vize başvurularında hukuki endişeler",
+      "body": "Home Office, protesto geçmişine dayalı olarak Hong Kong aktivistlerinin British National (Overseas) vizelerini reddettiği iddiasıyla karşı karşıya. Avukatlar, muamele yönteminin uygunsuz olduğunu savunuyor.",
+      "source": "Free Movement",
+      "photo_query": "visa application stamps Hong Kong"
+    },
+    {
+      "ref": 31,
+      "emoji": "📊",
+      "title": "İşsizlik düşerken küçük işletmeler işe alımı kesiyor",
+      "body": "İşsizlik oranı iyileşmeye rağmen, küçük firmaların çoğu işgücü maliyetlerini gerekçe göstererek işe alımı azaltıyor. Office for National Statistics verilerine göre, ekonomik belirsizlik işverenleri temkinli yapıyor.",
+      "source": "BBC",
+      "photo_query": "small business office workers employment"
+    },
+    {
+      "ref": 38,
+      "emoji": "📈",
+      "title": "İşsizlik şaşırtıcı düşüşle 4.7% oldu",
+      "body": "Ağustos ayı verilerine göre İngiltere'de işsizlik oranı beklenmedik şekilde 4.9% düzeyinden 4.7%'ye gerilerken, iş pozisyonları sayısı azalış gösterdi. Analistler, işgücü piyasasının 'düşük kapasitede' çalıştığını belirtiy.",
+      "source": "Guardian",
+      "photo_query": "employment statistics data charts"
+    },
+    {
+      "ref": 52,
+      "emoji": "🏥",
+      "title": "Hastanede tutulu suçlular yardım kaybedecek",
+      "body": "Cezaevi yerine hastanede tutulu mahkumlar, Universal Credit dahil sosyal yardımlarını kaybedecek. Nottingham cinayeti mağdurlarının aileleri bu değişimi uzun süredir talep ediyordu.",
+      "source": "BBC",
+      "photo_query": "hospital security detention unit"
+    },
+    {
+      "ref": 82,
+      "emoji": "🚑",
+      "title": "A&E doktorları: NHS kış için hazır değil",
+      "body": "Acil Tıp doktorları, hastanelerin 'korkunç' durumla karşı karşıya olacağı ve bir kriz bitip diğerinin başladığını söylemek zor olacağı uyarısında bulundu. Yıl boyunca acil bakım baskısı kritik seviyelerde kalmaya devam ediyor.",
+      "source": "The Independent",
+      "photo_query": "hospital emergency department NHS"
+    },
+    {
+      "ref": 107,
+      "emoji": "🛂",
+      "title": "Bakanın göç politikasıyla entegrasyonun aksayacağı endişesi",
+      "body": "Enerji Bakanı Miatta Fahnbulleh, yerleşim başvurusu için gerekli çalışma süresinin uzatılmasının entegrasyon sürecini olumsuz etkileyebileceğini ifade etti. Görüşler sitesinden kaldırıldıktan sonra tartışma ortaya çıktı.",
+      "source": "Guardian",
+      "photo_query": "UK settlement visa immigration"
+    }
+  ],
+  "history_keys": [
+    "proposedtraffickingcredibilityrulesriskpunishingvictimsforbeingvictims",
+    "guidanceworkingwhileanasylumclaimisconsidered",
+    "ispartsuitabilitybeingappliedlawfullytohongkongbnoapplications",
+    "joblessratefallsbutsmallfirmscutbackhiring",
+    "surprisedropinukunemploymentto47asjohnhealeysfirstbudgetlooms",
+    "criminalsdetainedinhospitalsettolosebenefits",
+    "thenhsisnotreadyforwintertopaedoctorswarnwecanttellwhereonecrisisendsandthenextbegins",
+    "ministersaysmahmoodsmigrationpolicywillprolongintegration"
+  ]
+}
