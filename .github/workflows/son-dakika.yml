@@ -11,6 +11,10 @@ on:
         description: "Deneme: kart üret ama Instagram'a gönderme"
         type: boolean
         default: true
+      force:
+        description: "Saat kontrolünü atla (elle çalıştırırken açık kalsın)"
+        type: boolean
+        default: true
 
 permissions:
   contents: write
@@ -39,7 +43,7 @@ jobs:
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
-          FORCE: ${{ github.event_name == 'workflow_dispatch' && '1' || '0' }}
+          FORCE: ${{ (github.event_name == 'workflow_dispatch' && inputs.force) && '1' || '0' }}
         run: python bot.py breaking
 
       - name: Kartı depoya yükle
