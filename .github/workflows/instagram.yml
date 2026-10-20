@@ -14,6 +14,10 @@ on:
         description: "Deneme: görselleri üret ama Instagram'a gönderme"
         type: boolean
         default: true
+      force:
+        description: "Saat kontrolünü atla (elle çalıştırırken açık kalsın)"
+        type: boolean
+        default: true
 
 permissions:
   contents: write
@@ -42,7 +46,7 @@ jobs:
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
-          FORCE: ${{ github.event_name == 'workflow_dispatch' && '1' || '0' }}
+          FORCE: ${{ (github.event_name == 'workflow_dispatch' && inputs.force) && '1' || '0' }}
         run: python bot.py prepare
 
       - name: Görselleri depoya yükle
@@ -66,7 +70,7 @@ jobs:
           EXPECTED_IG_USERNAME: ${{ vars.EXPECTED_IG_USERNAME }}
           IMAGE_BASE_URL: https://raw.githubusercontent.com/${{ github.repository }}/${{ steps.push.outputs.sha }}
           DRY_RUN: ${{ (github.event_name == 'workflow_dispatch' && inputs.dry_run) && '1' || '0' }}
-          FORCE: ${{ github.event_name == 'workflow_dispatch' && '1' || '0' }}
+          FORCE: ${{ (github.event_name == 'workflow_dispatch' && inputs.force) && '1' || '0' }}
         run: python bot.py publish
 
       - name: Yayın kaydını sakla (aynı gün iki kez paylaşmasın)
