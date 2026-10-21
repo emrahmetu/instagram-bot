@@ -46,7 +46,8 @@ CHECKED_FILE = OUT_ROOT / "checked.json"   # son dakika kontrolünde zaten değe
 # Son dakika (ara paylaşım) ayarları
 BREAKING_START_HOUR = int(os.environ.get("BREAKING_START_HOUR", "8"))    # Londra saati
 BREAKING_END_HOUR = int(os.environ.get("BREAKING_END_HOUR", "22"))       # bu saatten sonra sessiz
-BREAKING_MAX_PER_DAY = int(os.environ.get("BREAKING_MAX_PER_DAY", "2"))  # günlük üst sınır
+BREAKING_MAX_PER_DAY = int(os.environ.get("BREAKING_MAX_PER_DAY", "4"))  # günlük üst sınır
+BREAKING_MIN_GAP_MIN = int(os.environ.get("BREAKING_MIN_GAP_MIN", "60"))  # iki son dakika arası en az (dakika)
 BREAKING_WINDOW_HOURS = int(os.environ.get("BREAKING_WINDOW_HOURS", "2"))
 
 # Yanlış hesaba paylaşmayı önlemek için (isteğe bağlı): ör. "emresterling"
@@ -84,9 +85,14 @@ FEEDS = [
     ("Evening Standard", "https://www.standard.co.uk/news/uk/rss", 24),
     ("Metro", "https://metro.co.uk/news/uk/feed/", 24),
     ("Nation.Cymru", "https://nation.cymru/feed/", 24),
+    # Spor, magazin ve kraliyet
+    ("BBC Sport", "https://feeds.bbci.co.uk/sport/rss.xml", 24),
+    ("BBC", "https://feeds.bbci.co.uk/news/entertainment_and_arts/rss.xml", 24),
+    ("Sky News", "https://feeds.skynews.com/feeds/rss/entertainment.xml", 24),
+    ("Guardian", "https://www.theguardian.com/uk/monarchy/rss", 24),
     # Göç ve vize (resmi kaynaklar seyrek yayın yaptığı için 3 gün geriye bakılır)
-    ("GOV.UK İçişleri", "https://www.gov.uk/government/organisations/home-office.atom", 72),
-    ("GOV.UK Vize ve Göç", "https://www.gov.uk/government/organisations/uk-visas-and-immigration.atom", 72),
+    ("GOV.UK Home Office", "https://www.gov.uk/government/organisations/home-office.atom", 72),
+    ("GOV.UK UKVI", "https://www.gov.uk/government/organisations/uk-visas-and-immigration.atom", 72),
     ("Free Movement", "https://freemovement.org.uk/feed/", 72),
 ]
 
@@ -96,11 +102,14 @@ DAYS_TR = ["Pazartesi", "Salı", "Çarşamba", "Perşembe", "Cuma", "Cumartesi",
 
 # Görsel tasarımı
 W, H = 1080, 1350                      # Instagram 4:5 dikey format
-BG = (11, 31, 58)                      # lacivert
-PANEL = (18, 44, 80)
-ACCENT = (200, 16, 46)                 # kırmızı
-TEXT = (255, 255, 255)
-MUTED = (169, 182, 200)
+BG_TOP = (44, 58, 92)                  # yumuşak gece mavisi (üst)
+BG_BOTTOM = (25, 34, 58)               # koyu lacivert (alt), arada yumuşak geçiş
+BG = BG_BOTTOM
+PANEL = (58, 74, 112)
+ACCENT = (238, 108, 98)                # mercan (eski sert kırmızı yerine)
+TEXT = (250, 247, 242)                 # sıcak beyaz
+BODY = (224, 229, 238)
+MUTED = (182, 192, 212)
 MARGIN = 80
 
 
@@ -152,6 +161,20 @@ def save_history(keys):
     save_keys(HISTORY_FILE, keys, keep=1000)
 
 
+# Hesabın yayın ilkesi: bu konulardaki haberler hiç seçilmez (Claude'a bile gönderilmez).
+SENSITIVE_EN = re.compile(
+    r"\b(rape[ds]?|raping|rapist|sexual(ly)?|sex (attack|offen\w*|abuse)|indecen\w*|paedophil\w*|pedophil\w*|"
+    r"grooming|child abuse|molest\w*|upskirt\w*|suicide|self-harm|murder\w*|manslaughter|stabb\w*|stabbed|"
+    r"strangl\w*|dismember\w*|porn\w*)\b", re.I)
+SENSITIVE_TR = re.compile(
+    r"(tecavüz|cinsel|taciz|istismar|müstehcen|pornograf|intihar|kendine zarar|cinayet|bıçakla|bıçaklan|boğarak)", re.I)
+
+
+def is_sensitive(*texts):
+    t = " ".join(x or "" for x in texts)
+    return bool(SENSITIVE_EN.search(t) or SENSITIVE_TR.search(t))
+
+
 def fetch_news(limit=120, max_hours=None, exclude=()):
     import feedparser
 
@@ -180,6 +203,8 @@ def fetch_news(limit=120, max_hours=None, exclude=()):
             if not title or key in seen:
                 continue
             seen.add(key)
+            if is_sensitive(title, e.get("summary", "")):
+                continue
             items.append({
                 "source": source,
                 "title": title,
@@ -219,7 +244,8 @@ Kurallar:
 - YALNIZCA sana verilen başlık ve özetlerdeki bilgileri kullan. Rakam, isim, tarih, alıntı UYDURMA. Emin olmadığın ayrıntıyı yazma, genel ifade et.
 - Göç, iltica, vize, oturum izni haberi varsa mutlaka seç.
 - Öncelik sırası: göç/vize, yaşam maliyeti/vergi/sosyal yardım/emeklilik, siyaset, sağlık/NHS, ekonomi/iş, güvenlik, sonra ilgi çekici haberler.
-- Şunları SEÇME: cinsel suçlar, çocuk istismarı, intihar/kendine zarar, bireysel cinayet ve şiddet ayrıntıları, ünlü/kraliyet dedikodusu, diyet/zayıflama.
+- Listenin sonuna, varsa 1-2 ilgi çekici spor, magazin ya da kraliyet haberi ekle (ör. İngiliz takımlarının ve milli takımların önemli maçları, büyük transferler, tanınmış İngiliz isimlerle ilgili önemli gelişmeler, kraliyet ailesinin resmi açıklamaları ve ziyaretleri).
+- Şunları SEÇME: cinsel suçlar ve cinsel suç iddiaları, çocuk istismarı, intihar/kendine zarar, bireysel cinayet ve şiddet ayrıntıları, doğrulanmamış dedikodu ve söylentiler, diyet/zayıflama.
 - Aynı olayı iki kez yazma.
 - Dil sade, tarafsız, haber dili. Para birimini "sterlin" ya da "£" ile yaz.
 - photo_query: haberi temsil eden bir MEKÂN ya da NESNE fotoğrafı için İngilizce arama terimi (ör. "UK parliament", "passport stamp", "hospital corridor", "London bus", "pound coins"). Gerçek kişilerin adını, yüzü ön planda olan insanları, şiddet ya da suç içeren görselleri arama.
@@ -265,17 +291,23 @@ def summarize(items, n):
 
 BREAKING_PROMPT = """Sen İngiltere'de yaşayan Türk topluluğu için çalışan bir haber editörüsün. Görevin, sana verilen YENİ başlıklar arasında ara paylaşımı (son dakika) GERÇEKTEN hak eden bir haber olup olmadığına karar vermek.
 
-Yalnızca şunlar son dakika sayılır:
-- Göç, vize, oturum izni ya da vatandaşlıkta yeni kural veya karar
-- Başbakan ya da hükümetle ilgili büyük gelişme (istifa, erken seçim kararı, hükümetin düşmesi)
-- Bütçe açıklaması, faiz kararı, vergi ya da sosyal yardımda geniş kitleyi etkileyen ani değişiklik
+Şunlar son dakika sayılır (geniş kitleyi ilgilendiren, yeni ve resmi/kesin gelişmeler):
+- Göç, vize, oturum izni, vatandaşlık ya da iltica politikasında yeni kural, karar veya resmi açıklama; büyük göç verisi
+- Başbakan, bakanlar ya da hükümetle ilgili büyük gelişme (istifa, görevden alma, kabine değişikliği, erken seçim, önemli parti ayrılıkları)
+- Ekonomi: enflasyon, faiz, işsizlik gibi resmi veri açıklamaları; bütçe ve vergi kararları; enerji fiyat tavanı
+- Sosyal yardım, emeklilik, konut, kira, ulaşım ücretleri gibi geniş kitleyi etkileyen resmi değişiklikler
+- Büyük şirket haberleri: 1.000'den fazla kişiyi etkileyen işten çıkarma, büyük bir şirketin iflası, ülke çapında hizmet kesintisi
+- NHS'te grev, ulusal sağlık uyarısı ya da büyük sağlık politikası kararı
 - Ülke çapında ulaşım, grev, sınır ya da havalimanı aksaması
-- Kırmızı ya da amber hava uyarısı, büyük sel, ulusal acil durum
-- Büyük bir ulusal güvenlik olayı (yalnızca resmi bilgiye dayanarak, ayrıntıya girmeden)
-- Kraliyet ailesinde tarihi nitelikte gelişme
+- Amber ya da kırmızı hava uyarısı, isimli fırtına, büyük sel, ulusal acil durum
+- Büyük ulusal güvenlik veya savunma gelişmesi (yalnızca resmi bilgiye dayanarak, ayrıntıya girmeden)
+- Hükümet politikasını etkileyen önemli mahkeme kararları
+- Kraliyet ailesinden resmi açıklama ya da önemli gelişme (doğum, nişan, sağlık açıklaması, tarihi ziyaret, unvan değişikliği)
+- Spor: İngiliz, İskoç ya da Galler milli takımlarının önemli maç sonuçları, büyük kupa finalleri, Premier League'de çok büyük gelişmeler (rekor transfer, teknik direktör ayrılığı/ataması, şampiyonluk), Türk futbolcu ya da takımlarla ilgili önemli İngiltere gelişmeleri
+- Magazin: çok tanınmış İngiliz isimlerle ilgili büyük ve doğrulanmış gelişmeler (ör. önemli ödül, ünlü bir ismin vefatı, büyük bir turne/film duyurusu)
 
-Son dakika SAYILMAZ: sıradan siyasi tartışmalar, anketler, yorum yazıları, bireysel suç ve mahkeme haberleri, cinsel suçlar, intihar, ünlü ve magazin haberleri, spor.
-Günde en fazla birkaç ara paylaşım yapılabildiği için çıta çok yüksek. Emin değilsen paylaşma.
+Son dakika SAYILMAZ: yorum ve köşe yazıları, anketler, spekülasyon ve sızıntılar, sıradan siyasi atışmalar, bireysel suç, soruşturma ve mahkeme haberleri, cinsel suç iddiaları (kim hakkında olursa olsun), intihar, doğrulanmamış dedikodu ve söylentiler, sıradan maç haberleri ve transfer söylentileri, yerel haberler.
+Günde birkaç ara paylaşım yapılabiliyor; çıta yüksek ama makul. Gerçekten yeni ve önemli bir gelişme varsa paylaş, emin değilsen paylaşma.
 
 Kurallar: YALNIZCA verilen başlık ve özetteki bilgileri kullan, rakam, isim, alıntı uydurma. Dil sade ve tarafsız. photo_query: haberi temsil eden MEKÂN ya da NESNE için İngilizce arama terimi; kişi adı, yüz, şiddet içeren görsel arama.
 
@@ -306,9 +338,14 @@ def judge_breaking(items):
 
 def normalize(data, n):
     out = []
-    for it in data.get("items", [])[:n]:
+    for it in data.get("items", []):
+        if len(out) >= n:
+            break
         title = clean(it.get("title", ""))[:90]
         body = clean(it.get("body", ""))[:320]
+        if is_sensitive(title, body):
+            log(f"[filtre] Hassas konu nedeniyle elendi: {title}")
+            continue
         if title and body:
             ref = it.get("ref")
             out.append({
@@ -394,12 +431,26 @@ def draw_lines(draw, x, y, lines, fnt, line_h, fill):
     return y
 
 
+def bg_at(y, total):
+    """Arka plan geçişinde verilen satırın rengi."""
+    t = max(0.0, min(1.0, y / max(1, total - 1)))
+    return tuple(int(a + (b - a) * t) for a, b in zip(BG_TOP, BG_BOTTOM))
+
+
+def gradient_canvas(w, h):
+    from PIL import Image
+
+    col = Image.new("RGB", (1, h))
+    col.putdata([bg_at(y, h) for y in range(h)])
+    return col.resize((w, h))
+
+
 def base_canvas():
     from PIL import Image, ImageDraw
 
-    img = Image.new("RGB", (W, H), BG)
+    img = gradient_canvas(W, H)
     d = ImageDraw.Draw(img)
-    d.rectangle([0, 0, W, 16], fill=ACCENT)
+    d.rectangle([0, 0, W, 10], fill=ACCENT)
     return img, d
 
 
@@ -465,7 +516,7 @@ def render_item(it, idx, total, path, photo=None):
     label = upper_tr(BRAND_TITLE)
     fl = font("regular", 26)
     d.text((W - MARGIN - d.textlength(label, font=fl), top + 6), label, font=fl,
-           fill=MUTED if photo is None else (235, 240, 246))
+           fill=MUTED if photo is None else BODY)
     draw_story(d, it, PHOTO_H + 30 if photo is not None else top + 100, H - 170)
     footer(d, f"Kaynak: {it['source']}" if it.get("source") else BRAND_TITLE)
     img.save(path, "JPEG", quality=92, optimize=True)
@@ -477,11 +528,11 @@ def render_breaking(it, when, path, photo=None):
     if photo is not None:
         img, d = draw_photo(img, photo, (0, 0, W, PHOTO_H))
         y0 = 70
-    d.rectangle([0, 0, W, 16], fill=ACCENT)
+    d.rectangle([0, 0, W, 10], fill=ACCENT)
     label = "SON DAKİKA"
     f = font("bold", 44)
     tw = d.textlength(label, font=f)
-    d.rectangle([MARGIN, y0, MARGIN + tw + 48, y0 + 78], fill=ACCENT)
+    d.rounded_rectangle([MARGIN, y0, MARGIN + tw + 48, y0 + 78], radius=18, fill=ACCENT)
     d.text((MARGIN + 24, y0 + 12), label, font=f, fill=TEXT)
     stamp = f"{when.day} {MONTHS_TR[when.month - 1]} {when.year}, {when:%H:%M}"
     if photo is not None:
@@ -594,7 +645,7 @@ def photo_for(it, used, orientation="landscape"):
     return None
 
 
-def draw_photo(img, photo, box):
+def draw_photo(img, photo, box, total_h=None):
     """Fotoğrafı kutuya kırparak yerleştirir; üstte/altta okunabilirlik için koyu geçiş, köşede etiket."""
     from PIL import Image, ImageDraw, ImageOps
 
@@ -606,17 +657,14 @@ def draw_photo(img, photo, box):
     shade = Image.new("RGBA", (w, h), (0, 0, 0, 0))
     sd = ImageDraw.Draw(shade)
     for i in range(170):                       # üstte koyu geçiş (başlık satırı okunsun)
-        sd.line([(0, i), (w, i)], fill=(11, 31, 58, int(190 * (1 - i / 170))))
-    for i in range(200):                       # altta zemine yumuşak geçiş
-        sd.line([(0, h - 200 + i), (w, h - 200 + i)], fill=BG + (int(255 * (i / 200) ** 1.6),))
+        sd.line([(0, i), (w, i)], fill=bg_at(y0 + i, total_h or img.size[1]) + (int(215 * (1 - i / 170) ** 1.3),))
+    total_h = total_h or img.size[1]
+    for i in range(220):                       # altta zemine yumuşak geçiş
+        yy = h - 220 + i
+        sd.line([(0, yy), (w, yy)], fill=bg_at(y0 + yy, total_h) + (int(255 * (i / 220) ** 1.5),))
     base.alpha_composite(shade, (x0, y0))
     img = base.convert("RGB")
-    d = ImageDraw.Draw(img)
-    tag, ft = "Temsili görsel", font("regular", 22)
-    tw = d.textlength(tag, font=ft)
-    d.rounded_rectangle([x1 - MARGIN - tw - 24, y1 - 70, x1 - MARGIN, y1 - 34], radius=8, fill=(11, 31, 58))
-    d.text((x1 - MARGIN - tw - 12, y1 - 66), tag, font=ft, fill=MUTED)
-    return img, d
+    return img, ImageDraw.Draw(img)
 
 
 def draw_story(d, it, area_top, area_bottom, title_start=72):
@@ -635,7 +683,7 @@ def draw_story(d, it, area_top, area_bottom, title_start=72):
     y += 30
     d.rectangle([MARGIN, y, MARGIN + 140, y + 8], fill=ACCENT)
     y += 63
-    draw_lines(d, MARGIN, y, b_lines, b_fnt, b_lh, (225, 232, 240))
+    draw_lines(d, MARGIN, y, b_lines, b_fnt, b_lh, BODY)
 
 
 def build_breaking_caption(it, tags, when):
@@ -645,7 +693,7 @@ def build_breaking_caption(it, tags, when):
         "",
         it["body"],
         "",
-        (f"Kaynak: {it['source']}" if it.get("source") else "") + (f" | Görsel temsilidir ({it['photo'].get('provider', 'Pexels')})" if it.get("photo") else ""),
+        (f"Kaynak: {it['source']}" if it.get("source") else "") + (f" | Görsel: {it['photo'].get('provider', 'Pexels')}" if it.get("photo") else ""),
         f"{BRAND_TITLE} | {when.day} {MONTHS_TR[when.month - 1]} {when:%H:%M}",
         "",
         " ".join(tags),
@@ -660,10 +708,10 @@ STORY_SAFE_TOP, STORY_SAFE_BOTTOM = 250, SH - 260  # Instagram'ın üst/alt aray
 def story_canvas():
     from PIL import Image, ImageDraw
 
-    img = Image.new("RGB", (SW, SH), BG)
+    img = gradient_canvas(SW, SH)
     d = ImageDraw.Draw(img)
-    d.rectangle([0, 0, SW, 16], fill=ACCENT)
-    d.rectangle([0, SH - 16, SW, SH], fill=ACCENT)
+    d.rectangle([0, 0, SW, 10], fill=ACCENT)
+    d.rectangle([0, SH - 10, SW, SH], fill=ACCENT)
     return img, d
 
 
@@ -718,7 +766,7 @@ def render_breaking_story(it, when, path, photo=None):
     y = STORY_SAFE_TOP
     label, f = "SON DAKİKA", font("bold", 52)
     tw = d.textlength(label, font=f)
-    d.rectangle([MARGIN, y, MARGIN + tw + 56, y + 90], fill=ACCENT)
+    d.rounded_rectangle([MARGIN, y, MARGIN + tw + 56, y + 90], radius=20, fill=ACCENT)
     d.text((MARGIN + 28, y + 14), label, font=f, fill=TEXT)
     stamp = f"{when.day} {MONTHS_TR[when.month - 1]} {when.year}, {when:%H:%M}"
     d.text((MARGIN, y + 125), stamp, font=font("regular", 38), fill=MUTED)
@@ -747,7 +795,7 @@ def build_caption(items, tags, day):
     src_txt = ", ".join(sources) if sources else "İngiliz basını"
     head = f"🇬🇧 {BRAND_TITLE} | {date_tr(day)}\n\n"
     provs = sorted({it["photo"].get("provider", "Pexels") for it in items if it.get("photo")})
-    photo_note = f" Görseller temsilidir ({', '.join(provs)})." if provs else ""
+    photo_note = f" Görseller: {', '.join(provs)}." if provs else ""
     foot = f"\nKaynaklar: {src_txt}. Haberler Türkçe özet olarak derlenmiştir.{photo_note}\n\n" + " ".join(tags[:30])
 
     def compose(bodies):
@@ -1039,6 +1087,12 @@ def cmd_breaking(args):
     if sum(1 for _, j in posts if j.get("published")) >= BREAKING_MAX_PER_DAY:
         log(f"Bugün için ara paylaşım sınırına ({BREAKING_MAX_PER_DAY}) ulaşıldı.")
         return
+    last = max((j.get("created_at", "") for _, j in posts if j.get("published")), default="")
+    if last and not FORCE:
+        mins = (now - dt.datetime.fromisoformat(last)).total_seconds() / 60
+        if mins < BREAKING_MIN_GAP_MIN:
+            log(f"Son ara paylaşımdan bu yana {mins:.0f} dakika geçti (en az {BREAKING_MIN_GAP_MIN}), bekleniyor.")
+            return
     if any(not j.get("published") and not j.get("dry_run") for _, j in posts):
         log("Yayın bekleyen bir son dakika kartı var, yeni kontrol yapılmadı.")
         return
