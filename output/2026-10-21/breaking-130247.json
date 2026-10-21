@@ -1,0 +1,29 @@
+{
+  "type": "breaking",
+  "created_at": "2026-10-21T13:02:47.666356+01:00",
+  "item": {
+    "ref": 31,
+    "emoji": "⚠️",
+    "title": "Storm Austen: Amber uyarı, İngiltere'de 80 km/s rüzgar bekleniyor",
+    "body": "Met Office, İngiltere'nin güney bölgelerine Cuma sabahı ulaşacak Storm Austen için amber hava uyarısı yayımladı. Güneybatı İngiltere ve Galler'de şiddetli rüzgarlar ve ağır yağışlar önceden haber veriliyor.",
+    "source": "BBC",
+    "photo_query": "Storm Austen weather UK winds",
+    "photo": {
+      "id": "pb:1056419",
+      "provider": "Pixabay",
+      "query": "Storm Austen weather UK winds",
+      "photographer": "WikimediaImages",
+      "page": "https://pixabay.com/photos/lightning-thunder-lightning-storm-1056419/",
+      "fallback": false
+    }
+  },
+  "caption": "🔴 SON DAKİKA | ⚠️ Storm Austen: Amber uyarı, İngiltere'de 80 km/s rüzgar bekleniyor\n\nMet Office, İngiltere'nin güney bölgelerine Cuma sabahı ulaşacak Storm Austen için amber hava uyarısı yayımladı. Güneybatı İngiltere ve Galler'de şiddetli rüzgarlar ve ağır yağışlar önceden haber veriliyor.\n\nKaynak: BBC | Görsel temsilidir (Pixabay)\nBirleşik Krallık Gündemi | 21 Ekim 13:02\n\n#SonDakika #StormAusten #HavaUyarısı",
+  "images": [
+    "output/2026-10-21/breaking-130247.jpg"
+  ],
+  "story_image": "output/2026-10-21/breaking-130247-story.jpg",
+  "history_keys": [
+    "amberwarningissuedasstormaustenthreatensukwithstrongwindsandheavyrain"
+  ],
+  "published": false
+}
