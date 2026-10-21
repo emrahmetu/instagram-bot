@@ -1,0 +1,29 @@
+{
+  "type": "breaking",
+  "created_at": "2026-10-21T18:22:29.171110+01:00",
+  "item": {
+    "ref": 16,
+    "emoji": "⚖️",
+    "title": "Eski DUP Lideri Jeffrey Donaldson Tecavüz İddiasıyla Soruşturma Altında",
+    "body": "Met Police, PSNI'den gelen ihbar üzerine eski DUP lideri Jeffrey Donaldson'ın 2016'da Parlamento içinde bir kadına tecavüz ettiği iddiasını araştırıyor. Soruşturma açık devam ediyor.",
+    "source": "Guardian",
+    "photo_query": "parliament Westminster building",
+    "photo": {
+      "id": "pb:2382053",
+      "provider": "Pixabay",
+      "query": "parliament Westminster building",
+      "photographer": "dawnydawny",
+      "page": "https://pixabay.com/photos/big-ben-clock-london-england-ben-2382053/",
+      "fallback": false
+    }
+  },
+  "caption": "🔴 SON DAKİKA | ⚖️ Eski DUP Lideri Jeffrey Donaldson Tecavüz İddiasıyla Soruşturma Altında\n\nMet Police, PSNI'den gelen ihbar üzerine eski DUP lideri Jeffrey Donaldson'ın 2016'da Parlamento içinde bir kadına tecavüz ettiği iddiasını araştırıyor. Soruşturma açık devam ediyor.\n\nKaynak: Guardian | Görsel temsilidir (Pixabay)\nBirleşik Krallık Gündemi | 21 Ekim 18:22\n\n#SonDakika #Parlamento #Soruşturma",
+  "images": [
+    "output/2026-10-21/breaking-182229.jpg"
+  ],
+  "story_image": "output/2026-10-21/breaking-182229-story.jpg",
+  "history_keys": [
+    "jeffreydonaldsoninvestigatedoverallegedrapeinukparliament"
+  ],
+  "published": false
+}
