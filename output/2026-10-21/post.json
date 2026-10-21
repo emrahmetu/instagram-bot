@@ -1,0 +1,156 @@
+{
+  "date": "2026-10-21",
+  "caption": "🇬🇧 Birleşik Krallık Gündemi | 21 Ekim 2026, Çarşamba\n\n1. ⚖️ Iraklı vatandaş vize ret kararına karşı davayı kazandı\nSpecial Immigration Appeals Commission (SIAC) kararında, Home Secretary tarafından güvenlik gerekçesiyle reddedilen bir Iraklı vatandaşın vize başvurusu iptal edildi.\n\n2. 📈 Yakıt fiyatlarındaki artış enflasyonu %3,5'e çıkardı\nÜlke çapında enflasyon oranı Eylül ayında %3,1'den %3,5'e yükseldi.\n\n3. 🚨 Kaçak işçi cezasından kaçınmaya yardımcı olan avukat yakalandı\nBBC araştırmasında, yasadışı işçi çalıştırmanın 45.000 sterlinlik cezasından kurtulma konusunda yardımcı olduğu iddia edilen bir avukat ortaya çıktı.\n\n4. ❄️ Milyonlarca hane kışa enerji borcu ile giriyor\nYaklaşık 3,4 milyon hane (sekiz haneye birisi) tedarikçilerine ortalama 220 sterlin borç durumundadır.\n\n5. 🍽️ Gıda bankası kullanımı 2029'a kadar rekor seviyelere çıkabilir\nProjeksiyonlar, 2028/29'da 9,1 milyon kişinin gıda bankası hizmetine ihtiyaç duyacağını göstermektedir.\n\n6. ⚖️ Kuzey İrlanda Troubles Yasası onaylandı\nMilletvekilleri, çatışmanın mirası ile başa çıkmak için Northern Ireland Troubles Bill'i desteklediler.\n\n7. 📚 İngiltere okulları antisemitizmi ayrı bir konu olarak kabul etmeli\nRapor, İngiltere'deki beş Yahudi öğrenciden üçünün önyargı yaşadığını ortaya koymaktadır.\n\n8. 🔒 RAF Fairford olayında İran casus iddiasiyla iki kişi tekrar tutuklandı\nLondra merkezli iki kişi (24 ve 25 yaşında), İran istihbaratına yardım etmekten şüpheyle tutuklandı.\n\nKaynaklar: Free Movement, BBC, The Independent, Guardian. Haberler Türkçe özet olarak derlenmiştir. Görseller temsilidir (Pixabay).\n\n#İngiltere #Londra #Göç #UKNews #Enflasyon #İltica #Politika #İçişleri #Sosyal #İnsanHakları",
+  "images": [
+    "output/2026-10-21/00.jpg",
+    "output/2026-10-21/01.jpg",
+    "output/2026-10-21/02.jpg",
+    "output/2026-10-21/03.jpg",
+    "output/2026-10-21/04.jpg",
+    "output/2026-10-21/05.jpg",
+    "output/2026-10-21/06.jpg",
+    "output/2026-10-21/07.jpg",
+    "output/2026-10-21/08.jpg"
+  ],
+  "story_image": "output/2026-10-21/story.jpg",
+  "items": [
+    {
+      "ref": 1,
+      "emoji": "⚖️",
+      "title": "Iraklı vatandaş vize ret kararına karşı davayı kazandı",
+      "body": "Special Immigration Appeals Commission (SIAC) kararında, Home Secretary tarafından güvenlik gerekçesiyle reddedilen bir Iraklı vatandaşın vize başvurusu iptal edildi. Karar, kamu yararına aykırı olduğu ileri sürülen müracaatçının engellemesinin hukuki temeli olmadığını ortaya koydu.",
+      "source": "Free Movement",
+      "photo_query": "UK immigration court hearing",
+      "photo": {
+        "id": "pb:6797470",
+        "provider": "Pixabay",
+        "query": "UK immigration court hearing",
+        "photographer": "shatishira",
+        "page": "https://pixabay.com/photos/hearing-aid-device-tool-macro-6797470/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 16,
+      "emoji": "📈",
+      "title": "Yakıt fiyatlarındaki artış enflasyonu %3,5'e çıkardı",
+      "body": "Ülke çapında enflasyon oranı Eylül ayında %3,1'den %3,5'e yükseldi. Orta Doğu'daki çatışmanın yakıt fiyatlarını rekorlu seviyelere çıkarması, Maliye Bakanı John Healey'in başarısız bütçe hazırlamadan bir hafta önce darbe indirir.",
+      "source": "BBC",
+      "photo_query": "petrol pompa yakıt fiyatları",
+      "photo": {
+        "id": "pb:996617",
+        "provider": "Pixabay",
+        "query": "petrol pompa yakıt fiyatları",
+        "photographer": "ClickerHappy",
+        "page": "https://pixabay.com/photos/petrol-gasoline-diesel-gas-996617/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 39,
+      "emoji": "🚨",
+      "title": "Kaçak işçi cezasından kaçınmaya yardımcı olan avukat yakalandı",
+      "body": "BBC araştırmasında, yasadışı işçi çalıştırmanın 45.000 sterlinlik cezasından kurtulma konusunda yardımcı olduğu iddia edilen bir avukat ortaya çıktı. Home Secretary, cezaların verilme ve tahsil edilme şeklinin incelenmesini emretti.",
+      "source": "BBC",
+      "photo_query": "courtroom legal proceedings",
+      "photo": {
+        "id": "pb:3577060",
+        "provider": "Pixabay",
+        "query": "courtroom legal proceedings",
+        "photographer": "QuinceCreative",
+        "page": "https://pixabay.com/photos/gavel-auction-hammer-justice-legal-3577060/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 60,
+      "emoji": "❄️",
+      "title": "Milyonlarca hane kışa enerji borcu ile giriyor",
+      "body": "Yaklaşık 3,4 milyon hane (sekiz haneye birisi) tedarikçilerine ortalama 220 sterlin borç durumundadır. Toplam borç tutarı 750 milyon sterline ulaşmış, kış aylarında enerji tasarrufunun acil hale geldiği vurgulanmaktadır.",
+      "source": "The Independent",
+      "photo_query": "winter heating house thermostat",
+      "photo": {
+        "id": "pb:463904",
+        "provider": "Pixabay",
+        "query": "winter heating house thermostat",
+        "photographer": "avantrend",
+        "page": "https://pixabay.com/photos/heating-thermostat-463904/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 63,
+      "emoji": "🍽️",
+      "title": "Gıda bankası kullanımı 2029'a kadar rekor seviyelere çıkabilir",
+      "body": "Projeksiyonlar, 2028/29'da 9,1 milyon kişinin gıda bankası hizmetine ihtiyaç duyacağını göstermektedir. Bu rakam 2025/26'daki önceki rekor olan 9,07 milyonu potansiyel olarak aşabilir.",
+      "source": "The Independent",
+      "photo_query": "food bank charity assistance",
+      "photo": {
+        "id": "pb:4561704",
+        "provider": "Pixabay",
+        "query": "food bank charity assistance",
+        "photographer": "Frantisek_Krejci",
+        "page": "https://pixabay.com/photos/poverty-black-and-white-emotion-4561704/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 70,
+      "emoji": "⚖️",
+      "title": "Kuzey İrlanda Troubles Yasası onaylandı",
+      "body": "Milletvekilleri, çatışmanın mirası ile başa çıkmak için Northern Ireland Troubles Bill'i desteklediler. İçişleri Bakanı'na göre, gaziler ve hayatlarını kaybedenler adil muamele hakkına sahiptir.",
+      "source": "The Independent",
+      "photo_query": "Northern Ireland peace memorial",
+      "photo": {
+        "id": "pb:3795208",
+        "provider": "Pixabay",
+        "query": "Northern Ireland peace memorial",
+        "photographer": "hhach",
+        "page": "https://pixabay.com/photos/dunluce-castle-northern-ireland-3795208/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 78,
+      "emoji": "📚",
+      "title": "İngiltere okulları antisemitizmi ayrı bir konu olarak kabul etmeli",
+      "body": "Rapor, İngiltere'deki beş Yahudi öğrenciden üçünün önyargı yaşadığını ortaya koymaktadır. Hükümetin bunu kabul etmesi beklenmekte, okullar ve kolejler daha sert tutum alması gereklidir.",
+      "source": "Guardian",
+      "photo_query": "school classroom education",
+      "photo": {
+        "id": "pb:364178",
+        "provider": "Pixabay",
+        "query": "school classroom education",
+        "photographer": "geralt",
+        "page": "https://pixabay.com/photos/write-board-hand-to-learn-a-notice-364178/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 95,
+      "emoji": "🔒",
+      "title": "RAF Fairford olayında İran casus iddiasiyla iki kişi tekrar tutuklandı",
+      "body": "Londra merkezli iki kişi (24 ve 25 yaşında), İran istihbaratına yardım etmekten şüpheyle tutuklandı. Terörle Mücadele Polis Başkanı, İran devlet katılımının 'oldukça muhtemel' olduğunu bildirdi.",
+      "source": "BBC",
+      "photo_query": "UK counter terrorism security",
+      "photo": {
+        "id": "pb:4271392",
+        "provider": "Pixabay",
+        "query": "UK counter terrorism security",
+        "photographer": "LicorBeirao",
+        "page": "https://pixabay.com/photos/cocktail-drinks-bar-bartender-4271392/",
+        "fallback": false
+      }
+    }
+  ],
+  "history_keys": [
+    "iraqinationalsuccessfullychallengesvisitvisarefusalinsiac",
+    "surgingfuelpricespushukinflationrateto35aheadofbudget",
+    "lawyercaughtofferingtomakeillegalworkerfinegoaway",
+    "millionsofukhouseholdsheadingintowinterinenergydebtbutexpertsaysitsnottoolatetoact",
+    "britsneedingfoodbankssettoreachrecordhighby2029newdatasuggests",
+    "mpsbacknorthernirelandtroublesbilltodealwithlegacyofconflict",
+    "schoolsinenglandmustrecogniseantisemitismasdistinctcategoryofharmreportsays",
+    "twomenrearrestedonsuspicionofassistingiranintelligenceafterraffairfordincident"
+  ]
+}
