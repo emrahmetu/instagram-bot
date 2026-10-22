@@ -102,14 +102,40 @@ DAYS_TR = ["Pazartesi", "Salı", "Çarşamba", "Perşembe", "Cuma", "Cumartesi",
 
 # Görsel tasarımı
 W, H = 1080, 1350                      # Instagram 4:5 dikey format
-BG_TOP = (44, 58, 92)                  # yumuşak gece mavisi (üst)
-BG_BOTTOM = (25, 34, 58)               # koyu lacivert (alt), arada yumuşak geçiş
+# Açık "editoryal" tema: kırık beyaz zemin (Pantone 2026 Cloud Dancer'a yakın), koyu mürekkep mavisi metin,
+# her haber kategorisine az sayıda, kolay ayırt edilen ve hafif kısık tonlu bir renk.
+BG_TOP = (243, 240, 234)
+BG_BOTTOM = (235, 231, 223)
 BG = BG_BOTTOM
-PANEL = (58, 74, 112)
-ACCENT = (238, 108, 98)                # mercan (eski sert kırmızı yerine)
-TEXT = (250, 247, 242)                 # sıcak beyaz
-BODY = (224, 229, 238)
-MUTED = (182, 192, 212)
+PANEL = (226, 220, 209)                # ince çizgiler, kutular
+INK = (22, 36, 64)                     # başlıklar
+TEXT = INK
+BODY = (55, 66, 88)
+MUTED = (112, 119, 136)
+WHITE = (255, 255, 255)
+BREAKING = (200, 64, 52)               # son dakika: kısık tuğla kırmızısı
+ACCENT = (37, 78, 160)                 # varsayılan vurgu: kraliyet mavisi
+
+CATEGORIES = {                         # anahtar: (etiket, renk)
+    "goc":      ("GÖÇ & VİZE", (13, 115, 119)),      # petrol yeşili
+    "ekonomi":  ("EKONOMİ", (39, 122, 78)),          # orman yeşili
+    "siyaset":  ("SİYASET", (37, 78, 160)),          # kraliyet mavisi
+    "saglik":   ("SAĞLIK", (190, 82, 108)),          # gül kurusu
+    "guvenlik": ("GÜVENLİK", (74, 86, 112)),         # arduvaz
+    "hava":     ("HAVA & ÇEVRE", (35, 128, 186)),    # gök mavisi
+    "spor":     ("SPOR", (106, 72, 168)),            # mor
+    "magazin":  ("MAGAZİN", (190, 120, 28)),         # hardal
+    "kraliyet": ("KRALİYET", (140, 62, 120)),        # erik
+    "dunya":    ("DÜNYA", (24, 98, 150)),            # derin mavi
+    "gundem":   ("GÜNDEM", (60, 72, 140)),           # çivit
+}
+
+
+def cat_of(it):
+    key = (it.get("category") or "").lower()
+    return CATEGORIES.get(key, CATEGORIES["gundem"])
+
+
 MARGIN = 80
 
 
@@ -248,10 +274,11 @@ Kurallar:
 - Şunları SEÇME: cinsel suçlar ve cinsel suç iddiaları, çocuk istismarı, intihar/kendine zarar, bireysel cinayet ve şiddet ayrıntıları, doğrulanmamış dedikodu ve söylentiler, diyet/zayıflama.
 - Aynı olayı iki kez yazma.
 - Dil sade, tarafsız, haber dili. Para birimini "sterlin" ya da "£" ile yaz.
+- category: haberin kategorisi; şunlardan BİRİ: goc, ekonomi, siyaset, saglik, guvenlik, hava, spor, magazin, kraliyet, dunya, gundem.
 - photo_query: haberi temsil eden bir MEKÂN ya da NESNE fotoğrafı için İngilizce arama terimi (ör. "UK parliament", "passport stamp", "hospital corridor", "London bus", "pound coins"). Gerçek kişilerin adını, yüzü ön planda olan insanları, şiddet ya da suç içeren görselleri arama.
 
 Çıktı: SADECE geçerli JSON, başka hiçbir metin yok:
-{"items":[{"ref":listedeki sıra numarası (tam sayı),"emoji":"tek emoji","title":"en fazla 70 karakter başlık","body":"2 cümle, en fazla 260 karakter","source":"kaynak adı","photo_query":"Pexels için 2-4 kelimelik İNGİLİZCE fotoğraf arama terimi"}],
+{"items":[{"ref":listedeki sıra numarası (tam sayı),"emoji":"tek emoji","title":"en fazla 70 karakter başlık","body":"2 cümle, en fazla 260 karakter","source":"kaynak adı","category":"kategori anahtarı","photo_query":"Pexels için 2-4 kelimelik İNGİLİZCE fotoğraf arama terimi"}],
  "hashtags":["#ornek", "..."]}
 hashtags: 8-12 adet, ilgili Türkçe ve İngilizce etiketler (ör. #İngiltere #Londra #UKNews)."""
 
@@ -313,7 +340,7 @@ Kurallar: YALNIZCA verilen başlık ve özetteki bilgileri kullan, rakam, isim, 
 
 Çıktı SADECE JSON:
 Paylaşılacak haber yoksa: {"breaking": false}
-Varsa: {"breaking": true, "ref": listedeki numara, "emoji": "tek emoji", "title": "en fazla 70 karakter", "body": "2-3 cümle, en fazla 300 karakter", "source": "kaynak adı", "photo_query": "2-4 kelimelik İNGİLİZCE fotoğraf arama terimi", "hashtags": ["#SonDakika", "..."]}"""
+Varsa: {"breaking": true, "ref": listedeki numara, "emoji": "tek emoji", "title": "en fazla 70 karakter", "body": "2-3 cümle, en fazla 300 karakter", "source": "kaynak adı", "category": "goc|ekonomi|siyaset|saglik|guvenlik|hava|spor|magazin|kraliyet|dunya|gundem", "photo_query": "2-4 kelimelik İNGİLİZCE fotoğraf arama terimi", "hashtags": ["#SonDakika", "..."]}"""
 
 
 BREAKING_PROMPT += "\n\n" + TERMS
@@ -355,6 +382,7 @@ def normalize(data, n):
                 "body": body,
                 "source": clean(it.get("source", ""))[:30],
                 "photo_query": clean(it.get("photo_query", ""))[:60],
+                "category": clean(it.get("category", "")).lower()[:12],
             })
     tags = [t if t.startswith("#") else f"#{t}" for t in (data.get("hashtags") or [])]
     tags = [re.sub(r"\s+", "", t) for t in tags if len(t) > 1][:20]
@@ -445,55 +473,65 @@ def gradient_canvas(w, h):
     return col.resize((w, h))
 
 
-def base_canvas():
-    from PIL import Image, ImageDraw
+def base_canvas(accent=ACCENT):
+    from PIL import ImageDraw
 
     img = gradient_canvas(W, H)
     d = ImageDraw.Draw(img)
-    d.rectangle([0, 0, W, 10], fill=ACCENT)
+    d.rectangle([0, 0, W, 12], fill=accent)
     return img, d
 
 
 def footer(d, left_text):
     y = H - 110
     d.line([MARGIN, y, W - MARGIN, y], fill=PANEL, width=3)
-    f = font("regular", 30)
-    d.text((MARGIN, y + 30), left_text, font=f, fill=MUTED)
+    d.text((MARGIN, y + 30), left_text, font=font("regular", 30), fill=MUTED)
     fb = font("bold", 30)
     tw = d.textlength(BRAND_HANDLE, font=fb)
-    d.text((W - MARGIN - tw, y + 30), BRAND_HANDLE, font=fb, fill=TEXT)
+    d.text((W - MARGIN - tw, y + 30), BRAND_HANDLE, font=fb, fill=INK)
+
+
+def chip(d, x, y, text, color, size=28, pad_x=22, pad_y=12, fg=WHITE):
+    """Yuvarlak köşeli renkli etiket; sağ kenarının x'ini döndürür."""
+    f = font("bold", size)
+    tw = d.textlength(text, font=f)
+    h = size + 2 * pad_y
+    d.rounded_rectangle([x, y, x + tw + 2 * pad_x, y + h], radius=h // 2, fill=color)
+    d.text((x + pad_x, y + pad_y - 2), text, font=f, fill=fg)
+    return x + tw + 2 * pad_x
 
 
 def render_cover(items, day, path):
-    img, d = base_canvas()
+    img, d = base_canvas(INK)
     max_w = W - 2 * MARGIN
     y = 110
-    d.text((MARGIN, y), COVER_LABEL, font=font("bold", 34), fill=ACCENT)
-    y += 70
+    chip(d, MARGIN, y, COVER_LABEL, INK, size=28)
+    y += 95
     fnt, lines, lh = fit_text(d, BRAND_TITLE, "bold", max_w, 260, 96, 60, 1.12)
-    y = draw_lines(d, MARGIN, y, lines, fnt, lh, TEXT)
+    y = draw_lines(d, MARGIN, y, lines, fnt, lh, INK)
     y += 10
     d.text((MARGIN, y), date_tr(day), font=font("regular", 38), fill=MUTED)
-    y += 90
-    d.rectangle([MARGIN, y, MARGIN + 140, y + 8], fill=ACCENT)
+    y += 80
+    # her haberin kategori rengiyle küçük renk şeridi
+    seg = max_w // max(1, len(items))
+    for i, it in enumerate(items):
+        d.rectangle([MARGIN + i * seg, y, MARGIN + (i + 1) * seg - 6, y + 8], fill=cat_of(it)[1])
     y += 50
 
-    # Başlık listesi: kutuya sığacak şekilde font küçültülür
     box_bottom = H - 150
     for size in range(36, 23, -2):
         f_num, f_t = font("bold", size), font("regular", size)
         lh = int(size * 1.3)
-        blocks = []
-        total = 0
+        blocks, total = [], 0
         for i, it in enumerate(items, 1):
             ls = wrap(d, no_emoji(it["title"]), f_t, max_w - 70)[:2]
-            blocks.append((i, ls))
+            blocks.append((i, it, ls))
             total += lh * len(ls) + int(size * 0.55)
         if y + total <= box_bottom:
             break
-    for i, ls in blocks:
-        d.text((MARGIN, y), f"{i:02d}", font=f_num, fill=ACCENT)
-        y = draw_lines(d, MARGIN + 70, y, ls, f_t, lh, TEXT) + int(size * 0.55)
+    for i, it, ls in blocks:
+        d.text((MARGIN, y), f"{i:02d}", font=f_num, fill=cat_of(it)[1])
+        y = draw_lines(d, MARGIN + 70, y, ls, f_t, lh, INK) + int(size * 0.55)
 
     footer(d, "Detaylar için kaydırın  →")
     img.save(path, "JPEG", quality=92, optimize=True)
@@ -507,41 +545,38 @@ PHOTO_H = 540  # kartlarda fotoğraf bandının yüksekliği
 
 
 def render_item(it, idx, total, path, photo=None):
-    img, d = base_canvas()
-    top = 100
-    if photo is not None:
-        img, d = draw_photo(img, photo, (0, 0, W, PHOTO_H))
-        top = 70  # başlık satırı fotoğrafın üstünde (koyu gölgenin içinde)
-    d.text((MARGIN, top), f"{idx:02d} / {total:02d}", font=font("bold", 34), fill=ACCENT if photo is None else TEXT)
-    label = upper_tr(BRAND_TITLE)
+    label, color = cat_of(it)
+    img, d = base_canvas(color)
+    top = 62
+    d.text((MARGIN, top), f"{idx:02d} / {total:02d}", font=font("bold", 32), fill=color)
+    brand = upper_tr(BRAND_TITLE)
     fl = font("regular", 26)
-    d.text((W - MARGIN - d.textlength(label, font=fl), top + 6), label, font=fl,
-           fill=MUTED if photo is None else BODY)
-    draw_story(d, it, PHOTO_H + 30 if photo is not None else top + 100, H - 170)
+    d.text((W - MARGIN - d.textlength(brand, font=fl), top + 5), brand, font=fl, fill=MUTED)
+    y = top + 70
+    if photo is not None:
+        img, d = draw_photo(img, photo, (MARGIN - 32, y, W - MARGIN + 32, y + PHOTO_H - 120))
+        y += PHOTO_H - 120 + 34
+    else:
+        y += 40
+    draw_story(d, it, y, H - 160, accent=color, label=label, label_color=color)
     footer(d, f"Kaynak: {it['source']}" if it.get("source") else BRAND_TITLE)
     img.save(path, "JPEG", quality=92, optimize=True)
 
 
 def render_breaking(it, when, path, photo=None):
-    img, d = base_canvas()
-    y0 = 100
-    if photo is not None:
-        img, d = draw_photo(img, photo, (0, 0, W, PHOTO_H))
-        y0 = 70
-    d.rectangle([0, 0, W, 10], fill=ACCENT)
-    label = "SON DAKİKA"
-    f = font("bold", 44)
-    tw = d.textlength(label, font=f)
-    d.rounded_rectangle([MARGIN, y0, MARGIN + tw + 48, y0 + 78], radius=18, fill=ACCENT)
-    d.text((MARGIN + 24, y0 + 12), label, font=f, fill=TEXT)
+    label, color = cat_of(it)
+    img, d = base_canvas(BREAKING)
+    y = 62
+    x = chip(d, MARGIN, y - 6, "SON DAKİKA", BREAKING, size=34, pad_x=26, pad_y=14)
     stamp = f"{when.day} {MONTHS_TR[when.month - 1]} {when.year}, {when:%H:%M}"
+    d.text((x + 24, y + 10), stamp, font=font("bold", 30), fill=MUTED)
+    y += 92
     if photo is not None:
-        sf = font("bold", 32)
-        d.text((MARGIN + tw + 72, y0 + 22), stamp, font=sf, fill=TEXT)
-        draw_story(d, it, PHOTO_H + 30, H - 170)
+        img, d = draw_photo(img, photo, (MARGIN - 32, y, W - MARGIN + 32, y + PHOTO_H - 140))
+        y += PHOTO_H - 140 + 34
     else:
-        d.text((MARGIN, 205), stamp, font=font("regular", 32), fill=MUTED)
-        draw_story(d, it, 280, H - 170)
+        y += 40
+    draw_story(d, it, y, H - 160, accent=BREAKING, label=label, label_color=color)
     footer(d, f"Kaynak: {it['source']}" if it.get("source") else BRAND_TITLE)
     img.save(path, "JPEG", quality=92, optimize=True)
 
@@ -646,43 +681,43 @@ def photo_for(it, used, orientation="landscape"):
 
 
 def draw_photo(img, photo, box, total_h=None):
-    """Fotoğrafı kutuya kırparak yerleştirir; üstte/altta okunabilirlik için koyu geçiş, köşede etiket."""
-    from PIL import Image, ImageDraw, ImageOps
+    """Fotoğrafı kutuya kırpıp yuvarlak köşeli bir çerçeve içinde yerleştirir (hafif gölgeyle)."""
+    from PIL import Image, ImageDraw, ImageFilter, ImageOps
 
     x0, y0, x1, y1 = box
     w, h = x1 - x0, y1 - y0
     fitted = ImageOps.fit(photo, (w, h), method=Image.LANCZOS, centering=(0.5, 0.45))
+    radius = 34
+    mask = Image.new("L", (w, h), 0)
+    ImageDraw.Draw(mask).rounded_rectangle([0, 0, w - 1, h - 1], radius=radius, fill=255)
     base = img.convert("RGBA")
-    base.paste(fitted, (x0, y0))
-    shade = Image.new("RGBA", (w, h), (0, 0, 0, 0))
-    sd = ImageDraw.Draw(shade)
-    for i in range(170):                       # üstte koyu geçiş (başlık satırı okunsun)
-        sd.line([(0, i), (w, i)], fill=bg_at(y0 + i, total_h or img.size[1]) + (int(215 * (1 - i / 170) ** 1.3),))
-    total_h = total_h or img.size[1]
-    for i in range(220):                       # altta zemine yumuşak geçiş
-        yy = h - 220 + i
-        sd.line([(0, yy), (w, yy)], fill=bg_at(y0 + yy, total_h) + (int(255 * (i / 220) ** 1.5),))
-    base.alpha_composite(shade, (x0, y0))
+    shadow = Image.new("RGBA", base.size, (0, 0, 0, 0))
+    ImageDraw.Draw(shadow).rounded_rectangle([x0 + 4, y0 + 14, x1 + 4, y1 + 14], radius=radius, fill=(22, 36, 64, 60))
+    base = Image.alpha_composite(base, shadow.filter(ImageFilter.GaussianBlur(16)))
+    base.paste(fitted, (x0, y0), mask)
     img = base.convert("RGB")
     return img, ImageDraw.Draw(img)
 
 
-def draw_story(d, it, area_top, area_bottom, title_start=72):
-    """Başlık + kırmızı çizgi + gövde metnini verilen alana sığdırıp dikeyde ortalar."""
-    max_w = W - 2 * MARGIN
+def draw_story(d, it, area_top, area_bottom, title_start=72, accent=ACCENT, width=None, label=None, label_color=None):
+    """Başlık + renkli çizgi + gövde metnini verilen alana sığdırıp dikeyde ortalar."""
+    max_w = (width or W) - 2 * MARGIN
     t_fnt, t_lines, t_lh = fit_text(d, no_emoji(it["title"]), "bold", max_w, 420, title_start, 40, 1.15)
     title_h = t_lh * len(t_lines)
-    gap = 30 + 8 + 55  # başlık altı boşluk + çizgi + gövde üstü boşluk
+    gap = 30 + 8 + 50
+    chip_h = 80 if label else 0          # kategori etiketi başlığın hemen üstünde
+    area_top += chip_h
     b_fnt, b_lines, b_lh = fit_text(d, no_emoji(it["body"]), "regular", max_w,
-                                    (area_bottom - area_top) - title_h - gap, 52, 30, 1.42)
+                                    (area_bottom - area_top) - title_h - gap, 50, 30, 1.42)
     block_h = title_h + gap + b_lh * len(b_lines)
 
-    # İçeriği boş alanda dikey olarak ortala (kısa haberlerde alt yarı boş kalmasın)
     y = area_top + max(0, (area_bottom - area_top - block_h) // 2)
-    y = draw_lines(d, MARGIN, y, t_lines, t_fnt, t_lh, TEXT)
+    if label:
+        chip(d, MARGIN, y - chip_h, label, label_color or accent)
+    y = draw_lines(d, MARGIN, y, t_lines, t_fnt, t_lh, INK)
     y += 30
-    d.rectangle([MARGIN, y, MARGIN + 140, y + 8], fill=ACCENT)
-    y += 63
+    d.rounded_rectangle([MARGIN, y, MARGIN + 120, y + 8], radius=4, fill=accent)
+    y += 58
     draw_lines(d, MARGIN, y, b_lines, b_fnt, b_lh, BODY)
 
 
@@ -705,55 +740,57 @@ SW, SH = 1080, 1920  # hikâye (story) formatı 9:16
 STORY_SAFE_TOP, STORY_SAFE_BOTTOM = 250, SH - 260  # Instagram'ın üst/alt arayüzünün kapattığı alanlar
 
 
-def story_canvas():
-    from PIL import Image, ImageDraw
+def story_canvas(accent=INK):
+    from PIL import ImageDraw
 
     img = gradient_canvas(SW, SH)
     d = ImageDraw.Draw(img)
-    d.rectangle([0, 0, SW, 10], fill=ACCENT)
-    d.rectangle([0, SH - 10, SW, SH], fill=ACCENT)
+    d.rectangle([0, 0, SW, 12], fill=accent)
+    d.rectangle([0, SH - 12, SW, SH], fill=accent)
     return img, d
 
 
-def story_cta(d, line1="Tüm haberler ve detaylar", line2="profildeki son gönderide"):
+def story_cta(d, line1="Tüm haberler ve detaylar", line2="profildeki son gönderide", accent=INK):
     """Alttaki yönlendirme kutusu (API ile link/çıkartma eklenemediği için)."""
     top, bottom = STORY_SAFE_BOTTOM - 250, STORY_SAFE_BOTTOM
-    d.rounded_rectangle([MARGIN, top, SW - MARGIN, bottom], radius=28, fill=PANEL)
-    d.rectangle([MARGIN, top, MARGIN + 12, bottom], fill=ACCENT)
+    d.rounded_rectangle([MARGIN, top, SW - MARGIN, bottom], radius=32, fill=INK)
+    d.rounded_rectangle([MARGIN, top, MARGIN + 16, bottom], radius=8, fill=accent)
     f1, f2, f3 = font("bold", 46), font("regular", 40), font("bold", 40)
-    d.text((MARGIN + 50, top + 40), line1, font=f1, fill=TEXT)
-    d.text((MARGIN + 50, top + 105), line2, font=f2, fill=MUTED)
-    d.text((MARGIN + 50, top + 170), BRAND_HANDLE, font=f3, fill=ACCENT)
+    d.text((MARGIN + 54, top + 40), line1, font=f1, fill=WHITE)
+    d.text((MARGIN + 54, top + 105), line2, font=f2, fill=(196, 204, 220))
+    d.text((MARGIN + 54, top + 170), BRAND_HANDLE, font=f3, fill=WHITE)
 
 
 def render_story(items, day, path):
-    img, d = story_canvas()
+    img, d = story_canvas(INK)
     max_w = SW - 2 * MARGIN
     y = STORY_SAFE_TOP
-    d.text((MARGIN, y), COVER_LABEL, font=font("bold", 40), fill=ACCENT)
-    y += 75
+    chip(d, MARGIN, y, COVER_LABEL, INK, size=32)
+    y += 100
     fnt, lines, lh = fit_text(d, BRAND_TITLE, "bold", max_w, 260, 100, 64, 1.1)
-    y = draw_lines(d, MARGIN, y, lines, fnt, lh, TEXT) + 10
+    y = draw_lines(d, MARGIN, y, lines, fnt, lh, INK) + 10
     d.text((MARGIN, y), date_tr(day), font=font("regular", 42), fill=MUTED)
-    y += 95
-    d.rectangle([MARGIN, y, MARGIN + 140, y + 8], fill=ACCENT)
+    y += 90
+    shown = items[:6]
+    seg = max_w // max(1, len(items))
+    for i, it in enumerate(items):
+        d.rectangle([MARGIN + i * seg, y, MARGIN + (i + 1) * seg - 6, y + 8], fill=cat_of(it)[1])
     y += 60
 
     box_bottom = STORY_SAFE_BOTTOM - 340
-    shown = items[:6]
     for size in range(44, 27, -2):
         f_num, f_t = font("bold", size), font("regular", size)
         lh = int(size * 1.3)
         blocks, total = [], 0
         for i, it in enumerate(shown, 1):
             ls = wrap(d, no_emoji(it["title"]), f_t, max_w - 80)[:2]
-            blocks.append((i, ls))
+            blocks.append((i, it, ls))
             total += lh * len(ls) + int(size * 0.7)
         if y + total <= box_bottom:
             break
-    for i, ls in blocks:
-        d.text((MARGIN, y), f"{i:02d}", font=f_num, fill=ACCENT)
-        y = draw_lines(d, MARGIN + 80, y, ls, f_t, lh, TEXT) + int(size * 0.7)
+    for i, it, ls in blocks:
+        d.text((MARGIN, y), f"{i:02d}", font=f_num, fill=cat_of(it)[1])
+        y = draw_lines(d, MARGIN + 80, y, ls, f_t, lh, INK) + int(size * 0.7)
     if len(items) > len(shown):
         d.text((MARGIN + 80, y), f"+ {len(items) - len(shown)} haber daha", font=font("regular", 34), fill=MUTED)
 
@@ -762,20 +799,18 @@ def render_story(items, day, path):
 
 
 def render_breaking_story(it, when, path, photo=None):
-    img, d = story_canvas()
+    label, color = cat_of(it)
+    img, d = story_canvas(BREAKING)
     y = STORY_SAFE_TOP
-    label, f = "SON DAKİKA", font("bold", 52)
-    tw = d.textlength(label, font=f)
-    d.rounded_rectangle([MARGIN, y, MARGIN + tw + 56, y + 90], radius=20, fill=ACCENT)
-    d.text((MARGIN + 28, y + 14), label, font=f, fill=TEXT)
+    chip(d, MARGIN, y, "SON DAKİKA", BREAKING, size=44, pad_x=30, pad_y=16)
     stamp = f"{when.day} {MONTHS_TR[when.month - 1]} {when.year}, {when:%H:%M}"
-    d.text((MARGIN, y + 125), stamp, font=font("regular", 38), fill=MUTED)
+    d.text((MARGIN, y + 105), stamp, font=font("regular", 38), fill=MUTED)
+    y += 175
     if photo is not None:
-        img, d = draw_photo(img, photo, (0, y + 195, SW, y + 555))
-        draw_story(d, it, y + 580, STORY_SAFE_BOTTOM - 275, title_start=60)
-    else:
-        draw_story(d, it, y + 220, STORY_SAFE_BOTTOM - 300)
-    story_cta(d, "Ayrıntılar", "profildeki son gönderide")
+        img, d = draw_photo(img, photo, (MARGIN - 20, y, SW - MARGIN + 20, y + 400))
+        y += 430
+    draw_story(d, it, y, STORY_SAFE_BOTTOM - 285, title_start=60, accent=BREAKING, width=SW, label=label, label_color=color)
+    story_cta(d, "Ayrıntılar", "profildeki son gönderide", accent=BREAKING)
     img.save(path, "JPEG", quality=92, optimize=True)
 
 
