@@ -1,0 +1,156 @@
+{
+  "date": "2026-10-22",
+  "caption": "🇬🇧 Birleşik Krallık Gündemi | 22 Ekim 2026, Perşembe\n\n1. ⚖️ Upper Tribunal forged belge uyarısı yayınladı\nUpper Tribunal, göçmen başvurularında sahte belgeler konusunda yeni rehberlik yayınladı.\n\n2. 📋 Home Office sahte kimlik tespiti rehberi güncelledi\nİçişleri Bakanlığı, kimlik belgelerindeki basit taklitleri tespit etme konusunda yeni rehberlik yayınladı.\n\n3. 📊 UKVI Student sponsor listesi güncellendi\nUK Visas and Immigration, Student ve Child Student rotalarında göçmen öğrencilere sponsor olma yetkisi olan kuruluşların resmi listesini yayınladı.\n\n4. 💼 Worker sponsor listesi ve rehberi yayınlandı\nUKVI, Worker ve Temporary Worker rotalarında sponsor olma yetkisi olan kuruluşların listesini ve post-licence değişiklikleri hakkında caseworker rehberini açıklamaya çıkardı.\n\n5. 🏥 Maternity krizinden hastaneler kapatılmak tehlikesinde\nİngiltere'nin bazı bölgelerinde doğum yapan hastaların sayısının tehlikeli şekilde azaldığı belirtiliyor.\n\n6. 💷 Yaşlılar ısıtma masrafından endişeli\nEmekli kadınlar, artan enerji faturaları nedeniyle evlerini ısıtamadıklarını söylüyor.\n\n7. 🎬 Dane Judi Dench: Artık sahnede oynamıyorum\nÜnlü İngiliz aktris Judi Dench, göz hastalığının hayatını nasıl etkilediğini anlattı.\n\n8. ⚽ Declan Rice Bayern'e geç golü attı\nArsenal'ın kaptan Declan Rice, Bayern Münih deplasmanında 90.\n\nKaynaklar: Free Movement, GOV.UK Home Office, GOV.UK UKVI, Guardian, BBC, BBC Sport. Haberler Türkçe özet olarak derlenmiştir. Görseller: Pixabay.\n\n#İngiltere #UKNews #GoçViza #UKVI #UKImmigration #NHS #EnerjiFaturası #ArsenalFC #SağlıkSistemi #BirleşikKrallık",
+  "images": [
+    "output/2026-10-22/00.jpg",
+    "output/2026-10-22/01.jpg",
+    "output/2026-10-22/02.jpg",
+    "output/2026-10-22/03.jpg",
+    "output/2026-10-22/04.jpg",
+    "output/2026-10-22/05.jpg",
+    "output/2026-10-22/06.jpg",
+    "output/2026-10-22/07.jpg",
+    "output/2026-10-22/08.jpg"
+  ],
+  "story_image": "output/2026-10-22/story.jpg",
+  "items": [
+    {
+      "ref": 1,
+      "emoji": "⚖️",
+      "title": "Upper Tribunal forged belge uyarısı yayınladı",
+      "body": "Upper Tribunal, göçmen başvurularında sahte belgeler konusunda yeni rehberlik yayınladı. Yapay zeka, belge taklitini daha kolay hale getirdikçe, mahkemeler başvuru sürecinin bütünlüğünü korumak için adım atıyor.",
+      "source": "Free Movement",
+      "photo_query": "forged documents identity verification",
+      "photo": {
+        "id": "pb:2945401",
+        "provider": "Pixabay",
+        "query": "forged documents identity verification",
+        "photographer": "DCG_MAK",
+        "page": "https://pixabay.com/photos/checklist-list-ticked-off-hook-2945401/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 2,
+      "emoji": "📋",
+      "title": "Home Office sahte kimlik tespiti rehberi güncelledi",
+      "body": "İçişleri Bakanlığı, kimlik belgelerindeki basit taklitleri tespit etme konusunda yeni rehberlik yayınladı. Göçmen başvurularının güvenliğini artırmak amacıyla caseworker'lar için standartlar belirlendi.",
+      "source": "GOV.UK Home Office",
+      "photo_query": "identity document verification UK",
+      "photo": {
+        "id": "pb:4190944",
+        "provider": "Pixabay",
+        "query": "identity document verification UK",
+        "photographer": "Tumisu",
+        "page": "https://pixabay.com/photos/audit-auditor-analysis-examination-4190944/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 3,
+      "emoji": "📊",
+      "title": "UKVI Student sponsor listesi güncellendi",
+      "body": "UK Visas and Immigration, Student ve Child Student rotalarında göçmen öğrencilere sponsor olma yetkisi olan kuruluşların resmi listesini yayınladı. Öğrenci vizesi almak isteyen kişiler yetkili kurumları bu listeden kontrol edebilir.",
+      "source": "GOV.UK UKVI",
+      "photo_query": "student visa UK institution",
+      "photo": {
+        "id": "pb:2945810",
+        "provider": "Pixabay",
+        "query": "student visa UK institution",
+        "photographer": "_Alicja_",
+        "page": "https://pixabay.com/photos/cabinets-colorful-wardrobes-2945810/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 4,
+      "emoji": "💼",
+      "title": "Worker sponsor listesi ve rehberi yayınlandı",
+      "body": "UKVI, Worker ve Temporary Worker rotalarında sponsor olma yetkisi olan kuruluşların listesini ve post-licence değişiklikleri hakkında caseworker rehberini açıklamaya çıkardı.",
+      "source": "GOV.UK UKVI",
+      "photo_query": "UK worker visa sponsorship",
+      "photo": {
+        "id": "pb:5182349",
+        "provider": "Pixabay",
+        "query": "UK worker visa sponsorship",
+        "photographer": "Norrisskyia",
+        "page": "https://pixabay.com/photos/beach-cliffs-sea-ocean-turquoise-5182349/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 5,
+      "emoji": "🏥",
+      "title": "Maternity krizinden hastaneler kapatılmak tehlikesinde",
+      "body": "İngiltere'nin bazı bölgelerinde doğum yapan hastaların sayısının tehlikeli şekilde azaldığı belirtiliyor. C-section oranlarının yükselmesi, personel eksikliği ve çözülmeyen sorunlar nedeniyle bazı hastahaneler güvensiz duruma geçti.",
+      "source": "Guardian",
+      "photo_query": "hospital maternity ward UK",
+      "photo": {
+        "id": "pb:928653",
+        "provider": "Pixabay",
+        "query": "hospital maternity ward UK",
+        "photographer": "corgaasbeek",
+        "page": "https://pixabay.com/photos/concern-hopital-room-bed-new-928653/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 6,
+      "emoji": "💷",
+      "title": "Yaşlılar ısıtma masrafından endişeli",
+      "body": "Emekli kadınlar, artan enerji faturaları nedeniyle evlerini ısıtamadıklarını söylüyor. Bir kişi sıcak su şişesi ve uyku çoraplarını kullanarak kışı geçirmek zorunda kalıyor.",
+      "source": "BBC",
+      "photo_query": "heating costs elderly UK winter",
+      "photo": {
+        "id": "pb:9639899",
+        "provider": "Pixabay",
+        "query": "heating costs elderly UK winter",
+        "photographer": "Whitechappel79",
+        "page": "https://pixabay.com/photos/london-uk-reflection-glass-sun-9639899/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 7,
+      "emoji": "🎬",
+      "title": "Dane Judi Dench: Artık sahnede oynamıyorum",
+      "body": "Ünlü İngiliz aktris Judi Dench, göz hastalığının hayatını nasıl etkilediğini anlattı. 90 yaşındaki sanatçı, sahne, film ve okuma yapamadığını BBC'ye söyledi.",
+      "source": "BBC",
+      "photo_query": "actress portrait theatre stage",
+      "photo": {
+        "id": "pb:83862",
+        "provider": "Pixabay",
+        "query": "actress portrait theatre stage",
+        "photographer": "12019",
+        "page": "https://pixabay.com/photos/theatre-actress-play-montreal-83862/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 8,
+      "emoji": "⚽",
+      "title": "Declan Rice Bayern'e geç golü attı",
+      "body": "Arsenal'ın kaptan Declan Rice, Bayern Münih deplasmanında 90. dakikada eşitliği sağladı. Harry Kane'in Ballon d'Or adaylığı, harika formunu sergilediği maçlarda gündemde kaldı.",
+      "source": "BBC Sport",
+      "photo_query": "Arsenal Bayern Munich Champions League",
+      "photo": {
+        "id": "pb:2699589",
+        "provider": "Pixabay",
+        "query": "Arsenal Bayern Munich Champions League",
+        "photographer": "jorono",
+        "page": "https://pixabay.com/photos/soccer-europe-uefa-champions-league-2699589/",
+        "fallback": false
+      }
+    }
+  ],
+  "history_keys": [
+    "uppertribunalreaffirmstanveerahmedasaimakesforgeddocumentseasiertoproduce",
+    "guidanceexaminingidentitydocuments",
+    "simonridleyappointedasnewdepartmentforeducationpermanentsecretary",
+    "guidanceukviidentitystandardscaseworkerguidance",
+    "guidanceirancountrypolicyandinformationnotes",
+    "formstatutorydeclarationofacknowledgementofparentageform",
+    "guidanceregisteroflicensedsponsorsstudents",
+    "guidanceregisteroflicensedsponsorsworkers"
+  ]
+}
