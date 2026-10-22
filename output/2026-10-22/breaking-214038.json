@@ -1,0 +1,30 @@
+{
+  "type": "breaking",
+  "created_at": "2026-10-22T21:40:38.940725+01:00",
+  "item": {
+    "ref": 4,
+    "emoji": "📊",
+    "title": "İngiltere finansal kural gevşetmesini planlıyor",
+    "body": "Banka ve FCA düzenlemelerini gevşetmeyi planlıyor. 2008 mali krizi sonrası getirilen ve şirket yöneticilerini sorumlu tutmayı amaçlayan kurallar kaldırılacak. Plan 10 yılda işletmelere 2 milyar sterlin tasarruf sağlayacak.",
+    "source": "Guardian",
+    "photo_query": "Bank of England financial regulation",
+    "category": "ekonomi",
+    "photo": {
+      "id": "pb:1572444",
+      "provider": "Pixabay",
+      "query": "Bank of England financial regulation",
+      "photographer": "designerpoint",
+      "page": "https://pixabay.com/photos/london-britain-london-eye-sky-1572444/",
+      "fallback": false
+    }
+  },
+  "caption": "🔴 SON DAKİKA | 📊 İngiltere finansal kural gevşetmesini planlıyor\n\nBanka ve FCA düzenlemelerini gevşetmeyi planlıyor. 2008 mali krizi sonrası getirilen ve şirket yöneticilerini sorumlu tutmayı amaçlayan kurallar kaldırılacak. Plan 10 yılda işletmelere 2 milyar sterlin tasarruf sağlayacak.\n\nKaynak: Guardian | Görsel: Pixabay\nBirleşik Krallık Gündemi | 22 Ekim 21:40\n\n#SonDakika #Ekonomi #FCA",
+  "images": [
+    "output/2026-10-22/breaking-214038.jpg"
+  ],
+  "story_image": "output/2026-10-22/breaking-214038-story.jpg",
+  "history_keys": [
+    "uktorelaxpost2008rulesthatholdcitybossesaccountableforwrongdoing"
+  ],
+  "published": false
+}
