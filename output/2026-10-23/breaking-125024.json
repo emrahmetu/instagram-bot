@@ -1,0 +1,30 @@
+{
+  "type": "breaking",
+  "created_at": "2026-10-23T12:50:24.642431+01:00",
+  "item": {
+    "ref": 7,
+    "emoji": "🌪️",
+    "title": "Storm Austen İngiltere'yi vurdu: binlerce ev elektriksiz",
+    "body": "Güneybatı İngiltere'yi etkileyen Storm Austen fırtınası, binlerce evi elektriksiz bıraktı ve okulları kapattı. Scilly Adaları'nda saatte 76 mil rüzgar kaydedildi. İskoçya, Kuzey İrlanda ve kuzeydoğu İngiltere için yeni fırtınalar bekleniyor.",
+    "source": "Guardian",
+    "photo_query": "Storm Austen weather UK power outage",
+    "category": "hava",
+    "photo": {
+      "id": "pb:7349206",
+      "provider": "Pixabay",
+      "query": "Storm Austen weather UK power outage",
+      "photographer": "dexmac",
+      "page": "https://pixabay.com/photos/thunderstorm-storm-clouds-threat-7349206/",
+      "fallback": false
+    }
+  },
+  "caption": "🔴 SON DAKİKA | 🌪️ Storm Austen İngiltere'yi vurdu: binlerce ev elektriksiz\n\nGüneybatı İngiltere'yi etkileyen Storm Austen fırtınası, binlerce evi elektriksiz bıraktı ve okulları kapattı. Scilly Adaları'nda saatte 76 mil rüzgar kaydedildi. İskoçya, Kuzey İrlanda ve kuzeydoğu İngiltere için yeni fırtınalar bekleniyor.\n\nKaynak: Guardian | Görsel: Pixabay\nBirleşik Krallık Gündemi | 23 Ekim 12:50\n\n#SonDakika #StormAusten #İngiltere",
+  "images": [
+    "output/2026-10-23/breaking-125024.jpg"
+  ],
+  "story_image": "output/2026-10-23/breaking-125024-story.jpg",
+  "history_keys": [
+    "thousandsofhomeswithoutpowerasstormaustenhitssouthwestengland"
+  ],
+  "published": false
+}
