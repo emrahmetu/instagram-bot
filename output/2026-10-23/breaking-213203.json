@@ -1,0 +1,30 @@
+{
+  "type": "breaking",
+  "created_at": "2026-10-23T21:32:03.290584+01:00",
+  "item": {
+    "ref": 16,
+    "emoji": "⛈️",
+    "title": "Storm Austen causes power cuts and travel disruption across UK",
+    "body": "Millions remain under yellow weather warnings for wind and rain as Storm Austen brings widespread disruption. A second storm is expected to hit Scotland and northern England on Saturday.",
+    "source": "BBC",
+    "photo_query": "storm wind weather disruption",
+    "category": "hava",
+    "photo": {
+      "id": "pb:3087117",
+      "provider": "Pixabay",
+      "query": "storm wind weather disruption",
+      "photographer": "jplenio",
+      "page": "https://pixabay.com/photos/lightning-thunderstorm-thunderbolt-3087117/",
+      "fallback": false
+    }
+  },
+  "caption": "🔴 SON DAKİKA | ⛈️ Storm Austen causes power cuts and travel disruption across UK\n\nMillions remain under yellow weather warnings for wind and rain as Storm Austen brings widespread disruption. A second storm is expected to hit Scotland and northern England on Saturday.\n\nKaynak: BBC | Görsel: Pixabay\nBirleşik Krallık Gündemi | 23 Ekim 21:32\n\n#SonDakika #StormAusten #UKWeather",
+  "images": [
+    "output/2026-10-23/breaking-213203.jpg"
+  ],
+  "story_image": "output/2026-10-23/breaking-213203-story.jpg",
+  "history_keys": [
+    "stormaustenbringspowercutsandtraveldisruptionasmorewindandrainforecast"
+  ],
+  "published": false
+}
