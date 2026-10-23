@@ -1,0 +1,164 @@
+{
+  "date": "2026-10-23",
+  "caption": "🇬🇧 Birleşik Krallık Gündemi | 23 Ekim 2026, Cuma\n\n1. ✈️ Taşıyıcı şirketleri belge kontrolü için yeni rehberler\nHome Office, hava, tren ve gemi taşıyıcılarının uygulaması gereken belge kontrol prosedürlerini açıklayan yeni rehberler yayımladı.\n\n2. 🇧🇩 Bangladeş'ten başvurulara ilişkin rehber güncellendi\nUK Visas and Immigration, Bangladeş'ten gelen iltica ve insan hakları başvurularına karar verirken kullanacağı ülke politikası rehberini yayımladı.\n\n3. 🇺🇦 Ukrayna başvurularına yönelik yeni rehber yayımlandı\nUK Visas and Immigration, Ukrayna'dan gelen iltica ve insan hakları başvurularını değerlendirmek için yeni rehger yayımladı.\n\n4. 🚨 Her Briton'a acil durum için depo yapması öneriliyor\nHükümet, iklim krizi, teknolojik bağımlılık ve düşmanca devlet tehditlerine karşı hazırlık için vatandaşlara 9 litre su ve 3 günlük yiyecek depolamasını önerdi.\n\n5. 🔥 Hükümet orman yangınlarıyla mücadele için yapay zeka birimi kuruyor\nBaşbakan Andy Burnham, 2026 yılının rekor sıcakları sonrası orman yangınlarını tespit etmek için yapay zeka Cobra birimi oluşturulacağını duyurdu.\n\n6. 📉 Tüketici güveni Kovid sonrası en hızlı düşüşe uğradı\nOrtadoğu'daki savaşın ekonomik etkisi ve yaşam maliyeti baskısıyla İngiltere'de tüketici güveni, Kovid dışında 2016 Brexit oylamasından bu yana en hızlı düşüşe uğradı.\n\n7. ⚡ Britanya kışta Avrupa'nın en yüksek enerji maliyetleriyle karşı karşıya\nResmi tahminlere göre Britanya bu kışta, ithalatına bağımlılığı artmasından dolayı Avrupa'nın en yüksek enerji maliyetlerinden bazılarıyla karşılaşacak.\n\n8. 👑 Kate, George'un yarıyıl tatilinden dönüşünü bekliyor\nPrens William'ın eşi Catherine, Eton College'da öğrenim gören en büyük oğulları George'un yarıyıl tatilinden evine dönüşünü sabırsızlıkla beklediğini belirtti.\n\nKaynaklar: GOV.UK UKVI, Guardian, Evening Standard. Haberler Türkçe özet olarak derlenmiştir. Görseller: Pixabay.\n\n#İngiltere #Londra #UKNews #Göç #Vize #Ekonomi #TüketiciGüveni #Enerji #HükümetPolitikası #RoyalNews",
+  "images": [
+    "output/2026-10-23/00.jpg",
+    "output/2026-10-23/01.jpg",
+    "output/2026-10-23/02.jpg",
+    "output/2026-10-23/03.jpg",
+    "output/2026-10-23/04.jpg",
+    "output/2026-10-23/05.jpg",
+    "output/2026-10-23/06.jpg",
+    "output/2026-10-23/07.jpg",
+    "output/2026-10-23/08.jpg"
+  ],
+  "story_image": "output/2026-10-23/story.jpg",
+  "items": [
+    {
+      "ref": 6,
+      "emoji": "✈️",
+      "title": "Taşıyıcı şirketleri belge kontrolü için yeni rehberler",
+      "body": "Home Office, hava, tren ve gemi taşıyıcılarının uygulaması gereken belge kontrol prosedürlerini açıklayan yeni rehberler yayımladı. Uygun seyahat belgesi olmayan yolcular için taşıyıcılar masraf ödeyecek.",
+      "source": "GOV.UK UKVI",
+      "photo_query": "airport immigration checkpoint",
+      "category": "goc",
+      "photo": {
+        "id": "pb:2747624",
+        "provider": "Pixabay",
+        "query": "airport immigration checkpoint",
+        "photographer": "Hetsumani",
+        "page": "https://pixabay.com/photos/border-patrol-flags-patrol-border-2747624/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 11,
+      "emoji": "🇧🇩",
+      "title": "Bangladeş'ten başvurulara ilişkin rehber güncellendi",
+      "body": "UK Visas and Immigration, Bangladeş'ten gelen iltica ve insan hakları başvurularına karar verirken kullanacağı ülke politikası rehberini yayımladı. Rehber, başvuruların değerlendirilmesinde temel referans olacak.",
+      "source": "GOV.UK UKVI",
+      "photo_query": "visa application documents",
+      "category": "goc",
+      "photo": {
+        "id": "pb:1143485",
+        "provider": "Pixabay",
+        "query": "visa application documents",
+        "photographer": "jackmac34",
+        "page": "https://pixabay.com/photos/buffer-passport-travel-borders-1143485/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 14,
+      "emoji": "🇺🇦",
+      "title": "Ukrayna başvurularına yönelik yeni rehber yayımlandı",
+      "body": "UK Visas and Immigration, Ukrayna'dan gelen iltica ve insan hakları başvurularını değerlendirmek için yeni rehger yayımladı. Rehber, başvuru kararlarında temel belge olacak.",
+      "source": "GOV.UK UKVI",
+      "photo_query": "Ukraine passport",
+      "category": "goc",
+      "photo": {
+        "id": "pb:7045303",
+        "provider": "Pixabay",
+        "query": "Ukraine passport",
+        "photographer": "sweetlouise",
+        "page": "https://pixabay.com/photos/heart-ukraine-symbol-brotherhood-7045303/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 115,
+      "emoji": "🚨",
+      "title": "Her Briton'a acil durum için depo yapması öneriliyor",
+      "body": "Hükümet, iklim krizi, teknolojik bağımlılık ve düşmanca devlet tehditlerine karşı hazırlık için vatandaşlara 9 litre su ve 3 günlük yiyecek depolamasını önerdi. Be Ready kampanyası, hane halkının acil durumlarda kendi kendine yetebilmesini amaçlıyor.",
+      "source": "Guardian",
+      "photo_query": "emergency supplies water food",
+      "category": "gundem",
+      "photo": {
+        "id": "pb:908591",
+        "provider": "Pixabay",
+        "query": "emergency supplies water food",
+        "photographer": "stevepb",
+        "page": "https://pixabay.com/photos/first-aid-kit-first-aid-kit-medical-908591/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 88,
+      "emoji": "🔥",
+      "title": "Hükümet orman yangınlarıyla mücadele için yapay zeka birimi kuruyor",
+      "body": "Başbakan Andy Burnham, 2026 yılının rekor sıcakları sonrası orman yangınlarını tespit etmek için yapay zeka Cobra birimi oluşturulacağını duyurdu. Askeri uçaklar ve özel koruyucu ekipman da dağıtılacak.",
+      "source": "Guardian",
+      "photo_query": "wildfire emergency response",
+      "category": "gundem",
+      "photo": {
+        "id": "pb:5604682",
+        "provider": "Pixabay",
+        "query": "wildfire emergency response",
+        "photographer": "ELG21",
+        "page": "https://pixabay.com/photos/fire-flames-trees-forest-5604682/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 59,
+      "emoji": "📉",
+      "title": "Tüketici güveni Kovid sonrası en hızlı düşüşe uğradı",
+      "body": "Ortadoğu'daki savaşın ekonomik etkisi ve yaşam maliyeti baskısıyla İngiltere'de tüketici güveni, Kovid dışında 2016 Brexit oylamasından bu yana en hızlı düşüşe uğradı. Maliye Bakanı John Healey'nin bütçe açıklaması öncesinde ekonomik endişeler artıyor.",
+      "source": "Guardian",
+      "photo_query": "UK economy statistics",
+      "category": "ekonomi",
+      "photo": {
+        "id": "pb:3607510",
+        "provider": "Pixabay",
+        "query": "UK economy statistics",
+        "photographer": "geralt",
+        "page": "https://pixabay.com/photos/company-startup-business-people-3607510/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 53,
+      "emoji": "⚡",
+      "title": "Britanya kışta Avrupa'nın en yüksek enerji maliyetleriyle karşı karşıya",
+      "body": "Resmi tahminlere göre Britanya bu kışta, ithalatına bağımlılığı artmasından dolayı Avrupa'nın en yüksek enerji maliyetlerinden bazılarıyla karşılaşacak. Enerji sistem operatörleri, talep karşılanacağını ancak yüksek fiyatlardan bahsetti.",
+      "source": "Guardian",
+      "photo_query": "electricity power grid",
+      "category": "ekonomi",
+      "photo": {
+        "id": "pb:2881462",
+        "provider": "Pixabay",
+        "query": "electricity power grid",
+        "photographer": "aitoff",
+        "page": "https://pixabay.com/photos/power-line-pylon-electricity-2881462/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 99,
+      "emoji": "👑",
+      "title": "Kate, George'un yarıyıl tatilinden dönüşünü bekliyor",
+      "body": "Prens William'ın eşi Catherine, Eton College'da öğrenim gören en büyük oğulları George'un yarıyıl tatilinden evine dönüşünü sabırsızlıkla beklediğini belirtti.",
+      "source": "Evening Standard",
+      "photo_query": "Eton College",
+      "category": "kraliyet",
+      "photo": {
+        "id": "pb:7150668",
+        "provider": "Pixabay",
+        "query": "Eton College",
+        "photographer": "Abibniosky",
+        "page": "https://pixabay.com/photos/building-university-college-oxford-7150668/",
+        "fallback": false
+      }
+    }
+  ],
+  "history_keys": [
+    "guidancedocumentchecksandchargesforcarriers",
+    "guidancebangladeshcountrypolicyandinformationnotes",
+    "guidanceukrainecountrypolicyandinformationnotes",
+    "everybritonshouldstockpilewaterandfoodsuppliesgovernmentadvises",
+    "burnhamtorevealplansforaiunittotacklewildfiresafterscorchingsummer",
+    "ukconsumerconfidencefallsatfastestratesincecovidascostoflivingbites",
+    "someofeuropeshighestenergycostsexpectedinbritainthiswinter",
+    "katelookingforwardtohavinggeorgebackhomeforhalfterm"
+  ]
+}
