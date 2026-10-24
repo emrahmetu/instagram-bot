@@ -1,0 +1,30 @@
+{
+  "type": "breaking",
+  "created_at": "2026-10-24T10:20:54.325874+01:00",
+  "item": {
+    "ref": 2,
+    "emoji": "⚠️",
+    "title": "Storm Boelo: İngiltere'de 'hayatı tehdit eden' amber uyarıları yürürlükte",
+    "body": "Storm Boelo fırtınası İngiltere'yi etkisi altına alıyor. Metereoloji servisi saatte 80 mph'i bulacak rüzgarlar için amber 'danger to life' uyarıları yayımladı. Birkaç bölgede sarı uyarılar da aktif durumda.",
+    "source": "The Independent",
+    "photo_query": "storm weather amber warning UK",
+    "category": "hava",
+    "photo": {
+      "id": "pb:3526558",
+      "provider": "Pixabay",
+      "query": "storm weather amber warning UK",
+      "photographer": "dimitrisvetsikas1969",
+      "page": "https://pixabay.com/photos/clouds-sky-atmosphere-cumulus-3526558/",
+      "fallback": false
+    }
+  },
+  "caption": "🔴 SON DAKİKA | ⚠️ Storm Boelo: İngiltere'de 'hayatı tehdit eden' amber uyarıları yürürlükte\n\nStorm Boelo fırtınası İngiltere'yi etkisi altına alıyor. Metereoloji servisi saatte 80 mph'i bulacak rüzgarlar için amber 'danger to life' uyarıları yayımladı. Birkaç bölgede sarı uyarılar da aktif durumda.\n\nKaynak: The Independent | Görsel: Pixabay\nBirleşik Krallık Gündemi | 24 Ekim 10:20\n\n#SonDakika #StormBoelo #HavaUyarısı",
+  "images": [
+    "output/2026-10-24/breaking-102054.jpg"
+  ],
+  "story_image": "output/2026-10-24/breaking-102054-story.jpg",
+  "history_keys": [
+    "stormboelolatestamberdangertolifeweatherwarningsissuedasukbracesfor80mphwinds"
+  ],
+  "published": false
+}
