@@ -1,0 +1,41 @@
+{
+  "date": "2026-10-24",
+  "category": "housing-local-services",
+  "guides": [
+    {
+      "title": "Enerji Sertifikası Bul: Ev ve İşletmeler için",
+      "summary": "İngiltere, Galler ve Kuzey İrlanda'daki mülklerin enerji sertifikasını (EPC, DEC veya klima denetim belgesi) çevrimiçi olarak bulabilirsiniz. Postal kod, cadde adı veya sertifika numarası ile arama yapın.",
+      "photo_query": "energy certificate document",
+      "cards": [
+        {
+          "title": "Hangi Sertifikaları Bulabilirsiniz?",
+          "body": "Energy Performance Certificate (EPC), Display Energy Certificate (DEC) ve klima denetim sertifikaları arayabilirsiniz. Hizmet konut, ticari işletme ve kamu binaları için geçerlidir. Scots İskoçya'daki mülkler için farklı bir hizmet kullanılır."
+        },
+        {
+          "title": "Nasıl Arama Yapılır?",
+          "body": "Postal kod, cadde adı ve şehir adı veya doğrudan sertifika numarası ile arama yapabilirsiniz. Hizmet İngilizce ve Cymraeg dilinde mevcuttur. Ayrıntılar için GOV.UK sayfasına bakın."
+        },
+        {
+          "title": "Sertifika Yoksa Ya da Süresi Geçtiyse?",
+          "body": "Mülkünüzde enerji sertifikası yoksa veya süresi dolmuşsa, yeni bir sertifika alabilirsiniz. GOV.UK'de yeni sertifika başvurusu hakkında ayrıntılı bilgi bulunmaktadır."
+        }
+      ],
+      "url": "https://www.gov.uk/find-energy-certificate",
+      "photo": {
+        "id": "pb:428305",
+        "provider": "Pixabay",
+        "query": "energy certificate document",
+        "photographer": "jarmoluk",
+        "page": "https://pixabay.com/photos/pen-document-energy-certificate-428305/",
+        "fallback": false
+      }
+    }
+  ],
+  "images": [
+    "output/2026-10-24/rehber/00.jpg",
+    "output/2026-10-24/rehber/01.jpg",
+    "output/2026-10-24/rehber/02.jpg",
+    "output/2026-10-24/rehber/03.jpg"
+  ],
+  "caption": "📘 Günün Rehberi | Konut ve Yerel Hizmetler | 24 Ekim 2026\n\n1. Enerji Sertifikası Bul: Ev ve İşletmeler için\nİngiltere, Galler ve Kuzey İrlanda'daki mülklerin enerji sertifikasını (EPC, DEC veya klima denetim belgesi) çevrimiçi olarak bulabilirsiniz. Postal kod, cadde adı veya sertifika numarası ile arama yapın.\nKaynak: https://www.gov.uk/find-energy-certificate\n\nBilgiler GOV.UK'den derlenmiştir (Open Government Licence). Kişisel durumunuz için resmi sayfayı kontrol edin. Görseller: Pixabay.\n\n#EnerjisiSertifikası #EPC #İngiltereKonut #EvSatışı #KirayaBirme #GallerveKuzeyİrlanda #EnergyCertificate #PropertyInfo #UKHousing #GovUK"
+}
