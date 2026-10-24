@@ -261,7 +261,9 @@ TERMS = """İsim ve terim kuralları (çok önemli, yanlış çeviri hesabı kü
   Karşılığından emin olmadığın unvanı İngilizce bırak (ör. "Shadow Chancellor", "Speaker", "Black Rod").
 - Yer adlarında yalnızca yerleşik Türkçe adları kullan: Londra, İngiltere, Birleşik Krallık, İskoçya, Galler, Kuzey İrlanda, Manş Denizi.
   Diğerlerini İngilizce bırak: Westminster, Downing Street, Holyrood, Senedd, Stormont, Heathrow, Gatwick vb.
-- Emin olmadığın hiçbir ismi ya da terimi tahmin ederek çevirme; İngilizce bırak."""
+- Emin olmadığın hiçbir ismi ya da terimi tahmin ederek çevirme; İngilizce bırak.
+- DİL: "title" ve "body" alanları HER ZAMAN TÜRKÇE olmalı. Kaynak haber İngilizce olsa bile cümleleri Türkçeye çevir;
+  yalnızca yukarıdaki özel isimler, kurum adları ve terimler İngilizce kalır. İngilizce cümle yazmak kesinlikle yasak."""
 
 
 SYSTEM_PROMPT = """Sen İngiltere'de yaşayan Türk topluluğu için Türkçe haber özeti hazırlayan bir editörsün.
@@ -346,21 +348,80 @@ Varsa: {"breaking": true, "ref": listedeki numara, "emoji": "tek emoji", "title"
 BREAKING_PROMPT += "\n\n" + TERMS
 
 
-def judge_breaking(items):
+def judge_breaking(items, already=()):
     import anthropic
 
     listing = "\n".join(
         f"{i + 1}. [{it['source']} | {it['published']}] {it['title']} — {it['summary']}"
         for i, it in enumerate(items)
     )
+    prev = ""
+    if already:
+        prev = ("Bugün ZATEN son dakika olarak paylaşılanlar (aynı olayı tekrar paylaşma; ancak olayda çok büyük ve "
+                "yeni bir gelişme varsa, örneğin can kaybı ya da kırmızı uyarı, paylaşabilirsin):\n"
+                + "\n".join(f"- {t}" for t in already) + "\n\n")
     msg = anthropic.Anthropic().messages.create(
         model=CLAUDE_MODEL,
         max_tokens=1000,
         system=BREAKING_PROMPT,
-        messages=[{"role": "user", "content": f"Yeni başlıklar:\n\n{listing}"}],
+        messages=[{"role": "user", "content": f"{prev}Yeni başlıklar:\n\n{listing}"}],
     )
     text = "".join(b.text for b in msg.content if getattr(b, "type", "") == "text")
     return parse_json(text)
+
+
+TR_CHARS = set("çğıöşüÇĞİÖŞÜ")
+EN_WORDS = {"the", "and", "of", "to", "in", "for", "is", "are", "as", "with", "on", "has", "have", "after",
+            "from", "by", "will", "be", "was", "were", "its", "their", "amid", "over", "a", "an"}
+TR_WORDS = {"ve", "bir", "için", "ile", "bu", "da", "de", "olarak", "olan", "en", "çok", "daha", "sonra", "yeni"}
+
+
+def is_turkish(text):
+    """Basit dil kontrolü: Türkçe harf/kelime var mı, İngilizce bağlaç yoğunluğu ne kadar?"""
+    words = re.findall(r"[A-Za-zÇĞİÖŞÜçğıöşü']+", text.lower())
+    if not words:
+        return True
+    en = sum(w in EN_WORDS for w in words)
+    tr = sum(w in TR_WORDS for w in words) + sum(ch in TR_CHARS for ch in text)
+    if tr == 0:
+        return False
+    return not (en >= 3 and en / len(words) >= 0.15)
+
+
+TRANSLATE_PROMPT = """Aşağıdaki haber başlığı ve metnini Türkçeye çevir. Anlamı değiştirme, bilgi ekleme.
+Özel isimler, kurum ve kuruluş adları, yasa/vize/yardım adları İngilizce kalır (ör. Home Office, NHS, Met Office, Storm Austen).
+Çıktı SADECE JSON: {"title": "en fazla 70 karakter", "body": "en fazla 300 karakter"}"""
+
+
+def ensure_turkish(it):
+    """Başlık ya da metin İngilizce kaldıysa Claude'a bir kez çevirtir; yine olmazsa False döner."""
+    if is_turkish(it["title"] + " " + it["body"]) and is_turkish(it["body"]):
+        return True
+    log(f"[dil] Türkçe olmayan metin bulundu, çevriliyor: {it['title']}")
+    try:
+        import anthropic
+
+        msg = anthropic.Anthropic().messages.create(
+            model=CLAUDE_MODEL, max_tokens=600, system=TRANSLATE_PROMPT + "\n\n" + TERMS,
+            messages=[{"role": "user", "content": json.dumps({"title": it["title"], "body": it["body"]}, ensure_ascii=False)}],
+        )
+        out = parse_json("".join(b.text for b in msg.content if getattr(b, "type", "") == "text"))
+        title, body = clean(out.get("title", ""))[:90], clean(out.get("body", ""))[:320]
+        if title and body and is_turkish(title + " " + body) and is_turkish(body):
+            it["title"], it["body"] = title, body
+            return True
+    except Exception as e:
+        log(f"[dil] Çeviri başarısız: {e}")
+    log(f"[dil] Türkçeye çevrilemediği için elendi: {it['title']}")
+    return False
+
+
+def same_story(title, earlier):
+    """Başlıktaki özel isimlerden (büyük harfle başlayan kelimeler) en az ikisi daha önceki bir başlıkta geçiyorsa aynı olay say."""
+    caps = lambda t: {w.lower() for w in re.findall(r"\b[A-ZÇĞİÖŞÜ][\wçğıöşü']{2,}", t)}
+    common = {"ingiltere", "i̇ngiltere", "birleşik", "krallık", "londra", "başbakan", "hükümet", "bakan", "son", "yeni"}
+    mine = caps(title) - common
+    return any(len(mine & (caps(e) - common)) >= 2 for e in earlier)
 
 
 def normalize(data, n):
@@ -544,8 +605,9 @@ def upper_tr(s):
 PHOTO_H = 540  # kartlarda fotoğraf bandının yüksekliği
 
 
-def render_item(it, idx, total, path, photo=None):
-    label, color = cat_of(it)
+def render_item(it, idx, total, path, photo=None, label=None):
+    cat_label, color = cat_of(it)
+    label = label or cat_label
     img, d = base_canvas(color)
     top = 62
     d.text((MARGIN, top), f"{idx:02d} / {total:02d}", font=font("bold", 32), fill=color)
@@ -879,6 +941,7 @@ def cmd_prepare(args):
         source_items = fetch_news()
         data = summarize(source_items, NEWS_COUNT)
     items, tags = normalize(data, NEWS_COUNT)
+    items = [it for it in items if ensure_turkish(it)]
     history_keys = [title_key(source_items[it["ref"] - 1]["title"]) for it in items
                     if it.get("ref") and 1 <= it["ref"] <= len(source_items)]
     if not items:
@@ -970,17 +1033,7 @@ def cmd_publish(args):
         return
 
     check_account()
-    wait_public(urls)
-    ig_user = os.environ["IG_USER_ID"]
-    children = []
-    for url in urls:
-        cid = graph("POST", f"{ig_user}/media", image_url=url, is_carousel_item="true")["id"]
-        wait_ready(cid)
-        children.append(cid)
-    carousel = graph("POST", f"{ig_user}/media", media_type="CAROUSEL",
-                     children=",".join(children), caption=post["caption"])["id"]
-    wait_ready(carousel)
-    media_id = graph("POST", f"{ig_user}/media_publish", creation_id=carousel)["id"]
+    media_id = publish_carousel(urls, post["caption"])
     record = {"media_id": media_id, "published_at": dt.datetime.now(TZ).isoformat()}
     (out / "published.json").write_text(json.dumps(record, indent=2))
     save_history(post.get("history_keys", []))
@@ -990,6 +1043,21 @@ def cmd_publish(args):
     if story_id:
         record["story_id"] = story_id
         (out / "published.json").write_text(json.dumps(record, indent=2))
+
+
+def publish_carousel(urls, caption):
+    """Görsel adreslerinden Instagram carousel postu oluşturup yayınlar, medya ID'sini döndürür."""
+    wait_public(urls)
+    ig_user = os.environ["IG_USER_ID"]
+    children = []
+    for url in urls:
+        cid = graph("POST", f"{ig_user}/media", image_url=url, is_carousel_item="true")["id"]
+        wait_ready(cid)
+        children.append(cid)
+    carousel = graph("POST", f"{ig_user}/media", media_type="CAROUSEL",
+                     children=",".join(children), caption=caption)["id"]
+    wait_ready(carousel)
+    return graph("POST", f"{ig_user}/media_publish", creation_id=carousel)["id"]
 
 
 def publish_story(post, base):
@@ -1141,16 +1209,21 @@ def cmd_breaking(args):
         if not new_items:
             log("Son kontrolden bu yana yeni başlık yok.")  # Claude'a hiç gidilmez, maliyet sıfır
             return
-        data = judge_breaking(new_items)
+        already = [j.get("item", {}).get("title", "") for _, j in posts if j.get("published")]
+        data = judge_breaking(new_items, already)
         save_keys(CHECKED_FILE, [title_key(i["title"]) for i in new_items], keep=3000)
 
     if not data.get("breaking"):
         log(f"{len(new_items)} yeni başlık değerlendirildi, son dakika niteliğinde haber yok.")
         return
     items, tags = normalize({"items": [data], "hashtags": data.get("hashtags", [])}, 1)
-    if not items:
+    if not items or not ensure_turkish(items[0]):
         return
     it = items[0]
+    earlier = [j.get("item", {}).get("title", "") for _, j in posts]
+    if same_story(it["title"], earlier) and not FORCE:
+        log(f"Bugün aynı olay zaten paylaşıldı, tekrar paylaşılmıyor: {it['title']}")
+        return
     ref = it.get("ref")
     hkey = title_key(new_items[ref - 1]["title"]) if ref and 1 <= ref <= len(new_items) else None
 
@@ -1209,6 +1282,254 @@ def cmd_breaking_publish(args):
         path.write_text(json.dumps(post, ensure_ascii=False, indent=2), encoding="utf-8")
 
 
+
+# --------------------------------------------------------------------------- #
+# GOV.UK günlük rehber postu (öğlen)
+# --------------------------------------------------------------------------- #
+GUIDE_HOUR, GUIDE_MINUTE = (int(x) for x in os.environ.get("GUIDE_TIME_LONDON", "12:30").split(":"))
+GUIDE_START = dt.date(2026, 9, 11)   # e-postadaki "GOV.UK Günlük Bilgi Notu" ile aynı sıralama
+GUIDE_CATEGORIES = [                 # (GOV.UK yolu, kart etiketi, kategori rengi anahtarı)
+    ("benefits", "SOSYAL YARDIMLAR", "ekonomi"),
+    ("births-deaths-marriages", "DOĞUM, ÖLÜM, EVLİLİK", "gundem"),
+    ("childcare-parenting", "ÇOCUK BAKIMI VE EBEVEYNLİK", "saglik"),
+    ("citizenship", "VATANDAŞLIK", "goc"),
+    ("driving", "SÜRÜCÜLÜK VE ULAŞIM", "hava"),
+    ("education", "EĞİTİM", "spor"),
+    ("employing-people", "İŞÇİ ÇALIŞTIRMA", "magazin"),
+    ("housing-local-services", "KONUT VE YEREL HİZMETLER", "kraliyet"),
+    ("tax", "VERGİ", "siyaset"),
+    ("abroad", "YURT DIŞI", "dunya"),
+    ("visas-immigration", "VİZE VE GÖÇ", "goc"),
+    ("working", "ÇALIŞMA HAYATI", "guvenlik"),
+]
+GOVUK = "https://www.gov.uk"
+GUIDE_FORMATS = {"guide", "answer", "transaction", "simple_smart_answer", "local_transaction", "place", "calculator"}
+
+
+def govuk_json(path, **params):
+    r = requests.get(f"{GOVUK}{path}", params=params, timeout=30,
+                     headers={"User-Agent": "Mozilla/5.0 (uk-gundem-bot)", "Accept": "application/json"})
+    r.raise_for_status()
+    return r.json()
+
+
+def guide_plan(day):
+    """Bugünün kategorisi ve 2 alt başlığı: e-postadaki görevle aynı tarih formülü."""
+    diff = max(0, (day - GUIDE_START).days)
+    slug, label, color_key = GUIDE_CATEGORIES[diff % len(GUIDE_CATEGORIES)]
+    cycle = diff // len(GUIDE_CATEGORIES)
+    page = govuk_json(f"/api/content/browse/{slug}")
+    links = page.get("links", {})
+    subs = (links.get("ordered_second_level_browse_pages") or links.get("second_level_browse_pages")
+            or links.get("children") or [])
+    subs = [x for x in subs if x.get("base_path")]
+    if not subs:
+        raise RuntimeError(f"GOV.UK alt başlıkları bulunamadı: /browse/{slug}")
+    start = (cycle * 2) % len(subs)
+    picked = [subs[(start + i) % len(subs)] for i in range(min(2, len(subs)))]
+    return slug, label, color_key, picked
+
+
+def html_text(html_s):
+    t = re.sub(r"<(script|style)[^>]*>.*?</\1>", " ", html_s or "", flags=re.S | re.I)
+    t = re.sub(r"</(p|li|h\d|tr)>", "\n", t, flags=re.I)
+    return re.sub(r"[ \t]+", " ", html.unescape(re.sub(r"<[^>]+>", " ", t))).strip()
+
+
+def item_body(content):
+    det = content.get("details", {})
+    chunks = []
+    for part in det.get("parts", []) or []:
+        chunks.append(f"## {part.get('title', '')}\n" + html_text(part.get("body", "")))
+    for key in ("body", "introductory_paragraph", "introduction", "more_information", "need_to_know"):
+        val = det.get(key)
+        if isinstance(val, str):
+            chunks.append(html_text(val))
+        elif isinstance(val, list):
+            chunks.extend(html_text(v.get("content", "")) for v in val if isinstance(v, dict))
+    return "\n\n".join(c for c in chunks if c.strip())
+
+
+def fetch_guide(sub):
+    """Alt başlıktaki ilk gerçek rehber sayfasını bulur ve metnini getirir."""
+    bp = sub["base_path"].removeprefix("/browse/")
+    res = govuk_json("/api/search.json", filter_mainstream_browse_pages=bp, count=20,
+                     fields=["title", "link", "format", "description"])
+    results = [r for r in res.get("results", []) if r.get("format") in GUIDE_FORMATS] or res.get("results", [])
+    for r in results:
+        try:
+            c = govuk_json(f"/api/content{r['link']}")
+        except Exception:
+            continue
+        text = item_body(c)
+        if len(text) > 300:
+            return {"sub_title": sub.get("title", ""), "title": c.get("title", r.get("title", "")),
+                    "description": c.get("description", ""), "url": GOVUK + r["link"], "text": text[:7000]}
+    raise RuntimeError(f"Okunabilir rehber bulunamadı: {sub.get('base_path')}")
+
+
+GUIDE_PROMPT = """Sen İngiltere'de yaşayan Türk topluluğu için Instagram'da bilgilendirici içerik hazırlayan bir editörsün.
+Sana GOV.UK'den alınmış iki resmi rehber metni verilecek. Her rehber için kaydırmalı (carousel) kartlar hazırla.
+
+Kurallar:
+- YALNIZCA verilen GOV.UK metnindeki bilgileri kullan. Rakam, tarih, ücret, şart UYDURMA; metinde yoksa yazma.
+- Pratik ve faydalı ol: kim yararlanabilir, şartlar neler, nasıl başvurulur, ücret/süre ne, dikkat edilecekler.
+- Her rehber için TAM 3 kart: her kartta "heading" (en fazla 60 karakter) ve "body" (2-3 cümle, en fazla 260 karakter).
+- Her rehber için "title" (en fazla 70 karakter, ilgi çekici ama abartısız) ve "summary" (açıklama metni için 2-3 cümle).
+- photo_query: rehberi temsil eden MEKÂN ya da NESNE fotoğrafı için 2-4 kelimelik İngilizce arama terimi; kişi adı, yüz yok.
+- Dil sade, anlaşılır Türkçe. Hukuki tavsiye verme; "ayrıntılar için GOV.UK sayfasına bakın" anlayışıyla yaz.
+
+Çıktı SADECE JSON:
+{"guides":[{"title":"...","summary":"...","photo_query":"...","cards":[{"heading":"...","body":"..."},{"heading":"...","body":"..."},{"heading":"...","body":"..."}]}],
+ "hashtags":["#İngiltere","..."]}
+hashtags: 8-12 adet, ilgili Türkçe ve İngilizce etiketler."""
+GUIDE_PROMPT += "\n\n" + TERMS
+
+
+def summarize_guides(guides, label):
+    import anthropic
+
+    blocks = "\n\n".join(f"### REHBER {i + 1}: {g['title']} ({g['url']})\nAlt başlık: {g['sub_title']}\n"
+                         f"Açıklama: {g['description']}\n\n{g['text']}" for i, g in enumerate(guides))
+    msg = anthropic.Anthropic().messages.create(
+        model=CLAUDE_MODEL, max_tokens=4000, system=GUIDE_PROMPT,
+        messages=[{"role": "user", "content": f"Bugünün kategorisi: {label}\n\n{blocks}"}],
+    )
+    return parse_json("".join(b.text for b in msg.content if getattr(b, "type", "") == "text"))
+
+
+def guide_too_early():
+    now = dt.datetime.now(TZ)
+    if FORCE or (now.hour, now.minute) >= (GUIDE_HOUR, GUIDE_MINUTE):
+        return False
+    log(f"Londra saati {now:%H:%M}, rehber postu {GUIDE_HOUR:02d}:{GUIDE_MINUTE:02d}'da. Henüz erken.")
+    return True
+
+
+def render_guide_cover(gs, label, color, day, path):
+    img, d = base_canvas(color)
+    max_w = W - 2 * MARGIN
+    y = 110
+    x = chip(d, MARGIN, y, "GÜNÜN REHBERİ", INK, size=28)
+    chip(d, x + 14, y, label, color, size=28)
+    y += 100
+    fnt, lines, lh = fit_text(d, "İngiltere'de Bilmeniz Gerekenler", "bold", max_w, 260, 88, 56, 1.12)
+    y = draw_lines(d, MARGIN, y, lines, fnt, lh, INK) + 10
+    d.text((MARGIN, y), date_tr(day), font=font("regular", 38), fill=MUTED)
+    y += 80
+    d.rounded_rectangle([MARGIN, y, MARGIN + 140, y + 8], radius=4, fill=color)
+    y += 60
+    for i, g in enumerate(gs, 1):
+        d.text((MARGIN, y), f"{i:02d}", font=font("bold", 44), fill=color)
+        fnt, lines, lh = fit_text(d, no_emoji(g["title"]), "bold", max_w - 90, 150, 44, 32, 1.2)
+        y = draw_lines(d, MARGIN + 90, y, lines, fnt, lh, INK) + 14
+        sf = font("regular", 30)
+        y = draw_lines(d, MARGIN + 90, y, wrap(d, no_emoji(g["summary"]), sf, max_w - 90)[:3], sf, 42, BODY) + 44
+    footer(d, "Kaydırın  →   Kaynak: GOV.UK")
+    img.save(path, "JPEG", quality=92, optimize=True)
+
+
+def title_tr(s):
+    """Türkçe kurallarıyla kelime başlarını büyük yapar (VERGİ -> Vergi, İŞÇİ -> İşçi)."""
+    low = s.replace("I", "ı").replace("İ", "i").lower()
+    small = {"ve", "ile"}
+    return " ".join(w if w in small else (("İ" if w[0] == "i" else w[0].upper()) + w[1:]) for w in low.split())
+
+
+def build_guide_caption(gs, tags, label, day):
+    parts = [f"📘 Günün Rehberi | {title_tr(label)} | {day.day} {MONTHS_TR[day.month - 1]} {day.year}", ""]
+    for i, g in enumerate(gs, 1):
+        parts += [f"{i}. {g['title']}", g["summary"], f"Kaynak: {g['url']}", ""]
+    provs = sorted({g["photo"].get("provider", "Pexels") for g in gs if g.get("photo")})
+    parts.append("Bilgiler GOV.UK'den derlenmiştir (Open Government Licence). Kişisel durumunuz için resmi sayfayı kontrol edin."
+                 + (f" Görseller: {', '.join(provs)}." if provs else ""))
+    parts += ["", " ".join(tags[:30])]
+    return "\n".join(parts)[:CAPTION_LIMIT].strip()
+
+
+def cmd_guide(args):
+    day = today_london()
+    out = OUT_ROOT / day.isoformat() / "rehber"
+    if (out / "published.json").exists():
+        log("Bugünün rehber postu zaten yayınlanmış.")
+        return
+    if guide_too_early():
+        return
+    slug, label, color_key, subs = guide_plan(day)
+    color = CATEGORIES[color_key][1]
+    log(f"Bugünün kategorisi: {slug} | alt başlıklar: {', '.join(s.get('title', '') for s in subs)}")
+    sources = [fetch_guide(sub) for sub in subs]
+    data = summarize_guides(sources, label)
+    gs = []
+    for src, g in zip(sources, data.get("guides", [])):
+        cards = [{"title": clean(c.get("heading", ""))[:90], "body": clean(c.get("body", ""))[:320]}
+                 for c in g.get("cards", [])][:3]
+        cards = [c for c in cards if c["title"] and c["body"] and ensure_turkish(c)]
+        if not cards:
+            continue
+        gs.append({"title": clean(g.get("title", src["title"]))[:90], "summary": clean(g.get("summary", ""))[:400],
+                   "photo_query": clean(g.get("photo_query", ""))[:60], "cards": cards, "url": src["url"]})
+    if not gs:
+        log("Rehber içeriği üretilemedi, bugün rehber postu yok.")
+        return
+    tags = [t if t.startswith("#") else f"#{t}" for t in (data.get("hashtags") or [])]
+    tags = [re.sub(r"\s+", "", t) for t in tags if len(t) > 1][:20]
+
+    out.mkdir(parents=True, exist_ok=True)
+    for old in out.glob("*.jpg"):
+        old.unlink()
+    seen_photos = set(load_keys(PHOTOS_FILE))
+    used = set(seen_photos)
+    images = []
+    p = out / "00.jpg"
+    render_guide_cover(gs, label, color, day, p)
+    images.append(p.as_posix())
+    total = sum(len(g["cards"]) for g in gs)
+    n = 0
+    for gi, g in enumerate(gs, 1):
+        for ci, c in enumerate(g["cards"]):
+            n += 1
+            it = {"title": c["title"], "body": c["body"], "source": "GOV.UK", "category": color_key,
+                  "photo_query": g["photo_query"], "emoji": "📘"}
+            photo = photo_for(it, used) if ci == 0 else None
+            if photo is not None:
+                g["photo"] = it["photo"]
+            p = out / f"{n:02d}.jpg"
+            render_item(it, n, total, p, photo=photo, label=f"REHBER {gi} · {label}")
+            images.append(p.as_posix())
+    save_keys(PHOTOS_FILE, list(used - seen_photos), keep=400)
+    post = {"date": day.isoformat(), "category": slug, "guides": gs, "images": images,
+            "caption": build_guide_caption(gs, tags, label, day)}
+    (out / "post.json").write_text(json.dumps(post, ensure_ascii=False, indent=2), encoding="utf-8")
+    log(f"Rehber postu hazırlandı: {len(images)} görsel, {out}")
+
+
+def cmd_guide_publish(args):
+    out = OUT_ROOT / today_london().isoformat() / "rehber"
+    post_file = out / "post.json"
+    if not post_file.exists():
+        log("Bugün için hazırlanmış rehber postu yok.")
+        return
+    if (out / "published.json").exists():
+        log("Bugünün rehber postu zaten yayınlanmış.")
+        return
+    if guide_too_early():
+        return
+    post = json.loads(post_file.read_text(encoding="utf-8"))
+    base = os.environ.get("IMAGE_BASE_URL", "").rstrip("/")
+    if not base:
+        sys.exit("IMAGE_BASE_URL tanımlı değil.")
+    urls = [f"{base}/{p}" for p in post["images"]]
+    if DRY_RUN:
+        log("DRY_RUN açık: Instagram'a gönderilmedi.\n" + "\n".join(urls) + "\n\n" + post["caption"])
+        return
+    check_account()
+    media_id = publish_carousel(urls, post["caption"])
+    (out / "published.json").write_text(json.dumps(
+        {"media_id": media_id, "published_at": dt.datetime.now(TZ).isoformat()}, indent=2))
+    log(f"Rehber postu yayınlandı. Instagram medya ID: {media_id}")
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     sub = ap.add_subparsers(dest="cmd", required=True)
@@ -1219,9 +1540,12 @@ def main():
     b.add_argument("--from-json", help="Son dakika kararını bu JSON dosyasından al (test için)")
     sub.add_parser("breaking-publish")
     sub.add_parser("whoami")
+    sub.add_parser("guide")
+    sub.add_parser("guide-publish")
     args = ap.parse_args()
     {"prepare": cmd_prepare, "publish": cmd_publish, "breaking": cmd_breaking,
-     "breaking-publish": cmd_breaking_publish, "whoami": cmd_whoami}[args.cmd](args)
+     "breaking-publish": cmd_breaking_publish, "whoami": cmd_whoami,
+     "guide": cmd_guide, "guide-publish": cmd_guide_publish}[args.cmd](args)
 
 
 def _annotate_error(msg):
