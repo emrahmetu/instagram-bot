@@ -1,0 +1,164 @@
+{
+  "date": "2026-10-24",
+  "caption": "🇬🇧 Birleşik Krallık Gündemi | 24 Ekim 2026, Cumartesi\n\n1. 💉 Brezilya'da vize başvurusu için tüberküloz testi\nBirleşik Krallık vizesi için Brezilya'da tüberküloz (TB) testinin nerede yapılacağını öğrenin.\n\n2. 🛂 Küba'dan Birleşik Krallık vizesi başvurusu\nKüba'da yaşayan kişiler artık visa başvurusu merkezi aracılığıyla Birleşik Krallık vizesi için başvuru yapabilecekler.\n\n3. 💷 Bütçe öncesi vergi tartışmaları sıcak başlıyor\nMaliye Bakanı John Healey 28 Ekim'de bütçesini sunarken, gelir vergisi, sosyal sigorta ve katma değer vergisine ilişkin söylentiler giderek artmaktadır.\n\n4. 🤖 Maliye Bakanı yapay zekaya yatırım sözü verdi\nMaliye Bakanı John Healey, gelecek haftanın bütçesinde Britanya'nın güvenliğini ve refahını güçlendirmek amacıyla yapay zekaya yüz milyonlarca sterlin yatırım yapılacağını duyurdu.\n\n5. 🔬 Birleşik Krallık AI Biyogüvenlik Lab'ına 100 milyon sterlin\nMaliye Bakanı, bütçede Birleşik Krallık'ın savunmasını güçlendirmek için yapay zeka alanında 100 milyon sterlin yatırım yapılacağını açıklayacak.\n\n6. ⚖️ Respect Orders'ı ihlal edenlere 2 yıla kadar hapis\nHome Office (İçişleri Bakanlığı), yeni Respect Orders'ı ihlal eden suçluların 2 yıla kadar hapis cezası alabileceklerini bildirdi.\n\n7. 🏉 İngiltere rugby: Kanada'ya karşı arka arkaya yenilgi\nİngiltere kadın rugby takımı, Kanada'ya 31-22 ile yenildi ve on yıl içinde ilk kez arka arkaya iki mağlubiyet aldı.\n\n8. ⚽ Tottenham-Arsenal Londra derbisinde sezonları belirlenebilir\nCumartesi günü BBC One'da canlı yayınlanacak Tottenham ile Arsenal maçı, her iki takımın da sezonlarını kurtarma şansı olacak.\n\nKaynaklar: GOV.UK UKVI, Guardian, BBC, The Independent, BBC Sport. Haberler Türkçe özet olarak derlenmiştir. Görseller: Pixabay.\n\n#İngiltere #Londra #UKNews #UKVisa #TürkçeHaber #BirleşikKrallık #Budget2026 #YapayZeka #Rugby #Football #HomeOffice #İmigrasyon",
+  "images": [
+    "output/2026-10-24/00.jpg",
+    "output/2026-10-24/01.jpg",
+    "output/2026-10-24/02.jpg",
+    "output/2026-10-24/03.jpg",
+    "output/2026-10-24/04.jpg",
+    "output/2026-10-24/05.jpg",
+    "output/2026-10-24/06.jpg",
+    "output/2026-10-24/07.jpg",
+    "output/2026-10-24/08.jpg"
+  ],
+  "story_image": "output/2026-10-24/story.jpg",
+  "items": [
+    {
+      "ref": 3,
+      "emoji": "💉",
+      "title": "Brezilya'da vize başvurusu için tüberküloz testi",
+      "body": "Birleşik Krallık vizesi için Brezilya'da tüberküloz (TB) testinin nerede yapılacağını öğrenin. Home Office (İçişleri Bakanlığı) tüm başvuru merkezlerini ve gerekli prosedürleri listelemiştir.",
+      "source": "GOV.UK UKVI",
+      "photo_query": "tuberculosis test clinic",
+      "category": "goc",
+      "photo": {
+        "id": "pb:6927814",
+        "provider": "Pixabay",
+        "query": "tuberculosis test clinic",
+        "photographer": "Tho-Ge",
+        "page": "https://pixabay.com/photos/corona-medicine-pandemic-6927814/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 2,
+      "emoji": "🛂",
+      "title": "Küba'dan Birleşik Krallık vizesi başvurusu",
+      "body": "Küba'da yaşayan kişiler artık visa başvurusu merkezi aracılığıyla Birleşik Krallık vizesi için başvuru yapabilecekler. Home Office (İçişleri Bakanlığı) başvuru ücretleri ve belge toplama konusunda rehberlik sağlamıştır.",
+      "source": "GOV.UK UKVI",
+      "photo_query": "UK visa application centre",
+      "category": "goc",
+      "photo": {
+        "id": "pb:820275",
+        "provider": "Pixabay",
+        "query": "UK visa application centre",
+        "photographer": "fancycrave1",
+        "page": "https://pixabay.com/photos/code-programming-hacking-html-web-820275/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 19,
+      "emoji": "💷",
+      "title": "Bütçe öncesi vergi tartışmaları sıcak başlıyor",
+      "body": "Maliye Bakanı John Healey 28 Ekim'de bütçesini sunarken, gelir vergisi, sosyal sigorta ve katma değer vergisine ilişkin söylentiler giderek artmaktadır. Tasarıların hane halkı ve işletmeler üzerindeki etkileri tartışılmaktadır.",
+      "source": "Guardian",
+      "photo_query": "UK budget documents",
+      "category": "ekonomi",
+      "photo": {
+        "id": "pb:256312",
+        "provider": "Pixabay",
+        "query": "UK budget documents",
+        "photographer": "jarmoluk",
+        "page": "https://pixabay.com/photos/money-bills-calculator-to-save-256312/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 34,
+      "emoji": "🤖",
+      "title": "Maliye Bakanı yapay zekaya yatırım sözü verdi",
+      "body": "Maliye Bakanı John Healey, gelecek haftanın bütçesinde Britanya'nın güvenliğini ve refahını güçlendirmek amacıyla yapay zekaya yüz milyonlarca sterlin yatırım yapılacağını duyurdu. Hükümet 'özgül İngiliz' yapay zeka yaklaşımı geliştirmeye odaklanıyor.",
+      "source": "Guardian",
+      "photo_query": "artificial intelligence technology",
+      "category": "ekonomi",
+      "photo": {
+        "id": "pb:7772547",
+        "provider": "Pixabay",
+        "query": "artificial intelligence technology",
+        "photographer": "Alexandra_Koch",
+        "page": "https://pixabay.com/photos/ai-generated-woman-laptop-robot-7772547/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 42,
+      "emoji": "🔬",
+      "title": "Birleşik Krallık AI Biyogüvenlik Lab'ına 100 milyon sterlin",
+      "body": "Maliye Bakanı, bütçede Birleşik Krallık'ın savunmasını güçlendirmek için yapay zeka alanında 100 milyon sterlin yatırım yapılacağını açıklayacak. Proje dünya çapında ilk olacak bir biyogüvenlik laboratuvarı kurulmasını hedeflemiştir.",
+      "source": "BBC",
+      "photo_query": "biosecurity laboratory",
+      "category": "saglik",
+      "photo": {
+        "id": "pb:2815641",
+        "provider": "Pixabay",
+        "query": "biosecurity laboratory",
+        "photographer": "jarmoluk",
+        "page": "https://pixabay.com/photos/laboratory-analysis-chemistry-2815641/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 51,
+      "emoji": "⚖️",
+      "title": "Respect Orders'ı ihlal edenlere 2 yıla kadar hapis",
+      "body": "Home Office (İçişleri Bakanlığı), yeni Respect Orders'ı ihlal eden suçluların 2 yıla kadar hapis cezası alabileceklerini bildirdi. Polis ve yerel yönetimler bunun sayesinde daha güçlü yaptırım uygulayabilecekler.",
+      "source": "The Independent",
+      "photo_query": "police enforcement action",
+      "category": "guvenlik",
+      "photo": {
+        "id": "pb:4566193",
+        "provider": "Pixabay",
+        "query": "police enforcement action",
+        "photographer": "Fleimax",
+        "page": "https://pixabay.com/photos/police-cop-emergency-symbol-law-4566193/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 22,
+      "emoji": "🏉",
+      "title": "İngiltere rugby: Kanada'ya karşı arka arkaya yenilgi",
+      "body": "İngiltere kadın rugby takımı, Kanada'ya 31-22 ile yenildi ve on yıl içinde ilk kez arka arkaya iki mağlubiyet aldı. Kanada'nın kaptanı Sophie de Goede hat-trick yaptı.",
+      "source": "BBC Sport",
+      "photo_query": "rugby match women",
+      "category": "spor",
+      "photo": {
+        "id": "pb:2522306",
+        "provider": "Pixabay",
+        "query": "rugby match women",
+        "photographer": "hirobi",
+        "page": "https://pixabay.com/photos/rugby-rugby-ball-sports-ball-lawn-2522306/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 26,
+      "emoji": "⚽",
+      "title": "Tottenham-Arsenal Londra derbisinde sezonları belirlenebilir",
+      "body": "Cumartesi günü BBC One'da canlı yayınlanacak Tottenham ile Arsenal maçı, her iki takımın da sezonlarını kurtarma şansı olacak. İki takım da zayıf performans gösteren rakip karşısında zafer arayıyor.",
+      "source": "BBC Sport",
+      "photo_query": "Arsenal Tottenham stadium",
+      "category": "spor",
+      "photo": {
+        "id": "pb:1590576",
+        "provider": "Pixabay",
+        "query": "Arsenal Tottenham stadium",
+        "photographer": "3093594",
+        "page": "https://pixabay.com/photos/stadium-olympic-stadium-structure-1590576/",
+        "fallback": false
+      }
+    }
+  ],
+  "history_keys": [
+    "guidancebraziltuberculosistestclinicsforaukvisa",
+    "guidancecubaapplyforaukvisa",
+    "fivekeytaxtalkingpointsbeforenextweeksbudget",
+    "johnhealeypledgestousebudgettoharnesspowerofaitobolsterbritainssecurity",
+    "uktoinvest100minworldfirstaibiosecuritylab",
+    "offenderswhobreachrespectorderscouldfaceuptotwoyearsinjail",
+    "canadainflictbacktobacklossesonengland",
+    "whytottenhamvarsenalcoulddefinetheirseasonsliveonbbcone"
+  ]
+}
