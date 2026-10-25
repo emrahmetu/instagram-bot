@@ -1,0 +1,72 @@
+{
+  "date": "2026-10-25",
+  "category": "tax",
+  "guides": [
+    {
+      "title": "HMRC Online Hesabınıza Giriş Yapın ve Vergi İşlemlerinizi Yönetin",
+      "summary": "HMRC (İngiltere vergi idaresi) online hesabı açarak Self Assessment, kurumsal vergi, PAYE ve diğer vergi hizmetlerine erişebilirsiniz. Government Gateway veya GOV.UK One Login ile giriş yapabilirsiniz. Ayrıntılar için GOV.UK sayfasına bakın.",
+      "photo_query": "computer login screen tax",
+      "cards": [
+        {
+          "title": "İki Giriş Seçeneğinden Birini Seçin",
+          "body": "HMRC online hizmetlerine Government Gateway (12 karaktere kadar kullanıcı adı ve şifre) veya GOV.UK One Login (e-posta ve şifre) ile giriş yapabilirsiniz. Daha önce HMRC hizmetlerini kullandıysanız, mevcut giriş bilgilerinizi kullanmaya devam edin."
+        },
+        {
+          "title": "Yeni Hesap Oluşturmak Çok Basit",
+          "body": "HMRC online hizmetlerine hiç girmemişseniz, giriş sayfasında 'Yeni giriş bilgileri oluştur' seçeneğini seçin. Sistem sizi adım adım rehber ederek Government Gateway ya da GOV.UK One Login hesabınızı kuracaktır."
+        },
+        {
+          "title": "Giriş Sorununuz mu Var? Hemen Çözün",
+          "body": "Şifrenizi unuttuysanız giriş sayfasında kurtarma adımlarını takip edin. İki kez yanlış giriş yaparsanız 2 saat sonra tekrar deneyebilirsiniz. HMRC dijital asistanı veya canlı sohbet ile yardım alabilirsiniz."
+        }
+      ],
+      "url": "https://www.gov.uk/log-in-register-hmrc-online-services",
+      "photo": {
+        "id": "pb:2598062",
+        "provider": "Pixabay",
+        "query": "Cardiff Wales",
+        "photographer": "StockSnap",
+        "page": "https://pixabay.com/photos/wheel-steel-metal-rides-adventure-2598062/",
+        "fallback": true
+      }
+    },
+    {
+      "title": "VAT Hesabını HMRC Üzerinden Yönetin ve Vergi Beyan Edin",
+      "summary": "VAT (katma değer vergisi) hesabınız için HMRC online platforma giriş yapın. Aynı Government Gateway veya GOV.UK One Login bilgileriniz işte yarar. Vergi beyanlarınızı kolayca takip edin ve yönetin.",
+      "photo_query": "business VAT registration",
+      "cards": [
+        {
+          "title": "VAT Hesabı Açmak İçin İlk Adım",
+          "body": "VAT ile ilgili işlemleriniz için HMRC online hesapları erişin. Government Gateway ya da GOV.UK One Login seçeneklerinden biriyle giriş yaparak VAT beyan işlemlerinize başlayabilirsiniz."
+        },
+        {
+          "title": "Farklı Hizmetler için Ayrı Giriş Gerekebilir",
+          "body": "VAT dışında gümrük, ithacat ve ihracat işlemleri için ayrı giriş sistemi bulunmaktadır. Ana HMRC hesabınıza girdikten sonra hangi hizmetlere erişebileceğiniz açıkça belirtilecektir."
+        },
+        {
+          "title": "VAT Online Hizmetlerinde Sorun Yaşarsanız",
+          "body": "Giriş problemi, kod alma sıkıntısı veya teknik konularda HMRC'nin dijital asistanından yardım isteyebilirsiniz. Canlı sohbet seçeneği de mevcuttur. Ayrıntılar için GOV.UK sayfasına bakın."
+        }
+      ],
+      "url": "https://www.gov.uk/log-in-register-hmrc-online-services",
+      "photo": {
+        "id": "pb:3188599",
+        "provider": "Pixabay",
+        "query": "Tower Bridge",
+        "photographer": "KaiPilger",
+        "page": "https://pixabay.com/photos/bridge-sidewalk-urban-traffic-road-3188599/",
+        "fallback": true
+      }
+    }
+  ],
+  "images": [
+    "output/2026-10-25/rehber/00.jpg",
+    "output/2026-10-25/rehber/01.jpg",
+    "output/2026-10-25/rehber/02.jpg",
+    "output/2026-10-25/rehber/03.jpg",
+    "output/2026-10-25/rehber/04.jpg",
+    "output/2026-10-25/rehber/05.jpg",
+    "output/2026-10-25/rehber/06.jpg"
+  ],
+  "caption": "📘 Günün Rehberi | Vergi | 25 Ekim 2026\n\n1. HMRC Online Hesabınıza Giriş Yapın ve Vergi İşlemlerinizi Yönetin\nHMRC (İngiltere vergi idaresi) online hesabı açarak Self Assessment, kurumsal vergi, PAYE ve diğer vergi hizmetlerine erişebilirsiniz. Government Gateway veya GOV.UK One Login ile giriş yapabilirsiniz. Ayrıntılar için GOV.UK sayfasına bakın.\nKaynak: https://www.gov.uk/log-in-register-hmrc-online-services\n\n2. VAT Hesabını HMRC Üzerinden Yönetin ve Vergi Beyan Edin\nVAT (katma değer vergisi) hesabınız için HMRC online platforma giriş yapın. Aynı Government Gateway veya GOV.UK One Login bilgileriniz işte yarar. Vergi beyanlarınızı kolayca takip edin ve yönetin.\nKaynak: https://www.gov.uk/log-in-register-hmrc-online-services\n\nBilgiler GOV.UK'den derlenmiştir (Open Government Licence). Kişisel durumunuz için resmi sayfayı kontrol edin. Görseller: Pixabay.\n\n#HMRCVergi #İngiltereVergi #SelfAssessment #VATTürk #OnlineVergiBeyanı #GovUKTürkiye #VergiMukellef #İşletmeVergi #DigitalVergi #BirleşikKrallıkKayıtları"
+}
