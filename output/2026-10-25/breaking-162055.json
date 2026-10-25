@@ -1,0 +1,30 @@
+{
+  "type": "breaking",
+  "created_at": "2026-10-25T16:20:55.739006+00:00",
+  "item": {
+    "ref": 12,
+    "emoji": "⛈️",
+    "title": "Storm Boelo'da iskele çöktü: 2 kişi ezildi",
+    "body": "Fırtınanın güçlü rüzgarlarında (80 km/s) İngiltere'de bir inşaat iskelesi çöktü ve 2 kişi ezildi. Daha önce binlerce ev elektriksiz kalırken, şimdi can kaybı riski ile tehdit altında.",
+    "source": "Metro",
+    "photo_query": "Storm Boelo collapsed scaffold",
+    "category": "gundem",
+    "photo": {
+      "id": "pb:5708691",
+      "provider": "Pixabay",
+      "query": "Storm Boelo collapsed scaffold",
+      "photographer": "shouravsheikh",
+      "page": "https://pixabay.com/photos/workers-people-boats-ships-pier-5708691/",
+      "fallback": false
+    }
+  },
+  "caption": "🔴 SON DAKİKA | ⛈️ Storm Boelo'da iskele çöktü: 2 kişi ezildi\n\nFırtınanın güçlü rüzgarlarında (80 km/s) İngiltere'de bir inşaat iskelesi çöktü ve 2 kişi ezildi. Daha önce binlerce ev elektriksiz kalırken, şimdi can kaybı riski ile tehdit altında.\n\nKaynak: Metro | Görsel: Pixabay\nBirleşik Krallık Gündemi | 25 Ekim 16:20\n\n#SonDakika #StormBoelo #İngiltere",
+  "images": [
+    "output/2026-10-25/breaking-162055.jpg"
+  ],
+  "story_image": "output/2026-10-25/breaking-162055-story.jpg",
+  "history_keys": [
+    "twopeoplecrushedbycollapsingscaffoldinhighwindsofstormboelo"
+  ],
+  "published": false
+}
