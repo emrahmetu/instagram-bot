@@ -1,0 +1,30 @@
+{
+  "type": "breaking",
+  "created_at": "2026-10-25T10:20:52.450448+00:00",
+  "item": {
+    "ref": 5,
+    "emoji": "🌪️",
+    "title": "Storm Boelo: Binlerce ev elektriksiz, yüzlerce uçuş iptal edildi",
+    "body": "Storm Boelo Birleşik Krallık'ı vurmuş, saatte 80 mil rüzgar hızlarıyla İskoçya, Kuzey İrlanda ve İngiltere'nin kuzeyinde binlerce insanı elektriksiz bırakmıştır. Feribot, tren ve uçak seferlerine de ara verilmiştir.",
+    "source": "The Independent",
+    "photo_query": "storm wind damage UK",
+    "category": "hava",
+    "photo": {
+      "id": "pb:5643293",
+      "provider": "Pixabay",
+      "query": "storm wind damage UK",
+      "photographer": "EdWhiteImages",
+      "page": "https://pixabay.com/photos/windmills-rainbow-fields-5643293/",
+      "fallback": false
+    }
+  },
+  "caption": "🔴 SON DAKİKA | 🌪️ Storm Boelo: Binlerce ev elektriksiz, yüzlerce uçuş iptal edildi\n\nStorm Boelo Birleşik Krallık'ı vurmuş, saatte 80 mil rüzgar hızlarıyla İskoçya, Kuzey İrlanda ve İngiltere'nin kuzeyinde binlerce insanı elektriksiz bırakmıştır. Feribot, tren ve uçak seferlerine de ara verilmiştir.\n\nKaynak: The Independent | Görsel: Pixabay\nBirleşik Krallık Gündemi | 25 Ekim 10:20\n\n#SonDakika #StormBoelo #BirleşikKrallık",
+  "images": [
+    "output/2026-10-25/breaking-102052.jpg"
+  ],
+  "story_image": "output/2026-10-25/breaking-102052-story.jpg",
+  "history_keys": [
+    "stormboelolatestthousandswithoutpowerandhundredsofflightscancelledas80mphwindsbatteruk"
+  ],
+  "published": false
+}
