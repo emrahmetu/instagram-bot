@@ -1,0 +1,30 @@
+{
+  "type": "breaking",
+  "created_at": "2026-10-25T11:45:51.204344+00:00",
+  "item": {
+    "ref": 10,
+    "emoji": "⚠️",
+    "title": "Hükümet kriz için stoklamayı tavsiye etti, rüzgar radyoları tükendi",
+    "body": "Hükümet, günlük yaşamdaki aksamalara karşı üç günlük temel malzeme stoklaması yapılmasını tavsiye etti. Tavsiyenin ardından rüzgar radyoları ve diğer acil durum malzemeleri mağazalarda tükenmek üzere. Bu, Storm Boelo'nun devam eden etkisinin ardından gelen resmi bir uyarı.",
+    "source": "The Independent",
+    "photo_query": "wind-up radio emergency supplies",
+    "category": "hava",
+    "photo": {
+      "id": "pb:5007051",
+      "provider": "Pixabay",
+      "query": "wind-up radio emergency supplies",
+      "photographer": "planet_fox",
+      "page": "https://pixabay.com/photos/doctor-emergency-accident-medicine-5007051/",
+      "fallback": false
+    }
+  },
+  "caption": "🔴 SON DAKİKA | ⚠️ Hükümet kriz için stoklamayı tavsiye etti, rüzgar radyoları tükendi\n\nHükümet, günlük yaşamdaki aksamalara karşı üç günlük temel malzeme stoklaması yapılmasını tavsiye etti. Tavsiyenin ardından rüzgar radyoları ve diğer acil durum malzemeleri mağazalarda tükenmek üzere. Bu, Storm Boelo'nun devam eden etkisinin ardından gelen resmi bir uyarı.\n\nKaynak: The Independent | Görsel: Pixabay\nBirleşik Krallık Gündemi | 25 Ekim 11:45\n\n#SonDakika #StormBoelo #AcilDurum",
+  "images": [
+    "output/2026-10-25/breaking-114551.jpg"
+  ],
+  "story_image": "output/2026-10-25/breaking-114551-story.jpg",
+  "history_keys": [
+    "windupradiossellingoutaftergovernmentadvisespublictostockpileforcrisis"
+  ],
+  "published": false
+}
