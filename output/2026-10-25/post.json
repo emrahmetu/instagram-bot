@@ -1,0 +1,164 @@
+{
+  "date": "2026-10-25",
+  "caption": "🇬🇧 Birleşik Krallık Gündemi | 25 Ekim 2026, Pazar\n\n1. 💉 Endonezya'da vize başvurusu için tüberküloz testi\nHome Office (İçişleri Bakanlığı) Endonezya'da vize başvuru yapacaklar için tüberküloz test merkezlerini belirledi.\n\n2. 🇪🇺 Başbakan AB serbest dolaşım konusunda 'samimi tartışma' çağrısı yaptı\nBaşbakan Andy Burnham, Birleşik Krallık ile AB arasında serbest dolaşıma dönüş konusunda 'kanıta dayalı' bir tartışma yapmak istediğini belirtti.\n\n3. 🌪️ Storm Boelo İngiltere'yi vurdu, uçuşlar iptal edildi\nSaatte 80 kilometre hızıyla esen rüzgarlar yüzünden yüzlerce uçuş iptal edildi ve tren hizmetleri durduruldu.\n\n4. 🏠 Bütçede sosyal konut için 1 milyar sterlin ayrıldı\nHükümet sosyal ve uygun fiyatlı konut için 10 yıllık programın fonlamasını 40 milyar sterlinin üzerine çıkaracak 1 milyar sterlin ek bütçe ayırdı.\n\n5. 💰 Maliye Bakanı bütçede yerel yönetimler için yetki devri paketi sunacak\nBaşbakan Burnham'ın 'cap in hand to Westminster' (elinde dilenci fincanıyla Whitehall'a gitme) sözüne yanıt olarak, bütçede İngiltere'deki yerel liderlere daha fazla harcama yetkisi devredilecek.\n\n6. 💼 Firmalar işe alımı durdurdu, istihdam maliyetleri beklentisi var\nBazı işletmeler Ekim Bütçesi sonrası istihdam maliyetlerinin düşürülmesini umarak yeni pozisyon açmayı erteliyor.\n\n7. 🚨 Metropoliten Polis tarafından bazı ihlal edenlere tutuklamama kararı\nKaynaklar, Metropoliten Polis'in kaynakların yetersizliği ve erken tahliye sebebiyle elektronik kelepçe şartlarını ihlal eden bazı suçluları tutuklamama politikası uyguladığını bildirdi.\n\n8. ⚽ Nicolas Jackson'ın iki golü Aston Villa'yı Manchester City'ye karşı zafere taşıdı\nAston Villa'nın golcüsü Nicolas Jackson 2 gol atarak takımını Manchester City'yi 2-1 yenerek sezonun ilk mağlubiyetini yaşattı.\n\nKaynaklar: GOV.UK UKVI, Sky News, The Independent, BBC, Guardian, BBC Sport. Haberler Türkçe özet olarak derlenmiştir. Görseller: Pixabay.\n\n#İngiltere #UKNews #VisaNews #ABİlişkileri #StormBoelo #Konut #YerelYönetim #PremierLeague #ManCityAvilla #Londra #Ekonomi #Politika",
+  "images": [
+    "output/2026-10-25/00.jpg",
+    "output/2026-10-25/01.jpg",
+    "output/2026-10-25/02.jpg",
+    "output/2026-10-25/03.jpg",
+    "output/2026-10-25/04.jpg",
+    "output/2026-10-25/05.jpg",
+    "output/2026-10-25/06.jpg",
+    "output/2026-10-25/07.jpg",
+    "output/2026-10-25/08.jpg"
+  ],
+  "story_image": "output/2026-10-25/story.jpg",
+  "items": [
+    {
+      "ref": 3,
+      "emoji": "💉",
+      "title": "Endonezya'da vize başvurusu için tüberküloz testi",
+      "body": "Home Office (İçişleri Bakanlığı) Endonezya'da vize başvuru yapacaklar için tüberküloz test merkezlerini belirledi. Birleşik Krallık vizesi almak isteyen kişilerin test yaptırması gerekmektedir.",
+      "source": "GOV.UK UKVI",
+      "photo_query": "tuberculosis test clinic medical",
+      "category": "goc",
+      "photo": {
+        "id": "pb:6128573",
+        "provider": "Pixabay",
+        "query": "tuberculosis test clinic medical",
+        "photographer": "Alexandra_Koch",
+        "page": "https://pixabay.com/photos/test-virus-coronavirus-self-test-6128573/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 40,
+      "emoji": "🇪🇺",
+      "title": "Başbakan AB serbest dolaşım konusunda 'samimi tartışma' çağrısı yaptı",
+      "body": "Başbakan Andy Burnham, Birleşik Krallık ile AB arasında serbest dolaşıma dönüş konusunda 'kanıta dayalı' bir tartışma yapmak istediğini belirtti. Kasım ayında yapılacak AB zirvesi öncesinde yeni bir ilişki modeli değerlendirilmektedir.",
+      "source": "Sky News",
+      "photo_query": "UK EU flag meeting",
+      "category": "siyaset",
+      "photo": {
+        "id": "pb:1283011",
+        "provider": "Pixabay",
+        "query": "UK EU flag meeting",
+        "photographer": "Pexels",
+        "page": "https://pixabay.com/photos/blue-building-pattern-freedom-1283011/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 19,
+      "emoji": "🌪️",
+      "title": "Storm Boelo İngiltere'yi vurdu, uçuşlar iptal edildi",
+      "body": "Saatte 80 kilometre hızıyla esen rüzgarlar yüzünden yüzlerce uçuş iptal edildi ve tren hizmetleri durduruldu. Meteoroloji Dairesi birçok bölge için hayati tehlike uyarısı yayınladı.",
+      "source": "The Independent",
+      "photo_query": "storm weather wind rain UK",
+      "category": "hava",
+      "photo": {
+        "id": "pb:4040132",
+        "provider": "Pixabay",
+        "query": "storm weather wind rain UK",
+        "photographer": "Kranich17",
+        "page": "https://pixabay.com/photos/clouds-heaven-wind-storm-weather-4040132/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 41,
+      "emoji": "🏠",
+      "title": "Bütçede sosyal konut için 1 milyar sterlin ayrıldı",
+      "body": "Hükümet sosyal ve uygun fiyatlı konut için 10 yıllık programın fonlamasını 40 milyar sterlinin üzerine çıkaracak 1 milyar sterlin ek bütçe ayırdı. Bu hamle konut krizine karşı alınan önemli adımlardan biri olarak değerlendirilmektedir.",
+      "source": "BBC",
+      "photo_query": "affordable housing construction UK",
+      "category": "ekonomi",
+      "photo": {
+        "id": "pb:1174428",
+        "provider": "Pixabay",
+        "query": "affordable housing construction UK",
+        "photographer": "652234",
+        "page": "https://pixabay.com/photos/excavator-construction-site-build-1174428/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 68,
+      "emoji": "💰",
+      "title": "Maliye Bakanı bütçede yerel yönetimler için yetki devri paketi sunacak",
+      "body": "Başbakan Burnham'ın 'cap in hand to Westminster' (elinde dilenci fincanıyla Whitehall'a gitme) sözüne yanıt olarak, bütçede İngiltere'deki yerel liderlere daha fazla harcama yetkisi devredilecek. Bu adım bölgesel büyümeyi artırmayı hedeflemektedir.",
+      "source": "Guardian",
+      "photo_query": "UK city council local government meeting",
+      "category": "ekonomi",
+      "photo": {
+        "id": "pb:7648743",
+        "provider": "Pixabay",
+        "query": "UK city council local government meeting",
+        "photographer": "cskkkk",
+        "page": "https://pixabay.com/photos/building-palace-city-hall-7648743/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 22,
+      "emoji": "💼",
+      "title": "Firmalar işe alımı durdurdu, istihdam maliyetleri beklentisi var",
+      "body": "Bazı işletmeler Ekim Bütçesi sonrası istihdam maliyetlerinin düşürülmesini umarak yeni pozisyon açmayı erteliyor. Ekonomistler işsizlik oranındaki olası artış konusunda endişeli.",
+      "source": "BBC",
+      "photo_query": "business meeting job recruitment office",
+      "category": "ekonomi",
+      "photo": {
+        "id": "pb:2606509",
+        "provider": "Pixabay",
+        "query": "business meeting job recruitment office",
+        "photographer": "geralt",
+        "page": "https://pixabay.com/photos/businessman-consulting-business-2606509/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 84,
+      "emoji": "🚨",
+      "title": "Metropoliten Polis tarafından bazı ihlal edenlere tutuklamama kararı",
+      "body": "Kaynaklar, Metropoliten Polis'in kaynakların yetersizliği ve erken tahliye sebebiyle elektronik kelepçe şartlarını ihlal eden bazı suçluları tutuklamama politikası uyguladığını bildirdi. Bu uygulama güvenlik riski oluşturabilir.",
+      "source": "Sky News",
+      "photo_query": "police officer electronic monitoring tag",
+      "category": "guvenlik",
+      "photo": {
+        "id": "pb:4795762",
+        "provider": "Pixabay",
+        "query": "police officer electronic monitoring tag",
+        "photographer": "yeiferr",
+        "page": "https://pixabay.com/photos/computer-laptop-tech-blue-computer-4795762/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 91,
+      "emoji": "⚽",
+      "title": "Nicolas Jackson'ın iki golü Aston Villa'yı Manchester City'ye karşı zafere taşıdı",
+      "body": "Aston Villa'nın golcüsü Nicolas Jackson 2 gol atarak takımını Manchester City'yi 2-1 yenerek sezonun ilk mağlubiyetini yaşattı. Jackson, Manchester City'nin mükemmel başlangıç serisini sonlandırdı.",
+      "source": "BBC Sport",
+      "photo_query": "Aston Villa football player goal",
+      "category": "spor",
+      "photo": {
+        "id": "pb:488700",
+        "provider": "Pixabay",
+        "query": "Aston Villa football player goal",
+        "photographer": "jarmoluk",
+        "page": "https://pixabay.com/photos/soccer-ball-stadium-field-488700/",
+        "fallback": false
+      }
+    }
+  ],
+  "history_keys": [
+    "guidanceindonesiatuberculosistestclinicsforaukvisa",
+    "pmopentohonestdiscussionaboutreturntoeufreemovement",
+    "stormboelolatesthundredsofflightscancelledas80mphwindsbatterukanddangertolifewarningsissued",
+    "budgettoinclude1bnforsocialandaffordablehousing",
+    "healeysfirstbudgettoincludebigdevolutionpackagetoboostgrowth",
+    "firmsholdingbackonnewjobsaheadofbudget",
+    "policetoallowsomeoffenderstobreachcurfewswithoutarrest",
+    "jacksonscorestwiceasastonvillaendmancitysperfectstart"
+  ]
+}
