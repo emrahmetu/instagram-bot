@@ -1,0 +1,30 @@
+{
+  "type": "breaking",
+  "created_at": "2026-10-25T14:20:45.525361+00:00",
+  "item": {
+    "ref": 1,
+    "emoji": "💰",
+    "title": "HMRC vergi kaçakçılarının banka hesaplarından doğrudan para çekecek",
+    "body": "Maliye Bakanı, Çarşamba günü açıklanacak bütçede yeni önlemi duyuracak. HMRC (vergi idaresi), vergi kaçıranların banka hesaplarından doğrudan para çekme yetkisine sahip olacak.",
+    "source": "The Independent",
+    "photo_query": "tax evasion bank account HMRC",
+    "category": "ekonomi",
+    "photo": {
+      "id": "pb:1060137",
+      "provider": "Pixabay",
+      "query": "tax evasion bank account HMRC",
+      "photographer": "Alexas_Fotos",
+      "page": "https://pixabay.com/photos/taxes-tax-evasion-police-handcuffs-1060137/",
+      "fallback": false
+    }
+  },
+  "caption": "🔴 SON DAKİKA | 💰 HMRC vergi kaçakçılarının banka hesaplarından doğrudan para çekecek\n\nMaliye Bakanı, Çarşamba günü açıklanacak bütçede yeni önlemi duyuracak. HMRC (vergi idaresi), vergi kaçıranların banka hesaplarından doğrudan para çekme yetkisine sahip olacak.\n\nKaynak: The Independent | Görsel: Pixabay\nBirleşik Krallık Gündemi | 25 Ekim 14:20\n\n#SonDakika #VergiKaçakçılığı #HMRC",
+  "images": [
+    "output/2026-10-25/breaking-142045.jpg"
+  ],
+  "story_image": "output/2026-10-25/breaking-142045-story.jpg",
+  "history_keys": [
+    "hmrctotakemoneydirectlyfrombankaccountsoftaxdodgers"
+  ],
+  "published": false
+}
