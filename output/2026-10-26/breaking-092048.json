@@ -1,0 +1,30 @@
+{
+  "type": "breaking",
+  "created_at": "2026-10-26T09:20:48.436715+00:00",
+  "item": {
+    "ref": 2,
+    "emoji": "⛈️",
+    "title": "Fırtına Birmingham Havalimanı'nda uçağı piste çıkardı",
+    "body": "Storm Boelo fırtınası nedeniyle yüksek rüzgarlar bir yolcu uçağının piste çıkmasına neden oldu. Batı Midlands'ta geniş çaplı aksamalara yol açan fırtına bölgede hava uyarıları devam ediyor.",
+    "source": "BBC",
+    "photo_query": "Birmingham Airport storm runway",
+    "category": "hava",
+    "photo": {
+      "id": "pb:547105",
+      "provider": "Pixabay",
+      "query": "Birmingham Airport storm runway",
+      "photographer": "FrankyFromGermany",
+      "page": "https://pixabay.com/photos/aircraft-airport-runway-biplane-547105/",
+      "fallback": false
+    }
+  },
+  "caption": "🔴 SON DAKİKA | ⛈️ Fırtına Birmingham Havalimanı'nda uçağı piste çıkardı\n\nStorm Boelo fırtınası nedeniyle yüksek rüzgarlar bir yolcu uçağının piste çıkmasına neden oldu. Batı Midlands'ta geniş çaplı aksamalara yol açan fırtına bölgede hava uyarıları devam ediyor.\n\nKaynak: BBC | Görsel: Pixabay\nBirleşik Krallık Gündemi | 26 Ekim 09:20\n\n#SonDakika #Storm #BirminghamAirport",
+  "images": [
+    "output/2026-10-26/breaking-092048.jpg"
+  ],
+  "story_image": "output/2026-10-26/breaking-092048-story.jpg",
+  "history_keys": [
+    "planeveersoffrunwayatbirminghamairportduringstorm"
+  ],
+  "published": false
+}
