@@ -1,0 +1,30 @@
+{
+  "type": "breaking",
+  "created_at": "2026-10-26T12:20:54.774437+00:00",
+  "item": {
+    "ref": 22,
+    "emoji": "⛈️",
+    "title": "90 bin konut Fırtına Boelo ve Austen'dan sonra elektriksiz kaldı",
+    "body": "Birleşik Krallık'ın kuzey bölgelerinde yaklaşık 90 bin konut hala elektriksiz durumda. İki fırtına sırasında iki kişi ağaç düşmesiyle hayatını kaybetti. Meteoroloji Dairesi daha güçlü rüzgarların geleceğini öngörmekte.",
+    "source": "Guardian",
+    "photo_query": "storm power outage UK",
+    "category": "hava",
+    "photo": {
+      "id": "pb:2568381",
+      "provider": "Pixabay",
+      "query": "storm power outage UK",
+      "photographer": "Felix-Mittermeier",
+      "page": "https://pixabay.com/photos/lightning-thunderstorm-super-cell-2568381/",
+      "fallback": false
+    }
+  },
+  "caption": "🔴 SON DAKİKA | ⛈️ 90 bin konut Fırtına Boelo ve Austen'dan sonra elektriksiz kaldı\n\nBirleşik Krallık'ın kuzey bölgelerinde yaklaşık 90 bin konut hala elektriksiz durumda. İki fırtına sırasında iki kişi ağaç düşmesiyle hayatını kaybetti. Meteoroloji Dairesi daha güçlü rüzgarların geleceğini öngörmekte.\n\nKaynak: Guardian | Görsel: Pixabay\nBirleşik Krallık Gündemi | 26 Ekim 12:20\n\n#SonDakika #FırtınaBoelo #AcilDurum",
+  "images": [
+    "output/2026-10-26/breaking-122054.jpg"
+  ],
+  "story_image": "output/2026-10-26/breaking-122054-story.jpg",
+  "history_keys": [
+    "about90000propertiesstillwithoutpoweraftertwostormsstrikebritain"
+  ],
+  "published": false
+}
