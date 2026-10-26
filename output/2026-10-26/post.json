@@ -1,0 +1,164 @@
+{
+  "date": "2026-10-26",
+  "caption": "🇬🇧 Birleşik Krallık Gündemi | 26 Ekim 2026, Pazartesi\n\n1. ⚖️ Hükümet Article 8 reformu tartışılıyor\nİnsan Hakları Avrupa Sözleşmesi'nin Article 8 maddesi, göç tartışmalarında yasal açık olarak sunuluyor. Hükümet bu konuda reform yapmayı planlıyor.\n\n2. 🚨 İngiltere halkı acil durumlara hazırlanmaya çağırılıyor\nSağlık Bakanı Wes Streeting, vatandaşları aşırı hava olayları, siber saldırılar ve savaş gibi durumlar için hazırlanmaya çağırıyor. Hükümet yeni rehberlik sunuyor.\n\n3. ⛈️ Storm Boelo iki kişinin ölümüne neden oldu\n84 milyon hızında rüzgarlar, 800 bin evde elektrik kesintisine sebep oldu. Düşen ağaçlar sonucu iki kişi hayatını kaybetti.\n\n4. 🏠 Sokaklarda yaşayanlar için 432 milyon sterlin ek destek\nHükümet Noel'e kadar sokak yaşamını bitirme planı için fonlamayı ikiye katladı. Toplam bütçe yaklaşık 900 milyon sterline çıkıyor.\n\n5. 🚶 Oxford Street araçlara kapatılıyor\nLondra'nın ünlü alışveriş caddesi 150 milyon sterlinlik devlet destekli projede araçlara kapatılıyor. Caddenin yarısı ilk aşamada yaya alanına dönüştürülecek.\n\n6. 💷 2026 Bütçesi açıklanıyor\nMaliye Bakanı Healey vergi, kamu harcamaları ve ekonomi hakkında hükümetin planlarını sunacak. Bütçe İngiltere'nin siyasi takviminde önemli etkinlik.\n\n7. 🇪🇺 Burnham AB ile serbest dolaşım tartışması başlattı\nBaşbakan Burnham, İngiltere'nin Avrupa ile serbest dolaşıma dönüş konusunda tartışma çağrısı yapmıştır. Bakanlar ve işletmeciler planı desteklerken, bazı işçi milletvekilleri endişe duyuyor.\n\n8. 👑 Kevin Sinfield'e kraliyet onurlandırması\nMotor nöron hastalığı için kampanya yürüten Sinfield, Windsor Sarayı'nda resmiyetle onurlandırıldı. Prens William, onuru çok önce verilmesi gerektiğini söyledi.\n\nKaynaklar: Free Movement, The Independent, Guardian, Evening Standard. Haberler Türkçe özet olarak derlenmiştir. Görseller: Pixabay.\n\n#İngiltere #Londra #UKNews #StormBoelo #OxfordStreet #Bütçe2026 #Göç #SerbestDolaşım #Konut #Kriz #İngiltereHaber #Burnham",
+  "images": [
+    "output/2026-10-26/00.jpg",
+    "output/2026-10-26/01.jpg",
+    "output/2026-10-26/02.jpg",
+    "output/2026-10-26/03.jpg",
+    "output/2026-10-26/04.jpg",
+    "output/2026-10-26/05.jpg",
+    "output/2026-10-26/06.jpg",
+    "output/2026-10-26/07.jpg",
+    "output/2026-10-26/08.jpg"
+  ],
+  "story_image": "output/2026-10-26/story.jpg",
+  "items": [
+    {
+      "ref": 1,
+      "emoji": "⚖️",
+      "title": "Hükümet Article 8 reformu tartışılıyor",
+      "body": "İnsan Hakları Avrupa Sözleşmesi'nin Article 8 maddesi, göç tartışmalarında yasal açık olarak sunuluyor. Hükümet bu konuda reform yapmayı planlıyor.",
+      "source": "Free Movement",
+      "photo_query": "European court human rights",
+      "category": "goc",
+      "photo": {
+        "id": "pb:178696",
+        "provider": "Pixabay",
+        "query": "European court human rights",
+        "photographer": "anais_anais29",
+        "page": "https://pixabay.com/photos/tennis-ball-sport-yellow-178696/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 8,
+      "emoji": "🚨",
+      "title": "İngiltere halkı acil durumlara hazırlanmaya çağırılıyor",
+      "body": "Sağlık Bakanı Wes Streeting, vatandaşları aşırı hava olayları, siber saldırılar ve savaş gibi durumlar için hazırlanmaya çağırıyor. Hükümet yeni rehberlik sunuyor.",
+      "source": "The Independent",
+      "photo_query": "emergency preparedness warning",
+      "category": "guvenlik",
+      "photo": {
+        "id": "pb:2816895",
+        "provider": "Pixabay",
+        "query": "emergency preparedness warning",
+        "photographer": "vicwag",
+        "page": "https://pixabay.com/photos/security-earthquake-icon-caution-2816895/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 18,
+      "emoji": "⛈️",
+      "title": "Storm Boelo iki kişinin ölümüne neden oldu",
+      "body": "84 milyon hızında rüzgarlar, 800 bin evde elektrik kesintisine sebep oldu. Düşen ağaçlar sonucu iki kişi hayatını kaybetti.",
+      "source": "The Independent",
+      "photo_query": "severe storm weather damage",
+      "category": "hava",
+      "photo": {
+        "id": "pb:1914266",
+        "provider": "Pixabay",
+        "query": "severe storm weather damage",
+        "photographer": "andrei32",
+        "page": "https://pixabay.com/photos/hail-ice-rain-big-hailstones-1914266/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 58,
+      "emoji": "🏠",
+      "title": "Sokaklarda yaşayanlar için 432 milyon sterlin ek destek",
+      "body": "Hükümet Noel'e kadar sokak yaşamını bitirme planı için fonlamayı ikiye katladı. Toplam bütçe yaklaşık 900 milyon sterline çıkıyor.",
+      "source": "The Independent",
+      "photo_query": "homelessness support housing",
+      "category": "gundem",
+      "photo": {
+        "id": "pb:2375119",
+        "provider": "Pixabay",
+        "query": "homelessness support housing",
+        "photographer": "padrinan",
+        "page": "https://pixabay.com/photos/house-home-urban-street-city-2375119/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 10,
+      "emoji": "🚶",
+      "title": "Oxford Street araçlara kapatılıyor",
+      "body": "Londra'nın ünlü alışveriş caddesi 150 milyon sterlinlik devlet destekli projede araçlara kapatılıyor. Caddenin yarısı ilk aşamada yaya alanına dönüştürülecek.",
+      "source": "Guardian",
+      "photo_query": "Oxford Street London pedestrian",
+      "category": "gundem",
+      "photo": {
+        "id": "pb:4834823",
+        "provider": "Pixabay",
+        "query": "Oxford Street London pedestrian",
+        "photographer": "tonysell",
+        "page": "https://pixabay.com/photos/london-city-urban-uk-cityscape-4834823/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 27,
+      "emoji": "💷",
+      "title": "2026 Bütçesi açıklanıyor",
+      "body": "Maliye Bakanı Healey vergi, kamu harcamaları ve ekonomi hakkında hükümetin planlarını sunacak. Bütçe İngiltere'nin siyasi takviminde önemli etkinlik.",
+      "source": "The Independent",
+      "photo_query": "UK budget announcement parliament",
+      "category": "ekonomi",
+      "photo": {
+        "id": "pb:632851",
+        "provider": "Pixabay",
+        "query": "UK budget announcement parliament",
+        "photographer": "Hermann",
+        "page": "https://pixabay.com/photos/budapest-hungary-632851/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 80,
+      "emoji": "🇪🇺",
+      "title": "Burnham AB ile serbest dolaşım tartışması başlattı",
+      "body": "Başbakan Burnham, İngiltere'nin Avrupa ile serbest dolaşıma dönüş konusunda tartışma çağrısı yapmıştır. Bakanlar ve işletmeciler planı desteklerken, bazı işçi milletvekilleri endişe duyuyor.",
+      "source": "Guardian",
+      "photo_query": "free movement EU border",
+      "category": "goc",
+      "photo": {
+        "id": "pb:5177935",
+        "provider": "Pixabay",
+        "query": "free movement EU border",
+        "photographer": "Alexandra_Koch",
+        "page": "https://pixabay.com/photos/customs-border-opening-of-the-border-5177935/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 13,
+      "emoji": "👑",
+      "title": "Kevin Sinfield'e kraliyet onurlandırması",
+      "body": "Motor nöron hastalığı için kampanya yürüten Sinfield, Windsor Sarayı'nda resmiyetle onurlandırıldı. Prens William, onuru çok önce verilmesi gerektiğini söyledi.",
+      "source": "Evening Standard",
+      "photo_query": "Windsor Castle royal honour ceremony",
+      "category": "kraliyet",
+      "photo": {
+        "id": "pb:792438",
+        "provider": "Pixabay",
+        "query": "Windsor Castle royal honour ceremony",
+        "photographer": "ahundt",
+        "page": "https://pixabay.com/photos/london-park-windsor-castle-792438/",
+        "fallback": false
+      }
+    }
+  ],
+  "history_keys": [
+    "isthegovernmentlegislatingagainstacaricatureofarticle8",
+    "ukhouseholdsurgedtoprepareforemergenciesandattacksinnewgovernmentguidance",
+    "twomenkilledbyfallingtreesasstormboelobattersukwith84mphwinds",
+    "governmentcommitsextra432mtogetroughsleepersoffstreetsbychristmas",
+    "howwillpedestrianisationofuksmostfamousshoppingstreetworkinpractice",
+    "whattimedoesthebudget2026announcementstart",
+    "cabinetministersbackburnhamscallfordebateonreturntofreemovementwitheu",
+    "sirkevinsinfieldshouldhavebeenknightedyearsagowilliamsays"
+  ]
+}
