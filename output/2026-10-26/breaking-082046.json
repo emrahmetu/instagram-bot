@@ -1,0 +1,30 @@
+{
+  "type": "breaking",
+  "created_at": "2026-10-26T08:20:46.326799+00:00",
+  "item": {
+    "ref": 5,
+    "emoji": "🇪🇺",
+    "title": "Başbakan Burnham, 2030'dan itibaren AB'ye yeniden katılmayı açık bıraktı",
+    "body": "Andy Burnham, Başbakan olarak Brexit'in ekonomiye ve göçmen kontrolüne zarar verdiğini söyledi. Hükümet, referandumda önerilenden daha sert bir Brexit uygulanmasından bahsetti. Yeniden katılım olasılığı konusunda kısıtlama getirmemesini önemli bir sinyaldir.",
+    "source": "Evening Standard",
+    "photo_query": "Andy Burnham Prime Minister",
+    "category": "siyaset",
+    "photo": {
+      "id": "pb:5284160",
+      "provider": "Pixabay",
+      "query": "Andy Burnham Prime Minister",
+      "photographer": "NigelCohen",
+      "page": "https://pixabay.com/photos/uk-sunset-calm-sky-spring-nature-5284160/",
+      "fallback": false
+    }
+  },
+  "caption": "🔴 SON DAKİKA | 🇪🇺 Başbakan Burnham, 2030'dan itibaren AB'ye yeniden katılmayı açık bıraktı\n\nAndy Burnham, Başbakan olarak Brexit'in ekonomiye ve göçmen kontrolüne zarar verdiğini söyledi. Hükümet, referandumda önerilenden daha sert bir Brexit uygulanmasından bahsetti. Yeniden katılım olasılığı konusunda kısıtlama getirmemesini önemli bir sinyaldir.\n\nKaynak: Evening Standard | Görsel: Pixabay\nBirleşik Krallık Gündemi | 26 Ekim 08:20\n\n#SonDakika #Brexit #AB #Burnham",
+  "images": [
+    "output/2026-10-26/breaking-082046.jpg"
+  ],
+  "story_image": "output/2026-10-26/breaking-082046-story.jpg",
+  "history_keys": [
+    "andyburnhamleavesopenukrejoiningeufrom2030asheslamsbrexitforlossofbordercontrols"
+  ],
+  "published": false
+}
