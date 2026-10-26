@@ -1,0 +1,30 @@
+{
+  "type": "breaking",
+  "created_at": "2026-10-26T10:20:51.637345+00:00",
+  "item": {
+    "ref": 2,
+    "emoji": "⚕️",
+    "title": "İngiltere'de doktor grevleri Kasım'da başlıyor",
+    "body": "NHS'te görev yapan danışman doktorlar 25 Kasım'da 48 saatlik grev yapacak. Grev, maaş ve emeklilik uyuşmazlığından kaynaklanıyor.",
+    "source": "BBC",
+    "photo_query": "NHS doctor strike protest",
+    "category": "saglik",
+    "photo": {
+      "id": "pb:4891290",
+      "provider": "Pixabay",
+      "query": "NHS doctor strike protest",
+      "photographer": "dmncwndrlch",
+      "page": "https://pixabay.com/photos/demonstration-fridays-for-future-4891290/",
+      "fallback": false
+    }
+  },
+  "caption": "🔴 SON DAKİKA | ⚕️ İngiltere'de doktor grevleri Kasım'da başlıyor\n\nNHS'te görev yapan danışman doktorlar 25 Kasım'da 48 saatlik grev yapacak. Grev, maaş ve emeklilik uyuşmazlığından kaynaklanıyor.\n\nKaynak: BBC | Görsel: Pixabay\nBirleşik Krallık Gündemi | 26 Ekim 10:20\n\n#SonDakika #NHS #Grev",
+  "images": [
+    "output/2026-10-26/breaking-102051.jpg"
+  ],
+  "story_image": "output/2026-10-26/breaking-102051-story.jpg",
+  "history_keys": [
+    "consultantdoctorsinenglandtostrikenextmonth"
+  ],
+  "published": false
+}
