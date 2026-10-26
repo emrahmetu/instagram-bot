@@ -1,0 +1,72 @@
+{
+  "date": "2026-10-26",
+  "category": "abroad",
+  "guides": [
+    {
+      "title": "UK Belgesini Noterlikle Onaylatın",
+      "summary": "Yurt dışında kullanmak üzere UK resmi belgelerinize apostille (uluslararası onay belgesi) alabilirsiniz. Başvuru süreci, belgeler, ücretler ve süreleri hakkında bilgi edinin.",
+      "photo_query": "official documents stamps seals",
+      "cards": [
+        {
+          "title": "Hangi Belgeler Onaylanabilir?",
+          "body": "Mahkemeler, doğum-ölüm-evlilik sertifikaları, hükümet departmanları, doktorlar ve UK noterleri tarafından imzalanan belgeler onaylanabilir. Power of attorney, sözleşme, diploma gibi belgelerle pasaport/ehliyet kopyaları da kabul edilir."
+        },
+        {
+          "title": "Ücretler ve Süreleri",
+          "body": "Standart kağıt apostille £45 + kargo, e-Apostille £35, 2 iş günü içinde hazır. Standart kağıt için 25 iş günü sürebilir. İşletmeler için hızlandırılmış seçenekler mevcuttur."
+        },
+        {
+          "title": "Nasıl Başvuracaksınız?",
+          "body": "Online başvuru yapabilirsiniz. Kredi/debit kartınız gerekir. Kağıt apostille için belgeleri posta/kargo ile göndereceğiniz adresi ve damga masraflarını kontrol edin. Ayrıntılar için GOV.UK sayfasına bakın."
+        }
+      ],
+      "url": "https://www.gov.uk/get-document-legalised",
+      "photo": {
+        "id": "pb:866100",
+        "provider": "Pixabay",
+        "query": "official documents stamps seals",
+        "photographer": "stux",
+        "page": "https://pixabay.com/photos/certificate-bavaria-notary-866100/",
+        "fallback": false
+      }
+    },
+    {
+      "title": "Online UK Pasaport Başvurusu",
+      "summary": "Yeni pasaport almak, mevcut pasaportunuzu yenilemek veya güncellenmek için online başvuru yapabilirsiniz. Maliyetler, süreler ve başvuru adımları hakkında bilgi alın.",
+      "photo_query": "UK passport travel document",
+      "cards": [
+        {
+          "title": "Online Başvuru Avantajları",
+          "body": "Online başvuru yapmak posta ile başvuru yapmaktan £13.50 daha ucuzdur. Kredi veya debit kartınız olması yeterlidir. Post Office'teki dijital Check and Send hizmetiyle yardım da alabilirsiniz."
+        },
+        {
+          "title": "Süreler ve Acil Seçenekler",
+          "body": "Başvuru yapmadan önce işlem süresini kontrol edin. Acil durumda Online Premium veya 1 Week Fast Track hizmetlerinden yararlanabilirsiniz. Yeni pasaportunuz eski pasaportunuzdan farklı numara taşıyacaktır."
+        },
+        {
+          "title": "Önemli Hatırlatmalar",
+          "body": "Geçerli bir pasaportunuz olana kadar seyahat planlamayın. Bordo veya kapağında 'European Union' yazılı eski pasaportlarınız son kullanma tarihi gelene kadar geçerlidir. Ayrıntılar için GOV.UK sayfasına bakın."
+        }
+      ],
+      "url": "https://www.gov.uk/apply-renew-passport",
+      "photo": {
+        "id": "pb:2642170",
+        "provider": "Pixabay",
+        "query": "UK passport travel document",
+        "photographer": "cytis",
+        "page": "https://pixabay.com/photos/passport-flag-travel-visa-2642170/",
+        "fallback": false
+      }
+    }
+  ],
+  "images": [
+    "output/2026-10-26/rehber/00.jpg",
+    "output/2026-10-26/rehber/01.jpg",
+    "output/2026-10-26/rehber/02.jpg",
+    "output/2026-10-26/rehber/03.jpg",
+    "output/2026-10-26/rehber/04.jpg",
+    "output/2026-10-26/rehber/05.jpg",
+    "output/2026-10-26/rehber/06.jpg"
+  ],
+  "caption": "📘 Günün Rehberi | Yurt Dışı | 26 Ekim 2026\n\n1. UK Belgesini Noterlikle Onaylatın\nYurt dışında kullanmak üzere UK resmi belgelerinize apostille (uluslararası onay belgesi) alabilirsiniz. Başvuru süreci, belgeler, ücretler ve süreleri hakkında bilgi edinin.\nKaynak: https://www.gov.uk/get-document-legalised\n\n2. Online UK Pasaport Başvurusu\nYeni pasaport almak, mevcut pasaportunuzu yenilemek veya güncellenmek için online başvuru yapabilirsiniz. Maliyetler, süreler ve başvuru adımları hakkında bilgi alın.\nKaynak: https://www.gov.uk/apply-renew-passport\n\nBilgiler GOV.UK'den derlenmiştir (Open Government Licence). Kişisel durumunuz için resmi sayfayı kontrol edin. Görseller: Pixabay.\n\n#İngiltereYaşamı #UK #Pasaport #Legalisation #Belge #Apostille #YurtDışı #Türklerİngiltere #GovUK #BirleşikKrallık"
+}
