@@ -1,0 +1,30 @@
+{
+  "type": "breaking",
+  "created_at": "2026-10-27T13:20:42.576702+00:00",
+  "item": {
+    "ref": 1,
+    "emoji": "💷",
+    "title": "Asgari ücret artıyor ama 18-20 yaş grubuna daha yüksek zam yok",
+    "body": "Maliye Bakanı John Healey, yeni asgari ücret oranlarını bütçede açıklayacak. 18-20 yaşındaki çalışanlar daha yüksek bir artış almayacak. Healey ayrıca hanelerin geçim maliyetini hafifletmeye yönelik önlemleri duyurdu.",
+    "source": "BBC",
+    "photo_query": "UK minimum wage announcement",
+    "category": "ekonomi",
+    "photo": {
+      "id": "pb:10341643",
+      "provider": "Pixabay",
+      "query": "UK minimum wage announcement",
+      "photographer": "Drosera74",
+      "page": "https://pixabay.com/photos/owl-little-owl-bird-nature-10341643/",
+      "fallback": false
+    }
+  },
+  "caption": "🔴 SON DAKİKA | 💷 Asgari ücret artıyor ama 18-20 yaş grubuna daha yüksek zam yok\n\nMaliye Bakanı John Healey, yeni asgari ücret oranlarını bütçede açıklayacak. 18-20 yaşındaki çalışanlar daha yüksek bir artış almayacak. Healey ayrıca hanelerin geçim maliyetini hafifletmeye yönelik önlemleri duyurdu.\n\nKaynak: BBC | Görsel: Pixabay\nBirleşik Krallık Gündemi | 27 Ekim 13:20\n\n#SonDakika #AsgariÜcret #Bütçe2026",
+  "images": [
+    "output/2026-10-27/breaking-132042.jpg"
+  ],
+  "story_image": "output/2026-10-27/breaking-132042-story.jpg",
+  "history_keys": [
+    "minimumwagesettorisebut1820yearoldswillnotgetbiggerincreases"
+  ],
+  "published": false
+}
