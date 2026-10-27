@@ -1,0 +1,30 @@
+{
+  "type": "breaking",
+  "created_at": "2026-10-27T09:21:18.305874+00:00",
+  "item": {
+    "ref": 22,
+    "emoji": "🏪",
+    "title": "Poundland çöküş riskiyle karşı karşıya",
+    "body": "İngiliz indirim perakendecisi Poundland'ın yöneticileri istifa etmek üzere. Şirket, acil satış sürecinde binlerce işin risk altında olduğu bir çöküş tehlikesiyle karşı karşıya.",
+    "source": "Sky News",
+    "photo_query": "",
+    "category": "gundem",
+    "photo": {
+      "id": "pb:4715303",
+      "provider": "Pixabay",
+      "query": "Edinburgh city",
+      "photographer": "bummelhummel",
+      "page": "https://pixabay.com/photos/edinburgh-scotland-road-city-4715303/",
+      "fallback": true
+    }
+  },
+  "caption": "🔴 SON DAKİKA | 🏪 Poundland çöküş riskiyle karşı karşıya\n\nİngiliz indirim perakendecisi Poundland'ın yöneticileri istifa etmek üzere. Şirket, acil satış sürecinde binlerce işin risk altında olduğu bir çöküş tehlikesiyle karşı karşıya.\n\nKaynak: Sky News | Görsel: Pixabay\nBirleşik Krallık Gündemi | 27 Ekim 09:21\n\n#SonDakika #Poundland #İşsizlik",
+  "images": [
+    "output/2026-10-27/breaking-092118.jpg"
+  ],
+  "story_image": "output/2026-10-27/breaking-092118-story.jpg",
+  "history_keys": [
+    "poundlandclosetocollapseasnewdirectorsheadforexit"
+  ],
+  "published": false
+}
