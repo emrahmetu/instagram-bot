@@ -1,0 +1,30 @@
+{
+  "type": "breaking",
+  "created_at": "2026-10-27T11:20:46.262123+00:00",
+  "item": {
+    "ref": 3,
+    "emoji": "💷",
+    "title": "Bazı gıdalarda gümrük vergisi inecek, akaryakıt vergisi dondurulacak",
+    "body": "Maliye Bakanı, ailelere nefes aldırmak için bazı gıdalarda gümrük vergilerini kesecek ve akaryakıt vergisini dondurulacak. Bir dizi küçük açıklamadan oluşan adımlar, John Healey'nin hanelere geçim maliyeti konusunda destek verme sözünün parçası.",
+    "source": "BBC",
+    "photo_query": "Chancellor budget announcement podium",
+    "category": "ekonomi",
+    "photo": {
+      "id": "pb:1836990",
+      "provider": "Pixabay",
+      "query": "Chancellor budget announcement podium",
+      "photographer": "Pexels",
+      "page": "https://pixabay.com/photos/laptop-notebook-business-charts-1836990/",
+      "fallback": false
+    }
+  },
+  "caption": "🔴 SON DAKİKA | 💷 Bazı gıdalarda gümrük vergisi inecek, akaryakıt vergisi dondurulacak\n\nMaliye Bakanı, ailelere nefes aldırmak için bazı gıdalarda gümrük vergilerini kesecek ve akaryakıt vergisini dondurulacak. Bir dizi küçük açıklamadan oluşan adımlar, John Healey'nin hanelere geçim maliyeti konusunda destek verme sözünün parçası.\n\nKaynak: BBC | Görsel: Pixabay\nBirleşik Krallık Gündemi | 27 Ekim 11:20\n\n#SonDakika #Bütçe2026 #EkonomiUK",
+  "images": [
+    "output/2026-10-27/breaking-112046.jpg"
+  ],
+  "story_image": "output/2026-10-27/breaking-112046-story.jpg",
+  "history_keys": [
+    "chancellortocuttariffsonsomefoodandfreezefueldutytogivefamiliesbreathingspace"
+  ],
+  "published": false
+}
