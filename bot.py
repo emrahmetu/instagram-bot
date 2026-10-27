@@ -59,7 +59,8 @@ POST_HOUR_LONDON = int(os.environ.get("POST_HOUR_LONDON", "8"))
 FORCE = os.environ.get("FORCE", "0") == "1"        # elle çalıştırmada saat kontrolünü atla
 COVER_LABEL = os.environ.get("COVER_LABEL", "SABAH BÜLTENİ")
 
-CLAUDE_MODEL = os.environ.get("CLAUDE_MODEL", "claude-haiku-4-5-20251001")
+CLAUDE_MODEL = os.environ.get("CLAUDE_MODEL", "claude-haiku-4-5-20251001")   # haber seçimi (ucuz, hızlı)
+WRITER_MODEL = os.environ.get("WRITER_MODEL", "claude-sonnet-5-5")           # Türkçe yazım ve editörlük
 NEWS_COUNT = max(1, min(9, int(os.environ.get("NEWS_COUNT", "8"))))  # kapak + en fazla 9 = 10 görsel
 BRAND_TITLE = os.environ.get("BRAND_TITLE", "Birleşik Krallık Gündemi")
 BRAND_HANDLE = os.environ.get("BRAND_HANDLE", "@emresterling")
@@ -266,6 +267,22 @@ TERMS = """İsim ve terim kuralları (çok önemli, yanlış çeviri hesabı kü
   yalnızca yukarıdaki özel isimler, kurum adları ve terimler İngilizce kalır. İngilizce cümle yazmak kesinlikle yasak."""
 
 
+STYLE = """Türkçe yazım ve üslup (bir Türk okurun doğal bulacağı dil):
+- Türk haber sitelerinin dilini kullan: kısa, net, etken cümleler. Çeviri kokan kalıplardan kaçın
+  ("-mektedir/-maktadır" yığınları, "değerlendirilmektedir", "olarak görülmektedir", "söz konusu" tekrarı, İngilizce cümle dizilimi).
+  Örnek: "Hükümet yeni kuralları açıkladı." (iyi)  /  "Yeni kurallar hükümet tarafından açıklanmış bulunmaktadır." (kötü)
+- Başlık özne + yüklem içeren, tek bakışta anlaşılan bir haber cümlesi olsun. Başlığı kesik ya da bozuk cümle yapma.
+- Zaman doğru olsun: henüz olmamış şeyi olmuş gibi yazma ("açıklanacak", "planlanıyor", "bekleniyor" ile "açıkladı" farkına dikkat).
+- Birimler: "mph" = "saatte ... mil" (ASLA kilometreye çevirme, ASLA "milyon" yazma). "£" = "... sterlin". "bn" = milyar, "m" = milyon.
+  Sayıları kaynaktaki değerle birebir aynı yaz; yuvarlama ya da tahmin yapma. Ondalık için virgül kullan (3,5).
+- Kişilerin unvanını YALNIZCA kaynakta yazıyorsa kullan; kendi bilginden unvan ekleme (görevler değişmiş olabilir).
+- İngilizce deyimleri kelimesi kelimesine çevirme; anlamını düz Türkçe ile ver (ör. "cap in hand" = "avuç açmak").
+- Kurum adları İngilizce kalır: Met Office, Met Police, Home Office, Ofcom, Ofgem, NHS, HMRC, DWP vb.
+  ("Meteoroloji Dairesi", "Metropoliten Polis" gibi çeviriler YASAK).
+- Yasal/idari terimleri yanlış eşleme: "legalisation/apostille" noter onayı değildir, "apostil" yaz;
+  "council" = belediye, "benefit" = sosyal yardım, "settlement / ILR" = süresiz oturum izni (ILR)."""
+
+
 SYSTEM_PROMPT = """Sen İngiltere'de yaşayan Türk topluluğu için Türkçe haber özeti hazırlayan bir editörsün.
 
 Kurallar:
@@ -284,7 +301,7 @@ Kurallar:
  "hashtags":["#ornek", "..."]}
 hashtags: 8-12 adet, ilgili Türkçe ve İngilizce etiketler (ör. #İngiltere #Londra #UKNews)."""
 
-SYSTEM_PROMPT += "\n\n" + TERMS
+SYSTEM_PROMPT += "\n\n" + TERMS + "\n\n" + STYLE
 
 USER_TEMPLATE = """Aşağıda İngiltere'nin güncel haber başlıkları var (genel haberler son 24 saat, resmi göç kaynakları son 3 gün). Bunlardan en önemli {n} haberi seç ve kurallara göre JSON üret. Her haber için "ref" alanına listedeki numarasını yaz.
 
@@ -345,7 +362,7 @@ Paylaşılacak haber yoksa: {"breaking": false}
 Varsa: {"breaking": true, "ref": listedeki numara, "emoji": "tek emoji", "title": "en fazla 70 karakter", "body": "2-3 cümle, en fazla 300 karakter", "source": "kaynak adı", "category": "goc|ekonomi|siyaset|saglik|guvenlik|hava|spor|magazin|kraliyet|dunya|gundem", "photo_query": "2-4 kelimelik İNGİLİZCE fotoğraf arama terimi", "hashtags": ["#SonDakika", "..."]}"""
 
 
-BREAKING_PROMPT += "\n\n" + TERMS
+BREAKING_PROMPT += "\n\n" + TERMS + "\n\n" + STYLE
 
 
 def judge_breaking(items, already=()):
@@ -402,7 +419,7 @@ def ensure_turkish(it):
         import anthropic
 
         msg = anthropic.Anthropic().messages.create(
-            model=CLAUDE_MODEL, max_tokens=600, system=TRANSLATE_PROMPT + "\n\n" + TERMS,
+            model=WRITER_MODEL, max_tokens=600, system=TRANSLATE_PROMPT + "\n\n" + TERMS + "\n\n" + STYLE,
             messages=[{"role": "user", "content": json.dumps({"title": it["title"], "body": it["body"]}, ensure_ascii=False)}],
         )
         out = parse_json("".join(b.text for b in msg.content if getattr(b, "type", "") == "text"))
@@ -414,6 +431,109 @@ def ensure_turkish(it):
         log(f"[dil] Çeviri başarısız: {e}")
     log(f"[dil] Türkçeye çevrilemediği için elendi: {it['title']}")
     return False
+
+
+_MULT = {"bin": 1e3, "milyon": 1e6, "milyar": 1e9, "trilyon": 1e12, "k": 1e3, "m": 1e6, "bn": 1e9,
+         "million": 1e6, "billion": 1e9, "trillion": 1e12, "thousand": 1e3}
+
+
+def _num_values(text):
+    """Metindeki sayıları olası değerleriyle çıkarır (Türkçe ve İngilizce ayraçlara göre iki yorum)."""
+    out = []
+    for m in re.finditer(r"(\d+(?:[.,]\d+)*)(?:\s*(bin|milyon|milyar|trilyon|thousand|million|billion|trillion|bn|k|m)\b)?",
+                         text, re.I):
+        raw, unit = m.group(1), (m.group(2) or "").lower()
+        cands = set()
+        for dec, thou in ((",", "."), (".", ",")):
+            t = raw.replace(thou, "").replace(dec, ".")
+            try:
+                cands.add(float(t))
+            except ValueError:
+                pass
+        mult = _MULT.get(unit, 1)
+        vals = {round(v * mult, 6) for v in cands} | {round(v, 6) for v in cands}
+        out.append((m.group(0).strip(), vals, max(cands) if cands else 0))
+    return out
+
+
+def unknown_numbers(text, source):
+    """Türkçe metinde geçip kaynakta karşılığı olmayan sayılar (10 ve üstü; uydurma ya da birim hatası işareti)."""
+    src_vals = set()
+    for _, vals, _ in _num_values(source):
+        src_vals |= vals
+    bad = []
+    for shown, vals, biggest in _num_values(text):
+        if biggest < 10:
+            continue
+        if not (vals & src_vals):
+            bad.append(shown)
+    if re.search(r"mph", source, re.I):   # rüzgâr hızı mil olmalı; km'ye çevrilmiş ya da "milyon" yazılmışsa hata
+        bad += re.findall(r"\d+\s*(?:kilometre|km)\b[^.]{0,12}|\d+\s*milyon\s+hız\w*", text, re.I)
+    return bad
+
+
+EDITOR_PROMPT = """Sen deneyimli bir Türk haber editörüsün. Sana İngilizce kaynak haberler ve bunlardan hazırlanmış Türkçe başlık/metinler verilecek.
+Görevin her Türkçe metni kaynakla karşılaştırıp düzeltmek ve bir Türk okurun gazetede okuyacağı doğallıkta yeniden yazmak.
+
+Kontrol et ve düzelt:
+1. Doğruluk: Kaynakta olmayan bilgi, rakam, unvan, tarih varsa çıkar. Rakamlar ve birimler kaynakla birebir aynı olsun.
+2. Zaman: Olmamış şeyi olmuş gibi yazma (planlanan/beklenen ≠ yapıldı).
+3. Dil: Çeviri kokan, bozuk ya da yarım cümleleri düzelt; doğal, akıcı, kısa Türkçe cümleler kur.
+4. İsim kuralları: Kurum ve özel adlar İngilizce kalır; yalnızca yerleşik karşılığı olan unvanlar çevrilir.
+Anlamı değiştirme, haberi uzatma. Başlık en fazla 70, metin en fazla 300 karakter.
+
+Çıktı SADECE JSON: {"items":[{"id": verilen numara, "title": "...", "body": "..."}]}"""
+
+
+def polish_items(items, sources, note=""):
+    """Türkçe metinleri kaynakla karşılaştırıp WRITER_MODEL ile düzeltir. sources: her öğe için kaynak metin."""
+    if not items or not os.environ.get("ANTHROPIC_API_KEY"):
+        return items
+    import anthropic
+
+    blocks = "\n\n".join(f"### {i}\nKAYNAK: {src}\nTÜRKÇE BAŞLIK: {it['title']}\nTÜRKÇE METİN: {it['body']}"
+                          for i, (it, src) in enumerate(zip(items, sources), 1))
+    try:
+        msg = anthropic.Anthropic().messages.create(
+            model=WRITER_MODEL, max_tokens=3000,
+            system=EDITOR_PROMPT + "\n\n" + TERMS + "\n\n" + STYLE,
+            messages=[{"role": "user", "content": (note + "\n\n" if note else "") + blocks}],
+        )
+        out = parse_json("".join(b.text for b in msg.content if getattr(b, "type", "") == "text"))
+    except Exception as e:
+        log(f"[editör] Düzeltme yapılamadı, ilk metin kullanılıyor: {e}")
+        return items
+    for o in out.get("items", []):
+        try:
+            it = items[int(o["id"]) - 1]
+        except (KeyError, ValueError, IndexError, TypeError):
+            continue
+        t, b = clean(o.get("title", ""))[:90], clean(o.get("body", ""))[:320]
+        if t and b:
+            it["title"], it["body"] = t, b
+    return items
+
+
+def verify_items(items, sources):
+    """Editör sonrası rakam kontrolü: kaynakta olmayan rakam kalırsa bir kez daha düzelttirir, yine kalırsa haberi eler."""
+    items = polish_items(items, sources)
+    bad = {i: unknown_numbers(it["title"] + " " + it["body"], src) for i, (it, src) in enumerate(zip(items, sources))}
+    bad = {i: b for i, b in bad.items() if b}
+    if bad:
+        idx = list(bad)
+        note = "DİKKAT: Aşağıdaki metinlerde kaynakta OLMAYAN rakamlar var, bunları kaynağa göre düzelt ya da çıkar: " + "; ".join(
+            f"{n + 1}. metin: {', '.join(bad[i])}" for n, i in enumerate(idx))
+        sub = polish_items([items[i] for i in idx], [sources[i] for i in idx], note)
+        for i, it in zip(idx, sub):
+            items[i] = it
+    keep = []
+    for it, src in zip(items, sources):
+        left = unknown_numbers(it["title"] + " " + it["body"], src)
+        if left:
+            log(f"[doğrulama] Kaynakta olmayan rakam ({', '.join(left)}) nedeniyle elendi: {it['title']}")
+            continue
+        keep.append(it)
+    return keep
 
 
 def same_story(title, earlier):
@@ -941,6 +1061,11 @@ def cmd_prepare(args):
         source_items = fetch_news()
         data = summarize(source_items, NEWS_COUNT)
     items, tags = normalize(data, NEWS_COUNT)
+    if source_items:
+        srcs = [(lambda s_: f"{s_['title']} — {s_['summary']}")(source_items[it["ref"] - 1])
+                if it.get("ref") and 1 <= it["ref"] <= len(source_items) else "" for it in items]
+        pairs = [(it, s_) for it, s_ in zip(items, srcs) if s_]
+        items = verify_items([p[0] for p in pairs], [p[1] for p in pairs])
     items = [it for it in items if ensure_turkish(it)]
     history_keys = [title_key(source_items[it["ref"] - 1]["title"]) for it in items
                     if it.get("ref") and 1 <= it["ref"] <= len(source_items)]
@@ -1217,6 +1342,9 @@ def cmd_breaking(args):
         log(f"{len(new_items)} yeni başlık değerlendirildi, son dakika niteliğinde haber yok.")
         return
     items, tags = normalize({"items": [data], "hashtags": data.get("hashtags", [])}, 1)
+    if items and new_items and items[0].get("ref") and 1 <= items[0]["ref"] <= len(new_items):
+        src = new_items[items[0]["ref"] - 1]
+        items = verify_items(items, [f"{src['title']} — {src['summary']}"])
     if not items or not ensure_turkish(items[0]):
         return
     it = items[0]
@@ -1368,19 +1496,28 @@ def fetch_guide(sub):
     raise RuntimeError(f"Okunabilir rehber bulunamadı: {sub.get('base_path')}")
 
 
-GUIDE_PROMPT = """Sen İngiltere'de yaşayan Türk topluluğu için Instagram'da bilgilendirici içerik hazırlayan bir editörsün.
-Sana GOV.UK'den alınmış iki resmi rehber metni verilecek. Her rehber için kaydırmalı (carousel) kartlar hazırla.
+GUIDE_PROMPT = """Sen İngiltere'de yaşayan Türk topluluğu için Instagram'da İNFOGRAFİK içerik hazırlayan bir editörsün.
+Sana GOV.UK'den alınmış iki resmi rehber metni verilecek. Her rehber için iki infografik kartın içeriğini hazırla.
 
 Kurallar:
 - YALNIZCA verilen GOV.UK metnindeki bilgileri kullan. Rakam, tarih, ücret, şart UYDURMA; metinde yoksa yazma.
-- Pratik ve faydalı ol: kim yararlanabilir, şartlar neler, nasıl başvurulur, ücret/süre ne, dikkat edilecekler.
-- Her rehber için TAM 3 kart: her kartta "heading" (en fazla 60 karakter) ve "body" (2-3 cümle, en fazla 260 karakter).
-- Her rehber için "title" (en fazla 70 karakter, ilgi çekici ama abartısız) ve "summary" (açıklama metni için 2-3 cümle).
-- photo_query: rehberi temsil eden MEKÂN ya da NESNE fotoğrafı için 2-4 kelimelik İngilizce arama terimi; kişi adı, yüz yok.
-- Dil sade, anlaşılır Türkçe. Hukuki tavsiye verme; "ayrıntılar için GOV.UK sayfasına bakın" anlayışıyla yaz.
+- İnfografik dili: kısa, net, taranabilir ifadeler. Tam cümle şart değil; her madde en fazla 55 karakter.
+- "key_fact": metindeki en dikkat çekici tek rakam/bilgi (ör. "£4,000", "8 hafta", "18 yaş"); "value" en fazla 12 karakter,
+  "label" en fazla 70 karakter. Metinde uygun rakam yoksa key_fact'i null yap.
+- "sections": TAM 4 kutu. Her kutuda "icon" (şunlardan biri: kim, sart, para, sure, belge, bilgi, basvuru, ev, iletisim,
+  hukuk, saglik, seyahat), "heading" (en fazla 28 karakter) ve 2-3 "points" (her biri en fazla 55 karakter).
+  Uygun başlıklar: Nedir?, Kimler yararlanabilir?, Şartlar, Ne kadar?, Ne kadar sürer?, Gerekli belgeler, Dikkat edin.
+- "steps": nasıl başvurulur/ne yapılır adımları, 3-5 adım; her adımda "heading" (en fazla 32 karakter) ve "text" (en fazla 100 karakter).
+  Metinde süreç anlatılmıyorsa GOV.UK'deki bilgiye dayanan mantıklı sıralı adımlar çıkar, ama bilgi uydurma.
+- "warning": okuyucunun bilmesi gereken tek önemli uyarı (en fazla 140 karakter) ya da null.
+- "title": en fazla 60 karakter, ilgi çekici ama abartısız. "summary": açıklama metni için 2-3 cümle.
+- Dil sade Türkçe. Hukuki tavsiye verme.
 
 Çıktı SADECE JSON:
-{"guides":[{"title":"...","summary":"...","photo_query":"...","cards":[{"heading":"...","body":"..."},{"heading":"...","body":"..."},{"heading":"...","body":"..."}]}],
+{"guides":[{"title":"...","summary":"...","key_fact":{"value":"...","label":"..."},
+  "sections":[{"icon":"kim","heading":"...","points":["...","..."]}, ... 4 adet],
+  "steps":[{"heading":"...","text":"..."}, ...],
+  "warning":"..."}],
  "hashtags":["#İngiltere","..."]}
 hashtags: 8-12 adet, ilgili Türkçe ve İngilizce etiketler."""
 GUIDE_PROMPT += "\n\n" + TERMS
@@ -1392,7 +1529,7 @@ def summarize_guides(guides, label):
     blocks = "\n\n".join(f"### REHBER {i + 1}: {g['title']} ({g['url']})\nAlt başlık: {g['sub_title']}\n"
                          f"Açıklama: {g['description']}\n\n{g['text']}" for i, g in enumerate(guides))
     msg = anthropic.Anthropic().messages.create(
-        model=CLAUDE_MODEL, max_tokens=4000, system=GUIDE_PROMPT,
+        model=WRITER_MODEL, max_tokens=4000, system=GUIDE_PROMPT + "\n\n" + STYLE,
         messages=[{"role": "user", "content": f"Bugünün kategorisi: {label}\n\n{blocks}"}],
     )
     return parse_json("".join(b.text for b in msg.content if getattr(b, "type", "") == "text"))
@@ -1447,6 +1584,145 @@ def build_guide_caption(gs, tags, label, day):
     return "\n".join(parts)[:CAPTION_LIMIT].strip()
 
 
+
+ICONS = {"kim": "☺", "sart": "✓", "para": "£", "sure": "◷", "belge": "▤", "bilgi": "i", "basvuru": "✎",
+         "ev": "⌂", "iletisim": "☎", "hukuk": "⚖", "saglik": "♥", "seyahat": "✈", "uyari": "!"}
+
+
+def tint(color, a):
+    """Rengi beyazla karıştırır (a=0.1 çok açık ton)."""
+    return tuple(int(255 + (c - 255) * a) for c in color)
+
+
+def icon_circle(d, cx, cy, r, key, color):
+    d.ellipse([cx - r, cy - r, cx + r, cy + r], fill=color)
+    g = ICONS.get(key, "i")
+    f = font("bold", int(r * 1.05))
+    bb = d.textbbox((0, 0), g, font=f)
+    d.text((cx - (bb[0] + bb[2]) / 2, cy - (bb[1] + bb[3]) / 2), g, font=f, fill=WHITE)
+
+
+def fit_lines(d, text, kind, max_w, max_lines, start, minimum):
+    size = start
+    while True:
+        f = font(kind, size)
+        lines = wrap(d, no_emoji(text), f, max_w)
+        if len(lines) <= max_lines or size <= minimum:
+            if len(lines) > max_lines:
+                lines = lines[:max_lines]
+                lines[-1] = lines[-1].rstrip(".,;: ") + "…"
+            return f, lines, int(size * 1.28)
+        size -= 2
+
+
+def info_header(d, color, page, total, chip_text):
+    top = 62
+    d.text((MARGIN, top), f"{page:02d} / {total:02d}", font=font("bold", 32), fill=color)
+    brand = upper_tr(BRAND_TITLE)
+    fl = font("regular", 26)
+    d.text((W - MARGIN - d.textlength(brand, font=fl), top + 5), brand, font=fl, fill=MUTED)
+    chip(d, MARGIN, top + 70, chip_text, color, size=26)
+    return top + 140
+
+
+def render_info_overview(g, gi, label, color, page, total, path):
+    img, d = base_canvas(color)
+    y = info_header(d, color, page, total, f"REHBER {gi} · {label}")
+    max_w = W - 2 * MARGIN
+    f, lines, lh = fit_lines(d, g["title"], "bold", max_w, 2, 54, 38)
+    y = draw_lines(d, MARGIN, y, lines, f, lh, INK) + 22
+
+    kf = g.get("key_fact")
+    if kf and kf.get("value"):
+        h = 150
+        d.rounded_rectangle([MARGIN, y, W - MARGIN, y + h], radius=28, fill=tint(color, 0.13))
+        fv, vlines, _ = fit_lines(d, kf["value"], "bold", 360, 1, 76, 44)
+        vw = d.textlength(vlines[0], font=fv)
+        vb = d.textbbox((0, 0), vlines[0], font=fv)
+        d.text((MARGIN + 36, y + (h - (vb[3] - vb[1])) / 2 - vb[1]), vlines[0], font=fv, fill=color)
+        lx = MARGIN + 36 + vw + 32
+        fl, llines, llh = fit_lines(d, kf.get("label", ""), "regular", W - MARGIN - 30 - lx, 3, 30, 22)
+        draw_lines(d, lx, y + (h - llh * len(llines)) / 2, llines, fl, llh, BODY)
+        y += h + 26
+
+    # 2x2 bilgi kutuları
+    gap = 24
+    bottom = H - 140
+    bw = (max_w - gap) // 2
+    bh = (bottom - y - gap) // 2
+    for i, sec in enumerate(g["sections"][:4]):
+        bx = MARGIN + (i % 2) * (bw + gap)
+        by = y + (i // 2) * (bh + gap)
+        d.rounded_rectangle([bx, by, bx + bw, by + bh], radius=26, fill=(252, 250, 246), outline=tint(color, 0.35), width=3)
+        icon_circle(d, bx + 54, by + 56, 30, sec.get("icon", "bilgi"), color)
+        fh, hl, hlh = fit_lines(d, sec.get("heading", ""), "bold", bw - 120, 2, 30, 22)
+        draw_lines(d, bx + 98, by + 56 - hlh * len(hl) / 2, hl, fh, hlh, INK)
+        py = by + 110
+        avail = bh - 125
+        pts = [p for p in sec.get("points", []) if p][:3]
+        for size in range(31, 19, -1):
+            fp = font("regular", size)
+            plh = int(size * 1.3)
+            wrapped = [wrap(d, no_emoji(p), fp, bw - 74) for p in pts]
+            need = sum(len(w) * plh + 10 for w in wrapped)
+            if need <= avail:
+                break
+        for wl in wrapped:
+            if py + plh > by + bh - 12:
+                break
+            d.ellipse([bx + 30, py + plh / 2 - 6, bx + 42, py + plh / 2 + 6], fill=color)
+            for ln in wl:
+                if py + plh > by + bh - 12:
+                    break
+                d.text((bx + 56, py), ln, font=fp, fill=BODY)
+                py += plh
+            py += 10
+    footer(d, "Kaynak: GOV.UK")
+    img.save(path, "JPEG", quality=92, optimize=True)
+
+
+def render_info_steps(g, gi, label, color, page, total, url, path):
+    img, d = base_canvas(color)
+    y = info_header(d, color, page, total, f"NASIL YAPILIR? · REHBER {gi}")
+    max_w = W - 2 * MARGIN
+    f, lines, lh = fit_lines(d, g["title"], "bold", max_w, 2, 46, 34)
+    y = draw_lines(d, MARGIN, y, lines, f, lh, INK) + 30
+
+    warn = g.get("warning")
+    warn_h = 0
+    if warn:
+        fw, wl, wlh = fit_lines(d, warn, "regular", max_w - 130, 3, 28, 22)
+        warn_h = max(110, wlh * len(wl) + 44)
+    bottom = H - 140 - (warn_h + 26 if warn else 0)
+    steps = [s_ for s_ in g["steps"] if s_.get("heading") or s_.get("text")][:5]
+    slot = (bottom - y) / max(1, len(steps))
+    r = 34
+    cx = MARGIN + r
+    # bağlantı çizgisi
+    if len(steps) > 1:
+        d.line([cx, y + r, cx, y + slot * (len(steps) - 1) + r], fill=tint(color, 0.4), width=6)
+    for i, st in enumerate(steps, 1):
+        sy = y + (i - 1) * slot
+        d.ellipse([cx - r, sy, cx + r, sy + 2 * r], fill=color)
+        fnum = font("bold", 34)
+        nb = d.textbbox((0, 0), str(i), font=fnum)
+        d.text((cx - (nb[0] + nb[2]) / 2, sy + r - (nb[1] + nb[3]) / 2), str(i), font=fnum, fill=WHITE)
+        tx = MARGIN + 2 * r + 30
+        fh, hl, hlh = fit_lines(d, st.get("heading", ""), "bold", W - MARGIN - tx, 1, 32, 24)
+        ty = draw_lines(d, tx, sy + 6, hl, fh, hlh, INK) + 4
+        room = max(1, int((slot - (ty - sy) - 14) // 34))
+        fb, bl, blh = fit_lines(d, st.get("text", ""), "regular", W - MARGIN - tx, min(3, room), 27, 21)
+        draw_lines(d, tx, ty, bl, fb, blh, BODY)
+    if warn:
+        wy = H - 140 - warn_h - 10
+        d.rounded_rectangle([MARGIN, wy, W - MARGIN, wy + warn_h], radius=26, fill=tint(BREAKING, 0.12))
+        icon_circle(d, MARGIN + 56, wy + warn_h / 2, 28, "uyari", BREAKING)
+        draw_lines(d, MARGIN + 110, wy + (warn_h - wlh * len(wl)) / 2, wl, fw, wlh, INK)
+    short = url.replace("https://www.", "")
+    footer(d, f"Ayrıntılar: {short}"[:48])
+    img.save(path, "JPEG", quality=92, optimize=True)
+
+
 def cmd_guide(args):
     day = today_london()
     out = OUT_ROOT / day.isoformat() / "rehber"
@@ -1462,13 +1738,26 @@ def cmd_guide(args):
     data = summarize_guides(sources, label)
     gs = []
     for src, g in zip(sources, data.get("guides", [])):
-        cards = [{"title": clean(c.get("heading", ""))[:90], "body": clean(c.get("body", ""))[:320]}
-                 for c in g.get("cards", [])][:3]
-        cards = [c for c in cards if c["title"] and c["body"] and ensure_turkish(c)]
-        if not cards:
+        secs = [{"icon": clean(x.get("icon", "bilgi")).lower(), "heading": clean(x.get("heading", ""))[:40],
+                 "points": [clean(p)[:80] for p in (x.get("points") or []) if clean(p)][:3]}
+                for x in (g.get("sections") or []) if x.get("heading")][:4]
+        steps = [{"heading": clean(x.get("heading", ""))[:50], "text": clean(x.get("text", ""))[:140]}
+                 for x in (g.get("steps") or [])][:5]
+        kf = g.get("key_fact") if isinstance(g.get("key_fact"), dict) else None
+        if kf:
+            kf = {"value": clean(kf.get("value", ""))[:14], "label": clean(kf.get("label", ""))[:90]}
+        item = {"title": clean(g.get("title", src["title"]))[:80], "summary": clean(g.get("summary", ""))[:400],
+                "sections": secs, "steps": steps, "key_fact": kf,
+                "warning": clean(g.get("warning") or "")[:160] or None, "url": src["url"]}
+        alltext = " ".join([item["title"], item["summary"]] + [x["heading"] + " " + " ".join(x["points"]) for x in secs]
+                           + [x["heading"] + " " + x["text"] for x in steps])
+        if len(secs) < 2 or len(steps) < 2:
+            log(f"[rehber] Eksik içerik, atlandı: {item['title']}")
             continue
-        gs.append({"title": clean(g.get("title", src["title"]))[:90], "summary": clean(g.get("summary", ""))[:400],
-                   "photo_query": clean(g.get("photo_query", ""))[:60], "cards": cards, "url": src["url"]})
+        if is_sensitive(alltext) or not is_turkish(alltext):
+            log(f"[rehber] Dil ya da içerik kontrolünden geçmedi, atlandı: {item['title']}")
+            continue
+        gs.append(item)
     if not gs:
         log("Rehber içeriği üretilemedi, bugün rehber postu yok.")
         return
@@ -1478,26 +1767,21 @@ def cmd_guide(args):
     out.mkdir(parents=True, exist_ok=True)
     for old in out.glob("*.jpg"):
         old.unlink()
-    seen_photos = set(load_keys(PHOTOS_FILE))
-    used = set(seen_photos)
     images = []
     p = out / "00.jpg"
     render_guide_cover(gs, label, color, day, p)
     images.append(p.as_posix())
-    total = sum(len(g["cards"]) for g in gs)
-    n = 0
+    total = 1 + 2 * len(gs)
+    page = 1
     for gi, g in enumerate(gs, 1):
-        for ci, c in enumerate(g["cards"]):
-            n += 1
-            it = {"title": c["title"], "body": c["body"], "source": "GOV.UK", "category": color_key,
-                  "photo_query": g["photo_query"], "emoji": "📘"}
-            photo = photo_for(it, used) if ci == 0 else None
-            if photo is not None:
-                g["photo"] = it["photo"]
-            p = out / f"{n:02d}.jpg"
-            render_item(it, n, total, p, photo=photo, label=f"REHBER {gi} · {label}")
-            images.append(p.as_posix())
-    save_keys(PHOTOS_FILE, list(used - seen_photos), keep=400)
+        page += 1
+        p = out / f"{page - 1:02d}.jpg"
+        render_info_overview(g, gi, label, color, page, total, p)
+        images.append(p.as_posix())
+        page += 1
+        p = out / f"{page - 1:02d}.jpg"
+        render_info_steps(g, gi, label, color, page, total, g["url"], p)
+        images.append(p.as_posix())
     post = {"date": day.isoformat(), "category": slug, "guides": gs, "images": images,
             "caption": build_guide_caption(gs, tags, label, day)}
     (out / "post.json").write_text(json.dumps(post, ensure_ascii=False, indent=2), encoding="utf-8")
