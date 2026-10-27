@@ -1,0 +1,30 @@
+{
+  "type": "breaking",
+  "created_at": "2026-10-27T15:20:46.563094+00:00",
+  "item": {
+    "ref": 15,
+    "emoji": "💷",
+    "title": "Hükümet misojiniyle mücadele için 15 milyon sterlinlik fon ayıracak",
+    "body": "Maliye Bakanı, işyerlerinde, okullarda ve kamusal alanlarda misojiniyle mücadele edecek 15 milyon sterlinlik fon ayıracak. Hükümet, \"manosphere\" akımındaki fenomenlerin yükselişinden endişe duyuyor. Fonu, kadın ve eşitlikten sorumlu bakan Bridget Phillipson yönetecek.",
+    "source": "Guardian",
+    "photo_query": "women equality government UK",
+    "category": "gundem",
+    "photo": {
+      "id": "pb:1440679",
+      "provider": "Pixabay",
+      "query": "women equality government UK",
+      "photographer": "Walkerssk",
+      "page": "https://pixabay.com/photos/parliament-building-architecture-1440679/",
+      "fallback": false
+    }
+  },
+  "caption": "🔴 SON DAKİKA | 💷 Hükümet misojiniyle mücadele için 15 milyon sterlinlik fon ayıracak\n\nMaliye Bakanı, işyerlerinde, okullarda ve kamusal alanlarda misojiniyle mücadele edecek 15 milyon sterlinlik fon ayıracak. Hükümet, \"manosphere\" akımındaki fenomenlerin yükselişinden endişe duyuyor. Fonu, kadın ve eşitlikten sorumlu bakan Bridget Phillipson yönetecek.\n\nKaynak: Guardian | Görsel: Pixabay\nBirleşik Krallık Gündemi | 27 Ekim 15:20\n\n#SonDakika #Cinsiyet #Misojinji",
+  "images": [
+    "output/2026-10-27/breaking-152046.jpg"
+  ],
+  "story_image": "output/2026-10-27/breaking-152046-story.jpg",
+  "history_keys": [
+    "ukgovernmenttogive15mtoantimisogynyfundamidmanosphereconcerns"
+  ],
+  "published": false
+}
