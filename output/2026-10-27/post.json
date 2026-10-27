@@ -1,0 +1,164 @@
+{
+  "date": "2026-10-27",
+  "caption": "🇬🇧 Birleşik Krallık Gündemi | 27 Ekim 2026, Salı\n\n1. 🏠 Home Office'in yer değiştirme kararı mahkeme tarafından iptal edildi\nYüksek Mahkeme, Home Office'in iltica başvurusunda bulunan bir anne ve çocuklarını Londra'dan başka yere taşıma kararını geçersiz saymıştır.\n\n2. 🗣️ Viza başvurusu için İngilizce dil sınavı gerekliliği\nViza veya vatandaşlık başvurusunda bulunanlar, SELT (Secure English Language Test) ile İngilizce yetkinliklerini kanıtlamak zorundadır.\n\n3. 💷 Bütçede gıda ve temel ürünlere vergi indirimi\nMaliye Bakanı John Healey, yüz ürünün ithalatına uygulanan vergiyi kaldırarak hanelere rahatlatma sağlamayı planlıyor.\n\n4. 💰 Bakıcılar artık haftalık gelir limitini aşabiliyor\nBakıcı ödeneğinden (Carer's Allowance) yararlananlar, haftalık kazanç limitini aşırken cezaya çarptırılmayacaktır.\n\n5. 🏥 NHS danışman doktorları Kasım'da greve gidiyor\nİngiltere'deki en kıdemli hastane doktorları, ücret ve çalışma saatleri konusundaki anlaşmazlık nedeniyle 25 Kasım'da iki gün grevde bulunacaklardır.\n\n6. 🤖 Home Office, iltica kararlarında gizli yapay zeka kullanıyor\nOpen Rights Group araştırmasına göre, Home Office'in yapay zeka sistemleri gizli şekilde iltica başvuru yaşı tahmini, evlilik dolandırıcılığı tespiti ve telefon içerik analizi gibi görevlerde kullanılmaktadır.\n\n7. ⚽ Harry Kane Ballon d'Or ödülünü kazandı\nİngiliz futbolcu Harry Kane, 2001'de Michael Owen'ın ödülü almış olmasından bu yana ilk kez bir İngiliz oyuncu olarak Ballon d'Or kazanmıştır.\n\n8. 👑 Kral Karayip turunda kölelelik geçmişi hakkında sorular yüzüne bakıyor\nKral III.\n\nKaynaklar: Free Movement, GOV.UK UKVI, BBC, Guardian, Evening Standard. Haberler Türkçe özet olarak derlenmiştir. Görseller: Pixabay.\n\n#İngiltere #Londra #UKNews #İltica #Viza #Bütçe2026 #NHS #YapayZeka #Ballond'Or #KralKarolus #BirleşikKrallık #BrexitUK",
+  "images": [
+    "output/2026-10-27/00.jpg",
+    "output/2026-10-27/01.jpg",
+    "output/2026-10-27/02.jpg",
+    "output/2026-10-27/03.jpg",
+    "output/2026-10-27/04.jpg",
+    "output/2026-10-27/05.jpg",
+    "output/2026-10-27/06.jpg",
+    "output/2026-10-27/07.jpg",
+    "output/2026-10-27/08.jpg"
+  ],
+  "story_image": "output/2026-10-27/story.jpg",
+  "items": [
+    {
+      "ref": 1,
+      "emoji": "🏠",
+      "title": "Home Office'in yer değiştirme kararı mahkeme tarafından iptal edildi",
+      "body": "Yüksek Mahkeme, Home Office'in iltica başvurusunda bulunan bir anne ve çocuklarını Londra'dan başka yere taşıma kararını geçersiz saymıştır. Mahkeme, aileler için belirlenen konaklama yerinin değiştirilmesinin adalet ilkeleriyle uyumlu olmadığını belirtmiştir.",
+      "source": "Free Movement",
+      "photo_query": "UK court building justice",
+      "category": "goc",
+      "photo": {
+        "id": "pb:2225766",
+        "provider": "Pixabay",
+        "query": "UK court building justice",
+        "photographer": "MarkThomas",
+        "page": "https://pixabay.com/photos/us-supreme-court-building-2225766/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 6,
+      "emoji": "🗣️",
+      "title": "Viza başvurusu için İngilizce dil sınavı gerekliliği",
+      "body": "Viza veya vatandaşlık başvurusunda bulunanlar, SELT (Secure English Language Test) ile İngilizce yetkinliklerini kanıtlamak zorundadır. Bu sınav başvuru sürecinin önemli bir parçasıdır.",
+      "source": "GOV.UK UKVI",
+      "photo_query": "English language test exam",
+      "category": "goc",
+      "photo": {
+        "id": "pb:1705198",
+        "provider": "Pixabay",
+        "query": "English language test exam",
+        "photographer": "annemcdon",
+        "page": "https://pixabay.com/photos/ielts-english-language-pass-happy-1705198/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 27,
+      "emoji": "💷",
+      "title": "Bütçede gıda ve temel ürünlere vergi indirimi",
+      "body": "Maliye Bakanı John Healey, yüz ürünün ithalatına uygulanan vergiyi kaldırarak hanelere rahatlatma sağlamayı planlıyor. Hükümet yaşam maliyetine yönelik 'gündelik sorunlara' çözüm aramaktadır.",
+      "source": "BBC",
+      "photo_query": "UK grocery shopping supermarket",
+      "category": "ekonomi",
+      "photo": {
+        "id": "pb:879498",
+        "provider": "Pixabay",
+        "query": "UK grocery shopping supermarket",
+        "photographer": "stevepb",
+        "page": "https://pixabay.com/photos/shopping-spending-till-slip-879498/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 75,
+      "emoji": "💰",
+      "title": "Bakıcılar artık haftalık gelir limitini aşabiliyor",
+      "body": "Bakıcı ödeneğinden (Carer's Allowance) yararlananlar, haftalık kazanç limitini aşırken cezaya çarptırılmayacaktır. Hükümet, binlerce sterlin cezaya maruz kalan bakıcıların durumunu iyileştirmek için yeni bir dijital sistem getirecektir.",
+      "source": "Guardian",
+      "photo_query": "elderly care caregiver support",
+      "category": "gundem",
+      "photo": {
+        "id": "pb:3034960",
+        "provider": "Pixabay",
+        "query": "elderly care caregiver support",
+        "photographer": "geralt",
+        "page": "https://pixabay.com/photos/alzheimers-dementia-man-wheelchair-3034960/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 107,
+      "emoji": "🏥",
+      "title": "NHS danışman doktorları Kasım'da greve gidiyor",
+      "body": "İngiltere'deki en kıdemli hastane doktorları, ücret ve çalışma saatleri konusundaki anlaşmazlık nedeniyle 25 Kasım'da iki gün grevde bulunacaklardır. NHS yöneticileri, hastaların acı çekeceğini ve rahatsız olacağını uyarmaktadır.",
+      "source": "Guardian",
+      "photo_query": "NHS hospital doctor strike",
+      "category": "saglik",
+      "photo": {
+        "id": "pb:9628974",
+        "provider": "Pixabay",
+        "query": "NHS hospital doctor strike",
+        "photographer": "ovariancancer1",
+        "page": "https://pixabay.com/photos/doctor-patient-gynecologist-women-9628974/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 60,
+      "emoji": "🤖",
+      "title": "Home Office, iltica kararlarında gizli yapay zeka kullanıyor",
+      "body": "Open Rights Group araştırmasına göre, Home Office'in yapay zeka sistemleri gizli şekilde iltica başvuru yaşı tahmini, evlilik dolandırıcılığı tespiti ve telefon içerik analizi gibi görevlerde kullanılmaktadır. Aktivistler hükümetin bu uygulamaların detaylarını kamuya açıklaması çağrısında bulunmaktadır.",
+      "source": "Guardian",
+      "photo_query": "artificial intelligence technology data",
+      "category": "goc",
+      "photo": {
+        "id": "pb:3509143",
+        "provider": "Pixabay",
+        "query": "artificial intelligence technology data",
+        "photographer": "geralt",
+        "page": "https://pixabay.com/photos/woman-face-connection-networked-3509143/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 19,
+      "emoji": "⚽",
+      "title": "Harry Kane Ballon d'Or ödülünü kazandı",
+      "body": "İngiliz futbolcu Harry Kane, 2001'de Michael Owen'ın ödülü almış olmasından bu yana ilk kez bir İngiliz oyuncu olarak Ballon d'Or kazanmıştır. Bayern Münih'te parlak performansıyla dünyanın en iyi oyuncusu seçilmiştir.",
+      "source": "BBC",
+      "photo_query": "football award trophy ceremony",
+      "category": "spor",
+      "photo": {
+        "id": "pb:3679610",
+        "provider": "Pixabay",
+        "query": "football award trophy ceremony",
+        "photographer": "analogicus",
+        "page": "https://pixabay.com/photos/oscar-cup-trophy-gold-replica-3679610/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 17,
+      "emoji": "👑",
+      "title": "Kral Karayip turunda kölelelik geçmişi hakkında sorular yüzüne bakıyor",
+      "body": "Kral III. Charles, Karayipler'deki dokuz günlük turunda kölelelik siyaseti konusunda artan taleplere muhatap olmaktadır. Aktivistler krala, monarşinin köle ticaretindeki rolünü daha açıkça kınaması ve özür dilemesi çağrısında bulunmaktadırlar.",
+      "source": "Evening Standard",
+      "photo_query": "King Charles Caribbean royal tour",
+      "category": "kraliyet",
+      "photo": {
+        "id": "pb:7954026",
+        "provider": "Pixabay",
+        "query": "King Charles Caribbean royal tour",
+        "photographer": "pen_ash",
+        "page": "https://pixabay.com/photos/australian-king-parrot-parrot-bird-7954026/",
+        "fallback": false
+      }
+    }
+  ],
+  "history_keys": [
+    "homeofficemustreturnasylumseekingmotherandchildrentolondonafteryoyoaccommodationdispute",
+    "proveyourenglishlanguageabilitieswithasecureenglishlanguagetestselt",
+    "chancellortocuttariffsonsomestaplegoodstooffercostoflivinghelp",
+    "carersallowedtoearnovertheweeklylimitwithoutlosingoutascliffedgeabolishedinthebudget",
+    "nhsconsultantstogoontwodaystrikeinenglandinnovember",
+    "digitalhostileenvironmentaisecretlybeingembeddedacrosshomeofficereportclaims",
+    "adreamcometrueharrykaneonhisballondorwin",
+    "kingbeginstourofcaribbeanascallsgrowforslaveryapology"
+  ]
+}
