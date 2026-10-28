@@ -1,0 +1,30 @@
+{
+  "type": "breaking",
+  "created_at": "2026-10-28T17:21:10.319344+00:00",
+  "item": {
+    "ref": 10,
+    "emoji": "⚡",
+    "title": "Healey, 20 milyon haneye 100 sterlin enerji desteği açıkladı",
+    "body": "John Healey, bütçede Birleşik Krallık'ı \"küresel ekonomik fırtınalardan\" geçireceğine söz verdi. 20 milyon haneye 100 sterlin ödenecek. Paket enerji faturalarını düşürmeyi ve hayat pahalılığını hafifletmeyi hedefliyor; kaynağı bankalara getirilen windfall tax.",
+    "source": "Guardian",
+    "photo_query": "energy bills payment households",
+    "category": "ekonomi",
+    "photo": {
+      "id": "pb:1015125",
+      "provider": "Pixabay",
+      "query": "energy bills payment households",
+      "photographer": "stevepb",
+      "page": "https://pixabay.com/photos/coins-calculator-budget-1015125/",
+      "fallback": false
+    }
+  },
+  "caption": "🔴 SON DAKİKA | ⚡ Healey, 20 milyon haneye 100 sterlin enerji desteği açıkladı\n\nJohn Healey, bütçede Birleşik Krallık'ı \"küresel ekonomik fırtınalardan\" geçireceğine söz verdi. 20 milyon haneye 100 sterlin ödenecek. Paket enerji faturalarını düşürmeyi ve hayat pahalılığını hafifletmeyi hedefliyor; kaynağı bankalara getirilen windfall tax.\n\nKaynak: Guardian | Görsel: Pixabay\nBirleşik Krallık Gündemi | 28 Ekim 17:21\n\n#SonDakika #Bütçe2026 #EnerjiyeYardım",
+  "images": [
+    "output/2026-10-28/breaking-172110.jpg"
+  ],
+  "story_image": "output/2026-10-28/breaking-172110-story.jpg",
+  "history_keys": [
+    "healeygiveshouseholds100tohelpnavigateglobaleconomicstorms"
+  ],
+  "published": false
+}
