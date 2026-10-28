@@ -1,0 +1,164 @@
+{
+  "date": "2026-10-28",
+  "caption": "🇬🇧 Birleşik Krallık Gündemi | 28 Ekim 2026, Çarşamba\n\n1. 🎓 Birleşik Krallık 1 Ocak 2027'de Erasmus Plus'a yeniden katılıyor\nHükümet, Birleşik Krallık'ın 1 Ocak 2027'den itibaren Erasmus Plus programına yeniden katılacağını doğruladı.\n\n2. ✋ UNISON lideri Egan, Home Secretary ile yapılacak görüşmeyi iptal etti\nUNISON Genel Sekreteri Andrea Egan, earned settlement önerilerini görüşecekleri toplantıyı iptal etti.\n\n3. 💷 Maliye Bakanı Healey, 23 milyon evde gaz sabit ücretini kaldıracak\nJohn Healey, Ofgem'den 2027'de ya da kısa süre sonra gaz faturalarındaki 'adaletsiz ve eskimiş' sabit günlük ücreti kaldırmasını isteyecek.\n\n4. 🚫 Border Force, Manchester Airport'ta 4 milyondan fazla kaçak sigara yakaladı\nBorder Force görevlileri Manchester Airport'ta 4 gün süren operasyonda 4 milyondan fazla kaçak sigara ele geçirdi.\n\n5. 👑 Kral Charles, Commonwealth liderleriyle kölelik mirasını görüşecek\nKral Charles, Karayipler turuna başlarken kölelik mirasını Commonwealth liderleriyle zirvede ele alacağını doğruladı.\n\n6. ⚽ Fleetwood Town, penaltılarla Premier League şampiyonu Arsenal'ı eledi\nFleetwood Town, EFL Cup'ta Arsenal'ı penaltılarla eledi.\n\n7. 🌪️ Met Office: İngiltere'de hava 'büyük bir değişim' yaşayacak\nMet Office, ölümcül fırtınaların ardından Birleşik Krallık'ta havanın belirgin biçimde değişeceğini açıkladı.\n\n8. 🛑 78 yaşındaki gönüllü: Reform UK'li meclis üyesi beni Nazi işbirlikçisine benzetti\nMair Godley, sığınmacılara İngilizce öğrettiği için Reform UK'li meclis üyesi Carl Johnson'ın kendisine 'işgali kolaylaştırıyorsun' dediğini ve Nazi işbirlikçisine benzettiğini öne sürdü.\n\nKaynaklar: The Independent, Free Movement, Guardian, GOV.UK Home Office, BBC Sport. Haberler Türkçe özet olarak derlenmiştir. Görseller: Pixabay.\n\n#İngiltere #UKNews #Londra #Göç #Bütçe2026 #EnerjiKriziİngiltere #Sport #KralCharles #BirleşikKrallık #HaberÖzeti",
+  "images": [
+    "output/2026-10-28/00.jpg",
+    "output/2026-10-28/01.jpg",
+    "output/2026-10-28/02.jpg",
+    "output/2026-10-28/03.jpg",
+    "output/2026-10-28/04.jpg",
+    "output/2026-10-28/05.jpg",
+    "output/2026-10-28/06.jpg",
+    "output/2026-10-28/07.jpg",
+    "output/2026-10-28/08.jpg"
+  ],
+  "story_image": "output/2026-10-28/story.jpg",
+  "items": [
+    {
+      "ref": 20,
+      "emoji": "🎓",
+      "title": "Birleşik Krallık 1 Ocak 2027'de Erasmus Plus'a yeniden katılıyor",
+      "body": "Hükümet, Birleşik Krallık'ın 1 Ocak 2027'den itibaren Erasmus Plus programına yeniden katılacağını doğruladı. Genç Britler gelecek ay itibarıyla AB'de çalışmak veya eğitim görmek için başvuru yapabilecek.",
+      "source": "The Independent",
+      "photo_query": "Erasmus student exchange Europe",
+      "category": "goc",
+      "photo": {
+        "id": "pb:2655111",
+        "provider": "Pixabay",
+        "query": "Erasmus student exchange Europe",
+        "photographer": "djedj",
+        "page": "https://pixabay.com/photos/city-cityscape-aerial-view-bridge-2655111/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 2,
+      "emoji": "✋",
+      "title": "UNISON lideri Egan, Home Secretary ile yapılacak görüşmeyi iptal etti",
+      "body": "UNISON Genel Sekreteri Andrea Egan, earned settlement önerilerini görüşecekleri toplantıyı iptal etti. Sendikaya, katılması beklenen bir göçmen işçinin toplantıya alınmayacağı bildirilmişti. Egan kararı 'korkakça ve siyaseten açıklanamaz' diye niteledi.",
+      "source": "Free Movement",
+      "photo_query": "immigration meeting government office",
+      "category": "goc",
+      "photo": {
+        "id": "pb:2181960",
+        "provider": "Pixabay",
+        "query": "immigration meeting government office",
+        "photographer": "Pexels",
+        "page": "https://pixabay.com/photos/chairs-table-contemporary-furniture-2181960/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 24,
+      "emoji": "💷",
+      "title": "Maliye Bakanı Healey, 23 milyon evde gaz sabit ücretini kaldıracak",
+      "body": "John Healey, Ofgem'den 2027'de ya da kısa süre sonra gaz faturalarındaki 'adaletsiz ve eskimiş' sabit günlük ücreti kaldırmasını isteyecek. Healey'ye göre hanelerin üçte ikisi yılda ortalama 45 sterlin tasarruf edecek.",
+      "source": "Guardian",
+      "photo_query": "gas bill UK household",
+      "category": "ekonomi",
+      "photo": {
+        "id": "pb:7592322",
+        "provider": "Pixabay",
+        "query": "gas bill UK household",
+        "photographer": "fotoblend",
+        "page": "https://pixabay.com/photos/money-coins-energy-electricity-7592322/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 11,
+      "emoji": "🚫",
+      "title": "Border Force, Manchester Airport'ta 4 milyondan fazla kaçak sigara yakaladı",
+      "body": "Border Force görevlileri Manchester Airport'ta 4 gün süren operasyonda 4 milyondan fazla kaçak sigara ele geçirdi. Sigaraların tahmini değeri 2,59 milyon sterlin.",
+      "source": "GOV.UK Home Office",
+      "photo_query": "Border Force customs airport",
+      "category": "guvenlik",
+      "photo": {
+        "id": "pb:1905281",
+        "provider": "Pixabay",
+        "query": "Border Force customs airport",
+        "photographer": "12019",
+        "page": "https://pixabay.com/photos/motorcycle-transportation-emblem-1905281/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 41,
+      "emoji": "👑",
+      "title": "Kral Charles, Commonwealth liderleriyle kölelik mirasını görüşecek",
+      "body": "Kral Charles, Karayipler turuna başlarken kölelik mirasını Commonwealth liderleriyle zirvede ele alacağını doğruladı. Kral salı günü Bahamalar'a ulaştı ve Clifford Park'ta düzenlenen gençlik buluşmasına katıldı.",
+      "source": "Guardian",
+      "photo_query": "King Charles Caribbean tour",
+      "category": "kraliyet",
+      "photo": {
+        "id": "pb:2785074",
+        "provider": "Pixabay",
+        "query": "King Charles Caribbean tour",
+        "photographer": "PicsbyFran",
+        "page": "https://pixabay.com/photos/puppy-pet-canine-dog-animal-lying-2785074/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 27,
+      "emoji": "⚽",
+      "title": "Fleetwood Town, penaltılarla Premier League şampiyonu Arsenal'ı eledi",
+      "body": "Fleetwood Town, EFL Cup'ta Arsenal'ı penaltılarla eledi. Teknik direktör Matt Lawlor sevincini gizleyemedi ve rakibi 'ülkenin en iyi takımı' diye niteledi.",
+      "source": "BBC Sport",
+      "photo_query": "Fleetwood Town football stadium",
+      "category": "spor",
+      "photo": {
+        "id": "pb:488718",
+        "provider": "Pixabay",
+        "query": "Fleetwood Town football stadium",
+        "photographer": "jarmoluk",
+        "page": "https://pixabay.com/photos/ball-soccer-ball-soccer-football-488718/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 45,
+      "emoji": "🌪️",
+      "title": "Met Office: İngiltere'de hava 'büyük bir değişim' yaşayacak",
+      "body": "Met Office, ölümcül fırtınaların ardından Birleşik Krallık'ta havanın belirgin biçimde değişeceğini açıkladı. Son fırtınalarda 3 kişi hayatını kaybetmişti.",
+      "source": "The Independent",
+      "photo_query": "UK storm weather extreme",
+      "category": "hava",
+      "photo": {
+        "id": "pb:8002720",
+        "provider": "Pixabay",
+        "query": "UK storm weather extreme",
+        "photographer": "ELG21",
+        "page": "https://pixabay.com/photos/sea-beach-sand-storm-clouds-8002720/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 58,
+      "emoji": "🛑",
+      "title": "78 yaşındaki gönüllü: Reform UK'li meclis üyesi beni Nazi işbirlikçisine benzetti",
+      "body": "Mair Godley, sığınmacılara İngilizce öğrettiği için Reform UK'li meclis üyesi Carl Johnson'ın kendisine 'işgali kolaylaştırıyorsun' dediğini ve Nazi işbirlikçisine benzettiğini öne sürdü.",
+      "source": "Guardian",
+      "photo_query": "English language lesson class",
+      "category": "siyaset",
+      "photo": {
+        "id": "pb:5550480",
+        "provider": "Pixabay",
+        "query": "English language lesson class",
+        "photographer": "Mohamed_hassan",
+        "page": "https://pixabay.com/photos/virtual-learning-online-learn-5550480/",
+        "fallback": false
+      }
+    }
+  ],
+  "history_keys": [
+    "youngbritscanapplytoworkorstudyintheeufromnextmonthasukrejoinserasmus",
+    "freemovementweeklyimmigrationnewsletter142",
+    "johnhealeytoendstandingchargesongasbillsfor23mhomes",
+    "fourmillionillegalcigarettesseizedinborderforcecrackdown",
+    "kingcharlestodiscusslegacyofslaverywithcommonwealthleadersatsummit",
+    "lawlordelightedafterbeatingbestteaminthecountry",
+    "metofficesaysuktoseebigflipintheweatherafterdeadlystormsbattercountry",
+    "volunteer78saysreformofficiallikenedhertonazicollaboratorforteachingasylumseekersenglish"
+  ]
+}
