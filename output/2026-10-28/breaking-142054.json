@@ -1,0 +1,30 @@
+{
+  "type": "breaking",
+  "created_at": "2026-10-28T14:20:54.656850+00:00",
+  "item": {
+    "ref": 5,
+    "emoji": "📊",
+    "title": "Home Office, vize sahiplerinin gelir ve istihdam verilerini yayımladı",
+    "body": "Home Office, Mart 2026'da biten yıla ilişkin vize sahiplerinin kazanç, istihdam ve gelir vergisi istatistiklerini yayımladı. Analiz, Home Office vize kayıtları ile HMRC'nin PAYE RTI verilerinin eşleştirilmesine dayanıyor. Veriler hem ana başvuru sahiplerini hem de bakmakla yükümlü olunan kişileri kapsıyor.",
+    "source": "GOV.UK Home Office",
+    "photo_query": "UK visa statistics employment data",
+    "category": "goc",
+    "photo": {
+      "id": "pb:2779164",
+      "provider": "Pixabay",
+      "query": "UK visa statistics employment data",
+      "photographer": "Goumbik",
+      "page": "https://pixabay.com/photos/chart-graph-finance-financial-data-2779164/",
+      "fallback": false
+    }
+  },
+  "caption": "🔴 SON DAKİKA | 📊 Home Office, vize sahiplerinin gelir ve istihdam verilerini yayımladı\n\nHome Office, Mart 2026'da biten yıla ilişkin vize sahiplerinin kazanç, istihdam ve gelir vergisi istatistiklerini yayımladı. Analiz, Home Office vize kayıtları ile HMRC'nin PAYE RTI verilerinin eşleştirilmesine dayanıyor. Veriler hem ana başvuru sahiplerini hem de bakmakla yükümlü olunan kişileri kapsıyor.\n\nKaynak: GOV.UK Home Office | Görsel: Pixabay\nBirleşik Krallık Gündemi | 28 Ekim 14:20\n\n#SonDakika #Göç #İstihdam",
+  "images": [
+    "output/2026-10-28/breaking-142054.jpg"
+  ],
+  "story_image": "output/2026-10-28/breaking-142054-story.jpg",
+  "history_keys": [
+    "officialstatisticsvisaholderearningsemploymentandincometaxstatisticsyearendingmarch2026"
+  ],
+  "published": false
+}
