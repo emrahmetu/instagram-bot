@@ -1,0 +1,30 @@
+{
+  "type": "breaking",
+  "created_at": "2026-10-28T13:13:05.845100+00:00",
+  "item": {
+    "ref": 3,
+    "emoji": "⚡",
+    "title": "Healey elektrik faturalarındaki sabit ücreti kaldırmak istiyor",
+    "body": "Martin Lewis'e göre Maliye Bakanı John Healey, gaz faturalarındaki sabit ücretleri kaldırdıktan sonra elektrik faturalarında da aynısını yapmak istiyor. Healey'nin bunun için Ofgem ile görüşeceği belirtildi.",
+    "source": "Guardian",
+    "photo_query": "UK energy bills electricity",
+    "category": "ekonomi",
+    "photo": {
+      "id": "pb:6745314",
+      "provider": "Pixabay",
+      "query": "UK energy bills electricity",
+      "photographer": "SailingOnChocolateRoses",
+      "page": "https://pixabay.com/photos/windmills-energy-power-source-6745314/",
+      "fallback": false
+    }
+  },
+  "caption": "🔴 SON DAKİKA | ⚡ Healey elektrik faturalarındaki sabit ücreti kaldırmak istiyor\n\nMartin Lewis'e göre Maliye Bakanı John Healey, gaz faturalarındaki sabit ücretleri kaldırdıktan sonra elektrik faturalarında da aynısını yapmak istiyor. Healey'nin bunun için Ofgem ile görüşeceği belirtildi.\n\nKaynak: Guardian | Görsel: Pixabay\nBirleşik Krallık Gündemi | 28 Ekim 13:13\n\n#SonDakika #Bütçe2026 #EnerjiTabanı",
+  "images": [
+    "output/2026-10-28/breaking-131305.jpg"
+  ],
+  "story_image": "output/2026-10-28/breaking-131305-story.jpg",
+  "history_keys": [
+    "budget2026livehealeyannounces100energypaymentformillionsinbudget"
+  ],
+  "published": false
+}
