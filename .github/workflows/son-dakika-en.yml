@@ -1,0 +1,83 @@
+name: Instagram EN Son Dakika Kontrolü (@emresterlin)
+
+on:
+  schedule:
+    # Saat başı :50'de (Türkçe hesabın :20 kontrolüyle çakışmasın). Bot Londra saatine bakar:
+    # 08:00–22:00 dışında kontrol yapmaz, günde en fazla 10 ara paylaşım yapar.
+    - cron: "50 6-22 * * *"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Deneme: kart üret ama Instagram'a gönderme"
+        type: boolean
+        default: true
+      force:
+        description: "Saat kontrolünü atla (elle çalıştırırken açık kalsın)"
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: instagram-post-en          # sabah bülteniyle aynı anda çalışmasın
+  cancel-in-progress: false
+
+jobs:
+  breaking:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      BOT_LANG: en            # İngilizce hesap: kayıtlar output-en/ klasöründe
+      BREAKING_MAX_PER_DAY: 10   # günde en fazla 10 son dakika postu
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Font ve kütüphaneleri kur
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq fonts-dejavu-core
+          pip install -q -r requirements.txt
+
+      - name: Yeni başlıkları kontrol et
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+          PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
+          FORCE: ${{ (github.event_name == 'workflow_dispatch' && inputs.force) && '1' || '0' }}
+        run: python bot.py breaking
+
+      - name: Kartı depoya yükle
+        id: push
+        run: |
+          git config user.name "instagram-bot"
+          git config user.email "instagram-bot@users.noreply.github.com"
+          mkdir -p output-en && git add output-en
+          if git diff --cached --quiet; then
+            echo "Değişiklik yok."
+          else
+            git commit -q -m "EN son dakika kontrolü $(date -u +%F' '%H:%M)"
+            for i in 1 2 3; do if git pull --rebase -X theirs -q origin "${GITHUB_REF_NAME}" && git push -q; then ok=1; break; fi; git rebase --abort 2>/dev/null || true; sleep 5; done; [ "$ok" = 1 ] || exit 1
+          fi
+          echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+
+      - name: Instagram'a yayınla
+        env:
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN_EN || secrets.IG_ACCESS_TOKEN }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID_EN }}
+          EXPECTED_IG_USERNAME: ${{ vars.EXPECTED_IG_USERNAME_EN }}
+          IMAGE_BASE_URL: https://raw.githubusercontent.com/${{ github.repository }}/${{ steps.push.outputs.sha }}
+          DRY_RUN: ${{ (github.event_name == 'workflow_dispatch' && inputs.dry_run) && '1' || '0' }}
+        run: python bot.py breaking-publish
+
+      - name: Yayın kaydını sakla
+        if: always()
+        run: |
+          mkdir -p output-en && git add output-en
+          if ! git diff --cached --quiet; then
+            git commit -q -m "EN son dakika kaydı $(date -u +%F' '%H:%M)"
+            for i in 1 2 3; do if git pull --rebase -X theirs -q origin "${GITHUB_REF_NAME}" && git push -q; then ok=1; break; fi; git rebase --abort 2>/dev/null || true; sleep 5; done; [ "$ok" = 1 ] || exit 1
+          fi
