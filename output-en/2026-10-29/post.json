@@ -1,0 +1,164 @@
+{
+  "date": "2026-10-29",
+  "caption": "🇬🇧 UK Daily Briefing | Thursday, 29 October 2026\n\n1. 💷 Healey unveils £100 towards energy bills and bank tax in first Budget\nChancellor Healey announced £100 towards energy bills and a tax on banks in his first Budget, aimed at easing the cost of living. Opposition parties say he has not been bold enough.\n\n2. 🚭 Scotland bans sale of nicotine products to under-18s\nThe ban forms part of the Tobacco and Vapes Act 2026.\n\n3. 🎓 Government to allow two-year graduate visa for 'high-compliance' universities\nThe government will also expand the 'high potential individual' visa route to the top 150 global institutions, as part of efforts to attract 'the world's best graduates'.\n\n4. ⚖️ New respect orders come into force to target antisocial behaviour\nPerpetrators of antisocial behaviour could face tougher restrictions as new respect orders come into force across England and Wales today.\n\n5. ✈️ More than 4m illegal cigarettes seized at Manchester Airport\nBorder Force officers seized more than 4 million illegal cigarettes, worth an estimated £2.59 million, during a four-day crackdown at Manchester Airport.\n\n6. 💰 Households in Wales will receive £100 energy payment, minister confirms\nWales's finance minister has confirmed the £100 payment to help with bills. The Chancellor announced it in Wednesday's Budget, telling MPs the devolved nations would receive \"their share\" of funding.\n\n7. ⚽ Russo hat-trick makes her England's top Women's Champions League scorer\nAlessia Russo scored a hat-trick in Arsenal's 3-0 win over Benfica, becoming England's all-time leading goalscorer in the Women's Champions League.\n\n8. 👑 King Charles shows off dance moves on second day of Caribbean tour\nEarlier in the day, the King paid his respects to the island's fallen servicemen and women.\n\nSources: BBC, The Independent, GOV.UK Home Office, Nation.Cymru, BBC Sport. Stories summarised from UK media reports. Images: Pixabay.\n\n#UKBudget #CostOfLiving #UKNews #Energy #Wales #Scotland #Immigration #Football #RoyalTour #PublicServices",
+  "images": [
+    "output-en/2026-10-29/00.jpg",
+    "output-en/2026-10-29/01.jpg",
+    "output-en/2026-10-29/02.jpg",
+    "output-en/2026-10-29/03.jpg",
+    "output-en/2026-10-29/04.jpg",
+    "output-en/2026-10-29/05.jpg",
+    "output-en/2026-10-29/06.jpg",
+    "output-en/2026-10-29/07.jpg",
+    "output-en/2026-10-29/08.jpg"
+  ],
+  "story_image": "output-en/2026-10-29/story.jpg",
+  "items": [
+    {
+      "ref": 95,
+      "emoji": "💷",
+      "title": "Healey unveils £100 towards energy bills and bank tax in first Budget",
+      "body": "Chancellor Healey announced £100 towards energy bills and a tax on banks in his first Budget, aimed at easing the cost of living. Opposition parties say he has not been bold enough.",
+      "source": "BBC",
+      "photo_query": "UK parliament building Westminster",
+      "category": "ekonomi",
+      "photo": {
+        "id": "pb:66499",
+        "provider": "Pixabay",
+        "query": "UK parliament building Westminster",
+        "photographer": "tobatoppers",
+        "page": "https://pixabay.com/photos/big-ben-london-tower-building-66499/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 39,
+      "emoji": "🚭",
+      "title": "Scotland bans sale of nicotine products to under-18s",
+      "body": "The ban forms part of the Tobacco and Vapes Act 2026.",
+      "source": "The Independent",
+      "photo_query": "tobacco vaping products retail display",
+      "category": "saglik",
+      "photo": {
+        "id": "pb:1853924",
+        "provider": "Pixabay",
+        "query": "tobacco vaping products retail display",
+        "photographer": "Pexels",
+        "page": "https://pixabay.com/photos/open-illuminated-light-neon-light-1853924/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 51,
+      "emoji": "🎓",
+      "title": "Government to allow two-year graduate visa for 'high-compliance' universities",
+      "body": "The government will also expand the 'high potential individual' visa route to the top 150 global institutions, as part of efforts to attract 'the world's best graduates'.",
+      "source": "The Independent",
+      "photo_query": "UK university campus students graduation",
+      "category": "goc",
+      "photo": {
+        "id": "pb:2727298",
+        "provider": "Pixabay",
+        "query": "UK university campus students graduation",
+        "photographer": "ptksgc",
+        "page": "https://pixabay.com/photos/students-graduate-friends-young-2727298/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 20,
+      "emoji": "⚖️",
+      "title": "New respect orders come into force to target antisocial behaviour",
+      "body": "Perpetrators of antisocial behaviour could face tougher restrictions as new respect orders come into force across England and Wales today.",
+      "source": "GOV.UK Home Office",
+      "photo_query": "UK police officer community patrol",
+      "category": "guvenlik",
+      "photo": {
+        "id": "pb:4020582",
+        "provider": "Pixabay",
+        "query": "UK police officer community patrol",
+        "photographer": "Chronomarchie",
+        "page": "https://pixabay.com/photos/dps-traffic-inspector-4020582/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 22,
+      "emoji": "✈️",
+      "title": "More than 4m illegal cigarettes seized at Manchester Airport",
+      "body": "Border Force officers seized more than 4 million illegal cigarettes, worth an estimated £2.59 million, during a four-day crackdown at Manchester Airport.",
+      "source": "GOV.UK Home Office",
+      "photo_query": "airport border control checkpoint",
+      "category": "guvenlik",
+      "photo": {
+        "id": "pb:9231459",
+        "provider": "Pixabay",
+        "query": "airport border control checkpoint",
+        "photographer": "Mollyroselee",
+        "page": "https://pixabay.com/photos/airplane-airport-travel-9231459/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 58,
+      "emoji": "💰",
+      "title": "Households in Wales will receive £100 energy payment, minister confirms",
+      "body": "Wales's finance minister has confirmed the £100 payment to help with bills. The Chancellor announced it in Wednesday's Budget, telling MPs the devolved nations would receive \"their share\" of funding.",
+      "source": "Nation.Cymru",
+      "photo_query": "Welsh flag building Wales",
+      "category": "ekonomi",
+      "photo": {
+        "id": "pb:2235589",
+        "provider": "Pixabay",
+        "query": "Welsh flag building Wales",
+        "photographer": "MargaretD",
+        "page": "https://pixabay.com/photos/cardiff-castle-castle-tower-2235589/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 55,
+      "emoji": "⚽",
+      "title": "Russo hat-trick makes her England's top Women's Champions League scorer",
+      "body": "Alessia Russo scored a hat-trick in Arsenal's 3-0 win over Benfica, becoming England's all-time leading goalscorer in the Women's Champions League.",
+      "source": "BBC Sport",
+      "photo_query": "Arsenal women football team stadium",
+      "category": "spor",
+      "photo": {
+        "id": "pb:1590576",
+        "provider": "Pixabay",
+        "query": "Arsenal women football team stadium",
+        "photographer": "3093594",
+        "page": "https://pixabay.com/photos/stadium-olympic-stadium-structure-1590576/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 29,
+      "emoji": "👑",
+      "title": "King Charles shows off dance moves on second day of Caribbean tour",
+      "body": "Earlier in the day, the King paid his respects to the island's fallen servicemen and women.",
+      "source": "BBC",
+      "photo_query": "King Charles Caribbean Bahamas",
+      "category": "kraliyet",
+      "photo": {
+        "id": "pb:2785066",
+        "provider": "Pixabay",
+        "query": "King Charles Caribbean Bahamas",
+        "photographer": "PicsbyFran",
+        "page": "https://pixabay.com/photos/dog-animal-pet-canine-domestic-2785066/",
+        "fallback": false
+      }
+    }
+  ],
+  "history_keys": [
+    "healeyunveils100forenergybillsandbanktaxinfirstbudget",
+    "scotlandbanssaleofnicotineproductstounder18s",
+    "ukgovernmenttoallowtwoyeargraduatevisaforhighcomplianceuniversities",
+    "respectorderslaunchtargetingantisocialbehaviour",
+    "fourmillionillegalcigarettesseizedinborderforcecrackdown",
+    "householdsinwaleswillreceive100energypaymentministerconfirms",
+    "russoscoreshattrickasarsenalbeatbenfica",
+    "kingcharlesshowsoffdancemovesonseconddayofcaribbeantour"
+  ]
+}
