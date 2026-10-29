@@ -38,7 +38,16 @@ import requests
 # Ayarlar
 # --------------------------------------------------------------------------- #
 TZ = ZoneInfo("Europe/London")
-OUT_ROOT = Path("output")
+# Dil: "tr" (varsayılan, @emresterling) ya da "en" (İngilizce hesap, @emresterlin).
+# İki hesap aynı depoda çalışır; her dilin kayıtları ve görselleri ayrı klasördedir.
+LANG = os.environ.get("BOT_LANG", "tr").strip().lower()
+EN = LANG == "en"
+OUT_ROOT = Path("output-en" if EN else "output")
+
+
+def L(tr, en):
+    """Dile göre metin seçer."""
+    return en if EN else tr
 
 HISTORY_FILE = OUT_ROOT / "history.json"   # daha önce paylaşılan haberler (tekrarı önler)
 CHECKED_FILE = OUT_ROOT / "checked.json"   # son dakika kontrolünde zaten değerlendirilen başlıklar
@@ -57,13 +66,13 @@ EXPECTED_IG_USERNAME = os.environ.get("EXPECTED_IG_USERNAME", "").lstrip("@").st
 # (GitHub saatleri UTC'dir; yaz/kış saati farkı için iş iki kez tetiklenir, doğru olanı bu kontrol seçer.)
 POST_HOUR_LONDON = int(os.environ.get("POST_HOUR_LONDON", "8"))
 FORCE = os.environ.get("FORCE", "0") == "1"        # elle çalıştırmada saat kontrolünü atla
-COVER_LABEL = os.environ.get("COVER_LABEL", "SABAH BÜLTENİ")
+COVER_LABEL = os.environ.get("COVER_LABEL", L("SABAH BÜLTENİ", "MORNING BRIEFING"))
 
 CLAUDE_MODEL = os.environ.get("CLAUDE_MODEL", "claude-haiku-4-5-20251001")   # haber seçimi (ucuz, hızlı)
 WRITER_MODEL = os.environ.get("WRITER_MODEL", "claude-sonnet-5-5")           # Türkçe yazım ve editörlük
 NEWS_COUNT = max(1, min(9, int(os.environ.get("NEWS_COUNT", "8"))))  # kapak + en fazla 9 = 10 görsel
-BRAND_TITLE = os.environ.get("BRAND_TITLE", "Birleşik Krallık Gündemi")
-BRAND_HANDLE = os.environ.get("BRAND_HANDLE", "@emresterling")
+BRAND_TITLE = os.environ.get("BRAND_TITLE", L("Birleşik Krallık Gündemi", "UK Daily Briefing"))
+BRAND_HANDLE = os.environ.get("BRAND_HANDLE", L("@emresterling", "@emresterlin"))
 
 GRAPH_API_BASE = os.environ.get("GRAPH_API_BASE", "https://graph.facebook.com").rstrip("/")
 GRAPH_API_VERSION = os.environ.get("GRAPH_API_VERSION", "v23.0")
@@ -130,6 +139,14 @@ CATEGORIES = {                         # anahtar: (etiket, renk)
     "dunya":    ("DÜNYA", (24, 98, 150)),            # derin mavi
     "gundem":   ("GÜNDEM", (60, 72, 140)),           # çivit
 }
+if EN:
+    _EN_LABELS = {"goc": "IMMIGRATION", "ekonomi": "ECONOMY", "siyaset": "POLITICS", "saglik": "HEALTH",
+                  "guvenlik": "SECURITY", "hava": "WEATHER", "spor": "SPORT", "magazin": "ENTERTAINMENT",
+                  "kraliyet": "ROYALS", "dunya": "WORLD", "gundem": "NEWS"}
+    CATEGORIES = {k: (_EN_LABELS[k], c) for k, (_, c) in CATEGORIES.items()}
+MONTHS_EN = ["January", "February", "March", "April", "May", "June", "July",
+             "August", "September", "October", "November", "December"]
+DAYS_EN = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
 
 
 def cat_of(it):
@@ -149,7 +166,15 @@ def today_london():
 
 
 def date_tr(d):
+    if EN:
+        return f"{DAYS_EN[d.weekday()]}, {d.day} {MONTHS_EN[d.month - 1]} {d.year}"
     return f"{d.day} {MONTHS_TR[d.month - 1]} {d.year}, {DAYS_TR[d.weekday()]}"
+
+
+def stamp_of(when, year=True):
+    """Son dakika kartları için tarih + saat."""
+    months = MONTHS_EN if EN else MONTHS_TR
+    return f"{when.day} {months[when.month - 1]}" + (f" {when.year}" if year else "") + f", {when:%H:%M}"
 
 
 # --------------------------------------------------------------------------- #
@@ -374,14 +399,16 @@ def judge_breaking(items, already=()):
     )
     prev = ""
     if already:
-        prev = ("Bugün ZATEN son dakika olarak paylaşılanlar (aynı olayı tekrar paylaşma; ancak olayda çok büyük ve "
-                "yeni bir gelişme varsa, örneğin can kaybı ya da kırmızı uyarı, paylaşabilirsin):\n"
+        prev = (L("Bugün ZATEN son dakika olarak paylaşılanlar (aynı olayı tekrar paylaşma; ancak olayda çok büyük ve "
+                  "yeni bir gelişme varsa, örneğin can kaybı ya da kırmızı uyarı, paylaşabilirsin):\n",
+                  "ALREADY posted as breaking today (do not repeat the same event, unless there is a major new "
+                  "development such as deaths or a red warning):\n")
                 + "\n".join(f"- {t}" for t in already) + "\n\n")
     msg = anthropic.Anthropic().messages.create(
         model=CLAUDE_MODEL,
         max_tokens=1000,
         system=BREAKING_PROMPT,
-        messages=[{"role": "user", "content": f"{prev}Yeni başlıklar:\n\n{listing}"}],
+        messages=[{"role": "user", "content": f"{prev}{L('Yeni başlıklar', 'New headlines')}:\n\n{listing}"}],
     )
     text = "".join(b.text for b in msg.content if getattr(b, "type", "") == "text")
     return parse_json(text)
@@ -412,7 +439,7 @@ TRANSLATE_PROMPT = """Aşağıdaki haber başlığı ve metnini Türkçeye çevi
 
 def ensure_turkish(it):
     """Başlık ya da metin İngilizce kaldıysa Claude'a bir kez çevirtir; yine olmazsa False döner."""
-    if is_turkish(it["title"] + " " + it["body"]) and is_turkish(it["body"]):
+    if EN or (is_turkish(it["title"] + " " + it["body"]) and is_turkish(it["body"])):
         return True
     log(f"[dil] Türkçe olmayan metin bulundu, çevriliyor: {it['title']}")
     try:
@@ -485,13 +512,90 @@ Anlamı değiştirme, haberi uzatma. Başlık en fazla 70, metin en fazla 300 ka
 Çıktı SADECE JSON: {"items":[{"id": verilen numara, "title": "...", "body": "..."}]}"""
 
 
+# ------------------------- İngilizce hesap için talimatlar ------------------------- #
+if EN:
+    TERMS = """Names and terms:
+- Keep official names exactly as in the source (Home Office, DWP, HMRC, NHS, Ofgem, Met Office, Met Police, Reform UK, Universal Credit, Skilled Worker visa...).
+- Use a person's job title ONLY if the source states it; never add a title from your own knowledge (roles change).
+- Never guess a name, figure or detail that is not in the source."""
+
+    STYLE = """Writing style (British English, for an Instagram news account):
+- Clear, neutral, concise news English in British spelling (organise, programme, labour market, £).
+- Titles: a complete headline sentence with subject and verb, sentence case, no clickbait, no ALL CAPS.
+- Tense must be right: do not report something planned or expected as if it has already happened.
+- Numbers and units exactly as in the source (mph stays mph, £ stays £; "bn" = billion, "m" = million). No rounding, no estimates.
+- No opinions, no adjectives the source does not support, no emojis inside title or body.
+- Explain jargon briefly only if a general reader would not understand it."""
+
+    SYSTEM_PROMPT = """You are an editor writing a short daily UK news briefing for an English-language Instagram account.
+Readers live in the UK or follow UK affairs: they want the stories that affect their money, rights, daily life and the national conversation.
+
+Rules:
+- Use ONLY information in the headlines and summaries you are given. Do not invent figures, names, dates or quotes. If unsure, be general.
+- Priorities: cost of living / tax / benefits / pensions / housing, immigration and visas, politics and government, health / NHS, economy and business, security, weather and transport, then notable stories.
+- At the end, if available, add 1-2 notable sport, entertainment or royal stories (major results for UK teams, big transfers, significant news about well-known British names, official royal news).
+- Do NOT select: sexual offences or allegations, child abuse, suicide/self-harm, details of individual murders or violence, unverified gossip and rumours, diet/weight loss.
+- Never cover the same event twice.
+- category: exactly ONE of: goc (immigration), ekonomi (economy), siyaset (politics), saglik (health), guvenlik (security), hava (weather/environment), spor (sport), magazin (entertainment), kraliyet (royals), dunya (world), gundem (general).
+- photo_query: an English search term for a PLACE or OBJECT photo that represents the story (e.g. "UK parliament", "passport stamp", "hospital corridor", "London bus", "pound coins"). No real people's names, no faces in close-up, no violence or crime imagery.
+
+Output: ONLY valid JSON, nothing else:
+{"items":[{"ref":number from the list (integer),"emoji":"one emoji","title":"max 70 characters","body":"2 sentences, max 260 characters","source":"source name","category":"category key","photo_query":"2-4 word English photo search term"}],
+ "hashtags":["#example", "..."]}
+hashtags: 8-12 relevant English hashtags (e.g. #UKNews #London #Britain)."""
+    SYSTEM_PROMPT += "\n\n" + TERMS + "\n\n" + STYLE
+
+    USER_TEMPLATE = """Below are today's UK headlines (general news from the last 24 hours, official immigration sources from the last 3 days). Pick the {n} most important stories and produce JSON following the rules. Put each story's list number in "ref".
+
+{listing}"""
+
+    BREAKING_PROMPT = """You are a news editor for an English-language UK news Instagram account. Decide whether any of the NEW headlines below truly deserves a breaking-news post.
+
+Counts as breaking (new, confirmed developments that matter to a wide audience):
+- New immigration, visa, settlement, citizenship or asylum rules, decisions or official announcements; major migration data
+- Major developments involving the Prime Minister, ministers or the government (resignation, sacking, reshuffle, early election, major party splits)
+- Economy: official inflation, interest rate or unemployment data; Budget and tax decisions; energy price cap
+- Official changes to benefits, pensions, housing, rents or fares that affect many people
+- Big company news: job losses affecting over 1,000 people, collapse of a major company, nationwide service outage
+- NHS strikes, national health alerts or major health policy decisions
+- Nationwide transport, strike, border or airport disruption
+- Amber or red weather warnings, named storms, major flooding, national emergencies
+- Major national security or defence developments (official information only, no speculation)
+- Important court rulings affecting government policy
+- Official royal announcements or major royal news (births, engagements, health statements, historic visits, title changes)
+- Sport: major results for the England, Scotland or Wales national teams, cup finals, very big Premier League news (record transfer, manager departure/appointment, title win)
+- Entertainment: major confirmed news about very well-known British names (major award, death of a famous figure, big tour/film announcement)
+
+NOT breaking: opinion and columns, polls, speculation and leaks, routine political rows, individual crime, investigations and court cases, sexual offence allegations (about anyone), suicide, unverified gossip and rumours, routine match reports and transfer rumours, local news.
+Several breaking posts a day are possible; the bar is high but reasonable. If unsure, do not post.
+
+Rules: use ONLY information in the headline and summary; do not invent figures, names or quotes. photo_query: English search term for a PLACE or OBJECT; no names, faces or violence.
+
+Output ONLY JSON:
+If nothing qualifies: {"breaking": false}
+Otherwise: {"breaking": true, "ref": list number, "emoji": "one emoji", "title": "max 70 characters", "body": "2-3 sentences, max 300 characters", "source": "source name", "category": "goc|ekonomi|siyaset|saglik|guvenlik|hava|spor|magazin|kraliyet|dunya|gundem", "photo_query": "2-4 word English photo search term", "hashtags": ["#BreakingNews", "..."]}"""
+    BREAKING_PROMPT += "\n\n" + TERMS + "\n\n" + STYLE
+
+    EDITOR_PROMPT = """You are an experienced British news sub-editor. You will get English source stories and the headline/body written from each.
+Check each one against its source and rewrite it so it reads like a quality UK news outlet.
+
+Check and fix:
+1. Accuracy: remove any fact, figure, job title or date that is not in the source. Figures and units must match the source exactly.
+2. Tense: do not report planned or expected events as done.
+3. Language: clear, natural, concise British English; fix clumsy or incomplete sentences.
+Do not change the meaning or lengthen the story. Title max 70, body max 300 characters.
+
+Output ONLY JSON: {"items":[{"id": given number, "title": "...", "body": "..."}]}"""
+
+
 def polish_items(items, sources, note=""):
     """Türkçe metinleri kaynakla karşılaştırıp WRITER_MODEL ile düzeltir. sources: her öğe için kaynak metin."""
     if not items or not os.environ.get("ANTHROPIC_API_KEY"):
         return items
     import anthropic
 
-    blocks = "\n\n".join(f"### {i}\nKAYNAK: {src}\nTÜRKÇE BAŞLIK: {it['title']}\nTÜRKÇE METİN: {it['body']}"
+    blocks = "\n\n".join((f"### {i}\nSOURCE: {src}\nHEADLINE: {it['title']}\nBODY: {it['body']}" if EN else
+                           f"### {i}\nKAYNAK: {src}\nTÜRKÇE BAŞLIK: {it['title']}\nTÜRKÇE METİN: {it['body']}")
                           for i, (it, src) in enumerate(zip(items, sources), 1))
     try:
         msg = anthropic.Anthropic().messages.create(
@@ -521,8 +625,9 @@ def verify_items(items, sources):
     bad = {i: b for i, b in bad.items() if b}
     if bad:
         idx = list(bad)
-        note = "DİKKAT: Aşağıdaki metinlerde kaynakta OLMAYAN rakamlar var, bunları kaynağa göre düzelt ya da çıkar: " + "; ".join(
-            f"{n + 1}. metin: {', '.join(bad[i])}" for n, i in enumerate(idx))
+        note = L("DİKKAT: Aşağıdaki metinlerde kaynakta OLMAYAN rakamlar var, bunları kaynağa göre düzelt ya da çıkar: ",
+                 "WARNING: these texts contain figures that are NOT in the source; correct them from the source or remove them: ") + "; ".join(
+            f"{n + 1}. {L('metin', 'text')}: {', '.join(bad[i])}" for n, i in enumerate(idx))
         sub = polish_items([items[i] for i in idx], [sources[i] for i in idx], note)
         for i, it in zip(idx, sub):
             items[i] = it
@@ -539,7 +644,8 @@ def verify_items(items, sources):
 def same_story(title, earlier):
     """Başlıktaki özel isimlerden (büyük harfle başlayan kelimeler) en az ikisi daha önceki bir başlıkta geçiyorsa aynı olay say."""
     caps = lambda t: {w.lower() for w in re.findall(r"\b[A-ZÇĞİÖŞÜ][\wçğıöşü']{2,}", t)}
-    common = {"ingiltere", "i̇ngiltere", "birleşik", "krallık", "londra", "başbakan", "hükümet", "bakan", "son", "yeni"}
+    common = {"ingiltere", "i̇ngiltere", "birleşik", "krallık", "londra", "başbakan", "hükümet", "bakan", "son", "yeni",
+              "the", "britain", "british", "london", "england", "government", "minister", "new", "after", "over"}
     mine = caps(title) - common
     return any(len(mine & (caps(e) - common)) >= 2 for e in earlier)
 
@@ -667,9 +773,9 @@ def footer(d, left_text):
     y = H - 110
     d.line([MARGIN, y, W - MARGIN, y], fill=PANEL, width=3)
     d.text((MARGIN, y + 30), left_text, font=font("regular", 30), fill=MUTED)
-    fb = font("bold", 30)
+    fb = font("bold", 23)                     # hesap adı küçük ve sade
     tw = d.textlength(BRAND_HANDLE, font=fb)
-    d.text((W - MARGIN - tw, y + 30), BRAND_HANDLE, font=fb, fill=INK)
+    d.text((W - MARGIN - tw, y + 35), BRAND_HANDLE, font=fb, fill=MUTED)
 
 
 def chip(d, x, y, text, color, size=28, pad_x=22, pad_y=12, fg=WHITE):
@@ -682,85 +788,98 @@ def chip(d, x, y, text, color, size=28, pad_x=22, pad_y=12, fg=WHITE):
     return x + tw + 2 * pad_x
 
 
-def render_cover(items, day, path):
-    img, d = base_canvas(INK)
-    max_w = W - 2 * MARGIN
-    y = 110
-    chip(d, MARGIN, y, COVER_LABEL, INK, size=28)
-    y += 95
-    fnt, lines, lh = fit_text(d, BRAND_TITLE, "bold", max_w, 260, 96, 60, 1.12)
-    y = draw_lines(d, MARGIN, y, lines, fnt, lh, INK)
-    y += 10
-    d.text((MARGIN, y), date_tr(day), font=font("regular", 38), fill=MUTED)
-    y += 80
-    # her haberin kategori rengiyle küçük renk şeridi
-    seg = max_w // max(1, len(items))
-    for i, it in enumerate(items):
-        d.rectangle([MARGIN + i * seg, y, MARGIN + (i + 1) * seg - 6, y + 8], fill=cat_of(it)[1])
-    y += 50
+# ------------------------- Sade (modern) kart tasarımı ------------------------- #
+# Tarih/saat ve kategori etiketi kartlarda YOK. Renk yalnızca ince vurgu çizgisinde.
+def clean_canvas(w=None, h=None):
+    from PIL import ImageDraw
 
-    box_bottom = H - 150
-    for size in range(36, 23, -2):
+    img = gradient_canvas(w or W, h or H)
+    return img, ImageDraw.Draw(img)
+
+
+def tracked(d, xy, text, fnt, fill, spacing=4):
+    """Harf aralığı açılmış küçük başlık (ör. MORNING BRIEFING)."""
+    x, y = xy
+    for ch in text:
+        d.text((x, y), ch, font=fnt, fill=fill)
+        x += d.textlength(ch, font=fnt) + spacing
+    return x
+
+
+def bleed_photo(img, photo, h, width=None):
+    """Fotoğrafı kartın üst kısmına kenardan kenara yerleştirir."""
+    from PIL import Image, ImageDraw, ImageOps
+
+    w = width or img.width
+    img.paste(ImageOps.fit(photo, (w, h), method=Image.LANCZOS, centering=(0.5, 0.45)), (0, 0))
+    return img, ImageDraw.Draw(img)
+
+
+def numbered_list(d, items, y, bottom, max_w, sizes, num_w):
+    """Kapak ve hikâyedeki numaralı başlık listesi, aralarında ince çizgilerle."""
+    for size in sizes:
         f_num, f_t = font("bold", size), font("regular", size)
-        lh = int(size * 1.3)
-        blocks, total = [], 0
-        for i, it in enumerate(items, 1):
-            ls = wrap(d, no_emoji(it["title"]), f_t, max_w - 70)[:2]
-            blocks.append((i, it, ls))
-            total += lh * len(ls) + int(size * 0.55)
-        if y + total <= box_bottom:
+        lh, gap = int(size * 1.3), int(size * 0.9)
+        blocks = [wrap(d, no_emoji(it["title"]), f_t, max_w - num_w)[:2] for it in items]
+        total = sum(lh * len(ls) + 2 * gap for ls in blocks)
+        if y + total <= bottom:
             break
-    for i, it, ls in blocks:
-        d.text((MARGIN, y), f"{i:02d}", font=f_num, fill=cat_of(it)[1])
-        y = draw_lines(d, MARGIN + 70, y, ls, f_t, lh, INK) + int(size * 0.55)
+    for i, ls in enumerate(blocks, 1):
+        y += gap
+        d.text((MARGIN, y), f"{i:02d}", font=f_num, fill=MUTED)
+        y = draw_lines(d, MARGIN + num_w, y, ls, f_t, lh, INK) + gap
+        if i < len(blocks):
+            d.line([MARGIN + num_w, y, MARGIN + max_w, y], fill=PANEL, width=2)
+    return y
 
-    footer(d, "Detaylar için kaydırın  →")
+
+def render_cover(items, day, path):
+    img, d = clean_canvas()
+    max_w = W - 2 * MARGIN
+    y = 120
+    tracked(d, (MARGIN, y), COVER_LABEL, font("bold", 26), MUTED)
+    y += 70
+    fnt, lines, lh = fit_text(d, BRAND_TITLE, "bold", max_w, 260, 104, 64, 1.08)
+    y = draw_lines(d, MARGIN, y, lines, fnt, lh, INK) + 36
+    d.rectangle([MARGIN, y, MARGIN + 90, y + 6], fill=INK)
+    y += 50
+    numbered_list(d, items, y, H - 150, max_w, range(36, 23, -2), 70)
+    footer(d, L("Detaylar için kaydırın  →", "Swipe for details  →"))
     img.save(path, "JPEG", quality=92, optimize=True)
 
 
 def upper_tr(s):
+    if EN:
+        return s.upper()
     return s.replace("i", "İ").replace("ı", "I").upper()
 
 
-PHOTO_H = 540  # kartlarda fotoğraf bandının yüksekliği
+PHOTO_H = 520  # kartlarda üstteki fotoğrafın yüksekliği
+
+
+def _news_card(it, path, photo, accent, top_text, top_color, pill=None):
+    img, d = clean_canvas()
+    if photo is not None:
+        img, d = bleed_photo(img, photo, PHOTO_H)
+        y = PHOTO_H + 56
+    else:
+        y = 150
+    if top_text:
+        f = font("bold", 26)
+        tracked(d, (MARGIN, y), top_text, f, top_color, spacing=3)
+        y += 62
+    draw_story(d, it, y, H - 150, title_start=64 if photo is not None else 72, accent=accent,
+               label=pill, label_color=BREAKING, center=False)
+    footer(d, f"{L('Kaynak', 'Source')}: {it['source']}" if it.get("source") else BRAND_TITLE)
+    img.save(path, "JPEG", quality=92, optimize=True)
 
 
 def render_item(it, idx, total, path, photo=None, label=None):
-    cat_label, color = cat_of(it)
-    label = label or cat_label
-    img, d = base_canvas(color)
-    top = 62
-    d.text((MARGIN, top), f"{idx:02d} / {total:02d}", font=font("bold", 32), fill=color)
-    brand = upper_tr(BRAND_TITLE)
-    fl = font("regular", 26)
-    d.text((W - MARGIN - d.textlength(brand, font=fl), top + 5), brand, font=fl, fill=MUTED)
-    y = top + 70
-    if photo is not None:
-        img, d = draw_photo(img, photo, (MARGIN - 32, y, W - MARGIN + 32, y + PHOTO_H - 120))
-        y += PHOTO_H - 120 + 34
-    else:
-        y += 40
-    draw_story(d, it, y, H - 160, accent=color, label=label, label_color=color)
-    footer(d, f"Kaynak: {it['source']}" if it.get("source") else BRAND_TITLE)
-    img.save(path, "JPEG", quality=92, optimize=True)
+    _news_card(it, path, photo, cat_of(it)[1], f"{idx:02d} / {total:02d}", MUTED)
 
 
 def render_breaking(it, when, path, photo=None):
-    label, color = cat_of(it)
-    img, d = base_canvas(BREAKING)
-    y = 62
-    x = chip(d, MARGIN, y - 6, "SON DAKİKA", BREAKING, size=34, pad_x=26, pad_y=14)
-    stamp = f"{when.day} {MONTHS_TR[when.month - 1]} {when.year}, {when:%H:%M}"
-    d.text((x + 24, y + 10), stamp, font=font("bold", 30), fill=MUTED)
-    y += 92
-    if photo is not None:
-        img, d = draw_photo(img, photo, (MARGIN - 32, y, W - MARGIN + 32, y + PHOTO_H - 140))
-        y += PHOTO_H - 140 + 34
-    else:
-        y += 40
-    draw_story(d, it, y, H - 160, accent=BREAKING, label=label, label_color=color)
-    footer(d, f"Kaynak: {it['source']}" if it.get("source") else BRAND_TITLE)
-    img.save(path, "JPEG", quality=92, optimize=True)
+    _news_card(it, path, photo, BREAKING, None, None, pill=L("SON DAKİKA", "BREAKING"))
 
 
 # ------------------------- Fotoğraflar (Pixabay / Pexels) ------------------------- #
@@ -881,37 +1000,41 @@ def draw_photo(img, photo, box, total_h=None):
     return img, ImageDraw.Draw(img)
 
 
-def draw_story(d, it, area_top, area_bottom, title_start=72, accent=ACCENT, width=None, label=None, label_color=None):
+def draw_story(d, it, area_top, area_bottom, title_start=72, accent=ACCENT, width=None, label=None, label_color=None,
+               center=True):
     """Başlık + renkli çizgi + gövde metnini verilen alana sığdırıp dikeyde ortalar."""
     max_w = (width or W) - 2 * MARGIN
-    t_fnt, t_lines, t_lh = fit_text(d, no_emoji(it["title"]), "bold", max_w, 420, title_start, 40, 1.15)
+    t_max = min(420, int((area_bottom - area_top) * 0.5))
+    t_fnt, t_lines, t_lh = fit_text(d, no_emoji(it["title"]), "bold", max_w, t_max, title_start, 40, 1.15)
     title_h = t_lh * len(t_lines)
     gap = 30 + 8 + 50
     chip_h = 80 if label else 0          # kategori etiketi başlığın hemen üstünde
     area_top += chip_h
     b_fnt, b_lines, b_lh = fit_text(d, no_emoji(it["body"]), "regular", max_w,
-                                    (area_bottom - area_top) - title_h - gap, 50, 30, 1.42)
+                                    (area_bottom - area_top) - title_h - gap, 50, 28, 1.4)
     block_h = title_h + gap + b_lh * len(b_lines)
 
-    y = area_top + max(0, (area_bottom - area_top - block_h) // 2)
+    y = area_top + (max(0, (area_bottom - area_top - block_h) // 2) if center else 0)
     if label:
         chip(d, MARGIN, y - chip_h, label, label_color or accent)
     y = draw_lines(d, MARGIN, y, t_lines, t_fnt, t_lh, INK)
     y += 30
-    d.rounded_rectangle([MARGIN, y, MARGIN + 120, y + 8], radius=4, fill=accent)
-    y += 58
+    d.rectangle([MARGIN, y, MARGIN + 80, y + 6], fill=accent)
+    y += 56
     draw_lines(d, MARGIN, y, b_lines, b_fnt, b_lh, BODY)
 
 
 def build_breaking_caption(it, tags, when):
-    tags = (["#SonDakika"] + [t for t in tags if t.lower() != "#sondakika"])[:30]
+    first = L("#SonDakika", "#BreakingNews")
+    tags = ([first] + [t for t in tags if t.lower() != first.lower()])[:30]
     text = "\n".join([
-        f"🔴 SON DAKİKA | {it['emoji']} {it['title']}",
+        f"🔴 {L('SON DAKİKA', 'BREAKING')} | {it['emoji']} {it['title']}",
         "",
         it["body"],
         "",
-        (f"Kaynak: {it['source']}" if it.get("source") else "") + (f" | Görsel: {it['photo'].get('provider', 'Pexels')}" if it.get("photo") else ""),
-        f"{BRAND_TITLE} | {when.day} {MONTHS_TR[when.month - 1]} {when:%H:%M}",
+        (f"{L('Kaynak', 'Source')}: {it['source']}" if it.get("source") else "")
+        + (f" | {L('Görsel', 'Image')}: {it['photo'].get('provider', 'Pexels')}" if it.get("photo") else ""),
+        f"{BRAND_TITLE} | {stamp_of(when, year=False)}",
         "",
         " ".join(tags),
     ])
@@ -923,76 +1046,49 @@ STORY_SAFE_TOP, STORY_SAFE_BOTTOM = 250, SH - 260  # Instagram'ın üst/alt aray
 
 
 def story_canvas(accent=INK):
-    from PIL import ImageDraw
-
-    img = gradient_canvas(SW, SH)
-    d = ImageDraw.Draw(img)
-    d.rectangle([0, 0, SW, 12], fill=accent)
-    d.rectangle([0, SH - 12, SW, SH], fill=accent)
-    return img, d
+    return clean_canvas(SW, SH)
 
 
-def story_cta(d, line1="Tüm haberler ve detaylar", line2="profildeki son gönderide", accent=INK):
+def story_cta(d, line1=None, line2=None, accent=INK):
     """Alttaki yönlendirme kutusu (API ile link/çıkartma eklenemediği için)."""
-    top, bottom = STORY_SAFE_BOTTOM - 250, STORY_SAFE_BOTTOM
-    d.rounded_rectangle([MARGIN, top, SW - MARGIN, bottom], radius=32, fill=INK)
-    d.rounded_rectangle([MARGIN, top, MARGIN + 16, bottom], radius=8, fill=accent)
-    f1, f2, f3 = font("bold", 46), font("regular", 40), font("bold", 40)
-    d.text((MARGIN + 54, top + 40), line1, font=f1, fill=WHITE)
-    d.text((MARGIN + 54, top + 105), line2, font=f2, fill=(196, 204, 220))
-    d.text((MARGIN + 54, top + 170), BRAND_HANDLE, font=f3, fill=WHITE)
+    line1 = line1 or L("Tüm haberler ve detaylar", "All stories and details")
+    line2 = line2 or L("profildeki son gönderide", "in the latest post on our profile")
+    top, bottom = STORY_SAFE_BOTTOM - 230, STORY_SAFE_BOTTOM
+    d.rounded_rectangle([MARGIN, top, SW - MARGIN, bottom], radius=28, fill=INK)
+    f1, f2, f3 = font("bold", 44), font("regular", 36), font("bold", 28)
+    d.text((MARGIN + 48, top + 38), line1, font=f1, fill=WHITE)
+    d.text((MARGIN + 48, top + 100), line2, font=f2, fill=(196, 204, 220))
+    d.text((MARGIN + 48, top + 158), BRAND_HANDLE, font=f3, fill=WHITE)
 
 
 def render_story(items, day, path):
-    img, d = story_canvas(INK)
+    img, d = story_canvas()
     max_w = SW - 2 * MARGIN
     y = STORY_SAFE_TOP
-    chip(d, MARGIN, y, COVER_LABEL, INK, size=32)
-    y += 100
-    fnt, lines, lh = fit_text(d, BRAND_TITLE, "bold", max_w, 260, 100, 64, 1.1)
-    y = draw_lines(d, MARGIN, y, lines, fnt, lh, INK) + 10
-    d.text((MARGIN, y), date_tr(day), font=font("regular", 42), fill=MUTED)
-    y += 90
+    tracked(d, (MARGIN, y), COVER_LABEL, font("bold", 30), MUTED)
+    y += 80
+    fnt, lines, lh = fit_text(d, BRAND_TITLE, "bold", max_w, 260, 108, 64, 1.06)
+    y = draw_lines(d, MARGIN, y, lines, fnt, lh, INK) + 40
+    d.rectangle([MARGIN, y, MARGIN + 90, y + 6], fill=INK)
+    y += 50
     shown = items[:6]
-    seg = max_w // max(1, len(items))
-    for i, it in enumerate(items):
-        d.rectangle([MARGIN + i * seg, y, MARGIN + (i + 1) * seg - 6, y + 8], fill=cat_of(it)[1])
-    y += 60
-
-    box_bottom = STORY_SAFE_BOTTOM - 340
-    for size in range(44, 27, -2):
-        f_num, f_t = font("bold", size), font("regular", size)
-        lh = int(size * 1.3)
-        blocks, total = [], 0
-        for i, it in enumerate(shown, 1):
-            ls = wrap(d, no_emoji(it["title"]), f_t, max_w - 80)[:2]
-            blocks.append((i, it, ls))
-            total += lh * len(ls) + int(size * 0.7)
-        if y + total <= box_bottom:
-            break
-    for i, it, ls in blocks:
-        d.text((MARGIN, y), f"{i:02d}", font=f_num, fill=cat_of(it)[1])
-        y = draw_lines(d, MARGIN + 80, y, ls, f_t, lh, INK) + int(size * 0.7)
+    y = numbered_list(d, shown, y, STORY_SAFE_BOTTOM - 330, max_w, range(44, 27, -2), 80)
     if len(items) > len(shown):
-        d.text((MARGIN + 80, y), f"+ {len(items) - len(shown)} haber daha", font=font("regular", 34), fill=MUTED)
-
+        d.text((MARGIN + 80, y + 20), L(f"+ {len(items) - len(shown)} haber daha", f"+ {len(items) - len(shown)} more stories"),
+               font=font("regular", 34), fill=MUTED)
     story_cta(d)
     img.save(path, "JPEG", quality=92, optimize=True)
 
 
 def render_breaking_story(it, when, path, photo=None):
-    label, color = cat_of(it)
-    img, d = story_canvas(BREAKING)
+    img, d = story_canvas()
     y = STORY_SAFE_TOP
-    chip(d, MARGIN, y, "SON DAKİKA", BREAKING, size=44, pad_x=30, pad_y=16)
-    stamp = f"{when.day} {MONTHS_TR[when.month - 1]} {when.year}, {when:%H:%M}"
-    d.text((MARGIN, y + 105), stamp, font=font("regular", 38), fill=MUTED)
-    y += 175
     if photo is not None:
-        img, d = draw_photo(img, photo, (MARGIN - 20, y, SW - MARGIN + 20, y + 400))
-        y += 430
-    draw_story(d, it, y, STORY_SAFE_BOTTOM - 285, title_start=60, accent=BREAKING, width=SW, label=label, label_color=color)
-    story_cta(d, "Ayrıntılar", "profildeki son gönderide", accent=BREAKING)
+        img, d = bleed_photo(img, photo, 760, SW)
+        y = 820
+    draw_story(d, it, y, STORY_SAFE_BOTTOM - 270, title_start=64, accent=BREAKING, width=SW,
+               label=L("SON DAKİKA", "BREAKING"), label_color=BREAKING, center=False)
+    story_cta(d, L("Ayrıntılar", "Full story"), L("profildeki son gönderide", "in the latest post on our profile"))
     img.save(path, "JPEG", quality=92, optimize=True)
 
 
@@ -1009,11 +1105,13 @@ def build_caption(items, tags, day):
     for it in items:
         if it.get("source") and it["source"] not in sources:
             sources.append(it["source"])
-    src_txt = ", ".join(sources) if sources else "İngiliz basını"
+    src_txt = ", ".join(sources) if sources else L("İngiliz basını", "UK media")
     head = f"🇬🇧 {BRAND_TITLE} | {date_tr(day)}\n\n"
     provs = sorted({it["photo"].get("provider", "Pexels") for it in items if it.get("photo")})
-    photo_note = f" Görseller: {', '.join(provs)}." if provs else ""
-    foot = f"\nKaynaklar: {src_txt}. Haberler Türkçe özet olarak derlenmiştir.{photo_note}\n\n" + " ".join(tags[:30])
+    photo_note = f" {L('Görseller', 'Images')}: {', '.join(provs)}." if provs else ""
+    foot = (f"\n{L('Kaynaklar', 'Sources')}: {src_txt}. "
+            f"{L('Haberler Türkçe özet olarak derlenmiştir.', 'Stories summarised from UK media reports.')}{photo_note}\n\n"
+            + " ".join(tags[:30]))
 
     def compose(bodies):
         blocks = [f"{i}. {it['emoji']} {it['title']}\n{b}" for i, (it, b) in enumerate(zip(items, bodies), 1)]
@@ -1205,6 +1303,10 @@ def publish_story(post, base):
 
 def check_account():
     """Paylaşımdan önce hedef hesabın kullanıcı adını yazar; beklenen hesap değilse durdurur."""
+    if not os.environ.get("IG_USER_ID", "").strip():
+        sys.exit("IG_USER_ID tanımlı değil" + L(".", " (İngilizce hesap için GitHub Secret adı: IG_USER_ID_EN)."))
+    if EN and not EXPECTED_IG_USERNAME:
+        sys.exit("İngilizce hesapta güvenlik için EXPECTED_IG_USERNAME_EN değişkeni zorunlu (ör. emresterlin).")
     info = graph("GET", os.environ["IG_USER_ID"], fields="username")
     user = (info.get("username") or "").lower()
     log(f"Paylaşım yapılacak Instagram hesabı: @{user}")
@@ -1277,10 +1379,11 @@ def cmd_whoami(args):
 
     log("\n" + "=" * 70)
     if ok:
-        ig_id, user, page = ok[0]
-        log(f"SONUÇ: Hazır. Instagram: @{user} (Facebook Sayfası: {page})")
-        log(f"       GitHub Secrets'a ekle →  IG_USER_ID = {ig_id}")
-        log(f"       GitHub Variables'a ekle → EXPECTED_IG_USERNAME = {user}")
+        log(f"SONUÇ: Token {len(ok)} Instagram hesabına erişebiliyor:")
+        for ig_id, user, page in ok:
+            log(f"   @{user} (Facebook Sayfası: {page})  →  IG_USER_ID = {ig_id}")
+        log("       Türkçe hesap için: Secret IG_USER_ID, Variable EXPECTED_IG_USERNAME")
+        log("       İngilizce hesap için: Secret IG_USER_ID_EN, Variable EXPECTED_IG_USERNAME_EN")
     elif found:
         log("SONUÇ: Instagram hesabı bulundu ama sistem kullanıcısına atanmamış.")
         log("       business.facebook.com/settings → Hesaplar → Sayfalar ve Instagram hesapları →")
@@ -1551,9 +1654,7 @@ def render_guide_cover(gs, label, color, day, path):
     chip(d, x + 14, y, label, color, size=28)
     y += 100
     fnt, lines, lh = fit_text(d, "İngiltere'de Bilmeniz Gerekenler", "bold", max_w, 260, 88, 56, 1.12)
-    y = draw_lines(d, MARGIN, y, lines, fnt, lh, INK) + 10
-    d.text((MARGIN, y), date_tr(day), font=font("regular", 38), fill=MUTED)
-    y += 80
+    y = draw_lines(d, MARGIN, y, lines, fnt, lh, INK) + 40
     d.rounded_rectangle([MARGIN, y, MARGIN + 140, y + 8], radius=4, fill=color)
     y += 60
     for i, g in enumerate(gs, 1):
@@ -1724,6 +1825,9 @@ def render_info_steps(g, gi, label, color, page, total, url, path):
 
 
 def cmd_guide(args):
+    if EN:
+        log("Rehber postları yalnızca Türkçe hesap için; İngilizce hesapta atlanıyor.")
+        return
     day = today_london()
     out = OUT_ROOT / day.isoformat() / "rehber"
     if (out / "published.json").exists():
