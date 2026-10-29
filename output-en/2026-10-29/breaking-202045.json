@@ -1,0 +1,30 @@
+{
+  "type": "breaking",
+  "created_at": "2026-10-29T20:20:45.217263+00:00",
+  "item": {
+    "ref": 2,
+    "emoji": "🎭",
+    "title": "Actor Sir Patrick Stewart dies aged 86",
+    "body": "Sir Patrick Stewart died at his home in Los Angeles following a short period with Alzheimer's disease and Lewy Body Dementia, according to reports. He was 86.",
+    "source": "Evening Standard",
+    "photo_query": "Star Trek actor Patrick Stewart",
+    "category": "magazin",
+    "photo": {
+      "id": "pb:8932951",
+      "provider": "Pixabay",
+      "query": "Star Trek actor Patrick Stewart",
+      "photographer": "Michelle-Maria",
+      "page": "https://pixabay.com/photos/museum-palace-garden-boston-nature-8932951/",
+      "fallback": false
+    }
+  },
+  "caption": "🔴 BREAKING | 🎭 Actor Sir Patrick Stewart dies aged 86\n\nSir Patrick Stewart died at his home in Los Angeles following a short period with Alzheimer's disease and Lewy Body Dementia, according to reports. He was 86.\n\nSource: Evening Standard | Image: Pixabay\nUK Daily Briefing | 29 October, 20:20\n\n#BreakingNews #PatrickStewart #RIP",
+  "images": [
+    "output-en/2026-10-29/breaking-202045.jpg"
+  ],
+  "story_image": "output-en/2026-10-29/breaking-202045-story.jpg",
+  "history_keys": [
+    "legendaryactorsirpatrickstewartdiesaged86"
+  ],
+  "published": false
+}
