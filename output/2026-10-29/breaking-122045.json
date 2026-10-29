@@ -1,0 +1,30 @@
+{
+  "type": "breaking",
+  "created_at": "2026-10-29T12:20:45.751730+00:00",
+  "item": {
+    "ref": 29,
+    "emoji": "🚨",
+    "title": "Poundland iflasa sürükleniyor: 12.000 kişinin işi risk altında",
+    "body": "Poundland'ın sahibi Gordon Brothers, yönetimin desteklediği kurtarma teklifini reddetti. Şirket, high court'a yönetici (administrator) atama niyetini bildirmeye hazırlanıyor. Birleşik Krallık ve İrlanda'daki zincirde 12.000 kişinin işi risk altında.",
+    "source": "Guardian",
+    "photo_query": "Poundland store retail",
+    "category": "gundem",
+    "photo": {
+      "id": "pb:2557567",
+      "provider": "Pixabay",
+      "query": "Poundland store retail",
+      "photographer": "StockSnap",
+      "page": "https://pixabay.com/photos/architecture-building-infrastructure-2557567/",
+      "fallback": false
+    }
+  },
+  "caption": "🔴 SON DAKİKA | 🚨 Poundland iflasa sürükleniyor: 12.000 kişinin işi risk altında\n\nPoundland'ın sahibi Gordon Brothers, yönetimin desteklediği kurtarma teklifini reddetti. Şirket, high court'a yönetici (administrator) atama niyetini bildirmeye hazırlanıyor. Birleşik Krallık ve İrlanda'daki zincirde 12.000 kişinin işi risk altında.\n\nKaynak: Guardian | Görsel: Pixabay\nBirleşik Krallık Gündemi | 29 Ekim, 12:20\n\n#SonDakika #Poundland #İşKayıpları",
+  "images": [
+    "output/2026-10-29/breaking-122045.jpg"
+  ],
+  "story_image": "output/2026-10-29/breaking-122045-story.jpg",
+  "history_keys": [
+    "poundlandonbrinkofadministrationwith12000jobsatrisk"
+  ],
+  "published": false
+}
