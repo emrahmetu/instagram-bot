@@ -1,0 +1,164 @@
+{
+  "date": "2026-10-29",
+  "caption": "🇬🇧 Birleşik Krallık Gündemi | 29 Ekim 2026, Perşembe\n\n1. ✈️ Home Office, Religious Worker vizesi kurallarını yayımladı\nImmigration Rules'a eklenen Religious Worker rotası, Birleşik Krallık'taki dini kurumların faaliyetlerini desteklemek isteyenler için hazırlandı.\n\n2. ✈️ T2 Minister of Religion vizesi kuralları yayımlandı\nImmigration Rules'daki T2 Minister of Religion rotası, inanç temelli kuruluşlarda önder rolü üstlenecek kişilere yönelik.\n\n3. 🎓 Hükümet, \"yüksek uyumlu\" üniversitelere iki yıllık graduate vizesi verecek\nHükümet, \"yüksek uyumlu\" üniversitelerin mezunlarına iki yıllık graduate vizesi tanınacağını duyurdu.\n\n4. 💷 Maliye Bakanı John Healey bütçeyi açıkladı\nMaliye Bakanı John Healey, artan enflasyon ve zorlu kamu maliyesi koşullarında bütçe konuşmasını yaptı.\n\n5. 💧 Thames Water alacaklıları 2,4 milyar sterlinlik acil krediyi oylayacak\nThames Water'ın alacaklıları, şirketi ayakta tutacak 2,4 milyar sterlinlik acil krediyi perşembe günü oylayacak.\n\n6. 🏥 İngiltere ve Galler'de yüzlerce NHS sitesine erişim kesildi\nİngiltere ve Galler'de yüzlerce NHS web sitesi çevrimdışı kaldı.\n\n7. 🚭 İskoçya, 18 yaş altına nikotinli ürün satışını yasakladı\nİskoçya'da 18 yaşın altındakilere nikotinli ürün satışı yasaklandı.\n\n8. 👑 Kral Charles Karayipler turunun ikinci gününde dans etti\nKral Charles, Karayipler turunun ikinci gününde dans hareketleriyle dikkat çekti.\n\nKaynaklar: GOV.UK Home Office, The Independent, Guardian, Metro, BBC. Haberler Türkçe özet olarak derlenmiştir. Görseller: Pixabay.\n\n#İngiltere #UKNews #Viza #Göç #Bütçe2026 #Sağlık #NHS #TamisuYardımı #KralCharles #Londra",
+  "images": [
+    "output/2026-10-29/00.jpg",
+    "output/2026-10-29/01.jpg",
+    "output/2026-10-29/02.jpg",
+    "output/2026-10-29/03.jpg",
+    "output/2026-10-29/04.jpg",
+    "output/2026-10-29/05.jpg",
+    "output/2026-10-29/06.jpg",
+    "output/2026-10-29/07.jpg",
+    "output/2026-10-29/08.jpg"
+  ],
+  "story_image": "output/2026-10-29/story.jpg",
+  "items": [
+    {
+      "ref": 2,
+      "emoji": "✈️",
+      "title": "Home Office, Religious Worker vizesi kurallarını yayımladı",
+      "body": "Immigration Rules'a eklenen Religious Worker rotası, Birleşik Krallık'taki dini kurumların faaliyetlerini desteklemek isteyenler için hazırlandı. Rota, dini bir tarikatta çalışmak ya da dini kuruluşta pastoral olmayan işler yapmak isteyenleri kapsıyor.",
+      "source": "GOV.UK Home Office",
+      "photo_query": "UK visa document religion",
+      "category": "goc",
+      "photo": {
+        "id": "pb:1051697",
+        "provider": "Pixabay",
+        "query": "UK visa document religion",
+        "photographer": "webandi",
+        "page": "https://pixabay.com/photos/passport-travel-document-id-1051697/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 3,
+      "emoji": "✈️",
+      "title": "T2 Minister of Religion vizesi kuralları yayımlandı",
+      "body": "Immigration Rules'daki T2 Minister of Religion rotası, inanç temelli kuruluşlarda önder rolü üstlenecek kişilere yönelik. Rota; din görevlileri, misyonerler, ağırlıklı olarak pastoral görev yapan din çalışanları ve dini tarikat üyelerini kapsıyor.",
+      "source": "GOV.UK Home Office",
+      "photo_query": "religious leader passport",
+      "category": "goc",
+      "photo": {
+        "id": "pb:2642171",
+        "provider": "Pixabay",
+        "query": "religious leader passport",
+        "photographer": "cytis",
+        "page": "https://pixabay.com/photos/passport-flag-travel-visa-2642171/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 88,
+      "emoji": "🎓",
+      "title": "Hükümet, \"yüksek uyumlu\" üniversitelere iki yıllık graduate vizesi verecek",
+      "body": "Hükümet, \"yüksek uyumlu\" üniversitelerin mezunlarına iki yıllık graduate vizesi tanınacağını duyurdu. Ayrıca High Potential Individual vize rotası, dünyanın en iyi 150 üniversitesine genişletilecek.",
+      "source": "The Independent",
+      "photo_query": "UK student graduation ceremony",
+      "category": "goc",
+      "photo": {
+        "id": "pb:2038866",
+        "provider": "Pixabay",
+        "query": "UK student graduation ceremony",
+        "photographer": "MauraLBU",
+        "page": "https://pixabay.com/photos/graduation-graduation-day-2038866/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 45,
+      "emoji": "💷",
+      "title": "Maliye Bakanı John Healey bütçeyi açıkladı",
+      "body": "Maliye Bakanı John Healey, artan enflasyon ve zorlu kamu maliyesi koşullarında bütçe konuşmasını yaptı. Enerji faturalarından yerel yönetimlere yetki devrine kadar kilit başlıklar açıklandı.",
+      "source": "Guardian",
+      "photo_query": "UK parliament budget announcement",
+      "category": "ekonomi",
+      "photo": {
+        "id": "pb:7506436",
+        "provider": "Pixabay",
+        "query": "UK parliament budget announcement",
+        "photographer": "niki_emmert",
+        "page": "https://pixabay.com/photos/hungarian-parliament-building-night-7506436/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 60,
+      "emoji": "💧",
+      "title": "Thames Water alacaklıları 2,4 milyar sterlinlik acil krediyi oylayacak",
+      "body": "Thames Water'ın alacaklıları, şirketi ayakta tutacak 2,4 milyar sterlinlik acil krediyi perşembe günü oylayacak. Kampanyacılar, yalnızca faizin her haneye 40 sterlin ek fatura getirebileceğini söylüyor; şirket bunu reddediyor.",
+      "source": "Guardian",
+      "photo_query": "water utility company infrastructure",
+      "category": "ekonomi",
+      "photo": {
+        "id": "pb:503935",
+        "provider": "Pixabay",
+        "query": "water utility company infrastructure",
+        "photographer": "blickpixel",
+        "page": "https://pixabay.com/photos/pylon-cables-sunrise-sunlight-sun-503935/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 25,
+      "emoji": "🏥",
+      "title": "İngiltere ve Galler'de yüzlerce NHS sitesine erişim kesildi",
+      "body": "İngiltere ve Galler'de yüzlerce NHS web sitesi çevrimdışı kaldı.",
+      "source": "Metro",
+      "photo_query": "NHS hospital building exterior",
+      "category": "saglik",
+      "photo": {
+        "id": "pb:1366020",
+        "provider": "Pixabay",
+        "query": "NHS hospital building exterior",
+        "photographer": "Hans",
+        "page": "https://pixabay.com/photos/university-hospital-ulm-1366020/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 77,
+      "emoji": "🚭",
+      "title": "İskoçya, 18 yaş altına nikotinli ürün satışını yasakladı",
+      "body": "İskoçya'da 18 yaşın altındakilere nikotinli ürün satışı yasaklandı. Yasak, Tobacco and Vapes Act 2026 kapsamında getirildi.",
+      "source": "The Independent",
+      "photo_query": "vaping prohibition warning sign",
+      "category": "saglik",
+      "photo": {
+        "id": "pb:2720533",
+        "provider": "Pixabay",
+        "query": "vaping prohibition warning sign",
+        "photographer": "geralt",
+        "page": "https://pixabay.com/photos/traffic-sign-empty-sign-a-notice-2720533/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 67,
+      "emoji": "👑",
+      "title": "Kral Charles Karayipler turunun ikinci gününde dans etti",
+      "body": "Kral Charles, Karayipler turunun ikinci gününde dans hareketleriyle dikkat çekti. Kral, günün başında adanın savaşta hayatını kaybeden askerlerini de andı.",
+      "source": "BBC",
+      "photo_query": "Caribbean carnival celebration dancing",
+      "category": "kraliyet",
+      "photo": {
+        "id": "pb:3088458",
+        "provider": "Pixabay",
+        "query": "Caribbean carnival celebration dancing",
+        "photographer": "5598375",
+        "page": "https://pixabay.com/photos/streamer-carnival-multicoloured-3088458/",
+        "fallback": false
+      }
+    }
+  ],
+  "history_keys": [
+    "immigrationrulesappendixtemporaryworkreligiousworker",
+    "immigrationrulesappendixt2ministerofreligion",
+    "ukgovernmenttoallowtwoyeargraduatevisaforhighcomplianceuniversities",
+    "budget2026keypointsannouncedbychancellorjohnhealeyfromenergybillstodevolution",
+    "thameswatercreditorstovoteonemergency24bnloanascashrunslow",
+    "hundredsofnhswebsitesacrossenglandandwalesgooffline",
+    "scotlandbanssaleofnicotineproductstounder18s",
+    "kingcharlesshowsoffdancemovesonseconddayofcaribbeantour"
+  ]
+}
