@@ -1,6 +1,6 @@
 {
   "date": "2026-10-29",
-  "caption": "🇬🇧 UK Daily Briefing | Thursday, 29 October 2026\n\n1. 💷 Healey raises taxes on banks and landlords to fund £100 handouts\nJohn Healey raised taxes on banks and landlords to fund a £100 winter handout for 20 million families. In a low-key Budget speech, the chancellor blamed 'global economic storms' for higher energy prices and the cost of living crisis.\n\n2. 💼 Official statistics published on visa holder earnings and employment\nStatistics for the year ending March 2026 cover visa holders' earnings, employment and income tax. They match Home Office visa records with HMRC PAYE Real Time Information data and include main applicants and dependants.\n\n3. 🎓 Two-year graduate visa planned for 'high-compliance' universities\nThe government also announced an expansion of the 'high potential individual' visa route to the top 150 global institutions, as part of efforts to attract 'the world's best graduates'.\n\n4. ⚖️ Respect orders to tackle antisocial behaviour come into force\nPerpetrators of antisocial behaviour could face tougher restrictions as new respect orders come into force across England and Wales today.\n\n5. ✈️ Over 4 million illegal cigarettes seized at Manchester Airport\nBorder Force officers seized more than 4 million illegal cigarettes, worth an estimated £2.59 million, during a four-day crackdown at Manchester Airport.\n\n6. 🚭 Scotland bans sale of nicotine products to under-18s\nThe ban forms part of the Tobacco and Vapes Act 2026.\n\n7. ⚽ Russo hat-trick fires Arsenal to 3-0 win over Benfica\nAlessia Russo became England's all-time leading goalscorer in the Women's Champions League with a hat-trick in Arsenal's 3-0 win over Benfica.\n\n8. 👑 King Charles shows off dance moves on second day of Caribbean tour\nEarlier in the day, the King paid his respects to the island's fallen servicemen and women.\n\nSources: Guardian, GOV.UK Home Office, The Independent, BBC Sport, BBC. Stories summarised from UK media reports. Images: Pixabay.\n\n#UKBudget2026 #CostOfLiving #BankTax #EnergyBills #UKImmigration #Scotland #AntisocialBehaviour #BorderForce #Lionesses #RoyalTour #UKNews #Britain",
+  "caption": "🇬🇧 UK Daily Briefing | Thursday, 29 October 2026\n\n1. 💷 Chancellor Healey unveils £100 for energy bills and bank tax\nChancellor John Healey has unveiled £100 for energy bills and a tax on banks in his first Budget. He says the measures target the cost of living, but opposition parties say he has not been bold enough.\n\n2. 💼 Tax thresholds frozen for three more years\nThe point at which people start paying income tax, and the point at which they move into the higher rate, have been frozen for three more years.\n\n3. 📈 National minimum wage to rise after Budget announcement\nChancellor John Healey has announced an increase in the national minimum wage. It will mean a pay rise for around 2.3 million workers across the UK.\n\n4. 📊 Official statistics on visa holder earnings and employment published\nThe statistics cover visa holders' earnings, employment and income tax for the year ending March 2026. They match Home Office visa records with HMRC PAYE Real Time Information data and include main applicants and dependants.\n\n5. 🎓 Two-year graduate visa to be allowed at 'high-compliance' universities\nThe government also announced an expansion of the 'high potential individual' visa route to the top 150 global institutions, as part of efforts to attract 'the world's best graduates'.\n\n6. 🚫 Scotland bans sale of nicotine products to under-18s\nScotland has banned the sale of nicotine products to under-18s. The ban forms part of the Tobacco and Vapes Act 2026.\n\n7. ⚽ Russo becomes England's leading scorer in Women's Champions League\nAlessia Russo scored a hat-trick in Arsenal's 3-0 win over Benfica. It made her England's all-time leading goalscorer in the Women's Champions League.\n\n8. 👑 King Charles shows off dance moves during Caribbean tour\nKing Charles showed off his dance moves on the second day of his Caribbean tour. Earlier in the day, he paid his respects to the island's fallen servicemen and women.\n\nSources: BBC, Evening Standard, GOV.UK Home Office, The Independent, BBC Sport. Stories summarised from UK media reports. Images: Pixabay.\n\n#UKBudget2026 #CostOfLiving #Budget #UKNews #Economy #Immigration #Scotland #England #Politics #Football",
   "images": [
     "output-en/2026-10-29/00.jpg",
     "output-en/2026-10-29/01.jpg",
@@ -15,148 +15,148 @@
   "story_image": "output-en/2026-10-29/story.jpg",
   "items": [
     {
-      "ref": 78,
+      "ref": 95,
       "emoji": "💷",
-      "title": "Healey raises taxes on banks and landlords to fund £100 handouts",
-      "body": "John Healey raised taxes on banks and landlords to fund a £100 winter handout for 20 million families. In a low-key Budget speech, the chancellor blamed 'global economic storms' for higher energy prices and the cost of living crisis.",
-      "source": "Guardian",
-      "photo_query": "UK parliament Westminster",
+      "title": "Chancellor Healey unveils £100 for energy bills and bank tax",
+      "body": "Chancellor John Healey has unveiled £100 for energy bills and a tax on banks in his first Budget. He says the measures target the cost of living, but opposition parties say he has not been bold enough.",
+      "source": "BBC",
+      "photo_query": "UK parliament Westminster chamber",
       "category": "ekonomi",
       "photo": {
-        "id": "pb:2892",
+        "id": "pb:1521240",
         "provider": "Pixabay",
-        "query": "UK parliament Westminster",
-        "photographer": "PublicDomainPictures",
-        "page": "https://pixabay.com/photos/westminster-palace-building-night-2892/",
+        "query": "UK parliament Westminster chamber",
+        "photographer": "zraimondas",
+        "page": "https://pixabay.com/photos/uk-city-london-parliament-british-1521240/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 107,
+      "emoji": "💼",
+      "title": "Tax thresholds frozen for three more years",
+      "body": "The point at which people start paying income tax, and the point at which they move into the higher rate, have been frozen for three more years.",
+      "source": "BBC",
+      "photo_query": "UK pound coins money",
+      "category": "ekonomi",
+      "photo": {
+        "id": "pb:3449469",
+        "provider": "Pixabay",
+        "query": "UK pound coins money",
+        "photographer": "5663591",
+        "page": "https://pixabay.com/photos/coin-pound-golden-collection-so-3449469/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 100,
+      "emoji": "📈",
+      "title": "National minimum wage to rise after Budget announcement",
+      "body": "Chancellor John Healey has announced an increase in the national minimum wage. It will mean a pay rise for around 2.3 million workers across the UK.",
+      "source": "Evening Standard",
+      "photo_query": "UK workplace office desk",
+      "category": "ekonomi",
+      "photo": {
+        "id": "pb:5309654",
+        "provider": "Pixabay",
+        "query": "UK workplace office desk",
+        "photographer": "wal_172619",
+        "page": "https://pixabay.com/photos/office-building-window-structure-5309654/",
         "fallback": false
       }
     },
     {
       "ref": 3,
-      "emoji": "💼",
-      "title": "Official statistics published on visa holder earnings and employment",
-      "body": "Statistics for the year ending March 2026 cover visa holders' earnings, employment and income tax. They match Home Office visa records with HMRC PAYE Real Time Information data and include main applicants and dependants.",
+      "emoji": "📊",
+      "title": "Official statistics on visa holder earnings and employment published",
+      "body": "The statistics cover visa holders' earnings, employment and income tax for the year ending March 2026. They match Home Office visa records with HMRC PAYE Real Time Information data and include main applicants and dependants.",
       "source": "GOV.UK Home Office",
-      "photo_query": "UK visa stamp",
+      "photo_query": "UK visa passport document",
       "category": "goc",
       "photo": {
-        "id": "pb:2260989",
+        "id": "pb:2642170",
         "provider": "Pixabay",
-        "query": "UK visa stamp",
-        "photographer": "Charly_7777",
-        "page": "https://pixabay.com/photos/passport-visa-rubber-stamp-2260989/",
+        "query": "UK visa passport document",
+        "photographer": "cytis",
+        "page": "https://pixabay.com/photos/passport-flag-travel-visa-2642170/",
         "fallback": false
       }
     },
     {
       "ref": 51,
       "emoji": "🎓",
-      "title": "Two-year graduate visa planned for 'high-compliance' universities",
+      "title": "Two-year graduate visa to be allowed at 'high-compliance' universities",
       "body": "The government also announced an expansion of the 'high potential individual' visa route to the top 150 global institutions, as part of efforts to attract 'the world's best graduates'.",
       "source": "The Independent",
-      "photo_query": "university campus building",
+      "photo_query": "UK university campus building",
       "category": "goc",
       "photo": {
-        "id": "pb:6537164",
+        "id": "pb:5084075",
         "provider": "Pixabay",
-        "query": "university campus building",
-        "photographer": "大米好好吃",
-        "page": "https://pixabay.com/photos/university-building-campus-6537164/",
-        "fallback": false
-      }
-    },
-    {
-      "ref": 20,
-      "emoji": "⚖️",
-      "title": "Respect orders to tackle antisocial behaviour come into force",
-      "body": "Perpetrators of antisocial behaviour could face tougher restrictions as new respect orders come into force across England and Wales today.",
-      "source": "GOV.UK Home Office",
-      "photo_query": "police officer UK street",
-      "category": "guvenlik",
-      "photo": {
-        "id": "pb:4481399",
-        "provider": "Pixabay",
-        "query": "police officer UK street",
-        "photographer": "KaiPilger",
-        "page": "https://pixabay.com/photos/city-of-london-bank-london-england-4481399/",
-        "fallback": false
-      }
-    },
-    {
-      "ref": 22,
-      "emoji": "✈️",
-      "title": "Over 4 million illegal cigarettes seized at Manchester Airport",
-      "body": "Border Force officers seized more than 4 million illegal cigarettes, worth an estimated £2.59 million, during a four-day crackdown at Manchester Airport.",
-      "source": "GOV.UK Home Office",
-      "photo_query": "airport baggage control",
-      "category": "guvenlik",
-      "photo": {
-        "id": "pb:7879875",
-        "provider": "Pixabay",
-        "query": "airport baggage control",
-        "photographer": "wal_172619",
-        "page": "https://pixabay.com/photos/baggage-car-airport-travel-tourism-7879875/",
+        "query": "UK university campus building",
+        "photographer": "A_Ginard",
+        "page": "https://pixabay.com/photos/building-architecture-door-entrance-5084075/",
         "fallback": false
       }
     },
     {
       "ref": 39,
-      "emoji": "🚭",
+      "emoji": "🚫",
       "title": "Scotland bans sale of nicotine products to under-18s",
-      "body": "The ban forms part of the Tobacco and Vapes Act 2026.",
+      "body": "Scotland has banned the sale of nicotine products to under-18s. The ban forms part of the Tobacco and Vapes Act 2026.",
       "source": "The Independent",
-      "photo_query": "smoking ban sign",
+      "photo_query": "Scotland parliament Edinburgh",
       "category": "saglik",
       "photo": {
-        "id": "pb:3150546",
+        "id": "pb:77610",
         "provider": "Pixabay",
-        "query": "smoking ban sign",
-        "photographer": "Snap_it",
-        "page": "https://pixabay.com/photos/sign-signs-ban-prohibitory-3150546/",
+        "query": "Scotland parliament Edinburgh",
+        "photographer": "12019",
+        "page": "https://pixabay.com/photos/building-architecture-landmark-77610/",
         "fallback": false
       }
     },
     {
       "ref": 55,
       "emoji": "⚽",
-      "title": "Russo hat-trick fires Arsenal to 3-0 win over Benfica",
-      "body": "Alessia Russo became England's all-time leading goalscorer in the Women's Champions League with a hat-trick in Arsenal's 3-0 win over Benfica.",
+      "title": "Russo becomes England's leading scorer in Women's Champions League",
+      "body": "Alessia Russo scored a hat-trick in Arsenal's 3-0 win over Benfica. It made her England's all-time leading goalscorer in the Women's Champions League.",
       "source": "BBC Sport",
-      "photo_query": "women's football match",
+      "photo_query": "Arsenal Women football stadium",
       "category": "spor",
       "photo": {
-        "id": "pb:488700",
+        "id": "pb:2616911",
         "provider": "Pixabay",
-        "query": "women's football match",
-        "photographer": "jarmoluk",
-        "page": "https://pixabay.com/photos/soccer-ball-stadium-field-488700/",
+        "query": "Arsenal Women football stadium",
+        "photographer": "StockSnap",
+        "page": "https://pixabay.com/photos/grass-lawn-field-sports-soccer-2616911/",
         "fallback": false
       }
     },
     {
       "ref": 29,
       "emoji": "👑",
-      "title": "King Charles shows off dance moves on second day of Caribbean tour",
-      "body": "Earlier in the day, the King paid his respects to the island's fallen servicemen and women.",
+      "title": "King Charles shows off dance moves during Caribbean tour",
+      "body": "King Charles showed off his dance moves on the second day of his Caribbean tour. Earlier in the day, he paid his respects to the island's fallen servicemen and women.",
       "source": "BBC",
-      "photo_query": "Bahamas carnival parade",
+      "photo_query": "Caribbean Bahamas tropical street",
       "category": "kraliyet",
       "photo": {
-        "id": "pb:476816",
+        "id": "pb:5960208",
         "provider": "Pixabay",
-        "query": "Bahamas carnival parade",
-        "photographer": "489327",
-        "page": "https://pixabay.com/photos/carnival-woman-costume-orange-red-476816/",
+        "query": "Caribbean Bahamas tropical street",
+        "photographer": "andrescorpus",
+        "page": "https://pixabay.com/photos/beach-couple-lovers-pcean-sea-5960208/",
         "fallback": false
       }
     }
   ],
   "history_keys": [
-    "budget2026healeyhikestaxesonbanksandlandlordstofund100handoutsto20mhouseholds",
+    "healeyunveils100forenergybillsandbanktaxinfirstbudget",
+    "taxthresholdsremainunchangedhereswhatitmeansforyourpay",
+    "whatisthenationalminimumwageandhowmuchisitgoingupafterthebudget",
     "officialstatisticsvisaholderearningsemploymentandincometaxstatisticsyearendingmarch2026",
     "ukgovernmenttoallowtwoyeargraduatevisaforhighcomplianceuniversities",
-    "respectorderslaunchtargetingantisocialbehaviour",
-    "fourmillionillegalcigarettesseizedinborderforcecrackdown",
     "scotlandbanssaleofnicotineproductstounder18s",
     "russoscoreshattrickasarsenalbeatbenfica",
     "kingcharlesshowsoffdancemovesonseconddayofcaribbeantour"
