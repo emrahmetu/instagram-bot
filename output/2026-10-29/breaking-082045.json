@@ -1,0 +1,30 @@
+{
+  "type": "breaking",
+  "created_at": "2026-10-29T08:20:45.255884+00:00",
+  "item": {
+    "ref": 2,
+    "emoji": "💷",
+    "title": "Bütçe cebinizi nasıl etkiliyor: Tasarruf sahipleri, sürücüler, emekliler",
+    "body": "Çarşamba günü açıklanan bütçenin merkezinde tasarruf sahipleri, sürücüler ve emekliler vardı. Bütçenin paranızı nasıl etkileyeceğini bu haberde tek bir yerde derledik.",
+    "source": "Sky News",
+    "photo_query": "UK budget announcement 2026",
+    "category": "ekonomi",
+    "photo": {
+      "id": "pb:1132528",
+      "provider": "Pixabay",
+      "query": "UK budget announcement 2026",
+      "photographer": "ClickerHappy",
+      "page": "https://pixabay.com/photos/mic-microphone-sound-check-sing-1132528/",
+      "fallback": false
+    }
+  },
+  "caption": "🔴 SON DAKİKA | 💷 Bütçe cebinizi nasıl etkiliyor: Tasarruf sahipleri, sürücüler, emekliler\n\nÇarşamba günü açıklanan bütçenin merkezinde tasarruf sahipleri, sürücüler ve emekliler vardı. Bütçenin paranızı nasıl etkileyeceğini bu haberde tek bir yerde derledik.\n\nKaynak: Sky News | Görsel: Pixabay\nBirleşik Krallık Gündemi | 29 Ekim, 08:20\n\n#SonDakika #Bütçe #EkonomiBirleşikKrallık",
+  "images": [
+    "output/2026-10-29/breaking-082045.jpg"
+  ],
+  "story_image": "output/2026-10-29/breaking-082045-story.jpg",
+  "history_keys": [
+    "whatthebudgetmeansforyourmoneyallinoneplace"
+  ],
+  "published": false
+}
