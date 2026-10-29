@@ -334,10 +334,22 @@ USER_TEMPLATE = """Aşağıda İngiltere'nin güncel haber başlıkları var (ge
 
 
 def parse_json(text):
-    start, end = text.find("{"), text.rfind("}")
-    if start == -1 or end == -1:
-        raise ValueError("Claude yanıtında JSON bulunamadı")
-    return json.loads(text[start:end + 1])
+    """Claude yanıtındaki ilk geçerli JSON nesnesini alır (öncesinde/sonrasında açıklama ya da ikinci bir JSON olsa bile)."""
+    text = re.sub(r"```(?:json)?", "", text)
+    dec = json.JSONDecoder()
+    best = None
+    for m in re.finditer(r"\{", text):
+        try:
+            obj, _ = dec.raw_decode(text, m.start())
+        except json.JSONDecodeError:
+            continue
+        if isinstance(obj, dict):
+            if "items" in obj or "breaking" in obj or "title" in obj or "sections" in obj:
+                return obj
+            best = best or obj
+    if best is not None:
+        return best
+    raise ValueError("Claude yanıtında JSON bulunamadı")
 
 
 def summarize(items, n):
@@ -1207,6 +1219,20 @@ def graph(method, path, **params):
     return r.json()
 
 
+def publish_media(ig_user, creation_id):
+    """media_publish çağrısı; Instagram 'medya henüz hazır değil' (9007 / 2207027) derse bekleyip tekrar dener."""
+    for attempt in range(6):
+        try:
+            return graph("POST", f"{ig_user}/media_publish", creation_id=creation_id)["id"]
+        except RuntimeError as e:
+            msg = str(e)
+            if ("2207027" in msg or '"code":9007' in msg) and attempt < 5:
+                log(f"[bekleme] Medya henüz yayına hazır değil, {10 * (attempt + 1)} sn sonra tekrar deneniyor...")
+                time.sleep(10 * (attempt + 1))
+                continue
+            raise
+
+
 def wait_ready(container_id):
     for _ in range(36):
         status = graph("GET", container_id, fields="status_code").get("status_code")
@@ -1280,7 +1306,7 @@ def publish_carousel(urls, caption):
     carousel = graph("POST", f"{ig_user}/media", media_type="CAROUSEL",
                      children=",".join(children), caption=caption)["id"]
     wait_ready(carousel)
-    return graph("POST", f"{ig_user}/media_publish", creation_id=carousel)["id"]
+    return publish_media(ig_user, carousel)
 
 
 def publish_story(post, base):
@@ -1293,7 +1319,7 @@ def publish_story(post, base):
         ig_user = os.environ["IG_USER_ID"]
         cid = graph("POST", f"{ig_user}/media", image_url=url, media_type="STORIES")["id"]
         wait_ready(cid)
-        story_id = graph("POST", f"{ig_user}/media_publish", creation_id=cid)["id"]
+        story_id = publish_media(ig_user, cid)
         log(f"Hikâye paylaşıldı. Instagram medya ID: {story_id}")
         return story_id
     except Exception as e:
@@ -1501,7 +1527,7 @@ def cmd_breaking_publish(args):
     ig_user = os.environ["IG_USER_ID"]
     cid = graph("POST", f"{ig_user}/media", image_url=url, caption=post["caption"])["id"]
     wait_ready(cid)
-    media_id = graph("POST", f"{ig_user}/media_publish", creation_id=cid)["id"]
+    media_id = publish_media(ig_user, cid)
     post.update(published=True, media_id=media_id, published_at=dt.datetime.now(TZ).isoformat())
     path.write_text(json.dumps(post, ensure_ascii=False, indent=2), encoding="utf-8")
     save_history(post.get("history_keys", []))
