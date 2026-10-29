@@ -19,3 +19,8 @@ jobs:
         env:
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
         run: python bot.py whoami
+      - name: İngilizce hesap için ayrı token varsa onu da kontrol et
+        env:
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN_EN }}
+        run: |
+          if [ -n "$IG_ACCESS_TOKEN" ]; then python bot.py whoami; else echo "IG_ACCESS_TOKEN_EN yok; iki hesap da aynı token'ı kullanıyor."; fi
