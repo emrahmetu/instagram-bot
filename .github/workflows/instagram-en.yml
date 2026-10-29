@@ -1,0 +1,86 @@
+name: Instagram EN Günlük Paylaşım (@emresterlin)
+
+on:
+  schedule:
+    # Hedef: her sabah Londra saatiyle 08:00.
+    # GitHub saatleri UTC'dir. Yaz saatinde 08:00 Londra = 07:00 UTC, kış saatinde = 08:00 UTC.
+    # Bu yüzden iki kez tetiklenir; bot Londra saatine bakar, erken olanı atlar,
+    # aynı gün ikinci kez paylaşmaz. GitHub işleri 5-30 dakika gecikmeyle başlatabilir.
+    - cron: "0 7 * * *"
+    - cron: "0 8 * * *"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Deneme: görselleri üret ama Instagram'a gönderme"
+        type: boolean
+        default: true
+      force:
+        description: "Saat kontrolünü atla (elle çalıştırırken açık kalsın)"
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: instagram-post-en
+  cancel-in-progress: false
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      BOT_LANG: en            # İngilizce hesap: kayıtlar output-en/ klasöründe
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Font ve kütüphaneleri kur
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq fonts-dejavu-core
+          pip install -q -r requirements.txt
+
+      - name: Haberleri hazırla (RSS + Claude + görseller)
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+          PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
+          FORCE: ${{ (github.event_name == 'workflow_dispatch' && inputs.force) && '1' || '0' }}
+        run: python bot.py prepare
+
+      - name: Görselleri depoya yükle
+        id: push
+        run: |
+          git config user.name "instagram-bot"
+          git config user.email "instagram-bot@users.noreply.github.com"
+          mkdir -p output-en && git add output-en
+          if git diff --cached --quiet; then
+            echo "Yeni dosya yok."
+          else
+            git commit -q -m "EN günlük görseller $(date -u +%F)"
+            for i in 1 2 3; do if git pull --rebase -X theirs -q origin "${GITHUB_REF_NAME}" && git push -q; then ok=1; break; fi; git rebase --abort 2>/dev/null || true; sleep 5; done; [ "$ok" = 1 ] || exit 1
+          fi
+          echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+
+      - name: Instagram'a yayınla
+        env:
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN_EN || secrets.IG_ACCESS_TOKEN }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID_EN }}
+          EXPECTED_IG_USERNAME: ${{ vars.EXPECTED_IG_USERNAME_EN }}
+          IMAGE_BASE_URL: https://raw.githubusercontent.com/${{ github.repository }}/${{ steps.push.outputs.sha }}
+          DRY_RUN: ${{ (github.event_name == 'workflow_dispatch' && inputs.dry_run) && '1' || '0' }}
+          FORCE: ${{ (github.event_name == 'workflow_dispatch' && inputs.force) && '1' || '0' }}
+        run: python bot.py publish
+
+      - name: Yayın kaydını sakla (aynı gün iki kez paylaşmasın)
+        if: always()
+        run: |
+          mkdir -p output-en && git add output-en
+          if ! git diff --cached --quiet; then
+            git commit -q -m "EN yayın kaydı $(date -u +%F)"
+            for i in 1 2 3; do if git pull --rebase -X theirs -q origin "${GITHUB_REF_NAME}" && git push -q; then ok=1; break; fi; git rebase --abort 2>/dev/null || true; sleep 5; done; [ "$ok" = 1 ] || exit 1
+          fi
