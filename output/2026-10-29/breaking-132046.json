@@ -1,0 +1,30 @@
+{
+  "type": "breaking",
+  "created_at": "2026-10-29T13:20:46.836263+00:00",
+  "item": {
+    "ref": 11,
+    "emoji": "🚭",
+    "title": "Nikotin içermeyen vape satışı 18 yaş altına yasaklandı",
+    "body": "Hükümet, Tobacco and Vapes Act kapsamında 18 yaşından küçüklere nikotin içermeyen vape satışının bugünden itibaren yasa dışı olduğunu açıkladı. Nikotinli vape satışı çocuklara zaten yasaktı. Birleşik Krallık genelindeki mağazalar artık nikotinsiz vape de satamayacak.",
+    "source": "Guardian",
+    "photo_query": "vape nicotine ban children",
+    "category": "gundem",
+    "photo": {
+      "id": "pb:1881957",
+      "provider": "Pixabay",
+      "query": "vape nicotine ban children",
+      "photographer": "rolandmey",
+      "page": "https://pixabay.com/photos/e-cigarette-steam-evaporator-health-1881957/",
+      "fallback": false
+    }
+  },
+  "caption": "🔴 SON DAKİKA | 🚭 Nikotin içermeyen vape satışı 18 yaş altına yasaklandı\n\nHükümet, Tobacco and Vapes Act kapsamında 18 yaşından küçüklere nikotin içermeyen vape satışının bugünden itibaren yasa dışı olduğunu açıkladı. Nikotinli vape satışı çocuklara zaten yasaktı. Birleşik Krallık genelindeki mağazalar artık nikotinsiz vape de satamayacak.\n\nKaynak: Guardian | Görsel: Pixabay\nBirleşik Krallık Gündemi | 29 Ekim, 13:20\n\n#SonDakika #VapeBan #Tobacco",
+  "images": [
+    "output/2026-10-29/breaking-132046.jpg"
+  ],
+  "story_image": "output/2026-10-29/breaking-132046-story.jpg",
+  "history_keys": [
+    "healeyacceptsharddecisionsaheadasthinktanksays2020ssettobeworstdecadeforlivingstandardsgrowthukpoliticslive"
+  ],
+  "published": false
+}
