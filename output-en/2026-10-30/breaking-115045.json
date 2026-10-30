@@ -1,0 +1,32 @@
+{
+  "type": "breaking",
+  "created_at": "2026-10-30T11:50:45.259069+00:00",
+  "item": {
+    "ref": 3,
+    "emoji": "💷",
+    "title": "Millions of pensioners and families miss out on £4,700 in DWP payments",
+    "body": "Millions of pensioners and families are missing out on £4,700 in DWP payments. The scale of unclaimed support has been described as 'shocking'.",
+    "source": "The Independent",
+    "photo_query": "DWP office building UK",
+    "person": "",
+    "person_role": "",
+    "category": "gundem",
+    "photo": {
+      "id": "pb:7231312",
+      "provider": "Pixabay",
+      "query": "DWP office building UK",
+      "photographer": "jacek_osinski",
+      "page": "https://pixabay.com/photos/stairs-building-window-architecture-7231312/",
+      "fallback": false
+    }
+  },
+  "caption": "🔴 BREAKING | 💷 Millions of pensioners and families miss out on £4,700 in DWP payments\n\nMillions of pensioners and families are missing out on £4,700 in DWP payments. The scale of unclaimed support has been described as 'shocking'.\n\nSource: The Independent | Image: Pixabay\nUK Daily Briefing | 30 October, 11:50\n\n#BreakingNews #DWP #Pensions #Benefits",
+  "images": [
+    "output-en/2026-10-30/breaking-115045.jpg"
+  ],
+  "story_image": "output-en/2026-10-30/breaking-115045-story.jpg",
+  "history_keys": [
+    "millionsofpensionersandfamiliesmissingouton4700indwppaymentshowtocheckifyoureoneofthem"
+  ],
+  "published": false
+}
