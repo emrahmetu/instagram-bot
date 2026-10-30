@@ -1,0 +1,33 @@
+{
+  "type": "breaking",
+  "created_at": "2026-10-30T08:20:42.619945+00:00",
+  "item": {
+    "ref": 17,
+    "emoji": "🎭",
+    "title": "Sir Ian McKellen, 86 yaşında ölen Sir Patrick Stewart'ı andı",
+    "body": "Sir Patrick Stewart, Los Angeles'ta 86 yaşında hayatını kaybetti. Oyuncu, Alzheimer hastalığı ve Lewy Body Dementia ile \"kısa ve dokunaklı bir yolculuğun\" ardından öldü. Başta Sir Ian McKellen olmak üzere \"sevilen oyuncu\" için anma mesajları geldi.",
+    "source": "BBC",
+    "photo_query": "Sir Patrick Stewart actor",
+    "person": "Patrick Stewart",
+    "person_role": "actor",
+    "category": "magazin",
+    "photo": {
+      "id": "wm:Patrick Stewart 1999.jpg",
+      "provider": "Wikimedia Commons",
+      "person": "Patrick Stewart",
+      "license": "CC BY-SA 2.0",
+      "photographer": "Kingkongphoto & www.celebrity-photos.com from Laurel Marylan",
+      "page": "https://commons.wikimedia.org/wiki/File:Patrick_Stewart_1999.jpg",
+      "credit": "Kingkongphoto & www.celebrity-photos.com from Laurel Marylan / CC BY-SA 2.0, Wikimedia Commons"
+    }
+  },
+  "caption": "🔴 SON DAKİKA | 🎭 Sir Ian McKellen, 86 yaşında ölen Sir Patrick Stewart'ı andı\n\nSir Patrick Stewart, Los Angeles'ta 86 yaşında hayatını kaybetti. Oyuncu, Alzheimer hastalığı ve Lewy Body Dementia ile \"kısa ve dokunaklı bir yolculuğun\" ardından öldü. Başta Sir Ian McKellen olmak üzere \"sevilen oyuncu\" için anma mesajları geldi.\n\nKaynak: BBC | Görsel: Kingkongphoto & www.celebrity-photos.com from Laurel Marylan / CC BY-SA 2.0, Wikimedia Commons\nBirleşik Krallık Gündemi | 30 Ekim, 08:20\n\n#SonDakika #PatrickStewart #TiyatroDünyası",
+  "images": [
+    "output/2026-10-30/breaking-082042.jpg"
+  ],
+  "story_image": "output/2026-10-30/breaking-082042-story.jpg",
+  "history_keys": [
+    "sirianmckellenleadstributestobelovedactorsirpatrickstewartafterhisdeathat86"
+  ],
+  "published": false
+}
