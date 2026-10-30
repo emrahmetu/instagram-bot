@@ -1,0 +1,32 @@
+{
+  "type": "breaking",
+  "created_at": "2026-10-30T13:20:44.837344+00:00",
+  "item": {
+    "ref": 3,
+    "emoji": "💼",
+    "title": "NatWest yapay zeka atılımının ardından 1.000 kişiyi daha işten çıkarıyor",
+    "body": "NatWest, yapay zeka odaklı verimlilik çalışmalarının ardından 1.000 işi daha kesme kararı aldığını duyurdu. Banka, daha sade ve teknoloji odaklı bir yapıya geçişte kaydettiği ilerlemeyi öne çıkardı.",
+    "source": "The Independent",
+    "photo_query": "NatWest bank London headquarters",
+    "person": "",
+    "person_role": "",
+    "category": "gundem",
+    "photo": {
+      "id": "pb:4303278",
+      "provider": "Pixabay",
+      "query": "NatWest bank London headquarters",
+      "photographer": "yossiconic",
+      "page": "https://pixabay.com/photos/street-raining-night-evening-urban-4303278/",
+      "fallback": false
+    }
+  },
+  "caption": "🔴 SON DAKİKA | 💼 NatWest yapay zeka atılımının ardından 1.000 kişiyi daha işten çıkarıyor\n\nNatWest, yapay zeka odaklı verimlilik çalışmalarının ardından 1.000 işi daha kesme kararı aldığını duyurdu. Banka, daha sade ve teknoloji odaklı bir yapıya geçişte kaydettiği ilerlemeyi öne çıkardı.\n\nKaynak: The Independent | Görsel: Pixabay\nBirleşik Krallık Gündemi | 30 Ekim, 13:20\n\n#SonDakika #NatWest #İşsizlik",
+  "images": [
+    "output/2026-10-30/breaking-132044.jpg"
+  ],
+  "story_image": "output/2026-10-30/breaking-132044-story.jpg",
+  "history_keys": [
+    "natwestannounces1000morejobscutafteraiefficiencydrive"
+  ],
+  "published": false
+}
