@@ -1,0 +1,164 @@
+{
+  "date": "2026-10-30",
+  "caption": "🇬🇧 Birleşik Krallık Gündemi | 30 Ekim 2026, Cuma\n\n1. 🤝 Mülteci kabulü için lead sponsor başvuruları açıldı\nHayır kuruluşları artık lead sponsor olmak için başvurabilecek. Bu adım, İçişleri Bakanı'nın yeni güvenli ve yasal yollar açma taahhüdünü hayata geçirmeye yönelik önemli bir aşama.\n\n2. 👁️ Immigration Enforcement'ın canlı yüz tanıma yetkisi belgesi yayımlandı\nYayımlanan politika belgesi, Immigration Enforcement'ın canlı yüz tanıma teknolojisini kullanmasına dayanak olan yetkileri ve yasal yetkileri açıklıyor.\n\n3. 👶 Modern kölelik mağduru çocuklar için karar alma pilotu başladı\nHome Office, modern kölelik ve insan ticareti mağduru çocuklar için alternatif karar alma modellerini test edecek bir pilot program başlattı.\n\n4. ⚠️ Modern kölelik: NRM ve DtN istatistikleri, Eylül 2026'ya kadar\nResmi istatistikler, Eylül 2026'da sona eren yıl içinde modern kölelik mağduru olabilecek kişiler için National Referral Mechanism'e yapılan yönlendirmeleri kapsıyor.\n\n5. 🎭 Efsanevi oyuncu Sir Patrick Stewart 86 yaşında hayatını kaybetti\nSir Patrick Stewart, Los Angeles'taki evinde yaşamını yitirdi. Stewart, ölümünden önce kısa bir süre Alzheimer hastalığı ve Lewy Body Dementia ile mücadele etmişti.\n\n6. 🏪 Poundland, administrator atanması için bildirim verdi\nPerakendeci Poundland'in yönetimi, şirkete administrator atanması için niyet bildirimi verdi. Burnham, şirket çalışanlarını desteklemeye hazır olduğunu söyledi.\n\n7. 👑 Kral Charles Karayip turunda Guyana'ya ulaştı\nKral Charles, Bahamalar'dan Guyana'ya geldi. Kralı Devlet Başkanı Mohamed Irfaan Ali karşıladı.\n\n8. 💧 İngiltere'de dokuz su şirketinden sekizi çevrede hâlâ başarısız\nBir rapora göre İngiltere'deki dokuz büyük su şirketinden sekizi çevre performansında yetersiz kaldı. Environment Secretary Angela Eagle, milyarlarca sterlinlik yatırıma rağmen kirliliğin sürdüğünü belirterek şirket yöneticilerini Whitehall'a çağırdı.\n\nKaynaklar: GOV.UK Home Office, Evening Standard, BBC, Guardian. Haberler Türkçe özet olarak derlenmiştir. Görseller: Pixabay.\n\n#İngiltere #Londra #UKNews #Göç #Mülteci #SirPatrickStewart #İngilizHaber #BirleşikKrallık #Ekonomi #Çevre",
+  "images": [
+    "output/ornek/2026-10-30_0154/00.jpg",
+    "output/ornek/2026-10-30_0154/01.jpg",
+    "output/ornek/2026-10-30_0154/02.jpg",
+    "output/ornek/2026-10-30_0154/03.jpg",
+    "output/ornek/2026-10-30_0154/04.jpg",
+    "output/ornek/2026-10-30_0154/05.jpg",
+    "output/ornek/2026-10-30_0154/06.jpg",
+    "output/ornek/2026-10-30_0154/07.jpg",
+    "output/ornek/2026-10-30_0154/08.jpg"
+  ],
+  "story_image": "output/ornek/2026-10-30_0154/story.jpg",
+  "items": [
+    {
+      "ref": 1,
+      "emoji": "🤝",
+      "title": "Mülteci kabulü için lead sponsor başvuruları açıldı",
+      "body": "Hayır kuruluşları artık lead sponsor olmak için başvurabilecek. Bu adım, İçişleri Bakanı'nın yeni güvenli ve yasal yollar açma taahhüdünü hayata geçirmeye yönelik önemli bir aşama.",
+      "source": "GOV.UK Home Office",
+      "photo_query": "UK refugee sponsorship welcome",
+      "category": "goc",
+      "photo": {
+        "id": "pb:7728768",
+        "provider": "Pixabay",
+        "query": "UK refugee sponsorship welcome",
+        "photographer": "PatrickLFC93",
+        "page": "https://pixabay.com/photos/edinburgh-royalmile-road-7728768/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 7,
+      "emoji": "👁️",
+      "title": "Immigration Enforcement'ın canlı yüz tanıma yetkisi belgesi yayımlandı",
+      "body": "Yayımlanan politika belgesi, Immigration Enforcement'ın canlı yüz tanıma teknolojisini kullanmasına dayanak olan yetkileri ve yasal yetkileri açıklıyor.",
+      "source": "GOV.UK Home Office",
+      "photo_query": "facial recognition technology border control",
+      "category": "goc",
+      "photo": {
+        "id": "pb:1867224",
+        "provider": "Pixabay",
+        "query": "facial recognition technology border control",
+        "photographer": "Pexels",
+        "page": "https://pixabay.com/photos/man-beard-elderly-face-head-1867224/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 8,
+      "emoji": "👶",
+      "title": "Modern kölelik mağduru çocuklar için karar alma pilotu başladı",
+      "body": "Home Office, modern kölelik ve insan ticareti mağduru çocuklar için alternatif karar alma modellerini test edecek bir pilot program başlattı.",
+      "source": "GOV.UK Home Office",
+      "photo_query": "UK child protection safeguarding",
+      "category": "goc",
+      "photo": {
+        "id": "pb:7228120",
+        "provider": "Pixabay",
+        "query": "UK child protection safeguarding",
+        "photographer": "LifeOfDapo",
+        "page": "https://pixabay.com/photos/multi-storey-parking-garage-building-7228120/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 11,
+      "emoji": "⚠️",
+      "title": "Modern kölelik: NRM ve DtN istatistikleri, Eylül 2026'ya kadar",
+      "body": "Resmi istatistikler, Eylül 2026'da sona eren yıl içinde modern kölelik mağduru olabilecek kişiler için National Referral Mechanism'e yapılan yönlendirmeleri kapsıyor.",
+      "source": "GOV.UK Home Office",
+      "photo_query": "modern slavery awareness UK",
+      "category": "goc",
+      "photo": {
+        "id": "pb:10477138",
+        "provider": "Pixabay",
+        "query": "modern slavery awareness UK",
+        "photographer": "Carla_Manneh",
+        "page": "https://pixabay.com/photos/lion-nature-jungle-animal-wild-10477138/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 44,
+      "emoji": "🎭",
+      "title": "Efsanevi oyuncu Sir Patrick Stewart 86 yaşında hayatını kaybetti",
+      "body": "Sir Patrick Stewart, Los Angeles'taki evinde yaşamını yitirdi. Stewart, ölümünden önce kısa bir süre Alzheimer hastalığı ve Lewy Body Dementia ile mücadele etmişti.",
+      "source": "Evening Standard",
+      "photo_query": "Star Trek actor Patrick Stewart tribute",
+      "category": "magazin",
+      "photo": {
+        "id": "pb:6342453",
+        "provider": "Pixabay",
+        "query": "Star Trek actor Patrick Stewart tribute",
+        "photographer": "wendy8798516",
+        "page": "https://pixabay.com/photos/man-actor-wang-yibo-portrait-6342453/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 81,
+      "emoji": "🏪",
+      "title": "Poundland, administrator atanması için bildirim verdi",
+      "body": "Perakendeci Poundland'in yönetimi, şirkete administrator atanması için niyet bildirimi verdi. Burnham, şirket çalışanlarını desteklemeye hazır olduğunu söyledi.",
+      "source": "BBC",
+      "photo_query": "Poundland UK discount retail store",
+      "category": "ekonomi",
+      "photo": {
+        "id": "pb:428614",
+        "provider": "Pixabay",
+        "query": "Poundland UK discount retail store",
+        "photographer": "jarmoluk",
+        "page": "https://pixabay.com/photos/jeans-pants-denim-denim-pants-blue-428614/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 82,
+      "emoji": "👑",
+      "title": "Kral Charles Karayip turunda Guyana'ya ulaştı",
+      "body": "Kral Charles, Bahamalar'dan Guyana'ya geldi. Kralı Devlet Başkanı Mohamed Irfaan Ali karşıladı.",
+      "source": "BBC",
+      "photo_query": "King Charles Caribbean royal tour",
+      "category": "kraliyet",
+      "photo": {
+        "id": "pb:9620258",
+        "provider": "Pixabay",
+        "query": "King Charles Caribbean royal tour",
+        "photographer": "Carla_Manneh",
+        "page": "https://pixabay.com/photos/lion-nature-animal-predator-9620258/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 116,
+      "emoji": "💧",
+      "title": "İngiltere'de dokuz su şirketinden sekizi çevrede hâlâ başarısız",
+      "body": "Bir rapora göre İngiltere'deki dokuz büyük su şirketinden sekizi çevre performansında yetersiz kaldı. Environment Secretary Angela Eagle, milyarlarca sterlinlik yatırıma rağmen kirliliğin sürdüğünü belirterek şirket yöneticilerini Whitehall'a çağırdı.",
+      "source": "Guardian",
+      "photo_query": "water pollution UK environmental crisis",
+      "category": "saglik",
+      "photo": {
+        "id": "pb:4897844",
+        "provider": "Pixabay",
+        "query": "water pollution UK environmental crisis",
+        "photographer": "Karuvadgraphy",
+        "page": "https://pixabay.com/photos/trash-trash-land-trash-dump-carbage-4897844/",
+        "fallback": false
+      }
+    }
+  ],
+  "history_keys": [
+    "leadsponsorapplicationsopeninsteptowardsrefugeearrivals",
+    "policypaperimmigrationenforcementlivefacialrecognitionlegalmandate",
+    "guidancepilotingdevolvingdecisionmakingforchildvictimsofmodernslavery",
+    "officialstatisticsmodernslaverynrmanddtnstatisticsyeartoseptember2026",
+    "legendaryactorsirpatrickstewartdiesaged86",
+    "burnhamreadytosupportpoundlandstaffasretailerfacescollapse",
+    "charlesarrivesinguyanafornextlegofcaribbeantour",
+    "eightofenglandsninewatercompaniesstillfailingonenvironmentreportfinds"
+  ]
+}
