@@ -1,0 +1,32 @@
+{
+  "type": "breaking",
+  "created_at": "2026-10-30T11:20:44.186234+00:00",
+  "item": {
+    "ref": 2,
+    "emoji": "🛡️",
+    "title": "Hükümet savunma harcaması için Gordon Brown tarzı borçlanmayı düşünüyor",
+    "body": "Maliye Bakanı'nın, savunma harcamalarını artırmak için Gordon Brown döneminde kullanılan private finance initiatives (özel finansman girişimleri) yöntemini değerlendirdiği belirtiliyor. Bu yöntem, borcun resmi bütçe rakamlarına yansımadan borçlanılmasına imkân tanıyor.",
+    "source": "The Independent",
+    "photo_query": "British defence ministry MOD",
+    "person": "",
+    "person_role": "",
+    "category": "siyaset",
+    "photo": {
+      "id": "pb:7188050",
+      "provider": "Pixabay",
+      "query": "British defence ministry MOD",
+      "photographer": "vgrunsteine",
+      "page": "https://pixabay.com/photos/beach-pier-dock-norfolk-coast-7188050/",
+      "fallback": false
+    }
+  },
+  "caption": "🔴 SON DAKİKA | 🛡️ Hükümet savunma harcaması için Gordon Brown tarzı borçlanmayı düşünüyor\n\nMaliye Bakanı'nın, savunma harcamalarını artırmak için Gordon Brown döneminde kullanılan private finance initiatives (özel finansman girişimleri) yöntemini değerlendirdiği belirtiliyor. Bu yöntem, borcun resmi bütçe rakamlarına yansımadan borçlanılmasına imkân tanıyor.\n\nKaynak: The Independent | Görsel: Pixabay\nBirleşik Krallık Gündemi | 30 Ekim, 11:20\n\n#SonDakika #Savunma #Bütçe",
+  "images": [
+    "output/2026-10-30/breaking-112044.jpg"
+  ],
+  "story_image": "output/2026-10-30/breaking-112044-story.jpg",
+  "history_keys": [
+    "ukconsidersgordonbrownstyleoffthebooksborrowingtofunddefence"
+  ],
+  "published": false
+}
