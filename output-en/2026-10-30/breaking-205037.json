@@ -1,0 +1,33 @@
+{
+  "type": "breaking",
+  "created_at": "2026-10-30T20:50:37.251010+00:00",
+  "item": {
+    "ref": 1,
+    "emoji": "👑",
+    "title": "King Charles visits execution site of 1823 slavery uprising",
+    "body": "The King visited the site where British authorities put down one of the largest uprisings of the colonial era. The 1823 uprising was against slavery, and the site is where executions took place.",
+    "source": "The Independent",
+    "photo_query": "King Charles Commonwealth visit",
+    "person": "Charles III",
+    "person_role": "royal",
+    "category": "kraliyet",
+    "photo": {
+      "id": "wm:King Charles III (July 2023).jpg",
+      "provider": "Wikimedia Commons",
+      "person": "Charles III",
+      "license": "Public domain",
+      "photographer": "White House",
+      "page": "https://commons.wikimedia.org/wiki/File:King_Charles_III_(July_2023).jpg",
+      "credit": "White House / Public domain, Wikimedia Commons"
+    }
+  },
+  "caption": "🔴 BREAKING | 👑 King Charles visits execution site of 1823 slavery uprising\n\nThe King visited the site where British authorities put down one of the largest uprisings of the colonial era. The 1823 uprising was against slavery, and the site is where executions took place.\n\nSource: The Independent | Image: White House / Public domain, Wikimedia Commons\nUK Daily Briefing | 30 October, 20:50\n\n#BreakingNews #RoyalVisit #Guyana",
+  "images": [
+    "output-en/2026-10-30/breaking-205037.jpg"
+  ],
+  "story_image": "output-en/2026-10-30/breaking-205037-story.jpg",
+  "history_keys": [
+    "kingcharlesvisitsexecutionsiteof1823uprisingagainstslavery"
+  ],
+  "published": false
+}
