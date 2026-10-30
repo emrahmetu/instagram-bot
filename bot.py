@@ -319,7 +319,7 @@ Kurallar:
 - Aynı olayı iki kez yazma.
 - Dil sade, tarafsız, haber dili. Para birimini "sterlin" ya da "£" ile yaz.
 - category: haberin kategorisi; şunlardan BİRİ: goc, ekonomi, siyaset, saglik, guvenlik, hava, spor, magazin, kraliyet, dunya, gundem.
-- photo_query: haberi temsil eden bir MEKÂN ya da NESNE fotoğrafı için İngilizce arama terimi (ör. "UK parliament", "passport stamp", "hospital corridor", "London bus", "pound coins"). Gerçek kişilerin adını, yüzü ön planda olan insanları, şiddet ya da suç içeren görselleri arama.
+- photo_query: haberi temsil eden, GÖRSEL OLARAK ÇARPICI bir MEKÂN ya da NESNE fotoğrafı için İngilizce arama terimi. İngiltere'ye özgü olsun ki başka ülkelerin binası, bayrağı ya da pasaportu çıkmasın (ör. "Big Ben Westminster", "British passport", "NHS ambulance", "London red bus", "pound sterling coins", "Union Jack"). Gerçek kişilerin adını, yüzü ön planda olan insanları, şiddet ya da suç içeren görselleri arama.
 
 Çıktı: SADECE geçerli JSON, başka hiçbir metin yok:
 {"items":[{"ref":listedeki sıra numarası (tam sayı),"emoji":"tek emoji","title":"en fazla 70 karakter başlık","body":"2 cümle, en fazla 260 karakter","source":"kaynak adı","category":"kategori anahtarı","photo_query":"Pexels için 2-4 kelimelik İNGİLİZCE fotoğraf arama terimi"}],
@@ -392,7 +392,7 @@ BREAKING_PROMPT = """Sen İngiltere'de yaşayan Türk topluluğu için çalışa
 Son dakika SAYILMAZ: yorum ve köşe yazıları, anketler, spekülasyon ve sızıntılar, sıradan siyasi atışmalar, bireysel suç, soruşturma ve mahkeme haberleri, cinsel suç iddiaları (kim hakkında olursa olsun), intihar, doğrulanmamış dedikodu ve söylentiler, sıradan maç haberleri ve transfer söylentileri, yerel haberler.
 Günde birkaç ara paylaşım yapılabiliyor; çıta yüksek ama makul. Gerçekten yeni ve önemli bir gelişme varsa paylaş, emin değilsen paylaşma.
 
-Kurallar: YALNIZCA verilen başlık ve özetteki bilgileri kullan, rakam, isim, alıntı uydurma. Dil sade ve tarafsız. photo_query: haberi temsil eden MEKÂN ya da NESNE için İngilizce arama terimi; kişi adı, yüz, şiddet içeren görsel arama.
+Kurallar: YALNIZCA verilen başlık ve özetteki bilgileri kullan, rakam, isim, alıntı uydurma. Dil sade ve tarafsız. photo_query: haberi temsil eden, görsel olarak çarpıcı ve İngiltere'ye özgü bir MEKÂN ya da NESNE için İngilizce arama terimi (ör. "Big Ben Westminster", "British passport", "NHS ambulance"); kişi adı, yüz, şiddet içeren görsel arama.
 
 Çıktı SADECE JSON:
 Paylaşılacak haber yoksa: {"breaking": false}
@@ -549,7 +549,7 @@ Rules:
 - Do NOT select: sexual offences or allegations, child abuse, suicide/self-harm, details of individual murders or violence, unverified gossip and rumours, diet/weight loss.
 - Never cover the same event twice.
 - category: exactly ONE of: goc (immigration), ekonomi (economy), siyaset (politics), saglik (health), guvenlik (security), hava (weather/environment), spor (sport), magazin (entertainment), kraliyet (royals), dunya (world), gundem (general).
-- photo_query: an English search term for a PLACE or OBJECT photo that represents the story (e.g. "UK parliament", "passport stamp", "hospital corridor", "London bus", "pound coins"). No real people's names, no faces in close-up, no violence or crime imagery.
+- photo_query: an English search term for a visually STRIKING PLACE or OBJECT photo that represents the story. Make it UK-specific so other countries' buildings, flags or passports do not appear (e.g. "Big Ben Westminster", "British passport", "NHS ambulance", "London red bus", "pound sterling coins", "Union Jack"). No real people's names, no faces in close-up, no violence or crime imagery.
 
 Output: ONLY valid JSON, nothing else:
 {"items":[{"ref":number from the list (integer),"emoji":"one emoji","title":"max 70 characters","body":"2 sentences, max 260 characters","source":"source name","category":"category key","photo_query":"2-4 word English photo search term"}],
@@ -581,7 +581,7 @@ Counts as breaking (new, confirmed developments that matter to a wide audience):
 NOT breaking: opinion and columns, polls, speculation and leaks, routine political rows, individual crime, investigations and court cases, sexual offence allegations (about anyone), suicide, unverified gossip and rumours, routine match reports and transfer rumours, local news.
 Several breaking posts a day are possible; the bar is high but reasonable. If unsure, do not post.
 
-Rules: use ONLY information in the headline and summary; do not invent figures, names or quotes. photo_query: English search term for a PLACE or OBJECT; no names, faces or violence.
+Rules: use ONLY information in the headline and summary; do not invent figures, names or quotes. photo_query: English search term for a visually striking, UK-specific PLACE or OBJECT (e.g. "Big Ben Westminster", "British passport", "NHS ambulance"); no names, faces or violence.
 
 Output ONLY JSON:
 If nothing qualifies: {"breaking": false}
@@ -845,18 +845,111 @@ def numbered_list(d, items, y, bottom, max_w, sizes, num_w):
     return y
 
 
-def render_cover(items, day, path):
-    img, d = clean_canvas()
-    max_w = W - 2 * MARGIN
-    y = 120
-    tracked(d, (MARGIN, y), COVER_LABEL, font("bold", 26), MUTED)
-    y += 70
-    fnt, lines, lh = fit_text(d, BRAND_TITLE, "bold", max_w, 260, 104, 64, 1.08)
-    y = draw_lines(d, MARGIN, y, lines, fnt, lh, INK) + 36
-    d.rectangle([MARGIN, y, MARGIN + 90, y + 6], fill=INK)
-    y += 50
-    numbered_list(d, items, y, H - 150, max_w, range(36, 23, -2), 70)
-    footer(d, L("Detaylar için kaydırın  →", "Swipe for details  →"))
+# ------------------------- Fotoğraf ağırlıklı kart tasarımı ------------------------- #
+# Fotoğraf kartın tamamını kaplar; altta koyu bir geçiş üzerinde yalnızca büyük başlık yer alır.
+# Vurgu rengi fotoğrafın kendi renklerinden seçilir. Ayrıntılar post açıklamasındadır.
+def photo_palette(photo, fallback=ACCENT):
+    """Fotoğraftan canlı bir vurgu rengi ve koyu bir gölge rengi çıkarır."""
+    import colorsys
+
+    if photo is None:
+        r, g, b = fallback
+        h, s, v = colorsys.rgb_to_hsv(r / 255, g / 255, b / 255)
+    else:
+        small = photo.convert("RGB").resize((80, 100))
+        q = small.quantize(colors=8)
+        pal = q.getpalette()
+        best, best_score = None, -1
+        for count, idx in sorted(q.getcolors(), reverse=True):
+            r, g, b = pal[idx * 3: idx * 3 + 3]
+            hh, ss, vv = colorsys.rgb_to_hsv(r / 255, g / 255, b / 255)
+            if vv < 0.18:
+                continue
+            score = count * (0.15 + ss) * (0.4 + vv)
+            if score > best_score:
+                best, best_score = (hh, ss, vv), score
+        h, s, v = best or colorsys.rgb_to_hsv(*(c / 255 for c in fallback))
+    to_rgb = lambda hh, ss, vv: tuple(int(c * 255) for c in colorsys.hsv_to_rgb(hh, ss, vv))
+    accent = to_rgb(h, max(s, 0.55) if s > 0.08 else 0.0, max(v, 0.92))
+    shade = to_rgb(h, min(max(s, 0.25), 0.6) if s > 0.08 else 0.0, 0.10)
+    return accent, shade
+
+
+def photo_canvas(photo, w, h, shade, fade_from=0.38, top_fade=220, fallback=INK, solid_from=None):
+    """Fotoğrafı tüm karta yayar; üstte hafif, altta güçlü koyu geçiş ekler.
+    solid_from verilirse geçiş o satırda tam koyuluğa ulaşır (başlığın her zaman okunması için)."""
+    from PIL import Image, ImageDraw, ImageOps
+
+    if photo is not None:
+        base = ImageOps.fit(photo, (w, h), method=Image.LANCZOS, centering=(0.5, 0.4)).convert("RGBA")
+    else:
+        base = Image.new("RGBA", (w, h), tuple(max(0, c - 10) for c in fallback) + (255,))
+    over = Image.new("RGBA", (w, h), (0, 0, 0, 0))
+    od = ImageDraw.Draw(over)
+    if solid_from is None:
+        y0, y1 = int(h * fade_from), h
+    else:
+        y1 = max(300, solid_from + 120)       # başlığın ilk satırları da yeterince koyu zemine denk gelsin
+        y0 = max(0, y1 - 640)
+    for y in range(y0, h):
+        t = min(1.0, (y - y0) / max(1, y1 - y0))
+        t = t * t * (3 - 2 * t)               # yumuşak geçiş (bant görünmesin)
+        od.line([0, y, w, y], fill=shade + (int(228 * t),))
+    for y in range(top_fade):
+        t = 1 - y / top_fade
+        od.line([0, y, w, y], fill=(0, 0, 0, int(105 * t * t)))
+    img = Image.alpha_composite(base, over).convert("RGB")
+    return img, ImageDraw.Draw(img)
+
+
+def title_top(text, bottom, width, start=92, minimum=56, max_h=600, pill=None, kicker=None):
+    """Başlık bloğunun (etiket dahil) üst kenarının y değeri; koyu geçişi buna göre ayarlamak için."""
+    from PIL import Image, ImageDraw
+
+    d = ImageDraw.Draw(Image.new("RGB", (10, 10)))
+    _, lines, lh = fit_text(d, no_emoji(text), "bold", width - 2 * MARGIN, max_h, start, minimum, 1.1)
+    return bottom - lh * len(lines) - 44 - (74 if pill else 56 if kicker else 0)
+
+
+def bottom_title(d, text, bottom, width, accent, start=92, minimum=56, max_h=600, pill=None, kicker=None):
+    """Başlığı alt kenara yaslı yazar; üstüne vurgu çizgisi, istenirse etiket ya da küçük üst yazı."""
+    max_w = width - 2 * MARGIN
+    fnt, lines, lh = fit_text(d, no_emoji(text), "bold", max_w, max_h, start, minimum, 1.1)
+    y = bottom - lh * len(lines)
+    for i, ln in enumerate(lines):          # hafif gölge: açık renkli fotoğraflarda da okunur
+        d.text((MARGIN + 2, y + i * lh + 3), ln, font=fnt, fill=(0, 0, 0))
+    draw_lines(d, MARGIN, y, lines, fnt, lh, WHITE)
+    y -= 44
+    d.rectangle([MARGIN, y, MARGIN + 96, y + 8], fill=accent)
+    if pill:
+        y -= 74
+        chip(d, MARGIN, y, pill, BREAKING, size=30, pad_x=24, pad_y=12)
+    elif kicker:
+        y -= 56
+        tracked(d, (MARGIN, y), kicker, font("bold", 28), accent, spacing=3)
+    return y
+
+
+def photo_footer(d, left, width, height):
+    y = height - 92
+    d.text((MARGIN, y), left, font=font("regular", 26), fill=(214, 218, 228))
+    fb = font("bold", 24)
+    d.text((width - MARGIN - d.textlength(BRAND_HANDLE, font=fb), y + 1), BRAND_HANDLE, font=fb, fill=WHITE)
+
+
+def render_cover(items, day, path, photo=None):
+    lead = items[0]
+    accent, shade = photo_palette(photo, cat_of(lead)[1])
+    top = title_top(lead["title"], H - 190, W, start=96, minimum=60, max_h=560)
+    img, d = photo_canvas(photo, W, H, shade, top_fade=360, solid_from=top + 40)
+    tracked(d, (MARGIN, 96), COVER_LABEL, font("bold", 26), accent, spacing=4)
+    d.text((MARGIN, 140), BRAND_TITLE, font=font("bold", 52), fill=WHITE)
+    rest = len(items) - 1
+    more = L(f"+ {rest} haber daha   ·   kaydır  →", f"+ {rest} more stories   ·   swipe  →") if rest > 0 else ""
+    bottom_title(d, lead["title"], H - 190, W, accent, start=96, minimum=60, max_h=560)
+    if more:
+        d.text((MARGIN, H - 150), more, font=font("bold", 30), fill=accent)
+    photo_footer(d, "", W, H)
     img.save(path, "JPEG", quality=92, optimize=True)
 
 
@@ -866,32 +959,21 @@ def upper_tr(s):
     return s.replace("i", "İ").replace("ı", "I").upper()
 
 
-PHOTO_H = 520  # kartlarda üstteki fotoğrafın yüksekliği
-
-
-def _news_card(it, path, photo, accent, top_text, top_color, pill=None):
-    img, d = clean_canvas()
-    if photo is not None:
-        img, d = bleed_photo(img, photo, PHOTO_H)
-        y = PHOTO_H + 56
-    else:
-        y = 150
-    if top_text:
-        f = font("bold", 26)
-        tracked(d, (MARGIN, y), top_text, f, top_color, spacing=3)
-        y += 62
-    draw_story(d, it, y, H - 150, title_start=64 if photo is not None else 72, accent=accent,
-               label=pill, label_color=BREAKING, center=False)
-    footer(d, f"{L('Kaynak', 'Source')}: {it['source']}" if it.get("source") else BRAND_TITLE)
+def _news_card(it, path, photo, kicker=None, pill=None):
+    accent, shade = photo_palette(photo, cat_of(it)[1])
+    top = title_top(it["title"], H - 150, W, pill=pill, kicker=kicker)
+    img, d = photo_canvas(photo, W, H, shade, solid_from=top + 40)
+    bottom_title(d, it["title"], H - 150, W, accent, pill=pill, kicker=kicker)
+    photo_footer(d, f"{L('Kaynak', 'Source')}: {it['source']}" if it.get("source") else BRAND_TITLE, W, H)
     img.save(path, "JPEG", quality=92, optimize=True)
 
 
 def render_item(it, idx, total, path, photo=None, label=None):
-    _news_card(it, path, photo, cat_of(it)[1], f"{idx:02d} / {total:02d}", MUTED)
+    _news_card(it, path, photo, kicker=f"{idx:02d} / {total:02d}")
 
 
 def render_breaking(it, when, path, photo=None):
-    _news_card(it, path, photo, BREAKING, None, None, pill=L("SON DAKİKA", "BREAKING"))
+    _news_card(it, path, photo, pill=L("SON DAKİKA", "BREAKING"))
 
 
 # ------------------------- Fotoğraflar (Pixabay / Pexels) ------------------------- #
@@ -973,15 +1055,16 @@ def load_photo(url):
         return None
 
 
-def photo_for(it, used, orientation="landscape"):
+def photo_for(it, used, orientation="portrait"):
     """Önce habere uygun fotoğraf, bulunamazsa rastgele bir İngiltere fotoğrafı. Hiçbiri yoksa None."""
     prov = photo_provider()
     if not prov:
         _photo_warn("PIXABAY_API_KEY (ya da PEXELS_API_KEY) tanımlı değil; kartlar fotoğrafsız üretildi.")
         return None
     queries = [q for q in [it.get("photo_query")] if q] + random.sample(UK_FALLBACK_QUERIES, 3)
-    for q in queries:
-        candidates = [p for p in photo_search(q, orientation) if p["id"] not in used and p.get("url")]
+    combos = [(q, o) for q in queries for o in (["portrait", "landscape"] if orientation == "portrait" else [orientation])]
+    for q, o in combos:
+        candidates = [p for p in photo_search(q, o) if p["id"] not in used and p.get("url")]
         random.shuffle(candidates)
         for p in candidates[:3]:
             im = load_photo(p["url"])
@@ -1065,42 +1148,38 @@ def story_cta(d, line1=None, line2=None, accent=INK):
     """Alttaki yönlendirme kutusu (API ile link/çıkartma eklenemediği için)."""
     line1 = line1 or L("Tüm haberler ve detaylar", "All stories and details")
     line2 = line2 or L("profildeki son gönderide", "in the latest post on our profile")
-    top, bottom = STORY_SAFE_BOTTOM - 230, STORY_SAFE_BOTTOM
-    d.rounded_rectangle([MARGIN, top, SW - MARGIN, bottom], radius=28, fill=INK)
-    f1, f2, f3 = font("bold", 44), font("regular", 36), font("bold", 28)
-    d.text((MARGIN + 48, top + 38), line1, font=f1, fill=WHITE)
-    d.text((MARGIN + 48, top + 100), line2, font=f2, fill=(196, 204, 220))
-    d.text((MARGIN + 48, top + 158), BRAND_HANDLE, font=f3, fill=WHITE)
+    top, bottom = STORY_SAFE_BOTTOM - 200, STORY_SAFE_BOTTOM
+    d.rounded_rectangle([MARGIN, top, SW - MARGIN, bottom], radius=28, fill=WHITE)
+    d.rounded_rectangle([MARGIN, top, MARGIN + 14, bottom], radius=7, fill=accent)
+    d.text((MARGIN + 46, top + 34), line1, font=font("bold", 42), fill=INK)
+    d.text((MARGIN + 46, top + 92), line2, font=font("regular", 34), fill=BODY)
+    d.text((MARGIN + 46, top + 142), BRAND_HANDLE, font=font("bold", 28), fill=INK)
 
 
-def render_story(items, day, path):
-    img, d = story_canvas()
-    max_w = SW - 2 * MARGIN
-    y = STORY_SAFE_TOP
-    tracked(d, (MARGIN, y), COVER_LABEL, font("bold", 30), MUTED)
-    y += 80
-    fnt, lines, lh = fit_text(d, BRAND_TITLE, "bold", max_w, 260, 108, 64, 1.06)
-    y = draw_lines(d, MARGIN, y, lines, fnt, lh, INK) + 40
-    d.rectangle([MARGIN, y, MARGIN + 90, y + 6], fill=INK)
-    y += 50
-    shown = items[:6]
-    y = numbered_list(d, shown, y, STORY_SAFE_BOTTOM - 330, max_w, range(44, 27, -2), 80)
-    if len(items) > len(shown):
-        d.text((MARGIN + 80, y + 20), L(f"+ {len(items) - len(shown)} haber daha", f"+ {len(items) - len(shown)} more stories"),
-               font=font("regular", 34), fill=MUTED)
-    story_cta(d)
+def render_story(items, day, path, photo=None):
+    lead = items[0]
+    accent, shade = photo_palette(photo, cat_of(lead)[1])
+    top = title_top(lead["title"], STORY_SAFE_BOTTOM - 300, SW, start=100, minimum=64, max_h=620)
+    img, d = photo_canvas(photo, SW, SH, shade, top_fade=520, solid_from=top + 40)
+    tracked(d, (MARGIN, STORY_SAFE_TOP), COVER_LABEL, font("bold", 30), accent, spacing=4)
+    d.text((MARGIN, STORY_SAFE_TOP + 50), BRAND_TITLE, font=font("bold", 60), fill=WHITE)
+    y = bottom_title(d, lead["title"], STORY_SAFE_BOTTOM - 300, SW, accent, start=100, minimum=64, max_h=620)
+    rest = len(items) - 1
+    if rest > 0:
+        d.text((MARGIN, STORY_SAFE_BOTTOM - 270), L(f"+ {rest} haber daha", f"+ {rest} more stories"),
+               font=font("bold", 36), fill=accent)
+    story_cta(d, accent=accent)
     img.save(path, "JPEG", quality=92, optimize=True)
 
 
 def render_breaking_story(it, when, path, photo=None):
-    img, d = story_canvas()
-    y = STORY_SAFE_TOP
-    if photo is not None:
-        img, d = bleed_photo(img, photo, 760, SW)
-        y = 820
-    draw_story(d, it, y, STORY_SAFE_BOTTOM - 270, title_start=64, accent=BREAKING, width=SW,
-               label=L("SON DAKİKA", "BREAKING"), label_color=BREAKING, center=False)
-    story_cta(d, L("Ayrıntılar", "Full story"), L("profildeki son gönderide", "in the latest post on our profile"))
+    accent, shade = photo_palette(photo, cat_of(it)[1])
+    top = title_top(it["title"], STORY_SAFE_BOTTOM - 260, SW, start=100, minimum=64, max_h=640, pill="x")
+    img, d = photo_canvas(photo, SW, SH, shade, top_fade=420, solid_from=top + 40)
+    bottom_title(d, it["title"], STORY_SAFE_BOTTOM - 260, SW, accent, start=100, minimum=64, max_h=640,
+                 pill=L("SON DAKİKA", "BREAKING"))
+    story_cta(d, L("Ayrıntılar", "Full story"), L("profildeki son gönderide", "in the latest post on our profile"),
+              accent=BREAKING)
     img.save(path, "JPEG", quality=92, optimize=True)
 
 
@@ -1154,14 +1233,16 @@ def too_early():
     return True
 
 
-def cmd_prepare(args):
+def cmd_prepare(args, out=None):
     day = today_london()
-    out = OUT_ROOT / day.isoformat()
-    if (out / "published.json").exists():
-        log("Bugünün postu zaten yayınlanmış, atlanıyor.")
-        return
-    if too_early():
-        return
+    sample = out is not None              # örnek post: saat ve "bugün yayınlandı" kontrolleri yok
+    out = out or OUT_ROOT / day.isoformat()
+    if not sample:
+        if (out / "published.json").exists():
+            log("Bugünün postu zaten yayınlanmış, atlanıyor.")
+            return
+        if too_early():
+            return
     out.mkdir(parents=True, exist_ok=True)
 
     source_items = []
@@ -1187,23 +1268,53 @@ def cmd_prepare(args):
         old.unlink()
     seen_photos = set(load_keys(PHOTOS_FILE))
     used_photos = set(seen_photos)
+    photos = [photo_for(it, used_photos) for it in items]   # önce fotoğraflar: kapak ilk haberin fotoğrafını kullanır
     images = []
     p = out / "00.jpg"
-    render_cover(items, day, p)
+    render_cover(items, day, p, photo=photos[0])
     images.append(p.as_posix())
-    for i, it in enumerate(items, 1):
+    for i, (it, ph) in enumerate(zip(items, photos), 1):
         p = out / f"{i:02d}.jpg"
-        render_item(it, i, len(items), p, photo=photo_for(it, used_photos))
+        render_item(it, i, len(items), p, photo=ph)
         images.append(p.as_posix())
 
     save_keys(PHOTOS_FILE, list(used_photos - seen_photos), keep=400)
     story = out / "story.jpg"
-    render_story(items, day, story)
+    render_story(items, day, story, photo=photos[0])
     post = {"date": day.isoformat(), "caption": build_caption(items, tags, day),
             "images": images, "story_image": story.as_posix(),
             "items": items, "history_keys": history_keys}
     (out / "post.json").write_text(json.dumps(post, ensure_ascii=False, indent=2), encoding="utf-8")
     log(f"{len(images)} görsel hazırlandı: {out}")
+
+
+SAMPLE_ROOT = OUT_ROOT / "ornek"
+
+
+def cmd_sample(args):
+    """Güncel haberlerle örnek post üretir (output/ornek/...); günlük kayıtlara ve geçmişe dokunmaz."""
+    out = SAMPLE_ROOT / dt.datetime.now(TZ).strftime("%Y-%m-%d_%H%M")
+    cmd_prepare(args, out=out)
+
+
+def cmd_sample_publish(args):
+    """En son üretilen örnek postu Instagram'a gönderir (yalnızca elle istenirse)."""
+    posts = sorted(SAMPLE_ROOT.glob("*/post.json"))
+    if not posts:
+        sys.exit("Örnek post bulunamadı.")
+    post = json.loads(posts[-1].read_text(encoding="utf-8"))
+    base = os.environ.get("IMAGE_BASE_URL", "").rstrip("/")
+    if not base:
+        sys.exit("IMAGE_BASE_URL tanımlı değil.")
+    urls = [f"{base}/{p}" for p in post["images"]]
+    if DRY_RUN:
+        log("Örnek post üretildi, Instagram'a gönderilmedi (yayinla kapalı):\n" + "\n".join(urls))
+        return
+    check_account()
+    media_id = publish_carousel(urls, post["caption"])
+    (posts[-1].parent / "published.json").write_text(json.dumps(
+        {"media_id": media_id, "published_at": dt.datetime.now(TZ).isoformat()}, indent=2))
+    log(f"Örnek post yayınlandı. Instagram medya ID: {media_id}")
 
 
 def graph(method, path, **params):
@@ -1956,10 +2067,14 @@ def main():
     sub.add_parser("whoami")
     sub.add_parser("guide")
     sub.add_parser("guide-publish")
+    sm = sub.add_parser("sample")
+    sm.add_argument("--from-json", help="Haberleri bu JSON dosyasından al (test için)")
+    sub.add_parser("sample-publish")
     args = ap.parse_args()
     {"prepare": cmd_prepare, "publish": cmd_publish, "breaking": cmd_breaking,
      "breaking-publish": cmd_breaking_publish, "whoami": cmd_whoami,
-     "guide": cmd_guide, "guide-publish": cmd_guide_publish}[args.cmd](args)
+     "guide": cmd_guide, "guide-publish": cmd_guide_publish,
+     "sample": cmd_sample, "sample-publish": cmd_sample_publish}[args.cmd](args)
 
 
 def _annotate_error(msg):
