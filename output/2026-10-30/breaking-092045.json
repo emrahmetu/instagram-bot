@@ -1,0 +1,32 @@
+{
+  "type": "breaking",
+  "created_at": "2026-10-30T09:20:45.556453+00:00",
+  "item": {
+    "ref": 13,
+    "emoji": "🛡️",
+    "title": "Yabancı savunma firmaları Birleşik Krallık'a yatırım yapmak zorunda",
+    "body": "Büyük savunma sözleşmeleri alan yabancı firmalar, sözleşme değerine eşit tutarda Birleşik Krallık'a yatırım yapmak zorunda kalacak. Yeni kuralları Wes Streeting açıkladı.",
+    "source": "BBC",
+    "photo_query": "UK defence ministry building",
+    "person": "Wes Streeting",
+    "person_role": "minister",
+    "category": "guvenlik",
+    "photo": {
+      "id": "pb:5452827",
+      "provider": "Pixabay",
+      "query": "UK defence ministry building",
+      "photographer": "17720070",
+      "page": "https://pixabay.com/photos/road-street-corner-buildings-urban-5452827/",
+      "fallback": false
+    }
+  },
+  "caption": "🔴 SON DAKİKA | 🛡️ Yabancı savunma firmaları Birleşik Krallık'a yatırım yapmak zorunda\n\nBüyük savunma sözleşmeleri alan yabancı firmalar, sözleşme değerine eşit tutarda Birleşik Krallık'a yatırım yapmak zorunda kalacak. Yeni kuralları Wes Streeting açıkladı.\n\nKaynak: BBC | Görsel: Pixabay\nBirleşik Krallık Gündemi | 30 Ekim, 09:20\n\n#SonDakika #Savunma #BirleşikKrallık",
+  "images": [
+    "output/2026-10-30/breaking-092045.jpg"
+  ],
+  "story_image": "output/2026-10-30/breaking-092045-story.jpg",
+  "history_keys": [
+    "foreigndefencecontractorswillneedtoinvestinukundernewrules"
+  ],
+  "published": false
+}
