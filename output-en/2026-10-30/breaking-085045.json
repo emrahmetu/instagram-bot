@@ -1,0 +1,33 @@
+{
+  "type": "breaking",
+  "created_at": "2026-10-30T08:50:45.004038+00:00",
+  "item": {
+    "ref": 5,
+    "emoji": "🎭",
+    "title": "Sir Patrick Stewart dies aged 86 as Sir Ian McKellen leads tributes",
+    "body": "The actor died in Los Angeles following \"a brief and poignant journey\" with Alzheimer's Disease and Lewy Body Dementia. Sir Ian McKellen led tributes to his \"beloved actor\" colleague.",
+    "source": "BBC",
+    "photo_query": "Patrick Stewart Star Trek",
+    "person": "Patrick Stewart",
+    "person_role": "actor",
+    "category": "magazin",
+    "photo": {
+      "id": "wm:Patrick Stewart 1999.jpg",
+      "provider": "Wikimedia Commons",
+      "person": "Patrick Stewart",
+      "license": "CC BY-SA 2.0",
+      "photographer": "Kingkongphoto & www.celebrity-photos.com from Laurel Marylan",
+      "page": "https://commons.wikimedia.org/wiki/File:Patrick_Stewart_1999.jpg",
+      "credit": "Kingkongphoto & www.celebrity-photos.com from Laurel Marylan / CC BY-SA 2.0, Wikimedia Commons"
+    }
+  },
+  "caption": "🔴 BREAKING | 🎭 Sir Patrick Stewart dies aged 86 as Sir Ian McKellen leads tributes\n\nThe actor died in Los Angeles following \"a brief and poignant journey\" with Alzheimer's Disease and Lewy Body Dementia. Sir Ian McKellen led tributes to his \"beloved actor\" colleague.\n\nSource: BBC | Image: Kingkongphoto & www.celebrity-photos.com from Laurel Marylan / CC BY-SA 2.0, Wikimedia Commons\nUK Daily Briefing | 30 October, 08:50\n\n#BreakingNews #PatrickStewart #RIP",
+  "images": [
+    "output-en/2026-10-30/breaking-085045.jpg"
+  ],
+  "story_image": "output-en/2026-10-30/breaking-085045-story.jpg",
+  "history_keys": [
+    "sirianmckellenleadstributestobelovedactorsirpatrickstewartafterhisdeathat86"
+  ],
+  "published": false
+}
