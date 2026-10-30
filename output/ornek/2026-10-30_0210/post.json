@@ -1,0 +1,181 @@
+{
+  "date": "2026-10-30",
+  "caption": "🇬🇧 Birleşik Krallık Gündemi | 30 Ekim 2026, Cuma\n\n1. 🛂 Mülteci sponsorluğu için başvurular açıldı\nHome Office (İçişleri Bakanlığı), hayır kuruluşlarını mülteci sponsorluğu programına başvurmaya davet etti.\n\n2. 📹 Göçmen İcra Dairesi canlı yüz tanıma yetkisi açıklandı\nImmigration Enforcement (Göçmen İcra Dairesi), canlı yüz tanıma teknolojisini kullanma konusundaki yasal yetkilendirmesini yayınladı.\n\n3. 👧 Çocuk insan kaçakçılığı mağdurları için yeni karar modeli pilot\nHome Office, modern kölelik ve insan kaçakçılığından etkilenen çocuk mağdurlar için karar alma sürecinde alternatif modelleri test eden bir pilot program başlattı.\n\n4. 📊 Modern kölelik başvuruları Eylül'de açıklandı\nResmi istatistiklere göre, National Referral Mechanism'e Eylül 2026'ya kadar yapılan modern kölelik mağduru başvurularının verileri yayınlandı.\n\n5. 💷 Maliye Bakanı sosyal yardım kesintisinden vazgeçti\nJohn Healey, kamuoyunun kesintilerle ilgili uyarılarının ardından seçimden önceki sosyal yardım kesintisini geri aldı.\n\n6. 💧 İngiltere'nin dokuz su şirketinden sekizi çevre görevini yerine getiremiyor\nÇevre Ajansı raporuna göre, dokuz büyük su şirketinden sekizi çevre performansında başarısız.\n\n7. 🏥 Yüzlerce GP muayenehanesi çevrimiçi hizmetleri kaybetti\nTeknik şirketin çöküşü nedeniyle İngiltere ve Galler'de yüzlerce GP (pratisyen hekim) muayenehanesinin çevrimiçi sistemleri kullanılamaz duruma geldi.\n\n8. 🎭 Ünlü aktör Sir Patrick Stewart 86 yaşında vefat etti\nStar Trek: The Next Generation ve X-Men oyuncusu Sir Patrick Stewart, Los Angeles'taki evinde Alzheimer hastalığı ve Lewy Body Dementia'dan sonra öldü.\n\nKaynaklar: GOV.UK Home Office, Guardian, BBC, Evening Standard. Haberler Türkçe özet olarak derlenmiştir. Görseller: Pixabay. Fotoğraflar: Gage Skidmore / CC BY-SA 3.0, Wikimedia Commons.\n\n#İngiltere #Londra #UKNews #Göç #Mülteci #HomeOffice #NHS #Su #SirPatrickStewart #StarTrek",
+  "images": [
+    "output/ornek/2026-10-30_0210/00.jpg",
+    "output/ornek/2026-10-30_0210/01.jpg",
+    "output/ornek/2026-10-30_0210/02.jpg",
+    "output/ornek/2026-10-30_0210/03.jpg",
+    "output/ornek/2026-10-30_0210/04.jpg",
+    "output/ornek/2026-10-30_0210/05.jpg",
+    "output/ornek/2026-10-30_0210/06.jpg",
+    "output/ornek/2026-10-30_0210/07.jpg",
+    "output/ornek/2026-10-30_0210/08.jpg"
+  ],
+  "story_image": "output/ornek/2026-10-30_0210/story.jpg",
+  "items": [
+    {
+      "ref": 1,
+      "emoji": "🛂",
+      "title": "Mülteci sponsorluğu için başvurular açıldı",
+      "body": "Home Office (İçişleri Bakanlığı), hayır kuruluşlarını mülteci sponsorluğu programına başvurmaya davet etti. Program, Birleşik Krallık'a güvenli ve yasal yollarla mülteci kabulünü sağlamayı amaçlıyor.",
+      "source": "GOV.UK Home Office",
+      "photo_query": "UK immigration office",
+      "person": "",
+      "person_role": "",
+      "category": "goc",
+      "photo": {
+        "id": "pb:5644283",
+        "provider": "Pixabay",
+        "query": "UK immigration office",
+        "photographer": "Whitechappel79",
+        "page": "https://pixabay.com/photos/tower-landmark-skyscraper-building-5644283/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 7,
+      "emoji": "📹",
+      "title": "Göçmen İcra Dairesi canlı yüz tanıma yetkisi açıklandı",
+      "body": "Immigration Enforcement (Göçmen İcra Dairesi), canlı yüz tanıma teknolojisini kullanma konusundaki yasal yetkilendirmesini yayınladı. Dokümanda teknoloji kullanımını yöneten hukuki çerçeve belirtiliyor.",
+      "source": "GOV.UK Home Office",
+      "photo_query": "facial recognition technology UK",
+      "person": "",
+      "person_role": "",
+      "category": "goc",
+      "photo": {
+        "id": "pb:7769534",
+        "provider": "Pixabay",
+        "query": "facial recognition technology UK",
+        "photographer": "VietFotos",
+        "page": "https://pixabay.com/photos/couple-lovers-affection-love-7769534/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 8,
+      "emoji": "👧",
+      "title": "Çocuk insan kaçakçılığı mağdurları için yeni karar modeli pilot",
+      "body": "Home Office, modern kölelik ve insan kaçakçılığından etkilenen çocuk mağdurlar için karar alma sürecinde alternatif modelleri test eden bir pilot program başlattı. Program farklı idari yaklaşımları değerlendirecek.",
+      "source": "GOV.UK Home Office",
+      "photo_query": "UK child safeguarding",
+      "person": "",
+      "person_role": "",
+      "category": "goc",
+      "photo": {
+        "id": "pb:775503",
+        "provider": "Pixabay",
+        "query": "UK child safeguarding",
+        "photographer": "1035352",
+        "page": "https://pixabay.com/photos/baby-costume-asian-cooking-kitchen-775503/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 11,
+      "emoji": "📊",
+      "title": "Modern kölelik başvuruları Eylül'de açıklandı",
+      "body": "Resmi istatistiklere göre, National Referral Mechanism'e Eylül 2026'ya kadar yapılan modern kölelik mağduru başvurularının verileri yayınlandı. Rapor, potansiyel mağdurların yönlendirilme oranlarını gösteriyor.",
+      "source": "GOV.UK Home Office",
+      "photo_query": "UK statistics office",
+      "person": "",
+      "person_role": "",
+      "category": "guvenlik",
+      "photo": {
+        "id": "pb:4884852",
+        "provider": "Pixabay",
+        "query": "UK statistics office",
+        "photographer": "DAVID_UNDERLAND",
+        "page": "https://pixabay.com/photos/building-architecture-office-4884852/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 74,
+      "emoji": "💷",
+      "title": "Maliye Bakanı sosyal yardım kesintisinden vazgeçti",
+      "body": "John Healey, kamuoyunun kesintilerle ilgili uyarılarının ardından seçimden önceki sosyal yardım kesintisini geri aldı. Çevreden 28 milyar sterlinlik mali açık konusunda eleştiriler geldi.",
+      "source": "Guardian",
+      "photo_query": "UK budget parliament",
+      "person": "John Healey",
+      "person_role": "politician",
+      "category": "ekonomi",
+      "photo": {
+        "id": "pb:5950957",
+        "provider": "Pixabay",
+        "query": "UK budget parliament",
+        "photographer": "eduardovieiraphoto",
+        "page": "https://pixabay.com/photos/street-buildings-town-road-5950957/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 116,
+      "emoji": "💧",
+      "title": "İngiltere'nin dokuz su şirketinden sekizi çevre görevini yerine getiremiyor",
+      "body": "Çevre Ajansı raporuna göre, dokuz büyük su şirketinden sekizi çevre performansında başarısız. Çevre Sekreteri Angela Eagle, kirlilik seviyeleri yüksekliğini eleştirdi.",
+      "source": "Guardian",
+      "photo_query": "UK water company pollution",
+      "person": "Angela Eagle",
+      "person_role": "politician",
+      "category": "guvenlik",
+      "photo": {
+        "id": "pb:7728783",
+        "provider": "Pixabay",
+        "query": "UK water company pollution",
+        "photographer": "PatrickLFC93",
+        "page": "https://pixabay.com/photos/phone-booth-phone-english-uk-7728783/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 106,
+      "emoji": "🏥",
+      "title": "Yüzlerce GP muayenehanesi çevrimiçi hizmetleri kaybetti",
+      "body": "Teknik şirketin çöküşü nedeniyle İngiltere ve Galler'de yüzlerce GP (pratisyen hekim) muayenehanesinin çevrimiçi sistemleri kullanılamaz duruma geldi. Liderler bu durumun önemli aksamalara yol açacağını belirtti.",
+      "source": "BBC",
+      "photo_query": "NHS GP practice",
+      "person": "",
+      "person_role": "",
+      "category": "saglik",
+      "photo": {
+        "id": "pb:999802",
+        "provider": "Pixabay",
+        "query": "NHS GP practice",
+        "photographer": "lynnea",
+        "page": "https://pixabay.com/photos/ballet-dance-rest-ballerina-999802/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 44,
+      "emoji": "🎭",
+      "title": "Ünlü aktör Sir Patrick Stewart 86 yaşında vefat etti",
+      "body": "Star Trek: The Next Generation ve X-Men oyuncusu Sir Patrick Stewart, Los Angeles'taki evinde Alzheimer hastalığı ve Lewy Body Dementia'dan sonra öldü. Sahne ve ekran oyunculuğunda efsanevi kariyeri vardı.",
+      "source": "Evening Standard",
+      "photo_query": "Star Trek USS Enterprise",
+      "person": "Patrick Stewart",
+      "person_role": "actor",
+      "category": "magazin",
+      "photo": {
+        "id": "wm:Patrick Stewart by Gage Skidmore 2.jpg",
+        "provider": "Wikimedia Commons",
+        "person": "Patrick Stewart",
+        "license": "CC BY-SA 3.0",
+        "photographer": "Gage Skidmore",
+        "page": "https://commons.wikimedia.org/wiki/File:Patrick_Stewart_by_Gage_Skidmore_2.jpg",
+        "credit": "Gage Skidmore / CC BY-SA 3.0, Wikimedia Commons"
+      }
+    }
+  ],
+  "history_keys": [
+    "leadsponsorapplicationsopeninsteptowardsrefugeearrivals",
+    "policypaperimmigrationenforcementlivefacialrecognitionlegalmandate",
+    "guidancepilotingdevolvingdecisionmakingforchildvictimsofmodernslavery",
+    "officialstatisticsmodernslaverynrmanddtnstatisticsyeartoseptember2026",
+    "healeybacksawayfromcuttingwelfarecostamidwarningsofpublicfinanceshortfall",
+    "eightofenglandsninewatercompaniesstillfailingonenvironmentreportfinds",
+    "hundredsofgppracticesloseonlineservicesaftercollapseoftechfirm",
+    "legendaryactorsirpatrickstewartdiesaged86"
+  ]
+}
