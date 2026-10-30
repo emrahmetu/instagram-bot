@@ -1,0 +1,32 @@
+{
+  "type": "breaking",
+  "created_at": "2026-10-30T15:50:41.808893+00:00",
+  "item": {
+    "ref": 13,
+    "emoji": "🏉",
+    "title": "England knocked out of Women's Rugby League World Cup by Samoa",
+    "body": "England are out of the Women's Rugby League World Cup after losing to Samoa. Freedom Crichton Ropati scored a hat-trick as Samoa eliminated them from the tournament.",
+    "source": "BBC Sport",
+    "photo_query": "England rugby league women",
+    "person": "",
+    "person_role": "",
+    "category": "spor",
+    "photo": {
+      "id": "pb:9876622",
+      "provider": "Pixabay",
+      "query": "England rugby league women",
+      "photographer": "HiteshHtSharma",
+      "page": "https://pixabay.com/photos/srishti-textile-9876622/",
+      "fallback": false
+    }
+  },
+  "caption": "🔴 BREAKING | 🏉 England knocked out of Women's Rugby League World Cup by Samoa\n\nEngland are out of the Women's Rugby League World Cup after losing to Samoa. Freedom Crichton Ropati scored a hat-trick as Samoa eliminated them from the tournament.\n\nSource: BBC Sport | Image: Pixabay\nUK Daily Briefing | 30 October, 15:50\n\n#BreakingNews #RugbyLeague #WorldCup",
+  "images": [
+    "output-en/2026-10-30/breaking-155041.jpg"
+  ],
+  "story_image": "output-en/2026-10-30/breaking-155041-story.jpg",
+  "history_keys": [
+    "englandoutofworldcupafterlosstosamoa"
+  ],
+  "published": false
+}
