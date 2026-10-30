@@ -1,0 +1,91 @@
+name: Örnek Post (yeni tasarımı dene)
+
+# Elle çalıştırılır. Güncel haberlerle örnek bir carousel üretir ve depoya output/ornek/ (ya da output-en/ornek/)
+# klasörüne yükler. "yayinla" işaretlenirse o örneği seçilen hesaba da paylaşır.
+# Günlük paylaşım kayıtlarına dokunmaz; o günün normal sabah postunu engellemez.
+on:
+  workflow_dispatch:
+    inputs:
+      hesap:
+        description: "Hangi hesap? tr = @emresterling, en = @emresterlin"
+        type: choice
+        options: [tr, en]
+        default: tr
+      yayinla:
+        description: "Örneği Instagram'a da paylaş"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: instagram-ornek
+  cancel-in-progress: false
+
+jobs:
+  sample:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      BOT_LANG: ${{ inputs.hesap }}
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Font ve kütüphaneleri kur
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq fonts-dejavu-core
+          pip install -q -r requirements.txt
+
+      - name: Örnek postu hazırla
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+          PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
+        run: python bot.py sample
+
+      - name: Görselleri depoya yükle
+        id: push
+        run: |
+          git config user.name "instagram-bot"
+          git config user.email "instagram-bot@users.noreply.github.com"
+          mkdir -p output output-en
+          git add output output-en
+          if ! git diff --cached --quiet; then
+            git commit -q -m "Örnek post $(date -u +%F' '%H:%M)"
+            for i in 1 2 3; do if git pull --rebase -X theirs -q origin "${GITHUB_REF_NAME}" && git push -q; then ok=1; break; fi; git rebase --abort 2>/dev/null || true; sleep 5; done; [ "$ok" = 1 ] || exit 1
+          fi
+          echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+
+      - name: Instagram'a paylaş (yalnızca "yayinla" işaretliyse)
+        env:
+          HESAP: ${{ inputs.hesap }}
+          TOK_TR: ${{ secrets.IG_ACCESS_TOKEN }}
+          TOK_EN: ${{ secrets.IG_ACCESS_TOKEN_EN }}
+          ID_TR: ${{ secrets.IG_USER_ID }}
+          ID_EN: ${{ secrets.IG_USER_ID_EN }}
+          EXP_TR: ${{ vars.EXPECTED_IG_USERNAME }}
+          EXP_EN: ${{ vars.EXPECTED_IG_USERNAME_EN }}
+          IMAGE_BASE_URL: https://raw.githubusercontent.com/${{ github.repository }}/${{ steps.push.outputs.sha }}
+          DRY_RUN: ${{ inputs.yayinla && '0' || '1' }}
+        run: |
+          # İngilizce hesapta Türkçe hesabın kimliğine asla geri düşülmez (yanlış hesaba paylaşım olmasın).
+          if [ "$HESAP" = "en" ]; then
+            export IG_ACCESS_TOKEN="${TOK_EN:-$TOK_TR}" IG_USER_ID="$ID_EN" EXPECTED_IG_USERNAME="$EXP_EN"
+          else
+            export IG_ACCESS_TOKEN="$TOK_TR" IG_USER_ID="$ID_TR" EXPECTED_IG_USERNAME="$EXP_TR"
+          fi
+          python bot.py sample-publish
+
+      - name: Yayın kaydını sakla
+        if: always()
+        run: |
+          git add output output-en 2>/dev/null || true
+          if ! git diff --cached --quiet; then
+            git commit -q -m "Örnek post kaydı $(date -u +%F' '%H:%M)"
+            for i in 1 2 3; do if git pull --rebase -X theirs -q origin "${GITHUB_REF_NAME}" && git push -q; then ok=1; break; fi; git rebase --abort 2>/dev/null || true; sleep 5; done; [ "$ok" = 1 ] || exit 1
+          fi
