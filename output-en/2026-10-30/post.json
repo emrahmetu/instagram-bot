@@ -1,0 +1,181 @@
+{
+  "date": "2026-10-30",
+  "caption": "🇬🇧 UK Daily Briefing | Friday, 30 October 2026\n\n1. 🤝 Charities invited to apply to become lead sponsors for refugees\nApplications are open for charities to become lead sponsors.\n\n2. 💷 Side-hustle tax-free allowance to rise to £3,000 next year\nUp to 1.4 million people could benefit from the rise in the trading allowance announced in the budget.\n\n3. 🏠 Sources say Mahmood has refused to reveal homelessness impact\nMinisterial colleagues are infuriated, sources say, as the home secretary has repeatedly refused to reveal how much she expects homelessness to rise because of changes to the asylum system.\n\n4. 🌫️ Met Office issues fog warning for England as drivers urged to stay alert\nMore widespread fog is expected in England on Friday evening and across the weekend.\n\n5. ⚠️ MPs warn UK government's obesity plan is 'doomed to fail'\nThe health and social care select committee says the 'moonshot' pledge to reverse rising obesity rates within a decade will fail without a major rethink and personal leadership from the prime minister.\n\n6. ⚙️ TUC leader expects wave of union recognition deals in private sector\nTUC general secretary Paul Nowak says 'hundreds, if not thousands' of employers could sign access agreements as 'transformative' rules under Labour's Employment Rights Act come into force on Friday.\n\n7. 🎭 Star Trek actor Sir Patrick Stewart dies aged 86\nSir Patrick Stewart has died aged 86.\n\n8. 🌿 Wildlife Trusts reach £30m target to buy and rewild Northumberland estate\nThe Wildlife Trusts say they have raised £30m to buy the 3,800-hectare Rothbury estate, with about 25,000 members of the public giving £17m.\n\nSources: GOV.UK Home Office, Guardian, The Independent, Evening Standard. Stories summarised from UK media reports. Images: Pixabay. Photos: Gage Skidmore / CC BY-SA 3.0, Wikimedia Commons.\n\n#UKNews #RefugeeSupport #TaxBreak #AsylumSystem #Weather #HealthyLiving #WorkRights #PatrickStewart #NatureRecovery #Britain",
+  "images": [
+    "output-en/2026-10-30/00.jpg",
+    "output-en/2026-10-30/01.jpg",
+    "output-en/2026-10-30/02.jpg",
+    "output-en/2026-10-30/03.jpg",
+    "output-en/2026-10-30/04.jpg",
+    "output-en/2026-10-30/05.jpg",
+    "output-en/2026-10-30/06.jpg",
+    "output-en/2026-10-30/07.jpg",
+    "output-en/2026-10-30/08.jpg"
+  ],
+  "story_image": "output-en/2026-10-30/story.jpg",
+  "items": [
+    {
+      "ref": 3,
+      "emoji": "🤝",
+      "title": "Charities invited to apply to become lead sponsors for refugees",
+      "body": "Applications are open for charities to become lead sponsors. It is described as a major step towards delivering the Home Secretary's commitment to open new safe and legal routes.",
+      "source": "GOV.UK Home Office",
+      "photo_query": "UK charity volunteer helping",
+      "person": "",
+      "person_role": "",
+      "category": "goc",
+      "photo": {
+        "id": "pb:7610536",
+        "provider": "Pixabay",
+        "query": "UK charity volunteer helping",
+        "photographer": "Kay-Co",
+        "page": "https://pixabay.com/photos/stairs-architecture-london-england-7610536/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 50,
+      "emoji": "💷",
+      "title": "Side-hustle tax-free allowance to rise to £3,000 next year",
+      "body": "Up to 1.4 million people could benefit from the rise in the trading allowance announced in the budget. Some could save hundreds of pounds in tax on money earned from hobbies or reselling.",
+      "source": "Guardian",
+      "photo_query": "pound sterling coins",
+      "person": "",
+      "person_role": "",
+      "category": "ekonomi",
+      "photo": {
+        "id": "pb:1412847",
+        "provider": "Pixabay",
+        "query": "pound sterling coins",
+        "photographer": "slf-2005",
+        "page": "https://pixabay.com/photos/coin-gbp-currency-foreign-1412847/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 49,
+      "emoji": "🏠",
+      "title": "Sources say Mahmood has refused to reveal homelessness impact",
+      "body": "Ministerial colleagues are infuriated, sources say, as the home secretary has repeatedly refused to reveal how much she expects homelessness to rise because of changes to the asylum system.",
+      "source": "Guardian",
+      "photo_query": "UK homeless shelter",
+      "person": "Shabana Mahmood",
+      "person_role": "politician",
+      "category": "siyaset",
+      "photo": {
+        "id": "pb:6034896",
+        "provider": "Pixabay",
+        "query": "UK homeless shelter",
+        "photographer": "mramirferdi",
+        "page": "https://pixabay.com/photos/man-old-homeless-poverty-6034896/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 37,
+      "emoji": "🌫️",
+      "title": "Met Office issues fog warning for England as drivers urged to stay alert",
+      "body": "More widespread fog is expected in England on Friday evening and across the weekend.",
+      "source": "The Independent",
+      "photo_query": "foggy UK road",
+      "person": "",
+      "person_role": "",
+      "category": "hava",
+      "photo": {
+        "id": "pb:5452827",
+        "provider": "Pixabay",
+        "query": "foggy UK road",
+        "photographer": "17720070",
+        "page": "https://pixabay.com/photos/road-street-corner-buildings-urban-5452827/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 65,
+      "emoji": "⚠️",
+      "title": "MPs warn UK government's obesity plan is 'doomed to fail'",
+      "body": "The health and social care select committee says the 'moonshot' pledge to reverse rising obesity rates within a decade will fail without a major rethink and personal leadership from the prime minister.",
+      "source": "Guardian",
+      "photo_query": "NHS hospital UK",
+      "person": "",
+      "person_role": "",
+      "category": "saglik",
+      "photo": {
+        "id": "pb:7455446",
+        "provider": "Pixabay",
+        "query": "NHS hospital UK",
+        "photographer": "hysw001",
+        "page": "https://pixabay.com/photos/doctor-nurse-hospital-break-rest-7455446/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 67,
+      "emoji": "⚙️",
+      "title": "TUC leader expects wave of union recognition deals in private sector",
+      "body": "TUC general secretary Paul Nowak says 'hundreds, if not thousands' of employers could sign access agreements as 'transformative' rules under Labour's Employment Rights Act come into force on Friday.",
+      "source": "Guardian",
+      "photo_query": "UK trade union members",
+      "person": "Paul Nowak",
+      "person_role": "politician",
+      "category": "ekonomi",
+      "photo": {
+        "id": "pb:636036",
+        "provider": "Pixabay",
+        "query": "UK trade union members",
+        "photographer": "CatsWithGlasses",
+        "page": "https://pixabay.com/photos/flag-union-jack-british-union-flag-636036/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 104,
+      "emoji": "🎭",
+      "title": "Star Trek actor Sir Patrick Stewart dies aged 86",
+      "body": "Sir Patrick Stewart has died aged 86. The actor made his name as Captain Jean-Luc Picard in Star Trek.",
+      "source": "Evening Standard",
+      "photo_query": "Star Trek Enterprise spaceship",
+      "person": "Patrick Stewart",
+      "person_role": "actor",
+      "category": "magazin",
+      "photo": {
+        "id": "wm:Patrick Stewart by Gage Skidmore 2.jpg",
+        "provider": "Wikimedia Commons",
+        "person": "Patrick Stewart",
+        "license": "CC BY-SA 3.0",
+        "photographer": "Gage Skidmore",
+        "page": "https://commons.wikimedia.org/wiki/File:Patrick_Stewart_by_Gage_Skidmore_2.jpg",
+        "credit": "Gage Skidmore / CC BY-SA 3.0, Wikimedia Commons"
+      }
+    },
+    {
+      "ref": 74,
+      "emoji": "🌿",
+      "title": "Wildlife Trusts reach £30m target to buy and rewild Northumberland estate",
+      "body": "The Wildlife Trusts say they have raised £30m to buy the 3,800-hectare Rothbury estate, with about 25,000 members of the public giving £17m. It is described as a 'once-in-a-generation opportunity'.",
+      "source": "Guardian",
+      "photo_query": "UK countryside woodland",
+      "person": "",
+      "person_role": "",
+      "category": "gundem",
+      "photo": {
+        "id": "pb:5950957",
+        "provider": "Pixabay",
+        "query": "UK countryside woodland",
+        "photographer": "eduardovieiraphoto",
+        "page": "https://pixabay.com/photos/street-buildings-town-road-5950957/",
+        "fallback": false
+      }
+    }
+  ],
+  "history_keys": [
+    "leadsponsorapplicationsopeninsteptowardsrefugeearrivals",
+    "uksidehustletaxfreeallowancetoriseto3000nextyear",
+    "mahmoodinfuriatesfellowministersbyfailingtorevealimpactofukmigrationshakeup",
+    "metofficeissuesfogwarninginenglandasdriversurgedtostayalert",
+    "ukgovernmentsobesityplandoomedtofailmpswarn",
+    "tucleaderexpectswaveofunionrecognitioninprivatesectorovercomingyear",
+    "startrekactorsirpatrickstewartdiesaged86",
+    "wildlifetrustshit30mtargettobuyandrewildhugenorthumberlandestate"
+  ]
+}
