@@ -308,6 +308,9 @@ STYLE = """Türkçe yazım ve üslup (bir Türk okurun doğal bulacağı dil):
   "council" = belediye, "benefit" = sosyal yardım, "settlement / ILR" = süresiz oturum izni (ILR)."""
 
 
+PERSON_RULE = """- person: Haber ağırlıklı olarak TANINMIŞ bir kamu figürüyle (siyasetçi, kraliyet ailesi üyesi, ünlü, sporcu, büyük şirket yöneticisi) ilgiliyse kişinin İngilizce Wikipedia sayfasındaki adı (ör. "Keir Starmer", "Harry Kane", "Charles III"); person_role: tek kelimelik İngilizce rolü (politician, royal, footballer, singer, actor, businessman...). Sıradan kişiler, suç zanlıları, mağdurlar ve mahkeme haberleri için ikisini de boş bırak ("")."""
+
+
 SYSTEM_PROMPT = """Sen İngiltere'de yaşayan Türk topluluğu için Türkçe haber özeti hazırlayan bir editörsün.
 
 Kurallar:
@@ -320,9 +323,10 @@ Kurallar:
 - Dil sade, tarafsız, haber dili. Para birimini "sterlin" ya da "£" ile yaz.
 - category: haberin kategorisi; şunlardan BİRİ: goc, ekonomi, siyaset, saglik, guvenlik, hava, spor, magazin, kraliyet, dunya, gundem.
 - photo_query: haberi temsil eden, GÖRSEL OLARAK ÇARPICI bir MEKÂN ya da NESNE fotoğrafı için İngilizce arama terimi. İngiltere'ye özgü olsun ki başka ülkelerin binası, bayrağı ya da pasaportu çıkmasın (ör. "Big Ben Westminster", "British passport", "NHS ambulance", "London red bus", "pound sterling coins", "Union Jack"). Gerçek kişilerin adını, yüzü ön planda olan insanları, şiddet ya da suç içeren görselleri arama.
+- person: Haber ağırlıklı olarak TANINMIŞ bir kamu figürüyle (siyasetçi, kraliyet ailesi üyesi, ünlü, sporcu, büyük şirket yöneticisi) ilgiliyse kişinin İngilizce Wikipedia sayfasındaki adı (ör. "Keir Starmer", "Harry Kane", "Charles III"); person_role: tek kelimelik İngilizce rolü (politician, royal, footballer, singer, actor, businessman...). Sıradan kişiler, suç zanlıları, mağdurlar ve mahkeme haberleri için ikisini de boş bırak ("").
 
 Çıktı: SADECE geçerli JSON, başka hiçbir metin yok:
-{"items":[{"ref":listedeki sıra numarası (tam sayı),"emoji":"tek emoji","title":"en fazla 70 karakter başlık","body":"2 cümle, en fazla 260 karakter","source":"kaynak adı","category":"kategori anahtarı","photo_query":"Pexels için 2-4 kelimelik İNGİLİZCE fotoğraf arama terimi"}],
+{"items":[{"ref":listedeki sıra numarası (tam sayı),"emoji":"tek emoji","title":"en fazla 70 karakter başlık","body":"2 cümle, en fazla 260 karakter","source":"kaynak adı","category":"kategori anahtarı","photo_query":"2-4 kelimelik İNGİLİZCE fotoğraf arama terimi","person":"","person_role":""}],
  "hashtags":["#ornek", "..."]}
 hashtags: 8-12 adet, ilgili Türkçe ve İngilizce etiketler (ör. #İngiltere #Londra #UKNews)."""
 
@@ -396,10 +400,10 @@ Kurallar: YALNIZCA verilen başlık ve özetteki bilgileri kullan, rakam, isim, 
 
 Çıktı SADECE JSON:
 Paylaşılacak haber yoksa: {"breaking": false}
-Varsa: {"breaking": true, "ref": listedeki numara, "emoji": "tek emoji", "title": "en fazla 70 karakter", "body": "2-3 cümle, en fazla 300 karakter", "source": "kaynak adı", "category": "goc|ekonomi|siyaset|saglik|guvenlik|hava|spor|magazin|kraliyet|dunya|gundem", "photo_query": "2-4 kelimelik İNGİLİZCE fotoğraf arama terimi", "hashtags": ["#SonDakika", "..."]}"""
+Varsa: {"breaking": true, "ref": listedeki numara, "emoji": "tek emoji", "title": "en fazla 70 karakter", "body": "2-3 cümle, en fazla 300 karakter", "source": "kaynak adı", "category": "goc|ekonomi|siyaset|saglik|guvenlik|hava|spor|magazin|kraliyet|dunya|gundem", "photo_query": "2-4 kelimelik İNGİLİZCE fotoğraf arama terimi", "person": "", "person_role": "", "hashtags": ["#SonDakika", "..."]}"""
 
 
-BREAKING_PROMPT += "\n\n" + TERMS + "\n\n" + STYLE
+BREAKING_PROMPT += "\n" + PERSON_RULE + "\n\n" + TERMS + "\n\n" + STYLE
 
 
 def judge_breaking(items, already=()):
@@ -526,6 +530,8 @@ Anlamı değiştirme, haberi uzatma. Başlık en fazla 70, metin en fazla 300 ka
 
 # ------------------------- İngilizce hesap için talimatlar ------------------------- #
 if EN:
+    PERSON_RULE = """- person: if the story is mainly about a WELL-KNOWN public figure (politician, royal, celebrity, athlete, major business leader), their name exactly as on their English Wikipedia page (e.g. "Keir Starmer", "Harry Kane", "Charles III"); person_role: one-word English role (politician, royal, footballer, singer, actor, businessman...). Leave both empty ("") for private individuals, crime suspects, victims and court stories."""
+
     TERMS = """Names and terms:
 - Keep official names exactly as in the source (Home Office, DWP, HMRC, NHS, Ofgem, Met Office, Met Police, Reform UK, Universal Credit, Skilled Worker visa...).
 - Use a person's job title ONLY if the source states it; never add a title from your own knowledge (roles change).
@@ -550,9 +556,10 @@ Rules:
 - Never cover the same event twice.
 - category: exactly ONE of: goc (immigration), ekonomi (economy), siyaset (politics), saglik (health), guvenlik (security), hava (weather/environment), spor (sport), magazin (entertainment), kraliyet (royals), dunya (world), gundem (general).
 - photo_query: an English search term for a visually STRIKING PLACE or OBJECT photo that represents the story. Make it UK-specific so other countries' buildings, flags or passports do not appear (e.g. "Big Ben Westminster", "British passport", "NHS ambulance", "London red bus", "pound sterling coins", "Union Jack"). No real people's names, no faces in close-up, no violence or crime imagery.
+- person: if the story is mainly about a WELL-KNOWN public figure (politician, royal, celebrity, athlete, major business leader), their name exactly as on their English Wikipedia page (e.g. "Keir Starmer", "Harry Kane", "Charles III"); person_role: one-word English role (politician, royal, footballer, singer, actor, businessman...). Leave both empty ("") for private individuals, crime suspects, victims and court stories.
 
 Output: ONLY valid JSON, nothing else:
-{"items":[{"ref":number from the list (integer),"emoji":"one emoji","title":"max 70 characters","body":"2 sentences, max 260 characters","source":"source name","category":"category key","photo_query":"2-4 word English photo search term"}],
+{"items":[{"ref":number from the list (integer),"emoji":"one emoji","title":"max 70 characters","body":"2 sentences, max 260 characters","source":"source name","category":"category key","photo_query":"2-4 word English photo search term","person":"","person_role":""}],
  "hashtags":["#example", "..."]}
 hashtags: 8-12 relevant English hashtags (e.g. #UKNews #London #Britain)."""
     SYSTEM_PROMPT += "\n\n" + TERMS + "\n\n" + STYLE
@@ -585,8 +592,8 @@ Rules: use ONLY information in the headline and summary; do not invent figures, 
 
 Output ONLY JSON:
 If nothing qualifies: {"breaking": false}
-Otherwise: {"breaking": true, "ref": list number, "emoji": "one emoji", "title": "max 70 characters", "body": "2-3 sentences, max 300 characters", "source": "source name", "category": "goc|ekonomi|siyaset|saglik|guvenlik|hava|spor|magazin|kraliyet|dunya|gundem", "photo_query": "2-4 word English photo search term", "hashtags": ["#BreakingNews", "..."]}"""
-    BREAKING_PROMPT += "\n\n" + TERMS + "\n\n" + STYLE
+Otherwise: {"breaking": true, "ref": list number, "emoji": "one emoji", "title": "max 70 characters", "body": "2-3 sentences, max 300 characters", "source": "source name", "category": "goc|ekonomi|siyaset|saglik|guvenlik|hava|spor|magazin|kraliyet|dunya|gundem", "photo_query": "2-4 word English photo search term", "person": "", "person_role": "", "hashtags": ["#BreakingNews", "..."]}"""
+    BREAKING_PROMPT += "\n" + PERSON_RULE + "\n\n" + TERMS + "\n\n" + STYLE
 
     EDITOR_PROMPT = """You are an experienced British news sub-editor. You will get English source stories and the headline/body written from each.
 Check each one against its source and rewrite it so it reads like a quality UK news outlet.
@@ -681,6 +688,8 @@ def normalize(data, n):
                 "body": body,
                 "source": clean(it.get("source", ""))[:30],
                 "photo_query": clean(it.get("photo_query", ""))[:60],
+                "person": clean(it.get("person", ""))[:60],
+                "person_role": clean(it.get("person_role", "")).lower()[:30],
                 "category": clean(it.get("category", "")).lower()[:12],
             })
     tags = [t if t.startswith("#") else f"#{t}" for t in (data.get("hashtags") or [])]
@@ -881,7 +890,8 @@ def photo_canvas(photo, w, h, shade, fade_from=0.38, top_fade=220, fallback=INK,
     from PIL import Image, ImageDraw, ImageOps
 
     if photo is not None:
-        base = ImageOps.fit(photo, (w, h), method=Image.LANCZOS, centering=(0.5, 0.4)).convert("RGBA")
+        base = ImageOps.fit(photo, (w, h), method=Image.LANCZOS,
+                            centering=photo.info.get("centering", (0.5, 0.4))).convert("RGBA")
     else:
         base = Image.new("RGBA", (w, h), tuple(max(0, c - 10) for c in fallback) + (255,))
     over = Image.new("RGBA", (w, h), (0, 0, 0, 0))
@@ -1047,7 +1057,7 @@ def load_photo(url):
     from PIL import Image
 
     try:
-        r = requests.get(url, timeout=30)
+        r = requests.get(url, timeout=30, headers={"User-Agent": WIKI_UA})
         r.raise_for_status()
         return Image.open(io.BytesIO(r.content)).convert("RGB")
     except Exception as e:
@@ -1055,8 +1065,81 @@ def load_photo(url):
         return None
 
 
+# --------------- Kişi fotoğrafı (Wikimedia Commons, yalnızca serbest lisanslı) --------------- #
+WIKI_UA = "uk-gundem-bot/1.0 (github.com/emrahmetu/instagram-bot)"   # Wikimedia, tanımlayıcı User-Agent ister
+FREE_LICENSE = re.compile(r"^(public domain|pd\b|cc0|cc[ -]by(-sa)?[ -]?\d|cc[ -]by(-sa)?$)", re.I)
+NO_PERSON_PHOTO = re.compile(r"(suçla|tutukla|gözaltı|mahkeme|dava|yargıla|hapis|charged|arrest|court|trial|jailed|"
+                             r"sentenc|accused|alleg|police|polis|soruşturma|investigat)", re.I)
+ROLE_WORDS = {
+    "politician": ["politician", "minister", "member of parliament", "mp ", "prime minister", "secretary", "leader",
+                   "chancellor", "mayor", "statesman", "president", "first minister", "lord"],
+    "royal": ["king", "queen", "prince", "princess", "duke", "duchess", "monarch", "royal"],
+    "actor": ["actor", "actress"],
+    "singer": ["singer", "musician", "rapper", "songwriter", "band"],
+    "businessman": ["business", "executive", "entrepreneur", "chief", "investor"],
+    "businesswoman": ["business", "executive", "entrepreneur", "chief", "investor"],
+}
+
+
+def _wiki_get(url, **params):
+    try:
+        r = requests.get(url, params=dict(params, format="json"), timeout=20, headers={"User-Agent": WIKI_UA})
+        r.raise_for_status()
+        return r.json()
+    except Exception as e:
+        log(f"[uyarı] Wikimedia'ya ulaşılamadı: {e}")
+        return None
+
+
+def person_photo(name, role=""):
+    """Kişinin Wikidata'daki (P18) fotoğrafını, lisansı serbestse döndürür: (PIL görsel, bilgi) ya da (None, None)."""
+    page = _wiki_get("https://en.wikipedia.org/w/api.php", action="query", titles=name, redirects=1,
+                     prop="pageprops|description")
+    pages = list(((page or {}).get("query") or {}).get("pages", {}).values())
+    if not pages or "missing" in pages[0]:
+        return None, None
+    pg = pages[0]
+    props = pg.get("pageprops", {})
+    qid, desc = props.get("wikibase_item"), (pg.get("description") or "").lower()
+    if not qid or "disambiguation" in props:
+        return None, None
+    words = ROLE_WORDS.get(role, [role[:5]] if role else [])
+    if words and not any(w in desc for w in words):
+        log(f"[kişi] '{name}' açıklaması ({desc}) rolle ({role}) uyuşmuyor, kişi fotoğrafı kullanılmadı.")
+        return None, None
+    ent = _wiki_get(f"https://www.wikidata.org/wiki/Special:EntityData/{qid}.json")
+    claims = (((ent or {}).get("entities") or {}).get(qid) or {}).get("claims", {})
+    human = any(c.get("mainsnak", {}).get("datavalue", {}).get("value", {}).get("id") == "Q5" for c in claims.get("P31", []))
+    files = [c["mainsnak"]["datavalue"]["value"] for c in claims.get("P18", []) if c.get("mainsnak", {}).get("datavalue")]
+    if not human or not files:
+        return None, None
+    info = _wiki_get("https://commons.wikimedia.org/w/api.php", action="query", titles=f"File:{files[0]}",
+                     prop="imageinfo", iiprop="url|extmetadata", iiurlwidth=1600)
+    ii = (list(((info or {}).get("query") or {}).get("pages", {}).values()) or [{}])[0].get("imageinfo", [{}])[0]
+    meta = ii.get("extmetadata", {})
+    lic = clean(strip_html((meta.get("LicenseShortName") or {}).get("value", "")))
+    if not lic or not FREE_LICENSE.search(lic) or re.search(r"\b(nc|nd)\b", lic, re.I):
+        log(f"[kişi] '{name}' fotoğrafının lisansı uygun değil ({lic or 'bilinmiyor'}), atlandı.")
+        return None, None
+    artist = clean(strip_html((meta.get("Artist") or {}).get("value", "")))[:60] or "Wikimedia Commons"
+    im = load_photo(ii.get("thumburl") or ii.get("url"))
+    if im is None:
+        return None, None
+    im.info["centering"] = (0.5, 0.25)        # portrelerde yüz üst kısımda kalsın
+    return im, {"id": f"wm:{files[0]}", "provider": "Wikimedia Commons", "person": name, "license": lic,
+                "photographer": artist, "page": ii.get("descriptionurl"),
+                "credit": f"{artist} / {lic}, Wikimedia Commons"}
+
+
 def photo_for(it, used, orientation="portrait"):
-    """Önce habere uygun fotoğraf, bulunamazsa rastgele bir İngiltere fotoğrafı. Hiçbiri yoksa None."""
+    """Haber tanınmış bir kişiyle ilgiliyse önce kişinin serbest lisanslı fotoğrafı; yoksa habere uygun
+    Pixabay/Pexels fotoğrafı, o da yoksa rastgele bir İngiltere fotoğrafı. Hiçbiri yoksa None."""
+    if it.get("person") and not NO_PERSON_PHOTO.search(it.get("title", "") + " " + it.get("body", "")):
+        im, meta = person_photo(it["person"], it.get("person_role", ""))
+        if im is not None:
+            it["photo"] = meta
+            log(f"[kişi] {it['person']} için Wikimedia fotoğrafı kullanıldı ({meta['license']}).")
+            return im
     prov = photo_provider()
     if not prov:
         _photo_warn("PIXABAY_API_KEY (ya da PEXELS_API_KEY) tanımlı değil; kartlar fotoğrafsız üretildi.")
@@ -1128,7 +1211,8 @@ def build_breaking_caption(it, tags, when):
         it["body"],
         "",
         (f"{L('Kaynak', 'Source')}: {it['source']}" if it.get("source") else "")
-        + (f" | {L('Görsel', 'Image')}: {it['photo'].get('provider', 'Pexels')}" if it.get("photo") else ""),
+        + (f" | {L('Görsel', 'Image')}: {it['photo'].get('credit') or it['photo'].get('provider', 'Pexels')}"
+           if it.get("photo") else ""),
         f"{BRAND_TITLE} | {stamp_of(when, year=False)}",
         "",
         " ".join(tags),
@@ -1198,8 +1282,12 @@ def build_caption(items, tags, day):
             sources.append(it["source"])
     src_txt = ", ".join(sources) if sources else L("İngiliz basını", "UK media")
     head = f"🇬🇧 {BRAND_TITLE} | {date_tr(day)}\n\n"
-    provs = sorted({it["photo"].get("provider", "Pexels") for it in items if it.get("photo")})
+    provs = sorted({it["photo"].get("provider", "Pexels") for it in items
+                    if it.get("photo") and not it["photo"].get("credit")})
+    credits = [it["photo"]["credit"] for it in items if it.get("photo") and it["photo"].get("credit")]
     photo_note = f" {L('Görseller', 'Images')}: {', '.join(provs)}." if provs else ""
+    if credits:
+        photo_note += f" {L('Fotoğraflar', 'Photos')}: " + "; ".join(dict.fromkeys(credits)) + "."
     foot = (f"\n{L('Kaynaklar', 'Sources')}: {src_txt}. "
             f"{L('Haberler Türkçe özet olarak derlenmiştir.', 'Stories summarised from UK media reports.')}{photo_note}\n\n"
             + " ".join(tags[:30]))
