@@ -1,0 +1,184 @@
+{
+  "date": "2026-10-30",
+  "caption": "🇬🇧 Birleşik Krallık Gündemi | 30 Ekim 2026, Cuma\n\n1. 🛡️ Mülteci sponsorluğu için yeni başvurular açıldı\nHome Office, hayır kurumlarının mülteci sponsoru olmak için başvuru yapabilmesine izin verdi.\n\n2. 📊 Mülteci politikasının etkisi hakkında endişeler\nGuardian'a göre, İçişleri Bakanı Shabana Mahmood, göç sistemindeki değişikliklerin evsizliği ne kadar artıracağı konusunda bilgi vermeyerek meslektaşlarını kızdırdı.\n\n3. 🚫 İklim akademisyeni Andreas Malm İngiltere'ye girişten yasaklandı\nİsveçli yazar Andreas Malm, göçmen idaresi tarafından İngiltere'ye girmesinin 'uygun olmayabileceği' gerekçesiyle yasaklandı.\n\n4. 💷 Maliye Bakanı sosyal yardım kesintisinden geri adım attı\nJohn Healey, kamu finansmanında 28 milyar sterlin açık uyarıları ortasında bu dönem boyunca sosyal yardım maliyetini kesmekten vazgeçti.\n\n5. 💰 Yan iş geliri için vergisiz tutar gelecek yıl 3.000 sterline çıkıyor\nBütçede açıklanan değişiklikle, Britanyalıların yan işten vergi ödemeden kazanabileceği tutar gelecek yıl 3.000 sterline yükselecek.\n\n6. 🌫️ Met Office İngiltere'de sis uyarısı yayınladı\nCuma akşamı ve hafta sonunda yaygın sis bekleniyor.\n\n7. 👑 Kral Charles Guyana'ya ziyaret etti\nKral Charles, Bahama ziyaretinin 'diplomat başarı' olarak değerlendirilmesinin ardından Guyana'ya vardı.\n\n8. 🎬 Star Trek oyuncusu Patrick Stewart öldü\nEfsanevi actor Sir Patrick Stewart, Los Angeles'taki evinde Alzheimer ve Lewy Body Dementia hastalığıyla kısa bir yolculuğun ardından 86 yaşında hayatını kaybetti.\n\nKaynaklar: GOV.UK Home Office, Guardian, The Independent, BBC. Haberler Türkçe özet olarak derlenmiştir. Görseller: Pixabay. Fotoğraflar: Code Rood / CC BY-SA 2.0, Wikimedia Commons; Chris McAndrew / CC BY 3.0, Wikimedia Commons; White House / Public domain, Wikimedia Commons; Gage Skidmore / CC BY-SA 3.0, Wikimedia Commons.\n\n#İngiltere #Londra #UKNews #Mülteci #Göç #İçişleri #Bütçe #Ekonomi #KralCharles #PatrickStewart",
+  "images": [
+    "output/2026-10-30/00.jpg",
+    "output/2026-10-30/01.jpg",
+    "output/2026-10-30/02.jpg",
+    "output/2026-10-30/03.jpg",
+    "output/2026-10-30/04.jpg",
+    "output/2026-10-30/05.jpg",
+    "output/2026-10-30/06.jpg",
+    "output/2026-10-30/07.jpg",
+    "output/2026-10-30/08.jpg"
+  ],
+  "story_image": "output/2026-10-30/story.jpg",
+  "items": [
+    {
+      "ref": 3,
+      "emoji": "🛡️",
+      "title": "Mülteci sponsorluğu için yeni başvurular açıldı",
+      "body": "Home Office, hayır kurumlarının mülteci sponsoru olmak için başvuru yapabilmesine izin verdi. Bu adım, İçişleri Bakanı'nın güvenli ve yasal yollar açma taahhüdünün gerçekleştirilmesi yönünde önemli bir aşamayı işaret ediyor.",
+      "source": "GOV.UK Home Office",
+      "photo_query": "UK refugee welcome hands",
+      "person": "",
+      "person_role": "",
+      "category": "goc",
+      "photo": {
+        "id": "pb:7411977",
+        "provider": "Pixabay",
+        "query": "UK refugee welcome hands",
+        "photographer": "Leonhard_Niederwimmer",
+        "page": "https://pixabay.com/photos/tavern-matala-crete-greece-pub-7411977/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 44,
+      "emoji": "📊",
+      "title": "Mülteci politikasının etkisi hakkında endişeler",
+      "body": "Guardian'a göre, İçişleri Bakanı Shabana Mahmood, göç sistemindeki değişikliklerin evsizliği ne kadar artıracağı konusunda bilgi vermeyerek meslektaşlarını kızdırdı. Hükümet içi kaynaklar, bu kritik bilgilerin gizlenmesinden endişeli.",
+      "source": "Guardian",
+      "photo_query": "UK asylum seekers accommodation",
+      "person": "Shabana Mahmood",
+      "person_role": "politician",
+      "category": "goc",
+      "photo": {
+        "id": "pb:7781180",
+        "provider": "Pixabay",
+        "query": "UK asylum seekers accommodation",
+        "photographer": "PatrickLFC93",
+        "page": "https://pixabay.com/photos/road-cobblestones-cars-edinburgh-7781180/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 68,
+      "emoji": "🚫",
+      "title": "İklim akademisyeni Andreas Malm İngiltere'ye girişten yasaklandı",
+      "body": "İsveçli yazar Andreas Malm, göçmen idaresi tarafından İngiltere'ye girmesinin 'uygun olmayabileceği' gerekçesiyle yasaklandı. Malm, yasaklı Palestine Action örgütünün bir kurucusuyla etkinlikte konuşmak üzere gelmişti.",
+      "source": "Guardian",
+      "photo_query": "UK immigration border control",
+      "person": "Andreas Malm",
+      "person_role": "",
+      "category": "goc",
+      "photo": {
+        "id": "wm:Andreas Malm at Code Rood 2018 (cropped).jpg",
+        "provider": "Wikimedia Commons",
+        "person": "Andreas Malm",
+        "license": "CC BY-SA 2.0",
+        "photographer": "Code Rood",
+        "page": "https://commons.wikimedia.org/wiki/File:Andreas_Malm_at_Code_Rood_2018_(cropped).jpg",
+        "credit": "Code Rood / CC BY-SA 2.0, Wikimedia Commons"
+      }
+    },
+    {
+      "ref": 108,
+      "emoji": "💷",
+      "title": "Maliye Bakanı sosyal yardım kesintisinden geri adım attı",
+      "body": "John Healey, kamu finansmanında 28 milyar sterlin açık uyarıları ortasında bu dönem boyunca sosyal yardım maliyetini kesmekten vazgeçti. Uzmanlar, bütçenin 'dağınık' olduğunu ve büyük vergi ve harcama kararlarından kaçındığını söyledi.",
+      "source": "Guardian",
+      "photo_query": "UK pound sterling budget announcement",
+      "person": "John Healey",
+      "person_role": "politician",
+      "category": "ekonomi",
+      "photo": {
+        "id": "wm:Official portrait of John Healey crop 2.jpg",
+        "provider": "Wikimedia Commons",
+        "person": "John Healey",
+        "license": "CC BY 3.0",
+        "photographer": "Chris McAndrew",
+        "page": "https://commons.wikimedia.org/wiki/File:Official_portrait_of_John_Healey_crop_2.jpg",
+        "credit": "Chris McAndrew / CC BY 3.0, Wikimedia Commons"
+      }
+    },
+    {
+      "ref": 45,
+      "emoji": "💰",
+      "title": "Yan iş geliri için vergisiz tutar gelecek yıl 3.000 sterline çıkıyor",
+      "body": "Bütçede açıklanan değişiklikle, Britanyalıların yan işten vergi ödemeden kazanabileceği tutar gelecek yıl 3.000 sterline yükselecek. Hobi ya da ikinci el satıştan ek gelir elde eden 1,4 milyona kadar kişi bundan yararlanabilir. Bazıları yüzlerce sterlin vergi tasarrufu yapabilir.",
+      "source": "Guardian",
+      "photo_query": "UK tax allowance budget document",
+      "person": "",
+      "person_role": "",
+      "category": "ekonomi",
+      "photo": {
+        "id": "pb:2523265",
+        "provider": "Pixabay",
+        "query": "UK tax allowance budget document",
+        "photographer": "Alexas_Fotos",
+        "page": "https://pixabay.com/photos/tax-consultant-finance-tax-office-2523265/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 32,
+      "emoji": "🌫️",
+      "title": "Met Office İngiltere'de sis uyarısı yayınladı",
+      "body": "Cuma akşamı ve hafta sonunda yaygın sis bekleniyor. Şoförler dikkatli olması konusunda uyarıldı ve sürüş koşulları tehlikeli hale gelebilir.",
+      "source": "The Independent",
+      "photo_query": "UK fog weather hazard driving",
+      "person": "",
+      "person_role": "",
+      "category": "hava",
+      "photo": {
+        "id": "pb:699693",
+        "provider": "Pixabay",
+        "query": "UK fog weather hazard driving",
+        "photographer": "RondellMelling",
+        "page": "https://pixabay.com/photos/texture-heaven-clouds-wind-storm-699693/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 103,
+      "emoji": "👑",
+      "title": "Kral Charles Guyana'ya ziyaret etti",
+      "body": "Kral Charles, Bahama ziyaretinin 'diplomat başarı' olarak değerlendirilmesinin ardından Guyana'ya vardı. Kral, Guyana Cumhurbaşkanı Mohamed Irfaan Ali tarafından karşılandı.",
+      "source": "BBC",
+      "photo_query": "King Charles III state visit",
+      "person": "Charles III",
+      "person_role": "royal",
+      "category": "kraliyet",
+      "photo": {
+        "id": "wm:King Charles III (July 2023).jpg",
+        "provider": "Wikimedia Commons",
+        "person": "Charles III",
+        "license": "Public domain",
+        "photographer": "White House",
+        "page": "https://commons.wikimedia.org/wiki/File:King_Charles_III_(July_2023).jpg",
+        "credit": "White House / Public domain, Wikimedia Commons"
+      }
+    },
+    {
+      "ref": 101,
+      "emoji": "🎬",
+      "title": "Star Trek oyuncusu Patrick Stewart öldü",
+      "body": "Efsanevi actor Sir Patrick Stewart, Los Angeles'taki evinde Alzheimer ve Lewy Body Dementia hastalığıyla kısa bir yolculuğun ardından 86 yaşında hayatını kaybetti. Star Trek ve X-Men filmlerindeki rolleriyle biliniyordu.",
+      "source": "Guardian",
+      "photo_query": "Star Trek captain legacy",
+      "person": "Patrick Stewart",
+      "person_role": "actor",
+      "category": "magazin",
+      "photo": {
+        "id": "wm:Patrick Stewart by Gage Skidmore 2.jpg",
+        "provider": "Wikimedia Commons",
+        "person": "Patrick Stewart",
+        "license": "CC BY-SA 3.0",
+        "photographer": "Gage Skidmore",
+        "page": "https://commons.wikimedia.org/wiki/File:Patrick_Stewart_by_Gage_Skidmore_2.jpg",
+        "credit": "Gage Skidmore / CC BY-SA 3.0, Wikimedia Commons"
+      }
+    }
+  ],
+  "history_keys": [
+    "leadsponsorapplicationsopeninsteptowardsrefugeearrivals",
+    "mahmoodinfuriatesfellowministersbyfailingtorevealimpactofukmigrationshakeup",
+    "climateacademicandreasmalmbarredfromenteringuk",
+    "healeybacksawayfromcuttingwelfarecostamidwarningsofpublicfinanceshortfall",
+    "uksidehustletaxfreeallowancetoriseto3000nextyear",
+    "metofficeissuesfogwarninginenglandasdriversurgedtostayalert",
+    "kingcharlesarrivesinguyanaasbahamasvisitdeclareddiplomaticsuccess",
+    "patrickstewartstartrekactorandacclaimedthespiandiesaged86"
+  ]
+}
