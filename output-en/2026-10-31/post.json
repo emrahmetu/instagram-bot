@@ -1,0 +1,182 @@
+{
+  "date": "2026-10-31",
+  "caption": "🇬🇧 UK Daily Briefing | Saturday, 31 October 2026\n\n1. 🚤 Data details small boat arrivals and crossings stopped by France\nPublished transparency data covers the number of migrants arriving in the UK in small boats.\n\n2. 🏛️ Mahmood expected to announce changes to indefinite leave to remain\nThe home secretary has faced opposition from within the government over plans to impose new rules on migrant workers already in the UK.\n\n3. 💷 Healey's first budget adds tax charge on savings and property income\nIn his first budget as chancellor, John Healey dropped a plan to cut the cash Isa limit for under-65s.\n\n4. 🏠 Labour meets pledge to bring in 300 new planning officers\nThe Labour Party has met its manifesto promise to bring in 300 new planning officers.\n\n5. ☀️ UK could see 10 days without rain as high pressure builds\nHigh pressure is developing across the UK, with no significant rain in the forecast for the start of November.\n\n6. 💻 Binance tries to recover $6.3bn stolen in North Korea-linked hack\nThe crypto firm is attempting to recover $6.3bn stolen in a cyber-attack linked to North Korea.\n\n7. 🏉 England beat USA 55-12 in WXV Global Series after Canada defeats\nEngland bounced back from defeats to Canada with a 55-12 win over the USA in the WXV Global Series.\n\n8. 👑 King and Andy Burnham to face reparations protests in Antigua\nKing Charles and Prime Minister Andy Burnham will be greeted by reparations messages as they travel through St John's for the Commonwealth leaders' summit next week.\n\nSources: GOV.UK Home Office, BBC, Guardian, The Independent, BBC Sport. Stories summarised from UK media reports. Images: Pixabay. Photos: Chris McAndrew / CC BY 3.0, Wikimedia Commons; White House / Public domain, Wikimedia Commons.\n\n#UKNews #Britain #Politics #Migration #Budget2026 #Economy #Weather #CryptoNews #SportUK #Commonwealth",
+  "images": [
+    "output-en/2026-10-31/00.jpg",
+    "output-en/2026-10-31/01.jpg",
+    "output-en/2026-10-31/02.jpg",
+    "output-en/2026-10-31/03.jpg",
+    "output-en/2026-10-31/04.jpg",
+    "output-en/2026-10-31/05.jpg",
+    "output-en/2026-10-31/06.jpg",
+    "output-en/2026-10-31/07.jpg",
+    "output-en/2026-10-31/08.jpg"
+  ],
+  "story_image": "output-en/2026-10-31/story.jpg",
+  "items": [
+    {
+      "ref": 4,
+      "emoji": "🚤",
+      "title": "Data details small boat arrivals and crossings stopped by France",
+      "body": "Published transparency data covers the number of migrants arriving in the UK in small boats. It also covers those prevented by French authorities from crossing the English Channel.",
+      "source": "GOV.UK Home Office",
+      "photo_query": "English Channel Dover white cliffs",
+      "person": "",
+      "person_role": "",
+      "category": "goc",
+      "photo": {
+        "id": "pb:6025361",
+        "provider": "Pixabay",
+        "query": "English Channel Dover white cliffs",
+        "photographer": "hunt-er",
+        "page": "https://pixabay.com/photos/cliffs-sea-ocean-horizon-sky-6025361/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 48,
+      "emoji": "🏛️",
+      "title": "Mahmood expected to announce changes to indefinite leave to remain",
+      "body": "The home secretary has faced opposition from within the government over plans to impose new rules on migrant workers already in the UK. Mahmood is expected to announce changes to the rules on indefinite leave to remain.",
+      "source": "BBC",
+      "photo_query": "Home Office building London",
+      "person": "",
+      "person_role": "",
+      "category": "goc",
+      "photo": {
+        "id": "pb:4884852",
+        "provider": "Pixabay",
+        "query": "Home Office building London",
+        "photographer": "DAVID_UNDERLAND",
+        "page": "https://pixabay.com/photos/building-architecture-office-4884852/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 37,
+      "emoji": "💷",
+      "title": "Healey's first budget adds tax charge on savings and property income",
+      "body": "In his first budget as chancellor, John Healey dropped a plan to cut the cash Isa limit for under-65s. He surprised everyone, however, with an extra tax charge on savings and property income.",
+      "source": "Guardian",
+      "photo_query": "pound sterling coins savings jar",
+      "person": "John Healey",
+      "person_role": "politician",
+      "category": "ekonomi",
+      "photo": {
+        "id": "wm:Official portrait of John Healey crop 2.jpg",
+        "provider": "Wikimedia Commons",
+        "person": "John Healey",
+        "license": "CC BY 3.0",
+        "photographer": "Chris McAndrew",
+        "page": "https://commons.wikimedia.org/wiki/File:Official_portrait_of_John_Healey_crop_2.jpg",
+        "credit": "Chris McAndrew / CC BY 3.0, Wikimedia Commons"
+      }
+    },
+    {
+      "ref": 71,
+      "emoji": "🏠",
+      "title": "Labour meets pledge to bring in 300 new planning officers",
+      "body": "The Labour Party has met its manifesto promise to bring in 300 new planning officers. The deadline for its target of building 1.5m new homes is approaching.",
+      "source": "The Independent",
+      "photo_query": "new house construction site UK",
+      "person": "",
+      "person_role": "",
+      "category": "siyaset",
+      "photo": {
+        "id": "pb:4433574",
+        "provider": "Pixabay",
+        "query": "new house construction site UK",
+        "photographer": "RGY23",
+        "page": "https://pixabay.com/photos/crane-cranes-construction-4433574/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 55,
+      "emoji": "☀️",
+      "title": "UK could see 10 days without rain as high pressure builds",
+      "body": "High pressure is developing across the UK, with no significant rain in the forecast for the start of November. It follows what has been described as the wettest week in two years.",
+      "source": "BBC",
+      "photo_query": "British countryside sunny weather clear sky",
+      "person": "",
+      "person_role": "",
+      "category": "hava",
+      "photo": {
+        "id": "pb:5742416",
+        "provider": "Pixabay",
+        "query": "British countryside sunny weather clear sky",
+        "photographer": "andrecosso",
+        "page": "https://pixabay.com/photos/night-sky-mountains-stars-galaxy-5742416/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 86,
+      "emoji": "💻",
+      "title": "Binance tries to recover $6.3bn stolen in North Korea-linked hack",
+      "body": "The crypto firm is attempting to recover $6.3bn stolen in a cyber-attack linked to North Korea. The company describes the attack as complex, and it is believed to be the largest ever of its kind.",
+      "source": "BBC",
+      "photo_query": "cryptocurrency Bitcoin coin digital",
+      "person": "",
+      "person_role": "",
+      "category": "ekonomi",
+      "photo": {
+        "id": "pb:3412234",
+        "provider": "Pixabay",
+        "query": "cryptocurrency Bitcoin coin digital",
+        "photographer": "WorldSpectrum",
+        "page": "https://pixabay.com/photos/cryptocurrency-concept-sunset-3412234/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 64,
+      "emoji": "🏉",
+      "title": "England beat USA 55-12 in WXV Global Series after Canada defeats",
+      "body": "England bounced back from defeats to Canada with a 55-12 win over the USA in the WXV Global Series. Moloney-MacDonald scored four tries.",
+      "source": "BBC Sport",
+      "photo_query": "England rugby ball red rose",
+      "person": "",
+      "person_role": "",
+      "category": "spor",
+      "photo": {
+        "id": "pb:2269889",
+        "provider": "Pixabay",
+        "query": "England rugby ball red rose",
+        "photographer": "KeithJJ",
+        "page": "https://pixabay.com/photos/rugby-game-athletes-ball-sport-2269889/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 44,
+      "emoji": "👑",
+      "title": "King and Andy Burnham to face reparations protests in Antigua",
+      "body": "King Charles and Prime Minister Andy Burnham will be greeted by reparations messages as they travel through St John's for the Commonwealth leaders' summit next week. Activists want the UK to confront its role in transatlantic enslavement.",
+      "source": "Guardian",
+      "photo_query": "King Charles III formal portrait",
+      "person": "Charles III",
+      "person_role": "royal",
+      "category": "kraliyet",
+      "photo": {
+        "id": "wm:King Charles III (July 2023).jpg",
+        "provider": "Wikimedia Commons",
+        "person": "Charles III",
+        "license": "Public domain",
+        "photographer": "White House",
+        "page": "https://commons.wikimedia.org/wiki/File:King_Charles_III_(July_2023).jpg",
+        "credit": "White House / Public domain, Wikimedia Commons"
+      }
+    }
+  ],
+  "history_keys": [
+    "transparencydatasmallboatactivityintheenglishchannel",
+    "mahmoodexpectedtoannouncechangestorulesaroundindefiniteleavetoremain",
+    "budget2026howtobeatthenewsavingstaxrates",
+    "labourdeliversplanningofficerspledgeas15mhomestargetdeadlinenears",
+    "ukcouldsee10dayswithoutrainafterwettestweekintwoyears",
+    "cryptogiantbinanceattemptingtorecover63bnstoleninhacklinkedtonorthkorea",
+    "moloneymacdonaldscoresfourtriesasenglandthumpusa",
+    "reparationsnowkingandburnhamfaceprotestsatantiguacommonwealthsummit"
+  ]
+}
