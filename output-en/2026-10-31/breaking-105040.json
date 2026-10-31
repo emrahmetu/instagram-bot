@@ -1,0 +1,32 @@
+{
+  "type": "breaking",
+  "created_at": "2026-10-31T10:50:40.918043+00:00",
+  "item": {
+    "ref": 10,
+    "emoji": "📉",
+    "title": "Virgin Media O2 to cut thousands of jobs in cost shake-up",
+    "body": "The telecoms company (VMO2) is to cut thousands of jobs as it reduces its cost base. The move comes amid investor concerns about its ability to service its £22bn debt.",
+    "source": "Sky News",
+    "photo_query": "Virgin Media O2 office UK",
+    "person": "",
+    "person_role": "",
+    "category": "gundem",
+    "photo": {
+      "id": "pb:7228120",
+      "provider": "Pixabay",
+      "query": "Virgin Media O2 office UK",
+      "photographer": "LifeOfDapo",
+      "page": "https://pixabay.com/photos/multi-storey-parking-garage-building-7228120/",
+      "fallback": false
+    }
+  },
+  "caption": "🔴 BREAKING | 📉 Virgin Media O2 to cut thousands of jobs in cost shake-up\n\nThe telecoms company (VMO2) is to cut thousands of jobs as it reduces its cost base. The move comes amid investor concerns about its ability to service its £22bn debt.\n\nSource: Sky News | Image: Pixabay\nUK Daily Briefing | 31 October, 10:50\n\n#BreakingNews #Jobs #Telecoms",
+  "images": [
+    "output-en/2026-10-31/breaking-105040.jpg"
+  ],
+  "story_image": "output-en/2026-10-31/breaking-105040-story.jpg",
+  "history_keys": [
+    "virginmediao2toaxethousandsofjobsinsweepingshakeup"
+  ],
+  "published": false
+}
