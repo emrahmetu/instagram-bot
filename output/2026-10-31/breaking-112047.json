@@ -1,0 +1,32 @@
+{
+  "type": "breaking",
+  "created_at": "2026-10-31T11:20:47.849327+00:00",
+  "item": {
+    "ref": 16,
+    "emoji": "💼",
+    "title": "Virgin Media O2 binlerce kişiyi işten çıkaracak",
+    "body": "Telekomünikasyon devi Virgin Media O2 (VMO2), maliyetlerini düşürmek için binlerce kişiyi işten çıkaracak. Yatırımcılar şirketin 22 milyar sterlinlik borcunu ödeyebilme kapasitesinden endişe duyuyor.",
+    "source": "Sky News",
+    "photo_query": "Virgin Media O2 office UK",
+    "person": "",
+    "person_role": "",
+    "category": "gundem",
+    "photo": {
+      "id": "pb:3080990",
+      "provider": "Pixabay",
+      "query": "Virgin Media O2 office UK",
+      "photographer": "Alexas_Fotos",
+      "page": "https://pixabay.com/photos/munich-o2-building-moosach-modern-3080990/",
+      "fallback": false
+    }
+  },
+  "caption": "🔴 SON DAKİKA | 💼 Virgin Media O2 binlerce kişiyi işten çıkaracak\n\nTelekomünikasyon devi Virgin Media O2 (VMO2), maliyetlerini düşürmek için binlerce kişiyi işten çıkaracak. Yatırımcılar şirketin 22 milyar sterlinlik borcunu ödeyebilme kapasitesinden endişe duyuyor.\n\nKaynak: Sky News | Görsel: Pixabay\nBirleşik Krallık Gündemi | 31 Ekim, 11:20\n\n#SonDakika #IştenÇıkarma #Virgin",
+  "images": [
+    "output/2026-10-31/breaking-112047.jpg"
+  ],
+  "story_image": "output/2026-10-31/breaking-112047-story.jpg",
+  "history_keys": [
+    "virginmediao2toaxethousandsofjobsinsweepingshakeup"
+  ],
+  "published": false
+}
