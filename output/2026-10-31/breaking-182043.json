@@ -1,0 +1,32 @@
+{
+  "type": "breaking",
+  "created_at": "2026-10-31T18:20:43.944980+00:00",
+  "item": {
+    "ref": 7,
+    "emoji": "💷",
+    "title": "Healey, gençlere farklı asgari ücret uygulanabileceğini ima etti",
+    "body": "Maliye Bakanı Healey, bir sonraki seçimden önce genç çalışanların diğerleriyle aynı asgari ücreti almayabileceğini ima etti. Bu durum, asgari ücretle ilgili verilen sözün tutulamaması riskini doğuruyor.",
+    "source": "BBC",
+    "photo_query": "UK minimum wage workers",
+    "person": "Rachel Reeves",
+    "person_role": "politician",
+    "category": "ekonomi",
+    "photo": {
+      "id": "pb:4442944",
+      "provider": "Pixabay",
+      "query": "UK minimum wage workers",
+      "photographer": "MNMNB",
+      "page": "https://pixabay.com/photos/fishermen-fishing-downstream-river-4442944/",
+      "fallback": false
+    }
+  },
+  "caption": "🔴 SON DAKİKA | 💷 Healey, gençlere farklı asgari ücret uygulanabileceğini ima etti\n\nMaliye Bakanı Healey, bir sonraki seçimden önce genç çalışanların diğerleriyle aynı asgari ücreti almayabileceğini ima etti. Bu durum, asgari ücretle ilgili verilen sözün tutulamaması riskini doğuruyor.\n\nKaynak: BBC | Görsel: Pixabay\nBirleşik Krallık Gündemi | 31 Ekim, 18:20\n\n#SonDakika #AsgariÜcret #İşçiHaklari",
+  "images": [
+    "output/2026-10-31/breaking-182043.jpg"
+  ],
+  "story_image": "output/2026-10-31/breaking-182043-story.jpg",
+  "history_keys": [
+    "healeyrisksbreakingminimumwagepromiseforyoungerworkers"
+  ],
+  "published": false
+}
