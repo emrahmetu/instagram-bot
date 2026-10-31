@@ -1,0 +1,181 @@
+{
+  "date": "2026-10-31",
+  "caption": "🇬🇧 Birleşik Krallık Gündemi | 31 Ekim 2026, Cumartesi\n\n1. 🏝️ Chagos kökenli İngiliz vatandaşlar için Birleşik Krallık rehberi\nChagos kökenli İngiliz vatandaşlarına Birleşik Krallık'a taşınmayı düşünenler için bilgi paketi hazırlandı.\n\n2. 🤝 Mülteciler için lead sponsor olmak isteyenler başvurabilir\nLead sponsor'lar, toplum gruplarının, işverenlerin ve üniversitelerin mültecileri belirleyip sponsor olmasına destek oluyor.\n\n3. 📋 Mahmood'un süresiz oturum izni kurallarında değişiklik açıklaması bekleniyor\nİçişleri Bakanı Mahmood'un süresiz oturum izni kurallarındaki değişiklikleri açıklaması bekleniyor.\n\n4. 🆘 Modern kölelik başvurularına ilişkin NRM istatistikleri yayımlandı\nEylül 2026'ya kadar olan yıla ait National Referral Mechanism (NRM) verileri yayımlandı.\n\n5. 🏛️ Burnham kölelik için özre açık, tazminata kapalı\nBaşbakan Burnham, Britanya'nın transatlantik köle ticaretindeki rolüyle \"yüzleşmesi gerektiğini\" söyledi.\n\n6. 🏙️ Burnham'ın planıyla İngiltere'nin her bölgesi belediye başkanı seçecek\nBurnham'ın yetki devri planı kapsamında İngiltere'nin tüm bölgelerine yeni bir belediye başkanı gelecek.\n\n7. 🏉 İngiltere, ABD'yi 55-12 yendi; Moloney-MacDonald dört try attı\nİngiltere, WXV Global Series'te ABD'yi 55-12 yendi.\n\n8. 👑 Jonathan Yeo, Kral Charles'ın Karayipler ziyaretine eşlik ediyor\nÜnlü portre sanatçısı Jonathan Yeo, Kral Charles'ın Karayipler ziyaretinde resmi tur sanatçısı olarak yer alıyor.\n\nKaynaklar: GOV.UK Home Office, BBC, The Independent, BBC Sport. Haberler Türkçe özet olarak derlenmiştir. Görseller: Pixabay. Fotoğraflar: White House / Public domain, Wikimedia Commons.\n\n#İngiltere #Göç #Londra #UKNews #HomeOffice #Mülteci #Oturumİzni #İngiltereHaber #Burnham #KaralGezisi",
+  "images": [
+    "output/2026-10-31/00.jpg",
+    "output/2026-10-31/01.jpg",
+    "output/2026-10-31/02.jpg",
+    "output/2026-10-31/03.jpg",
+    "output/2026-10-31/04.jpg",
+    "output/2026-10-31/05.jpg",
+    "output/2026-10-31/06.jpg",
+    "output/2026-10-31/07.jpg",
+    "output/2026-10-31/08.jpg"
+  ],
+  "story_image": "output/2026-10-31/story.jpg",
+  "items": [
+    {
+      "ref": 4,
+      "emoji": "🏝️",
+      "title": "Chagos kökenli İngiliz vatandaşlar için Birleşik Krallık rehberi",
+      "body": "Chagos kökenli İngiliz vatandaşlarına Birleşik Krallık'a taşınmayı düşünenler için bilgi paketi hazırlandı. Rehber; uygunluk koşullarını, yaşam maliyetlerini, yerleşme sürecini ve sunulan destekleri kapsıyor.",
+      "source": "GOV.UK Home Office",
+      "photo_query": "British overseas islands landscape",
+      "person": "",
+      "person_role": "",
+      "category": "goc",
+      "photo": {
+        "id": "pb:4538073",
+        "provider": "Pixabay",
+        "query": "British overseas islands landscape",
+        "photographer": "the_nautilus",
+        "page": "https://pixabay.com/photos/beach-tofino-vancouver-island-4538073/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 8,
+      "emoji": "🤝",
+      "title": "Mülteciler için lead sponsor olmak isteyenler başvurabilir",
+      "body": "Lead sponsor'lar, toplum gruplarının, işverenlerin ve üniversitelerin mültecileri belirleyip sponsor olmasına destek oluyor. Mülteciler, sponsorluk yollarıyla Birleşik Krallık'a gelebiliyor.",
+      "source": "GOV.UK Home Office",
+      "photo_query": "UK welcoming community gathering",
+      "person": "",
+      "person_role": "",
+      "category": "goc",
+      "photo": {
+        "id": "pb:9535624",
+        "provider": "Pixabay",
+        "query": "UK welcoming community gathering",
+        "photographer": "seyhmuskino",
+        "page": "https://pixabay.com/photos/boy-africa-people-education-9535624/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 45,
+      "emoji": "📋",
+      "title": "Mahmood'un süresiz oturum izni kurallarında değişiklik açıklaması bekleniyor",
+      "body": "İçişleri Bakanı Mahmood'un süresiz oturum izni kurallarındaki değişiklikleri açıklaması bekleniyor. Birleşik Krallık'taki göçmen işçilere yeni kurallar getirme planına hükümet içinden itiraz geldi.",
+      "source": "BBC",
+      "photo_query": "Home Office building Westminster",
+      "person": "Yvette Mahmood",
+      "person_role": "politician",
+      "category": "goc",
+      "photo": {
+        "id": "pb:9962135",
+        "provider": "Pixabay",
+        "query": "Home Office building Westminster",
+        "photographer": "_badun",
+        "page": "https://pixabay.com/photos/windows-hotels-apartments-city-9962135/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 16,
+      "emoji": "🆘",
+      "title": "Modern kölelik başvurularına ilişkin NRM istatistikleri yayımlandı",
+      "body": "Eylül 2026'ya kadar olan yıla ait National Referral Mechanism (NRM) verileri yayımlandı. İstatistikler, modern kölelik mağduru olabilecek kişilerin sisteme yönlendirilmesini kapsıyor.",
+      "source": "GOV.UK Home Office",
+      "photo_query": "UK law enforcement partnership support",
+      "person": "",
+      "person_role": "",
+      "category": "guvenlik",
+      "photo": {
+        "id": "pb:3147067",
+        "provider": "Pixabay",
+        "query": "UK law enforcement partnership support",
+        "photographer": "Alexas_Fotos",
+        "page": "https://pixabay.com/photos/shake-hands-handshake-helping-hand-3147067/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 47,
+      "emoji": "🏛️",
+      "title": "Burnham kölelik için özre açık, tazminata kapalı",
+      "body": "Başbakan Burnham, Britanya'nın transatlantik köle ticaretindeki rolüyle \"yüzleşmesi gerektiğini\" söyledi. Özür çağrılarına açık olduğunu belirtti; ancak tazminatın \"doğru cevap olmadığını\" ifade etti.",
+      "source": "BBC",
+      "photo_query": "Commonwealth leaders meeting Caribbean",
+      "person": "Andy Burnham",
+      "person_role": "politician",
+      "category": "gundem",
+      "photo": {
+        "id": "pb:6819620",
+        "provider": "Pixabay",
+        "query": "Commonwealth leaders meeting Caribbean",
+        "photographer": "Darelle",
+        "page": "https://pixabay.com/photos/queen-elizabeth-royal-hat-leader-6819620/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 116,
+      "emoji": "🏙️",
+      "title": "Burnham'ın planıyla İngiltere'nin her bölgesi belediye başkanı seçecek",
+      "body": "Burnham'ın yetki devri planı kapsamında İngiltere'nin tüm bölgelerine yeni bir belediye başkanı gelecek. Planda on yeni bölge için devolution anlaşmaları yapılması öngörülüyor.",
+      "source": "The Independent",
+      "photo_query": "Westminster Parliament London building",
+      "person": "Andy Burnham",
+      "person_role": "politician",
+      "category": "siyaset",
+      "photo": {
+        "id": "pb:189073",
+        "provider": "Pixabay",
+        "query": "Westminster Parliament London building",
+        "photographer": "39967",
+        "page": "https://pixabay.com/photos/big-ben-london-city-england-189073/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 61,
+      "emoji": "🏉",
+      "title": "İngiltere, ABD'yi 55-12 yendi; Moloney-MacDonald dört try attı",
+      "body": "İngiltere, WXV Global Series'te ABD'yi 55-12 yendi. Moloney-MacDonald dört try attı. İngiltere, Kanada'ya karşı aldığı yenilgilerin ardından galibiyete döndü.",
+      "source": "BBC Sport",
+      "photo_query": "England women rugby team stadium",
+      "person": "",
+      "person_role": "",
+      "category": "spor",
+      "photo": {
+        "id": "pb:1430059",
+        "provider": "Pixabay",
+        "query": "England women rugby team stadium",
+        "photographer": "KeithJJ",
+        "page": "https://pixabay.com/photos/rugby-game-high-school-competition-1430059/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 72,
+      "emoji": "👑",
+      "title": "Jonathan Yeo, Kral Charles'ın Karayipler ziyaretine eşlik ediyor",
+      "body": "Ünlü portre sanatçısı Jonathan Yeo, Kral Charles'ın Karayipler ziyaretinde resmi tur sanatçısı olarak yer alıyor. Yeo, Kral'a eşlik etmenin \"büyük bir onur\" olduğunu söyledi.",
+      "source": "The Independent",
+      "photo_query": "King Charles III Caribbean visit",
+      "person": "Charles III",
+      "person_role": "royal",
+      "category": "kraliyet",
+      "photo": {
+        "id": "wm:King Charles III (July 2023).jpg",
+        "provider": "Wikimedia Commons",
+        "person": "Charles III",
+        "license": "Public domain",
+        "photographer": "White House",
+        "page": "https://commons.wikimedia.org/wiki/File:King_Charles_III_(July_2023).jpg",
+        "credit": "White House / Public domain, Wikimedia Commons"
+      }
+    }
+  ],
+  "history_keys": [
+    "guidancechagossianbritishcitizensandtheukinformationpack",
+    "applytobealeadsponsorforrefugees",
+    "mahmoodexpectedtoannouncechangestorulesaroundindefiniteleavetoremain",
+    "officialstatisticsmodernslaverynrmanddtnstatisticsyeartoseptember2026",
+    "burnhamopentocallsforslaveryapologybutnotreparations",
+    "allareasofenglandsettogetanewmayorunderburnhamspushtohandoutpowers",
+    "moloneymacdonaldscoresfourtriesasenglandthumpusa",
+    "artistjonathanyeohailsgreathonourofaccompanyingkingcharlesoncaribbeanvisit"
+  ]
+}
