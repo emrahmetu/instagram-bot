@@ -1,0 +1,33 @@
+{
+  "type": "breaking",
+  "created_at": "2026-10-31T20:20:43.178871+00:00",
+  "item": {
+    "ref": 10,
+    "emoji": "👑",
+    "title": "Prenses Kate, Prens Louis'in Halloween fotoğrafını ilk kez paylaştı",
+    "body": "Prenses Kate, Prens Louis'in Halloween fotoğrafını ilk kez paylaştı. Fotoğrafta Prens Louis, kocaman bir balkabağıyla görülüyor. Kare, ailenin Halloween kutlamalarından bir anı yansıtıyor.",
+    "source": "The Independent",
+    "photo_query": "Prince Louis pumpkin Halloween",
+    "person": "Catherine, Princess of Wales",
+    "person_role": "royal",
+    "category": "kraliyet",
+    "photo": {
+      "id": "wm:Princess of Wales at State Banquet 2025-09-17 (0.75 crop).jpg",
+      "provider": "Wikimedia Commons",
+      "person": "Catherine, Princess of Wales",
+      "license": "Public domain",
+      "photographer": "Daniel Torok/White House",
+      "page": "https://commons.wikimedia.org/wiki/File:Princess_of_Wales_at_State_Banquet_2025-09-17_(0.75_crop).jpg",
+      "credit": "Daniel Torok/White House / Public domain, Wikimedia Commons"
+    }
+  },
+  "caption": "🔴 SON DAKİKA | 👑 Prenses Kate, Prens Louis'in Halloween fotoğrafını ilk kez paylaştı\n\nPrenses Kate, Prens Louis'in Halloween fotoğrafını ilk kez paylaştı. Fotoğrafta Prens Louis, kocaman bir balkabağıyla görülüyor. Kare, ailenin Halloween kutlamalarından bir anı yansıtıyor.\n\nKaynak: The Independent | Görsel: Daniel Torok/White House / Public domain, Wikimedia Commons\nBirleşik Krallık Gündemi | 31 Ekim, 20:20\n\n#SonDakika #KralyetAilesi #KatePrensesi",
+  "images": [
+    "output/2026-10-31/breaking-202043.jpg"
+  ],
+  "story_image": "output/2026-10-31/breaking-202043-story.jpg",
+  "history_keys": [
+    "princesskateshareshalloweenpictureofprincelouisforfirsttime"
+  ],
+  "published": false
+}
