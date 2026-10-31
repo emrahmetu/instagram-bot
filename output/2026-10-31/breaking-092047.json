@@ -1,0 +1,32 @@
+{
+  "type": "breaking",
+  "created_at": "2026-10-31T09:20:47.317202+00:00",
+  "item": {
+    "ref": 7,
+    "emoji": "🏗️",
+    "title": "Burnham'ın belediye konutu vaadinde 7 milyar sterlinlik açık var",
+    "body": "Yeni bir rapor, Başbakan Burnham'ın savaş sonrası dönemden bu yana en büyük belediye konutu inşa atılımını yapma vaadinin riskte olduğunu söyledi. Raporun uyarısına göre talebi karşılamak için 7 milyar sterlinlik açık var ve ek finansman sağlanmazsa hedefin gerisinde kalınabilir.",
+    "source": "The Independent",
+    "photo_query": "UK council housing construction",
+    "person": "",
+    "person_role": "",
+    "category": "ekonomi",
+    "photo": {
+      "id": "pb:321800",
+      "provider": "Pixabay",
+      "query": "UK council housing construction",
+      "photographer": "stux",
+      "page": "https://pixabay.com/photos/construction-crane-crane-to-build-321800/",
+      "fallback": false
+    }
+  },
+  "caption": "🔴 SON DAKİKA | 🏗️ Burnham'ın belediye konutu vaadinde 7 milyar sterlinlik açık var\n\nYeni bir rapor, Başbakan Burnham'ın savaş sonrası dönemden bu yana en büyük belediye konutu inşa atılımını yapma vaadinin riskte olduğunu söyledi. Raporun uyarısına göre talebi karşılamak için 7 milyar sterlinlik açık var ve ek finansman sağlanmazsa hedefin gerisinde kalınabilir.\n\nKaynak: The Independent | Görsel: Pixabay\nBirleşik Krallık Gündemi | 31 Ekim, 09:20\n\n#SonDakika #KonutKrizi #Burnham",
+  "images": [
+    "output/2026-10-31/breaking-092047.jpg"
+  ],
+  "story_image": "output/2026-10-31/breaking-092047-story.jpg",
+  "history_keys": [
+    "burnhamsflagshipcouncilhousebuildingpledgefaces7bnblackholetomeetdemand"
+  ],
+  "published": false
+}
