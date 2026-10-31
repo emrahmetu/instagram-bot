@@ -1,0 +1,33 @@
+{
+  "type": "breaking",
+  "created_at": "2026-10-31T19:50:43.019743+00:00",
+  "item": {
+    "ref": 3,
+    "emoji": "👑",
+    "title": "Princess Kate shares Halloween picture of Prince Louis for first time",
+    "body": "The picture shows Prince Louis with a huge pumpkin as the family enjoys their Halloween festivities.",
+    "source": "The Independent",
+    "photo_query": "pumpkin Halloween British family",
+    "person": "Catherine, Princess of Wales",
+    "person_role": "royal",
+    "category": "kraliyet",
+    "photo": {
+      "id": "wm:Princess of Wales at State Banquet 2025-09-17 (0.75 crop).jpg",
+      "provider": "Wikimedia Commons",
+      "person": "Catherine, Princess of Wales",
+      "license": "Public domain",
+      "photographer": "Daniel Torok/White House",
+      "page": "https://commons.wikimedia.org/wiki/File:Princess_of_Wales_at_State_Banquet_2025-09-17_(0.75_crop).jpg",
+      "credit": "Daniel Torok/White House / Public domain, Wikimedia Commons"
+    }
+  },
+  "caption": "🔴 BREAKING | 👑 Princess Kate shares Halloween picture of Prince Louis for first time\n\nThe picture shows Prince Louis with a huge pumpkin as the family enjoys their Halloween festivities.\n\nSource: The Independent | Image: Daniel Torok/White House / Public domain, Wikimedia Commons\nUK Daily Briefing | 31 October, 19:50\n\n#BreakingNews #RoyalFamily #PrinceLouis",
+  "images": [
+    "output-en/2026-10-31/breaking-195043.jpg"
+  ],
+  "story_image": "output-en/2026-10-31/breaking-195043-story.jpg",
+  "history_keys": [
+    "princesskateshareshalloweenpictureofprincelouisforfirsttime"
+  ],
+  "published": false
+}
