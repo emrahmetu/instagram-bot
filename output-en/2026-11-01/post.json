@@ -1,0 +1,183 @@
+{
+  "date": "2026-11-01",
+  "caption": "🇬🇧 UK Daily Briefing | Sunday, 1 November 2026\n\n1. 🌫️ Thick fog expected to create hazardous driving conditions into next week\nEngland and Wales are most likely to see fog on Sunday, before the threat moves northwards into next week. Thick fog is expected to make driving conditions hazardous.\n\n2. 🇬🇧 Reeves says UK's future should be inside the EU\nRachel Reeves has said Brexit has made the UK \"poorer, weaker and less secure\". It is her first major intervention since leaving the Treasury.\n\n3. 💷 Healey suggests younger workers may miss out on same minimum wage\nThe Chancellor has suggested that younger workers might not receive the same minimum wage as others before the next election.\n\n4. 🏥 Mahmood 'to dilute immigration plans' after Labour backlash\nSocial care staff are to be spared a 15-year settlement wait, following a cabinet revolt over immigration rule changes described as \"un-British\", according to reports.\n\n5. ⚡ Families say energy bills help 'doesn't go far enough'\nFamilies in the West Midlands say they are worried about paying their winter energy bills.\n\n6. 🚁 Jersey Airport hit by second night of drone disruption\nJersey Airport said it was \"experiencing disruption\" affecting inbound flights \"as a result of further drone activity\".\n\n7. 👑 King to speak about slavery with 'unflinching honesty'\nThe King will speak with \"unflinching honesty\" and \"sincere sorrow\" about slavery in a speech to Commonwealth leaders, amid increasing pressure for Britain to apologise for its role in the transatlantic slave trade.\n\n8. 🏅 Cox wins second gold at Para-cycling World Championships\nKadeena Cox has won her second gold medal at the Para-cycling World Championships. She had set a world record in qualifying for the C4 sprint.\n\nSources: BBC, The Independent, Sky News, BBC Sport. Stories summarised from UK media reports. Images: Pixabay. Photos: Chris McAndrew / CC BY 3.0, Wikimedia Commons; White House / Public domain, Wikimedia Commons; Fernando Frazão/Agência Brasil / CC BY 2.0, Wikimedia Commons.\n\n#UKNews #BritainToday #Politics #CostOfLiving #Weather #Immigration #Energy #RoyalNews #Sport #UK #NewsUpdate #InstagramNews",
+  "images": [
+    "output-en/2026-11-01/00.jpg",
+    "output-en/2026-11-01/01.jpg",
+    "output-en/2026-11-01/02.jpg",
+    "output-en/2026-11-01/03.jpg",
+    "output-en/2026-11-01/04.jpg",
+    "output-en/2026-11-01/05.jpg",
+    "output-en/2026-11-01/06.jpg",
+    "output-en/2026-11-01/07.jpg",
+    "output-en/2026-11-01/08.jpg"
+  ],
+  "story_image": "output-en/2026-11-01/story.jpg",
+  "items": [
+    {
+      "ref": 40,
+      "emoji": "🌫️",
+      "title": "Thick fog expected to create hazardous driving conditions into next week",
+      "body": "England and Wales are most likely to see fog on Sunday, before the threat moves northwards into next week. Thick fog is expected to make driving conditions hazardous.",
+      "source": "BBC",
+      "photo_query": "UK motorway fog visibility",
+      "person": "",
+      "person_role": "",
+      "category": "hava",
+      "photo": {
+        "id": "pb:8292685",
+        "provider": "Pixabay",
+        "query": "UK motorway fog visibility",
+        "photographer": "danny51chen",
+        "page": "https://pixabay.com/photos/mountains-trees-forest-fog-haze-8292685/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 48,
+      "emoji": "🇬🇧",
+      "title": "Reeves says UK's future should be inside the EU",
+      "body": "Rachel Reeves has said Brexit has made the UK \"poorer, weaker and less secure\". It is her first major intervention since leaving the Treasury.",
+      "source": "BBC",
+      "photo_query": "British Parliament Westminster",
+      "person": "Rachel Reeves",
+      "person_role": "politician",
+      "category": "siyaset",
+      "photo": {
+        "id": "pb:2567330",
+        "provider": "Pixabay",
+        "query": "British Parliament Westminster",
+        "photographer": "lydiasventova",
+        "page": "https://pixabay.com/photos/bigben-city-of-london-cab-2567330/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 108,
+      "emoji": "💷",
+      "title": "Healey suggests younger workers may miss out on same minimum wage",
+      "body": "The Chancellor has suggested that younger workers might not receive the same minimum wage as others before the next election.",
+      "source": "BBC",
+      "photo_query": "pound sterling coins notes",
+      "person": "John Healey",
+      "person_role": "politician",
+      "category": "ekonomi",
+      "photo": {
+        "id": "wm:Official portrait of John Healey crop 2.jpg",
+        "provider": "Wikimedia Commons",
+        "person": "John Healey",
+        "license": "CC BY 3.0",
+        "photographer": "Chris McAndrew",
+        "page": "https://commons.wikimedia.org/wiki/File:Official_portrait_of_John_Healey_crop_2.jpg",
+        "credit": "Chris McAndrew / CC BY 3.0, Wikimedia Commons"
+      }
+    },
+    {
+      "ref": 117,
+      "emoji": "🏥",
+      "title": "Mahmood 'to dilute immigration plans' after Labour backlash",
+      "body": "Social care staff are to be spared a 15-year settlement wait, following a cabinet revolt over immigration rule changes described as \"un-British\", according to reports.",
+      "source": "The Independent",
+      "photo_query": "UK visa passport application",
+      "person": "Shabana Mahmood",
+      "person_role": "politician",
+      "category": "goc",
+      "photo": {
+        "id": "pb:1535637",
+        "provider": "Pixabay",
+        "query": "UK visa passport application",
+        "photographer": "2211438",
+        "page": "https://pixabay.com/photos/transit-visa-gdr-old-paper-dirty-1535637/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 33,
+      "emoji": "⚡",
+      "title": "Families say energy bills help 'doesn't go far enough'",
+      "body": "Families in the West Midlands say they are worried about paying their winter energy bills.",
+      "source": "BBC",
+      "photo_query": "UK energy bill letter",
+      "person": "",
+      "person_role": "",
+      "category": "ekonomi",
+      "photo": {
+        "id": "pb:8023249",
+        "provider": "Pixabay",
+        "query": "UK energy bill letter",
+        "photographer": "ChiemSeherin",
+        "page": "https://pixabay.com/photos/pelican-bird-water-bird-schabel-8023249/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 49,
+      "emoji": "🚁",
+      "title": "Jersey Airport hit by second night of drone disruption",
+      "body": "Jersey Airport said it was \"experiencing disruption\" affecting inbound flights \"as a result of further drone activity\".",
+      "source": "BBC",
+      "photo_query": "Jersey Airport terminal building",
+      "person": "",
+      "person_role": "",
+      "category": "guvenlik",
+      "photo": {
+        "id": "pb:7108524",
+        "provider": "Pixabay",
+        "query": "Jersey Airport terminal building",
+        "photographer": "opollophotography",
+        "page": "https://pixabay.com/photos/escalator-stairs-hallway-lights-7108524/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 47,
+      "emoji": "👑",
+      "title": "King to speak about slavery with 'unflinching honesty'",
+      "body": "The King will speak with \"unflinching honesty\" and \"sincere sorrow\" about slavery in a speech to Commonwealth leaders, amid increasing pressure for Britain to apologise for its role in the transatlantic slave trade.",
+      "source": "Sky News",
+      "photo_query": "Commonwealth leaders meeting Antigua",
+      "person": "Charles III",
+      "person_role": "royal",
+      "category": "kraliyet",
+      "photo": {
+        "id": "wm:King Charles III (July 2023).jpg",
+        "provider": "Wikimedia Commons",
+        "person": "Charles III",
+        "license": "Public domain",
+        "photographer": "White House",
+        "page": "https://commons.wikimedia.org/wiki/File:King_Charles_III_(July_2023).jpg",
+        "credit": "White House / Public domain, Wikimedia Commons"
+      }
+    },
+    {
+      "ref": 32,
+      "emoji": "🏅",
+      "title": "Cox wins second gold at Para-cycling World Championships",
+      "body": "Kadeena Cox has won her second gold medal at the Para-cycling World Championships. She had set a world record in qualifying for the C4 sprint.",
+      "source": "BBC Sport",
+      "photo_query": "Paralympic cycling track",
+      "person": "Kadeena Cox",
+      "person_role": "athlete",
+      "category": "spor",
+      "photo": {
+        "id": "wm:Kadeena Cox Rio2016.jpg",
+        "provider": "Wikimedia Commons",
+        "person": "Kadeena Cox",
+        "license": "CC BY 2.0",
+        "photographer": "Fernando Frazão/Agência Brasil",
+        "page": "https://commons.wikimedia.org/wiki/File:Kadeena_Cox_Rio2016.jpg",
+        "credit": "Fernando Frazão/Agência Brasil / CC BY 2.0, Wikimedia Commons"
+      }
+    }
+  ],
+  "history_keys": [
+    "thickfogtocreatehazardousdrivingconditionsintonextweek",
+    "reevessaysuksfutureshouldbeinsidetheeu",
+    "healeyrisksbreakingminimumwagepromiseforyoungerworkers",
+    "shabanamahmoodtodiluteimmigrationplansafterlabourbacklash",
+    "energybillshelpdoesntgofarenough",
+    "secondnightofdronedisruptionatjerseyairport",
+    "thekingtospeakaboutslaverywithunflinchinghonesty",
+    "coxwinssecondgoldatparacyclingworlds"
+  ]
+}
