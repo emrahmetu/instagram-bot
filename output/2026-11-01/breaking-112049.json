@@ -1,0 +1,32 @@
+{
+  "type": "breaking",
+  "created_at": "2026-11-01T11:20:49.935246+00:00",
+  "item": {
+    "ref": 9,
+    "emoji": "🇪🇺",
+    "title": "Reeves: İngiltere'nin geleceği AB'nin içinde olmalı",
+    "body": "Rachel Reeves, Treasury'den ayrıldıktan sonraki ilk büyük müdahalesinde Brexit'in İngiltere'yi \"daha yoksul, daha zayıf ve daha az güvenli\" hale getirdiğini söyledi. Reeves'e göre ülkenin geleceği AB içinde olmalı.",
+    "source": "BBC",
+    "photo_query": "Rachel Reeves politician Westminster",
+    "person": "Rachel Reeves",
+    "person_role": "politician",
+    "category": "siyaset",
+    "photo": {
+      "id": "pb:4728199",
+      "provider": "Pixabay",
+      "query": "Rachel Reeves politician Westminster",
+      "photographer": "Leonhard_Niederwimmer",
+      "page": "https://pixabay.com/photos/big-ben-london-clock-tower-uk-4728199/",
+      "fallback": false
+    }
+  },
+  "caption": "🔴 SON DAKİKA | 🇪🇺 Reeves: İngiltere'nin geleceği AB'nin içinde olmalı\n\nRachel Reeves, Treasury'den ayrıldıktan sonraki ilk büyük müdahalesinde Brexit'in İngiltere'yi \"daha yoksul, daha zayıf ve daha az güvenli\" hale getirdiğini söyledi. Reeves'e göre ülkenin geleceği AB içinde olmalı.\n\nKaynak: BBC | Görsel: Pixabay\nBirleşik Krallık Gündemi | 1 Kasım, 11:20\n\n#SonDakika #Brexit #AB",
+  "images": [
+    "output/2026-11-01/breaking-112049.jpg"
+  ],
+  "story_image": "output/2026-11-01/breaking-112049-story.jpg",
+  "history_keys": [
+    "reevessaysuksfutureshouldbeinsidetheeu"
+  ],
+  "published": false
+}
