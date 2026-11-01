@@ -1,0 +1,33 @@
+{
+  "type": "breaking",
+  "created_at": "2026-11-01T15:20:51.881514+00:00",
+  "item": {
+    "ref": 14,
+    "emoji": "👑",
+    "title": "Kral Charles Antigua'da kölelik konusuna değinecek",
+    "body": "Kral III. Charles, salı günü Antigua'da Commonwealth Heads of Government Meeting'e hitap edecek. Konuşmasında kölelik konusuna değinecek. Kral, bu konuşmayla dokuz günlük Karayipler turnesini tamamlayacak.",
+    "source": "BBC",
+    "photo_query": "King Charles III Caribbean tour",
+    "person": "Charles III",
+    "person_role": "royal",
+    "category": "kraliyet",
+    "photo": {
+      "id": "wm:King Charles III (July 2023).jpg",
+      "provider": "Wikimedia Commons",
+      "person": "Charles III",
+      "license": "Public domain",
+      "photographer": "White House",
+      "page": "https://commons.wikimedia.org/wiki/File:King_Charles_III_(July_2023).jpg",
+      "credit": "White House / Public domain, Wikimedia Commons"
+    }
+  },
+  "caption": "🔴 SON DAKİKA | 👑 Kral Charles Antigua'da kölelik konusuna değinecek\n\nKral III. Charles, salı günü Antigua'da Commonwealth Heads of Government Meeting'e hitap edecek. Konuşmasında kölelik konusuna değinecek. Kral, bu konuşmayla dokuz günlük Karayipler turnesini tamamlayacak.\n\nKaynak: BBC | Görsel: White House / Public domain, Wikimedia Commons\nBirleşik Krallık Gündemi | 1 Kasım, 15:20\n\n#SonDakika #KralCharles #Karayipler",
+  "images": [
+    "output/2026-11-01/breaking-152051.jpg"
+  ],
+  "story_image": "output/2026-11-01/breaking-152051-story.jpg",
+  "history_keys": [
+    "kingtoaddressslaveryduringcommonwealthspeechinantiguaonfinallegofcaribbeantour"
+  ],
+  "published": false
+}
