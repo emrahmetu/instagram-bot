@@ -1,0 +1,32 @@
+{
+  "type": "breaking",
+  "created_at": "2026-11-01T11:50:44.863492+00:00",
+  "item": {
+    "ref": 2,
+    "emoji": "📈",
+    "title": "Bank of England expected to raise interest rates for first time since 2023",
+    "body": "The Bank of England is expected to raise interest rates for the first time in more than three years. Many economists think rate-setters will want to tackle rising inflation in the UK by tightening monetary policy, which could squeeze borrowers.",
+    "source": "Nation.Cymru / Press Associati",
+    "photo_query": "Bank of England building London",
+    "person": "",
+    "person_role": "",
+    "category": "ekonomi",
+    "photo": {
+      "id": "pb:7401433",
+      "provider": "Pixabay",
+      "query": "Bank of England building London",
+      "photographer": "26798947",
+      "page": "https://pixabay.com/photos/london-riesenrad-river-urlaub-7401433/",
+      "fallback": false
+    }
+  },
+  "caption": "🔴 BREAKING | 📈 Bank of England expected to raise interest rates for first time since 2023\n\nThe Bank of England is expected to raise interest rates for the first time in more than three years. Many economists think rate-setters will want to tackle rising inflation in the UK by tightening monetary policy, which could squeeze borrowers.\n\nSource: Nation.Cymru / Press Associati | Image: Pixabay\nUK Daily Briefing | 1 November, 11:50\n\n#BreakingNews #InterestRates #Economy",
+  "images": [
+    "output-en/2026-11-01/breaking-115044.jpg"
+  ],
+  "story_image": "output-en/2026-11-01/breaking-115044-story.jpg",
+  "history_keys": [
+    "bankofenglandexpectedtoraiseinterestratesforfirsttimesince2023"
+  ],
+  "published": false
+}
