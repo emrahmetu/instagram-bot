@@ -1,0 +1,32 @@
+{
+  "type": "breaking",
+  "created_at": "2026-11-01T09:50:45.640457+00:00",
+  "item": {
+    "ref": 10,
+    "emoji": "🛫",
+    "title": "Asylum seekers still sent to France weeks after 'one in, one out' scheme ended",
+    "body": "The Home Office is still putting asylum seekers on planes to France weeks after the \"one in, one out\" scheme ended, the Guardian has learned. It understands the department continues to detain dozens of people, and one group was forcibly removed this week.",
+    "source": "Guardian",
+    "photo_query": "UK airport departures",
+    "person": "",
+    "person_role": "",
+    "category": "gundem",
+    "photo": {
+      "id": "pb:7728783",
+      "provider": "Pixabay",
+      "query": "UK airport departures",
+      "photographer": "PatrickLFC93",
+      "page": "https://pixabay.com/photos/phone-booth-phone-english-uk-7728783/",
+      "fallback": false
+    }
+  },
+  "caption": "🔴 BREAKING | 🛫 Asylum seekers still sent to France weeks after 'one in, one out' scheme ended\n\nThe Home Office is still putting asylum seekers on planes to France weeks after the \"one in, one out\" scheme ended, the Guardian has learned. It understands the department continues to detain dozens of people, and one group was forcibly removed this week.\n\nSource: Guardian | Image: Pixabay\nUK Daily Briefing | 1 November, 09:50\n\n#BreakingNews #AsylumPolicy #HomeOffice",
+  "images": [
+    "output-en/2026-11-01/breaking-095045.jpg"
+  ],
+  "story_image": "output-en/2026-11-01/breaking-095045-story.jpg",
+  "history_keys": [
+    "asylumseekersstillbeingsenttofranceunderoneinoneoutweeksafterschemeended"
+  ],
+  "published": false
+}
