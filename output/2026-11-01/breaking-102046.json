@@ -1,0 +1,32 @@
+{
+  "type": "breaking",
+  "created_at": "2026-11-01T10:20:46.992492+00:00",
+  "item": {
+    "ref": 8,
+    "emoji": "📈",
+    "title": "Bank of England'ın 2023'ten bu yana ilk kez faiz artırması bekleniyor",
+    "body": "Ofgem'in enerji fiyat tavanı 1 Ekim'de tipik bir hane için yüzde 3,6 arttı. Bu artışın ardından enflasyonun kış boyunca daha da yükselmesi bekleniyor.",
+    "source": "The Independent",
+    "photo_query": "Bank of England building London",
+    "person": "",
+    "person_role": "",
+    "category": "ekonomi",
+    "photo": {
+      "id": "pb:458321",
+      "provider": "Pixabay",
+      "query": "Bank of England building London",
+      "photographer": "hurk",
+      "page": "https://pixabay.com/photos/museum-architecture-london-landmark-458321/",
+      "fallback": false
+    }
+  },
+  "caption": "🔴 SON DAKİKA | 📈 Bank of England'ın 2023'ten bu yana ilk kez faiz artırması bekleniyor\n\nOfgem'in enerji fiyat tavanı 1 Ekim'de tipik bir hane için yüzde 3,6 arttı. Bu artışın ardından enflasyonun kış boyunca daha da yükselmesi bekleniyor.\n\nKaynak: The Independent | Görsel: Pixabay\nBirleşik Krallık Gündemi | 1 Kasım, 10:20\n\n#SonDakika #Ekonomi #FaizOranları",
+  "images": [
+    "output/2026-11-01/breaking-102046.jpg"
+  ],
+  "story_image": "output/2026-11-01/breaking-102046-story.jpg",
+  "history_keys": [
+    "bankofenglandsettoriseinterestratesforfirsttimesince2023"
+  ],
+  "published": false
+}
