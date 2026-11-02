@@ -1,0 +1,181 @@
+{
+  "date": "2026-11-02",
+  "caption": "🇬🇧 Birleşik Krallık Gündemi | 2 Kasım 2026, Pazartesi\n\n1. 💼 İşçi vizesi sisteminde sponsor lisansı iptallerinin etkisi\nBrexit ve pandemi sonrasında hükümet, 2021'de orta vasıflı işleri vize kapsamına aldı.\n\n2. 🏠 2,3 milyondan fazla ev sahibi 2027'de ipotek ödemelerinde artış yaşayacak\nSabit faizli kredileri biten ev sahipleri, Bank of England'ın beklenen faiz artırımı sonrasında ödemelerinde önemli bir yükseliş görebilir.\n\n3. 📋 Göçmenlerin oturum izni için bekleme süresi 10-15 yıla çıkabilir\nİçişleri Bakanı Shabana Mahmood yeni kurallar açıklayacak; yasal göçmenlerin çoğu 10 yıl, bazıları 15 yıl beklemek zorunda kalacak.\n\n4. 📊 Yetenekli göçmenler 115 milyar sterlin kamu geliri sağlayabilir\nYapılan analize göre, vasıflı göçmenler mevcut kurallar altında 115 milyar sterlin kamu finansmanına katkı sağlayabilir.\n\n5. 🔪 'Çakılara Yer Yok' kampanyası Londra'da başlatıldı\nHükümet, bıçak suçlarını caydırmak için Westminster ve Croydon'da billboardlar, dijital reklamlar ve sosyal medya kampanyası başlattı.\n\n6. 🏥 NHS'de çocuk hasta erken uyarı sistemi devreye alınıyor\nDünyanın en büyük çocuk hasta erken uyarı sistemi (Pews), İngiltere genelindeki A&E bölümlerine tanıtılıyor.\n\n7. 👑 Kral Charles, Antigua'da Birleşik Krallık'ın kölelik rolüne değinecek\nKral Charles III, Antiqua ve Barbuda'da Birleşik Krallık Hükümetler Başkanları Toplantısı'nda konuşma yapacak ve Britanya'nın Atlantik köleliğindeki rolünü ele alacak.\n\n8. 🏁 Kimi Antonelli, Formula 1 tarihinin en genç şampiyonu oldu\nKimi Antonelli, Meksiko Grand Prix'sinde dünya şampiyonluğunu kazanarak Formula 1'in tarihindeki en genç şampiyon unvanını aldı.\n\nKaynaklar: Free Movement, Guardian, The Independent, GOV.UK Home Office, BBC, BBC Sport. Haberler Türkçe özet olarak derlenmiştir. Görseller: Pixabay. Fotoğraflar: White House / Public domain, Wikimedia Commons.\n\n#İngiltere #Londra #UKNews #Göç #İpotek #Oturumİzni #NHS #KralCharles #Formula1 #Britanya",
+  "images": [
+    "output/2026-11-02/00.jpg",
+    "output/2026-11-02/01.jpg",
+    "output/2026-11-02/02.jpg",
+    "output/2026-11-02/03.jpg",
+    "output/2026-11-02/04.jpg",
+    "output/2026-11-02/05.jpg",
+    "output/2026-11-02/06.jpg",
+    "output/2026-11-02/07.jpg",
+    "output/2026-11-02/08.jpg"
+  ],
+  "story_image": "output/2026-11-02/story.jpg",
+  "items": [
+    {
+      "ref": 1,
+      "emoji": "💼",
+      "title": "İşçi vizesi sisteminde sponsor lisansı iptallerinin etkisi",
+      "body": "Brexit ve pandemi sonrasında hükümet, 2021'de orta vasıflı işleri vize kapsamına aldı. Bakım işçileri 2022'de eklendi ve birçok işveren bu sistemi yoğun kullanmaya başladı.",
+      "source": "Free Movement",
+      "photo_query": "UK work visa certificate",
+      "person": "",
+      "person_role": "",
+      "category": "goc",
+      "photo": {
+        "id": "pb:7739611",
+        "provider": "Pixabay",
+        "query": "UK work visa certificate",
+        "photographer": "Kay-Co",
+        "page": "https://pixabay.com/photos/london-england-uk-architecture-7739611/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 32,
+      "emoji": "🏠",
+      "title": "2,3 milyondan fazla ev sahibi 2027'de ipotek ödemelerinde artış yaşayacak",
+      "body": "Sabit faizli kredileri biten ev sahipleri, Bank of England'ın beklenen faiz artırımı sonrasında ödemelerinde önemli bir yükseliş görebilir. 2,3 milyondan fazla hane 2027'de daha yüksek ödemelerle karşı karşıya kalacak.",
+      "source": "Guardian",
+      "photo_query": "British pound sterling coins",
+      "person": "",
+      "person_role": "",
+      "category": "ekonomi",
+      "photo": {
+        "id": "pb:7965411",
+        "provider": "Pixabay",
+        "query": "British pound sterling coins",
+        "photographer": "uschi2807",
+        "page": "https://pixabay.com/photos/british-shorthair-british-longhair-7965411/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 83,
+      "emoji": "📋",
+      "title": "Göçmenlerin oturum izni için bekleme süresi 10-15 yıla çıkabilir",
+      "body": "İçişleri Bakanı Shabana Mahmood yeni kurallar açıklayacak; yasal göçmenlerin çoğu 10 yıl, bazıları 15 yıl beklemek zorunda kalacak. Sağlık ve sosyal bakım personelinde eksiklere neden olabileceği endişesi bulunuyor.",
+      "source": "Guardian",
+      "photo_query": "UK immigration visa application",
+      "person": "Shabana Mahmood",
+      "person_role": "politician",
+      "category": "goc",
+      "photo": {
+        "id": "pb:1535637",
+        "provider": "Pixabay",
+        "query": "UK immigration visa application",
+        "photographer": "2211438",
+        "page": "https://pixabay.com/photos/transit-visa-gdr-old-paper-dirty-1535637/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 49,
+      "emoji": "📊",
+      "title": "Yetenekli göçmenler 115 milyar sterlin kamu geliri sağlayabilir",
+      "body": "Yapılan analize göre, vasıflı göçmenler mevcut kurallar altında 115 milyar sterlin kamu finansmanına katkı sağlayabilir. Hükümet bu konuda muhalefet partisinden eleştiri almıştur.",
+      "source": "The Independent",
+      "photo_query": "UK pound notes paper money",
+      "person": "",
+      "person_role": "",
+      "category": "ekonomi",
+      "photo": {
+        "id": "pb:18061",
+        "provider": "Pixabay",
+        "query": "UK pound notes paper money",
+        "photographer": "PublicDomainPictures",
+        "page": "https://pixabay.com/photos/business-cash-coin-concept-credit-18061/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 2,
+      "emoji": "🔪",
+      "title": "'Çakılara Yer Yok' kampanyası Londra'da başlatıldı",
+      "body": "Hükümet, bıçak suçlarını caydırmak için Westminster ve Croydon'da billboardlar, dijital reklamlar ve sosyal medya kampanyası başlattı.",
+      "source": "GOV.UK Home Office",
+      "photo_query": "London Westminster Big Ben",
+      "person": "",
+      "person_role": "",
+      "category": "guvenlik",
+      "photo": {
+        "id": "pb:1615119",
+        "provider": "Pixabay",
+        "query": "London Westminster Big Ben",
+        "photographer": "blueJack92",
+        "page": "https://pixabay.com/photos/london-bus-double-decker-bus-1615119/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 31,
+      "emoji": "🏥",
+      "title": "NHS'de çocuk hasta erken uyarı sistemi devreye alınıyor",
+      "body": "Dünyanın en büyük çocuk hasta erken uyarı sistemi (Pews), İngiltere genelindeki A&E bölümlerine tanıtılıyor. Sistem, hayati bulgular skorlama yöntemiyle hasta kötüleşmesini zamanında tespit etmeyi amaçlıyor.",
+      "source": "Guardian",
+      "photo_query": "NHS ambulance emergency",
+      "person": "",
+      "person_role": "",
+      "category": "saglik",
+      "photo": {
+        "id": "pb:6778538",
+        "provider": "Pixabay",
+        "query": "NHS ambulance emergency",
+        "photographer": "Surprising_Media",
+        "page": "https://pixabay.com/photos/man-ambulance-protection-follows-6778538/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 41,
+      "emoji": "👑",
+      "title": "Kral Charles, Antigua'da Birleşik Krallık'ın kölelik rolüne değinecek",
+      "body": "Kral Charles III, Antiqua ve Barbuda'da Birleşik Krallık Hükümetler Başkanları Toplantısı'nda konuşma yapacak ve Britanya'nın Atlantik köleliğindeki rolünü ele alacak.",
+      "source": "BBC",
+      "photo_query": "King Charles III official portrait",
+      "person": "Charles III",
+      "person_role": "royal",
+      "category": "kraliyet",
+      "photo": {
+        "id": "wm:King Charles III (July 2023).jpg",
+        "provider": "Wikimedia Commons",
+        "person": "Charles III",
+        "license": "Public domain",
+        "photographer": "White House",
+        "page": "https://commons.wikimedia.org/wiki/File:King_Charles_III_(July_2023).jpg",
+        "credit": "White House / Public domain, Wikimedia Commons"
+      }
+    },
+    {
+      "ref": 58,
+      "emoji": "🏁",
+      "title": "Kimi Antonelli, Formula 1 tarihinin en genç şampiyonu oldu",
+      "body": "Kimi Antonelli, Meksiko Grand Prix'sinde dünya şampiyonluğunu kazanarak Formula 1'in tarihindeki en genç şampiyon unvanını aldı. Max Verstappen, Meksiko'da birinci oldu.",
+      "source": "BBC Sport",
+      "photo_query": "Formula 1 racing car driver",
+      "person": "Kimi Antonelli",
+      "person_role": "footballer",
+      "category": "spor",
+      "photo": {
+        "id": "pb:8447077",
+        "provider": "Pixabay",
+        "query": "Formula 1 racing car driver",
+        "photographer": "TheLockwoodExperience",
+        "page": "https://pixabay.com/photos/car-automobile-race-sport-racing-8447077/",
+        "fallback": false
+      }
+    }
+  ],
+  "history_keys": [
+    "theunequalimpactoftheincreaseinsponsorlicencerevocations",
+    "millionsinukbracetoremortgageonworsedealsasrateriselooms",
+    "homesecretarytomakesomemigrantswait10yearsormoreforrighttosettleinuk",
+    "skilledmigrantswouldboostukpublicfinancesby115bnundercurrentrulesanalysisfinds",
+    "noplaceforknivescampaignlaunchesinlondonhotspots",
+    "worldslargestearlywarningsystemforseverechildillnesstolaunchinnhsaesacrossengland",
+    "kingtoaddressslaveryinantiguaaspmsaysheisopentopossibleukapology",
+    "antonellibecomesworldchampionasverstappenwinsinmexico"
+  ]
+}
