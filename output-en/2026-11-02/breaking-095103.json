@@ -1,0 +1,32 @@
+{
+  "type": "breaking",
+  "created_at": "2026-11-02T09:51:03.888478+00:00",
+  "item": {
+    "ref": 3,
+    "emoji": "🏛️",
+    "title": "Home secretary prepares to unveil tougher migrant settlement rules",
+    "body": "Mahmood is preparing to announce tougher settlement rules under which some migrants would wait 10 years or more for the right to settle in the UK. Burnham declined to say whether net migration is still too high.",
+    "source": "Guardian",
+    "photo_query": "UK Home Office building Westminster",
+    "person": "Shabana Mahmood",
+    "person_role": "politician",
+    "category": "siyaset",
+    "photo": {
+      "id": "pb:9175030",
+      "provider": "Pixabay",
+      "query": "UK Home Office building Westminster",
+      "photographer": "devinedsel",
+      "page": "https://pixabay.com/photos/japancontest-japan-osaka-urban-9175030/",
+      "fallback": false
+    }
+  },
+  "caption": "🔴 BREAKING | 🏛️ Home secretary prepares to unveil tougher migrant settlement rules\n\nMahmood is preparing to announce tougher settlement rules under which some migrants would wait 10 years or more for the right to settle in the UK. Burnham declined to say whether net migration is still too high.\n\nSource: Guardian | Image: Pixabay\nUK Daily Briefing | 2 November, 09:51\n\n#BreakingNews #Immigration #UK",
+  "images": [
+    "output-en/2026-11-02/breaking-095103.jpg"
+  ],
+  "story_image": "output-en/2026-11-02/breaking-095103-story.jpg",
+  "history_keys": [
+    "burnhamdeclinestosaynetmigrationstilltoohighasmahmoodpreparestounveiltoughersettlementrulesukpoliticslive"
+  ],
+  "published": false
+}
