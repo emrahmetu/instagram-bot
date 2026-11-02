@@ -1,0 +1,32 @@
+{
+  "type": "breaking",
+  "created_at": "2026-11-02T12:20:48.643740+00:00",
+  "item": {
+    "ref": 24,
+    "emoji": "🏠",
+    "title": "Mahmood, süresiz oturum izni kurallarındaki değişiklikleri açıklayacak",
+    "body": "İçişleri Bakanı Mahmood, yasal göçmenlerin süresiz oturum iznine (ILR) ne zaman başvurabileceğini değiştirmeyi öngören revize bir teklifi açıklayacak. Açıklama daha sonra yapılacak.",
+    "source": "BBC",
+    "photo_query": "Home Office Westminster London",
+    "person": "Yvette Fielding",
+    "person_role": "politician",
+    "category": "goc",
+    "photo": {
+      "id": "pb:2567330",
+      "provider": "Pixabay",
+      "query": "Home Office Westminster London",
+      "photographer": "lydiasventova",
+      "page": "https://pixabay.com/photos/bigben-city-of-london-cab-2567330/",
+      "fallback": false
+    }
+  },
+  "caption": "🔴 SON DAKİKA | 🏠 Mahmood, süresiz oturum izni kurallarındaki değişiklikleri açıklayacak\n\nİçişleri Bakanı Mahmood, yasal göçmenlerin süresiz oturum iznine (ILR) ne zaman başvurabileceğini değiştirmeyi öngören revize bir teklifi açıklayacak. Açıklama daha sonra yapılacak.\n\nKaynak: BBC | Görsel: Pixabay\nBirleşik Krallık Gündemi | 2 Kasım, 12:20\n\n#SonDakika #Göç #Settlement",
+  "images": [
+    "output/2026-11-02/breaking-122048.jpg"
+  ],
+  "story_image": "output/2026-11-02/breaking-122048-story.jpg",
+  "history_keys": [
+    "mahmoodtosetoutchangestosettlementrulesforlegalmigrants"
+  ],
+  "published": false
+}
