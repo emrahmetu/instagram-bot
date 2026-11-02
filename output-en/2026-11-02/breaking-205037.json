@@ -1,0 +1,32 @@
+{
+  "type": "breaking",
+  "created_at": "2026-11-02T20:50:37.592420+00:00",
+  "item": {
+    "ref": 4,
+    "emoji": "🏛️",
+    "title": "Home secretary Mahmood scraps settlement plans for migrant care workers",
+    "body": "Home secretary Mahmood has set out a revised proposal for changing when migrants can claim permanent residency. The plan scraps the settlement proposals for migrant care workers.",
+    "source": "BBC",
+    "photo_query": "UK Home Office building",
+    "person": "Shabana Mahmood",
+    "person_role": "politician",
+    "category": "gundem",
+    "photo": {
+      "id": "pb:9962135",
+      "provider": "Pixabay",
+      "query": "UK Home Office building",
+      "photographer": "_badun",
+      "page": "https://pixabay.com/photos/windows-hotels-apartments-city-9962135/",
+      "fallback": false
+    }
+  },
+  "caption": "🔴 BREAKING | 🏛️ Home secretary Mahmood scraps settlement plans for migrant care workers\n\nHome secretary Mahmood has set out a revised proposal for changing when migrants can claim permanent residency. The plan scraps the settlement proposals for migrant care workers.\n\nSource: BBC | Image: Pixabay\nUK Daily Briefing | 2 November, 20:50\n\n#BreakingNews #Immigration #UKPolitics",
+  "images": [
+    "output-en/2026-11-02/breaking-205037.jpg"
+  ],
+  "story_image": "output-en/2026-11-02/breaking-205037-story.jpg",
+  "history_keys": [
+    "mahmoodscrapssettlementplansformigrantcareworkers"
+  ],
+  "published": false
+}
