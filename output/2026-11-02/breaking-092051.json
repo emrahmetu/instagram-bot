@@ -1,0 +1,32 @@
+{
+  "type": "breaking",
+  "created_at": "2026-11-02T09:20:51.945286+00:00",
+  "item": {
+    "ref": 13,
+    "emoji": "⏳",
+    "title": "Yasal göçmenler İngiltere'de yerleşmek için 10 yıl veya daha fazla bekleyebilir",
+    "body": "Yasal göçmenlerin Birleşik Krallık'ta kalıcı olarak yerleşme hakkı kazanmak için 10 yıl veya daha uzun süre beklemesi gerekecek. Bir işçi grubunun bu değişiklikten muaf tutulabileceği konuşuluyor.",
+    "source": "The Independent",
+    "photo_query": "UK immigration visa document",
+    "person": "",
+    "person_role": "",
+    "category": "goc",
+    "photo": {
+      "id": "pb:7539265",
+      "provider": "Pixabay",
+      "query": "UK immigration visa document",
+      "photographer": "urtimudd89",
+      "page": "https://pixabay.com/photos/beach-ocean-sea-coast-northsea-uk-7539265/",
+      "fallback": false
+    }
+  },
+  "caption": "🔴 SON DAKİKA | ⏳ Yasal göçmenler İngiltere'de yerleşmek için 10 yıl veya daha fazla bekleyebilir\n\nYasal göçmenlerin Birleşik Krallık'ta kalıcı olarak yerleşme hakkı kazanmak için 10 yıl veya daha uzun süre beklemesi gerekecek. Bir işçi grubunun bu değişiklikten muaf tutulabileceği konuşuluyor.\n\nKaynak: The Independent | Görsel: Pixabay\nBirleşik Krallık Gündemi | 2 Kasım, 09:20\n\n#SonDakika #göç #İngiltere",
+  "images": [
+    "output/2026-11-02/breaking-092051.jpg"
+  ],
+  "story_image": "output/2026-11-02/breaking-092051-story.jpg",
+  "history_keys": [
+    "legalmigrantstofacewaitsof10yearsormoreforrighttosettleinuk"
+  ],
+  "published": false
+}
