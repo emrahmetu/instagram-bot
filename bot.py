@@ -296,7 +296,9 @@ STYLE = """Türkçe yazım ve üslup (bir Türk okurun doğal bulacağı dil):
 - Türk haber sitelerinin dilini kullan: kısa, net, etken cümleler. Çeviri kokan kalıplardan kaçın
   ("-mektedir/-maktadır" yığınları, "değerlendirilmektedir", "olarak görülmektedir", "söz konusu" tekrarı, İngilizce cümle dizilimi).
   Örnek: "Hükümet yeni kuralları açıkladı." (iyi)  /  "Yeni kurallar hükümet tarafından açıklanmış bulunmaktadır." (kötü)
-- Başlık özne + yüklem içeren, tek bakışta anlaşılan bir haber cümlesi olsun. Başlığı kesik ya da bozuk cümle yapma.
+- Başlık MUTLAKA yüklemi olan tam bir haber cümlesi olsun (tek bakışta anlaşılsın). İsim tamlaması gibi biten başlık YASAK.
+  Kötü: "İşçi vizesi sisteminde sponsor lisansı iptallerinin etkisi"  /  İyi: "Sponsor lisansı iptalleri vizeli çalışanları zor durumda bırakıyor"
+  Kötü: "Çakılara Yer Yok kampanyası"  /  İyi: "Londra'da bıçak taşımaya karşı yeni kampanya başladı"
 - Zaman doğru olsun: henüz olmamış şeyi olmuş gibi yazma ("açıklanacak", "planlanıyor", "bekleniyor" ile "açıkladı" farkına dikkat).
 - Birimler: "mph" = "saatte ... mil" (ASLA kilometreye çevirme, ASLA "milyon" yazma). "£" = "... sterlin". "bn" = milyar, "m" = milyon.
   Sayıları kaynaktaki değerle birebir aynı yaz; yuvarlama ya da tahmin yapma. Ondalık için virgül kullan (3,5).
@@ -523,6 +525,7 @@ Kontrol et ve düzelt:
 2. Zaman: Olmamış şeyi olmuş gibi yazma (planlanan/beklenen ≠ yapıldı).
 3. Dil: Çeviri kokan, bozuk ya da yarım cümleleri düzelt; doğal, akıcı, kısa Türkçe cümleler kur.
 4. İsim kuralları: Kurum ve özel adlar İngilizce kalır; yalnızca yerleşik karşılığı olan unvanlar çevrilir.
+5. Başlık: yüklemi olan tam bir cümle olmalı ("... etkisi", "... kampanyası" gibi isimle biten başlıkları cümleye çevir).
 Anlamı değiştirme, haberi uzatma. Başlık en fazla 70, metin en fazla 300 karakter.
 
 Çıktı SADECE JSON: {"items":[{"id": verilen numara, "title": "...", "body": "..."}]}"""
@@ -602,6 +605,7 @@ Check and fix:
 1. Accuracy: remove any fact, figure, job title or date that is not in the source. Figures and units must match the source exactly.
 2. Tense: do not report planned or expected events as done.
 3. Language: clear, natural, concise British English; fix clumsy or incomplete sentences.
+4. Headline: must be a complete sentence with a verb (turn noun-phrase headlines such as "Impact of sponsor licence cuts" into sentences).
 Do not change the meaning or lengthen the story. Title max 70, body max 300 characters.
 
 Output ONLY JSON: {"items":[{"id": given number, "title": "...", "body": "..."}]}"""
@@ -947,19 +951,33 @@ def photo_footer(d, left, width, height):
     d.text((width - MARGIN - d.textlength(BRAND_HANDLE, font=fb), y + 1), BRAND_HANDLE, font=fb, fill=WHITE)
 
 
+def headline_list(d, items, y, bottom, max_w, sizes, num_w, accent, max_lines=3):
+    """Kapak/hikâyedeki numaralı başlık listesi: her başlık TAM görünür (kesilmez), sığana kadar font küçülür."""
+    for size in sizes:
+        f_num, f_t = font("bold", size), font("bold", size)
+        lh, gap = int(size * 1.22), int(size * 0.62)
+        blocks = [wrap(d, no_emoji(it["title"]), f_t, max_w - num_w) for it in items]
+        total = sum(lh * len(ls) + 2 * gap for ls in blocks)
+        if y + total <= bottom and all(len(ls) <= max_lines for ls in blocks):
+            break
+    for i, ls in enumerate(blocks, 1):
+        y += gap
+        d.text((MARGIN, y), f"{i:02d}", font=f_num, fill=accent)
+        y = draw_lines(d, MARGIN + num_w, y, ls, f_t, lh, WHITE) + gap
+        if i < len(blocks):
+            d.line([MARGIN + num_w, y, MARGIN + max_w, y], fill=(120, 126, 140), width=1)
+    return y
+
+
 def render_cover(items, day, path, photo=None):
-    lead = items[0]
-    accent, shade = photo_palette(photo, cat_of(lead)[1])
-    top = title_top(lead["title"], H - 190, W, start=96, minimum=60, max_h=560)
-    img, d = photo_canvas(photo, W, H, shade, top_fade=360, solid_from=top + 40)
-    tracked(d, (MARGIN, 96), COVER_LABEL, font("bold", 26), accent, spacing=4)
-    d.text((MARGIN, 140), BRAND_TITLE, font=font("bold", 52), fill=WHITE)
-    rest = len(items) - 1
-    more = L(f"+ {rest} haber daha   ·   kaydır  →", f"+ {rest} more stories   ·   swipe  →") if rest > 0 else ""
-    bottom_title(d, lead["title"], H - 190, W, accent, start=96, minimum=60, max_h=560)
-    if more:
-        d.text((MARGIN, H - 150), more, font=font("bold", 30), fill=accent)
-    photo_footer(d, "", W, H)
+    """Kapak: arka planda İngiltere fotoğrafı (haber kartlarından farklı), üstünde günün tüm başlıkları."""
+    accent, shade = photo_palette(photo, ACCENT)
+    img, d = photo_canvas(photo, W, H, shade, top_fade=0, solid_from=330)
+    tracked(d, (MARGIN, 92), COVER_LABEL, font("bold", 26), accent, spacing=4)
+    d.text((MARGIN, 134), BRAND_TITLE, font=font("bold", 56), fill=WHITE)
+    d.rectangle([MARGIN, 222, MARGIN + 96, 230], fill=accent)
+    headline_list(d, items, 262, H - 140, W - 2 * MARGIN, range(38, 23, -1), 66, accent)
+    photo_footer(d, L("Detaylar için kaydırın  →", "Swipe for details  →"), W, H)
     img.save(path, "JPEG", quality=92, optimize=True)
 
 
@@ -1029,6 +1047,16 @@ def _get_json(name, url, **kw):
         return None
 
 
+GENERIC_PHOTO_WORDS = {"uk", "british", "britain", "england", "english", "united", "kingdom", "the", "and", "of",
+                       "a", "an", "in", "on", "with", "for", "photo", "image", "official", "new", "sterling"}
+
+
+def query_keywords(query):
+    """Fotoğraf aramasındaki anlamlı kelimeler (ör. 'British pound sterling coins' -> {'pound', 'coins', 'coin'})."""
+    words = {w for w in re.findall(r"[a-z]+", (query or "").lower()) if w not in GENERIC_PHOTO_WORDS and len(w) > 2}
+    return words | {w[:-1] for w in words if w.endswith("s") and len(w) > 4}
+
+
 def photo_search(query, orientation="landscape"):
     """Ortak biçimde sonuç döndürür: [{'id','url','photographer','page'}]."""
     prov = photo_provider()
@@ -1039,9 +1067,12 @@ def photo_search(query, orientation="landscape"):
             "key": os.environ["PIXABAY_API_KEY"].strip(), "q": query[:100], "image_type": "photo",
             "orientation": "vertical" if orientation == "portrait" else "horizontal",
             "safesearch": "true", "per_page": 15, "lang": "en"})
+        hits = [h for h in (data or {}).get("hits", []) if h.get("largeImageURL") or h.get("webformatURL")]
+        keys = query_keywords(query)
+        if keys:   # alakasız sonuçları ele: etiketlerde arama kelimelerinden en az biri geçmeli
+            hits = [h for h in hits if keys & set(re.findall(r"[a-z]+", (h.get("tags") or "").lower()))]
         return [{"id": f"pb:{h['id']}", "url": h.get("largeImageURL") or h.get("webformatURL"),
-                 "photographer": h.get("user"), "page": h.get("pageURL")}
-                for h in (data or {}).get("hits", []) if h.get("largeImageURL") or h.get("webformatURL")]
+                 "photographer": h.get("user"), "page": h.get("pageURL")} for h in hits]
     data = _get_json("Pexels", "https://api.pexels.com/v1/search",
                      params={"query": query, "per_page": 15, "orientation": orientation},
                      headers={"Authorization": os.environ["PEXELS_API_KEY"].strip()})
@@ -1067,7 +1098,7 @@ def load_photo(url):
 
 # --------------- Kişi fotoğrafı (Wikimedia Commons, yalnızca serbest lisanslı) --------------- #
 WIKI_UA = "uk-gundem-bot/1.0 (github.com/emrahmetu/instagram-bot)"   # Wikimedia, tanımlayıcı User-Agent ister
-FREE_LICENSE = re.compile(r"^(public domain|pd\b|cc0|cc[ -]by(-sa)?[ -]?\d|cc[ -]by(-sa)?$)", re.I)
+FREE_LICENSE = re.compile(r"^(public domain|pd\b|cc0|cc[ -]by(-sa)?[ -]?\d|cc[ -]by(-sa)?$|ogl|open government licen)", re.I)
 NO_PERSON_PHOTO = re.compile(r"(suçla|tutukla|gözaltı|mahkeme|dava|yargıla|hapis|charged|arrest|court|trial|jailed|"
                              r"sentenc|accused|alleg|police|polis|soruşturma|investigat)", re.I)
 ROLE_WORDS = {
@@ -1075,6 +1106,8 @@ ROLE_WORDS = {
                    "chancellor", "mayor", "statesman", "president", "first minister", "lord"],
     "royal": ["king", "queen", "prince", "princess", "duke", "duchess", "monarch", "royal"],
     "actor": ["actor", "actress"],
+    "sport": ["footballer", "racing driver", "cricketer", "tennis", "boxer", "athlete", "player", "golfer", "rugby",
+              "jockey", "swimmer", "cyclist", "runner", "manager", "coach", "olympi", "darts", "snooker"],
     "singer": ["singer", "musician", "rapper", "songwriter", "band"],
     "businessman": ["business", "executive", "entrepreneur", "chief", "investor"],
     "businesswoman": ["business", "executive", "entrepreneur", "chief", "investor"],
@@ -1103,7 +1136,8 @@ def person_photo(name, role=""):
     qid, desc = props.get("wikibase_item"), (pg.get("description") or "").lower()
     if not qid or "disambiguation" in props:
         return None, None
-    words = ROLE_WORDS.get(role, [role[:5]] if role else [])
+    sporty = role in ROLE_WORDS["sport"] or any(w in role for w in ("ball", "driver", "player", "athlete", "boxer"))
+    words = ROLE_WORDS["sport"] if sporty else ROLE_WORDS.get(role, [role[:5]] if role else [])
     if words and not any(w in desc for w in words):
         log(f"[kişi] '{name}' açıklaması ({desc}) rolle ({role}) uyuşmuyor, kişi fotoğrafı kullanılmadı.")
         return None, None
@@ -1241,17 +1275,12 @@ def story_cta(d, line1=None, line2=None, accent=INK):
 
 
 def render_story(items, day, path, photo=None):
-    lead = items[0]
-    accent, shade = photo_palette(photo, cat_of(lead)[1])
-    top = title_top(lead["title"], STORY_SAFE_BOTTOM - 300, SW, start=100, minimum=64, max_h=620)
-    img, d = photo_canvas(photo, SW, SH, shade, top_fade=520, solid_from=top + 40)
+    accent, shade = photo_palette(photo, ACCENT)
+    img, d = photo_canvas(photo, SW, SH, shade, top_fade=0, solid_from=STORY_SAFE_TOP + 200)
     tracked(d, (MARGIN, STORY_SAFE_TOP), COVER_LABEL, font("bold", 30), accent, spacing=4)
-    d.text((MARGIN, STORY_SAFE_TOP + 50), BRAND_TITLE, font=font("bold", 60), fill=WHITE)
-    y = bottom_title(d, lead["title"], STORY_SAFE_BOTTOM - 300, SW, accent, start=100, minimum=64, max_h=620)
-    rest = len(items) - 1
-    if rest > 0:
-        d.text((MARGIN, STORY_SAFE_BOTTOM - 270), L(f"+ {rest} haber daha", f"+ {rest} more stories"),
-               font=font("bold", 36), fill=accent)
+    d.text((MARGIN, STORY_SAFE_TOP + 48), BRAND_TITLE, font=font("bold", 62), fill=WHITE)
+    d.rectangle([MARGIN, STORY_SAFE_TOP + 150, MARGIN + 96, STORY_SAFE_TOP + 158], fill=accent)
+    headline_list(d, items, STORY_SAFE_TOP + 190, STORY_SAFE_BOTTOM - 240, SW - 2 * MARGIN, range(46, 27, -1), 76, accent)
     story_cta(d, accent=accent)
     img.save(path, "JPEG", quality=92, optimize=True)
 
@@ -1356,10 +1385,11 @@ def cmd_prepare(args, out=None):
         old.unlink()
     seen_photos = set(load_keys(PHOTOS_FILE))
     used_photos = set(seen_photos)
-    photos = [photo_for(it, used_photos) for it in items]   # önce fotoğraflar: kapak ilk haberin fotoğrafını kullanır
+    photos = [photo_for(it, used_photos) for it in items]
+    cover_photo = photo_for({"photo_query": random.choice(UK_FALLBACK_QUERIES)}, used_photos)  # kapak: ayrı bir İngiltere fotoğrafı
     images = []
     p = out / "00.jpg"
-    render_cover(items, day, p, photo=photos[0])
+    render_cover(items, day, p, photo=cover_photo)
     images.append(p.as_posix())
     for i, (it, ph) in enumerate(zip(items, photos), 1):
         p = out / f"{i:02d}.jpg"
@@ -1368,7 +1398,7 @@ def cmd_prepare(args, out=None):
 
     save_keys(PHOTOS_FILE, list(used_photos - seen_photos), keep=400)
     story = out / "story.jpg"
-    render_story(items, day, story, photo=photos[0])
+    render_story(items, day, story, photo=cover_photo)
     post = {"date": day.isoformat(), "caption": build_caption(items, tags, day),
             "images": images, "story_image": story.as_posix(),
             "items": items, "history_keys": history_keys}
