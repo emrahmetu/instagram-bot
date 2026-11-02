@@ -1,0 +1,32 @@
+{
+  "type": "breaking",
+  "created_at": "2026-11-02T11:20:44.268547+00:00",
+  "item": {
+    "ref": 15,
+    "emoji": "🎓",
+    "title": "Uluslararası öğrenciler için yeni mali kurallar bu ay yürürlüğe giriyor",
+    "body": "Birleşik Krallık'ta bu ay yürürlüğe giren yeni üniversite kurallarına göre, uluslararası öğrenciler İngiltere'deki yaşam maliyetlerini karşılayabileceklerini daha yüksek tutarlarla kanıtlamak zorunda kalacak.",
+    "source": "The Independent",
+    "photo_query": "UK university international students",
+    "person": "",
+    "person_role": "",
+    "category": "gundem",
+    "photo": {
+      "id": "pb:2725807",
+      "provider": "Pixabay",
+      "query": "UK university international students",
+      "photographer": "Engin_Akyurt",
+      "page": "https://pixabay.com/photos/girl-school-book-to-read-education-2725807/",
+      "fallback": false
+    }
+  },
+  "caption": "🔴 SON DAKİKA | 🎓 Uluslararası öğrenciler için yeni mali kurallar bu ay yürürlüğe giriyor\n\nBirleşik Krallık'ta bu ay yürürlüğe giren yeni üniversite kurallarına göre, uluslararası öğrenciler İngiltere'deki yaşam maliyetlerini karşılayabileceklerini daha yüksek tutarlarla kanıtlamak zorunda kalacak.\n\nKaynak: The Independent | Görsel: Pixabay\nBirleşik Krallık Gündemi | 2 Kasım, 11:20\n\n#SonDakika #UluslararasıÖğrenciler #Üniversite",
+  "images": [
+    "output/2026-11-02/breaking-112044.jpg"
+  ],
+  "story_image": "output/2026-11-02/breaking-112044-story.jpg",
+  "history_keys": [
+    "thenewukuniversityrulescomingintoforcethismonth"
+  ],
+  "published": false
+}
