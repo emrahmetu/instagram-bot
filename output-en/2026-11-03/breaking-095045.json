@@ -1,0 +1,32 @@
+{
+  "type": "breaking",
+  "created_at": "2026-11-03T09:50:45.546263+00:00",
+  "item": {
+    "ref": 14,
+    "emoji": "🇪🇺",
+    "title": "UK and EU complete deal to remove Brexit checks on food",
+    "body": "The UK and EU have completed a deal to remove Brexit checks on imports and exports of food and animal products, from sausages and cheese to leather goods and flowers. It is expected to come into force in the first quarter of 2028.",
+    "source": "Guardian",
+    "photo_query": "UK EU trade agreement document",
+    "person": "",
+    "person_role": "",
+    "category": "gundem",
+    "photo": {
+      "id": "pb:1166146",
+      "provider": "Pixabay",
+      "query": "UK EU trade agreement document",
+      "photographer": "janeb13",
+      "page": "https://pixabay.com/photos/eiffel-tower-old-official-document-1166146/",
+      "fallback": false
+    }
+  },
+  "caption": "🔴 BREAKING | 🇪🇺 UK and EU complete deal to remove Brexit checks on food\n\nThe UK and EU have completed a deal to remove Brexit checks on imports and exports of food and animal products, from sausages and cheese to leather goods and flowers. It is expected to come into force in the first quarter of 2028.\n\nSource: Guardian | Image: Pixabay\nUK Daily Briefing | 3 November, 09:50\n\n#BreakingNews #Brexit #Trade",
+  "images": [
+    "output-en/2026-11-03/breaking-095045.jpg"
+  ],
+  "story_image": "output-en/2026-11-03/breaking-095045-story.jpg",
+  "history_keys": [
+    "dealfinalisedtoremovebrexitchecksonfoodandanimalproducts"
+  ],
+  "published": false
+}
