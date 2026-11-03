@@ -1,0 +1,33 @@
+{
+  "type": "breaking",
+  "created_at": "2026-11-03T20:40:55.503709+00:00",
+  "item": {
+    "ref": 7,
+    "emoji": "🤝",
+    "title": "Burnham prepares to announce EU trade deals worth billions of pounds",
+    "body": "Andy Burnham is preparing to announce deals with the EU covering areas from youth visas to pet passports. Agriculture and emissions agreements are also nearly tied up, as part of his plan for a much closer relationship with Brussels.",
+    "source": "Guardian",
+    "photo_query": "UK EU flags trade",
+    "person": "Andy Burnham",
+    "person_role": "politician",
+    "category": "ekonomi",
+    "photo": {
+      "id": "wm:Prime Minister Andy Burnham portrait (cropped).jpg",
+      "provider": "Wikimedia Commons",
+      "person": "Andy Burnham",
+      "license": "OGL 3",
+      "photographer": "Prime Minister's Office",
+      "page": "https://commons.wikimedia.org/wiki/File:Prime_Minister_Andy_Burnham_portrait_(cropped).jpg",
+      "credit": "Prime Minister's Office / OGL 3, Wikimedia Commons"
+    }
+  },
+  "caption": "🔴 BREAKING | 🤝 Burnham prepares to announce EU trade deals worth billions of pounds\n\nAndy Burnham is preparing to announce deals with the EU covering areas from youth visas to pet passports. Agriculture and emissions agreements are also nearly tied up, as part of his plan for a much closer relationship with Brussels.\n\nSource: Guardian | Image: Prime Minister's Office / OGL 3, Wikimedia Commons\nUK Daily Briefing | 3 November, 20:40\n\n#BreakingNews #UK #EU #Trade",
+  "images": [
+    "output-en/2026-11-03/breaking-204055.jpg"
+  ],
+  "story_image": "output-en/2026-11-03/breaking-204055-story.jpg",
+  "history_keys": [
+    "andyburnhamtounveileutradedealsworthbillionsofpounds"
+  ],
+  "published": false
+}
