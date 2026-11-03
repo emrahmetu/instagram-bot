@@ -1,0 +1,32 @@
+{
+  "type": "breaking",
+  "created_at": "2026-11-03T13:50:43.351463+00:00",
+  "item": {
+    "ref": 13,
+    "emoji": "✈️",
+    "title": "Bomb threats on several flights force unplanned landings",
+    "body": "Bomb threats have been reported on multiple flights, including two that took off from the UK. Planes were forced to make unplanned landings, and airports temporarily closed.",
+    "source": "Sky News",
+    "photo_query": "UK airport security",
+    "person": "",
+    "person_role": "",
+    "category": "guvenlik",
+    "photo": {
+      "id": "pb:8173774",
+      "provider": "Pixabay",
+      "query": "UK airport security",
+      "photographer": "GreenCardShow",
+      "page": "https://pixabay.com/photos/royal-guard-uk-london-soldier-8173774/",
+      "fallback": false
+    }
+  },
+  "caption": "🔴 BREAKING | ✈️ Bomb threats on several flights force unplanned landings\n\nBomb threats have been reported on multiple flights, including two that took off from the UK. Planes were forced to make unplanned landings, and airports temporarily closed.\n\nSource: Sky News | Image: Pixabay\nUK Daily Briefing | 3 November, 13:50\n\n#BreakingNews #AirportSecurity #UKNews",
+  "images": [
+    "output-en/2026-11-03/breaking-135043.jpg"
+  ],
+  "story_image": "output-en/2026-11-03/breaking-135043-story.jpg",
+  "history_keys": [
+    "bombthreatsreportedonmultipleflightsincludingtwofromukairports"
+  ],
+  "published": false
+}
