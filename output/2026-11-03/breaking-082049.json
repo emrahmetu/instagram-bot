@@ -1,0 +1,32 @@
+{
+  "type": "breaking",
+  "created_at": "2026-11-03T08:20:49.666436+00:00",
+  "item": {
+    "ref": 2,
+    "emoji": "🏠",
+    "title": "İçişleri Bakanı 'earned settlement' önerilerinin ayrıntılarını açıkladı",
+    "body": "İçişleri Bakanı, dün öğleden sonra Avam Kamarası'nda 'earned settlement' önerilerine ilişkin bir açıklama yaptı. Konuşmayla aynı sıralarda, danışma sürecine verilen ayrıntılı yanıt da yayımlandı. Yanıt, danışmadan sekiz ay sonra geldi.",
+    "source": "Free Movement",
+    "photo_query": "Home Office immigration policy",
+    "person": "",
+    "person_role": "",
+    "category": "goc",
+    "photo": {
+      "id": "pb:8390068",
+      "provider": "Pixabay",
+      "query": "Home Office immigration policy",
+      "photographer": "InteriorLens",
+      "page": "https://pixabay.com/photos/chair-interior-furniture-room-8390068/",
+      "fallback": false
+    }
+  },
+  "caption": "🔴 SON DAKİKA | 🏠 İçişleri Bakanı 'earned settlement' önerilerinin ayrıntılarını açıkladı\n\nİçişleri Bakanı, dün öğleden sonra Avam Kamarası'nda 'earned settlement' önerilerine ilişkin bir açıklama yaptı. Konuşmayla aynı sıralarda, danışma sürecine verilen ayrıntılı yanıt da yayımlandı. Yanıt, danışmadan sekiz ay sonra geldi.\n\nKaynak: Free Movement | Görsel: Pixabay\nBirleşik Krallık Gündemi | 3 Kasım, 08:20\n\n#SonDakika #Göç #Oturumİzni",
+  "images": [
+    "output/2026-11-03/breaking-082049.jpg"
+  ],
+  "story_image": "output/2026-11-03/breaking-082049-story.jpg",
+  "history_keys": [
+    "homesecretarysstatementrevealsfurtherdetailsaboutearnedsettlement"
+  ],
+  "published": false
+}
