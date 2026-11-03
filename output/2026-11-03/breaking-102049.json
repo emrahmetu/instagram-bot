@@ -1,0 +1,33 @@
+{
+  "type": "breaking",
+  "created_at": "2026-11-03T10:20:49.044201+00:00",
+  "item": {
+    "ref": 26,
+    "emoji": "🇪🇺",
+    "title": "Birleşik Krallık ve AB, gıda ürünlerindeki Brexit kontrollerini kaldırmak için anlaştı",
+    "body": "Birleşik Krallık ile AB, sosis ve peynirden deri ürünlerine ve çiçeklere kadar gıda ve hayvan ürünlerinin ithalat ve ihracatındaki Brexit kontrollerini kaldıran anlaşmayı tamamladı. Anlaşmanın 2028'in ilk çeyreğinde yürürlüğe girmesi bekleniyor. Anlaşma İngiliz gıda ihracatçılarına büyük kolaylık sağlayacak.",
+    "source": "Guardian",
+    "photo_query": "UK EU trade agreement sausages cheese",
+    "person": "Andy Burnham",
+    "person_role": "politician",
+    "category": "gundem",
+    "photo": {
+      "id": "wm:Prime Minister Andy Burnham portrait (cropped).jpg",
+      "provider": "Wikimedia Commons",
+      "person": "Andy Burnham",
+      "license": "OGL 3",
+      "photographer": "Prime Minister's Office",
+      "page": "https://commons.wikimedia.org/wiki/File:Prime_Minister_Andy_Burnham_portrait_(cropped).jpg",
+      "credit": "Prime Minister's Office / OGL 3, Wikimedia Commons"
+    }
+  },
+  "caption": "🔴 SON DAKİKA | 🇪🇺 Birleşik Krallık ve AB, gıda ürünlerindeki Brexit kontrollerini kaldırmak için anlaştı\n\nBirleşik Krallık ile AB, sosis ve peynirden deri ürünlerine ve çiçeklere kadar gıda ve hayvan ürünlerinin ithalat ve ihracatındaki Brexit kontrollerini kaldıran anlaşmayı tamamladı. Anlaşmanın 2028'in ilk çeyreğinde yürürlüğe girmesi bekleniyor. Anlaşma İngiliz gıda ihracatçılarına büyük kolaylık sağlayacak.\n\nKaynak: Guardian | Görsel: Prime Minister's Office / OGL 3, Wikimedia Commons\nBirleşik Krallık Gündemi | 3 Kasım, 10:20\n\n#SonDakika #Brexit #UKEUDeal",
+  "images": [
+    "output/2026-11-03/breaking-102049.jpg"
+  ],
+  "story_image": "output/2026-11-03/breaking-102049-story.jpg",
+  "history_keys": [
+    "ukandeuagreedealtoremovebrexitchecksonfoodandanimalproducts"
+  ],
+  "published": false
+}
