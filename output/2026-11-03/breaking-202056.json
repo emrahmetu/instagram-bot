@@ -1,0 +1,33 @@
+{
+  "type": "breaking",
+  "created_at": "2026-11-03T20:20:56.058074+00:00",
+  "item": {
+    "ref": 2,
+    "emoji": "🤝",
+    "title": "Burnham: Halk yeni AB anlaşmasına iki elle sarılmamı bekler",
+    "body": "Başbakan Andy Burnham, İngiliz halkının yeni AB anlaşmasına kendisinin \"iki elle sarılmasını\" bekleyeceğini söyledi. Burnham, anlaşmanın ek ekonomik büyüme potansiyeli sunduğunu belirtti.",
+    "source": "The Guardian, The Independent",
+    "photo_query": "Andy Burnham Prime Minister",
+    "person": "Andy Burnham",
+    "person_role": "politician",
+    "category": "ekonomi",
+    "photo": {
+      "id": "wm:Prime Minister Andy Burnham portrait (cropped).jpg",
+      "provider": "Wikimedia Commons",
+      "person": "Andy Burnham",
+      "license": "OGL 3",
+      "photographer": "Prime Minister's Office",
+      "page": "https://commons.wikimedia.org/wiki/File:Prime_Minister_Andy_Burnham_portrait_(cropped).jpg",
+      "credit": "Prime Minister's Office / OGL 3, Wikimedia Commons"
+    }
+  },
+  "caption": "🔴 SON DAKİKA | 🤝 Burnham: Halk yeni AB anlaşmasına iki elle sarılmamı bekler\n\nBaşbakan Andy Burnham, İngiliz halkının yeni AB anlaşmasına kendisinin \"iki elle sarılmasını\" bekleyeceğini söyledi. Burnham, anlaşmanın ek ekonomik büyüme potansiyeli sunduğunu belirtti.\n\nKaynak: The Guardian, The Independent | Görsel: Prime Minister's Office / OGL 3, Wikimedia Commons\nBirleşik Krallık Gündemi | 3 Kasım, 20:20\n\n#SonDakika #ABAnlaşması #TicaretAnlaşması",
+  "images": [
+    "output/2026-11-03/breaking-202056.jpg"
+  ],
+  "story_image": "output/2026-11-03/breaking-202056-story.jpg",
+  "history_keys": [
+    "burnhamsaysbritonswouldexpecthimtotakeupneweudealwithbothhands"
+  ],
+  "published": false
+}
