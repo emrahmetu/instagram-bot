@@ -1,0 +1,183 @@
+{
+  "date": "2026-11-03",
+  "caption": "🇬🇧 Birleşik Krallık Gündemi | 3 Kasım 2026, Salı\n\n1. 🛂 İçişleri Bakanı göçmenler için yeni oturum kurallarını açıkladı\nİçişleri Bakanı, Birleşik Krallık'ta kalıcı olarak yerleşmek isteyen göçmenlere yönelik yeni kuralları açıkladı.\n\n2. 👥 Mahmood bakım işçileri için oturum planından vazgeçti\nİçişleri Bakanı Mahmood, bakım işçilerine yönelik oturum planını rafa kaldırdı.\n\n3. 🇬🇧 Birleşik Krallık ve AB gıda ihracatındaki engelleri kaldıracak taslakta uzlaştı\nTaslak anlaşma, gıda ihracatındaki Brexit kaynaklı bürokratik engelleri kaldırmayı hedefliyor.\n\n4. 🔪 'No Place for Knives' kampanyası üç bölgede başladı\nKampanya Westminster, Croydon ve Birmingham'da billboardlarda, dijital reklamlarda ve sosyal medyada yer alacak.\n\n5. 🧪 Birleşik Krallık'ta vücuttaki 'kalıcı kimyasallar' için büyük çalışma başladı\nHükümet, Birleşik Krallık nüfusunda PFAS düzeyini ölçen ilk çalışmayı başlatıyor.\n\n6. 💻 NCSC işletmeleri yapay zeka destekli siber saldırılara karşı uyardı\nNational Cyber Security Centre (NCSC), yapay zekanın siber saldırıların sanayileşmesine yardım ettiğini bildirdi.\n\n7. 🏇 Kral Charles'ın sattığı at Melbourne Cup'ı kazandı\nEthan Brown'ın bindiği Point of Law, Avustralya'da 'ulusu durduran yarış' olarak bilinen Melbourne Cup'ı kazandı.\n\n8. ⚽ Everton, Newcastle'ı yenip Premier League'de yedinci sıraya yükseldi\nThierno Barry, beş gün içinde ikinci kez Newcastle United'a gol attı.\n\nKaynaklar: GOV.UK Home Office, BBC, Sky News, BBC Sport. Haberler Türkçe özet olarak derlenmiştir. Görseller: Pixabay. Fotoğraflar: Lauren Hurley / No 10 Downing Street / OGL 3, Wikimedia Commons; White House / Public domain, Wikimedia Commons.\n\n#İngiltere #Londra #UKNews #Göç #İçişleriMinistrliği #Brexit #SiberGüvenlik #Spor #MelbourneCup #PremieriLig #Teknoloji #Sağlık",
+  "images": [
+    "output/2026-11-03/00.jpg",
+    "output/2026-11-03/01.jpg",
+    "output/2026-11-03/02.jpg",
+    "output/2026-11-03/03.jpg",
+    "output/2026-11-03/04.jpg",
+    "output/2026-11-03/05.jpg",
+    "output/2026-11-03/06.jpg",
+    "output/2026-11-03/07.jpg",
+    "output/2026-11-03/08.jpg"
+  ],
+  "story_image": "output/2026-11-03/story.jpg",
+  "items": [
+    {
+      "ref": 3,
+      "emoji": "🛂",
+      "title": "İçişleri Bakanı göçmenler için yeni oturum kurallarını açıkladı",
+      "body": "İçişleri Bakanı, Birleşik Krallık'ta kalıcı olarak yerleşmek isteyen göçmenlere yönelik yeni kuralları açıkladı. Süresiz oturum izni (ILR) artık katkı ve iyi ahlak üzerinden kazanılacak.",
+      "source": "GOV.UK Home Office",
+      "photo_query": "UK immigration rules passport",
+      "person": "Shabana Mahmood",
+      "person_role": "politician",
+      "category": "goc",
+      "photo": {
+        "id": "wm:Shabana Mahmood Official Cabinet Portrait, September 2025 (cropped).jpg",
+        "provider": "Wikimedia Commons",
+        "person": "Shabana Mahmood",
+        "license": "OGL 3",
+        "photographer": "Lauren Hurley / No 10 Downing Street",
+        "page": "https://commons.wikimedia.org/wiki/File:Shabana_Mahmood_Official_Cabinet_Portrait,_September_2025_(cropped).jpg",
+        "credit": "Lauren Hurley / No 10 Downing Street / OGL 3, Wikimedia Commons"
+      }
+    },
+    {
+      "ref": 46,
+      "emoji": "👥",
+      "title": "Mahmood bakım işçileri için oturum planından vazgeçti",
+      "body": "İçişleri Bakanı Mahmood, bakım işçilerine yönelik oturum planını rafa kaldırdı. Göçmenlerin süresiz oturum izni başvurusu yapabileceği zamanı değiştiren gözden geçirilmiş yeni bir öneri sundu.",
+      "source": "BBC",
+      "photo_query": "care workers UK healthcare",
+      "person": "Shabana Mahmood",
+      "person_role": "politician",
+      "category": "goc",
+      "photo": {
+        "id": "wm:Shabana Mahmood Official Cabinet Portrait, September 2025 (cropped).jpg",
+        "provider": "Wikimedia Commons",
+        "person": "Shabana Mahmood",
+        "license": "OGL 3",
+        "photographer": "Lauren Hurley / No 10 Downing Street",
+        "page": "https://commons.wikimedia.org/wiki/File:Shabana_Mahmood_Official_Cabinet_Portrait,_September_2025_(cropped).jpg",
+        "credit": "Lauren Hurley / No 10 Downing Street / OGL 3, Wikimedia Commons"
+      }
+    },
+    {
+      "ref": 14,
+      "emoji": "🇬🇧",
+      "title": "Birleşik Krallık ve AB gıda ihracatındaki engelleri kaldıracak taslakta uzlaştı",
+      "body": "Taslak anlaşma, gıda ihracatındaki Brexit kaynaklı bürokratik engelleri kaldırmayı hedefliyor. Bu ay yapılacak Birleşik Krallık-AB zirvesi öncesindeki anlaşma, şimdiye kadarki 'Brexit reset' mutabakatlarının en önemlisi.",
+      "source": "BBC",
+      "photo_query": "UK EU trade agreement",
+      "person": "",
+      "person_role": "",
+      "category": "ekonomi",
+      "photo": {
+        "id": "pb:3100579",
+        "provider": "Pixabay",
+        "query": "UK EU trade agreement",
+        "photographer": "Ralphs_Fotos",
+        "page": "https://pixabay.com/photos/conclusion-of-contract-handshake-3100579/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 7,
+      "emoji": "🔪",
+      "title": "'No Place for Knives' kampanyası üç bölgede başladı",
+      "body": "Kampanya Westminster, Croydon ve Birmingham'da billboardlarda, dijital reklamlarda ve sosyal medyada yer alacak. Amaç, bıçak suçunun yoğun olduğu bölgelerde bu suçları caydırmak.",
+      "source": "GOV.UK Home Office",
+      "photo_query": "London billboard advertisement",
+      "person": "",
+      "person_role": "",
+      "category": "guvenlik",
+      "photo": {
+        "id": "pb:7705265",
+        "provider": "Pixabay",
+        "query": "London billboard advertisement",
+        "photographer": "Photowrld",
+        "page": "https://pixabay.com/photos/street-lights-bridge-london-7705265/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 21,
+      "emoji": "🧪",
+      "title": "Birleşik Krallık'ta vücuttaki 'kalıcı kimyasallar' için büyük çalışma başladı",
+      "body": "Hükümet, Birleşik Krallık nüfusunda PFAS düzeyini ölçen ilk çalışmayı başlatıyor. Amaç, bu kimyasalların yarattığı riskleri anlamak.",
+      "source": "BBC",
+      "photo_query": "NHS laboratory testing",
+      "person": "",
+      "person_role": "",
+      "category": "saglik",
+      "photo": {
+        "id": "pb:217201",
+        "provider": "Pixabay",
+        "query": "NHS laboratory testing",
+        "photographer": "PublicDomainPictures",
+        "page": "https://pixabay.com/photos/experiment-chemistry-liquid-217201/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 52,
+      "emoji": "💻",
+      "title": "NCSC işletmeleri yapay zeka destekli siber saldırılara karşı uyardı",
+      "body": "National Cyber Security Centre (NCSC), yapay zekanın siber saldırıların sanayileşmesine yardım ettiğini bildirdi. Kuruma göre yapay zekanın 2028'e kadar Birleşik Krallık'ın kritik ulusal altyapısına yönelik saldırılarda kullanılması 'yüksek ihtimal'. İşletmeler hazırlık yapmaya çağrıldı.",
+      "source": "Sky News",
+      "photo_query": "cyber security computer network",
+      "person": "",
+      "person_role": "",
+      "category": "guvenlik",
+      "photo": {
+        "id": "pb:17686",
+        "provider": "Pixabay",
+        "query": "cyber security computer network",
+        "photographer": "PublicDomainPictures",
+        "page": "https://pixabay.com/photos/business-client-cloud-communication-17686/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 40,
+      "emoji": "🏇",
+      "title": "Kral Charles'ın sattığı at Melbourne Cup'ı kazandı",
+      "body": "Ethan Brown'ın bindiği Point of Law, Avustralya'da 'ulusu durduran yarış' olarak bilinen Melbourne Cup'ı kazandı.",
+      "source": "BBC Sport",
+      "photo_query": "Melbourne Cup horse racing",
+      "person": "Charles III",
+      "person_role": "royal",
+      "category": "spor",
+      "photo": {
+        "id": "wm:King Charles III (July 2023).jpg",
+        "provider": "Wikimedia Commons",
+        "person": "Charles III",
+        "license": "Public domain",
+        "photographer": "White House",
+        "page": "https://commons.wikimedia.org/wiki/File:King_Charles_III_(July_2023).jpg",
+        "credit": "White House / Public domain, Wikimedia Commons"
+      }
+    },
+    {
+      "ref": 75,
+      "emoji": "⚽",
+      "title": "Everton, Newcastle'ı yenip Premier League'de yedinci sıraya yükseldi",
+      "body": "Thierno Barry, beş gün içinde ikinci kez Newcastle United'a gol attı. Everton, St James' Park'ta Premier League maçını dar farkla kazandı.",
+      "source": "BBC Sport",
+      "photo_query": "Premier League football match",
+      "person": "",
+      "person_role": "",
+      "category": "spor",
+      "photo": {
+        "id": "pb:2846045",
+        "provider": "Pixabay",
+        "query": "Premier League football match",
+        "photographer": "senolsengul",
+        "page": "https://pixabay.com/photos/garry-mendes-rodrigues-galatasaray-2846045/",
+        "fallback": false
+      }
+    }
+  ],
+  "history_keys": [
+    "homesecretaryunveilsnewrulesformigrantssettlingintheuk",
+    "mahmoodscrapssettlementplansformigrantcareworkers",
+    "ukandeuagreedraftdealtoscrapbrexitredtapeoverfoodexports",
+    "noplaceforknivescampaignlaunchesinknifecrimehotspots",
+    "majorstudyintoforeverchemicalsinpeoplesbodieslaunchedinuk",
+    "prepareforcyberattacksorfaceemptyshelvesbusinessestold",
+    "horsesoldbykingcharleswinsmelbournecup",
+    "evertonholdoffnewcastletomoveintoseventh"
+  ]
+}
