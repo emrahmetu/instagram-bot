@@ -1,0 +1,182 @@
+{
+  "date": "2026-11-03",
+  "caption": "🇬🇧 UK Daily Briefing | Tuesday, 3 November 2026\n\n1. 🏛️ Home Secretary unveils new rules for migrants settling in the UK\nThe Home Secretary has set out new rules for migrants settling in the UK.\n\n2. 🤝 UK and EU agree draft deal to scrap Brexit red tape over food exports\nBritain and the EU have reached a significant food trade deal ahead of a UK-EU summit later this month, removing customs barriers on food exports.\n\n3. 😟 UK job satisfaction drops to record low amid pay and flexibility concerns\nA study by the Resolution Foundation shows job satisfaction among British workers has hit an all-time low, driven by frustration over pay, insecure c…\n\n4. ⚠️ AI-powered cyber attacks on UK infrastructure expected by 2028\nThe National Cyber Security Centre warns that artificial intelligence is \"helping to industrialise cyber attacks\" and is highly likely to be used aga…\n\n5. 🏛️ UK MPs could face criminal record checks to prevent violence against women\nParliament is set to become the first legislature to require MPs and staff to undergo criminal record checks before receiving security passes and rec…\n\n6. 💷 British Gas resumes force-fitting prepay meters despite record settlement\nBritish Gas has resumed installing prepay meters in homes of customers who cannot afford energy bills, months after paying the largest regulatory set…\n\n7. 🔬 Major study launched to measure \"forever chemicals\" in UK population\nThe government is launching the first study to measure PFAS (per- and polyfluoroalkyl substances) in the UK population to understand health risks.\n\n8. 🐴 Horse sold by King Charles wins Melbourne Cup\nPoint of Law, a horse previously sold by King Charles, has won Australia's Melbourne Cup, ridden by Ethan Brown.\n\nSources: GOV.UK Home Office, BBC, Guardian, Sky News, BBC Sport. Stories summarised from UK media reports. Images: Pixabay. Photos: Lauren Hurley / No 10 Downing Street / OGL 3, Wikimedia Commons; White House / Public domain, Wikimedia Commons.\n\n#UKNews #Immigration #Brexit #WorkRights #Cybersecurity #Parliament #EnergyBills #Health #Britain #RoyalNews",
+  "images": [
+    "output-en/2026-11-03/00.jpg",
+    "output-en/2026-11-03/01.jpg",
+    "output-en/2026-11-03/02.jpg",
+    "output-en/2026-11-03/03.jpg",
+    "output-en/2026-11-03/04.jpg",
+    "output-en/2026-11-03/05.jpg",
+    "output-en/2026-11-03/06.jpg",
+    "output-en/2026-11-03/07.jpg",
+    "output-en/2026-11-03/08.jpg"
+  ],
+  "story_image": "output-en/2026-11-03/story.jpg",
+  "items": [
+    {
+      "ref": 3,
+      "emoji": "🏛️",
+      "title": "Home Secretary unveils new rules for migrants settling in the UK",
+      "body": "The Home Secretary has set out new rules for migrants settling in the UK. Under the changes, settlement will be earned through contribution and good character.",
+      "source": "GOV.UK Home Office",
+      "photo_query": "UK passport immigration office",
+      "person": "Shabana Mahmood",
+      "person_role": "politician",
+      "category": "goc",
+      "photo": {
+        "id": "wm:Shabana Mahmood Official Cabinet Portrait, September 2025 (cropped).jpg",
+        "provider": "Wikimedia Commons",
+        "person": "Shabana Mahmood",
+        "license": "OGL 3",
+        "photographer": "Lauren Hurley / No 10 Downing Street",
+        "page": "https://commons.wikimedia.org/wiki/File:Shabana_Mahmood_Official_Cabinet_Portrait,_September_2025_(cropped).jpg",
+        "credit": "Lauren Hurley / No 10 Downing Street / OGL 3, Wikimedia Commons"
+      }
+    },
+    {
+      "ref": 19,
+      "emoji": "🤝",
+      "title": "UK and EU agree draft deal to scrap Brexit red tape over food exports",
+      "body": "Britain and the EU have reached a significant food trade deal ahead of a UK-EU summit later this month, removing customs barriers on food exports. The agreement is the most substantial part of the so-called Brexit reset achieved to date.",
+      "source": "BBC",
+      "photo_query": "British Union Jack flag EU flag",
+      "person": "",
+      "person_role": "",
+      "category": "ekonomi",
+      "photo": {
+        "id": "pb:495147",
+        "provider": "Pixabay",
+        "query": "British Union Jack flag EU flag",
+        "photographer": "webar4i",
+        "page": "https://pixabay.com/photos/dress-blue-butterfly-young-woman-495147/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 50,
+      "emoji": "😟",
+      "title": "UK job satisfaction drops to record low amid pay and flexibility concerns",
+      "body": "A study by the Resolution Foundation shows job satisfaction among British workers has hit an all-time low, driven by frustration over pay, insecure contracts and lack of flexible working. Workers are also less willing to go above and beyond for employers than a decade ago.",
+      "source": "Guardian",
+      "photo_query": "office desk work unhappy employee",
+      "person": "",
+      "person_role": "",
+      "category": "ekonomi",
+      "photo": {
+        "id": "pb:5551157",
+        "provider": "Pixabay",
+        "query": "office desk work unhappy employee",
+        "photographer": "Standsome",
+        "page": "https://pixabay.com/photos/man-stand-desk-freelancer-5551157/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 56,
+      "emoji": "⚠️",
+      "title": "AI-powered cyber attacks on UK infrastructure expected by 2028",
+      "body": "The National Cyber Security Centre warns that artificial intelligence is \"helping to industrialise cyber attacks\" and is highly likely to be used against Britain's critical infrastructure including power stations, airports and hospitals within two years.",
+      "source": "Sky News",
+      "photo_query": "cybersecurity laptop screen",
+      "person": "",
+      "person_role": "",
+      "category": "guvenlik",
+      "photo": {
+        "id": "pb:2583442",
+        "provider": "Pixabay",
+        "query": "cybersecurity laptop screen",
+        "photographer": "StockSnap",
+        "page": "https://pixabay.com/photos/girl-woman-office-work-coffee-2583442/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 31,
+      "emoji": "🏛️",
+      "title": "UK MPs could face criminal record checks to prevent violence against women",
+      "body": "Parliament is set to become the first legislature to require MPs and staff to undergo criminal record checks before receiving security passes and receive anti-harassment training. The measure aims to tackle violence against women in the workplace.",
+      "source": "Guardian",
+      "photo_query": "Palace of Westminster Big Ben",
+      "person": "",
+      "person_role": "",
+      "category": "siyaset",
+      "photo": {
+        "id": "pb:345894",
+        "provider": "Pixabay",
+        "query": "Palace of Westminster Big Ben",
+        "photographer": "Stevebidmead",
+        "page": "https://pixabay.com/photos/big-ben-london-eye-345894/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 99,
+      "emoji": "💷",
+      "title": "British Gas resumes force-fitting prepay meters despite record settlement",
+      "body": "British Gas has resumed installing prepay meters in homes of customers who cannot afford energy bills, months after paying the largest regulatory settlement on record for sending debt collectors to vulnerable households. Regulator Ofgem has lifted the block.",
+      "source": "Guardian",
+      "photo_query": "prepay energy meter",
+      "person": "",
+      "person_role": "",
+      "category": "ekonomi",
+      "photo": {
+        "id": "pb:7276242",
+        "provider": "Pixabay",
+        "query": "prepay energy meter",
+        "photographer": "Alexandra_Koch",
+        "page": "https://pixabay.com/photos/gas-pipeline-stop-gas-stop-tube-7276242/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 26,
+      "emoji": "🔬",
+      "title": "Major study launched to measure \"forever chemicals\" in UK population",
+      "body": "The government is launching the first study to measure PFAS (per- and polyfluoroalkyl substances) in the UK population to understand health risks. Forever chemicals are persistent pollutants found in many consumer products and the environment.",
+      "source": "BBC",
+      "photo_query": "laboratory science test tubes",
+      "person": "",
+      "person_role": "",
+      "category": "saglik",
+      "photo": {
+        "id": "pb:4520604",
+        "provider": "Pixabay",
+        "query": "laboratory science test tubes",
+        "photographer": "Fehling-Lab",
+        "page": "https://pixabay.com/photos/experiment-test-tube-fluorescence-4520604/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 45,
+      "emoji": "🐴",
+      "title": "Horse sold by King Charles wins Melbourne Cup",
+      "body": "Point of Law, a horse previously sold by King Charles, has won Australia's Melbourne Cup, ridden by Ethan Brown. The race is known as the \"race that stops a nation\".",
+      "source": "BBC Sport",
+      "photo_query": "racehorse winner trophy",
+      "person": "Charles III",
+      "person_role": "royal",
+      "category": "spor",
+      "photo": {
+        "id": "wm:King Charles III (July 2023).jpg",
+        "provider": "Wikimedia Commons",
+        "person": "Charles III",
+        "license": "Public domain",
+        "photographer": "White House",
+        "page": "https://commons.wikimedia.org/wiki/File:King_Charles_III_(July_2023).jpg",
+        "credit": "White House / Public domain, Wikimedia Commons"
+      }
+    }
+  ],
+  "history_keys": [
+    "homesecretaryunveilsnewrulesformigrantssettlingintheuk",
+    "ukandeuagreedraftdealtoscrapbrexitredtapeoverfoodexports",
+    "ukjobsatisfactionatrecordlowamidrisingfrustrationoverpayandflexibleworking",
+    "prepareforcyberattacksorfaceemptyshelvesbusinessestold",
+    "ukmpscouldundergocriminalrecordcheckstostopviolenceagainstwomen",
+    "britishgasresumesforcefittingprepaymetersmonthsafter112msettlement",
+    "majorstudyintoforeverchemicalsinpeoplesbodieslaunchedinuk",
+    "horsesoldbykingcharleswinsmelbournecup"
+  ]
+}
