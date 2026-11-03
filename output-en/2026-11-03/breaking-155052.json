@@ -1,0 +1,32 @@
+{
+  "type": "breaking",
+  "created_at": "2026-11-03T15:50:52.794761+00:00",
+  "item": {
+    "ref": 9,
+    "emoji": "💷",
+    "title": "Ministers propose guaranteed pension income for life for 17m workers",
+    "body": "Ministers have proposed a new guided retirement scheme that would offer millions of private sector workers a guaranteed pension income for life. The rules are designed to help savers get the most out of their retirement savings.",
+    "source": "Guardian",
+    "photo_query": "UK pension documents financial",
+    "person": "",
+    "person_role": "",
+    "category": "ekonomi",
+    "photo": {
+      "id": "pb:4966988",
+      "provider": "Pixabay",
+      "query": "UK pension documents financial",
+      "photographer": "ds_30",
+      "page": "https://pixabay.com/photos/line-graph-earnings-future-pencil-4966988/",
+      "fallback": false
+    }
+  },
+  "caption": "🔴 BREAKING | 💷 Ministers propose guaranteed pension income for life for 17m workers\n\nMinisters have proposed a new guided retirement scheme that would offer millions of private sector workers a guaranteed pension income for life. The rules are designed to help savers get the most out of their retirement savings.\n\nSource: Guardian | Image: Pixabay\nUK Daily Briefing | 3 November, 15:50\n\n#BreakingNews #Pensions #RetirementSavings",
+  "images": [
+    "output-en/2026-11-03/breaking-155052.jpg"
+  ],
+  "story_image": "output-en/2026-11-03/breaking-155052-story.jpg",
+  "history_keys": [
+    "guaranteedpensionincomeresurrectedfor17mprivatesectorworkers"
+  ],
+  "published": false
+}
