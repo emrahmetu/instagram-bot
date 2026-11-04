@@ -1,0 +1,33 @@
+{
+  "type": "breaking",
+  "created_at": "2026-11-04T11:20:48.864401+00:00",
+  "item": {
+    "ref": 25,
+    "emoji": "🐾",
+    "title": "Evcil hayvanların AB'ye girişinin kolaylaşması bekleniyor",
+    "body": "Haberlere göre Başbakan Andy Burnham'ın AB ile varması beklenen anlaşma, evcil hayvan sahiplerine Brexit'ten bu yana ilk kez hayvanlarını AB ülkelerine daha kolay götürme imkânı verebilir. Anlaşma henüz imzalanmadı.",
+    "source": "Nation.Cymru",
+    "photo_query": "UK pet passport document",
+    "person": "Andy Burnham",
+    "person_role": "politician",
+    "category": "gundem",
+    "photo": {
+      "id": "wm:Prime Minister Andy Burnham portrait (cropped).jpg",
+      "provider": "Wikimedia Commons",
+      "person": "Andy Burnham",
+      "license": "OGL 3",
+      "photographer": "Prime Minister's Office",
+      "page": "https://commons.wikimedia.org/wiki/File:Prime_Minister_Andy_Burnham_portrait_(cropped).jpg",
+      "credit": "Prime Minister's Office / OGL 3, Wikimedia Commons"
+    }
+  },
+  "caption": "🔴 SON DAKİKA | 🐾 Evcil hayvanların AB'ye girişinin kolaylaşması bekleniyor\n\nHaberlere göre Başbakan Andy Burnham'ın AB ile varması beklenen anlaşma, evcil hayvan sahiplerine Brexit'ten bu yana ilk kez hayvanlarını AB ülkelerine daha kolay götürme imkânı verebilir. Anlaşma henüz imzalanmadı.\n\nKaynak: Nation.Cymru | Görsel: Prime Minister's Office / OGL 3, Wikimedia Commons\nBirleşik Krallık Gündemi | 4 Kasım, 11:20\n\n#SonDakika #Brexit #EvcilHayvan",
+  "images": [
+    "output/2026-11-04/breaking-112048.jpg"
+  ],
+  "story_image": "output/2026-11-04/breaking-112048-story.jpg",
+  "history_keys": [
+    "petslikelytogeteasiereuaccessunderdealsettobeagreedbypm"
+  ],
+  "published": false
+}
