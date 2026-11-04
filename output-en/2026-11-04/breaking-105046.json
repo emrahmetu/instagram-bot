@@ -1,0 +1,32 @@
+{
+  "type": "breaking",
+  "created_at": "2026-11-04T10:50:46.842729+00:00",
+  "item": {
+    "ref": 6,
+    "emoji": "🔒",
+    "title": "Government launches consultation on facial recognition use by police",
+    "body": "The government is launching a consultation to help develop a new legal framework for the use of facial recognition and similar technologies by law enforcement.",
+    "source": "GOV.UK Home Office",
+    "photo_query": "police camera technology UK",
+    "person": "",
+    "person_role": "",
+    "category": "guvenlik",
+    "photo": {
+      "id": "pb:7889301",
+      "provider": "Pixabay",
+      "query": "police camera technology UK",
+      "photographer": "den4ik_production",
+      "page": "https://pixabay.com/photos/camera-lens-photography-digital-7889301/",
+      "fallback": false
+    }
+  },
+  "caption": "🔴 BREAKING | 🔒 Government launches consultation on facial recognition use by police\n\nThe government is launching a consultation to help develop a new legal framework for the use of facial recognition and similar technologies by law enforcement.\n\nSource: GOV.UK Home Office | Image: Pixabay\nUK Daily Briefing | 4 November, 10:50\n\n#BreakingNews #FacialRecognition #Police",
+  "images": [
+    "output-en/2026-11-04/breaking-105046.jpg"
+  ],
+  "story_image": "output-en/2026-11-04/breaking-105046-story.jpg",
+  "history_keys": [
+    "legalframeworkforusingfacialrecognitioninlawenforcement"
+  ],
+  "published": false
+}
