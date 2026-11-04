@@ -1,0 +1,32 @@
+{
+  "type": "breaking",
+  "created_at": "2026-11-04T15:50:52.269273+00:00",
+  "item": {
+    "ref": 7,
+    "emoji": "💔",
+    "title": "Cocaine is now the biggest cause of drug deaths in England and Wales",
+    "body": "Cocaine has overtaken heroin as the biggest cause of drug deaths in England and Wales, Office for National Statistics figures show. Cocaine caused 1,233 deaths last year, eight times the 2010 level. Charities say the government \"must act now\".",
+    "source": "Guardian",
+    "photo_query": "UK drug policy awareness",
+    "person": "",
+    "person_role": "",
+    "category": "saglik",
+    "photo": {
+      "id": "pb:2713598",
+      "provider": "Pixabay",
+      "query": "UK drug policy awareness",
+      "photographer": "rebcenter-moscow",
+      "page": "https://pixabay.com/photos/addiction-drug-addiction-drug-addict-2713598/",
+      "fallback": false
+    }
+  },
+  "caption": "🔴 BREAKING | 💔 Cocaine is now the biggest cause of drug deaths in England and Wales\n\nCocaine has overtaken heroin as the biggest cause of drug deaths in England and Wales, Office for National Statistics figures show. Cocaine caused 1,233 deaths last year, eight times the 2010 level. Charities say the government \"must act now\".\n\nSource: Guardian | Image: Pixabay\nUK Daily Briefing | 4 November, 15:50\n\n#BreakingNews #DrugDeaths #PublicHealth",
+  "images": [
+    "output-en/2026-11-04/breaking-155052.jpg"
+  ],
+  "story_image": "output-en/2026-11-04/breaking-155052-story.jpg",
+  "history_keys": [
+    "cocaineovertakesheroinasleadingcauseofdrugdeathsinenglandandwales"
+  ],
+  "published": false
+}
