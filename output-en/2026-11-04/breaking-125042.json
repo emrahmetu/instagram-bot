@@ -1,0 +1,32 @@
+{
+  "type": "breaking",
+  "created_at": "2026-11-04T12:50:42.950709+00:00",
+  "item": {
+    "ref": 10,
+    "emoji": "🏪",
+    "title": "Poundland owner to hold crunch talks with business secretary",
+    "body": "Gordon Brothers will meet Jonathan Reynolds on Wednesday as the investment firm faces scrutiny over Poundland, whose collapse looms.",
+    "source": "BBC",
+    "photo_query": "Poundland store front",
+    "person": "",
+    "person_role": "",
+    "category": "ekonomi",
+    "photo": {
+      "id": "pb:9085907",
+      "provider": "Pixabay",
+      "query": "Poundland store front",
+      "photographer": "Mollyroselee",
+      "page": "https://pixabay.com/photos/sunflower-cloth-flower-store-9085907/",
+      "fallback": false
+    }
+  },
+  "caption": "🔴 BREAKING | 🏪 Poundland owner to hold crunch talks with business secretary\n\nGordon Brothers will meet Jonathan Reynolds on Wednesday as the investment firm faces scrutiny over Poundland, whose collapse looms.\n\nSource: BBC | Image: Pixabay\nUK Daily Briefing | 4 November, 12:50\n\n#BreakingNews #Poundland #Business",
+  "images": [
+    "output-en/2026-11-04/breaking-125042.jpg"
+  ],
+  "story_image": "output-en/2026-11-04/breaking-125042-story.jpg",
+  "history_keys": [
+    "poundlandownerincrunchtalkswithbusinesssecretaryasretailerscollapselooms"
+  ],
+  "published": false
+}
