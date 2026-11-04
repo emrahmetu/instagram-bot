@@ -1,0 +1,32 @@
+{
+  "type": "breaking",
+  "created_at": "2026-11-04T21:33:07.525292+00:00",
+  "item": {
+    "ref": 5,
+    "emoji": "🚫",
+    "title": "Government considers restrictions on smart glasses over secret filming",
+    "body": "Safeguarding minister Satvir Kaur told the Commons the government is considering restrictions on smart glasses amid concerns they are being used to film women secretly. She hinted at a restriction on selling the technology “to certain users”.",
+    "source": "Guardian",
+    "photo_query": "smart glasses technology device",
+    "person": "",
+    "person_role": "",
+    "category": "gundem",
+    "photo": {
+      "id": "pb:6912129",
+      "provider": "Pixabay",
+      "query": "smart glasses technology device",
+      "photographer": "galinarusychy",
+      "page": "https://pixabay.com/photos/woman-model-portrait-pose-style-6912129/",
+      "fallback": false
+    }
+  },
+  "caption": "🔴 BREAKING | 🚫 Government considers restrictions on smart glasses over secret filming\n\nSafeguarding minister Satvir Kaur told the Commons the government is considering restrictions on smart glasses amid concerns they are being used to film women secretly. She hinted at a restriction on selling the technology “to certain users”.\n\nSource: Guardian | Image: Pixabay\nUK Daily Briefing | 4 November, 21:33\n\n#BreakingNews #SmartGlasses #SafeguardingPolicy",
+  "images": [
+    "output-en/2026-11-04/breaking-213307.jpg"
+  ],
+  "story_image": "output-en/2026-11-04/breaking-213307-story.jpg",
+  "history_keys": [
+    "ukgovernmentconsiderssmartglassesbanoversecretfilmingconcerns"
+  ],
+  "published": false
+}
