@@ -1,0 +1,32 @@
+{
+  "type": "breaking",
+  "created_at": "2026-11-04T17:50:49.786378+00:00",
+  "item": {
+    "ref": 21,
+    "emoji": "⚡",
+    "title": "UK government publishes bill to end new North Sea drilling licences",
+    "body": "Labour ministers have published legislation that would end the granting of new oil and gas licences. The bill has been published but is not yet law.",
+    "source": "BBC",
+    "photo_query": "North Sea oil rig platform",
+    "person": "",
+    "person_role": "",
+    "category": "ekonomi",
+    "photo": {
+      "id": "pb:863227",
+      "provider": "Pixabay",
+      "query": "North Sea oil rig platform",
+      "photographer": "anita_starzycka",
+      "page": "https://pixabay.com/photos/natural-gas-search-oil-rig-863227/",
+      "fallback": false
+    }
+  },
+  "caption": "🔴 BREAKING | ⚡ UK government publishes bill to end new North Sea drilling licences\n\nLabour ministers have published legislation that would end the granting of new oil and gas licences. The bill has been published but is not yet law.\n\nSource: BBC | Image: Pixabay\nUK Daily Briefing | 4 November, 17:50\n\n#BreakingNews #NorthSea #OilAndGas #EnergyPolicy",
+  "images": [
+    "output-en/2026-11-04/breaking-175049.jpg"
+  ],
+  "story_image": "output-en/2026-11-04/breaking-175049-story.jpg",
+  "history_keys": [
+    "ukgovernmenttooutlawnewnorthseadrilling"
+  ],
+  "published": false
+}
