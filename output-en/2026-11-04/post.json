@@ -1,0 +1,182 @@
+{
+  "date": "2026-11-04",
+  "caption": "🇬🇧 UK Daily Briefing | Wednesday, 4 November 2026\n\n1. 🏛️ Home Secretary sets out response to earned settlement consultation\nThe Home Secretary made a statement to Parliament on the government's response to the earned settlement consultation.\n\n2. 💷 Government says new EU deal could add up to £5.1bn a year to economy\nThe government has estimated that a deal with the EU could add up to £5.1 billion a year to the economy.\n\n3. 🏠 Housing market unlikely to recover until 2028, says Savills\nThe property firm expects house prices to fall by 1.5% next year, after drifting lower for the rest of 2026.\n\n4. 🔥 Palace of Westminster at risk of Notre Dame-style fire, committee warns\nA parliamentary committee said the building risks a Notre Dame-style fire or similar catastrophe if MPs do not tackle refurbishment funding.\n\n5. 📚 Ukrainian GCSE to be offered to students in three UK nations from 2028\nStudents in England, Wales and Northern Ireland will be able to take a Ukrainian GCSE from 2028 as part of government plans.\n\n6. 🩺 Multi-cancer blood tests are coming to some GP surgeries soon\nThe tests aim to detect hard-to-diagnose abdominal cancers, including liver, ovarian and pancreatic cancer, much sooner.\n\n7. 🖥️ UK fridges hacked in cyberattack that spoiled millions of euros of food\nThe attack caused millions of euros worth of fresh and frozen food to be spoiled.\n\n8. 👑 King Charles says slavery has made him determined to address past wrongs\nSpeaking in Antigua, the King did not explicitly back reparations.\n\nSources: Free Movement, The Independent, Guardian, Sky News, BBC. Stories summarised from UK media reports. Images: Pixabay. Photos: Lauren Hurley / No 10 Downing Street / OGL 3, Wikimedia Commons; White House / Public domain, Wikimedia Commons.\n\n#UKNews #Politics #Economy #Housing #Immigration #NHS #Education #Cybersecurity #Parliament #Britain",
+  "images": [
+    "output-en/2026-11-04/00.jpg",
+    "output-en/2026-11-04/01.jpg",
+    "output-en/2026-11-04/02.jpg",
+    "output-en/2026-11-04/03.jpg",
+    "output-en/2026-11-04/04.jpg",
+    "output-en/2026-11-04/05.jpg",
+    "output-en/2026-11-04/06.jpg",
+    "output-en/2026-11-04/07.jpg",
+    "output-en/2026-11-04/08.jpg"
+  ],
+  "story_image": "output-en/2026-11-04/story.jpg",
+  "items": [
+    {
+      "ref": 14,
+      "emoji": "🏛️",
+      "title": "Home Secretary sets out response to earned settlement consultation",
+      "body": "The Home Secretary made a statement to Parliament on the government's response to the earned settlement consultation. The Home Office has published its full response to the 'A Fairer Pathway to Settlement' consultation.",
+      "source": "Free Movement",
+      "photo_query": "UK parliament Westminster building",
+      "person": "Shabana Mahmood",
+      "person_role": "politician",
+      "category": "goc",
+      "photo": {
+        "id": "wm:Shabana Mahmood Official Cabinet Portrait, September 2025 (cropped).jpg",
+        "provider": "Wikimedia Commons",
+        "person": "Shabana Mahmood",
+        "license": "OGL 3",
+        "photographer": "Lauren Hurley / No 10 Downing Street",
+        "page": "https://commons.wikimedia.org/wiki/File:Shabana_Mahmood_Official_Cabinet_Portrait,_September_2025_(cropped).jpg",
+        "credit": "Lauren Hurley / No 10 Downing Street / OGL 3, Wikimedia Commons"
+      }
+    },
+    {
+      "ref": 28,
+      "emoji": "💷",
+      "title": "Government says new EU deal could add up to £5.1bn a year to economy",
+      "body": "The government has estimated that a deal with the EU could add up to £5.1 billion a year to the economy. The story looks at which Brexit laws could be scrapped under a new agreement.",
+      "source": "The Independent",
+      "photo_query": "pound sterling currency coins",
+      "person": "",
+      "person_role": "",
+      "category": "ekonomi",
+      "photo": {
+        "id": "pb:6024249",
+        "provider": "Pixabay",
+        "query": "pound sterling currency coins",
+        "photographer": "bitcoin-schweiz",
+        "page": "https://pixabay.com/photos/bitcoin-coin-flame-icon-symbol-6024249/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 52,
+      "emoji": "🏠",
+      "title": "Housing market unlikely to recover until 2028, says Savills",
+      "body": "The property firm expects house prices to fall by 1.5% next year, after drifting lower for the rest of 2026. It says higher mortgage rates linked to the war in the Middle East are deterring buyers.",
+      "source": "Guardian",
+      "photo_query": "British suburban house exterior",
+      "person": "",
+      "person_role": "",
+      "category": "ekonomi",
+      "photo": {
+        "id": "pb:7405403",
+        "provider": "Pixabay",
+        "query": "British suburban house exterior",
+        "photographer": "ValterM",
+        "page": "https://pixabay.com/photos/house-walls-door-colors-colorful-7405403/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 73,
+      "emoji": "🔥",
+      "title": "Palace of Westminster at risk of Notre Dame-style fire, committee warns",
+      "body": "A parliamentary committee said the building risks a Notre Dame-style fire or similar catastrophe if MPs do not tackle refurbishment funding. Maintenance costs could soon reach £2m a week, including 24-hour patrols.",
+      "source": "Guardian",
+      "photo_query": "Big Ben Westminster Palace London",
+      "person": "",
+      "person_role": "",
+      "category": "siyaset",
+      "photo": {
+        "id": "pb:245996",
+        "provider": "Pixabay",
+        "query": "Big Ben Westminster Palace London",
+        "photographer": "GianniCiu10",
+        "page": "https://pixabay.com/photos/torre-london-historical-british-245996/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 57,
+      "emoji": "📚",
+      "title": "Ukrainian GCSE to be offered to students in three UK nations from 2028",
+      "body": "Students in England, Wales and Northern Ireland will be able to take a Ukrainian GCSE from 2028 as part of government plans.",
+      "source": "Sky News",
+      "photo_query": "UK classroom school desk",
+      "person": "",
+      "person_role": "",
+      "category": "saglik",
+      "photo": {
+        "id": "pb:246907",
+        "provider": "Pixabay",
+        "query": "UK classroom school desk",
+        "photographer": "projectmgmt",
+        "page": "https://pixabay.com/photos/classroom-teaching-education-school-246907/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 70,
+      "emoji": "🩺",
+      "title": "Multi-cancer blood tests are coming to some GP surgeries soon",
+      "body": "The tests aim to detect hard-to-diagnose abdominal cancers, including liver, ovarian and pancreatic cancer, much sooner.",
+      "source": "BBC",
+      "photo_query": "NHS blood test vial",
+      "person": "",
+      "person_role": "",
+      "category": "saglik",
+      "photo": {
+        "id": "pb:1336664",
+        "provider": "Pixabay",
+        "query": "NHS blood test vial",
+        "photographer": "Philippedelavie",
+        "page": "https://pixabay.com/photos/science-scientist-test-tube-1336664/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 50,
+      "emoji": "🖥️",
+      "title": "UK fridges hacked in cyberattack that spoiled millions of euros of food",
+      "body": "The attack caused millions of euros worth of fresh and frozen food to be spoiled.",
+      "source": "The Independent",
+      "photo_query": "supermarket freezer display",
+      "person": "",
+      "person_role": "",
+      "category": "guvenlik",
+      "photo": {
+        "id": "pb:5169729",
+        "provider": "Pixabay",
+        "query": "supermarket freezer display",
+        "photographer": "ershuixi5",
+        "page": "https://pixabay.com/photos/supermarket-edible-oil-shelf-5169729/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 86,
+      "emoji": "👑",
+      "title": "King Charles says slavery has made him determined to address past wrongs",
+      "body": "Speaking in Antigua, the King did not explicitly back reparations. Caribbean leaders and campaigners have intensified demands for an apology and reparations from Britain.",
+      "source": "Guardian",
+      "photo_query": "King Charles III formal portrait",
+      "person": "Charles III",
+      "person_role": "royal",
+      "category": "kraliyet",
+      "photo": {
+        "id": "wm:King Charles III (July 2023).jpg",
+        "provider": "Wikimedia Commons",
+        "person": "Charles III",
+        "license": "Public domain",
+        "photographer": "White House",
+        "page": "https://commons.wikimedia.org/wiki/File:King_Charles_III_(July_2023).jpg",
+        "credit": "White House / Public domain, Wikimedia Commons"
+      }
+    }
+  ],
+  "history_keys": [
+    "governmentpublishesresponsetoearnedsettlementconsultation",
+    "whatarethebrexitlawsthatcouldbescrappedinaneweudeal",
+    "britainshousingmarketunlikelytorecoveruntil2028sayssavills",
+    "housesofparliamentatriskofnotredamestylefireasrenovationcostsrise",
+    "ukrainiangcsetobeofferedtobritishstudents",
+    "multicancerbloodtestscomingtosomegpsurgeriessoon",
+    "ukfridgeshackedincyberattacktargetingseveralcountieshereswhatyouneedtoknow",
+    "kingcharlesaddressessummitasdemandsforslaveryapologygrow"
+  ]
+}
