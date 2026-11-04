@@ -1,0 +1,32 @@
+{
+  "type": "breaking",
+  "created_at": "2026-11-04T09:50:42.900153+00:00",
+  "item": {
+    "ref": 17,
+    "emoji": "⚖️",
+    "title": "UK judge has been elected to ICJ for first time in a decade",
+    "body": "A UK judge has been elected to the International Court of Justice for the first time in a decade. The campaign to secure his election began under Sir Keir Starmer's premiership and was backed by Andy Burnham.",
+    "source": "The Independent",
+    "photo_query": "International Court of Justice building",
+    "person": "",
+    "person_role": "",
+    "category": "gundem",
+    "photo": {
+      "id": "pb:5293007",
+      "provider": "Pixabay",
+      "query": "International Court of Justice building",
+      "photographer": "Ezequiel_Octaviano",
+      "page": "https://pixabay.com/photos/legal-right-justice-law-of-nature-5293007/",
+      "fallback": false
+    }
+  },
+  "caption": "🔴 BREAKING | ⚖️ UK judge has been elected to ICJ for first time in a decade\n\nA UK judge has been elected to the International Court of Justice for the first time in a decade. The campaign to secure his election began under Sir Keir Starmer's premiership and was backed by Andy Burnham.\n\nSource: The Independent | Image: Pixabay\nUK Daily Briefing | 4 November, 09:50\n\n#BreakingNews #UK #Justice",
+  "images": [
+    "output-en/2026-11-04/breaking-095042.jpg"
+  ],
+  "story_image": "output-en/2026-11-04/breaking-095042-story.jpg",
+  "history_keys": [
+    "ukjudgeelectedtotheinternationalcourtofjusticeforfirsttimeinadecade"
+  ],
+  "published": false
+}
