@@ -1,0 +1,182 @@
+{
+  "date": "2026-11-05",
+  "caption": "🇬🇧 Birleşik Krallık Gündemi | 5 Kasım 2026, Perşembe\n\n1. 🛂 Temporary Shortage List 31 Aralık'ta sona erecek, sonrası belirsiz\nTemporary Shortage List 31 Aralık 2026'da sona eriyor.\n\n2. 🏠 Home Secretary Shabana Mahmood earned settlement hakkında açıklama yaptı\nHome Secretary Shabana Mahmood, earned settlement konusunda bir açıklama yaptı.\n\n3. 💷 Sterlin, Brexit referandumundan bu yana en yüksek seviyeye çıktı\nSterlin, bir sepet para birimi karşısında on yıl önceki Brexit referandumundan bu yana en yüksek seviyesine ulaştı.\n\n4. 💰 Faiz oranlarının üç yılı aşkın sürenin ardından artması bekleniyor\nAnalistlerin çoğu faizin yüzde 3,75'ten yüzde 4'e çıkacağını tahmin ediyor.\n\n5. 📦 Brexit bürokrasisinin işletmelere maliyeti dört yılda 7 milyar sterlini aştı\nAvrupa Birliği ile ticaretin maliyeti dört yılda 7 milyar sterlini geçti.\n\n6. 👁️ Hükümet kolluk kuvvetlerinin yüz tanıma kullanımı için danışma süreci başlatıyor\nHükümet, kolluk kuvvetlerinin yüz tanıma ve benzeri teknolojileri kullanmasına yönelik yeni bir yasal çerçeve geliştirmek için danışma (consultation) süreci başlatıyor.\n\n7. 🌍 Britlerin yaklaşık yüzde 75'i ABD'yi küresel barışa ciddi tehdit sayıyor\nYeni bir ankete göre Britlerin yaklaşık dörtte üçü ABD'yi küresel barış için ciddi bir tehdit olarak görüyor.\n\n8. ⚽ Haaland attı, Man City iki kez geriye düştüğü maçta Leipzig'i yendi\nManchester City, UEFA Şampiyonlar Ligi grup aşamasının dördüncü maçında RB Leipzig'i 3-2 yendi.\n\nKaynaklar: Free Movement, GOV.UK Home Office, BBC, The Independent, Sky News, BBC Sport. Haberler Türkçe özet olarak derlenmiştir. Görseller: Pixabay. Fotoğraflar: Lauren Hurley / No 10 Downing Street / OGL 3, Wikimedia Commons; Bryan Berlin / CC BY-SA 4.0, Wikimedia Commons.\n\n#İngiltere #UKNews #BirleşikKrallık #Londra #GöçVeVize #İngiltereEkonomi #BrexitEtkisi #UKPolitics #Manchester #PremierLeague",
+  "images": [
+    "output/2026-11-05/00.jpg",
+    "output/2026-11-05/01.jpg",
+    "output/2026-11-05/02.jpg",
+    "output/2026-11-05/03.jpg",
+    "output/2026-11-05/04.jpg",
+    "output/2026-11-05/05.jpg",
+    "output/2026-11-05/06.jpg",
+    "output/2026-11-05/07.jpg",
+    "output/2026-11-05/08.jpg"
+  ],
+  "story_image": "output/2026-11-05/story.jpg",
+  "items": [
+    {
+      "ref": 1,
+      "emoji": "🛂",
+      "title": "Temporary Shortage List 31 Aralık'ta sona erecek, sonrası belirsiz",
+      "body": "Temporary Shortage List 31 Aralık 2026'da sona eriyor. İşverenler bu listedeki meslekler için sponsorluk sertifikasını (certificate of sponsorship) ancak o tarihe kadar verebiliyor. Home Office'in belirlediği son tarihe sekiz hafta kaldı, ancak bakanlık sonrasında ne olacağını açıklamadı.",
+      "source": "Free Movement",
+      "photo_query": "UK work visa certificate",
+      "person": "",
+      "person_role": "",
+      "category": "goc",
+      "photo": {
+        "id": "pb:2583442",
+        "provider": "Pixabay",
+        "query": "UK work visa certificate",
+        "photographer": "StockSnap",
+        "page": "https://pixabay.com/photos/girl-woman-office-work-coffee-2583442/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 17,
+      "emoji": "🏠",
+      "title": "Home Secretary Shabana Mahmood earned settlement hakkında açıklama yaptı",
+      "body": "Home Secretary Shabana Mahmood, earned settlement konusunda bir açıklama yaptı. Kaynak metinde açıklamanın ayrıntıları yer almıyor.",
+      "source": "GOV.UK Home Office",
+      "photo_query": "UK residence permit document",
+      "person": "Shabana Mahmood",
+      "person_role": "politician",
+      "category": "goc",
+      "photo": {
+        "id": "wm:Shabana Mahmood Official Cabinet Portrait, September 2025 (cropped).jpg",
+        "provider": "Wikimedia Commons",
+        "person": "Shabana Mahmood",
+        "license": "OGL 3",
+        "photographer": "Lauren Hurley / No 10 Downing Street",
+        "page": "https://commons.wikimedia.org/wiki/File:Shabana_Mahmood_Official_Cabinet_Portrait,_September_2025_(cropped).jpg",
+        "credit": "Lauren Hurley / No 10 Downing Street / OGL 3, Wikimedia Commons"
+      }
+    },
+    {
+      "ref": 59,
+      "emoji": "💷",
+      "title": "Sterlin, Brexit referandumundan bu yana en yüksek seviyeye çıktı",
+      "body": "Sterlin, bir sepet para birimi karşısında on yıl önceki Brexit referandumundan bu yana en yüksek seviyesine ulaştı.",
+      "source": "BBC",
+      "photo_query": "pound sterling coins UK",
+      "person": "",
+      "person_role": "",
+      "category": "ekonomi",
+      "photo": {
+        "id": "pb:1412847",
+        "provider": "Pixabay",
+        "query": "pound sterling coins UK",
+        "photographer": "slf-2005",
+        "page": "https://pixabay.com/photos/coin-gbp-currency-foreign-1412847/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 78,
+      "emoji": "💰",
+      "title": "Faiz oranlarının üç yılı aşkın sürenin ardından artması bekleniyor",
+      "body": "Analistlerin çoğu faizin yüzde 3,75'ten yüzde 4'e çıkacağını tahmin ediyor. Gerçekleşirse bu, üç yıldan fazla süredir ilk artış olacak.",
+      "source": "BBC",
+      "photo_query": "Bank of England interest rates",
+      "person": "",
+      "person_role": "",
+      "category": "ekonomi",
+      "photo": {
+        "id": "pb:4389774",
+        "provider": "Pixabay",
+        "query": "Bank of England interest rates",
+        "photographer": "Wijaaak",
+        "page": "https://pixabay.com/photos/old-woman-diversity-blanket-asian-4389774/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 84,
+      "emoji": "📦",
+      "title": "Brexit bürokrasisinin işletmelere maliyeti dört yılda 7 milyar sterlini aştı",
+      "body": "Avrupa Birliği ile ticaretin maliyeti dört yılda 7 milyar sterlini geçti. M&S, sadece evrak saklamak için depo kiralamak zorunda kaldı.",
+      "source": "The Independent",
+      "photo_query": "UK EU trade Brexit customs",
+      "person": "",
+      "person_role": "",
+      "category": "ekonomi",
+      "photo": {
+        "id": "pb:2856799",
+        "provider": "Pixabay",
+        "query": "UK EU trade Brexit customs",
+        "photographer": "kirstiecoolin",
+        "page": "https://pixabay.com/photos/eu-europe-brexit-european-flag-2856799/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 2,
+      "emoji": "👁️",
+      "title": "Hükümet kolluk kuvvetlerinin yüz tanıma kullanımı için danışma süreci başlatıyor",
+      "body": "Hükümet, kolluk kuvvetlerinin yüz tanıma ve benzeri teknolojileri kullanmasına yönelik yeni bir yasal çerçeve geliştirmek için danışma (consultation) süreci başlatıyor.",
+      "source": "GOV.UK Home Office",
+      "photo_query": "facial recognition technology police",
+      "person": "",
+      "person_role": "",
+      "category": "guvenlik",
+      "photo": {
+        "id": "pb:6962414",
+        "provider": "Pixabay",
+        "query": "facial recognition technology police",
+        "photographer": "NoeNei",
+        "page": "https://pixabay.com/photos/police-protest-luxembourg-6962414/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 60,
+      "emoji": "🌍",
+      "title": "Britlerin yaklaşık yüzde 75'i ABD'yi küresel barışa ciddi tehdit sayıyor",
+      "body": "Yeni bir ankete göre Britlerin yaklaşık dörtte üçü ABD'yi küresel barış için ciddi bir tehdit olarak görüyor. Oran, iki yıl öncesinin iki katından fazla.",
+      "source": "Sky News",
+      "photo_query": "United States world peace",
+      "person": "",
+      "person_role": "",
+      "category": "gundem",
+      "photo": {
+        "id": "pb:9486839",
+        "provider": "Pixabay",
+        "query": "United States world peace",
+        "photographer": "ChiemSeherin",
+        "page": "https://pixabay.com/photos/hiroshima-atomic-bomb-dome-9486839/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 94,
+      "emoji": "⚽",
+      "title": "Haaland attı, Man City iki kez geriye düştüğü maçta Leipzig'i yendi",
+      "body": "Manchester City, UEFA Şampiyonlar Ligi grup aşamasının dördüncü maçında RB Leipzig'i 3-2 yendi. İki kez geriye düşen City'de galibiyet golünü Erling Haaland attı.",
+      "source": "BBC Sport",
+      "photo_query": "Manchester City Champions League",
+      "person": "Erling Haaland",
+      "person_role": "footballer",
+      "category": "spor",
+      "photo": {
+        "id": "wm:Erling Haaland France v Norway 26 June 26-008.jpg",
+        "provider": "Wikimedia Commons",
+        "person": "Erling Haaland",
+        "license": "CC BY-SA 4.0",
+        "photographer": "Bryan Berlin",
+        "page": "https://commons.wikimedia.org/wiki/File:Erling_Haaland_France_v_Norway_26_June_26-008.jpg",
+        "credit": "Bryan Berlin / CC BY-SA 4.0, Wikimedia Commons"
+      }
+    }
+  ],
+  "history_keys": [
+    "temporaryshortagelistexpectedtoshrinkafter31december",
+    "earnedsettlement",
+    "poundrisestoitshighestlevelsincethebrexitreferendum",
+    "interestratesexpectedtoriseforfirsttimeinoverthreeyears",
+    "staggeringcostofbrexitredtapeforukbusinessesrevealed",
+    "legalframeworkforusingfacialrecognitioninlawenforcement",
+    "almost75ofbritonsviewusasseriousthreattoglobalpeace",
+    "haalandscoreswinnerasmancitybeatleipzig"
+  ]
+}
