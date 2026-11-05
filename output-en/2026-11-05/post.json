@@ -1,0 +1,181 @@
+{
+  "date": "2026-11-05",
+  "caption": "🇬🇧 UK Daily Briefing | Thursday, 5 November 2026\n\n1. 🛂 Home Secretary Shabana Mahmood makes statement on earned settlement\nHome Secretary Shabana Mahmood has made a statement on earned settlement.\n\n2. 📹 New laws will govern police use of facial recognition technology\nThe government is bringing in stronger laws to govern how police use facial recognition technology. The stated aim is to maximise public safety.\n\n3. ⏰ Temporary Shortage List will expire on 31 December 2026\nEmployers can only assign certificates of sponsorship for occupations on the Temporary Shortage List before 31 December 2026. With about eight weeks left, the Home Office has said little about what happens next.\n\n4. 💷 Interest rates expected to rise for first time in over three years\nMost analysts are predicting rates will rise from 3.75% to 4%. It would be the first increase in more than three years.\n\n5. 🛡️ UK is dangerously reliant on China for critical minerals, MPs find\nA parliamentary investigation has found the UK is \"dangerously\" dependent on China for raw materials needed for the military, renewable energy infrastructure and AI. MPs on the business select committee urged a centralised policy.\n\n6. 🚲 Ministers plan crackdown on e-bikes blocking pavements\nA consultation led by the Department for Transport will consider parking standards, fleet sizes and insurance requirements. Ministers want to curb antisocial behaviour such as cyclists jumping red lights.\n\n7. 🌊 Warming UK seas could reshape marine ecosystems, study warns\nA four-year study warns that warming seas around the UK and wider north-east Atlantic could destabilise marine food webs, weaken ocean health and jeopardise food security by 2050.\n\n8. 📈 Pound reaches highest level since Brexit referendum\nThe pound has reached its highest level against a basket of currencies since the Brexit referendum a decade ago.\n\nSources: GOV.UK Home Office, Free Movement, BBC, Guardian. Stories summarised from UK media reports. Images: Pixabay. Photos: Lauren Hurley / No 10 Downing Street / OGL 3, Wikimedia Commons.\n\n#UKNews #Britain #Politics #Immigration #Economy #Fintech #Security #Environment #Labour #DailyBriefing",
+  "images": [
+    "output-en/2026-11-05/00.jpg",
+    "output-en/2026-11-05/01.jpg",
+    "output-en/2026-11-05/02.jpg",
+    "output-en/2026-11-05/03.jpg",
+    "output-en/2026-11-05/04.jpg",
+    "output-en/2026-11-05/05.jpg",
+    "output-en/2026-11-05/06.jpg",
+    "output-en/2026-11-05/07.jpg",
+    "output-en/2026-11-05/08.jpg"
+  ],
+  "story_image": "output-en/2026-11-05/story.jpg",
+  "items": [
+    {
+      "ref": 21,
+      "emoji": "🛂",
+      "title": "Home Secretary Shabana Mahmood makes statement on earned settlement",
+      "body": "Home Secretary Shabana Mahmood has made a statement on earned settlement.",
+      "source": "GOV.UK Home Office",
+      "photo_query": "UK visa passport application",
+      "person": "Shabana Mahmood",
+      "person_role": "politician",
+      "category": "goc",
+      "photo": {
+        "id": "wm:Shabana Mahmood Official Cabinet Portrait, September 2025 (cropped).jpg",
+        "provider": "Wikimedia Commons",
+        "person": "Shabana Mahmood",
+        "license": "OGL 3",
+        "photographer": "Lauren Hurley / No 10 Downing Street",
+        "page": "https://commons.wikimedia.org/wiki/File:Shabana_Mahmood_Official_Cabinet_Portrait,_September_2025_(cropped).jpg",
+        "credit": "Lauren Hurley / No 10 Downing Street / OGL 3, Wikimedia Commons"
+      }
+    },
+    {
+      "ref": 2,
+      "emoji": "📹",
+      "title": "New laws will govern police use of facial recognition technology",
+      "body": "The government is bringing in stronger laws to govern how police use facial recognition technology. The stated aim is to maximise public safety.",
+      "source": "GOV.UK Home Office",
+      "photo_query": "police officer technology security",
+      "person": "",
+      "person_role": "",
+      "category": "guvenlik",
+      "photo": {
+        "id": "pb:1759563",
+        "provider": "Pixabay",
+        "query": "police officer technology security",
+        "photographer": "Alexas_Fotos",
+        "page": "https://pixabay.com/photos/evil-clowns-trend-terrible-1759563/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 1,
+      "emoji": "⏰",
+      "title": "Temporary Shortage List will expire on 31 December 2026",
+      "body": "Employers can only assign certificates of sponsorship for occupations on the Temporary Shortage List before 31 December 2026. With about eight weeks left, the Home Office has said little about what happens next.",
+      "source": "Free Movement",
+      "photo_query": "employer recruitment job listing",
+      "person": "",
+      "person_role": "",
+      "category": "goc",
+      "photo": {
+        "id": "pb:8671543",
+        "provider": "Pixabay",
+        "query": "employer recruitment job listing",
+        "photographer": "Surprising_Media",
+        "page": "https://pixabay.com/photos/man-bicyclist-courier-backpack-8671543/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 83,
+      "emoji": "💷",
+      "title": "Interest rates expected to rise for first time in over three years",
+      "body": "Most analysts are predicting rates will rise from 3.75% to 4%. It would be the first increase in more than three years.",
+      "source": "BBC",
+      "photo_query": "pound sterling coins money",
+      "person": "",
+      "person_role": "",
+      "category": "ekonomi",
+      "photo": {
+        "id": "pb:2414",
+        "provider": "Pixabay",
+        "query": "pound sterling coins money",
+        "photographer": "PublicDomainPictures",
+        "page": "https://pixabay.com/photos/coin-chinese-china-money-white-2414/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 62,
+      "emoji": "🛡️",
+      "title": "UK is dangerously reliant on China for critical minerals, MPs find",
+      "body": "A parliamentary investigation has found the UK is \"dangerously\" dependent on China for raw materials needed for the military, renewable energy infrastructure and AI. MPs on the business select committee urged a centralised policy.",
+      "source": "Guardian",
+      "photo_query": "mining minerals extraction industry",
+      "person": "",
+      "person_role": "",
+      "category": "ekonomi",
+      "photo": {
+        "id": "pb:1212568",
+        "provider": "Pixabay",
+        "query": "mining minerals extraction industry",
+        "photographer": "Tama66",
+        "page": "https://pixabay.com/photos/tower-headframe-bill-mine-1212568/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 39,
+      "emoji": "🚲",
+      "title": "Ministers plan crackdown on e-bikes blocking pavements",
+      "body": "A consultation led by the Department for Transport will consider parking standards, fleet sizes and insurance requirements. Ministers want to curb antisocial behaviour such as cyclists jumping red lights.",
+      "source": "Guardian",
+      "photo_query": "electric bike parked pavement",
+      "person": "",
+      "person_role": "",
+      "category": "gundem",
+      "photo": {
+        "id": "pb:7097742",
+        "provider": "Pixabay",
+        "query": "electric bike parked pavement",
+        "photographer": "imperioame",
+        "page": "https://pixabay.com/photos/bike-old-bike-sidewalk-parked-bike-7097742/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 40,
+      "emoji": "🌊",
+      "title": "Warming UK seas could reshape marine ecosystems, study warns",
+      "body": "A four-year study warns that warming seas around the UK and wider north-east Atlantic could destabilise marine food webs, weaken ocean health and jeopardise food security by 2050.",
+      "source": "Guardian",
+      "photo_query": "UK coastline sea ocean waves",
+      "person": "",
+      "person_role": "",
+      "category": "hava",
+      "photo": {
+        "id": "pb:9917901",
+        "provider": "Pixabay",
+        "query": "UK coastline sea ocean waves",
+        "photographer": "Solarselle77",
+        "page": "https://pixabay.com/photos/ai-generated-seagull-ocean-wave-9917901/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 64,
+      "emoji": "📈",
+      "title": "Pound reaches highest level since Brexit referendum",
+      "body": "The pound has reached its highest level against a basket of currencies since the Brexit referendum a decade ago.",
+      "source": "BBC",
+      "photo_query": "pound sterling currency exchange",
+      "person": "",
+      "person_role": "",
+      "category": "ekonomi",
+      "photo": {
+        "id": "pb:8207730",
+        "provider": "Pixabay",
+        "query": "pound sterling currency exchange",
+        "photographer": "u_dmobkt686b",
+        "page": "https://pixabay.com/photos/forex-trade-trading-finance-8207730/",
+        "fallback": false
+      }
+    }
+  ],
+  "history_keys": [
+    "earnedsettlement",
+    "strongerlawsforpoliceusingfacialrecognitiontechnology",
+    "temporaryshortagelistexpectedtoshrinkafter31december",
+    "interestratesexpectedtoriseforfirsttimeinoverthreeyears",
+    "ukfoundtobedangerouslyreliantonchinaforcriticalmineralsneededfordefenceandai",
+    "ministerstotargetwildwestofebikesblockingpavements",
+    "warmingukseascouldfundamentallyreshapemarineecosystemsreport",
+    "poundrisestoitshighestlevelsincethebrexitreferendum"
+  ]
+}
