@@ -1,0 +1,32 @@
+{
+  "type": "breaking",
+  "created_at": "2026-11-05T16:20:52.562499+00:00",
+  "item": {
+    "ref": 16,
+    "emoji": "💷",
+    "title": "Sterlin, Brexit referandumundan bu yana en yüksek seviyeye çıktı",
+    "body": "Bank of England'ın perşembe günü açıkladığı verilere göre sterlin, 2016'daki Brexit referandumunun ardından yaşadığı çöküşten bu yana en güçlü seviyesine ulaştı. Yatırımcılar İngiltere'nin Avrupa ile daha yakın ilişki kurma girişimini olumlu karşıladı. ABD'deki ara seçimlerin ardından dolar değer kaybetti.",
+    "source": "Guardian",
+    "photo_query": "British pound currency symbol",
+    "person": "",
+    "person_role": "",
+    "category": "ekonomi",
+    "photo": {
+      "id": "pb:4262349",
+      "provider": "Pixabay",
+      "query": "British pound currency symbol",
+      "photographer": "bluebudgie",
+      "page": "https://pixabay.com/photos/wallet-money-pound-wager-cash-4262349/",
+      "fallback": false
+    }
+  },
+  "caption": "🔴 SON DAKİKA | 💷 Sterlin, Brexit referandumundan bu yana en yüksek seviyeye çıktı\n\nBank of England'ın perşembe günü açıkladığı verilere göre sterlin, 2016'daki Brexit referandumunun ardından yaşadığı çöküşten bu yana en güçlü seviyesine ulaştı. Yatırımcılar İngiltere'nin Avrupa ile daha yakın ilişki kurma girişimini olumlu karşıladı. ABD'deki ara seçimlerin ardından dolar değer kaybetti.\n\nKaynak: Guardian | Görsel: Pixabay\nBirleşik Krallık Gündemi | 5 Kasım, 16:20\n\n#SonDakika #Ekonomi #Sterlin",
+  "images": [
+    "output/2026-11-05/breaking-162052.jpg"
+  ],
+  "story_image": "output/2026-11-05/breaking-162052-story.jpg",
+  "history_keys": [
+    "poundhitshighestlevelsinceitscrashafter2016brexitvote"
+  ],
+  "published": false
+}
