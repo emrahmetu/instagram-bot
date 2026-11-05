@@ -1,0 +1,32 @@
+{
+  "type": "breaking",
+  "created_at": "2026-11-05T15:20:51.206414+00:00",
+  "item": {
+    "ref": 5,
+    "emoji": "📉",
+    "title": "BT, maliyet kesintisi programı kapsamında yaklaşık 8 bin kişiyi işten çıkardı",
+    "body": "BT, Mart ayı sonundan bu yana yaklaşık 8 bin kişinin işine son verdi. Şirket, uluslararası birimi hariç çalışan sayısının 7.731 azalarak 90 bine düştüğünü açıkladı. BT, eylül ayına kadar altı ayda 1,1 milyar sterlin vergi öncesi kâr bildirdi.",
+    "source": "Guardian",
+    "photo_query": "BT building office London",
+    "person": "",
+    "person_role": "",
+    "category": "gundem",
+    "photo": {
+      "id": "pb:418189",
+      "provider": "Pixabay",
+      "query": "BT building office London",
+      "photographer": "moerschy",
+      "page": "https://pixabay.com/photos/skyscraper-glass-facade-offices-418189/",
+      "fallback": false
+    }
+  },
+  "caption": "🔴 SON DAKİKA | 📉 BT, maliyet kesintisi programı kapsamında yaklaşık 8 bin kişiyi işten çıkardı\n\nBT, Mart ayı sonundan bu yana yaklaşık 8 bin kişinin işine son verdi. Şirket, uluslararası birimi hariç çalışan sayısının 7.731 azalarak 90 bine düştüğünü açıkladı. BT, eylül ayına kadar altı ayda 1,1 milyar sterlin vergi öncesi kâr bildirdi.\n\nKaynak: Guardian | Görsel: Pixabay\nBirleşik Krallık Gündemi | 5 Kasım, 15:20\n\n#SonDakika #İştenÇıkarma #BT",
+  "images": [
+    "output/2026-11-05/breaking-152051.jpg"
+  ],
+  "story_image": "output/2026-11-05/breaking-152051-story.jpg",
+  "history_keys": [
+    "btcutsalmost8000jobsamidsweepingcostsavingprogramme"
+  ],
+  "published": false
+}
