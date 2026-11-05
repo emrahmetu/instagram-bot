@@ -1,0 +1,32 @@
+{
+  "type": "breaking",
+  "created_at": "2026-11-05T19:50:46.341808+00:00",
+  "item": {
+    "ref": 1,
+    "emoji": "🏥",
+    "title": "British doctor with Ebola arrives back in the UK",
+    "body": "A British doctor with Ebola has been flown back to the UK from the Democratic Republic of the Congo. He will be taken to one of two hospitals equipped to deal with the virus.",
+    "source": "The Independent",
+    "photo_query": "NHS hospital UK",
+    "person": "",
+    "person_role": "",
+    "category": "saglik",
+    "photo": {
+      "id": "pb:563423",
+      "provider": "Pixabay",
+      "query": "NHS hospital UK",
+      "photographer": "DarkoStojanovic",
+      "page": "https://pixabay.com/photos/laboratory-test-tubes-563423/",
+      "fallback": false
+    }
+  },
+  "caption": "🔴 BREAKING | 🏥 British doctor with Ebola arrives back in the UK\n\nA British doctor with Ebola has been flown back to the UK from the Democratic Republic of the Congo. He will be taken to one of two hospitals equipped to deal with the virus.\n\nSource: The Independent | Image: Pixabay\nUK Daily Briefing | 5 November, 19:50\n\n#BreakingNews #Ebola #NHS",
+  "images": [
+    "output-en/2026-11-05/breaking-195046.jpg"
+  ],
+  "story_image": "output-en/2026-11-05/breaking-195046-story.jpg",
+  "history_keys": [
+    "britishdoctorwithebolaarrivesbackintheuk"
+  ],
+  "published": false
+}
