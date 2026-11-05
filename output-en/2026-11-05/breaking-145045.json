@@ -1,0 +1,32 @@
+{
+  "type": "breaking",
+  "created_at": "2026-11-05T14:50:45.982743+00:00",
+  "item": {
+    "ref": 35,
+    "emoji": "🏠",
+    "title": "Mahmood accused of making refugees wait up to 30 years to settle",
+    "body": "Shabana Mahmood has been accused of causing “distress and uncertainty” to hundreds of thousands of refugees by quietly introducing a 30-year “earned settlement” plan. They had been told they could apply for indefinite leave after five years.",
+    "source": "Guardian",
+    "photo_query": "UK passport immigration",
+    "person": "Shabana Mahmood",
+    "person_role": "politician",
+    "category": "gundem",
+    "photo": {
+      "id": "pb:5424543",
+      "provider": "Pixabay",
+      "query": "UK passport immigration",
+      "photographer": "Sandra-Gabriel",
+      "page": "https://pixabay.com/photos/passport-stamps-visa-travel-5424543/",
+      "fallback": false
+    }
+  },
+  "caption": "🔴 BREAKING | 🏠 Mahmood accused of making refugees wait up to 30 years to settle\n\nShabana Mahmood has been accused of causing “distress and uncertainty” to hundreds of thousands of refugees by quietly introducing a 30-year “earned settlement” plan. They had been told they could apply for indefinite leave after five years.\n\nSource: Guardian | Image: Pixabay\nUK Daily Briefing | 5 November, 14:50\n\n#BreakingNews #Asylum #Immigration",
+  "images": [
+    "output-en/2026-11-05/breaking-145045.jpg"
+  ],
+  "story_image": "output-en/2026-11-05/breaking-145045-story.jpg",
+  "history_keys": [
+    "mahmoodaccusedofhardeningrulesfor200000successfulasylumapplicants"
+  ],
+  "published": false
+}
