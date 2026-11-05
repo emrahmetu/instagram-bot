@@ -1,0 +1,33 @@
+{
+  "type": "breaking",
+  "created_at": "2026-11-05T13:20:48.543893+00:00",
+  "item": {
+    "ref": 8,
+    "emoji": "⚠️",
+    "title": "Shabana Mahmood'un planı 200 bin mülteciyi 30 yıla kadar bekletebilir",
+    "body": "Home Secretary Shabana Mahmood, başarılı sığınma başvurusu yapan yaklaşık 200 bin kişiye süresiz oturum izni (ILR) için 30 yıla kadar bekleme süresi getiren planları sessizce devreye soktu. Refugee Council, bu planın mültecilere \"sıkıntı ve belirsizlik\" yaşattığını söyledi.",
+    "source": "Guardian",
+    "photo_query": "Home Office Westminster building",
+    "person": "Shabana Mahmood",
+    "person_role": "politician",
+    "category": "goc",
+    "photo": {
+      "id": "wm:Shabana Mahmood Official Cabinet Portrait, September 2025 (cropped).jpg",
+      "provider": "Wikimedia Commons",
+      "person": "Shabana Mahmood",
+      "license": "OGL 3",
+      "photographer": "Lauren Hurley / No 10 Downing Street",
+      "page": "https://commons.wikimedia.org/wiki/File:Shabana_Mahmood_Official_Cabinet_Portrait,_September_2025_(cropped).jpg",
+      "credit": "Lauren Hurley / No 10 Downing Street / OGL 3, Wikimedia Commons"
+    }
+  },
+  "caption": "🔴 SON DAKİKA | ⚠️ Shabana Mahmood'un planı 200 bin mülteciyi 30 yıla kadar bekletebilir\n\nHome Secretary Shabana Mahmood, başarılı sığınma başvurusu yapan yaklaşık 200 bin kişiye süresiz oturum izni (ILR) için 30 yıla kadar bekleme süresi getiren planları sessizce devreye soktu. Refugee Council, bu planın mültecilere \"sıkıntı ve belirsizlik\" yaşattığını söyledi.\n\nKaynak: Guardian | Görsel: Lauren Hurley / No 10 Downing Street / OGL 3, Wikimedia Commons\nBirleşik Krallık Gündemi | 5 Kasım, 13:20\n\n#SonDakika #GöçPolitikası #Mülteciler",
+  "images": [
+    "output/2026-11-05/breaking-132048.jpg"
+  ],
+  "story_image": "output/2026-11-05/breaking-132048-story.jpg",
+  "history_keys": [
+    "shabanamahmoodaccusedofhardeningimmigrationplansfor200000successfulasylumapplicants"
+  ],
+  "published": false
+}
