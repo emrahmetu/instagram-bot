@@ -1,0 +1,32 @@
+{
+  "type": "breaking",
+  "created_at": "2026-11-05T12:50:47.723048+00:00",
+  "item": {
+    "ref": 14,
+    "emoji": "📈",
+    "title": "Bank of England raises interest rates to 4%, first rise since 2023",
+    "body": "The Bank of England has raised interest rates to 4%, its first increase since 2023. Its forecast shows inflation is expected to rise to a peak of 5% next year.",
+    "source": "BBC",
+    "photo_query": "Bank of England building",
+    "person": "",
+    "person_role": "",
+    "category": "ekonomi",
+    "photo": {
+      "id": "pb:4303279",
+      "provider": "Pixabay",
+      "query": "Bank of England building",
+      "photographer": "yossiconic",
+      "page": "https://pixabay.com/photos/building-structure-woman-4303279/",
+      "fallback": false
+    }
+  },
+  "caption": "🔴 BREAKING | 📈 Bank of England raises interest rates to 4%, first rise since 2023\n\nThe Bank of England has raised interest rates to 4%, its first increase since 2023. Its forecast shows inflation is expected to rise to a peak of 5% next year.\n\nSource: BBC | Image: Pixabay\nUK Daily Briefing | 5 November, 12:50\n\n#BreakingNews #InterestRates #Economy",
+  "images": [
+    "output-en/2026-11-05/breaking-125047.jpg"
+  ],
+  "story_image": "output-en/2026-11-05/breaking-125047-story.jpg",
+  "history_keys": [
+    "ukinterestrateslivebankofenglandconfirmshiketo4infirstrisesince2023"
+  ],
+  "published": false
+}
