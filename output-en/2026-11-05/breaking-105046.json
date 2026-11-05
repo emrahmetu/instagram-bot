@@ -1,0 +1,33 @@
+{
+  "type": "breaking",
+  "created_at": "2026-11-05T10:50:46.665673+00:00",
+  "item": {
+    "ref": 2,
+    "emoji": "⚽",
+    "title": "Cristiano Ronaldo says he is retiring from international football",
+    "body": "Portugal legend Cristiano Ronaldo has said he is retiring from international football.",
+    "source": "BBC Sport",
+    "photo_query": "Portugal football team kit",
+    "person": "Cristiano Ronaldo",
+    "person_role": "footballer",
+    "category": "spor",
+    "photo": {
+      "id": "wm:Cristiano Ronaldo Croatia v Portugal 2 July 2026-075 (cropped).jpg",
+      "provider": "Wikimedia Commons",
+      "person": "Cristiano Ronaldo",
+      "license": "CC BY-SA 4.0",
+      "photographer": "Bryan Berlin",
+      "page": "https://commons.wikimedia.org/wiki/File:Cristiano_Ronaldo_Croatia_v_Portugal_2_July_2026-075_(cropped).jpg",
+      "credit": "Bryan Berlin / CC BY-SA 4.0, Wikimedia Commons"
+    }
+  },
+  "caption": "🔴 BREAKING | ⚽ Cristiano Ronaldo says he is retiring from international football\n\nPortugal legend Cristiano Ronaldo has said he is retiring from international football.\n\nSource: BBC Sport | Image: Bryan Berlin / CC BY-SA 4.0, Wikimedia Commons\nUK Daily Briefing | 5 November, 10:50\n\n#BreakingNews #Football #Portugal #Ronaldo",
+  "images": [
+    "output-en/2026-11-05/breaking-105046.jpg"
+  ],
+  "story_image": "output-en/2026-11-05/breaking-105046-story.jpg",
+  "history_keys": [
+    "ronaldoretiresfromportugalduty"
+  ],
+  "published": false
+}
