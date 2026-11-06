@@ -1,0 +1,180 @@
+{
+  "date": "2026-11-06",
+  "caption": "🇬🇧 UK Daily Briefing | Friday, 6 November 2026\n\n1. 📈 Bank of England raises interest rates to 4% for first time in over three years\nThe base rate rose from 3.75%. The Bank's governor signalled another rise in the near future to combat inflationary pressure unleashed by the Iran war.\n\n2. 💷 Energy minister tells suppliers to do more to help with unpaid bills\nBosses of Great Britain's biggest energy suppliers were called to a meeting as part of the government's debt relief plan. The government will spend almost £2.5bn to help write off record high energy debts.\n\n3. 💼 Firms told to publish salaries in job adverts ahead of new law\nThe government argues the change will help jobseekers and could help to prevent pay discrimination.\n\n4. 🚔 Met Commissioner to warn policing must reform or decline\nSir Mark Rowley's proposals include reducing the number of police forces from 43 to as few as eight.\n\n5. 🏥 Cancer diagnoses hit record high of more than 1,000 people a day\nCharities warn the NHS continues to fail to meet its targets on diagnosis and treatment.\n\n6. 🔥 Seven arrested and police car set alight during Bonfire Night violence in Scotland\nSeven arrests were made during disorder in parts of Scotland, with fireworks thrown at emergency workers, police say.\n\n7. 🛍️ Wales sees steepest fall in shopper footfall amid storms and rising costs\nFootfall in Wales fell by 6.3% in October compared with a year earlier, the steepest decline of any UK nation. BRC and Sensormatic figures showed visits fell across the UK as storms and household budget pressure deterred shoppers.\n\n8. 🦠 Flu season begins early in Wales as eligible people urged to get vaccinated\nPublic Health Wales said its latest surveillance data showed the flu season had begun earlier than usual. Activity remains low, but cases are expected to rise over the coming weeks.\n\nSources: Guardian, BBC, Nation.Cymru. Stories summarised from UK media reports. Images: Pixabay.\n\n#UKNews #Britain #CostOfLiving #InterestRates #PoliceReform #NHS #Economy #Wales #BonfireNight #HealthAlert",
+  "images": [
+    "output-en/2026-11-06/00.jpg",
+    "output-en/2026-11-06/01.jpg",
+    "output-en/2026-11-06/02.jpg",
+    "output-en/2026-11-06/03.jpg",
+    "output-en/2026-11-06/04.jpg",
+    "output-en/2026-11-06/05.jpg",
+    "output-en/2026-11-06/06.jpg",
+    "output-en/2026-11-06/07.jpg",
+    "output-en/2026-11-06/08.jpg"
+  ],
+  "story_image": "output-en/2026-11-06/story.jpg",
+  "items": [
+    {
+      "ref": 115,
+      "emoji": "📈",
+      "title": "Bank of England raises interest rates to 4% for first time in over three years",
+      "body": "The base rate rose from 3.75%. The Bank's governor signalled another rise in the near future to combat inflationary pressure unleashed by the Iran war.",
+      "source": "Guardian",
+      "photo_query": "pound sterling coins stacked",
+      "person": "",
+      "person_role": "",
+      "category": "ekonomi",
+      "photo": {
+        "id": "pb:4519290",
+        "provider": "Pixabay",
+        "query": "pound sterling coins stacked",
+        "photographer": "denfran",
+        "page": "https://pixabay.com/photos/stone-tower-balance-meditation-4519290/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 53,
+      "emoji": "💷",
+      "title": "Energy minister tells suppliers to do more to help with unpaid bills",
+      "body": "Bosses of Great Britain's biggest energy suppliers were called to a meeting as part of the government's debt relief plan. The government will spend almost £2.5bn to help write off record high energy debts.",
+      "source": "Guardian",
+      "photo_query": "UK energy bill statement",
+      "person": "",
+      "person_role": "",
+      "category": "ekonomi",
+      "photo": {
+        "id": "pb:4486154",
+        "provider": "Pixabay",
+        "query": "UK energy bill statement",
+        "photographer": "Foto-Rabe",
+        "page": "https://pixabay.com/photos/victoria-crowned-pigeon-bird-animal-4486154/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 33,
+      "emoji": "💼",
+      "title": "Firms told to publish salaries in job adverts ahead of new law",
+      "body": "The government argues the change will help jobseekers and could help to prevent pay discrimination.",
+      "source": "BBC",
+      "photo_query": "job advertisement online posting",
+      "person": "",
+      "person_role": "",
+      "category": "siyaset",
+      "photo": {
+        "id": "pb:19156",
+        "provider": "Pixabay",
+        "query": "job advertisement online posting",
+        "photographer": "PublicDomainPictures",
+        "page": "https://pixabay.com/photos/business-career-depressed-employee-19156/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 38,
+      "emoji": "🚔",
+      "title": "Met Commissioner to warn policing must reform or decline",
+      "body": "Sir Mark Rowley's proposals include reducing the number of police forces from 43 to as few as eight.",
+      "source": "BBC",
+      "photo_query": "Metropolitan Police officers Westminster",
+      "person": "Mark Rowley",
+      "person_role": "police",
+      "category": "guvenlik",
+      "photo": {
+        "id": "pb:6962408",
+        "provider": "Pixabay",
+        "query": "Metropolitan Police officers Westminster",
+        "photographer": "NoeNei",
+        "page": "https://pixabay.com/photos/demonstration-police-special-unit-6962408/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 77,
+      "emoji": "🏥",
+      "title": "Cancer diagnoses hit record high of more than 1,000 people a day",
+      "body": "Charities warn the NHS continues to fail to meet its targets on diagnosis and treatment.",
+      "source": "Guardian",
+      "photo_query": "NHS hospital building entrance",
+      "person": "",
+      "person_role": "",
+      "category": "saglik",
+      "photo": {
+        "id": "pb:3538062",
+        "provider": "Pixabay",
+        "query": "NHS hospital building entrance",
+        "photographer": "analogicus",
+        "page": "https://pixabay.com/photos/architecture-house-building-3538062/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 28,
+      "emoji": "🔥",
+      "title": "Seven arrested and police car set alight during Bonfire Night violence in Scotland",
+      "body": "Seven arrests were made during disorder in parts of Scotland, with fireworks thrown at emergency workers, police say.",
+      "source": "BBC",
+      "photo_query": "Scottish police officers Edinburgh",
+      "person": "",
+      "person_role": "",
+      "category": "guvenlik",
+      "photo": {
+        "id": "pb:6962414",
+        "provider": "Pixabay",
+        "query": "Scottish police officers Edinburgh",
+        "photographer": "NoeNei",
+        "page": "https://pixabay.com/photos/police-protest-luxembourg-6962414/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 70,
+      "emoji": "🛍️",
+      "title": "Wales sees steepest fall in shopper footfall amid storms and rising costs",
+      "body": "Footfall in Wales fell by 6.3% in October compared with a year earlier, the steepest decline of any UK nation. BRC and Sensormatic figures showed visits fell across the UK as storms and household budget pressure deterred shoppers.",
+      "source": "Nation.Cymru",
+      "photo_query": "UK high street shops closed",
+      "person": "",
+      "person_role": "",
+      "category": "ekonomi",
+      "photo": {
+        "id": "pb:5644601",
+        "provider": "Pixabay",
+        "query": "UK high street shops closed",
+        "photographer": "yeyalpha",
+        "page": "https://pixabay.com/photos/city-night-birds-eye-view-5644601/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 37,
+      "emoji": "🦠",
+      "title": "Flu season begins early in Wales as eligible people urged to get vaccinated",
+      "body": "Public Health Wales said its latest surveillance data showed the flu season had begun earlier than usual. Activity remains low, but cases are expected to rise over the coming weeks.",
+      "source": "Nation.Cymru",
+      "photo_query": "NHS vaccination clinic appointment",
+      "person": "",
+      "person_role": "",
+      "category": "saglik",
+      "photo": {
+        "id": "pb:4969621",
+        "provider": "Pixabay",
+        "query": "NHS vaccination clinic appointment",
+        "photographer": "ds_30",
+        "page": "https://pixabay.com/photos/clinic-clinical-cure-doctor-drop-4969621/",
+        "fallback": false
+      }
+    }
+  ],
+  "history_keys": [
+    "bankofenglandraisesinterestratesto4thefirstincreaseformorethanthreeyears",
+    "ministertellsenergysupplierstodomoretohelphouseholdstackleunpaidbillsthiswinter",
+    "firmstoldtopublishsalariesinjobadvertsaheadofnewlaw",
+    "metcommissionersirmarkrowleytowarnpolicingmustreformordecline",
+    "cancerdiagnoseshitrecordhighofmorethan1000peopleaday",
+    "sevenarrestedandpolicecarsetalightduringbonfirenightviolenceinscotland",
+    "walesseessharpestfallinshopperfootfallasstormsandrisingcostshitretailers",
+    "fluseasonbeginsearlyinwalesaseligiblepeopleurgedtogetvaccinated"
+  ]
+}
