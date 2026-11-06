@@ -1,0 +1,32 @@
+{
+  "type": "breaking",
+  "created_at": "2026-11-06T12:20:54.429710+00:00",
+  "item": {
+    "ref": 27,
+    "emoji": "🚇",
+    "title": "RMT üyesi Tube sürücüleri Noel öncesi sekiz grev kararı aldı",
+    "body": "RMT sendikasındaki Tube sürücüleri, dört günlük çalışma haftası planlarına karşı 16 gün içinde sekiz 24 saatlik grev ilan etti. Bunların altısı Noel öncesine denk geliyor. Grevler Kasım sonunda başlayacak ve Londra'da ulaşımı aksatabilir.",
+    "source": "Guardian",
+    "photo_query": "London Underground Tube train",
+    "person": "",
+    "person_role": "",
+    "category": "gundem",
+    "photo": {
+      "id": "pb:7401433",
+      "provider": "Pixabay",
+      "query": "London Underground Tube train",
+      "photographer": "26798947",
+      "page": "https://pixabay.com/photos/london-riesenrad-river-urlaub-7401433/",
+      "fallback": false
+    }
+  },
+  "caption": "🔴 SON DAKİKA | 🚇 RMT üyesi Tube sürücüleri Noel öncesi sekiz grev kararı aldı\n\nRMT sendikasındaki Tube sürücüleri, dört günlük çalışma haftası planlarına karşı 16 gün içinde sekiz 24 saatlik grev ilan etti. Bunların altısı Noel öncesine denk geliyor. Grevler Kasım sonunda başlayacak ve Londra'da ulaşımı aksatabilir.\n\nKaynak: Guardian | Görsel: Pixabay\nBirleşik Krallık Gündemi | 6 Kasım, 12:20\n\n#SonDakika #Londra #Grev #UlaşımKaosHazırlanıyor",
+  "images": [
+    "output/2026-11-06/breaking-122054.jpg"
+  ],
+  "story_image": "output/2026-11-06/breaking-122054-story.jpg",
+  "history_keys": [
+    "commutersandshoppersfacedisruptionfromtubedriverstrikesinrunuptochristmas"
+  ],
+  "published": false
+}
