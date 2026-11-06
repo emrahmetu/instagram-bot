@@ -301,6 +301,7 @@ STYLE = """Türkçe yazım ve üslup (bir Türk okurun doğal bulacağı dil):
   Kötü: "Çakılara Yer Yok kampanyası"  /  İyi: "Londra'da bıçak taşımaya karşı yeni kampanya başladı"
 - Zaman doğru olsun: henüz olmamış şeyi olmuş gibi yazma ("açıklanacak", "planlanıyor", "bekleniyor" ile "açıkladı" farkına dikkat).
 - Birimler: "mph" = "saatte ... mil" (ASLA kilometreye çevirme, ASLA "milyon" yazma). "£" = "... sterlin". "bn" = milyar, "m" = milyon.
+  Yüzdeleri yazıyla değil "%" işaretiyle yaz: "%75", "%3,9" ("yüzde 75" YAZMA).
   Sayıları kaynaktaki değerle birebir aynı yaz; yuvarlama ya da tahmin yapma. Ondalık için virgül kullan (3,5).
 - Kişilerin unvanını YALNIZCA kaynakta yazıyorsa kullan; kendi bilginden unvan ekleme (görevler değişmiş olabilir).
 - İngilizce deyimleri kelimesi kelimesine çevirme; anlamını düz Türkçe ile ver (ör. "cap in hand" = "avuç açmak").
@@ -969,15 +970,73 @@ def headline_list(d, items, y, bottom, max_w, sizes, num_w, accent, max_lines=3)
     return y
 
 
+def hero_photo(img, photo, h, accent, width=None):
+    """Kartın üst kısmına kenardan kenara fotoğraf; altına doğru hafif koyulaşan geçiş (başlık okunsun diye)."""
+    from PIL import Image, ImageDraw, ImageOps
+
+    w = width or img.width
+    if photo is not None:
+        ph = ImageOps.fit(photo, (w, h), method=Image.LANCZOS, centering=photo.info.get("centering", (0.5, 0.45)))
+    else:
+        ph = Image.new("RGB", (w, h), accent)
+    ph = ph.convert("RGBA")
+    over = Image.new("RGBA", (w, h), (0, 0, 0, 0))
+    od = ImageDraw.Draw(over)
+    for y in range(h):
+        t = max(0.0, (y - h * 0.35) / (h * 0.65))
+        od.line([0, y, w, y], fill=(10, 16, 30, int(175 * t * t)))
+    img.paste(Image.alpha_composite(ph, over).convert("RGB"), (0, 0))
+    return ImageDraw.Draw(img)
+
+
+def badge_list(d, items, y, bottom, max_w, sizes, max_lines=3):
+    """Açık zeminde numaralı başlık listesi: her haberin kategori renginde yuvarlak numara rozeti, başlık tam görünür."""
+    for size in sizes:
+        f_t = font("bold", size)
+        r = int(size * 0.78)                         # rozet yarıçapı
+        text_x = MARGIN + 2 * r + 24
+        lh, gap = int(size * 1.24), int(size * 0.55)
+        blocks = [wrap(d, no_emoji(it["title"]), f_t, max_w - (text_x - MARGIN)) for it in items]
+        total = sum(max(lh * len(ls), 2 * r) + 2 * gap for ls in blocks)
+        if y + total <= bottom and all(len(ls) <= max_lines for ls in blocks):
+            break
+    f_n = font("bold", int(size * 0.8))
+    for i, (it, ls) in enumerate(zip(items, blocks), 1):
+        y += gap
+        color = cat_of(it)[1]
+        block_h = max(lh * len(ls), 2 * r)
+        cy = y + min(block_h, lh * len(ls)) // 2 if len(ls) > 1 else y + lh // 2
+        d.ellipse([MARGIN, cy - r, MARGIN + 2 * r, cy + r], fill=color)
+        num = str(i)
+        d.text((MARGIN + r - d.textlength(num, font=f_n) / 2, cy - int(size * 0.5)), num, font=f_n, fill=WHITE)
+        draw_lines(d, text_x, y + (block_h - lh * len(ls)) // 2, ls, f_t, lh, INK)
+        y += block_h + gap
+        if i < len(blocks):
+            d.line([text_x, y, MARGIN + max_w, y], fill=PANEL, width=2)
+    return y
+
+
+def pill_color(photo):
+    """Fotoğraftan seçilen vurgu rengini, üstüne beyaz yazı okunacak koyulukta döndürür (renksizse varsayılan mavi)."""
+    import colorsys
+
+    accent, _ = photo_palette(photo, ACCENT)
+    h, s_, v = colorsys.rgb_to_hsv(*(c / 255 for c in accent))
+    if s_ < 0.25:
+        return ACCENT
+    return tuple(int(c * 255) for c in colorsys.hsv_to_rgb(h, max(s_, 0.6), 0.72))
+
+
 def render_cover(items, day, path, photo=None):
-    """Kapak: arka planda İngiltere fotoğrafı (haber kartlarından farklı), üstünde günün tüm başlıkları."""
-    accent, shade = photo_palette(photo, ACCENT)
-    img, d = photo_canvas(photo, W, H, shade, top_fade=0, solid_from=330)
-    tracked(d, (MARGIN, 92), COVER_LABEL, font("bold", 26), accent, spacing=4)
-    d.text((MARGIN, 134), BRAND_TITLE, font=font("bold", 56), fill=WHITE)
-    d.rectangle([MARGIN, 222, MARGIN + 96, 230], fill=accent)
-    headline_list(d, items, 262, H - 140, W - 2 * MARGIN, range(38, 23, -1), 66, accent)
-    photo_footer(d, L("Detaylar için kaydırın  →", "Swipe for details  →"), W, H)
+    """Kapak: üstte büyük İngiltere fotoğrafı ve marka başlığı, altta açık zeminde renkli rozetli başlık listesi."""
+    accent = pill_color(photo)
+    img, d = clean_canvas()
+    hero_h = 400
+    d = hero_photo(img, photo, hero_h, accent)
+    chip(d, MARGIN, hero_h - 176, COVER_LABEL, accent, size=24, pad_x=20, pad_y=10, fg=WHITE)
+    d.text((MARGIN, hero_h - 112), BRAND_TITLE, font=font("bold", 62), fill=WHITE)
+    badge_list(d, items, hero_h + 24, H - 128, W - 2 * MARGIN, range(34, 22, -1))
+    footer(d, L("Detaylar için kaydırın  →", "Swipe for details  →"))
     img.save(path, "JPEG", quality=92, optimize=True)
 
 
@@ -1275,12 +1334,13 @@ def story_cta(d, line1=None, line2=None, accent=INK):
 
 
 def render_story(items, day, path, photo=None):
-    accent, shade = photo_palette(photo, ACCENT)
-    img, d = photo_canvas(photo, SW, SH, shade, top_fade=0, solid_from=STORY_SAFE_TOP + 200)
-    tracked(d, (MARGIN, STORY_SAFE_TOP), COVER_LABEL, font("bold", 30), accent, spacing=4)
-    d.text((MARGIN, STORY_SAFE_TOP + 48), BRAND_TITLE, font=font("bold", 62), fill=WHITE)
-    d.rectangle([MARGIN, STORY_SAFE_TOP + 150, MARGIN + 96, STORY_SAFE_TOP + 158], fill=accent)
-    headline_list(d, items, STORY_SAFE_TOP + 190, STORY_SAFE_BOTTOM - 240, SW - 2 * MARGIN, range(46, 27, -1), 76, accent)
+    accent = pill_color(photo)
+    img, d = clean_canvas(SW, SH)
+    hero_h = STORY_SAFE_TOP + 250
+    d = hero_photo(img, photo, hero_h, accent, SW)
+    chip(d, MARGIN, hero_h - 196, COVER_LABEL, accent, size=28, pad_x=22, pad_y=11, fg=WHITE)
+    d.text((MARGIN, hero_h - 124), BRAND_TITLE, font=font("bold", 68), fill=WHITE)
+    badge_list(d, items, hero_h + 20, STORY_SAFE_BOTTOM - 226, SW - 2 * MARGIN, range(44, 25, -1))
     story_cta(d, accent=accent)
     img.save(path, "JPEG", quality=92, optimize=True)
 
