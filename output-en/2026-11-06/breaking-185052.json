@@ -1,0 +1,32 @@
+{
+  "type": "breaking",
+  "created_at": "2026-11-06T18:50:52.575055+00:00",
+  "item": {
+    "ref": 10,
+    "emoji": "🏥",
+    "title": "British Ebola patient flown to UK will go to specialist hospital",
+    "body": "A man has been flown back to the UK from the Democratic Republic of the Congo. He will be taken to one of two hospitals equipped to deal with Ebola. Experts have explained the risk to the public.",
+    "source": "The Independent",
+    "photo_query": "NHS hospital specialist unit",
+    "person": "",
+    "person_role": "",
+    "category": "saglik",
+    "photo": {
+      "id": "pb:1704855",
+      "provider": "Pixabay",
+      "query": "NHS hospital specialist unit",
+      "photographer": "com329329",
+      "page": "https://pixabay.com/photos/x-ray-medical-treatment-arm-doctor-1704855/",
+      "fallback": false
+    }
+  },
+  "caption": "🔴 BREAKING | 🏥 British Ebola patient flown to UK will go to specialist hospital\n\nA man has been flown back to the UK from the Democratic Republic of the Congo. He will be taken to one of two hospitals equipped to deal with Ebola. Experts have explained the risk to the public.\n\nSource: The Independent | Image: Pixabay\nUK Daily Briefing | 6 November, 18:50\n\n#BreakingNews #Ebola #UK #Health",
+  "images": [
+    "output-en/2026-11-06/breaking-185052.jpg"
+  ],
+  "story_image": "output-en/2026-11-06/breaking-185052-story.jpg",
+  "history_keys": [
+    "britishebolapatienttakentospecialisthospitalasexpertsexplainrisktopublic"
+  ],
+  "published": false
+}
