@@ -1,0 +1,32 @@
+{
+  "type": "breaking",
+  "created_at": "2026-11-06T11:50:46.345999+00:00",
+  "item": {
+    "ref": 19,
+    "emoji": "🚇",
+    "title": "Tube drivers call eight 24-hour strikes, six in run-up to Christmas",
+    "body": "Tube drivers in the RMT union have called eight 24-hour strikes over 16 days, six of them in the run-up to Christmas. The action is in opposition to plans for a four-day week and threatens transport disruption across the capital.",
+    "source": "Guardian",
+    "photo_query": "London Underground train platform",
+    "person": "",
+    "person_role": "",
+    "category": "gundem",
+    "photo": {
+      "id": "pb:6606421",
+      "provider": "Pixabay",
+      "query": "London Underground train platform",
+      "photographer": "TheOtherKev",
+      "page": "https://pixabay.com/photos/train-people-subway-rush-hour-6606421/",
+      "fallback": false
+    }
+  },
+  "caption": "🔴 BREAKING | 🚇 Tube drivers call eight 24-hour strikes, six in run-up to Christmas\n\nTube drivers in the RMT union have called eight 24-hour strikes over 16 days, six of them in the run-up to Christmas. The action is in opposition to plans for a four-day week and threatens transport disruption across the capital.\n\nSource: Guardian | Image: Pixabay\nUK Daily Briefing | 6 November, 11:50\n\n#BreakingNews #TubeStrikes #LondonTransport",
+  "images": [
+    "output-en/2026-11-06/breaking-115046.jpg"
+  ],
+  "story_image": "output-en/2026-11-06/breaking-115046-story.jpg",
+  "history_keys": [
+    "commutersandshoppersfacedisruptionfromtubedriverstrikesinrunuptochristmas"
+  ],
+  "published": false
+}
