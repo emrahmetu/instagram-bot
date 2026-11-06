@@ -1,0 +1,181 @@
+{
+  "date": "2026-11-06",
+  "caption": "🇬🇧 Birleşik Krallık Gündemi | 6 Kasım 2026, Cuma\n\n1. ⚖️ Court of Appeal, TOEIC davasında Home Office lehine karar verdi\nHome Office'in TOEIC sınavında haksız yere hileyle suçladığı Mr Hossain, süresiz oturum izni verilmemesine yönelik itirazını kaybetti. Court of Appeal, Upper Tribunal'ın Hossain lehine verdiği kararı bozdu.\n\n2. 🏥 Ebola'ya yakalanan İngiliz doktor Londra'daki özel üniteye getirildi\nEbola'ya yakalanan İngiliz doktor, Londra'daki bir hastanede bulunan özel üniteye ulaştı.\n\n3. 🚔 Met Commissioner Sir Mark Rowley: Polis reform yapmazsa geriler\nMet Commissioner Sir Mark Rowley, polisliğin reform yapmazsa gerileyeceği uyarısında bulunacak. Önerileri arasında polis gücü sayısının 43'ten en az sekize indirilmesi de var.\n\n4. 💼 Şirketlerden yeni yasa öncesi iş ilanlarında maaş yazmaları istendi\nHükümet, değişikliğin iş arayanlara yardımcı olacağını savunuyor. Hükümete göre düzenleme, ücret ayrımcılığının önlenmesine de katkı sağlayabilir.\n\n5. 💷 Bank of England faizi yüzde 4'e çıkardı\nBank of England faizi yüzde 3,75'ten yüzde 4'e yükseltti. Üç yılı aşkın sürenin ilk artışı oldu. Bank'ın başkanı, İran savaşının yarattığı enflasyon baskısına karşı yakında bir artış daha olabileceğini belirtti.\n\n6. 🔥 İskoçya'da Bonfire Night olaylarında yedi kişi gözaltına alındı\nİskoçya'nın bazı bölgelerindeki olaylarda acil durum çalışanlarına havai fişek atıldı ve bir polis aracı ateşe verildi. Polis, yedi kişinin gözaltına alındığını açıkladı.\n\n7. 👑 Prens William, Country Life'a konuk editör olup yaşamını anlatacak\nPrens William, Country Life'ın gelecek hafta çıkacak özel sayısında buzlu elma şarabı (cider) sevgisinden söz edecek.\n\n8. 🏥 İngiltere'de günde 1.000'den fazla kişiye kanser tanısı konuyor\nNHS verilerine göre kanser tanısı rekor seviyeye ulaştı. Uzmanlar, NHS'in daha fazla vaka tespit ettiğini ama tanı ve tedavi süresi hedeflerini hâlâ tutturamadığını söylüyor.\n\nKaynaklar: Free Movement, Metro, BBC, Guardian, Evening Standard. Haberler Türkçe özet olarak derlenmiştir. Görseller: Pixabay. Fotoğraflar: Prime Minister's Office / OGL 3, Wikimedia Commons.\n\n#İngiltere #Londra #UKNews #İmmigration #Göç #Sağlık #NHS #İşGüvenliği #Ekonomi #KralivetAilesi",
+  "images": [
+    "output/2026-11-06/00.jpg",
+    "output/2026-11-06/01.jpg",
+    "output/2026-11-06/02.jpg",
+    "output/2026-11-06/03.jpg",
+    "output/2026-11-06/04.jpg",
+    "output/2026-11-06/05.jpg",
+    "output/2026-11-06/06.jpg",
+    "output/2026-11-06/07.jpg",
+    "output/2026-11-06/08.jpg"
+  ],
+  "story_image": "output/2026-11-06/story.jpg",
+  "items": [
+    {
+      "ref": 1,
+      "emoji": "⚖️",
+      "title": "Court of Appeal, TOEIC davasında Home Office lehine karar verdi",
+      "body": "Home Office'in TOEIC sınavında haksız yere hileyle suçladığı Mr Hossain, süresiz oturum izni verilmemesine yönelik itirazını kaybetti. Court of Appeal, Upper Tribunal'ın Hossain lehine verdiği kararı bozdu.",
+      "source": "Free Movement",
+      "photo_query": "UK court of law building",
+      "person": "",
+      "person_role": "",
+      "category": "goc",
+      "photo": {
+        "id": "pb:4944558",
+        "provider": "Pixabay",
+        "query": "UK court of law building",
+        "photographer": "advogadoaguilar",
+        "page": "https://pixabay.com/photos/right-advocacy-lex-attorney-jura-4944558/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 25,
+      "emoji": "🏥",
+      "title": "Ebola'ya yakalanan İngiliz doktor Londra'daki özel üniteye getirildi",
+      "body": "Ebola'ya yakalanan İngiliz doktor, Londra'daki bir hastanede bulunan özel üniteye ulaştı.",
+      "source": "Metro",
+      "photo_query": "London hospital NHS emergency",
+      "person": "",
+      "person_role": "",
+      "category": "saglik",
+      "photo": {
+        "id": "pb:5795695",
+        "provider": "Pixabay",
+        "query": "London hospital NHS emergency",
+        "photographer": "lawlesscapture",
+        "page": "https://pixabay.com/photos/parliament-building-tower-bridge-5795695/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 34,
+      "emoji": "🚔",
+      "title": "Met Commissioner Sir Mark Rowley: Polis reform yapmazsa geriler",
+      "body": "Met Commissioner Sir Mark Rowley, polisliğin reform yapmazsa gerileyeceği uyarısında bulunacak. Önerileri arasında polis gücü sayısının 43'ten en az sekize indirilmesi de var.",
+      "source": "BBC",
+      "photo_query": "UK police officer uniform",
+      "person": "Mark Rowley",
+      "person_role": "official",
+      "category": "guvenlik",
+      "photo": {
+        "id": "pb:2585928",
+        "provider": "Pixabay",
+        "query": "UK police officer uniform",
+        "photographer": "terimakasih0",
+        "page": "https://pixabay.com/photos/policeman-officer-police-law-2585928/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 29,
+      "emoji": "💼",
+      "title": "Şirketlerden yeni yasa öncesi iş ilanlarında maaş yazmaları istendi",
+      "body": "Hükümet, değişikliğin iş arayanlara yardımcı olacağını savunuyor. Hükümete göre düzenleme, ücret ayrımcılığının önlenmesine de katkı sağlayabilir.",
+      "source": "BBC",
+      "photo_query": "job vacancy advertisement board",
+      "person": "Andy Burnham",
+      "person_role": "politician",
+      "category": "ekonomi",
+      "photo": {
+        "id": "wm:Prime Minister Andy Burnham portrait (cropped).jpg",
+        "provider": "Wikimedia Commons",
+        "person": "Andy Burnham",
+        "license": "OGL 3",
+        "photographer": "Prime Minister's Office",
+        "page": "https://commons.wikimedia.org/wiki/File:Prime_Minister_Andy_Burnham_portrait_(cropped).jpg",
+        "credit": "Prime Minister's Office / OGL 3, Wikimedia Commons"
+      }
+    },
+    {
+      "ref": 112,
+      "emoji": "💷",
+      "title": "Bank of England faizi yüzde 4'e çıkardı",
+      "body": "Bank of England faizi yüzde 3,75'ten yüzde 4'e yükseltti. Üç yılı aşkın sürenin ilk artışı oldu. Bank'ın başkanı, İran savaşının yarattığı enflasyon baskısına karşı yakında bir artış daha olabileceğini belirtti.",
+      "source": "Guardian",
+      "photo_query": "Bank of England building sterling",
+      "person": "",
+      "person_role": "",
+      "category": "ekonomi",
+      "photo": {
+        "id": "pb:4661859",
+        "provider": "Pixabay",
+        "query": "Bank of England building sterling",
+        "photographer": "atanaspaskalev",
+        "page": "https://pixabay.com/photos/saint-georges-hall-liverpool-4661859/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 24,
+      "emoji": "🔥",
+      "title": "İskoçya'da Bonfire Night olaylarında yedi kişi gözaltına alındı",
+      "body": "İskoçya'nın bazı bölgelerindeki olaylarda acil durum çalışanlarına havai fişek atıldı ve bir polis aracı ateşe verildi. Polis, yedi kişinin gözaltına alındığını açıkladı.",
+      "source": "BBC",
+      "photo_query": "Bonfire Night fireworks Scotland",
+      "person": "",
+      "person_role": "",
+      "category": "guvenlik",
+      "photo": {
+        "id": "pb:4724867",
+        "provider": "Pixabay",
+        "query": "Bonfire Night fireworks Scotland",
+        "photographer": "KAVOWO",
+        "page": "https://pixabay.com/photos/sparkler-spark-fireworks-light-4724867/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 28,
+      "emoji": "👑",
+      "title": "Prens William, Country Life'a konuk editör olup yaşamını anlatacak",
+      "body": "Prens William, Country Life'ın gelecek hafta çıkacak özel sayısında buzlu elma şarabı (cider) sevgisinden söz edecek.",
+      "source": "Evening Standard",
+      "photo_query": "Prince William Country Life magazine",
+      "person": "William, Prince of Wales",
+      "person_role": "royal",
+      "category": "kraliyet",
+      "photo": {
+        "id": "pb:9293711",
+        "provider": "Pixabay",
+        "query": "Prince William Country Life magazine",
+        "photographer": "Sunriseforever",
+        "page": "https://pixabay.com/photos/woman-autumn-field-nature-9293711/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 98,
+      "emoji": "🏥",
+      "title": "İngiltere'de günde 1.000'den fazla kişiye kanser tanısı konuyor",
+      "body": "NHS verilerine göre kanser tanısı rekor seviyeye ulaştı. Uzmanlar, NHS'in daha fazla vaka tespit ettiğini ama tanı ve tedavi süresi hedeflerini hâlâ tutturamadığını söylüyor.",
+      "source": "Guardian",
+      "photo_query": "NHS hospital cancer treatment",
+      "person": "",
+      "person_role": "",
+      "category": "saglik",
+      "photo": {
+        "id": "pb:85574",
+        "provider": "Pixabay",
+        "query": "NHS hospital cancer treatment",
+        "photographer": "12019",
+        "page": "https://pixabay.com/photos/surgery-operation-hospital-patient-85574/",
+        "fallback": false
+      }
+    }
+  ],
+  "history_keys": [
+    "courtofappealoverturnsgeneroustoeicuppertribunaldecision",
+    "britishdoctorinfectedwithebolaarrivesatspecialisedunitinlondonhospital",
+    "metcommissionersirmarkrowleytowarnpolicingmustreformordecline",
+    "firmstoldtopublishsalariesinjobadvertsaheadofnewlaw",
+    "bankofenglandraisesinterestratesto4thefirstincreaseformorethanthreeyears",
+    "sevenarrestedandpolicecarsetalightduringbonfirenightviolenceinscotland",
+    "williamtogiveinsightintopublicandprivatelifeasheguesteditsmagazine",
+    "cancerdiagnosesinenglandhitrecordhighofmorethan1000peopleaday"
+  ]
+}
