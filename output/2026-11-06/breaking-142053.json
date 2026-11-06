@@ -1,0 +1,32 @@
+{
+  "type": "breaking",
+  "created_at": "2026-11-06T14:20:53.682599+00:00",
+  "item": {
+    "ref": 8,
+    "emoji": "✈️",
+    "title": "Avrupa'da yeni bomba tehditleri en az 18 uçuşu aksattı",
+    "body": "Yeni bir bomba tehdidi dalgası Avrupa'da hava trafiğini aksattı. Etkilenen uçaklar güvenle indi, aramalarda patlayıcı bulunmadı. Tehditler Bulgaristan, Çekya, Fransa, İtalya, Macaristan, Kıbrıs, Romanya, Birleşik Krallık ve Portekiz'e giden ya da bu ülkelerden kalkan en az 18 uçuşu etkiledi.",
+    "source": "Guardian",
+    "photo_query": "airport security bomb threat",
+    "person": "",
+    "person_role": "",
+    "category": "guvenlik",
+    "photo": {
+      "id": "pb:409000",
+      "provider": "Pixabay",
+      "query": "airport security bomb threat",
+      "photographer": "stevepb",
+      "page": "https://pixabay.com/photos/firearm-handgun-revolver-gun-409000/",
+      "fallback": false
+    }
+  },
+  "caption": "🔴 SON DAKİKA | ✈️ Avrupa'da yeni bomba tehditleri en az 18 uçuşu aksattı\n\nYeni bir bomba tehdidi dalgası Avrupa'da hava trafiğini aksattı. Etkilenen uçaklar güvenle indi, aramalarda patlayıcı bulunmadı. Tehditler Bulgaristan, Çekya, Fransa, İtalya, Macaristan, Kıbrıs, Romanya, Birleşik Krallık ve Portekiz'e giden ya da bu ülkelerden kalkan en az 18 uçuşu etkiledi.\n\nKaynak: Guardian | Görsel: Pixabay\nBirleşik Krallık Gündemi | 6 Kasım, 14:20\n\n#SonDakika #BombaTehdit #Avrupa",
+  "images": [
+    "output/2026-11-06/breaking-142053.jpg"
+  ],
+  "story_image": "output/2026-11-06/breaking-142053-story.jpg",
+  "history_keys": [
+    "furtherbombthreatsdisruptatleastanother18flightsacrosseurope"
+  ],
+  "published": false
+}
