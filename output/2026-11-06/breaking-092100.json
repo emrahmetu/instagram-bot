@@ -1,0 +1,33 @@
+{
+  "type": "breaking",
+  "created_at": "2026-11-06T09:21:00.581933+00:00",
+  "item": {
+    "ref": 6,
+    "emoji": "💼",
+    "title": "Başbakan Burnham: İş ilanlarında maaş belirtmek zorunlu olacak",
+    "body": "Başbakan Andy Burnham, şirketlerin iş ilanlarında maaş bilgisini yayımlamasını yasal zorunluluk haline getireceklerini açıkladı. Amaç, çalışanları ve iş arayanları güçlendirmek. Çalışan hakları savunucuları, uygulamanın özellikle genç ve kadınların eşit ücret almasına yardımcı olacağını söylüyor.",
+    "source": "Guardian",
+    "photo_query": "job vacancy salary employment",
+    "person": "Andy Burnham",
+    "person_role": "politician",
+    "category": "ekonomi",
+    "photo": {
+      "id": "wm:Prime Minister Andy Burnham portrait (cropped).jpg",
+      "provider": "Wikimedia Commons",
+      "person": "Andy Burnham",
+      "license": "OGL 3",
+      "photographer": "Prime Minister's Office",
+      "page": "https://commons.wikimedia.org/wiki/File:Prime_Minister_Andy_Burnham_portrait_(cropped).jpg",
+      "credit": "Prime Minister's Office / OGL 3, Wikimedia Commons"
+    }
+  },
+  "caption": "🔴 SON DAKİKA | 💼 Başbakan Burnham: İş ilanlarında maaş belirtmek zorunlu olacak\n\nBaşbakan Andy Burnham, şirketlerin iş ilanlarında maaş bilgisini yayımlamasını yasal zorunluluk haline getireceklerini açıkladı. Amaç, çalışanları ve iş arayanları güçlendirmek. Çalışan hakları savunucuları, uygulamanın özellikle genç ve kadınların eşit ücret almasına yardımcı olacağını söylüyor.\n\nKaynak: Guardian | Görsel: Prime Minister's Office / OGL 3, Wikimedia Commons\nBirleşik Krallık Gündemi | 6 Kasım, 09:21\n\n#SonDakika #İşGücü #Maaş",
+  "images": [
+    "output/2026-11-06/breaking-092100.jpg"
+  ],
+  "story_image": "output/2026-11-06/breaking-092100-story.jpg",
+  "history_keys": [
+    "employerstobeforcedtoputsalariesonjobadsandyburnhamannounces"
+  ],
+  "published": false
+}
