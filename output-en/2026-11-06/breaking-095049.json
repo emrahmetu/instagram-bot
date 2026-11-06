@@ -1,0 +1,33 @@
+{
+  "type": "breaking",
+  "created_at": "2026-11-06T09:50:49.447895+00:00",
+  "item": {
+    "ref": 2,
+    "emoji": "📋",
+    "title": "Burnham says employers will have to publish salaries on job adverts",
+    "body": "Prime Minister Andy Burnham has announced that his government will bring in a legal requirement for companies to state what they pay when listing new jobs. It is the government's latest \"small fix\" to help improve people's lives.",
+    "source": "Guardian",
+    "photo_query": "job advert newspaper",
+    "person": "Andy Burnham",
+    "person_role": "politician",
+    "category": "ekonomi",
+    "photo": {
+      "id": "wm:Prime Minister Andy Burnham portrait (cropped).jpg",
+      "provider": "Wikimedia Commons",
+      "person": "Andy Burnham",
+      "license": "OGL 3",
+      "photographer": "Prime Minister's Office",
+      "page": "https://commons.wikimedia.org/wiki/File:Prime_Minister_Andy_Burnham_portrait_(cropped).jpg",
+      "credit": "Prime Minister's Office / OGL 3, Wikimedia Commons"
+    }
+  },
+  "caption": "🔴 BREAKING | 📋 Burnham says employers will have to publish salaries on job adverts\n\nPrime Minister Andy Burnham has announced that his government will bring in a legal requirement for companies to state what they pay when listing new jobs. It is the government's latest \"small fix\" to help improve people's lives.\n\nSource: Guardian | Image: Prime Minister's Office / OGL 3, Wikimedia Commons\nUK Daily Briefing | 6 November, 09:50\n\n#BreakingNews #WorkRights #Pay",
+  "images": [
+    "output-en/2026-11-06/breaking-095049.jpg"
+  ],
+  "story_image": "output-en/2026-11-06/breaking-095049-story.jpg",
+  "history_keys": [
+    "burnhamtoforceemployerstopublishsalariesonjobadsinlatestgovernmentsmallfixukpoliticslive"
+  ],
+  "published": false
+}
