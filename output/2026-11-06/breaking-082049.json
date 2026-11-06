@@ -1,0 +1,32 @@
+{
+  "type": "breaking",
+  "created_at": "2026-11-06T08:20:49.850062+00:00",
+  "item": {
+    "ref": 4,
+    "emoji": "📉",
+    "title": "Birleşik Krallık'ta ev fiyatları üç yıldan uzun sürenin en sert düşüşünü yaşadı",
+    "body": "Lloyds'a göre ev fiyatları ekimde yüzde 0,6 düştü. Ortalama konut fiyatı 296.285 sterline geriledi. Fiyatlar dört aydır üst üste düşüyor. Yüksek mortgage faizleri konut piyasasını olumsuz etkiliyor.",
+    "source": "Guardian",
+    "photo_query": "UK house prices declining mortgage rates",
+    "person": "",
+    "person_role": "",
+    "category": "ekonomi",
+    "photo": {
+      "id": "pb:20319",
+      "provider": "Pixabay",
+      "query": "UK house prices declining mortgage rates",
+      "photographer": "PublicDomainPictures",
+      "page": "https://pixabay.com/photos/numbers-figures-background-red-20319/",
+      "fallback": false
+    }
+  },
+  "caption": "🔴 SON DAKİKA | 📉 Birleşik Krallık'ta ev fiyatları üç yıldan uzun sürenin en sert düşüşünü yaşadı\n\nLloyds'a göre ev fiyatları ekimde yüzde 0,6 düştü. Ortalama konut fiyatı 296.285 sterline geriledi. Fiyatlar dört aydır üst üste düşüyor. Yüksek mortgage faizleri konut piyasasını olumsuz etkiliyor.\n\nKaynak: Guardian | Görsel: Pixabay\nBirleşik Krallık Gündemi | 6 Kasım, 08:20\n\n#SonDakika #KonutFiyatları #EkonomiUK",
+  "images": [
+    "output/2026-11-06/breaking-082049.jpg"
+  ],
+  "story_image": "output/2026-11-06/breaking-082049-story.jpg",
+  "history_keys": [
+    "ukhousepricesfallatsteepestrateinmorethanthreeyears"
+  ],
+  "published": false
+}
