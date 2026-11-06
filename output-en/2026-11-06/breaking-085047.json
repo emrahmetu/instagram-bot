@@ -1,0 +1,32 @@
+{
+  "type": "breaking",
+  "created_at": "2026-11-06T08:50:47.989095+00:00",
+  "item": {
+    "ref": 10,
+    "emoji": "📉",
+    "title": "UK house prices fall at steepest rate in more than three years",
+    "body": "Lloyds says the average UK property price was £296,285 in October, after a 0.6% drop. It was the fourth consecutive monthly decline, as high mortgage rates hit the housing market.",
+    "source": "Guardian",
+    "photo_query": "UK house for sale sign",
+    "person": "",
+    "person_role": "",
+    "category": "ekonomi",
+    "photo": {
+      "id": "pb:4736188",
+      "provider": "Pixabay",
+      "query": "UK house for sale sign",
+      "photographer": "matthiasboeckel",
+      "page": "https://pixabay.com/photos/store-window-reflection-fashion-4736188/",
+      "fallback": false
+    }
+  },
+  "caption": "🔴 BREAKING | 📉 UK house prices fall at steepest rate in more than three years\n\nLloyds says the average UK property price was £296,285 in October, after a 0.6% drop. It was the fourth consecutive monthly decline, as high mortgage rates hit the housing market.\n\nSource: Guardian | Image: Pixabay\nUK Daily Briefing | 6 November, 08:50\n\n#BreakingNews #HousingMarket #UK",
+  "images": [
+    "output-en/2026-11-06/breaking-085047.jpg"
+  ],
+  "story_image": "output-en/2026-11-06/breaking-085047-story.jpg",
+  "history_keys": [
+    "ukhousepricesfallatsteepestrateinmorethanthreeyears"
+  ],
+  "published": false
+}
