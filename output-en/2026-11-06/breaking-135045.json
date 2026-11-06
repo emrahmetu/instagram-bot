@@ -1,0 +1,32 @@
+{
+  "type": "breaking",
+  "created_at": "2026-11-06T13:50:45.645790+00:00",
+  "item": {
+    "ref": 6,
+    "emoji": "✈️",
+    "title": "Fresh bomb threats disrupt at least 18 flights across Europe",
+    "body": "At least 18 flights to or from Bulgaria, Czechia, France, Italy, Hungary, Cyprus, Romania, the UK and Portugal were disrupted. All planes landed safely and searches found no explosive devices. The alerts appear to be part of a coordinated effort.",
+    "source": "Guardian",
+    "photo_query": "airport security checkpoint",
+    "person": "",
+    "person_role": "",
+    "category": "gundem",
+    "photo": {
+      "id": "pb:9618421",
+      "provider": "Pixabay",
+      "query": "airport security checkpoint",
+      "photographer": "wal_172619",
+      "page": "https://pixabay.com/photos/airport-people-waiting-room-wait-9618421/",
+      "fallback": false
+    }
+  },
+  "caption": "🔴 BREAKING | ✈️ Fresh bomb threats disrupt at least 18 flights across Europe\n\nAt least 18 flights to or from Bulgaria, Czechia, France, Italy, Hungary, Cyprus, Romania, the UK and Portugal were disrupted. All planes landed safely and searches found no explosive devices. The alerts appear to be part of a coordinated effort.\n\nSource: Guardian | Image: Pixabay\nUK Daily Briefing | 6 November, 13:50\n\n#BreakingNews #BombThreats #AirTravel",
+  "images": [
+    "output-en/2026-11-06/breaking-135045.jpg"
+  ],
+  "story_image": "output-en/2026-11-06/breaking-135045-story.jpg",
+  "history_keys": [
+    "furtherbombthreatsdisruptatleastanother18flightsacrosseurope"
+  ],
+  "published": false
+}
