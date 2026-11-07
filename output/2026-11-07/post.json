@@ -1,0 +1,180 @@
+{
+  "date": "2026-11-07",
+  "caption": "🇬🇧 Birleşik Krallık Gündemi | 7 Kasım 2026, Cumartesi\n\n1. 🎓 UKVI, Student sponsor lisansı rehberini yayımladı\nUKVI, Student sponsor lisansına nasıl başvurulacağını ve bir öğrencinin nasıl sponsor edileceğini anlatan rehberi yayımladı.\n\n2. 👨‍👩‍ Aile hayatı ve olağanüstü durumlara dair personel rehberi yayımlandı\nGöçmenlik personeline yönelik rehber, eş veya ebeveyn olarak aile hayatına ya da olağanüstü koşullara dayanan başvuruların nasıl değerlendirileceğini açıklıyor.\n\n3. 🌍 High Potential Individual vizesi için global üniversiteler listesi yayımlandı\nListe, üniversite diplomasının High Potential Individual vizesi için başvuru hakkı tanıyıp tanımadığını gösteriyor.\n\n4. 🔪 Büyük perakendeciler reşit olmayanlara bıçak satışını önlemeyi kabul etti\nBüyük perakendecilerle gönüllü bir anlaşma yapıldı.\n\n5. 🛰️ İngiltere yeni bir askeri gözlem uydusunu uzaya fırlattı\nKeşif uydusu, silahlı kuvvetlerin Dünya'daki askeri faaliyetleri izlemesine yardımcı olacak.\n\n6. 🏠 Erken serbest bırakılan mahkumlar sokakta kalma riskiyle karşı karşıya\nProbation çalışanları, erken salıverilen mahkumların geçici konaklama süresi dolunca sokakta kalabileceği uyarısında bulundu.\n\n7. 🚓 İngiliz belediye başkanları \"süper polis gücü\" planına karşı çıktı\nBölge liderleri, Met şefinin 43 polis gücünün 8 veya 10'a indirilmesi çağrısını eleştirdi.\n\n8. 🏦 Lloyds Banking Group 2026 ve 2027'de 250 noktayı kapatacak\nLloyds Banking Group, Halifax ve Bank of Scotland şubeleri dahil ağındaki 250 noktayı 2026 ve 2027 boyunca kapatacağını doğruladı.\n\nKaynaklar: GOV.UK UKVI, GOV.UK Home Office, The Independent, Guardian, Metro. Haberler Türkçe özet olarak derlenmiştir. Görseller: Pixabay.\n\n#İngiltere #UKNews #Londra #Göç #Vize #Emniyet #Ekonomi #BankalarKapanıyor #BritishNews #YasalHaberler",
+  "images": [
+    "output/2026-11-07/00.jpg",
+    "output/2026-11-07/01.jpg",
+    "output/2026-11-07/02.jpg",
+    "output/2026-11-07/03.jpg",
+    "output/2026-11-07/04.jpg",
+    "output/2026-11-07/05.jpg",
+    "output/2026-11-07/06.jpg",
+    "output/2026-11-07/07.jpg",
+    "output/2026-11-07/08.jpg"
+  ],
+  "story_image": "output/2026-11-07/story.jpg",
+  "items": [
+    {
+      "ref": 2,
+      "emoji": "🎓",
+      "title": "UKVI, Student sponsor lisansı rehberini yayımladı",
+      "body": "UKVI, Student sponsor lisansına nasıl başvurulacağını ve bir öğrencinin nasıl sponsor edileceğini anlatan rehberi yayımladı. Rehber, kurumlara ve sponsorlara başvuru sürecini açıklıyor.",
+      "source": "GOV.UK UKVI",
+      "photo_query": "UK university students campus",
+      "person": "",
+      "person_role": "",
+      "category": "goc",
+      "photo": {
+        "id": "pb:6078679",
+        "provider": "Pixabay",
+        "query": "UK university students campus",
+        "photographer": "Sum2000",
+        "page": "https://pixabay.com/photos/students-group-meeting-discussion-6078679/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 5,
+      "emoji": "👨‍👩‍",
+      "title": "Aile hayatı ve olağanüstü durumlara dair personel rehberi yayımlandı",
+      "body": "Göçmenlik personeline yönelik rehber, eş veya ebeveyn olarak aile hayatına ya da olağanüstü koşullara dayanan başvuruların nasıl değerlendirileceğini açıklıyor.",
+      "source": "GOV.UK UKVI",
+      "photo_query": "UK family immigration documentation",
+      "person": "",
+      "person_role": "",
+      "category": "goc",
+      "photo": {
+        "id": "pb:9034408",
+        "provider": "Pixabay",
+        "query": "UK family immigration documentation",
+        "photographer": "Moroznaya_Photo",
+        "page": "https://pixabay.com/photos/mom-family-woman-daughter-portrait-9034408/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 13,
+      "emoji": "🌍",
+      "title": "High Potential Individual vizesi için global üniversiteler listesi yayımlandı",
+      "body": "Liste, üniversite diplomasının High Potential Individual vizesi için başvuru hakkı tanıyıp tanımadığını gösteriyor. Adaylar mezun oldukları kurumun listede olup olmadığına bakabilir.",
+      "source": "GOV.UK UKVI",
+      "photo_query": "British university buildings graduation",
+      "person": "",
+      "person_role": "",
+      "category": "goc",
+      "photo": {
+        "id": "pb:2613182",
+        "provider": "Pixabay",
+        "query": "British university buildings graduation",
+        "photographer": "TinTin12",
+        "page": "https://pixabay.com/photos/graduation-masters-mba-graduate-2613182/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 11,
+      "emoji": "🔪",
+      "title": "Büyük perakendeciler reşit olmayanlara bıçak satışını önlemeyi kabul etti",
+      "body": "Büyük perakendecilerle gönüllü bir anlaşma yapıldı. Anlaşma, mağazalarda ve internet sitelerinde reşit olmayanlara bıçak satışını önlemeye yönelik ilkeler içeriyor.",
+      "source": "GOV.UK Home Office",
+      "photo_query": "knife retail store display",
+      "person": "",
+      "person_role": "",
+      "category": "guvenlik",
+      "photo": {
+        "id": "pb:1312106",
+        "provider": "Pixabay",
+        "query": "knife retail store display",
+        "photographer": "artisimo",
+        "page": "https://pixabay.com/photos/mannequin-male-dummy-fashion-store-1312106/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 19,
+      "emoji": "🛰️",
+      "title": "İngiltere yeni bir askeri gözlem uydusunu uzaya fırlattı",
+      "body": "Keşif uydusu, silahlı kuvvetlerin Dünya'daki askeri faaliyetleri izlemesine yardımcı olacak. Haberde uydu, \"yeni bir çift göz\" olarak tanımlandı.",
+      "source": "The Independent",
+      "photo_query": "satellite space orbit launch",
+      "person": "",
+      "person_role": "",
+      "category": "gundem",
+      "photo": {
+        "id": "pb:11084",
+        "provider": "Pixabay",
+        "query": "satellite space orbit launch",
+        "photographer": "WikiImages",
+        "page": "https://pixabay.com/photos/earth-globe-the-atmosphere-clouds-11084/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 25,
+      "emoji": "🏠",
+      "title": "Erken serbest bırakılan mahkumlar sokakta kalma riskiyle karşı karşıya",
+      "body": "Probation çalışanları, erken salıverilen mahkumların geçici konaklama süresi dolunca sokakta kalabileceği uyarısında bulundu. Hayır kuruluşları, bunun Andy Burnham'ın planındaki \"ölümcül kusuru\" gösterdiğini söylüyor.",
+      "source": "Guardian",
+      "photo_query": "UK homeless shelter rough sleeping",
+      "person": "",
+      "person_role": "",
+      "category": "gundem",
+      "photo": {
+        "id": "pb:845709",
+        "provider": "Pixabay",
+        "query": "UK homeless shelter rough sleeping",
+        "photographer": "Leroy_Skalstad",
+        "page": "https://pixabay.com/photos/man-portrait-homeless-poverty-male-845709/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 27,
+      "emoji": "🚓",
+      "title": "İngiliz belediye başkanları \"süper polis gücü\" planına karşı çıktı",
+      "body": "Bölge liderleri, Met şefinin 43 polis gücünün 8 veya 10'a indirilmesi çağrısını eleştirdi. Başkanlara göre plan, yerel polisliği tehdit ediyor ve Andy Burnham'ın yerelleşme gündemine ters düşüyor.",
+      "source": "Guardian",
+      "photo_query": "UK police officers uniforms",
+      "person": "Mark Rowley",
+      "person_role": "police commissioner",
+      "category": "siyaset",
+      "photo": {
+        "id": "pb:6962410",
+        "provider": "Pixabay",
+        "query": "UK police officers uniforms",
+        "photographer": "NoeNei",
+        "page": "https://pixabay.com/photos/police-protest-luxembourg-6962410/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 33,
+      "emoji": "🏦",
+      "title": "Lloyds Banking Group 2026 ve 2027'de 250 noktayı kapatacak",
+      "body": "Lloyds Banking Group, Halifax ve Bank of Scotland şubeleri dahil ağındaki 250 noktayı 2026 ve 2027 boyunca kapatacağını doğruladı.",
+      "source": "Metro",
+      "photo_query": "UK bank branch building closure",
+      "person": "",
+      "person_role": "",
+      "category": "ekonomi",
+      "photo": {
+        "id": "pb:3179844",
+        "provider": "Pixabay",
+        "query": "UK bank branch building closure",
+        "photographer": "Paul_Henri",
+        "page": "https://pixabay.com/photos/architecture-church-heaven-tree-3179844/",
+        "fallback": false
+      }
+    }
+  ],
+  "history_keys": [
+    "guidancestudentsponsorguidance",
+    "guidancefamilylifeandexceptionalcircumstancescaseworkerguidance",
+    "guidancehighpotentialindividualvisaglobaluniversitieslist",
+    "policypapersaleofknivesvoluntaryagreementbyretailers",
+    "uklaunchesnewmilitaryobservationsatelliteintospacenewpairofeyes",
+    "earlyreleaseprisonersfacingstreethomelessnessprobationstaffwarn",
+    "superforceplansarealthreattolocalpolicingenglishmayorssay",
+    "fulllistoflloydsandhalifaxbanksshuttingthismonthandinto2027"
+  ]
+}
