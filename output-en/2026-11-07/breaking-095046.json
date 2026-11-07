@@ -1,0 +1,33 @@
+{
+  "type": "breaking",
+  "created_at": "2026-11-07T09:50:46.113004+00:00",
+  "item": {
+    "ref": 2,
+    "emoji": "🇺🇦",
+    "title": "UK to host Ukraine's Volodymyr Zelensky for state visit in 2027",
+    "body": "The visit would aim to project solidarity with Ukraine in what will be the fifth year of its war against Russia.",
+    "source": "The Independent",
+    "photo_query": "Ukraine flag British Parliament",
+    "person": "Volodymyr Zelensky",
+    "person_role": "politician",
+    "category": "dunya",
+    "photo": {
+      "id": "wm:New Year's Eve from President of Ukraine Volodymyr Zelensky (31-12-2025) (cropped).jpg",
+      "provider": "Wikimedia Commons",
+      "person": "Volodymyr Zelensky",
+      "license": "CC BY 4.0",
+      "photographer": "Press Service of the President of Ukraine",
+      "page": "https://commons.wikimedia.org/wiki/File:New_Year%27s_Eve_from_President_of_Ukraine_Volodymyr_Zelensky_(31-12-2025)_(cropped).jpg",
+      "credit": "Press Service of the President of Ukraine / CC BY 4.0, Wikimedia Commons"
+    }
+  },
+  "caption": "🔴 BREAKING | 🇺🇦 UK to host Ukraine's Volodymyr Zelensky for state visit in 2027\n\nThe visit would aim to project solidarity with Ukraine in what will be the fifth year of its war against Russia.\n\nSource: The Independent | Image: Press Service of the President of Ukraine / CC BY 4.0, Wikimedia Commons\nUK Daily Briefing | 7 November, 09:50\n\n#BreakingNews #Ukraine #StateVisit",
+  "images": [
+    "output-en/2026-11-07/breaking-095046.jpg"
+  ],
+  "story_image": "output-en/2026-11-07/breaking-095046-story.jpg",
+  "history_keys": [
+    "uktohostukrainesvolodymyrzelenskyforstatevisitin2027"
+  ],
+  "published": false
+}
