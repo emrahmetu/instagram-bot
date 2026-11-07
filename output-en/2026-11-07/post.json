@@ -1,0 +1,183 @@
+{
+  "date": "2026-11-07",
+  "caption": "🇬🇧 UK Daily Briefing | Saturday, 7 November 2026\n\n1. 📈 Rising interest rates could make mortgages and loans dearer\nUK interest rates are set to rise, and mortgages, credit cards and loans could become more expensive for millions of people.\n\n2. 🏘️ Early release prisoners face street homelessness, probation staff warn\nCharities say the situation exposes a \"fatal flaw\" in Andy Burnham's plan to end rough sleeping in England by Christmas.\n\n3. 🏦 Lloyds Banking Group plans to shut 250 locations in 2026 and 2027\nLloyds Banking Group has confirmed the closures, which will affect locations across its network, including Halifax and the Bank of Scotland.\n\n4. 👥 Burnham aims for \"quite radical change\" in support for young people\nThe prime minister says a \"root and branch review of childhood\" is needed.\n\n5. 🛰️ UK launches new military observation satellite into space\nThe reconnaissance satellite will help the armed forces observe military activity on Earth.\n\n6. ⚖️ Court of Appeal overturns Upper Tribunal ruling in TOEIC case\nA man the Home Office wrongly accused of cheating on a Test of English for International Communication (TOEIC) has lost his challenge to the refusal to grant him settlement.\n\n7. 🏛️ Commons Speaker calls Parliament restoration delays \"frustrating\"\nSir Lindsay Hoyle has urged action after a committee warned it is \"crunch time\" for the ailing building.\n\n8. ⚽ James Trafford says he had to play regularly for his wellbeing\nLeeds United's James Trafford has spoken about his struggles at Manchester City last season, which were behind his summer transfer.\n\nSources: BBC, Guardian, Metro, Sky News, Free Movement, BBC Sport. Stories summarised from UK media reports. Images: Pixabay. Photos: Prime Minister's Office / OGL 3, Wikimedia Commons; Richard Townshend / CC BY 3.0, Wikimedia Commons; Bryan Berlin / CC BY-SA 4.0, Wikimedia Commons.\n\n#UKNews #BritainNews #Politics #Economy #MortgageRates #Immigration #NHS #Homelessness #Banking #Defence",
+  "images": [
+    "output-en/2026-11-07/00.jpg",
+    "output-en/2026-11-07/01.jpg",
+    "output-en/2026-11-07/02.jpg",
+    "output-en/2026-11-07/03.jpg",
+    "output-en/2026-11-07/04.jpg",
+    "output-en/2026-11-07/05.jpg",
+    "output-en/2026-11-07/06.jpg",
+    "output-en/2026-11-07/07.jpg",
+    "output-en/2026-11-07/08.jpg"
+  ],
+  "story_image": "output-en/2026-11-07/story.jpg",
+  "items": [
+    {
+      "ref": 42,
+      "emoji": "📈",
+      "title": "Rising interest rates could make mortgages and loans dearer",
+      "body": "UK interest rates are set to rise, and mortgages, credit cards and loans could become more expensive for millions of people. One homeowner says their mortgage is going up by £200.",
+      "source": "BBC",
+      "photo_query": "UK mortgage documents paperwork",
+      "person": "",
+      "person_role": "",
+      "category": "ekonomi",
+      "photo": {
+        "id": "pb:3859389",
+        "provider": "Pixabay",
+        "query": "UK mortgage documents paperwork",
+        "photographer": "roma1880",
+        "page": "https://pixabay.com/photos/files-archive-organization-3859389/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 28,
+      "emoji": "🏘️",
+      "title": "Early release prisoners face street homelessness, probation staff warn",
+      "body": "Charities say the situation exposes a \"fatal flaw\" in Andy Burnham's plan to end rough sleeping in England by Christmas. James, 37, faces sleeping on the street in four days as his temporary probation accommodation in Somerset ends.",
+      "source": "Guardian",
+      "photo_query": "UK homeless shelter emergency accommodation",
+      "person": "",
+      "person_role": "",
+      "category": "gundem",
+      "photo": {
+        "id": "pb:845709",
+        "provider": "Pixabay",
+        "query": "UK homeless shelter emergency accommodation",
+        "photographer": "Leroy_Skalstad",
+        "page": "https://pixabay.com/photos/man-portrait-homeless-poverty-male-845709/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 36,
+      "emoji": "🏦",
+      "title": "Lloyds Banking Group plans to shut 250 locations in 2026 and 2027",
+      "body": "Lloyds Banking Group has confirmed the closures, which will affect locations across its network, including Halifax and the Bank of Scotland.",
+      "source": "Metro",
+      "photo_query": "UK bank branch high street",
+      "person": "",
+      "person_role": "",
+      "category": "ekonomi",
+      "photo": {
+        "id": "pb:5317948",
+        "provider": "Pixabay",
+        "query": "UK bank branch high street",
+        "photographer": "RucciFilms",
+        "page": "https://pixabay.com/photos/city-street-urban-architecture-5317948/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 103,
+      "emoji": "👥",
+      "title": "Burnham aims for \"quite radical change\" in support for young people",
+      "body": "The prime minister says a \"root and branch review of childhood\" is needed. He does not rule out some benefit cuts, and indicated tougher benefit rules could come alongside notably more help, from finding work to mental health.",
+      "source": "Guardian",
+      "photo_query": "UK young people employment job centre",
+      "person": "Andy Burnham",
+      "person_role": "politician",
+      "category": "siyaset",
+      "photo": {
+        "id": "wm:Prime Minister Andy Burnham portrait (cropped).jpg",
+        "provider": "Wikimedia Commons",
+        "person": "Andy Burnham",
+        "license": "OGL 3",
+        "photographer": "Prime Minister's Office",
+        "page": "https://commons.wikimedia.org/wiki/File:Prime_Minister_Andy_Burnham_portrait_(cropped).jpg",
+        "credit": "Prime Minister's Office / OGL 3, Wikimedia Commons"
+      }
+    },
+    {
+      "ref": 22,
+      "emoji": "🛰️",
+      "title": "UK launches new military observation satellite into space",
+      "body": "The reconnaissance satellite will help the armed forces observe military activity on Earth. It has been described as a \"new pair of eyes\".",
+      "source": "Sky News",
+      "photo_query": "satellite space launch orbit",
+      "person": "",
+      "person_role": "",
+      "category": "guvenlik",
+      "photo": {
+        "id": "pb:92968",
+        "provider": "Pixabay",
+        "query": "satellite space launch orbit",
+        "photographer": "12019",
+        "page": "https://pixabay.com/photos/hurricane-earth-satellite-tracking-92968/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 7,
+      "emoji": "⚖️",
+      "title": "Court of Appeal overturns Upper Tribunal ruling in TOEIC case",
+      "body": "A man the Home Office wrongly accused of cheating on a Test of English for International Communication (TOEIC) has lost his challenge to the refusal to grant him settlement. The court overturned an Upper Tribunal decision in Mr Hossain's favour.",
+      "source": "Free Movement",
+      "photo_query": "UK court of appeal building law",
+      "person": "",
+      "person_role": "",
+      "category": "goc",
+      "photo": {
+        "id": "pb:5341989",
+        "provider": "Pixabay",
+        "query": "UK court of appeal building law",
+        "photographer": "USA-Reiseblogger",
+        "page": "https://pixabay.com/photos/justitia-justice-libra-law-lawyer-5341989/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 35,
+      "emoji": "🏛️",
+      "title": "Commons Speaker calls Parliament restoration delays \"frustrating\"",
+      "body": "Sir Lindsay Hoyle has urged action after a committee warned it is \"crunch time\" for the ailing building.",
+      "source": "BBC",
+      "photo_query": "Palace of Westminster Big Ben Parliament",
+      "person": "Lindsay Hoyle",
+      "person_role": "politician",
+      "category": "siyaset",
+      "photo": {
+        "id": "wm:Official portrait of Rt Hon Sir Lindsay Hoyle MP crop 2.jpg",
+        "provider": "Wikimedia Commons",
+        "person": "Lindsay Hoyle",
+        "license": "CC BY 3.0",
+        "photographer": "Richard Townshend",
+        "page": "https://commons.wikimedia.org/wiki/File:Official_portrait_of_Rt_Hon_Sir_Lindsay_Hoyle_MP_crop_2.jpg",
+        "credit": "Richard Townshend / CC BY 3.0, Wikimedia Commons"
+      }
+    },
+    {
+      "ref": 24,
+      "emoji": "⚽",
+      "title": "James Trafford says he had to play regularly for his wellbeing",
+      "body": "Leeds United's James Trafford has spoken about his struggles at Manchester City last season, which were behind his summer transfer. He says he had to play regularly for his mental wellbeing.",
+      "source": "BBC Sport",
+      "photo_query": "Leeds United goalkeeper football kit",
+      "person": "James Trafford",
+      "person_role": "footballer",
+      "category": "spor",
+      "photo": {
+        "id": "wm:James Trafford England v Ghana 23 June 2026-027.jpg",
+        "provider": "Wikimedia Commons",
+        "person": "James Trafford",
+        "license": "CC BY-SA 4.0",
+        "photographer": "Bryan Berlin",
+        "page": "https://commons.wikimedia.org/wiki/File:James_Trafford_England_v_Ghana_23_June_2026-027.jpg",
+        "credit": "Bryan Berlin / CC BY-SA 4.0, Wikimedia Commons"
+      }
+    }
+  ],
+  "history_keys": [
+    "mymortgageisgoingup200howrisinginterestratesarehittingpeoplespockets",
+    "earlyreleaseprisonersfacingstreethomelessnessprobationstaffwarn",
+    "fulllistoflloydsandhalifaxbanksshuttingthismonthandinto2027",
+    "burnhamaimsforquiteradicalchangeinsupportforyoungpeople",
+    "uklaunchesnewmilitaryobservationsatelliteintospacenewpairofeyes",
+    "courtofappealoverturnsgeneroustoeicuppertribunaldecision",
+    "parliamentrestorationdelaysfrustratingsayscommonsspeaker",
+    "ihadtoplayregularlyformymentalwellbeingtraffordonsummermove"
+  ]
+}
