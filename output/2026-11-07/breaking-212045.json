@@ -1,0 +1,32 @@
+{
+  "type": "breaking",
+  "created_at": "2026-11-07T21:20:45.631458+00:00",
+  "item": {
+    "ref": 6,
+    "emoji": "⚠️",
+    "title": "Galler Hükümeti 16 yaş altına enerji içeceği satışını yasaklamayı planlıyor",
+    "body": "Galler Hükümeti, yüksek kafeinli enerji içeceklerinin 16 yaş altı çocuklara satışını yasaklamak istiyor. Kurallara uymayan satıcılara para cezası verilebilecek. Düzenleme mağazaları, çevrimiçi satıcıları ve tüketiciye doğrudan satış yapan diğer işletmeleri kapsayacak. Yürütülen yeni istişarede uygulama, yaş kontrolü ve",
+    "source": "Nation.Cymru",
+    "photo_query": "energy drink can child Wales",
+    "person": "",
+    "person_role": "",
+    "category": "gundem",
+    "photo": {
+      "id": "pb:1990072",
+      "provider": "Pixabay",
+      "query": "energy drink can child Wales",
+      "photographer": "pixel2013",
+      "page": "https://pixabay.com/photos/milk-can-glass-milk-glass-of-milk-1990072/",
+      "fallback": false
+    }
+  },
+  "caption": "🔴 SON DAKİKA | ⚠️ Galler Hükümeti 16 yaş altına enerji içeceği satışını yasaklamayı planlıyor\n\nGaller Hükümeti, yüksek kafeinli enerji içeceklerinin 16 yaş altı çocuklara satışını yasaklamak istiyor. Kurallara uymayan satıcılara para cezası verilebilecek. Düzenleme mağazaları, çevrimiçi satıcıları ve tüketiciye doğrudan satış yapan diğer işletmeleri kapsayacak. Yürütülen yeni istişarede uygulama, yaş kontrolü ve\n\nKaynak: Nation.Cymru | Görsel: Pixabay\nBirleşik Krallık Gündemi | 7 Kasım, 21:20\n\n#SonDakika #Galler #SağlıkPolitikası",
+  "images": [
+    "output/2026-11-07/breaking-212045.jpg"
+  ],
+  "story_image": "output/2026-11-07/breaking-212045-story.jpg",
+  "history_keys": [
+    "welshgovernmentplansunder16energydrinkbanwithfinesforretailers"
+  ],
+  "published": false
+}
