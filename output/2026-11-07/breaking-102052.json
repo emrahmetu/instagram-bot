@@ -1,0 +1,32 @@
+{
+  "type": "breaking",
+  "created_at": "2026-11-07T10:20:52.255202+00:00",
+  "item": {
+    "ref": 7,
+    "emoji": "⚖️",
+    "title": "Home Office'e yaklaşık 1.500 AB vatandaşı nedeniyle dava açıldı",
+    "body": "Kampanya grubu the3million, Cuma günü High Court'a dilekçe sundu. Home Office'in yaklaşık 1.500 AB vatandaşının Birleşik Krallık'ta yaşama konusundaki tam haklarını elinden aldığı ve Brexit çekilme anlaşmasını ihlal ettiği öne sürülüyor. Bazı vatandaşlara pre-settled status'un \"hata\" olduğu söylendi.",
+    "source": "Guardian",
+    "photo_query": "Home Office building Westminster",
+    "person": "",
+    "person_role": "",
+    "category": "goc",
+    "photo": {
+      "id": "pb:6675010",
+      "provider": "Pixabay",
+      "query": "Home Office building Westminster",
+      "photographer": "Javaistan",
+      "page": "https://pixabay.com/photos/empire-state-building-new-york-city-6675010/",
+      "fallback": false
+    }
+  },
+  "caption": "🔴 SON DAKİKA | ⚖️ Home Office'e yaklaşık 1.500 AB vatandaşı nedeniyle dava açıldı\n\nKampanya grubu the3million, Cuma günü High Court'a dilekçe sundu. Home Office'in yaklaşık 1.500 AB vatandaşının Birleşik Krallık'ta yaşama konusundaki tam haklarını elinden aldığı ve Brexit çekilme anlaşmasını ihlal ettiği öne sürülüyor. Bazı vatandaşlara pre-settled status'un \"hata\" olduğu söylendi.\n\nKaynak: Guardian | Görsel: Pixabay\nBirleşik Krallık Gündemi | 7 Kasım, 10:20\n\n#SonDakika #GoçHaberleri #HomeOffice #ABVatandaşları",
+  "images": [
+    "output/2026-11-07/breaking-102052.jpg"
+  ],
+  "story_image": "output/2026-11-07/breaking-102052-story.jpg",
+  "history_keys": [
+    "homeofficesuedafterstrippingalmost1500eucitizensofrighttoliveinuk"
+  ],
+  "published": false
+}
