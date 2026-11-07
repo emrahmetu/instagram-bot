@@ -1,0 +1,32 @@
+{
+  "type": "breaking",
+  "created_at": "2026-11-07T13:36:22.209270+00:00",
+  "item": {
+    "ref": 4,
+    "emoji": "⚖️",
+    "title": "Court rules against Home Office in asylum seeker kidnapping case",
+    "body": "The court of appeal has rejected the Home Office's claim that being kidnapped for ransom is not exploitation of trafficking victims. The case involved a Syrian man abducted in Libya. The ruling affects many people officials had excluded from being victims.",
+    "source": "Guardian",
+    "photo_query": "UK court of justice building",
+    "person": "",
+    "person_role": "",
+    "category": "gundem",
+    "photo": {
+      "id": "pb:1161139",
+      "provider": "Pixabay",
+      "query": "UK court of justice building",
+      "photographer": "garten-gg",
+      "page": "https://pixabay.com/photos/paragraph-attorney-judge-process-1161139/",
+      "fallback": false
+    }
+  },
+  "caption": "🔴 BREAKING | ⚖️ Court rules against Home Office in asylum seeker kidnapping case\n\nThe court of appeal has rejected the Home Office's claim that being kidnapped for ransom is not exploitation of trafficking victims. The case involved a Syrian man abducted in Libya. The ruling affects many people officials had excluded from being victims.\n\nSource: Guardian | Image: Pixabay\nUK Daily Briefing | 7 November, 13:36\n\n#BreakingNews #Asylum #HomeOffice #CourtRuling",
+  "images": [
+    "output-en/2026-11-07/breaking-133622.jpg"
+  ],
+  "story_image": "output-en/2026-11-07/breaking-133622-story.jpg",
+  "history_keys": [
+    "courtrulesagainsthomeofficeinasylumseekerkidnappingcase"
+  ],
+  "published": false
+}
