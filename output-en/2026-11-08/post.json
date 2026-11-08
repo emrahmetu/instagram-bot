@@ -1,0 +1,184 @@
+{
+  "date": "2026-11-08",
+  "caption": "🇬🇧 UK Daily Briefing | Sunday, 8 November 2026\n\n1. ⚠️ Rise in Turkish nationals facing removal prompts Windrush accusations\nConcerns have been raised over a sharp rise in Turkish nationals facing removal from the UK because of mistakes.\n\n2. 🏘️ PM to write to councils on Armistice Day over veterans sleeping rough\nAndy Burnham says veterans shouldn't sleep rough this Christmas.\n\n3. 🏥 Campaigners say NHS birth centre closures are a 'shocking' denial of rights\nTwelve midwife-led maternity units have closed in England since 2019, six of them since Labour came to power in 2024.\n\n4. 🚗 Two people seriously injured in 30-vehicle crash on M20 in Kent\nEmergency services attended the M20 near Hollingbourne in Maidstone after the incident was reported at 6.41pm yesterday evening.\n\n5. 🇵🇱 Briton is among six killed in Krakow shooting described as 'far-right'\nPolish police say the attacker randomly fired at people after driving on to Main Market Square in Krakow.\n\n6. 👑 Royal Family join veterans and families at Festival of Remembrance\nSenior royals attended the annual event at London's Royal Albert Hall on the eve of Remembrance Sunday.\n\n7. 🎓 Nandy confirms UK will return to Erasmus+ scheme\nThe UK left the programme in 2020, when Boris Johnson was Prime Minister.\n\n8. ⚽ Liam Delap scores twice as Nottingham Forest stun Manchester City 3-1\nLiam Delap scored a superb double as Nottingham Forest beat Manchester City 3-1, securing their first Premier League win at the City Ground this season.\n\nSources: Guardian, BBC, Metro, The Independent, BBC Sport. Stories summarised from UK media reports. Images: Pixabay. Photos: Lauren Hurley / No 10 Downing Street / OGL 3, Wikimedia Commons; Prime Minister's Office / OGL 3, Wikimedia Commons; White House / Public domain, Wikimedia Commons; The White House / Public domain, Wikimedia Commons.\n\n#UKNews #BritainToday #HomeOffice #Veterans #NHS #RemembranceWeek #PremierLeague #UKPolitics #Transport #BreakingNews",
+  "images": [
+    "output-en/2026-11-08/00.jpg",
+    "output-en/2026-11-08/01.jpg",
+    "output-en/2026-11-08/02.jpg",
+    "output-en/2026-11-08/03.jpg",
+    "output-en/2026-11-08/04.jpg",
+    "output-en/2026-11-08/05.jpg",
+    "output-en/2026-11-08/06.jpg",
+    "output-en/2026-11-08/07.jpg",
+    "output-en/2026-11-08/08.jpg"
+  ],
+  "story_image": "output-en/2026-11-08/story.jpg",
+  "items": [
+    {
+      "ref": 23,
+      "emoji": "⚠️",
+      "title": "Rise in Turkish nationals facing removal prompts Windrush accusations",
+      "body": "Concerns have been raised over a sharp rise in Turkish nationals facing removal from the UK because of mistakes. There are accusations the Home Office has not learned the lessons of Windrush. David Lammy is among those raising concerns.",
+      "source": "Guardian",
+      "photo_query": "UK passport control border",
+      "person": "David Lammy",
+      "person_role": "politician",
+      "category": "goc",
+      "photo": {
+        "id": "wm:David Lammy, 2024 (cropped).jpg",
+        "provider": "Wikimedia Commons",
+        "person": "David Lammy",
+        "license": "OGL 3",
+        "photographer": "Lauren Hurley / No 10 Downing Street",
+        "page": "https://commons.wikimedia.org/wiki/File:David_Lammy,_2024_(cropped).jpg",
+        "credit": "Lauren Hurley / No 10 Downing Street / OGL 3, Wikimedia Commons"
+      }
+    },
+    {
+      "ref": 32,
+      "emoji": "🏘️",
+      "title": "PM to write to councils on Armistice Day over veterans sleeping rough",
+      "body": "Andy Burnham says veterans shouldn't sleep rough this Christmas. Downing Street says the prime minister will personally write to councils on Armistice Day to urge them to draw up plans.",
+      "source": "BBC",
+      "photo_query": "UK homeless shelter tent street",
+      "person": "Andy Burnham",
+      "person_role": "politician",
+      "category": "siyaset",
+      "photo": {
+        "id": "wm:Prime Minister Andy Burnham portrait (cropped).jpg",
+        "provider": "Wikimedia Commons",
+        "person": "Andy Burnham",
+        "license": "OGL 3",
+        "photographer": "Prime Minister's Office",
+        "page": "https://commons.wikimedia.org/wiki/File:Prime_Minister_Andy_Burnham_portrait_(cropped).jpg",
+        "credit": "Prime Minister's Office / OGL 3, Wikimedia Commons"
+      }
+    },
+    {
+      "ref": 112,
+      "emoji": "🏥",
+      "title": "Campaigners say NHS birth centre closures are a 'shocking' denial of rights",
+      "body": "Twelve midwife-led maternity units have closed in England since 2019, six of them since Labour came to power in 2024. Campaigners say the closures deny women the right to have a midwife rather than a doctor oversee their baby's birth.",
+      "source": "Guardian",
+      "photo_query": "NHS hospital maternity ward",
+      "person": "",
+      "person_role": "",
+      "category": "saglik",
+      "photo": {
+        "id": "pb:5657548",
+        "provider": "Pixabay",
+        "query": "NHS hospital maternity ward",
+        "photographer": "KHphotography",
+        "page": "https://pixabay.com/photos/woman-pregnancy-mother-pregnant-5657548/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 18,
+      "emoji": "🚗",
+      "title": "Two people seriously injured in 30-vehicle crash on M20 in Kent",
+      "body": "Emergency services attended the M20 near Hollingbourne in Maidstone after the incident was reported at 6.41pm yesterday evening.",
+      "source": "Metro",
+      "photo_query": "M20 motorway Kent fog",
+      "person": "",
+      "person_role": "",
+      "category": "hava",
+      "photo": {
+        "id": "pb:10467918",
+        "provider": "Pixabay",
+        "query": "M20 motorway Kent fog",
+        "photographer": "r-q",
+        "page": "https://pixabay.com/photos/bridge-west-coast-usa-fog-10467918/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 37,
+      "emoji": "🇵🇱",
+      "title": "Briton is among six killed in Krakow shooting described as 'far-right'",
+      "body": "Polish police say the attacker randomly fired at people after driving on to Main Market Square in Krakow. The shooting has been described as 'far-right'.",
+      "source": "BBC",
+      "photo_query": "Krakow Market Square Poland historic",
+      "person": "",
+      "person_role": "",
+      "category": "guvenlik",
+      "photo": {
+        "id": "pb:4982314",
+        "provider": "Pixabay",
+        "query": "Krakow Market Square Poland historic",
+        "photographer": "autokaremcom",
+        "page": "https://pixabay.com/photos/krak%C3%B3w-the-market-poland-krakow-4982314/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 33,
+      "emoji": "👑",
+      "title": "Royal Family join veterans and families at Festival of Remembrance",
+      "body": "Senior royals attended the annual event at London's Royal Albert Hall on the eve of Remembrance Sunday.",
+      "source": "BBC",
+      "photo_query": "Royal Albert Hall London exterior",
+      "person": "Charles III",
+      "person_role": "royal",
+      "category": "kraliyet",
+      "photo": {
+        "id": "wm:King Charles III (July 2023).jpg",
+        "provider": "Wikimedia Commons",
+        "person": "Charles III",
+        "license": "Public domain",
+        "photographer": "White House",
+        "page": "https://commons.wikimedia.org/wiki/File:King_Charles_III_(July_2023).jpg",
+        "credit": "White House / Public domain, Wikimedia Commons"
+      }
+    },
+    {
+      "ref": 59,
+      "emoji": "🎓",
+      "title": "Nandy confirms UK will return to Erasmus+ scheme",
+      "body": "The UK left the programme in 2020, when Boris Johnson was Prime Minister. The announcement comes as the UK eyes closer ties with the EU.",
+      "source": "The Independent",
+      "photo_query": "British students university campus",
+      "person": "",
+      "person_role": "",
+      "category": "ekonomi",
+      "photo": {
+        "id": "pb:1822679",
+        "provider": "Pixabay",
+        "query": "British students university campus",
+        "photographer": "sasint",
+        "page": "https://pixabay.com/photos/female-library-student-study-1822679/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 92,
+      "emoji": "⚽",
+      "title": "Liam Delap scores twice as Nottingham Forest stun Manchester City 3-1",
+      "body": "Liam Delap scored a superb double as Nottingham Forest beat Manchester City 3-1, securing their first Premier League win at the City Ground this season.",
+      "source": "BBC Sport",
+      "photo_query": "Nottingham Forest City Ground stadium",
+      "person": "Liam Delap",
+      "person_role": "footballer",
+      "category": "spor",
+      "photo": {
+        "id": "wm:Liam Delap in 2025.jpg",
+        "provider": "Wikimedia Commons",
+        "person": "Liam Delap",
+        "license": "Public domain",
+        "photographer": "The White House",
+        "page": "https://commons.wikimedia.org/wiki/File:Liam_Delap_in_2025.jpg",
+        "credit": "The White House / Public domain, Wikimedia Commons"
+      }
+    }
+  ],
+  "history_keys": [
+    "windrushaccusationsoversharpriseinturkishnationalsfacingremovalfromuk",
+    "veteransshouldntsleeproughthischristmasburnhamsays",
+    "riseinnhsbirthcentreclosuresshockingdenialofwomensrightsexpertssay",
+    "twopeopleseriouslyinjuredafter30vehiclecrashonmotorwaytolondon",
+    "britonamongsixkilledinfarrightshootinginkrakow",
+    "royalfamilyjoinveteransandfamiliesatfestivalofremembrance",
+    "nandyconfirmserasmusschemereturnasukeyesclosertieswitheu",
+    "delapdoubleinspiresforesttostunningwinovermancity"
+  ]
+}
