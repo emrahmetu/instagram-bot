@@ -1,0 +1,33 @@
+{
+  "type": "breaking",
+  "created_at": "2026-11-08T13:53:56.340640+00:00",
+  "item": {
+    "ref": 1,
+    "emoji": "🇬🇧",
+    "title": "King leads Remembrance service at the Cenotaph",
+    "body": "The King led a solemn Remembrance service at the Cenotaph in central London. Wreaths were laid as 10,000 armed forces veterans, including 12 from World War Two, paid tribute.",
+    "source": "BBC",
+    "photo_query": "Cenotaph Whitehall London",
+    "person": "Charles III",
+    "person_role": "royal",
+    "category": "kraliyet",
+    "photo": {
+      "id": "wm:King Charles III (July 2023).jpg",
+      "provider": "Wikimedia Commons",
+      "person": "Charles III",
+      "license": "Public domain",
+      "photographer": "White House",
+      "page": "https://commons.wikimedia.org/wiki/File:King_Charles_III_(July_2023).jpg",
+      "credit": "White House / Public domain, Wikimedia Commons"
+    }
+  },
+  "caption": "🔴 BREAKING | 🇬🇧 King leads Remembrance service at the Cenotaph\n\nThe King led a solemn Remembrance service at the Cenotaph in central London. Wreaths were laid as 10,000 armed forces veterans, including 12 from World War Two, paid tribute.\n\nSource: BBC | Image: White House / Public domain, Wikimedia Commons\nUK Daily Briefing | 8 November, 13:53\n\n#BreakingNews #Remembrance #RemembranceDay #RoyalNews",
+  "images": [
+    "output-en/2026-11-08/breaking-135356.jpg"
+  ],
+  "story_image": "output-en/2026-11-08/breaking-135356-story.jpg",
+  "history_keys": [
+    "kingleadssolemnremembranceserviceatcenotaph"
+  ],
+  "published": false
+}
