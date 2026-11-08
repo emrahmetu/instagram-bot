@@ -1,0 +1,161 @@
+{
+  "date": "2026-11-08",
+  "caption": "🇬🇧 Birleşik Krallık Gündemi | 8 Kasım 2026, Pazar\n\n1. ⚠️ Türk vatandaşlarının sınır dışı edilmesi 'Windrush' skandalını hatırlatıyor\nTürk vatandaşlarının sınır dışı edilmesindeki keskin artışa karşı endişeler artıyor.\n\n2. 🎖️ Burnham gazilerin sokakta yaşamasını önlemek için belediyelerle temas kuracak\nBaşbakan Andy Burnham, Silah Günü'nde belediyelerle iletişime geçerek gazilerin bu kış sokakta kalmasını önleme planlarından bahsedecek.\n\n3. 🎓 Birleşik Krallık, Erasmus+ programına geri dönme yolunda\nNandy, Birleşik Krallık'ın AB ile eğitim işbirliğini güçlendirmek amacıyla Erasmus+ programına katılmayı teyit etti.\n\n4. 🏠 Çoğu ev sahibi satışa hazırlanıyor, kiracılar kira artışından endişeli\nEmek Partisi'nin kira ve vergi planları nedeniyle çoğu ev sahibi mülklerini satmayı düşünüyor.\n\n5. 🇪🇺 Beş Avrupa lideri Birleşik Krallık'la daha yakın bağlar çağırıyor\nAlmanya, Belçika, Hollanda, Lüksemburg ve Danimarka liderlerinden, temiz enerji konusunda Birleşik Krallık'la derinleştirilmiş işbirliğinin her iki tarafa yarayacağını söyleyen mektup geldi.\n\n6. 👑 Kraliyet ailesi, Anma Bayramı Şenliği'ne katıldı\nKral Charles, Kraliçe Camilla ve Prens Galler ailesi, Londra'daki Royal Albert Hall'da düzenlenen Anma Bayramı Şenliği'ne katıldı.\n\n7. ⚽ Nottingham Forest, Manchester City'yi 3-1 yenerek sürpriz yapıyor\nLiam Delap'ın attığı iki golle Nottingham Forest, Manchester City'yi 3-1 yenerek sezon başında City Ground'da ilk Premier Lig galibiyetini aldı.\n\nKaynaklar: Guardian, BBC, The Independent, BBC Sport. Haberler Türkçe özet olarak derlenmiştir. Görseller: Pixabay. Fotoğraflar: Prime Minister's Office / OGL 3, Wikimedia Commons; White House / Public domain, Wikimedia Commons.\n\n#İngiltere #UKNews #Londra #Göç #TürkVatandaşları #NHS #PremierLig #Kraliyet #Abİlişkileri #KiraÇöküşü #SilahGünü",
+  "images": [
+    "output/2026-11-08/00.jpg",
+    "output/2026-11-08/01.jpg",
+    "output/2026-11-08/02.jpg",
+    "output/2026-11-08/03.jpg",
+    "output/2026-11-08/04.jpg",
+    "output/2026-11-08/05.jpg",
+    "output/2026-11-08/06.jpg",
+    "output/2026-11-08/07.jpg"
+  ],
+  "story_image": "output/2026-11-08/story.jpg",
+  "items": [
+    {
+      "ref": 19,
+      "emoji": "⚠️",
+      "title": "Türk vatandaşlarının sınır dışı edilmesi 'Windrush' skandalını hatırlatıyor",
+      "body": "Türk vatandaşlarının sınır dışı edilmesindeki keskin artışa karşı endişeler artıyor. Home Office'in süresiz oturum izni başvurularında yaptığı hatalar nedeniyle çoğu kişi hatalı biçimde reddedilmiş durumda.",
+      "source": "Guardian",
+      "photo_query": "UK passport removal",
+      "person": "",
+      "person_role": "",
+      "category": "goc",
+      "photo": {
+        "id": "pb:823299",
+        "provider": "Pixabay",
+        "query": "UK passport removal",
+        "photographer": "katyveldhorst",
+        "page": "https://pixabay.com/photos/travel-luggage-airport-waiting-823299/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 28,
+      "emoji": "🎖️",
+      "title": "Burnham gazilerin sokakta yaşamasını önlemek için belediyelerle temas kuracak",
+      "body": "Başbakan Andy Burnham, Silah Günü'nde belediyelerle iletişime geçerek gazilerin bu kış sokakta kalmasını önleme planlarından bahsedecek. Hükümet bu konuyu önceleiklendiriyor.",
+      "source": "BBC",
+      "photo_query": "Cenotaph Westminster memorial",
+      "person": "Andy Burnham",
+      "person_role": "politician",
+      "category": "gundem",
+      "photo": {
+        "id": "wm:Prime Minister Andy Burnham portrait (cropped).jpg",
+        "provider": "Wikimedia Commons",
+        "person": "Andy Burnham",
+        "license": "OGL 3",
+        "photographer": "Prime Minister's Office",
+        "page": "https://commons.wikimedia.org/wiki/File:Prime_Minister_Andy_Burnham_portrait_(cropped).jpg",
+        "credit": "Prime Minister's Office / OGL 3, Wikimedia Commons"
+      }
+    },
+    {
+      "ref": 55,
+      "emoji": "🎓",
+      "title": "Birleşik Krallık, Erasmus+ programına geri dönme yolunda",
+      "body": "Nandy, Birleşik Krallık'ın AB ile eğitim işbirliğini güçlendirmek amacıyla Erasmus+ programına katılmayı teyit etti. Program, Boris Johnson döneminde 2020'de terk edilmişti.",
+      "source": "The Independent",
+      "photo_query": "UK EU flag cooperation",
+      "person": "",
+      "person_role": "",
+      "category": "siyaset",
+      "photo": {
+        "id": "pb:4977601",
+        "provider": "Pixabay",
+        "query": "UK EU flag cooperation",
+        "photographer": "matthiasboeckel",
+        "page": "https://pixabay.com/photos/europe-flag-european-flag-eu-4977601/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 114,
+      "emoji": "🏠",
+      "title": "Çoğu ev sahibi satışa hazırlanıyor, kiracılar kira artışından endişeli",
+      "body": "Emek Partisi'nin kira ve vergi planları nedeniyle çoğu ev sahibi mülklerini satmayı düşünüyor. Kiracılar daha az konut ve daha yüksek kiralar için mücadele etmek zorunda kalabilir.",
+      "source": "The Independent",
+      "photo_query": "UK rental house property",
+      "person": "",
+      "person_role": "",
+      "category": "ekonomi",
+      "photo": {
+        "id": "pb:2859417",
+        "provider": "Pixabay",
+        "query": "UK rental house property",
+        "photographer": "ArtisticOperations",
+        "page": "https://pixabay.com/photos/house-home-residence-residential-2859417/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 115,
+      "emoji": "🇪🇺",
+      "title": "Beş Avrupa lideri Birleşik Krallık'la daha yakın bağlar çağırıyor",
+      "body": "Almanya, Belçika, Hollanda, Lüksemburg ve Danimarka liderlerinden, temiz enerji konusunda Birleşik Krallık'la derinleştirilmiş işbirliğinin her iki tarafa yarayacağını söyleyen mektup geldi.",
+      "source": "Guardian",
+      "photo_query": "UK EU European flags summit",
+      "person": "",
+      "person_role": "",
+      "category": "siyaset",
+      "photo": {
+        "id": "pb:67928",
+        "provider": "Pixabay",
+        "query": "UK EU European flags summit",
+        "photographer": "stux",
+        "page": "https://pixabay.com/photos/flag-banner-italy-green-white-red-67928/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 29,
+      "emoji": "👑",
+      "title": "Kraliyet ailesi, Anma Bayramı Şenliği'ne katıldı",
+      "body": "Kral Charles, Kraliçe Camilla ve Prens Galler ailesi, Londra'daki Royal Albert Hall'da düzenlenen Anma Bayramı Şenliği'ne katıldı. Etkinlik, terhis olmuş askerler için gerçekleştirildi.",
+      "source": "BBC",
+      "photo_query": "Royal Albert Hall Remembrance Festival",
+      "person": "Charles III",
+      "person_role": "royal",
+      "category": "kraliyet",
+      "photo": {
+        "id": "wm:King Charles III (July 2023).jpg",
+        "provider": "Wikimedia Commons",
+        "person": "Charles III",
+        "license": "Public domain",
+        "photographer": "White House",
+        "page": "https://commons.wikimedia.org/wiki/File:King_Charles_III_(July_2023).jpg",
+        "credit": "White House / Public domain, Wikimedia Commons"
+      }
+    },
+    {
+      "ref": 87,
+      "emoji": "⚽",
+      "title": "Nottingham Forest, Manchester City'yi 3-1 yenerek sürpriz yapıyor",
+      "body": "Liam Delap'ın attığı iki golle Nottingham Forest, Manchester City'yi 3-1 yenerek sezon başında City Ground'da ilk Premier Lig galibiyetini aldı. Sonuç, Forest'ın performansında dönüm noktası olabilir.",
+      "source": "BBC Sport",
+      "photo_query": "Premier League football match stadium",
+      "person": "",
+      "person_role": "",
+      "category": "spor",
+      "photo": {
+        "id": "pb:1476725",
+        "provider": "Pixabay",
+        "query": "Premier League football match stadium",
+        "photographer": "KeithJJ",
+        "page": "https://pixabay.com/photos/soccer-football-competition-sport-1476725/",
+        "fallback": false
+      }
+    }
+  ],
+  "history_keys": [
+    "windrushaccusationsoversharpriseinturkishnationalsfacingremovalfromuk",
+    "veteransshouldntsleeproughthischristmasburnhamsays",
+    "nandyconfirmserasmusschemereturnasukeyesclosertieswitheu",
+    "fearsofrentrisedisasterasmajorityoflandlordsplantosellup",
+    "fiveeuropeanleaderscallforclosereuuktiesaheadofbrusselssummit",
+    "royalfamilyjoinveteransandfamiliesatfestivalofremembrance",
+    "delapdoubleinspiresforesttostunningwinovermancity"
+  ]
+}
