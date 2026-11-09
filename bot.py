@@ -917,6 +917,30 @@ def photo_canvas(photo, w, h, shade, fade_from=0.38, top_fade=220, fallback=INK,
     return img, ImageDraw.Draw(img)
 
 
+def split_canvas(photo, w, h, shade, panel_top, blend=110, fallback=INK):
+    """Fotoğraf üstte, başlık altta düz koyu panelde: yazı hiçbir zaman fotoğrafın üstüne binmez.
+    Fotoğrafın alt kenarı yalnızca `blend` px'lik kısa bir geçişle panele karışır."""
+    from PIL import Image, ImageDraw, ImageOps
+
+    panel_top = max(360, min(panel_top, h - 300))
+    solid = tuple(min(255, c) for c in shade)
+    img = Image.new("RGB", (w, h), solid)
+    photo_h = panel_top + blend
+    if photo is not None:
+        ph = ImageOps.fit(photo, (w, photo_h), method=Image.LANCZOS,
+                          centering=photo.info.get("centering", (0.5, 0.4))).convert("RGB")
+    else:
+        ph = Image.new("RGB", (w, photo_h), tuple(max(0, c - 10) for c in fallback))
+    mask = Image.new("L", (w, photo_h), 255)
+    md = ImageDraw.Draw(mask)
+    for i in range(blend):
+        t = i / max(1, blend - 1)
+        t = t * t * (3 - 2 * t)
+        md.line([0, panel_top + i, w, panel_top + i], fill=int(255 * (1 - t)))
+    img.paste(ph, (0, 0), mask)
+    return img, ImageDraw.Draw(img)
+
+
 def title_top(text, bottom, width, start=92, minimum=56, max_h=600, pill=None, kicker=None):
     """Başlık bloğunun (etiket dahil) üst kenarının y değeri; koyu geçişi buna göre ayarlamak için."""
     from PIL import Image, ImageDraw
@@ -1049,7 +1073,7 @@ def upper_tr(s):
 def _news_card(it, path, photo, kicker=None, pill=None):
     accent, shade = photo_palette(photo, cat_of(it)[1])
     top = title_top(it["title"], H - 150, W, pill=pill, kicker=kicker)
-    img, d = photo_canvas(photo, W, H, shade, solid_from=top + 40)
+    img, d = split_canvas(photo, W, H, shade, panel_top=top - 40)
     bottom_title(d, it["title"], H - 150, W, accent, pill=pill, kicker=kicker)
     photo_footer(d, f"{L('Kaynak', 'Source')}: {it['source']}" if it.get("source") else BRAND_TITLE, W, H)
     img.save(path, "JPEG", quality=92, optimize=True)
