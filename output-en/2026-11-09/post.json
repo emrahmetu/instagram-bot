@@ -1,0 +1,182 @@
+{
+  "date": "2026-11-09",
+  "caption": "🇬🇧 UK Daily Briefing | Monday, 9 November 2026\n\n1. 💷 Council opens £250 cost of living grant applications to some Surrey residents\nApplications for household grants of up to £250 are opening to some Surrey residents. The grants are part of the council's cost of living help.\n\n2. ⚡ Government's EV targets are expected to be cut this week\nNew petrol and diesel cars are due to be phased out by 2030, and by 2035 all new cars must be zero emission. The targets are expected to be reduced this week.\n\n3. 🏥 Burnham unveils £40m to keep patients out of hospital\nBurnham admitted the NHS faces a difficult winter. Health secretary Yvette Cooper said it had already had a \"heavy summer\" as a result of a series of heatwaves.\n\n4. 🏠 Burnham's pledge to get everyone in for Christmas is in jeopardy\nOfficial figures show nearly 1,000 more people sleeping rough in England between January and June. A minister cited a chronic housing shortage as Labour hopes to offer a bed to every rough sleeper.\n\n5. ☕ Starbucks plans to hire 7,500 baristas over the next five years\nThe chain is targeting growth north of London with 500 extra outlets, in a boost to youth employment. The US coffee shop chain employs more than 18,000 people in the UK.\n\n6. 🌫️ Dense fog could disrupt Monday morning's rush hour\nFog could disrupt the commute on Monday morning.\n\n7. 📚 Secondary schools are told to stop teaching GCSEs before Year 10\nThe government says pupils in Years 7 to 9 should have \"richer, more engaging\" learning than preparing for GCSEs.\n\n8. 🏥 Only 6.4% of stroke survivors receive enough therapy, report finds\nFewer than one in 15 stroke survivors get the amount of therapy the NHS should provide to maximise recovery. The Stroke Association called the report \"damning\" and says the lack of rehabilitation hinders patients' recovery.\n\nSources: BBC, Guardian. Stories summarised from UK media reports. Images: Pixabay. Photos: Lauren Hurley / No 10 Downing Street / OGL 3, Wikimedia Commons; Prime Minister's Office / OGL 3, Wikimedia Commons.\n\n#UKNews #BritishPolitics #NHSWinter #CostOfLiving #EducationUK #EnergyTransition #HealthcareUK #WeatherUK #WalesRugby #Entertainment",
+  "images": [
+    "output-en/2026-11-09/00.jpg",
+    "output-en/2026-11-09/01.jpg",
+    "output-en/2026-11-09/02.jpg",
+    "output-en/2026-11-09/03.jpg",
+    "output-en/2026-11-09/04.jpg",
+    "output-en/2026-11-09/05.jpg",
+    "output-en/2026-11-09/06.jpg",
+    "output-en/2026-11-09/07.jpg",
+    "output-en/2026-11-09/08.jpg"
+  ],
+  "story_image": "output-en/2026-11-09/story.jpg",
+  "items": [
+    {
+      "ref": 8,
+      "emoji": "💷",
+      "title": "Council opens £250 cost of living grant applications to some Surrey residents",
+      "body": "Applications for household grants of up to £250 are opening to some Surrey residents. The grants are part of the council's cost of living help.",
+      "source": "BBC",
+      "photo_query": "UK pound sterling coins",
+      "person": "",
+      "person_role": "",
+      "category": "ekonomi",
+      "photo": {
+        "id": "pb:18061",
+        "provider": "Pixabay",
+        "query": "UK pound sterling coins",
+        "photographer": "PublicDomainPictures",
+        "page": "https://pixabay.com/photos/business-cash-coin-concept-credit-18061/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 18,
+      "emoji": "⚡",
+      "title": "Government's EV targets are expected to be cut this week",
+      "body": "New petrol and diesel cars are due to be phased out by 2030, and by 2035 all new cars must be zero emission. The targets are expected to be reduced this week.",
+      "source": "BBC",
+      "photo_query": "electric car charging station UK",
+      "person": "",
+      "person_role": "",
+      "category": "siyaset",
+      "photo": {
+        "id": "pb:3253696",
+        "provider": "Pixabay",
+        "query": "electric car charging station UK",
+        "photographer": "paulbr75",
+        "page": "https://pixabay.com/photos/hybrid-car-sign-charging-electric-3253696/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 46,
+      "emoji": "🏥",
+      "title": "Burnham unveils £40m to keep patients out of hospital",
+      "body": "Burnham admitted the NHS faces a difficult winter. Health secretary Yvette Cooper said it had already had a \"heavy summer\" as a result of a series of heatwaves.",
+      "source": "BBC",
+      "photo_query": "NHS ambulance UK",
+      "person": "Yvette Cooper",
+      "person_role": "politician",
+      "category": "saglik",
+      "photo": {
+        "id": "wm:Yvette Cooper Official Cabinet Portrait, September 2025 (cropped).jpg",
+        "provider": "Wikimedia Commons",
+        "person": "Yvette Cooper",
+        "license": "OGL 3",
+        "photographer": "Lauren Hurley / No 10 Downing Street",
+        "page": "https://commons.wikimedia.org/wiki/File:Yvette_Cooper_Official_Cabinet_Portrait,_September_2025_(cropped).jpg",
+        "credit": "Lauren Hurley / No 10 Downing Street / OGL 3, Wikimedia Commons"
+      }
+    },
+    {
+      "ref": 16,
+      "emoji": "🏠",
+      "title": "Burnham's pledge to get everyone in for Christmas is in jeopardy",
+      "body": "Official figures show nearly 1,000 more people sleeping rough in England between January and June. A minister cited a chronic housing shortage as Labour hopes to offer a bed to every rough sleeper.",
+      "source": "Guardian",
+      "photo_query": "London street homeless person help",
+      "person": "Andy Burnham",
+      "person_role": "politician",
+      "category": "gundem",
+      "photo": {
+        "id": "wm:Prime Minister Andy Burnham portrait (cropped).jpg",
+        "provider": "Wikimedia Commons",
+        "person": "Andy Burnham",
+        "license": "OGL 3",
+        "photographer": "Prime Minister's Office",
+        "page": "https://commons.wikimedia.org/wiki/File:Prime_Minister_Andy_Burnham_portrait_(cropped).jpg",
+        "credit": "Prime Minister's Office / OGL 3, Wikimedia Commons"
+      }
+    },
+    {
+      "ref": 17,
+      "emoji": "☕",
+      "title": "Starbucks plans to hire 7,500 baristas over the next five years",
+      "body": "The chain is targeting growth north of London with 500 extra outlets, in a boost to youth employment. The US coffee shop chain employs more than 18,000 people in the UK.",
+      "source": "Guardian",
+      "photo_query": "Starbucks coffee shop UK",
+      "person": "",
+      "person_role": "",
+      "category": "ekonomi",
+      "photo": {
+        "id": "pb:6487114",
+        "provider": "Pixabay",
+        "query": "Starbucks coffee shop UK",
+        "photographer": "ClaroCafe",
+        "page": "https://pixabay.com/photos/ground-coffee-coffee-cup-6487114/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 15,
+      "emoji": "🌫️",
+      "title": "Dense fog could disrupt Monday morning's rush hour",
+      "body": "Fog could disrupt the commute on Monday morning.",
+      "source": "BBC",
+      "photo_query": "UK motorway fog driving",
+      "person": "",
+      "person_role": "",
+      "category": "hava",
+      "photo": {
+        "id": "pb:8274904",
+        "provider": "Pixabay",
+        "query": "UK motorway fog driving",
+        "photographer": "NatureNomad",
+        "page": "https://pixabay.com/photos/trees-woods-forest-moss-fog-8274904/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 76,
+      "emoji": "📚",
+      "title": "Secondary schools are told to stop teaching GCSEs before Year 10",
+      "body": "The government says pupils in Years 7 to 9 should have \"richer, more engaging\" learning than preparing for GCSEs.",
+      "source": "BBC",
+      "photo_query": "British secondary school classroom",
+      "person": "Lucy Powell",
+      "person_role": "politician",
+      "category": "siyaset",
+      "photo": {
+        "id": "pb:19924",
+        "provider": "Pixabay",
+        "query": "British secondary school classroom",
+        "photographer": "PublicDomainPictures",
+        "page": "https://pixabay.com/photos/numbers-background-business-letters-19924/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 28,
+      "emoji": "🏥",
+      "title": "Only 6.4% of stroke survivors receive enough therapy, report finds",
+      "body": "Fewer than one in 15 stroke survivors get the amount of therapy the NHS should provide to maximise recovery. The Stroke Association called the report \"damning\" and says the lack of rehabilitation hinders patients' recovery.",
+      "source": "Guardian",
+      "photo_query": "NHS physiotherapy patient care",
+      "person": "",
+      "person_role": "",
+      "category": "saglik",
+      "photo": {
+        "id": "pb:699486",
+        "provider": "Pixabay",
+        "query": "NHS physiotherapy patient care",
+        "photographer": "jclk8888",
+        "page": "https://pixabay.com/photos/hands-compassion-help-old-care-699486/",
+        "fallback": false
+      }
+    }
+  ],
+  "history_keys": [
+    "howyoucangetcouncils250costoflivinghelp",
+    "governmentsevtargetsexpectedtobereducedthisweek",
+    "burnhamadmitsnhsfacesdifficultwinterasheunveils40mtohelpkeeppatientsoutofhospital",
+    "burnhamshomelessnesspledgetogeteveryoneinforchristmasinjeopardy",
+    "starbucksplanstohire7500staffinmajorukexpansionplan",
+    "densefogthreatensmondaymorningrushhourdisruption",
+    "secondaryschoolstoldtostopteachinggcsesbeforeyear10",
+    "only64ofstrokesurvivorsreceiveenoughtherapyfindsdamningreport"
+  ]
+}
