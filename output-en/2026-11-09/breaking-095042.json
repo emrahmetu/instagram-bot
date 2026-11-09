@@ -1,0 +1,32 @@
+{
+  "type": "breaking",
+  "created_at": "2026-11-09T09:50:42.894770+00:00",
+  "item": {
+    "ref": 1,
+    "emoji": "📋",
+    "title": "Government scraps DWP benefit bank account plan, reports say",
+    "body": "The UK Government has abandoned plans to check welfare claimants' bank accounts for fraud, according to reports. Chancellor John Healey scrapped the plan, which would have let Department for Work and Pensions officials see the savings of Universal Credit applicants.",
+    "source": "Nation.Cymru / Press Associati",
+    "photo_query": "DWP building UK government",
+    "person": "John Healey",
+    "person_role": "politician",
+    "category": "gundem",
+    "photo": {
+      "id": "pb:8878730",
+      "provider": "Pixabay",
+      "query": "DWP building UK government",
+      "photographer": "ELG21",
+      "page": "https://pixabay.com/photos/london-tower-clock-city-building-8878730/",
+      "fallback": false
+    }
+  },
+  "caption": "🔴 BREAKING | 📋 Government scraps DWP benefit bank account plan, reports say\n\nThe UK Government has abandoned plans to check welfare claimants' bank accounts for fraud, according to reports. Chancellor John Healey scrapped the plan, which would have let Department for Work and Pensions officials see the savings of Universal Credit applicants.\n\nSource: Nation.Cymru / Press Associati | Image: Pixabay\nUK Daily Briefing | 9 November, 09:50\n\n#BreakingNews #DWP #UniversalCredit #UK",
+  "images": [
+    "output-en/2026-11-09/breaking-095042.jpg"
+  ],
+  "story_image": "output-en/2026-11-09/breaking-095042-story.jpg",
+  "history_keys": [
+    "planstoallowdwptosnooponbenefitclaimantbankaccountsscrappedreports"
+  ],
+  "published": false
+}
