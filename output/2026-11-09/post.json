@@ -1,0 +1,181 @@
+{
+  "date": "2026-11-09",
+  "caption": "🇬🇧 Birleşik Krallık Gündemi | 9 Kasım 2026, Pazartesi\n\n1. 💷 Surrey sakinleri £250 yaşam maliyeti yardımı için başvuru yapabiliyor\nBazı Surrey bölge sakinlerine haneye kadar £250 tutarında sosyal yardım verilmeye başlanmıştır.\n\n2. 🏥 NHS 300 bin hasta için kış döneminde ekstra destek sağlayacak\nİngiltere'de 300 bin hassas hasta bu kış boyunca GP'lerden ek destek alacaktır.\n\n3. 🏥 Sağlık Bakanı NHS'in zor bir kışa hazırlanması gerektiğini kabul etti\nYvette Cooper, NHS'in zaten heatwave nedeniyle ağır bir yaz yaşadığını belirterek hastaneye yatış oranlarını düşürmek için £40 milyon yatırım yapılacağını açıkladı.\n\n4. 💼 Starbucks İngiltere'de 7 bin 500 yeni barista işe alacak\nKahve zinciri Starbucks önümüz beş yılda ülke çapında 7 bin 500 yeni personel istihdam edeceğini ve 500 yeni şube açacağını duyurdu.\n\n5. 🚗 Hükümet elektrikli araç hedeflerini bu hafta düşürme bekleniyor\nYeni petrol veya dizel arabalar 2030'da faz dışına çıkartılması ve 2035'te tüm yeni araçların sıfır emisyon olması gerekmektedir.\n\n6. 🌫️ Pazartesi sabahı yoğun sis sürüş koşullarını olumsuz etkileyebilir\nPazartesi sabahı işe gidiş trafiğinde yoğun sis nedeniyle aksamalar yaşanabilir.\n\n7. 🏉 Rees-Zammit Yeni Zelanda maçına güvenli bir şekilde hazırlanıyor\nGaller kanatı Louis Rees-Zammit, Nations Championship'te Yeni Zelanda ile yapılacak maçtan önce güvene ve kararlılığa sahip görülüyor.\n\n8. 👑 Prens Harry Anma Günü'nde Birleşik Krallık'ta ilk kez görüldü\nSussex Dükü, ulusal Cenotaph seremonisine katılmayan Prens Harry'nin Brackley kasabasında yerel Anma Günü törenine katıldığı görülmüştür.\n\nKaynaklar: BBC, Guardian, Independent, BBC Sport. Haberler Türkçe özet olarak derlenmiştir. Görseller: Pixabay. Fotoğraflar: Lauren Hurley / No 10 Downing Street / OGL 3, Wikimedia Commons.\n\n#İngiltere #UKNews #Londra #NHS #EkonomiHaber #İstihdam #Hava #Spor #KralyetAilesi #SosyalYardım #BritishNews #UnitedKingdom",
+  "images": [
+    "output/2026-11-09/00.jpg",
+    "output/2026-11-09/01.jpg",
+    "output/2026-11-09/02.jpg",
+    "output/2026-11-09/03.jpg",
+    "output/2026-11-09/04.jpg",
+    "output/2026-11-09/05.jpg",
+    "output/2026-11-09/06.jpg",
+    "output/2026-11-09/07.jpg",
+    "output/2026-11-09/08.jpg"
+  ],
+  "story_image": "output/2026-11-09/story.jpg",
+  "items": [
+    {
+      "ref": 6,
+      "emoji": "💷",
+      "title": "Surrey sakinleri £250 yaşam maliyeti yardımı için başvuru yapabiliyor",
+      "body": "Bazı Surrey bölge sakinlerine haneye kadar £250 tutarında sosyal yardım verilmeye başlanmıştır. Bu yardım programı yaşam maliyeti krizinin etkilerini azaltmaya yönelik olup başvurular açılmıştır.",
+      "source": "BBC",
+      "photo_query": "UK pound coins cash",
+      "person": "",
+      "person_role": "",
+      "category": "ekonomi",
+      "photo": {
+        "id": "pb:17626",
+        "provider": "Pixabay",
+        "query": "UK pound coins cash",
+        "photographer": "PublicDomainPictures",
+        "page": "https://pixabay.com/photos/bank-british-business-cash-concept-17626/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 45,
+      "emoji": "🏥",
+      "title": "NHS 300 bin hasta için kış döneminde ekstra destek sağlayacak",
+      "body": "İngiltere'de 300 bin hassas hasta bu kış boyunca GP'lerden ek destek alacaktır. £40 milyon yatırım yapılan bu program, hasta yatışlarını azaltmak ve hastaneleri rahatlatmak amacıyla kurgulanan Plan C.",
+      "source": "Guardian",
+      "photo_query": "NHS hospital ambulance",
+      "person": "",
+      "person_role": "",
+      "category": "saglik",
+      "photo": {
+        "id": "pb:1318437",
+        "provider": "Pixabay",
+        "query": "NHS hospital ambulance",
+        "photographer": "pvdberg",
+        "page": "https://pixabay.com/photos/ambulance-sluggish-interior-view-1318437/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 43,
+      "emoji": "🏥",
+      "title": "Sağlık Bakanı NHS'in zor bir kışa hazırlanması gerektiğini kabul etti",
+      "body": "Yvette Cooper, NHS'in zaten heatwave nedeniyle ağır bir yaz yaşadığını belirterek hastaneye yatış oranlarını düşürmek için £40 milyon yatırım yapılacağını açıkladı. Sistem bu dönemde hastalarını evlerinde desteklemeye odaklanacaktır.",
+      "source": "Independent",
+      "photo_query": "NHS hospital staff",
+      "person": "Yvette Cooper",
+      "person_role": "politician",
+      "category": "saglik",
+      "photo": {
+        "id": "wm:Yvette Cooper Official Cabinet Portrait, September 2025 (cropped).jpg",
+        "provider": "Wikimedia Commons",
+        "person": "Yvette Cooper",
+        "license": "OGL 3",
+        "photographer": "Lauren Hurley / No 10 Downing Street",
+        "page": "https://commons.wikimedia.org/wiki/File:Yvette_Cooper_Official_Cabinet_Portrait,_September_2025_(cropped).jpg",
+        "credit": "Lauren Hurley / No 10 Downing Street / OGL 3, Wikimedia Commons"
+      }
+    },
+    {
+      "ref": 14,
+      "emoji": "💼",
+      "title": "Starbucks İngiltere'de 7 bin 500 yeni barista işe alacak",
+      "body": "Kahve zinciri Starbucks önümüz beş yılda ülke çapında 7 bin 500 yeni personel istihdam edeceğini ve 500 yeni şube açacağını duyurdu. Şirket ülkede 18 binden fazla kişi istihdam ederken bu hamlesi genç istihdam krizine katkı sağlayacak.",
+      "source": "Guardian",
+      "photo_query": "Starbucks coffee shop UK",
+      "person": "",
+      "person_role": "",
+      "category": "ekonomi",
+      "photo": {
+        "id": "pb:6487114",
+        "provider": "Pixabay",
+        "query": "Starbucks coffee shop UK",
+        "photographer": "ClaroCafe",
+        "page": "https://pixabay.com/photos/ground-coffee-coffee-cup-6487114/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 15,
+      "emoji": "🚗",
+      "title": "Hükümet elektrikli araç hedeflerini bu hafta düşürme bekleniyor",
+      "body": "Yeni petrol veya dizel arabalar 2030'da faz dışına çıkartılması ve 2035'te tüm yeni araçların sıfır emisyon olması gerekmektedir. Hükümetin bu hafta bu hedefleri azaltması beklenmektedir.",
+      "source": "BBC",
+      "photo_query": "electric car charging UK",
+      "person": "",
+      "person_role": "",
+      "category": "ekonomi",
+      "photo": {
+        "id": "pb:1645270",
+        "provider": "Pixabay",
+        "query": "electric car charging UK",
+        "photographer": "Picudio",
+        "page": "https://pixabay.com/photos/charge-point-ev-electric-charge-1645270/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 4,
+      "emoji": "🌫️",
+      "title": "Pazartesi sabahı yoğun sis sürüş koşullarını olumsuz etkileyebilir",
+      "body": "Pazartesi sabahı işe gidiş trafiğinde yoğun sis nedeniyle aksamalar yaşanabilir. Sürücülerin dikkatli olması ve hız ayarlaması tavsiye edilmektedir.",
+      "source": "BBC",
+      "photo_query": "UK fog weather visibility",
+      "person": "",
+      "person_role": "",
+      "category": "hava",
+      "photo": {
+        "id": "pb:1835410",
+        "provider": "Pixabay",
+        "query": "UK fog weather visibility",
+        "photographer": "Pexels",
+        "page": "https://pixabay.com/photos/dock-fog-lake-jetty-mist-1835410/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 16,
+      "emoji": "🏉",
+      "title": "Rees-Zammit Yeni Zelanda maçına güvenli bir şekilde hazırlanıyor",
+      "body": "Galler kanatı Louis Rees-Zammit, Nations Championship'te Yeni Zelanda ile yapılacak maçtan önce güvene ve kararlılığa sahip görülüyor. Bristol oyuncusu tercih ettiği kanat pozisyonunda kendine güven bulmuş durumdadır.",
+      "source": "BBC Sport",
+      "photo_query": "Wales rugby rugby union",
+      "person": "Louis Rees-Zammit",
+      "person_role": "footballer",
+      "category": "spor",
+      "photo": {
+        "id": "pb:96358",
+        "provider": "Pixabay",
+        "query": "Wales rugby rugby union",
+        "photographer": "digihanger",
+        "page": "https://pixabay.com/photos/farmhouse-north-wales-uk-welsh-96358/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 59,
+      "emoji": "👑",
+      "title": "Prens Harry Anma Günü'nde Birleşik Krallık'ta ilk kez görüldü",
+      "body": "Sussex Dükü, ulusal Cenotaph seremonisine katılmayan Prens Harry'nin Brackley kasabasında yerel Anma Günü törenine katıldığı görülmüştür. Kral III. Charles ve Prens William ise Londra'daki ulusal açılış seremonisinde hazır bulunmuştur.",
+      "source": "Independent",
+      "photo_query": "Remembrance Sunday UK ceremony",
+      "person": "Harry, Prince",
+      "person_role": "royal",
+      "category": "kraliyet",
+      "photo": {
+        "id": "pb:4903110",
+        "provider": "Pixabay",
+        "query": "Remembrance Sunday UK ceremony",
+        "photographer": "mianviru",
+        "page": "https://pixabay.com/photos/palm-sunday-easter-torrevieja-4903110/",
+        "fallback": false
+      }
+    }
+  ],
+  "history_keys": [
+    "howyoucangetcouncils250costoflivinghelp",
+    "gpstooffer300000patientsextrasupporttoeasewinterstrainonnhs",
+    "burnhamadmitsnhsfacesdifficultwinterasheunveils40mtohelpkeeppatientsoutofhospital",
+    "starbucksplanstohire7500staffinmajorukexpansionplan",
+    "governmentsevtargetsexpectedtobereducedthisweek",
+    "densefogthreatensmondaymorningrushhourdisruption",
+    "smilingreeszammithasnofearofallblacks",
+    "princeharryspottedinlowkeyappearanceatmarkettownsremembrancesundaymemorialservice"
+  ]
+}
