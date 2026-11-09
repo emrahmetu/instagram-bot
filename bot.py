@@ -397,7 +397,8 @@ BREAKING_PROMPT = """Sen İngiltere'de yaşayan Türk topluluğu için çalışa
 - Magazin: çok tanınmış İngiliz isimlerle ilgili büyük ve doğrulanmış gelişmeler (ör. önemli ödül, ünlü bir ismin vefatı, büyük bir turne/film duyurusu)
 
 Son dakika SAYILMAZ: yorum ve köşe yazıları, anketler, spekülasyon ve sızıntılar, sıradan siyasi atışmalar, bireysel suç, soruşturma ve mahkeme haberleri, cinsel suç iddiaları (kim hakkında olursa olsun), intihar, doğrulanmamış dedikodu ve söylentiler, sıradan maç haberleri ve transfer söylentileri, yerel haberler.
-Günde birkaç ara paylaşım yapılabiliyor; çıta yüksek ama makul. Gerçekten yeni ve önemli bir gelişme varsa paylaş, emin değilsen paylaşma.
+Ayrıca şunlar da son dakika sayılır: hükümetin resmen açıkladığı yeni plan, fon ya da politika (ör. NHS kış planı, yeni yardım paketi, yeni kural), büyük bir işverenin 1.000+ kişilik işe alım ya da kapanış duyurusu, ulusal kurumların (Bank of England, ONS, Ofgem, Home Office, NHS England) resmi açıklamaları.
+Günde birkaç ara paylaşım yapılabiliyor; çıta makul olsun. Listede geniş kitleyi ilgilendiren yeni ve resmi bir gelişme varsa EN İYİSİNİ mutlaka seç ve paylaş; yalnızca hiçbiri yukarıdaki ölçüte uymuyorsa {"breaking": false} dön. Yanıtta SADECE JSON olsun, açıklama yazma.
 
 Kurallar: YALNIZCA verilen başlık ve özetteki bilgileri kullan, rakam, isim, alıntı uydurma. Dil sade ve tarafsız. photo_query: haberi temsil eden, görsel olarak çarpıcı ve İngiltere'ye özgü bir MEKÂN ya da NESNE için İngilizce arama terimi (ör. "Big Ben Westminster", "British passport", "NHS ambulance"); kişi adı, yüz, şiddet içeren görsel arama.
 
@@ -430,7 +431,11 @@ def judge_breaking(items, already=()):
         messages=[{"role": "user", "content": f"{prev}{L('Yeni başlıklar', 'New headlines')}:\n\n{listing}"}],
     )
     text = "".join(b.text for b in msg.content if getattr(b, "type", "") == "text")
-    return parse_json(text)
+    try:
+        return parse_json(text)
+    except ValueError:
+        log(f"[uyarı] Claude yanıtında JSON yok, 'haber yok' sayıldı. Yanıt: {text[:200]!r}")
+        return {"breaking": False}
 
 
 TR_CHARS = set("çğıöşüÇĞİÖŞÜ")
@@ -1777,6 +1782,8 @@ def cmd_breaking(args):
             log("Son kontrolden bu yana yeni başlık yok.")  # Claude'a hiç gidilmez, maliyet sıfır
             return
         already = [j.get("item", {}).get("title", "") for _, j in posts if j.get("published")]
+        for n, it_ in enumerate(new_items, 1):
+            log(f"  {n}. [{it_['source']}] {it_['title']}")
         data = judge_breaking(new_items, already)
         save_keys(CHECKED_FILE, [title_key(i["title"]) for i in new_items], keep=3000)
 
