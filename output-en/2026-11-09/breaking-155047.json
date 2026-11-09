@@ -1,0 +1,32 @@
+{
+  "type": "breaking",
+  "created_at": "2026-11-09T15:50:47.377495+00:00",
+  "item": {
+    "ref": 22,
+    "emoji": "💷",
+    "title": "Windrush compensation support gets £600,000 funding boost",
+    "body": "Windrush victims will continue to receive dedicated compensation support, backed by an extra £600,000 in funding.",
+    "source": "GOV.UK Home Office",
+    "photo_query": "UK government building Westminster",
+    "person": "",
+    "person_role": "",
+    "category": "gundem",
+    "photo": {
+      "id": "pb:2554065",
+      "provider": "Pixabay",
+      "query": "UK government building Westminster",
+      "photographer": "4931604",
+      "page": "https://pixabay.com/photos/westminster-london-england-uk-2554065/",
+      "fallback": false
+    }
+  },
+  "caption": "🔴 BREAKING | 💷 Windrush compensation support gets £600,000 funding boost\n\nWindrush victims will continue to receive dedicated compensation support, backed by an extra £600,000 in funding.\n\nSource: GOV.UK Home Office | Image: Pixabay\nUK Daily Briefing | 9 November, 15:50\n\n#BreakingNews #Windrush #Compensation",
+  "images": [
+    "output-en/2026-11-09/breaking-155047.jpg"
+  ],
+  "story_image": "output-en/2026-11-09/breaking-155047-story.jpg",
+  "history_keys": [
+    "600000boostforwindrushcompensationsupport"
+  ],
+  "published": false
+}
