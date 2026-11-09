@@ -1,0 +1,32 @@
+{
+  "type": "breaking",
+  "created_at": "2026-11-09T19:50:45.006904+00:00",
+  "item": {
+    "ref": 18,
+    "emoji": "🚌",
+    "title": "Bus crashes into busy shopping centre in Leeds",
+    "body": "A bus has crashed into a shopping centre in Leeds. Several streets have been closed following the incident.",
+    "source": "Metro",
+    "photo_query": "Leeds city centre shopping street",
+    "person": "",
+    "person_role": "",
+    "category": "gundem",
+    "photo": {
+      "id": "pb:7708552",
+      "provider": "Pixabay",
+      "query": "Leeds city centre shopping street",
+      "photographer": "GPoulsen",
+      "page": "https://pixabay.com/photos/italy-alley-street-shopping-7708552/",
+      "fallback": false
+    }
+  },
+  "caption": "🔴 BREAKING | 🚌 Bus crashes into busy shopping centre in Leeds\n\nA bus has crashed into a shopping centre in Leeds. Several streets have been closed following the incident.\n\nSource: Metro | Image: Pixabay\nUK Daily Briefing | 9 November, 19:50\n\n#BreakingNews #Leeds #Emergency",
+  "images": [
+    "output-en/2026-11-09/breaking-195045.jpg"
+  ],
+  "story_image": "output-en/2026-11-09/breaking-195045-story.jpg",
+  "history_keys": [
+    "buscrashesintobusyleedsshoppingcentre"
+  ],
+  "published": false
+}
