@@ -1,0 +1,32 @@
+{
+  "type": "breaking",
+  "created_at": "2026-11-09T12:50:41.425484+00:00",
+  "item": {
+    "ref": 4,
+    "emoji": "🚨",
+    "title": "'Do not eat' warning issued over soup sold at three supermarkets",
+    "body": "The Food Standards Agency has issued a 'do not eat' warning for soup sold at Tesco, Sainsbury's and Waitrose. It says the cans may 'swell and potentially rupture' because of a manufacturing fault.",
+    "source": "The Independent",
+    "photo_query": "supermarket soup cans shelf",
+    "person": "",
+    "person_role": "",
+    "category": "gundem",
+    "photo": {
+      "id": "pb:4936947",
+      "provider": "Pixabay",
+      "query": "supermarket soup cans shelf",
+      "photographer": "va703b",
+      "page": "https://pixabay.com/photos/food-soup-meal-healthy-spoon-4936947/",
+      "fallback": false
+    }
+  },
+  "caption": "🔴 BREAKING | 🚨 'Do not eat' warning issued over soup sold at three supermarkets\n\nThe Food Standards Agency has issued a 'do not eat' warning for soup sold at Tesco, Sainsbury's and Waitrose. It says the cans may 'swell and potentially rupture' because of a manufacturing fault.\n\nSource: The Independent | Image: Pixabay\nUK Daily Briefing | 9 November, 12:50\n\n#BreakingNews #FoodSafety #Recall",
+  "images": [
+    "output-en/2026-11-09/breaking-125041.jpg"
+  ],
+  "story_image": "output-en/2026-11-09/breaking-125041-story.jpg",
+  "history_keys": [
+    "donoteatwarningissuedforsoupsoldattescosainsburysandwaitrose"
+  ],
+  "published": false
+}
