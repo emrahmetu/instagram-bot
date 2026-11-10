@@ -1,0 +1,180 @@
+{
+  "date": "2026-11-10",
+  "caption": "🇬🇧 Birleşik Krallık Gündemi | 10 Kasım 2026, Salı\n\n1. 💷 Windrush mağdurlarına destek için 600 bin sterlin ek finansman\nHome Office, Windrush skandalının mağdurlarının aldığı özel desteği güçlendirmek için yeni fon ayırdı.\n\n2. 📊 Ekim 2026'de vize başvuruları resmi rakamlara göre açıklandı\nHome Office, iş, eğitim ve aile nedenleriyle Birleşik Krallık'a gelen kişilerin vize başvurusu istatistiklerini yayınladı.\n\n3. ✈️ İngiliz yazarlar AB seyahat yasağı riski altında: Sınır sistemi hataları\nAvrupa Birliği'nin dijital giriş-çıkış sistemi arızaları nedeniyle Jojo Moyes gibi İngiliz seyahatçiler iki yıllık AB yasağı ve 8.300 sterlin para cezası tehdidi altında.\n\n4. 🛩️ ABD uçakları RAF Mildenhall'dan İran tehdidi nedeniyle taşındı\nWall Street Journal'ın bildirdiğine göre, ABD askeri uçakları İran'dan gelen bir tehdidi takiben İngiltere'deki RAF Mildenhall havaalanından taşındı.\n\n5. 📉 Gençler Ortadoğu savaşının ekonomik etkisinden en çok etkileniyor\nBank of England başkan yardımcısı Clare Lombardelli, genç insanların Ortadoğu çatışmasının sonucu işe alım durulmacağından mustarip olduğunu uyardı.\n\n6. ☁️ Londra'da yoğun sis hava kirliliğinde alarm seviyesine çıktı\nYoğun sis ve havai fişek artıklarının kombinasyonu Londra'da hava kalitesini kritik seviyelere taşıdı.\n\n7. 🏃‍♀️ Maraton koşucusu Paula Radcliffe Windsor Şatosunda OBE onuru alacak\nPaula Radcliffe, Windsor Şatosundaki resmi bir törenle OBE unvanına layık görülecek.\n\n8. ⚽ FA Cup birinci turunda spektaküler goller atılmış dizisi\nWimborne Town'un Seung-woo Yang'ın golü ve Crewe'nin Charlie McNeill'in ortasından atılan golü dahil olmak üzere FA Cup'ın birinci turunda dikkate değer goller atıldı.\n\nKaynaklar: GOV.UK Home Office, Guardian, Sky News, Evening Standard, BBC Sport. Haberler Türkçe özet olarak derlenmiştir. Görseller: Pixabay.\n\n#İngiltere #UKNews #Londra #Göç #Viza #RAFMildenhall #BankofEngland #FAKupı #WindsorKasteli #HavaKalitesi",
+  "images": [
+    "output/2026-11-10/00.jpg",
+    "output/2026-11-10/01.jpg",
+    "output/2026-11-10/02.jpg",
+    "output/2026-11-10/03.jpg",
+    "output/2026-11-10/04.jpg",
+    "output/2026-11-10/05.jpg",
+    "output/2026-11-10/06.jpg",
+    "output/2026-11-10/07.jpg",
+    "output/2026-11-10/08.jpg"
+  ],
+  "story_image": "output/2026-11-10/story.jpg",
+  "items": [
+    {
+      "ref": 1,
+      "emoji": "💷",
+      "title": "Windrush mağdurlarına destek için 600 bin sterlin ek finansman",
+      "body": "Home Office, Windrush skandalının mağdurlarının aldığı özel desteği güçlendirmek için yeni fon ayırdı. Ek kaynak, etkilenen kişilerin haklarını elde etme sürecini hızlandıracak.",
+      "source": "GOV.UK Home Office",
+      "photo_query": "British pound sterling coins",
+      "person": "",
+      "person_role": "",
+      "category": "goc",
+      "photo": {
+        "id": "pb:17965",
+        "provider": "Pixabay",
+        "query": "British pound sterling coins",
+        "photographer": "PublicDomainPictures",
+        "page": "https://pixabay.com/photos/business-cash-coin-concept-credit-17965/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 3,
+      "emoji": "📊",
+      "title": "Ekim 2026'de vize başvuruları resmi rakamlara göre açıklandı",
+      "body": "Home Office, iş, eğitim ve aile nedenleriyle Birleşik Krallık'a gelen kişilerin vize başvurusu istatistiklerini yayınladı. Aylık veriler göç politikasının etkisini gösteriyor.",
+      "source": "GOV.UK Home Office",
+      "photo_query": "UK visa entry clearance documents",
+      "person": "",
+      "person_role": "",
+      "category": "goc",
+      "photo": {
+        "id": "pb:5424543",
+        "provider": "Pixabay",
+        "query": "UK visa entry clearance documents",
+        "photographer": "Sandra-Gabriel",
+        "page": "https://pixabay.com/photos/passport-stamps-visa-travel-5424543/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 20,
+      "emoji": "✈️",
+      "title": "İngiliz yazarlar AB seyahat yasağı riski altında: Sınır sistemi hataları",
+      "body": "Avrupa Birliği'nin dijital giriş-çıkış sistemi arızaları nedeniyle Jojo Moyes gibi İngiliz seyahatçiler iki yıllık AB yasağı ve 8.300 sterlin para cezası tehdidi altında. Sistem hataları yanlış geç kalış kayıtları oluşturuyor.",
+      "source": "Guardian",
+      "photo_query": "European Union border crossing sign",
+      "person": "Jojo Moyes",
+      "person_role": "writer",
+      "category": "goc",
+      "photo": {
+        "id": "pb:4999372",
+        "provider": "Pixabay",
+        "query": "European Union border crossing sign",
+        "photographer": "AntDavey",
+        "page": "https://pixabay.com/photos/railways-railroads-grain-elevator-4999372/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 11,
+      "emoji": "🛩️",
+      "title": "ABD uçakları RAF Mildenhall'dan İran tehdidi nedeniyle taşındı",
+      "body": "Wall Street Journal'ın bildirdiğine göre, ABD askeri uçakları İran'dan gelen bir tehdidi takiben İngiltere'deki RAF Mildenhall havaalanından taşındı. Bu, RAF Fairford'tan bombaların çekilmesinden kısa süre sonra yaşandı.",
+      "source": "Sky News",
+      "photo_query": "RAF airbase UK military",
+      "person": "",
+      "person_role": "",
+      "category": "guvenlik",
+      "photo": {
+        "id": "pb:7894284",
+        "provider": "Pixabay",
+        "query": "RAF airbase UK military",
+        "photographer": "Sunriseforever",
+        "page": "https://pixabay.com/photos/the-second-world-war-military-uniform-7894284/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 36,
+      "emoji": "📉",
+      "title": "Gençler Ortadoğu savaşının ekonomik etkisinden en çok etkileniyor",
+      "body": "Bank of England başkan yardımcısı Clare Lombardelli, genç insanların Ortadoğu çatışmasının sonucu işe alım durulmacağından mustarip olduğunu uyardı. Enerji fiyatlarındaki artış ve belirsizlik işsizliği artırıyor.",
+      "source": "Guardian",
+      "photo_query": "Bank of England building exterior",
+      "person": "Clare Lombardelli",
+      "person_role": "",
+      "category": "ekonomi",
+      "photo": {
+        "id": "pb:4303279",
+        "provider": "Pixabay",
+        "query": "Bank of England building exterior",
+        "photographer": "yossiconic",
+        "page": "https://pixabay.com/photos/building-structure-woman-4303279/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 49,
+      "emoji": "☁️",
+      "title": "Londra'da yoğun sis hava kirliliğinde alarm seviyesine çıktı",
+      "body": "Yoğun sis ve havai fişek artıklarının kombinasyonu Londra'da hava kalitesini kritik seviyelere taşıdı. Sağlık uyarıları ve seyahat kesintileri bekleniyor.",
+      "source": "Sky News",
+      "photo_query": "London fog thick dense mist",
+      "person": "",
+      "person_role": "",
+      "category": "hava",
+      "photo": {
+        "id": "pb:8274904",
+        "provider": "Pixabay",
+        "query": "London fog thick dense mist",
+        "photographer": "NatureNomad",
+        "page": "https://pixabay.com/photos/trees-woods-forest-moss-fog-8274904/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 50,
+      "emoji": "🏃‍♀️",
+      "title": "Maraton koşucusu Paula Radcliffe Windsor Şatosunda OBE onuru alacak",
+      "body": "Paula Radcliffe, Windsor Şatosundaki resmi bir törenle OBE unvanına layık görülecek. Yayıncı Cerys Matthews ve DJ Carl Cox da saygı onurları alacak.",
+      "source": "Evening Standard",
+      "photo_query": "Windsor Castle formal ceremony",
+      "person": "Paula Radcliffe",
+      "person_role": "athlete",
+      "category": "kraliyet",
+      "photo": {
+        "id": "pb:348780",
+        "provider": "Pixabay",
+        "query": "Windsor Castle formal ceremony",
+        "photographer": "Stevebidmead",
+        "page": "https://pixabay.com/photos/statue-sculpture-queen-victoria-348780/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 25,
+      "emoji": "⚽",
+      "title": "FA Cup birinci turunda spektaküler goller atılmış dizisi",
+      "body": "Wimborne Town'un Seung-woo Yang'ın golü ve Crewe'nin Charlie McNeill'in ortasından atılan golü dahil olmak üzere FA Cup'ın birinci turunda dikkate değer goller atıldı. Turnuvada heyecanlı çıkışlar devam ediyor.",
+      "source": "BBC Sport",
+      "photo_query": "FA Cup football match action",
+      "person": "",
+      "person_role": "",
+      "category": "spor",
+      "photo": {
+        "id": "pb:545374",
+        "provider": "Pixabay",
+        "query": "FA Cup football match action",
+        "photographer": "roegger",
+        "page": "https://pixabay.com/photos/fire-match-smoke-flame-light-burn-545374/",
+        "fallback": false
+      }
+    }
+  ],
+  "history_keys": [
+    "600000boostforwindrushcompensationsupport",
+    "officialstatisticsmonthlyentryclearancevisaapplicationsoctober2026",
+    "authorjojomoyesamonguktravellersatriskofeubanamiddigitalbordersystemglitches",
+    "usaircraftmovedfromrafmildenhalloveriranthreat",
+    "youngpeopleinukhitbylowgeareconomywarnsbankofenglanddeputy",
+    "highairpollutionalertissuedasfogthreatenstraveldisruption",
+    "marathonrunnerpaularadcliffetobemadeobeatwindsorcastle",
+    "historicwinners50yardscreamersbestgoalsfromfacupfirstround"
+  ]
+}
