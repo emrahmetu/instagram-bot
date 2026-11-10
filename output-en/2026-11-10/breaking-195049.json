@@ -1,0 +1,32 @@
+{
+  "type": "breaking",
+  "created_at": "2026-11-10T19:50:49.170792+00:00",
+  "item": {
+    "ref": 1,
+    "emoji": "🚨",
+    "title": "Senior US soldier arrested by UK counter-terror police",
+    "body": "A 41-year-old senior US soldier has been arrested on suspicion of offences under the National Security Act which relate to Russia, police have said.",
+    "source": "BBC/Guardian",
+    "photo_query": "UK police counter-terrorism",
+    "person": "",
+    "person_role": "",
+    "category": "guvenlik",
+    "photo": {
+      "id": "pb:6962410",
+      "provider": "Pixabay",
+      "query": "UK police counter-terrorism",
+      "photographer": "NoeNei",
+      "page": "https://pixabay.com/photos/police-protest-luxembourg-6962410/",
+      "fallback": false
+    }
+  },
+  "caption": "🔴 BREAKING | 🚨 Senior US soldier arrested by UK counter-terror police\n\nA 41-year-old senior US soldier has been arrested on suspicion of offences under the National Security Act which relate to Russia, police have said.\n\nSource: BBC/Guardian | Image: Pixabay\nUK Daily Briefing | 10 November, 19:50\n\n#BreakingNews #NationalSecurity #Espionage",
+  "images": [
+    "output-en/2026-11-10/breaking-195049.jpg"
+  ],
+  "story_image": "output-en/2026-11-10/breaking-195049-story.jpg",
+  "history_keys": [
+    "seniorussoldierarrestedbyukcounterterrorpolice"
+  ],
+  "published": false
+}
