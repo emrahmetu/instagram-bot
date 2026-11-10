@@ -1,0 +1,32 @@
+{
+  "type": "breaking",
+  "created_at": "2026-11-10T09:50:52.354743+00:00",
+  "item": {
+    "ref": 3,
+    "emoji": "🛡️",
+    "title": "US reportedly evacuates aircraft from RAF Mildenhall over Iran threat",
+    "body": "The US military has reportedly evacuated aircraft from a second British airbase over a threat from Iran. Two refuelling tankers diverted to Germany on Monday morning, weeks after the US withdrew bombers from RAF Fairford over a suspected Iran-linked security incident.",
+    "source": "Guardian",
+    "photo_query": "RAF military airbase",
+    "person": "",
+    "person_role": "",
+    "category": "guvenlik",
+    "photo": {
+      "id": "pb:6992202",
+      "provider": "Pixabay",
+      "query": "RAF military airbase",
+      "photographer": "IqbalStock",
+      "page": "https://pixabay.com/photos/asian-couple-pre-wedding-photoshoot-6992202/",
+      "fallback": false
+    }
+  },
+  "caption": "🔴 BREAKING | 🛡️ US reportedly evacuates aircraft from RAF Mildenhall over Iran threat\n\nThe US military has reportedly evacuated aircraft from a second British airbase over a threat from Iran. Two refuelling tankers diverted to Germany on Monday morning, weeks after the US withdrew bombers from RAF Fairford over a suspected Iran-linked security incident.\n\nSource: Guardian | Image: Pixabay\nUK Daily Briefing | 10 November, 09:50\n\n#BreakingNews #Defence #RAF #Iran",
+  "images": [
+    "output-en/2026-11-10/breaking-095052.jpg"
+  ],
+  "story_image": "output-en/2026-11-10/breaking-095052-story.jpg",
+  "history_keys": [
+    "usreportedlyevacuateaircraftfromrafmildenhalloveriranthreat"
+  ],
+  "published": false
+}
