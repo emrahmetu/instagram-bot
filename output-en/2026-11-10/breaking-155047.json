@@ -1,0 +1,32 @@
+{
+  "type": "breaking",
+  "created_at": "2026-11-10T15:50:47.300142+00:00",
+  "item": {
+    "ref": 4,
+    "emoji": "📉",
+    "title": "Vodafone axes 3,000 jobs in UK and Europe in cost-cutting drive",
+    "body": "Vodafone is cutting 3,000 jobs in the UK and Europe as part of a cost-cutting drive. It has also revealed plans for a further 2,300 job cuts in Germany to help revive its performance in the country.",
+    "source": "The Independent",
+    "photo_query": "Vodafone store UK",
+    "person": "",
+    "person_role": "",
+    "category": "gundem",
+    "photo": {
+      "id": "pb:750407",
+      "provider": "Pixabay",
+      "query": "Thames river London",
+      "photographer": "964424",
+      "page": "https://pixabay.com/photos/england-london-eye-trip-clouds-750407/",
+      "fallback": true
+    }
+  },
+  "caption": "🔴 BREAKING | 📉 Vodafone axes 3,000 jobs in UK and Europe in cost-cutting drive\n\nVodafone is cutting 3,000 jobs in the UK and Europe as part of a cost-cutting drive. It has also revealed plans for a further 2,300 job cuts in Germany to help revive its performance in the country.\n\nSource: The Independent | Image: Pixabay\nUK Daily Briefing | 10 November, 15:50\n\n#BreakingNews #Jobs #Vodafone",
+  "images": [
+    "output-en/2026-11-10/breaking-155047.jpg"
+  ],
+  "story_image": "output-en/2026-11-10/breaking-155047-story.jpg",
+  "history_keys": [
+    "vodafoneaxes3000jobsinukandeuropeamidcostcuttingdrive"
+  ],
+  "published": false
+}
