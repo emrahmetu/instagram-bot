@@ -1,0 +1,32 @@
+{
+  "type": "breaking",
+  "created_at": "2026-11-10T08:50:45.074571+00:00",
+  "item": {
+    "ref": 10,
+    "emoji": "📊",
+    "title": "Grocery inflation edges up to 2.6% as sales of essentials jump",
+    "body": "Supermarket prices are 2.6% higher than a year ago, up from 2.5% last month, data from Worldpanel by Numerator shows. Sales of essentials jumped for the 'Be Ready' campaign.",
+    "source": "Evening Standard",
+    "photo_query": "British supermarket shopping trolley",
+    "person": "",
+    "person_role": "",
+    "category": "ekonomi",
+    "photo": {
+      "id": "pb:3639375",
+      "provider": "Pixabay",
+      "query": "British supermarket shopping trolley",
+      "photographer": "slagi",
+      "page": "https://pixabay.com/photos/trolley-market-shop-buy-store-3639375/",
+      "fallback": false
+    }
+  },
+  "caption": "🔴 BREAKING | 📊 Grocery inflation edges up to 2.6% as sales of essentials jump\n\nSupermarket prices are 2.6% higher than a year ago, up from 2.5% last month, data from Worldpanel by Numerator shows. Sales of essentials jumped for the 'Be Ready' campaign.\n\nSource: Evening Standard | Image: Pixabay\nUK Daily Briefing | 10 November, 08:50\n\n#BreakingNews #Inflation #UK",
+  "images": [
+    "output-en/2026-11-10/breaking-085045.jpg"
+  ],
+  "story_image": "output-en/2026-11-10/breaking-085045-story.jpg",
+  "history_keys": [
+    "groceryinflationedgesupassalesofessentialsjumpforbereadycampaign"
+  ],
+  "published": false
+}
