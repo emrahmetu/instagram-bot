@@ -1136,7 +1136,9 @@ def _get_json(name, url, **kw):
 
 
 GENERIC_PHOTO_WORDS = {"uk", "british", "britain", "england", "english", "united", "kingdom", "the", "and", "of",
-                       "a", "an", "in", "on", "with", "for", "photo", "image", "official", "new", "sterling"}
+                       "a", "an", "in", "on", "with", "for", "photo", "image", "official", "new", "sterling",
+                       "street", "streets", "shopping", "shop", "shops", "city", "centre", "center", "town", "road",
+                       "building", "buildings", "people", "crowd", "store", "stores", "market"}
 
 
 def query_keywords(query):
@@ -1377,7 +1379,7 @@ def render_story(items, day, path, photo=None):
 def render_breaking_story(it, when, path, photo=None):
     accent, shade = photo_palette(photo, cat_of(it)[1])
     top = title_top(it["title"], STORY_SAFE_BOTTOM - 260, SW, start=100, minimum=64, max_h=640, pill="x")
-    img, d = photo_canvas(photo, SW, SH, shade, top_fade=420, solid_from=top + 40)
+    img, d = split_canvas(photo, SW, SH, shade, panel_top=top - 40)
     bottom_title(d, it["title"], STORY_SAFE_BOTTOM - 260, SW, accent, start=100, minimum=64, max_h=640,
                  pill=L("SON DAKİKA", "BREAKING"))
     story_cta(d, L("Ayrıntılar", "Full story"), L("profildeki son gönderide", "in the latest post on our profile"),
