@@ -1,0 +1,32 @@
+{
+  "type": "breaking",
+  "created_at": "2026-11-10T13:20:53.156368+00:00",
+  "item": {
+    "ref": 8,
+    "emoji": "🚨",
+    "title": "ABD, İran tehdidi iddiasıyla RAF Mildenhall'daki uçakları tahliye etti",
+    "body": "ABD Hava Kuvvetleri, Suffolk'taki RAF Mildenhall üssünde kalan uçakların olası bir İran tehdidiyle karşılaşabileceği sonucuna vardı. On tanker uçağı Almanya, İspanya ve İskoçya'daki üslere taşındı. Washington haftalar önce de şüpheli bir güvenlik olayının ardından bombardıman uçaklarını RAF Fairford'dan çekmişti.",
+    "source": "BBC",
+    "photo_query": "RAF Mildenhall military base",
+    "person": "",
+    "person_role": "",
+    "category": "guvenlik",
+    "photo": {
+      "id": "pb:3755371",
+      "provider": "Pixabay",
+      "query": "RAF Mildenhall military base",
+      "photographer": "imkimc",
+      "page": "https://pixabay.com/photos/scud-launcher-military-soviet-3755371/",
+      "fallback": false
+    }
+  },
+  "caption": "🔴 SON DAKİKA | 🚨 ABD, İran tehdidi iddiasıyla RAF Mildenhall'daki uçakları tahliye etti\n\nABD Hava Kuvvetleri, Suffolk'taki RAF Mildenhall üssünde kalan uçakların olası bir İran tehdidiyle karşılaşabileceği sonucuna vardı. On tanker uçağı Almanya, İspanya ve İskoçya'daki üslere taşındı. Washington haftalar önce de şüpheli bir güvenlik olayının ardından bombardıman uçaklarını RAF Fairford'dan çekmişti.\n\nKaynak: BBC | Görsel: Pixabay\nBirleşik Krallık Gündemi | 10 Kasım, 13:20\n\n#SonDakika #BirleşikKrallık #Güvenlik",
+  "images": [
+    "output/2026-11-10/breaking-132053.jpg"
+  ],
+  "story_image": "output/2026-11-10/breaking-132053-story.jpg",
+  "history_keys": [
+    "usevacuatesaircraftfromrafmildenhalloverreportediranthreat"
+  ],
+  "published": false
+}
