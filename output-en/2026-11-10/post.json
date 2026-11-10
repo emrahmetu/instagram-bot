@@ -1,0 +1,181 @@
+{
+  "date": "2026-11-10",
+  "caption": "🇬🇧 UK Daily Briefing | Tuesday, 10 November 2026\n\n1. 📊 Young people bear brunt of 'low-gear economy', says Bank deputy\nClare Lombardelli, the Bank of England's deputy governor for monetary policy, has warned that young people are bearing the brunt of a \"low-gear economy\" as employers hold back from hiring amid the fallout from the war in the Middle East.\n\n2. 💷 Tories pledge to cut £36 billion from welfare, Badenoch to say\nThe Conservative leader is to say the welfare bill is \"more than the entire GDP of Ukraine\" and is \"crushing our economy\".\n\n3. 🌫️ Dense fog prompts high air pollution alert in London\nA \"high\" air pollution alert has been issued in London because of dense fog.\n\n4. 🍽️ Headteachers warn families will struggle after school dinner price rise\nThe price of a primary school dinner will have risen from £2.60 to £3.40 since the start of 2026.\n\n5. 📱 Phones to be banned from pupils' bags and pockets in England's schools\nThe government says it is strengthening its guidance for schools in England, which came into force in June.\n\n6. 🛩️ US aircraft moved from RAF Mildenhall over reported Iran threat\nUS aircraft were moved from the airbase in the UK following a reported threat from Iran.\n\n7. 🚓 Mahmood's ICE-style raid agency is accused of 'fishing expeditions'\nFigures show almost two-thirds of enforcement visits result in no arrests and nearly three-quarters are conducted without a warrant.\n\n8. 🌱 Tommy Walsh, co-presenter of Ground Force, dies aged 69\nTommy Walsh, the building and DIY expert who appeared on shows including Ground Force, has died after a long illness.\n\nSources: Guardian, The Independent, Sky News, BBC. Stories summarised from UK media reports. Images: Pixabay. Photos: ©House of Commons / Roger Harris / CC BY 3.0, Wikimedia Commons.\n\n#UKNews #Britain #Economy #Politics #CostOfLiving #Weather #SchoolNews #Immigration #Security #BBC",
+  "images": [
+    "output-en/2026-11-10/00.jpg",
+    "output-en/2026-11-10/01.jpg",
+    "output-en/2026-11-10/02.jpg",
+    "output-en/2026-11-10/03.jpg",
+    "output-en/2026-11-10/04.jpg",
+    "output-en/2026-11-10/05.jpg",
+    "output-en/2026-11-10/06.jpg",
+    "output-en/2026-11-10/07.jpg",
+    "output-en/2026-11-10/08.jpg"
+  ],
+  "story_image": "output-en/2026-11-10/story.jpg",
+  "items": [
+    {
+      "ref": 37,
+      "emoji": "📊",
+      "title": "Young people bear brunt of 'low-gear economy', says Bank deputy",
+      "body": "Clare Lombardelli, the Bank of England's deputy governor for monetary policy, has warned that young people are bearing the brunt of a \"low-gear economy\" as employers hold back from hiring amid the fallout from the war in the Middle East.",
+      "source": "Guardian",
+      "photo_query": "Bank of England building London",
+      "person": "Clare Lombardelli",
+      "person_role": "economist",
+      "category": "ekonomi",
+      "photo": {
+        "id": "pb:4303278",
+        "provider": "Pixabay",
+        "query": "Bank of England building London",
+        "photographer": "yossiconic",
+        "page": "https://pixabay.com/photos/street-raining-night-evening-urban-4303278/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 68,
+      "emoji": "💷",
+      "title": "Tories pledge to cut £36 billion from welfare, Badenoch to say",
+      "body": "The Conservative leader is to say the welfare bill is \"more than the entire GDP of Ukraine\" and is \"crushing our economy\". Kemi Badenoch will outline how her party would make the cuts.",
+      "source": "The Independent",
+      "photo_query": "Westminster Parliament building",
+      "person": "Kemi Badenoch",
+      "person_role": "politician",
+      "category": "siyaset",
+      "photo": {
+        "id": "wm:Official portrait of Kemi Badenoch MP crop 2, 2024.jpg",
+        "provider": "Wikimedia Commons",
+        "person": "Kemi Badenoch",
+        "license": "CC BY 3.0",
+        "photographer": "©House of Commons / Roger Harris",
+        "page": "https://commons.wikimedia.org/wiki/File:Official_portrait_of_Kemi_Badenoch_MP_crop_2,_2024.jpg",
+        "credit": "©House of Commons / Roger Harris / CC BY 3.0, Wikimedia Commons"
+      }
+    },
+    {
+      "ref": 50,
+      "emoji": "🌫️",
+      "title": "Dense fog prompts high air pollution alert in London",
+      "body": "A \"high\" air pollution alert has been issued in London because of dense fog. Forecasters warn of difficult travel conditions and transport delays across much of the UK.",
+      "source": "Sky News",
+      "photo_query": "London fog Westminster smog",
+      "person": "",
+      "person_role": "",
+      "category": "hava",
+      "photo": {
+        "id": "pb:8835825",
+        "provider": "Pixabay",
+        "query": "London fog Westminster smog",
+        "photographer": "ELG21",
+        "page": "https://pixabay.com/photos/big-ben-london-clock-architecture-8835825/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 64,
+      "emoji": "🍽️",
+      "title": "Headteachers warn families will struggle after school dinner price rise",
+      "body": "The price of a primary school dinner will have risen from £2.60 to £3.40 since the start of 2026. Headteachers say families will struggle.",
+      "source": "BBC",
+      "photo_query": "school lunch hall children eating",
+      "person": "",
+      "person_role": "",
+      "category": "ekonomi",
+      "photo": {
+        "id": "pb:10428798",
+        "provider": "Pixabay",
+        "query": "school lunch hall children eating",
+        "photographer": "AlisaDyson",
+        "page": "https://pixabay.com/photos/school-bus-school-bus-child-boy-10428798/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 72,
+      "emoji": "📱",
+      "title": "Phones to be banned from pupils' bags and pockets in England's schools",
+      "body": "The government says it is strengthening its guidance for schools in England, which came into force in June. Under the stricter rules, phones would be banned from pupils' bags or pockets.",
+      "source": "BBC",
+      "photo_query": "school classroom children learning",
+      "person": "",
+      "person_role": "",
+      "category": "saglik",
+      "photo": {
+        "id": "pb:1073571",
+        "provider": "Pixabay",
+        "query": "school classroom children learning",
+        "photographer": "candice_rose",
+        "page": "https://pixabay.com/photos/school-vintage-desk-back-to-school-1073571/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 12,
+      "emoji": "🛩️",
+      "title": "US aircraft moved from RAF Mildenhall over reported Iran threat",
+      "body": "US aircraft were moved from the airbase in the UK following a reported threat from Iran.",
+      "source": "Sky News",
+      "photo_query": "RAF military airbase aircraft",
+      "person": "",
+      "person_role": "",
+      "category": "guvenlik",
+      "photo": {
+        "id": "pb:108883",
+        "provider": "Pixabay",
+        "query": "RAF military airbase aircraft",
+        "photographer": "12019",
+        "page": "https://pixabay.com/photos/parachutes-parachutists-plane-jet-108883/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 95,
+      "emoji": "🚓",
+      "title": "Mahmood's ICE-style raid agency is accused of 'fishing expeditions'",
+      "body": "Figures show almost two-thirds of enforcement visits result in no arrests and nearly three-quarters are conducted without a warrant. Shabana Mahmood's ICE-style agency has been accused of \"fishing expeditions\".",
+      "source": "Guardian",
+      "photo_query": "Home Office building London",
+      "person": "Shabana Mahmood",
+      "person_role": "politician",
+      "category": "goc",
+      "photo": {
+        "id": "pb:9596809",
+        "provider": "Pixabay",
+        "query": "Home Office building London",
+        "photographer": "wal_172619",
+        "page": "https://pixabay.com/photos/skyscrapers-city-office-building-9596809/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 86,
+      "emoji": "🌱",
+      "title": "Tommy Walsh, co-presenter of Ground Force, dies aged 69",
+      "body": "Tommy Walsh, the building and DIY expert who appeared on shows including Ground Force, has died after a long illness. A former professional builder, he rose to fame alongside Alan Titchmarsh and Charlie Dimmock on the BBC show.",
+      "source": "Guardian",
+      "photo_query": "garden design landscaping outdoor",
+      "person": "Tommy Walsh",
+      "person_role": "presenter",
+      "category": "magazin",
+      "photo": {
+        "id": "pb:2598236",
+        "provider": "Pixabay",
+        "query": "garden design landscaping outdoor",
+        "photographer": "akv0818",
+        "page": "https://pixabay.com/photos/water-stone-park-nature-stream-2598236/",
+        "fallback": false
+      }
+    }
+  ],
+  "history_keys": [
+    "youngpeopleinukhitbylowgeareconomywarnsbankofenglanddeputy",
+    "kemibadenochsayswelfarebilliscrushingoureconomyastoriespledgetoslash36billion",
+    "highairpollutionalertissuedasfogthreatenstraveldisruption",
+    "headteacherssayfamilieswillstruggleafteranotherriseinschooldinnerprices",
+    "phonestobebannedfrompupilsbagsorpocketsunderstricterrulesforschoolsinengland",
+    "usaircraftmovedfromrafmildenhalloveriranthreat",
+    "mahmoodsicestyleimmigrationraidagencyaccusedoffishingexpeditions",
+    "tommywalshcopresenterofbbcsgroundforcediesaged69"
+  ]
+}
