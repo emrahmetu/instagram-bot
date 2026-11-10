@@ -1,0 +1,32 @@
+{
+  "type": "breaking",
+  "created_at": "2026-11-10T10:20:51.797809+00:00",
+  "item": {
+    "ref": 1,
+    "emoji": "💷",
+    "title": "Badenoch sosyal yardımlarda 36 milyar sterlin kesinti önerdi",
+    "body": "Conservatives lideri Badenoch, engelli ve diğer sosyal yardımlarda 36 milyar sterlinlik kesinti öngören Welfare That Works politika belgesini tanıttı. Badenoch, \"İki uzvunu kaybeden kişiler maraton koşuyor\" dedi.",
+    "source": "The Guardian",
+    "photo_query": "welfare benefits documents UK",
+    "person": "Kemi Badenoch",
+    "person_role": "politician",
+    "category": "siyaset",
+    "photo": {
+      "id": "pb:2732649",
+      "provider": "Pixabay",
+      "query": "welfare benefits documents UK",
+      "photographer": "Bernhard_Staerck",
+      "page": "https://pixabay.com/photos/cruelty-to-animals-dog-2732649/",
+      "fallback": false
+    }
+  },
+  "caption": "🔴 SON DAKİKA | 💷 Badenoch sosyal yardımlarda 36 milyar sterlin kesinti önerdi\n\nConservatives lideri Badenoch, engelli ve diğer sosyal yardımlarda 36 milyar sterlinlik kesinti öngören Welfare That Works politika belgesini tanıttı. Badenoch, \"İki uzvunu kaybeden kişiler maraton koşuyor\" dedi.\n\nKaynak: The Guardian | Görsel: Pixabay\nBirleşik Krallık Gündemi | 10 Kasım, 10:20\n\n#SonDakika #Yardımlar #Muhafazakar",
+  "images": [
+    "output/2026-11-10/breaking-102051.jpg"
+  ],
+  "story_image": "output/2026-11-10/breaking-102051-story.jpg",
+  "history_keys": [
+    "doubleamputeesrunmarathonssaysbadenochassheproposes36bncutstodisabilityandotherbenefitsukpoliticslive"
+  ],
+  "published": false
+}
