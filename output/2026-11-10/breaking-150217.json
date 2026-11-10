@@ -1,0 +1,32 @@
+{
+  "type": "breaking",
+  "created_at": "2026-11-10T15:02:17.224729+00:00",
+  "item": {
+    "ref": 3,
+    "emoji": "⚖️",
+    "title": "Arjantin ve Birleşik Krallık Falkland petrol projesi için mahkemede karşı karşıya geldi",
+    "body": "Arjantin, Hamburg'daki Uluslararası Deniz Hukuku Mahkemesi'ne (Itlos), Birleşik Krallık'ın Falkland Adaları açıklarındaki petrol sondajına onay vermesinin, dört on yıl önce savaşa yol açan egemenlik anlaşmazlığını belirgin biçimde derinleştirdiğini bildirdi. Sea Lion projesi tartışmanın merkezinde.",
+    "source": "Guardian",
+    "photo_query": "Falkland Islands British flag",
+    "person": "",
+    "person_role": "",
+    "category": "dunya",
+    "photo": {
+      "id": "pb:636036",
+      "provider": "Pixabay",
+      "query": "Falkland Islands British flag",
+      "photographer": "CatsWithGlasses",
+      "page": "https://pixabay.com/photos/flag-union-jack-british-union-flag-636036/",
+      "fallback": false
+    }
+  },
+  "caption": "🔴 SON DAKİKA | ⚖️ Arjantin ve Birleşik Krallık Falkland petrol projesi için mahkemede karşı karşıya geldi\n\nArjantin, Hamburg'daki Uluslararası Deniz Hukuku Mahkemesi'ne (Itlos), Birleşik Krallık'ın Falkland Adaları açıklarındaki petrol sondajına onay vermesinin, dört on yıl önce savaşa yol açan egemenlik anlaşmazlığını belirgin biçimde derinleştirdiğini bildirdi. Sea Lion projesi tartışmanın merkezinde.\n\nKaynak: Guardian | Görsel: Pixabay\nBirleşik Krallık Gündemi | 10 Kasım, 15:02\n\n#SonDakika #Falkland #Arjantin",
+  "images": [
+    "output/2026-11-10/breaking-150217.jpg"
+  ],
+  "story_image": "output/2026-11-10/breaking-150217-story.jpg",
+  "history_keys": [
+    "ukandargentinaclashoverfalklandsoilprojectashamburgtribunalstarts"
+  ],
+  "published": false
+}
