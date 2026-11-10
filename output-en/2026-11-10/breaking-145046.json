@@ -1,0 +1,32 @@
+{
+  "type": "breaking",
+  "created_at": "2026-11-10T14:50:46.902809+00:00",
+  "item": {
+    "ref": 8,
+    "emoji": "💷",
+    "title": "Conservatives unveil plans for £36bn of benefit cuts",
+    "body": "The Conservative leader has launched a Welfare That Works policy document outlining planned benefit reductions of £36bn. Labour has described the proposals as \"a charter for human misery\".",
+    "source": "Guardian",
+    "photo_query": "UK Parliament Westminster",
+    "person": "",
+    "person_role": "",
+    "category": "siyaset",
+    "photo": {
+      "id": "pb:349643",
+      "provider": "Pixabay",
+      "query": "UK Parliament Westminster",
+      "photographer": "Stevebidmead",
+      "page": "https://pixabay.com/photos/westminster-big-ben-streetlight-349643/",
+      "fallback": false
+    }
+  },
+  "caption": "🔴 BREAKING | 💷 Conservatives unveil plans for £36bn of benefit cuts\n\nThe Conservative leader has launched a Welfare That Works policy document outlining planned benefit reductions of £36bn. Labour has described the proposals as \"a charter for human misery\".\n\nSource: Guardian | Image: Pixabay\nUK Daily Briefing | 10 November, 14:50\n\n#BreakingNews #UKPolitics #Welfare",
+  "images": [
+    "output-en/2026-11-10/breaking-145046.jpg"
+  ],
+  "story_image": "output-en/2026-11-10/breaking-145046-story.jpg",
+  "history_keys": [
+    "plannedtorywelfarecutsacharterforhumanmiserysayslabourukpoliticslive"
+  ],
+  "published": false
+}
