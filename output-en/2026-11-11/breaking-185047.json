@@ -1,0 +1,32 @@
+{
+  "type": "breaking",
+  "created_at": "2026-11-11T18:50:47.665796+00:00",
+  "item": {
+    "ref": 6,
+    "emoji": "🚨",
+    "title": "Bomb hoax emails target thousands of schools in UK and Italy",
+    "body": "The email threats originated from outside the UK. They caused schools to evacuate students and staff.",
+    "source": "The Independent",
+    "photo_query": "UK school building entrance",
+    "person": "",
+    "person_role": "",
+    "category": "gundem",
+    "photo": {
+      "id": "pb:6138596",
+      "provider": "Pixabay",
+      "query": "UK school building entrance",
+      "photographer": "TieuBaoTruong",
+      "page": "https://pixabay.com/photos/fashion-school-uniform-girl-6138596/",
+      "fallback": false
+    }
+  },
+  "caption": "🔴 BREAKING | 🚨 Bomb hoax emails target thousands of schools in UK and Italy\n\nThe email threats originated from outside the UK. They caused schools to evacuate students and staff.\n\nSource: The Independent | Image: Pixabay\nUK Daily Briefing | 11 November, 18:50\n\n#BreakingNews #SchoolSafety #HoaxThreats",
+  "images": [
+    "output-en/2026-11-11/breaking-185047.jpg"
+  ],
+  "story_image": "output-en/2026-11-11/breaking-185047-story.jpg",
+  "history_keys": [
+    "thousandsofschoolsacrosstheukanditalytargetedbybombhoax"
+  ],
+  "published": false
+}
