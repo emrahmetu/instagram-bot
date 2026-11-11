@@ -1,0 +1,32 @@
+{
+  "type": "breaking",
+  "created_at": "2026-11-11T13:20:53.770007+00:00",
+  "item": {
+    "ref": 23,
+    "emoji": "⏸️",
+    "title": "İngiltere'de danışman doktorların grevi hükümetle görüşmelerin ardından durduruldu",
+    "body": "British Medical Association (BMA), İngiltere'de danışman doktorların grevinin hükümetle yapılan görüşmelerin ardından durdurulduğunu açıkladı.",
+    "source": "Sky News",
+    "photo_query": "NHS hospital doctors strike",
+    "person": "",
+    "person_role": "",
+    "category": "saglik",
+    "photo": {
+      "id": "pb:10267183",
+      "provider": "Pixabay",
+      "query": "NHS hospital doctors strike",
+      "photographer": "Daniil_Kondrashin",
+      "page": "https://pixabay.com/photos/doctor-woman-stethoscope-healthcare-10267183/",
+      "fallback": false
+    }
+  },
+  "caption": "🔴 SON DAKİKA | ⏸️ İngiltere'de danışman doktorların grevi hükümetle görüşmelerin ardından durduruldu\n\nBritish Medical Association (BMA), İngiltere'de danışman doktorların grevinin hükümetle yapılan görüşmelerin ardından durdurulduğunu açıkladı.\n\nKaynak: Sky News | Görsel: Pixabay\nBirleşik Krallık Gündemi | 11 Kasım, 13:20\n\n#SonDakika #NHS #Grev",
+  "images": [
+    "output/2026-11-11/breaking-132053.jpg"
+  ],
+  "story_image": "output/2026-11-11/breaking-132053-story.jpg",
+  "history_keys": [
+    "strikebyconsultantdoctorsinenglandpaused"
+  ],
+  "published": false
+}
