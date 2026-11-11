@@ -1,0 +1,32 @@
+{
+  "type": "breaking",
+  "created_at": "2026-11-11T09:50:46.560811+00:00",
+  "item": {
+    "ref": 12,
+    "emoji": "❄️",
+    "title": "Cold health alerts issued across UK as temperatures set to dip to -5°C",
+    "body": "Cold health alerts have been issued across the UK, with temperatures set to dip as low as -5°C.",
+    "source": "Metro",
+    "photo_query": "UK cold winter frost snow",
+    "person": "",
+    "person_role": "",
+    "category": "hava",
+    "photo": {
+      "id": "pb:4720178",
+      "provider": "Pixabay",
+      "query": "UK cold winter frost snow",
+      "photographer": "Pezibear",
+      "page": "https://pixabay.com/photos/horse-horse-head-winter-snow-4720178/",
+      "fallback": false
+    }
+  },
+  "caption": "🔴 BREAKING | ❄️ Cold health alerts issued across UK as temperatures set to dip to -5°C\n\nCold health alerts have been issued across the UK, with temperatures set to dip as low as -5°C.\n\nSource: Metro | Image: Pixabay\nUK Daily Briefing | 11 November, 09:50\n\n#BreakingNews #Weather #UK",
+  "images": [
+    "output-en/2026-11-11/breaking-095046.jpg"
+  ],
+  "story_image": "output-en/2026-11-11/breaking-095046-story.jpg",
+  "history_keys": [
+    "coldhealthalertsissuedacrosstheukwithtemperaturessettodipaslowas5c"
+  ],
+  "published": false
+}
