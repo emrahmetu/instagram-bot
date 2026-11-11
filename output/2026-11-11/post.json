@@ -1,0 +1,181 @@
+{
+  "date": "2026-11-11",
+  "caption": "🇬🇧 Birleşik Krallık Gündemi | 11 Kasım 2026, Çarşamba\n\n1. ⚖️ Yüksek Mahkeme, Home Office'in Eritreli mülteciye yönelik kararını hukuksuz buldu\nMahkeme, genç bir Eritreli sığınmacının Fransa'ya gönderilmesi için yetişkin olarak muamele görmesine ilişkin Home Office kararlarının hukuksuz olduğuna hükmetti.\n\n2. 💷 Muhafazakâr Partisi emeklilik garantisini tutmak için emeklilik yaşını 70'in üzerine çıkar\nMaliye Bakanı Torsten Bell, Muhafazakâr Partisi'nin triple lock vaadini yerine getirdiği takdirde emeklilik yaşını 70'in üzerine çıkarmak zorunda kalabileceğini söyledi.\n\n3. ♿ İngiltere'deki engelli kişiler tekerlek sandalye için iki yıla kadar beklemek zorunda kalı\nParlamento ve Sağlık Hizmeti Ombudsmanlığı raporuna göre, NHS birimleri ve özel üreticiler nedeniyle tekerlekli sandalye gecikmeleri yaşanıyor.\n\n4. 🏥 Sosyal bakım sistemi 'hiç kimsenin sorumlu olmadığı' bir kaos haline geldi\nSosyal bakım komiserliği başkanı Louise Casey, ardı ardına gelen hükümetlerin bu önemli sistemde 'uyanık kalmadığını' söylüyor.\n\n5. 🕵️ ABD askerî personeli Rusya'ya casusluk yapmakla suçlanarak Londra'da tutuklandı\n41 yaşındaki üst rütbeli asker, ulusal güvenlik suçlamalarıyla Londra'da gözaltına alındı.\n\n6. 🎓 İngiltere'deki üniversitelerin yapay zeka nedeniyle öğrenci ödevlerini değerlendirmesi 'im\nOffice for Students düzenlemesi, kurumların geleneksel sınavlara ve yüz yüze sunumlara dönmesini tavsiye ediyor.\n\n7. 👑 Galler Prensesi kanser iyileşmesi hakkında ender bir röportajda konuştu\nPrincess of Wales, Country Life dergisine verdiği röportajda doğanın 'bir sığınak' olduğunu söyledi.\n\n8. 🎨 Prens George'un resmi Country Life dergisine konu oldu\nGaller Prensi tarafından hazırlanan özel sayıda 13 yaşındaki oğlunun kuş çizimi yer aldı.\n\nKaynaklar: Free Movement, Guardian, BBC, The Independent. Haberler Türkçe özet olarak derlenmiştir. Görseller: Pixabay. Fotoğraflar: Daniel Torok/White House / Public domain, Wikimedia Commons.\n\n#İngiltere #Londra #UKNews #Göç #NHS #Emeklilik #Eğitim #Kraliyet #Güvenlik #Sağlık",
+  "images": [
+    "output/2026-11-11/00.jpg",
+    "output/2026-11-11/01.jpg",
+    "output/2026-11-11/02.jpg",
+    "output/2026-11-11/03.jpg",
+    "output/2026-11-11/04.jpg",
+    "output/2026-11-11/05.jpg",
+    "output/2026-11-11/06.jpg",
+    "output/2026-11-11/07.jpg",
+    "output/2026-11-11/08.jpg"
+  ],
+  "story_image": "output/2026-11-11/story.jpg",
+  "items": [
+    {
+      "ref": 1,
+      "emoji": "⚖️",
+      "title": "Yüksek Mahkeme, Home Office'in Eritreli mülteciye yönelik kararını hukuksuz buldu",
+      "body": "Mahkeme, genç bir Eritreli sığınmacının Fransa'ya gönderilmesi için yetişkin olarak muamele görmesine ilişkin Home Office kararlarının hukuksuz olduğuna hükmetti. Karar, göç mevzuatında önemli bir dönüm noktası teşkil ediyor.",
+      "source": "Free Movement",
+      "photo_query": "High Court justice London",
+      "person": "",
+      "person_role": "",
+      "category": "goc",
+      "photo": {
+        "id": "pb:6778953",
+        "provider": "Pixabay",
+        "query": "High Court justice London",
+        "photographer": "smuldur",
+        "page": "https://pixabay.com/photos/justice-law-judgment-trial-libra-6778953/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 20,
+      "emoji": "💷",
+      "title": "Muhafazakâr Partisi emeklilik garantisini tutmak için emeklilik yaşını 70'in üzerine çıkar",
+      "body": "Maliye Bakanı Torsten Bell, Muhafazakâr Partisi'nin triple lock vaadini yerine getirdiği takdirde emeklilik yaşını 70'in üzerine çıkarmak zorunda kalabileceğini söyledi. Labour hükümeti triple lock reformlarını önümüzdeki parlamentoda uygulamaya almayı planladığını açıklamıştı.",
+      "source": "Guardian",
+      "photo_query": "UK pension retirement age",
+      "person": "Kemi Badenoch",
+      "person_role": "politician",
+      "category": "ekonomi",
+      "photo": {
+        "id": "pb:7744362",
+        "provider": "Pixabay",
+        "query": "UK pension retirement age",
+        "photographer": "diegartenprofis",
+        "page": "https://pixabay.com/photos/pensioners-granny-grandpa-pension-7744362/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 61,
+      "emoji": "♿",
+      "title": "İngiltere'deki engelli kişiler tekerlek sandalye için iki yıla kadar beklemek zorunda kalı",
+      "body": "Parlamento ve Sağlık Hizmeti Ombudsmanlığı raporuna göre, NHS birimleri ve özel üreticiler nedeniyle tekerlekli sandalye gecikmeleri yaşanıyor. Ombudsman Paula Sussex, bu gecikmelerinin bağımsız yaşama yeteneğini ciddi şekilde sınırladığını belirtti.",
+      "source": "Guardian",
+      "photo_query": "NHS wheelchair assistance",
+      "person": "",
+      "person_role": "",
+      "category": "saglik",
+      "photo": {
+        "id": "pb:4904912",
+        "provider": "Pixabay",
+        "query": "NHS wheelchair assistance",
+        "photographer": "This_is_Engineering",
+        "page": "https://pixabay.com/photos/engineer-engineering-prosthetics-4904912/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 60,
+      "emoji": "🏥",
+      "title": "Sosyal bakım sistemi 'hiç kimsenin sorumlu olmadığı' bir kaos haline geldi",
+      "body": "Sosyal bakım komiserliği başkanı Louise Casey, ardı ardına gelen hükümetlerin bu önemli sistemde 'uyanık kalmadığını' söylüyor. Sistem, net bir vizyonu olmayan yerel hizmetlerin dağınık bir örgütüne dönüştüğü uyarısında bulunuyor.",
+      "source": "Guardian",
+      "photo_query": "social care elderly home",
+      "person": "",
+      "person_role": "",
+      "category": "saglik",
+      "photo": {
+        "id": "pb:65675",
+        "provider": "Pixabay",
+        "query": "social care elderly home",
+        "photographer": "geralt",
+        "page": "https://pixabay.com/photos/woman-old-retirement-home-dementia-65675/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 87,
+      "emoji": "🕵️",
+      "title": "ABD askerî personeli Rusya'ya casusluk yapmakla suçlanarak Londra'da tutuklandı",
+      "body": "41 yaşındaki üst rütbeli asker, ulusal güvenlik suçlamalarıyla Londra'da gözaltına alındı. Kaynaklar suçlamaların ciddi nitelikte olduğunu belirtip, kişi sorgulanmaktadır.",
+      "source": "BBC",
+      "photo_query": "UK military base security",
+      "person": "",
+      "person_role": "",
+      "category": "guvenlik",
+      "photo": {
+        "id": "pb:5623022",
+        "provider": "Pixabay",
+        "query": "UK military base security",
+        "photographer": "5116225",
+        "page": "https://pixabay.com/photos/portrait-sniper-soldier-gun-army-5623022/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 25,
+      "emoji": "🎓",
+      "title": "İngiltere'deki üniversitelerin yapay zeka nedeniyle öğrenci ödevlerini değerlendirmesi 'im",
+      "body": "Office for Students düzenlemesi, kurumların geleneksel sınavlara ve yüz yüze sunumlara dönmesini tavsiye ediyor. Yapay zekanın başarısız olması nedeniyle öğretim görevlileri akademik değerlendirmede güçlük çekiyor.",
+      "source": "Guardian",
+      "photo_query": "university lecture hall classroom",
+      "person": "",
+      "person_role": "",
+      "category": "saglik",
+      "photo": {
+        "id": "pb:1057364",
+        "provider": "Pixabay",
+        "query": "university lecture hall classroom",
+        "photographer": "12019",
+        "page": "https://pixabay.com/photos/woodburn-hall-west-virginia-1057364/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 17,
+      "emoji": "👑",
+      "title": "Galler Prensesi kanser iyileşmesi hakkında ender bir röportajda konuştu",
+      "body": "Princess of Wales, Country Life dergisine verdiği röportajda doğanın 'bir sığınak' olduğunu söyledi. Açıklamada 'yalnız değiliz' mesajını verdi ve kişisel iyileşme yolculuğundan bahsetti.",
+      "source": "The Independent",
+      "photo_query": "Princess of Wales portrait",
+      "person": "Catherine, Princess of Wales",
+      "person_role": "royal",
+      "category": "kraliyet",
+      "photo": {
+        "id": "wm:Princess of Wales at State Banquet 2025-09-17 (0.75 crop).jpg",
+        "provider": "Wikimedia Commons",
+        "person": "Catherine, Princess of Wales",
+        "license": "Public domain",
+        "photographer": "Daniel Torok/White House",
+        "page": "https://commons.wikimedia.org/wiki/File:Princess_of_Wales_at_State_Banquet_2025-09-17_(0.75_crop).jpg",
+        "credit": "Daniel Torok/White House / Public domain, Wikimedia Commons"
+      }
+    },
+    {
+      "ref": 16,
+      "emoji": "🎨",
+      "title": "Prens George'un resmi Country Life dergisine konu oldu",
+      "body": "Galler Prensi tarafından hazırlanan özel sayıda 13 yaşındaki oğlunun kuş çizimi yer aldı. Prens William, hazırladığı koleksiyonda oğlunun sanatsal çalışmasını ön plana çıkarmayı tercih etti.",
+      "source": "BBC",
+      "photo_query": "Prince George artwork bird drawing",
+      "person": "George, Prince of Wales",
+      "person_role": "",
+      "category": "kraliyet",
+      "photo": {
+        "id": "pb:5985788",
+        "provider": "Pixabay",
+        "query": "Prince George artwork bird drawing",
+        "photographer": "merlinlightpainting",
+        "page": "https://pixabay.com/photos/abstract-painting-wallpaper-pattern-5985788/",
+        "fallback": false
+      }
+    }
+  ],
+  "history_keys": [
+    "highcourtfindshomeofficeunlawfullytreatedyoungeritreanasanadultforremovaltofrance",
+    "torieswouldhavetoraisestatepensionageabove70tokeeptriplelocksaysminister",
+    "disabledpeopleinenglandhavetowaituptotwoyearsforwheelchairs",
+    "nooneisinchargesocialcaresysteminenglandinchaoslouisecaseytosay",
+    "usarmysoldiersuspectedofspyingforrussiaarrestedinuk",
+    "aihasmadeitclosetoimpossibletoassessuniversitycourseworkregulatorsays",
+    "kateopensupaboutrecoveryfromcancerinrareinterviewwearenotalone",
+    "princegeorgesartworkfeaturedincountrylifemagazine"
+  ]
+}
