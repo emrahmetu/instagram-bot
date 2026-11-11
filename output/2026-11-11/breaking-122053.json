@@ -1,0 +1,32 @@
+{
+  "type": "breaking",
+  "created_at": "2026-11-11T12:20:53.286828+00:00",
+  "item": {
+    "ref": 6,
+    "emoji": "🐔",
+    "title": "Kuş gribi riski nedeniyle İngiltere ve İskoçya'da kanatlılar kapalı tutulacak",
+    "body": "Tehlikeli bir kuş gribi suşunun riski arttı. Bu nedenle İngiltere ve İskoçya'da kanatlı ve kafeste tutulan kuşlar ikinci yıl üst üste kapalı alanda tutulmak zorunda. Birleşik Krallık hükümeti, İngiltere genelinde kuş gribi önleme bölgesi ilan etti.",
+    "source": "Guardian",
+    "photo_query": "UK poultry farm birds inside",
+    "person": "",
+    "person_role": "",
+    "category": "gundem",
+    "photo": {
+      "id": "pb:451984",
+      "provider": "Pixabay",
+      "query": "UK poultry farm birds inside",
+      "photographer": "BenjaminNelan",
+      "page": "https://pixabay.com/photos/hen-chicken-farmyard-female-chicken-451984/",
+      "fallback": false
+    }
+  },
+  "caption": "🔴 SON DAKİKA | 🐔 Kuş gribi riski nedeniyle İngiltere ve İskoçya'da kanatlılar kapalı tutulacak\n\nTehlikeli bir kuş gribi suşunun riski arttı. Bu nedenle İngiltere ve İskoçya'da kanatlı ve kafeste tutulan kuşlar ikinci yıl üst üste kapalı alanda tutulmak zorunda. Birleşik Krallık hükümeti, İngiltere genelinde kuş gribi önleme bölgesi ilan etti.\n\nKaynak: Guardian | Görsel: Pixabay\nBirleşik Krallık Gündemi | 11 Kasım, 12:20\n\n#SonDakika #KuşGribi #İngiltere",
+  "images": [
+    "output/2026-11-11/breaking-122053.jpg"
+  ],
+  "story_image": "output/2026-11-11/breaking-122053-story.jpg",
+  "history_keys": [
+    "birdflufearspromptordersforpoultrytobekeptinsideinenglandandscotland"
+  ],
+  "published": false
+}
