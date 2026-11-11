@@ -1,0 +1,32 @@
+{
+  "type": "breaking",
+  "created_at": "2026-11-11T08:20:50.632247+00:00",
+  "item": {
+    "ref": 6,
+    "emoji": "⚠️",
+    "title": "Baroness Louise Casey: Hükümetler onlarca yıldır sosyal bakımı ihmal etti",
+    "body": "Sosyal bakım incelemesine göre hükümetler onlarca yıldır direksiyonda uyudu. Baroness Louise Casey, sektörün 'temelden parçalanmış' durumda olduğu uyarısında bulundu.",
+    "source": "The Independent",
+    "photo_query": "NHS care workers elderly",
+    "person": "Louise Casey",
+    "person_role": "official",
+    "category": "saglik",
+    "photo": {
+      "id": "pb:6538205",
+      "provider": "Pixabay",
+      "query": "NHS care workers elderly",
+      "photographer": "VPKyriacou",
+      "page": "https://pixabay.com/photos/man-elderly-indian-fisherman-6538205/",
+      "fallback": false
+    }
+  },
+  "caption": "🔴 SON DAKİKA | ⚠️ Baroness Louise Casey: Hükümetler onlarca yıldır sosyal bakımı ihmal etti\n\nSosyal bakım incelemesine göre hükümetler onlarca yıldır direksiyonda uyudu. Baroness Louise Casey, sektörün 'temelden parçalanmış' durumda olduğu uyarısında bulundu.\n\nKaynak: The Independent | Görsel: Pixabay\nBirleşik Krallık Gündemi | 11 Kasım, 08:20\n\n#SonDakika #SosyalBakım #İngiltere",
+  "images": [
+    "output/2026-11-11/breaking-082050.jpg"
+  ],
+  "story_image": "output/2026-11-11/breaking-082050-story.jpg",
+  "history_keys": [
+    "socialcarereviewsaysgovernmentshavebeenasleepatthewheelfordecades"
+  ],
+  "published": false
+}
