@@ -1,0 +1,32 @@
+{
+  "type": "breaking",
+  "created_at": "2026-11-11T12:50:46.467783+00:00",
+  "item": {
+    "ref": 24,
+    "emoji": "🐓",
+    "title": "Poultry must be kept indoors in England and Scotland over bird flu risk",
+    "body": "Poultry and captive birds in England and Scotland must be kept inside for the second year in a row because of an increased risk of a devastating strain of bird flu. The government has issued an England-wide avian influenza prevention zone.",
+    "source": "Guardian",
+    "photo_query": "chicken coop farm UK",
+    "person": "",
+    "person_role": "",
+    "category": "saglik",
+    "photo": {
+      "id": "pb:8562000",
+      "provider": "Pixabay",
+      "query": "chicken coop farm UK",
+      "photographer": "CLBMedia",
+      "page": "https://pixabay.com/photos/chicken-coop-poultry-bird-8562000/",
+      "fallback": false
+    }
+  },
+  "caption": "🔴 BREAKING | 🐓 Poultry must be kept indoors in England and Scotland over bird flu risk\n\nPoultry and captive birds in England and Scotland must be kept inside for the second year in a row because of an increased risk of a devastating strain of bird flu. The government has issued an England-wide avian influenza prevention zone.\n\nSource: Guardian | Image: Pixabay\nUK Daily Briefing | 11 November, 12:50\n\n#BreakingNews #BirdFlu #AvianInfluenza",
+  "images": [
+    "output-en/2026-11-11/breaking-125046.jpg"
+  ],
+  "story_image": "output-en/2026-11-11/breaking-125046-story.jpg",
+  "history_keys": [
+    "birdflufearspromptordersforfarmerstokeeppoultryinsideinenglandandscotland"
+  ],
+  "published": false
+}
