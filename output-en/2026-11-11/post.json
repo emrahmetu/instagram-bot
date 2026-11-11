@@ -1,0 +1,181 @@
+{
+  "date": "2026-11-11",
+  "caption": "🇬🇧 UK Daily Briefing | Wednesday, 11 November 2026\n\n1. ⚖️ High Court rules Home Office unlawfully treated Eritrean as an adult\nThe High Court held that a series of Home Office decisions to treat a young Eritrean asylum seeker as an adult, so he could be removed to France under the UK-France treaty, were unlawful.\n\n2. 🏥 Social care review says governments have been 'asleep at the wheel'\nBaroness Louise Casey has warned that the sector is 'fundamentally fragmented'.\n\n3. 👴 Tories would have to raise state pension age above 70, minister claims\nTreasury minister Torsten Bell has claimed Kemi Badenoch's Conservatives would have to raise the state pension age above 70 to meet the cost of keeping the triple lock.\n\n4. 🎓 Regulator says universities should return to exams as AI hits coursework\nThe Office for Students, England's higher education regulator, says universities should go back to traditional exams and in-person presentations.\n\n5. 📉 Nvidia's value falls by about $430bn in two days after CEO admits affair\nNvidia's market value has fallen by about $430bn (£322bn) in two days after its CEO, Jensen Huang, admitted to an affair with a woman alleged to be a Chinese spy.\n\n6. ♿ Disabled people in England wait up to two years for wheelchairs, report says\nA report by Paula Sussex, the parliamentary and health service ombudsman for England, says delays involving NHS bodies and private firms that make wheelchairs have profound consequences and limit users' ability to lead independent lives.\n\n7. 🚨 US soldier suspected of spying for Russia is arrested by UK counter-terror police\nThe man faces 'serious' espionage allegations relating to Russia.\n\n8. 👑 Kate opens up about her recovery from cancer in rare interview\nThe Princess of Wales says that nature is her 'sanctuary'.\n\nSources: Free Movement, The Independent, Guardian, Sky News. Stories summarised from UK media reports. Images: Pixabay. Photos: Daniel Torok/White House / Public domain, Wikimedia Commons.\n\n#UKNews #BritishPolitics #Immigration #HealthcareUK #NHSCrisis #TechNews #RoyalFamily #RemembranceDay #UKEconomy #Britain",
+  "images": [
+    "output-en/2026-11-11/00.jpg",
+    "output-en/2026-11-11/01.jpg",
+    "output-en/2026-11-11/02.jpg",
+    "output-en/2026-11-11/03.jpg",
+    "output-en/2026-11-11/04.jpg",
+    "output-en/2026-11-11/05.jpg",
+    "output-en/2026-11-11/06.jpg",
+    "output-en/2026-11-11/07.jpg",
+    "output-en/2026-11-11/08.jpg"
+  ],
+  "story_image": "output-en/2026-11-11/story.jpg",
+  "items": [
+    {
+      "ref": 1,
+      "emoji": "⚖️",
+      "title": "High Court rules Home Office unlawfully treated Eritrean as an adult",
+      "body": "The High Court held that a series of Home Office decisions to treat a young Eritrean asylum seeker as an adult, so he could be removed to France under the UK-France treaty, were unlawful. The case is R (EXR) v Secretary of State for the Home Department (No.3).",
+      "source": "Free Movement",
+      "photo_query": "Westminster courthouse steps",
+      "person": "",
+      "person_role": "",
+      "category": "goc",
+      "photo": {
+        "id": "pb:4728199",
+        "provider": "Pixabay",
+        "query": "Westminster courthouse steps",
+        "photographer": "Leonhard_Niederwimmer",
+        "page": "https://pixabay.com/photos/big-ben-london-clock-tower-uk-4728199/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 15,
+      "emoji": "🏥",
+      "title": "Social care review says governments have been 'asleep at the wheel'",
+      "body": "Baroness Louise Casey has warned that the sector is 'fundamentally fragmented'. The review says governments have been 'asleep at the wheel' for decades.",
+      "source": "The Independent",
+      "photo_query": "NHS care home entrance",
+      "person": "",
+      "person_role": "",
+      "category": "saglik",
+      "photo": {
+        "id": "pb:9767495",
+        "provider": "Pixabay",
+        "query": "NHS care home entrance",
+        "photographer": "ahmetyuksek",
+        "page": "https://pixabay.com/photos/nurturing-swan-cygnet-care-9767495/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 23,
+      "emoji": "👴",
+      "title": "Tories would have to raise state pension age above 70, minister claims",
+      "body": "Treasury minister Torsten Bell has claimed Kemi Badenoch's Conservatives would have to raise the state pension age above 70 to meet the cost of keeping the triple lock. Labour has announced reforms to the triple lock to come into force in the next parliament.",
+      "source": "Guardian",
+      "photo_query": "pound sterling coins pension",
+      "person": "Kemi Badenoch",
+      "person_role": "politician",
+      "category": "siyaset",
+      "photo": {
+        "id": "pb:4262349",
+        "provider": "Pixabay",
+        "query": "pound sterling coins pension",
+        "photographer": "bluebudgie",
+        "page": "https://pixabay.com/photos/wallet-money-pound-wager-cash-4262349/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 28,
+      "emoji": "🎓",
+      "title": "Regulator says universities should return to exams as AI hits coursework",
+      "body": "The Office for Students, England's higher education regulator, says universities should go back to traditional exams and in-person presentations. Lecturers complained that AI has made it 'close to impossible' to assess coursework.",
+      "source": "Guardian",
+      "photo_query": "university lecture hall students",
+      "person": "",
+      "person_role": "",
+      "category": "ekonomi",
+      "photo": {
+        "id": "pb:2245807",
+        "provider": "Pixabay",
+        "query": "university lecture hall students",
+        "photographer": "doctor-a",
+        "page": "https://pixabay.com/photos/library-people-study-desk-studying-2245807/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 50,
+      "emoji": "📉",
+      "title": "Nvidia's value falls by about $430bn in two days after CEO admits affair",
+      "body": "Nvidia's market value has fallen by about $430bn (£322bn) in two days after its CEO, Jensen Huang, admitted to an affair with a woman alleged to be a Chinese spy. The chief executive is being urged to quit.",
+      "source": "Sky News",
+      "photo_query": "technology stock market graph",
+      "person": "Jensen Huang",
+      "person_role": "businessman",
+      "category": "ekonomi",
+      "photo": {
+        "id": "pb:8774164",
+        "provider": "Pixabay",
+        "query": "technology stock market graph",
+        "photographer": "u_hmycfmol94",
+        "page": "https://pixabay.com/photos/trading-stock-chart-finance-8774164/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 64,
+      "emoji": "♿",
+      "title": "Disabled people in England wait up to two years for wheelchairs, report says",
+      "body": "A report by Paula Sussex, the parliamentary and health service ombudsman for England, says delays involving NHS bodies and private firms that make wheelchairs have profound consequences and limit users' ability to lead independent lives.",
+      "source": "Guardian",
+      "photo_query": "NHS wheelchair accessibility",
+      "person": "",
+      "person_role": "",
+      "category": "saglik",
+      "photo": {
+        "id": "pb:3796781",
+        "provider": "Pixabay",
+        "query": "NHS wheelchair accessibility",
+        "photographer": "anaterate",
+        "page": "https://pixabay.com/photos/wheelchair-fall-park-ride-man-3796781/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 52,
+      "emoji": "🚨",
+      "title": "US soldier suspected of spying for Russia is arrested by UK counter-terror police",
+      "body": "The man faces 'serious' espionage allegations relating to Russia. He was detained following an investigation involving the FBI.",
+      "source": "The Independent",
+      "photo_query": "UK police counter-terror unit",
+      "person": "",
+      "person_role": "",
+      "category": "guvenlik",
+      "photo": {
+        "id": "pb:4596933",
+        "provider": "Pixabay",
+        "query": "UK police counter-terror unit",
+        "photographer": "guvo59",
+        "page": "https://pixabay.com/photos/police-trowel-stop-boy-disguise-4596933/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 20,
+      "emoji": "👑",
+      "title": "Kate opens up about her recovery from cancer in rare interview",
+      "body": "The Princess of Wales says that nature is her 'sanctuary'. In a rare interview, she speaks about her recovery from cancer and says: 'We are not alone.'",
+      "source": "The Independent",
+      "photo_query": "Kensington Palace gardens nature",
+      "person": "Catherine, Princess of Wales",
+      "person_role": "royal",
+      "category": "kraliyet",
+      "photo": {
+        "id": "wm:Princess of Wales at State Banquet 2025-09-17 (0.75 crop).jpg",
+        "provider": "Wikimedia Commons",
+        "person": "Catherine, Princess of Wales",
+        "license": "Public domain",
+        "photographer": "Daniel Torok/White House",
+        "page": "https://commons.wikimedia.org/wiki/File:Princess_of_Wales_at_State_Banquet_2025-09-17_(0.75_crop).jpg",
+        "credit": "Daniel Torok/White House / Public domain, Wikimedia Commons"
+      }
+    }
+  ],
+  "history_keys": [
+    "highcourtfindshomeofficeunlawfullytreatedyoungeritreanasanadultforremovaltofrance",
+    "socialcarereviewsaysgovernmentshavebeenasleepatthewheelfordecades",
+    "torieswouldhavetoraisestatepensionageabove70tokeeptriplelocksaysminister",
+    "aihasmadeitclosetoimpossibletoassessuniversitycourseworkregulatorsays",
+    "nvidiasvalueplummets430bnintwodaysasceourgedtoquit",
+    "disabledpeopleinenglandhavetowaituptotwoyearsforwheelchairs",
+    "ussoldiersuspectedofspyingforrussiaarrestedbybritishcounterterrorpolice",
+    "kateopensupaboutrecoveryfromcancerinrareinterviewwearenotalone"
+  ]
+}
