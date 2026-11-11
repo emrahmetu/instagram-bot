@@ -1,0 +1,32 @@
+{
+  "type": "breaking",
+  "created_at": "2026-11-11T13:52:54.937982+00:00",
+  "item": {
+    "ref": 8,
+    "emoji": "💷",
+    "title": "Lowest-paid public sector workers to get 18.3% pay rise",
+    "body": "Public sector workers on the lowest wages are to see an 18.3% pay rise under a €5.2bn deal. Unions representing public sector staff will review the new agreement over the coming days.",
+    "source": "Evening Standard",
+    "photo_query": "UK public sector workers protest",
+    "person": "",
+    "person_role": "",
+    "category": "ekonomi",
+    "photo": {
+      "id": "pb:6785307",
+      "provider": "Pixabay",
+      "query": "UK public sector workers protest",
+      "photographer": "SantiagoGonzález",
+      "page": "https://pixabay.com/photos/ecuador-protest-demonstrations-6785307/",
+      "fallback": false
+    }
+  },
+  "caption": "🔴 BREAKING | 💷 Lowest-paid public sector workers to get 18.3% pay rise\n\nPublic sector workers on the lowest wages are to see an 18.3% pay rise under a €5.2bn deal. Unions representing public sector staff will review the new agreement over the coming days.\n\nSource: Evening Standard | Image: Pixabay\nUK Daily Briefing | 11 November, 13:52\n\n#BreakingNews #PublicSector #PayRise",
+  "images": [
+    "output-en/2026-11-11/breaking-135254.jpg"
+  ],
+  "story_image": "output-en/2026-11-11/breaking-135254-story.jpg",
+  "history_keys": [
+    "publicsectorworkersonlowestwagetosee183payhikein52bneurodeal"
+  ],
+  "published": false
+}
