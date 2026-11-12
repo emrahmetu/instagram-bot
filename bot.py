@@ -711,8 +711,8 @@ def normalize(data, n):
 # 3) Görselleri üret
 # --------------------------------------------------------------------------- #
 FONT_CANDIDATES = {
-    "bold": ["fonts/DejaVuSans-Bold.ttf", "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"],
-    "regular": ["fonts/DejaVuSans.ttf", "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"],
+    "bold": ["fonts/Poppins-SemiBold.ttf", "fonts/DejaVuSans-Bold.ttf", "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"],
+    "regular": ["fonts/Poppins-Regular.ttf", "fonts/DejaVuSans.ttf", "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"],
 }
 
 
@@ -731,7 +731,7 @@ def no_emoji(s):
     for ch in s:
         if ord(ch) > 0xFFFF or ch in "‍️︎" or unicodedata.category(ch) == "So":
             continue
-        out.append(ch)
+        out.append("›" if ch == "→" else ch)   # Poppins'te → yok
     return clean("".join(out))
 
 
@@ -1065,7 +1065,7 @@ def render_cover(items, day, path, photo=None):
     chip(d, MARGIN, hero_h - 176, COVER_LABEL, accent, size=24, pad_x=20, pad_y=10, fg=WHITE)
     d.text((MARGIN, hero_h - 112), BRAND_TITLE, font=font("bold", 62), fill=WHITE)
     badge_list(d, items, hero_h + 24, H - 128, W - 2 * MARGIN, range(34, 22, -1))
-    footer(d, L("Detaylar için kaydırın  →", "Swipe for details  →"))
+    footer(d, L("Detaylar için kaydırın  ›", "Swipe for details  ›"))
     img.save(path, "JPEG", quality=92, optimize=True)
 
 
@@ -2011,7 +2011,7 @@ def render_guide_cover(gs, label, color, day, path):
         y = draw_lines(d, MARGIN + 90, y, lines, fnt, lh, INK) + 14
         sf = font("regular", 30)
         y = draw_lines(d, MARGIN + 90, y, wrap(d, no_emoji(g["summary"]), sf, max_w - 90)[:3], sf, 42, BODY) + 44
-    footer(d, "Kaydırın  →   Kaynak: GOV.UK")
+    footer(d, "Kaydırın  ›   Kaynak: GOV.UK")
     img.save(path, "JPEG", quality=92, optimize=True)
 
 
