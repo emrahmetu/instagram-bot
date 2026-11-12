@@ -1,0 +1,32 @@
+{
+  "type": "breaking",
+  "created_at": "2026-11-12T13:20:55.192243+00:00",
+  "item": {
+    "ref": 13,
+    "emoji": "🏦",
+    "title": "Metro Bank satışa çıktı, yatırımcısı 420 milyon sterlin kazanabilir",
+    "body": "Metro Bank, çöküşün eşiğine geldikten üç yıl sonra kendisini satışa çıkardı. Banka, Perşembe günü tekliflere açık olduğunu nadir görülen bir adımla duyurdu. Kolombiyalı milyarder yatırımcı Jaime Gilinski Bacal 420 milyon sterlin kazanç elde edebilir. Hisseler %7 yükseldi.",
+    "source": "Guardian",
+    "photo_query": "Metro Bank London branch",
+    "person": "",
+    "person_role": "",
+    "category": "ekonomi",
+    "photo": {
+      "id": "pb:1069217",
+      "provider": "Pixabay",
+      "query": "Metro Bank London branch",
+      "photographer": "ClickerHappy",
+      "page": "https://pixabay.com/photos/london-underground-metro-tube-1069217/",
+      "fallback": false
+    }
+  },
+  "caption": "🔴 SON DAKİKA | 🏦 Metro Bank satışa çıktı, yatırımcısı 420 milyon sterlin kazanabilir\n\nMetro Bank, çöküşün eşiğine geldikten üç yıl sonra kendisini satışa çıkardı. Banka, Perşembe günü tekliflere açık olduğunu nadir görülen bir adımla duyurdu. Kolombiyalı milyarder yatırımcı Jaime Gilinski Bacal 420 milyon sterlin kazanç elde edebilir. Hisseler %7 yükseldi.\n\nKaynak: Guardian | Görsel: Pixabay\nBirleşik Krallık Gündemi | 12 Kasım, 13:20\n\n#SonDakika #MetroBank #FinansalHaberler",
+  "images": [
+    "output/2026-11-12/breaking-132055.jpg"
+  ],
+  "story_image": "output/2026-11-12/breaking-132055-story.jpg",
+  "history_keys": [
+    "metrobankupforsalewithbillionaireinvestorinlinefor420mwindfall"
+  ],
+  "published": false
+}
