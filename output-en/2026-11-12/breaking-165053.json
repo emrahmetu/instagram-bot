@@ -1,0 +1,32 @@
+{
+  "type": "breaking",
+  "created_at": "2026-11-12T16:50:53.203474+00:00",
+  "item": {
+    "ref": 15,
+    "emoji": "📱",
+    "title": "Nvidia CEO Jensen Huang resigns over affair allegations",
+    "body": "The billionaire tech executive has left the company following reports of a second extramarital affair.",
+    "source": "BBC",
+    "photo_query": "Nvidia headquarters building",
+    "person": "Jensen Huang",
+    "person_role": "businessman",
+    "category": "gundem",
+    "photo": {
+      "id": "pb:2766429",
+      "provider": "Pixabay",
+      "query": "Nvidia headquarters building",
+      "photographer": "mauabe",
+      "page": "https://pixabay.com/photos/management-modern-office-large-2766429/",
+      "fallback": false
+    }
+  },
+  "caption": "🔴 BREAKING | 📱 Nvidia CEO Jensen Huang resigns over affair allegations\n\nThe billionaire tech executive has left the company following reports of a second extramarital affair.\n\nSource: BBC | Image: Pixabay\nUK Daily Briefing | 12 November, 16:50\n\n#BreakingNews #Tech #Nvidia",
+  "images": [
+    "output-en/2026-11-12/breaking-165053.jpg"
+  ],
+  "story_image": "output-en/2026-11-12/breaking-165053-story.jpg",
+  "history_keys": [
+    "whatweknowasnvidiaceojensenhuangresignsoveraffairallegations"
+  ],
+  "published": false
+}
