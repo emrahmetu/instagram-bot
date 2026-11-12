@@ -1,0 +1,183 @@
+{
+  "date": "2026-11-12",
+  "caption": "🇬🇧 Birleşik Krallık Gündemi | 12 Kasım 2026, Perşembe\n\n1. 👨‍💼 Bütçe vizeli çalışanlara nefes aldırıyor\nMaliye Bakanı John Healey'nin bütçesinde en nitelikli işçilerin yeni sponsor bulması için verilen süre 60 günden 6 aya çıkarılıyor.\n\n2. 📊 İngiltere ekonomisi %0,7 büyüdü, 2024 başından beri en hızlı tempo\nONS verilerine göre ekonomi, 2024 başından bu yana en hızlı tempoda büyüyor.\n\n3. 💷 25 yaşın altındakiler hastalık yardımından çıkarılabilir\nAlan Milburn tarafından yönetilen refah sistemi incelemesi, 25 yaşından küçüklerin ana hastalık ve engelli yardımlarından kaldırılmasını ve bunun yerine bir ödenek verilmesini önerdi.\n\n4. 📹 Yüz tanıma teknolojisinden etnik azınlıklar tehlikede\nPolis gözetim kurulu raporuna göre, yüz tanıma hatalarından özellikle etnik azınlıklar haksız tutuklama riski altında.\n\n5. 🔥 Aralık ayında doğalgaz faturalarında %5 artış\nOrta Doğu'daki kriz devam ettikçe, Island Energy 1 Aralık'tan itibaren doğalgaz faturalarında %5 artış açıkladı.\n\n6. 🏦 DWP yardım alma kontrolü için banka hesaplarını inceleyecek\nYeni kurallara göre DWP, sosyal yardım kurallarını uygulamak için 'uygunluk göstergeleri' adı altında bankalar ve diğer finansal kuruluşlarla bilgi paylaşacak.\n\n7. 👑 Kral Charles, Elton John'la müzik anılarını paylaşıyor\nKral Charles, Sir Elton John'un Rocket Hour programına konuk olacak ve müzik anılarını paylaşacak.\n\n8. ⚽ Robertson, Dalglish'in rekoruna eşitlemeye hazırlanıyor\nİskoçya'nın kaptan Andy Robertson, İskoçya'nın efsanevi oyuncusu Kenny Dalglish'in milli maç rekoruna eşitlemeye yakın.\n\nKaynaklar: Free Movement, Evening Standard, The Independent, Guardian, BBC, BBC Sport. Haberler Türkçe özet olarak derlenmiştir. Görseller: Pixabay. Fotoğraflar: Prime Minister's Office / OGL 3, Wikimedia Commons; White House / Public domain, Wikimedia Commons; Bryan Berlin / CC BY-SA 4.0, Wikimedia Commons.\n\n#İngiltere #Londra #UKNews #WorkVisa #Göç #Ekonomi #SosyalYardım #DWP #Emniyet #FacialRecognition #BritishNews #Parliament",
+  "images": [
+    "output/2026-11-12/00.jpg",
+    "output/2026-11-12/01.jpg",
+    "output/2026-11-12/02.jpg",
+    "output/2026-11-12/03.jpg",
+    "output/2026-11-12/04.jpg",
+    "output/2026-11-12/05.jpg",
+    "output/2026-11-12/06.jpg",
+    "output/2026-11-12/07.jpg",
+    "output/2026-11-12/08.jpg"
+  ],
+  "story_image": "output/2026-11-12/story.jpg",
+  "items": [
+    {
+      "ref": 1,
+      "emoji": "👨‍💼",
+      "title": "Bütçe vizeli çalışanlara nefes aldırıyor",
+      "body": "Maliye Bakanı John Healey'nin bütçesinde en nitelikli işçilerin yeni sponsor bulması için verilen süre 60 günden 6 aya çıkarılıyor. Maaş eşikleri de Migration Advisory Committee önerilerine uygun şekilde gözden geçirilecek.",
+      "source": "Free Movement",
+      "photo_query": "UK work visa salary threshold",
+      "person": "",
+      "person_role": "",
+      "category": "goc",
+      "photo": {
+        "id": "pb:5547415",
+        "provider": "Pixabay",
+        "query": "UK work visa salary threshold",
+        "photographer": "Leonhard_Niederwimmer",
+        "page": "https://pixabay.com/photos/door-gate-portal-tunnel-stone-work-5547415/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 16,
+      "emoji": "📊",
+      "title": "İngiltere ekonomisi %0,7 büyüdü, 2024 başından beri en hızlı tempo",
+      "body": "ONS verilerine göre ekonomi, 2024 başından bu yana en hızlı tempoda büyüyor. Andy Burnham, Birleşik Krallık'ın Trump'ın İran savaşının yarattığı darbeye rağmen büyümeyi başardığını söyledi.",
+      "source": "Evening Standard",
+      "photo_query": "UK economy growth chart",
+      "person": "Andy Burnham",
+      "person_role": "politician",
+      "category": "ekonomi",
+      "photo": {
+        "id": "wm:Prime Minister Andy Burnham portrait (cropped).jpg",
+        "provider": "Wikimedia Commons",
+        "person": "Andy Burnham",
+        "license": "OGL 3",
+        "photographer": "Prime Minister's Office",
+        "page": "https://commons.wikimedia.org/wiki/File:Prime_Minister_Andy_Burnham_portrait_(cropped).jpg",
+        "credit": "Prime Minister's Office / OGL 3, Wikimedia Commons"
+      }
+    },
+    {
+      "ref": 61,
+      "emoji": "💷",
+      "title": "25 yaşın altındakiler hastalık yardımından çıkarılabilir",
+      "body": "Alan Milburn tarafından yönetilen refah sistemi incelemesi, 25 yaşından küçüklerin ana hastalık ve engelli yardımlarından kaldırılmasını ve bunun yerine bir ödenek verilmesini önerdi. Milburn, bu değişikliklerin 'ağrısız' olmayacağını kabul etti.",
+      "source": "The Independent",
+      "photo_query": "DWP welfare benefits office",
+      "person": "",
+      "person_role": "",
+      "category": "gundem",
+      "photo": {
+        "id": "pb:7518536",
+        "provider": "Pixabay",
+        "query": "DWP welfare benefits office",
+        "photographer": "pixel2013",
+        "page": "https://pixabay.com/photos/crane-houses-architecture-cologne-7518536/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 68,
+      "emoji": "📹",
+      "title": "Yüz tanıma teknolojisinden etnik azınlıklar tehlikede",
+      "body": "Polis gözetim kurulu raporuna göre, yüz tanıma hatalarından özellikle etnik azınlıklar haksız tutuklama riski altında. Teknoloji suçla mücadelede yardımcı olabilse de büyük hata ve önyargı sorunları bulunuyor.",
+      "source": "Guardian",
+      "photo_query": "facial recognition CCTV camera",
+      "person": "",
+      "person_role": "",
+      "category": "guvenlik",
+      "photo": {
+        "id": "pb:2579551",
+        "provider": "Pixabay",
+        "query": "facial recognition CCTV camera",
+        "photographer": "GreenCardShow",
+        "page": "https://pixabay.com/photos/cctv-surveillance-security-camera-2579551/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 40,
+      "emoji": "🔥",
+      "title": "Aralık ayında doğalgaz faturalarında %5 artış",
+      "body": "Orta Doğu'daki kriz devam ettikçe, Island Energy 1 Aralık'tan itibaren doğalgaz faturalarında %5 artış açıkladı. Halkın enerji maliyetleri yükselmeye devam ediyor.",
+      "source": "BBC",
+      "photo_query": "heating bill pounds sterling",
+      "person": "",
+      "person_role": "",
+      "category": "ekonomi",
+      "photo": {
+        "id": "pb:18032",
+        "provider": "Pixabay",
+        "query": "heating bill pounds sterling",
+        "photographer": "PublicDomainPictures",
+        "page": "https://pixabay.com/photos/business-cash-coin-concept-credit-18032/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 44,
+      "emoji": "🏦",
+      "title": "DWP yardım alma kontrolü için banka hesaplarını inceleyecek",
+      "body": "Yeni kurallara göre DWP, sosyal yardım kurallarını uygulamak için 'uygunluk göstergeleri' adı altında bankalar ve diğer finansal kuruluşlarla bilgi paylaşacak. Sistem sosyal yardım sahteciliğini önlemesi amacıyla oluşturuldu.",
+      "source": "The Independent",
+      "photo_query": "bank account statement UK",
+      "person": "",
+      "person_role": "",
+      "category": "gundem",
+      "photo": {
+        "id": "pb:1234687",
+        "provider": "Pixabay",
+        "query": "bank account statement UK",
+        "photographer": "milivigerova",
+        "page": "https://pixabay.com/photos/jeans-tee-t-shirt-white-blue-1234687/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 33,
+      "emoji": "👑",
+      "title": "Kral Charles, Elton John'la müzik anılarını paylaşıyor",
+      "body": "Kral Charles, Sir Elton John'un Rocket Hour programına konuk olacak ve müzik anılarını paylaşacak. Program, Kral'ın 78. doğum günü olan Cumartesi günü yayınlanacak.",
+      "source": "Evening Standard",
+      "photo_query": "King Charles III portrait",
+      "person": "Charles III",
+      "person_role": "royal",
+      "category": "kraliyet",
+      "photo": {
+        "id": "wm:King Charles III (July 2023).jpg",
+        "provider": "Wikimedia Commons",
+        "person": "Charles III",
+        "license": "Public domain",
+        "photographer": "White House",
+        "page": "https://commons.wikimedia.org/wiki/File:King_Charles_III_(July_2023).jpg",
+        "credit": "White House / Public domain, Wikimedia Commons"
+      }
+    },
+    {
+      "ref": 26,
+      "emoji": "⚽",
+      "title": "Robertson, Dalglish'in rekoruna eşitlemeye hazırlanıyor",
+      "body": "İskoçya'nın kaptan Andy Robertson, İskoçya'nın efsanevi oyuncusu Kenny Dalglish'in milli maç rekoruna eşitlemeye yakın. İkili arasında spor dışında da yakın bağlar bulunuyor.",
+      "source": "BBC Sport",
+      "photo_query": "Scotland football captain Andy Robertson",
+      "person": "Andy Robertson",
+      "person_role": "footballer",
+      "category": "spor",
+      "photo": {
+        "id": "wm:Andy Robertson Scotland v Bolivia 6 June 2026-43.jpg",
+        "provider": "Wikimedia Commons",
+        "person": "Andy Robertson",
+        "license": "CC BY-SA 4.0",
+        "photographer": "Bryan Berlin",
+        "page": "https://commons.wikimedia.org/wiki/File:Andy_Robertson_Scotland_v_Bolivia_6_June_2026-43.jpg",
+        "credit": "Bryan Berlin / CC BY-SA 4.0, Wikimedia Commons"
+      }
+    }
+  ],
+  "history_keys": [
+    "2026budgetbringslowersalarythresholdsandreprieveforsomegraduates",
+    "gdpup07britaindefieshitfromtrumpsiranwartogroweconomysaysandyburnham",
+    "youngpeopletonolongergetmainsicknessbenefitandpipundermilburnswelfareoverhaulplan",
+    "facialrecognitionerrorsputethnicminoritiesatriskofwrongfularrestpolicewatchdogwarns",
+    "gasbillstoriseasmiddleeastturmoilpersists",
+    "thisishowthedwpcheckwillbankaccountsundernewbenefitrules",
+    "kingtoappearonsireltonjohnsrockethourradioshowonapplemusic",
+    "robertsonsettomakehistorybuthisherodalglishwillalwaysbeking"
+  ]
+}
