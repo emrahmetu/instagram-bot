@@ -1,0 +1,181 @@
+{
+  "date": "2026-11-12",
+  "caption": "🇬🇧 UK Daily Briefing | Thursday, 12 November 2026\n\n1. 💼 Budget could give skilled workers longer to find new visa sponsor\nChancellor John Healey's first budget means the highest-skilled workers who lose their jobs could get up to six months, rather than 60 days, to find a new sponsor.\n\n2. 📈 UK economy grows at fastest rate for more than two years\nThe UK economy grew by 0.7% in the three months to September, according to official figures.\n\n3. 💷 Under-25s would lose main sickness benefits under Milburn welfare plan\nUnder-25s would be moved off the main sickness and disability benefits and given an allowance instead under plans from Alan Milburn.\n\n4. ⚠️ Facial recognition errors put ethnic minorities at risk of wrongful arrest\nA police watchdog report warns that officers risk arresting innocent people, especially from ethnic minorities, if they treat inaccurate facial recognition data as evidence.\n\n5. ❄️ Gas bills to rise by about 5% from December as Middle East turmoil persists\nGas bills will increase by about 5% from 1 December, Island Energy has announced.\n\n6. 🏥 NHS figures show patients left stuck on wards for weeks awaiting discharge\nPatients are being left on hospital wards for weeks after they are ready to be discharged, NHS figures show.\n\n7. 🏪 MPs say Poundland owner extracted millions when chain was on knife-edge\nMPs have accused Poundland's owner of extracting millions of pounds from the retailer when it was on a 'knife-edge'.\n\n8. 👑 King to appear on Sir Elton John's radio show on his 78th birthday\nKing Charles will appear on Sir Elton John's Rocket Hour radio show on Apple Music on Saturday, his 78th birthday.\n\nSources: Free Movement, BBC, The Independent, Guardian, Evening Standard. Stories summarised from UK media reports. Images: Pixabay. Photos: White House / Public domain, Wikimedia Commons.\n\n#UKNews #Britain #BritishEconomy #Welfare #Immigration #NHS #Security #Budget2026 #DailyNews #UKPolitics",
+  "images": [
+    "output-en/2026-11-12/00.jpg",
+    "output-en/2026-11-12/01.jpg",
+    "output-en/2026-11-12/02.jpg",
+    "output-en/2026-11-12/03.jpg",
+    "output-en/2026-11-12/04.jpg",
+    "output-en/2026-11-12/05.jpg",
+    "output-en/2026-11-12/06.jpg",
+    "output-en/2026-11-12/07.jpg",
+    "output-en/2026-11-12/08.jpg"
+  ],
+  "story_image": "output-en/2026-11-12/story.jpg",
+  "items": [
+    {
+      "ref": 1,
+      "emoji": "💼",
+      "title": "Budget could give skilled workers longer to find new visa sponsor",
+      "body": "Chancellor John Healey's first budget means the highest-skilled workers who lose their jobs could get up to six months, rather than 60 days, to find a new sponsor. Salary thresholds will be reviewed in line with Migration Advisory Committee recommendations.",
+      "source": "Free Movement",
+      "photo_query": "UK visa passport stamp",
+      "person": "",
+      "person_role": "",
+      "category": "goc",
+      "photo": {
+        "id": "pb:4915095",
+        "provider": "Pixabay",
+        "query": "UK visa passport stamp",
+        "photographer": "Peggy_Marco",
+        "page": "https://pixabay.com/photos/carry-on-baggage-4915095/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 24,
+      "emoji": "📈",
+      "title": "UK economy grows at fastest rate for more than two years",
+      "body": "The UK economy grew by 0.7% in the three months to September, according to official figures. It is the fastest rate of growth for more than two years.",
+      "source": "BBC",
+      "photo_query": "pound sterling coins growth chart",
+      "person": "",
+      "person_role": "",
+      "category": "ekonomi",
+      "photo": {
+        "id": "pb:8450635",
+        "provider": "Pixabay",
+        "query": "pound sterling coins growth chart",
+        "photographer": "aunguyen_vn",
+        "page": "https://pixabay.com/photos/coins-economy-economy-exchange-rate-8450635/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 64,
+      "emoji": "💷",
+      "title": "Under-25s would lose main sickness benefits under Milburn welfare plan",
+      "body": "Under-25s would be moved off the main sickness and disability benefits and given an allowance instead under plans from Alan Milburn. He admitted the changes would not be 'pain-free'.",
+      "source": "The Independent",
+      "photo_query": "UK welfare benefits form DWP",
+      "person": "Alan Milburn",
+      "person_role": "policymaker",
+      "category": "siyaset",
+      "photo": {
+        "id": "pb:2732649",
+        "provider": "Pixabay",
+        "query": "UK welfare benefits form DWP",
+        "photographer": "Bernhard_Staerck",
+        "page": "https://pixabay.com/photos/cruelty-to-animals-dog-2732649/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 72,
+      "emoji": "⚠️",
+      "title": "Facial recognition errors put ethnic minorities at risk of wrongful arrest",
+      "body": "A police watchdog report warns that officers risk arresting innocent people, especially from ethnic minorities, if they treat inaccurate facial recognition data as evidence. Inspectors found some acted on matches from retrospective searches without enough checks.",
+      "source": "Guardian",
+      "photo_query": "police CCTV camera security",
+      "person": "",
+      "person_role": "",
+      "category": "guvenlik",
+      "photo": {
+        "id": "pb:3728625",
+        "provider": "Pixabay",
+        "query": "police CCTV camera security",
+        "photographer": "FlorinBirj",
+        "page": "https://pixabay.com/photos/video-camera-wall-observation-3728625/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 43,
+      "emoji": "❄️",
+      "title": "Gas bills to rise by about 5% from December as Middle East turmoil persists",
+      "body": "Gas bills will increase by about 5% from 1 December, Island Energy has announced. The announcement comes as turmoil in the Middle East persists.",
+      "source": "BBC",
+      "photo_query": "UK heating boiler gas meter",
+      "person": "",
+      "person_role": "",
+      "category": "ekonomi",
+      "photo": {
+        "id": "pb:4607890",
+        "provider": "Pixabay",
+        "query": "UK heating boiler gas meter",
+        "photographer": "Sunriseforever",
+        "page": "https://pixabay.com/photos/plumber-communication-pipe-water-4607890/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 37,
+      "emoji": "🏥",
+      "title": "NHS figures show patients left stuck on wards for weeks awaiting discharge",
+      "body": "Patients are being left on hospital wards for weeks after they are ready to be discharged, NHS figures show. Such delays can lead to infections, falls and physical deterioration.",
+      "source": "The Independent",
+      "photo_query": "NHS hospital bed ward",
+      "person": "",
+      "person_role": "",
+      "category": "saglik",
+      "photo": {
+        "id": "pb:1850893",
+        "provider": "Pixabay",
+        "query": "NHS hospital bed ward",
+        "photographer": "Pexels",
+        "page": "https://pixabay.com/photos/morning-bedroom-bed-door-girl-1850893/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 95,
+      "emoji": "🏪",
+      "title": "MPs say Poundland owner extracted millions when chain was on knife-edge",
+      "body": "MPs have accused Poundland's owner of extracting millions of pounds from the retailer when it was on a 'knife-edge'. Its management will seek a two-week extension of legal protection from creditors in the high court to secure a rescue deal.",
+      "source": "Guardian",
+      "photo_query": "Poundland discount store UK",
+      "person": "",
+      "person_role": "",
+      "category": "ekonomi",
+      "photo": {
+        "id": "pb:435452",
+        "provider": "Pixabay",
+        "query": "Poundland discount store UK",
+        "photographer": "itkannan4u",
+        "page": "https://pixabay.com/photos/supermarket-shopping-sales-store-435452/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 36,
+      "emoji": "👑",
+      "title": "King to appear on Sir Elton John's radio show on his 78th birthday",
+      "body": "King Charles will appear on Sir Elton John's Rocket Hour radio show on Apple Music on Saturday, his 78th birthday. The episode will see the monarch and the singer share musical memories.",
+      "source": "Evening Standard",
+      "photo_query": "King Charles III official portrait",
+      "person": "Charles III",
+      "person_role": "royal",
+      "category": "kraliyet",
+      "photo": {
+        "id": "wm:King Charles III (July 2023).jpg",
+        "provider": "Wikimedia Commons",
+        "person": "Charles III",
+        "license": "Public domain",
+        "photographer": "White House",
+        "page": "https://commons.wikimedia.org/wiki/File:King_Charles_III_(July_2023).jpg",
+        "credit": "White House / Public domain, Wikimedia Commons"
+      }
+    }
+  ],
+  "history_keys": [
+    "2026budgetbringslowersalarythresholdsandreprieveforsomegraduates",
+    "ukeconomygrowsatfastestrateformorethantwoyears",
+    "youngpeopletonolongergetmainsicknessbenefitandpipundermilburnswelfareoverhaulplan",
+    "facialrecognitionerrorsputethnicminoritiesatriskofwrongfularrestpolicewatchdogwarns",
+    "gasbillstoriseasmiddleeastturmoilpersists",
+    "patientsleftstuckonwardsandwaitingtobedischargedforweeksnhsfiguresshow",
+    "poundlandownerextractedmillionswhenchainwasonknifeedgempssay",
+    "kingtoappearonsireltonjohnsrockethourradioshowonapplemusic"
+  ]
+}
