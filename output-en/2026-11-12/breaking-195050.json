@@ -1,0 +1,33 @@
+{
+  "type": "breaking",
+  "created_at": "2026-11-12T19:50:50.164990+00:00",
+  "item": {
+    "ref": 11,
+    "emoji": "⚽",
+    "title": "Harry Kane becomes England's most-capped men's footballer",
+    "body": "Harry Kane has become England's most-capped men's footballer. A cap is awarded to a player for each international appearance for their country.",
+    "source": "Sky News",
+    "photo_query": "Harry Kane England shirt",
+    "person": "Harry Kane",
+    "person_role": "footballer",
+    "category": "spor",
+    "photo": {
+      "id": "wm:Harry Kane England v Ghana 23 June 2026-219 (cropped).jpg",
+      "provider": "Wikimedia Commons",
+      "person": "Harry Kane",
+      "license": "CC BY-SA 4.0",
+      "photographer": "Bryan Berlin",
+      "page": "https://commons.wikimedia.org/wiki/File:Harry_Kane_England_v_Ghana_23_June_2026-219_(cropped).jpg",
+      "credit": "Bryan Berlin / CC BY-SA 4.0, Wikimedia Commons"
+    }
+  },
+  "caption": "🔴 BREAKING | ⚽ Harry Kane becomes England's most-capped men's footballer\n\nHarry Kane has become England's most-capped men's footballer. A cap is awarded to a player for each international appearance for their country.\n\nSource: Sky News | Image: Bryan Berlin / CC BY-SA 4.0, Wikimedia Commons\nUK Daily Briefing | 12 November, 19:50\n\n#BreakingNews #England #Football #HarryKane",
+  "images": [
+    "output-en/2026-11-12/breaking-195050.jpg"
+  ],
+  "story_image": "output-en/2026-11-12/breaking-195050-story.jpg",
+  "history_keys": [
+    "harrykanebecomesenglandsmostcappedmensfootballer"
+  ],
+  "published": false
+}
