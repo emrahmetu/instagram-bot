@@ -1,0 +1,32 @@
+{
+  "type": "breaking",
+  "created_at": "2026-11-12T14:21:03.022391+00:00",
+  "item": {
+    "ref": 9,
+    "emoji": "⚖️",
+    "title": "Hükümet, çocuklar için ceza kaydı bildirimini kaldırmayı öneriyor",
+    "body": "Hükümetin önerisine göre soygun, çocuklara uyuşturucu satma veya şiddet içeren kamu düzeni suçlarından suçlu bulunan çocuklar, ceza kaydını işverenlere bildirmek zorunda kalmayacak. Amaç, İngiltere ve Galler'de hapisteki çocuk sayısını azaltmak ve genç istihdamını artırmak.",
+    "source": "Guardian",
+    "photo_query": "youth justice courtroom UK",
+    "person": "",
+    "person_role": "",
+    "category": "gundem",
+    "photo": {
+      "id": "pb:6795422",
+      "provider": "Pixabay",
+      "query": "youth justice courtroom UK",
+      "photographer": "Mariakray",
+      "page": "https://pixabay.com/photos/auditorium-convention-congress-6795422/",
+      "fallback": false
+    }
+  },
+  "caption": "🔴 SON DAKİKA | ⚖️ Hükümet, çocuklar için ceza kaydı bildirimini kaldırmayı öneriyor\n\nHükümetin önerisine göre soygun, çocuklara uyuşturucu satma veya şiddet içeren kamu düzeni suçlarından suçlu bulunan çocuklar, ceza kaydını işverenlere bildirmek zorunda kalmayacak. Amaç, İngiltere ve Galler'de hapisteki çocuk sayısını azaltmak ve genç istihdamını artırmak.\n\nKaynak: Guardian | Görsel: Pixabay\nBirleşik Krallık Gündemi | 12 Kasım, 14:21\n\n#SonDakika #GençAdalet #CezaKayıdları",
+  "images": [
+    "output/2026-11-12/breaking-142103.jpg"
+  ],
+  "story_image": "output/2026-11-12/breaking-142103-story.jpg",
+  "history_keys": [
+    "asecondchancechildrenguiltyofseriousoffenceswillnolongerhavetodeclarecriminalrecords"
+  ],
+  "published": false
+}
