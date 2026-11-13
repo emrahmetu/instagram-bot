@@ -1,0 +1,32 @@
+{
+  "type": "breaking",
+  "created_at": "2026-11-13T11:20:57.611258+00:00",
+  "item": {
+    "ref": 18,
+    "emoji": "🚨",
+    "title": "Microsoft kesintisi NHS'i, polisi ve okulları etkiledi",
+    "body": "Küresel Microsoft kesintisi Birleşik Krallık'ta hastaneleri, GP'leri, okulları ve polisi etkiledi. NHS'te 'ciddi' ve yaygın aksama yaşanıyor. Halka reçetelerin gecikebileceği bildirildi. Polis güçleri sistemlerinin etkilendiğini açıkladı.",
+    "source": "BBC",
+    "photo_query": "NHS hospital computer systems",
+    "person": "",
+    "person_role": "",
+    "category": "gundem",
+    "photo": {
+      "id": "pb:2539974",
+      "provider": "Pixabay",
+      "query": "NHS hospital computer systems",
+      "photographer": "anaterate",
+      "page": "https://pixabay.com/photos/anatomy-organs-model-3d-2539974/",
+      "fallback": false
+    }
+  },
+  "caption": "🔴 SON DAKİKA | 🚨 Microsoft kesintisi NHS'i, polisi ve okulları etkiledi\n\nKüresel Microsoft kesintisi Birleşik Krallık'ta hastaneleri, GP'leri, okulları ve polisi etkiledi. NHS'te 'ciddi' ve yaygın aksama yaşanıyor. Halka reçetelerin gecikebileceği bildirildi. Polis güçleri sistemlerinin etkilendiğini açıkladı.\n\nKaynak: BBC | Görsel: Pixabay\nBirleşik Krallık Gündemi | 13 Kasım, 11:20\n\n#SonDakika #MicrosoftKesintisi #NHS",
+  "images": [
+    "output/2026-11-13/breaking-112057.jpg"
+  ],
+  "story_image": "output/2026-11-13/breaking-112057-story.jpg",
+  "history_keys": [
+    "microsoftoutagehitshospitalsgpsschoolsandpoliceacrossuk"
+  ],
+  "published": false
+}
