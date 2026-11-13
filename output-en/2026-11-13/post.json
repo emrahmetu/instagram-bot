@@ -1,0 +1,181 @@
+{
+  "date": "2026-11-13",
+  "caption": "🇬🇧 UK Daily Briefing | Friday, 13 November 2026\n\n1. 🔪 More than 80,000 knives have been taken off the streets\nKnife-enabled robbery has fallen by 24% across the seven most affected police forces. More than 80,000 knives have been taken off the streets.\n\n2. 🏛️ Home Office plan for asylum centre near Piddington is approved\nThe Home Office's application to house up to 1,256 men at a military base site near Bicester was fast-tracked and has been approved.\n\n3. 💷 Milburn review is to say some under-25s should get fewer benefits\nThe proposed overhaul of the welfare system would move under-25s off the main sickness benefits.\n\n4. 🏥 Junior doctor burnout is putting maternity patients at risk, regulator says\nTrainee doctors delivering babies are more likely to suffer overwork and burnout than those in other specialties, evidence suggests. The regulator says this is putting maternity patients at risk.\n\n5. 🚨 Two men are found guilty of helping Iran target UK-based journalists\nMostafa Sepahvand, 41, and Farhad Javadi Manesh, 46, were hired through social media as part of a plan to \"eliminate\" journalists in the UK. They carried out surveillance and reconnaissance for Tehran's intelligence services.\n\n6. 🎨 Migrants are offered help to fake artworks to gain UK 'talent' visas\nA BBC investigation went undercover to expose an elaborate fraud aimed at obtaining fast-track settlement for wealthy migrants.\n\n7. 📊 Analysis warns of 250,000 more Neets across the UK in five years\nNew analysis warns there will be 250,000 more young people not in education, employment or training (Neets) in five years. The Lib Dems want every under-25 guaranteed 100 hours of work experience.\n\n8. ⚽ Kane becomes England's most-capped men's footballer with Wembley goal\nHarry Kane became England's most-capped men's footballer and scored in a 2-1 win over Croatia at Wembley.\n\nSources: GOV.UK Home Office, BBC, Guardian, The Independent, Sky News. Stories summarised from UK media reports. Images: Pixabay. Photos: Bryan Berlin / CC BY-SA 4.0, Wikimedia Commons.\n\n#UKNews #Britain #Politics #Immigration #CostOfLiving #NHS #Security #England #Welfare #HomeOffice",
+  "images": [
+    "output-en/2026-11-13/00.jpg",
+    "output-en/2026-11-13/01.jpg",
+    "output-en/2026-11-13/02.jpg",
+    "output-en/2026-11-13/03.jpg",
+    "output-en/2026-11-13/04.jpg",
+    "output-en/2026-11-13/05.jpg",
+    "output-en/2026-11-13/06.jpg",
+    "output-en/2026-11-13/07.jpg",
+    "output-en/2026-11-13/08.jpg"
+  ],
+  "story_image": "output-en/2026-11-13/story.jpg",
+  "items": [
+    {
+      "ref": 2,
+      "emoji": "🔪",
+      "title": "More than 80,000 knives have been taken off the streets",
+      "body": "Knife-enabled robbery has fallen by 24% across the seven most affected police forces. More than 80,000 knives have been taken off the streets.",
+      "source": "GOV.UK Home Office",
+      "photo_query": "police knife surrender bins",
+      "person": "",
+      "person_role": "",
+      "category": "guvenlik",
+      "photo": {
+        "id": "pb:1281651",
+        "provider": "Pixabay",
+        "query": "police knife surrender bins",
+        "photographer": "Pexels",
+        "page": "https://pixabay.com/photos/woman-knife-model-dangerous-1281651/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 42,
+      "emoji": "🏛️",
+      "title": "Home Office plan for asylum centre near Piddington is approved",
+      "body": "The Home Office's application to house up to 1,256 men at a military base site near Bicester was fast-tracked and has been approved.",
+      "source": "BBC",
+      "photo_query": "military barracks buildings England",
+      "person": "Angela Rayner",
+      "person_role": "politician",
+      "category": "goc",
+      "photo": {
+        "id": "pb:69578",
+        "provider": "Pixabay",
+        "query": "military barracks buildings England",
+        "photographer": "12019",
+        "page": "https://pixabay.com/photos/england-english-great-britain-69578/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 78,
+      "emoji": "💷",
+      "title": "Milburn review is to say some under-25s should get fewer benefits",
+      "body": "The proposed overhaul of the welfare system would move under-25s off the main sickness benefits.",
+      "source": "BBC",
+      "photo_query": "Universal Credit payment slip",
+      "person": "",
+      "person_role": "",
+      "category": "ekonomi",
+      "photo": {
+        "id": "pb:5417257",
+        "provider": "Pixabay",
+        "query": "Universal Credit payment slip",
+        "photographer": "viarami",
+        "page": "https://pixabay.com/photos/alipay-mobile-payment-alibaba-5417257/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 63,
+      "emoji": "🏥",
+      "title": "Junior doctor burnout is putting maternity patients at risk, regulator says",
+      "body": "Trainee doctors delivering babies are more likely to suffer overwork and burnout than those in other specialties, evidence suggests. The regulator says this is putting maternity patients at risk.",
+      "source": "BBC",
+      "photo_query": "NHS hospital maternity ward",
+      "person": "",
+      "person_role": "",
+      "category": "saglik",
+      "photo": {
+        "id": "pb:7961440",
+        "provider": "Pixabay",
+        "query": "NHS hospital maternity ward",
+        "photographer": "Anrita1705",
+        "page": "https://pixabay.com/photos/pregnant-pregnancy-mother-to-be-7961440/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 102,
+      "emoji": "🚨",
+      "title": "Two men are found guilty of helping Iran target UK-based journalists",
+      "body": "Mostafa Sepahvand, 41, and Farhad Javadi Manesh, 46, were hired through social media as part of a plan to \"eliminate\" journalists in the UK. They carried out surveillance and reconnaissance for Tehran's intelligence services.",
+      "source": "Guardian",
+      "photo_query": "UK court justice building exterior",
+      "person": "",
+      "person_role": "",
+      "category": "guvenlik",
+      "photo": {
+        "id": "pb:2723660",
+        "provider": "Pixabay",
+        "query": "UK court justice building exterior",
+        "photographer": "BunteAufnahmen",
+        "page": "https://pixabay.com/photos/justitia-justice-blindness-libra-2723660/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 49,
+      "emoji": "🎨",
+      "title": "Migrants are offered help to fake artworks to gain UK 'talent' visas",
+      "body": "A BBC investigation went undercover to expose an elaborate fraud aimed at obtaining fast-track settlement for wealthy migrants.",
+      "source": "BBC",
+      "photo_query": "UK visa document",
+      "person": "",
+      "person_role": "",
+      "category": "goc",
+      "photo": {
+        "id": "pb:1051697",
+        "provider": "Pixabay",
+        "query": "UK visa document",
+        "photographer": "webandi",
+        "page": "https://pixabay.com/photos/passport-travel-document-id-1051697/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 72,
+      "emoji": "📊",
+      "title": "Analysis warns of 250,000 more Neets across the UK in five years",
+      "body": "New analysis warns there will be 250,000 more young people not in education, employment or training (Neets) in five years. The Lib Dems want every under-25 guaranteed 100 hours of work experience.",
+      "source": "The Independent",
+      "photo_query": "UK young people job centre",
+      "person": "",
+      "person_role": "",
+      "category": "ekonomi",
+      "photo": {
+        "id": "pb:7222290",
+        "provider": "Pixabay",
+        "query": "UK young people job centre",
+        "photographer": "vicxmendoza",
+        "page": "https://pixabay.com/photos/couple-students-occupations-7222290/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 110,
+      "emoji": "⚽",
+      "title": "Kane becomes England's most-capped men's footballer with Wembley goal",
+      "body": "Harry Kane became England's most-capped men's footballer and scored in a 2-1 win over Croatia at Wembley.",
+      "source": "Sky News",
+      "photo_query": "Wembley Stadium England match",
+      "person": "Harry Kane",
+      "person_role": "footballer",
+      "category": "spor",
+      "photo": {
+        "id": "wm:Harry Kane England v Ghana 23 June 2026-219 (cropped).jpg",
+        "provider": "Wikimedia Commons",
+        "person": "Harry Kane",
+        "license": "CC BY-SA 4.0",
+        "photographer": "Bryan Berlin",
+        "page": "https://commons.wikimedia.org/wiki/File:Harry_Kane_England_v_Ghana_23_June_2026-219_(cropped).jpg",
+        "credit": "Bryan Berlin / CC BY-SA 4.0, Wikimedia Commons"
+      }
+    }
+  ],
+  "history_keys": [
+    "morethan80000knivestakenoffthestreets",
+    "asylumcentreonmilitarybasenearpiddingtonapproved",
+    "someunder25sshouldgetfewerbenefitsmilburnreviewtosay",
+    "juniordoctorburnoutputtingmaternitypatientsatrisksaysregulator",
+    "twomenfoundguiltyofhelpingirantrytoeliminateukbasedjournalists",
+    "migrantsofferedhelptofakeartworkstogainuktalentvisasbbcinvestigationfinds",
+    "250000moreneetsacrossukinfiveyearsnewanalysiswarns",
+    "harrykanemarksrecordenglandcapwithagoalatwembley"
+  ]
+}
