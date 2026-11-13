@@ -1,0 +1,32 @@
+{
+  "type": "breaking",
+  "created_at": "2026-11-13T17:50:49.859159+00:00",
+  "item": {
+    "ref": 1,
+    "emoji": "🏛️",
+    "title": "No 10 considers extending under-25s benefits overhaul to older groups",
+    "body": "Downing Street is considering whether plans to replace key disability benefits for under-25s with work and training should be extended to older age groups, according to the Guardian. The move risks reigniting Labour tensions over welfare changes.",
+    "source": "Guardian",
+    "photo_query": "Downing Street gates",
+    "person": "",
+    "person_role": "",
+    "category": "gundem",
+    "photo": {
+      "id": "pb:4270252",
+      "provider": "Pixabay",
+      "query": "Downing Street gates",
+      "photographer": "Timrael",
+      "page": "https://pixabay.com/photos/girl-gate-woman-nature-fog-mist-4270252/",
+      "fallback": false
+    }
+  },
+  "caption": "🔴 BREAKING | 🏛️ No 10 considers extending under-25s benefits overhaul to older groups\n\nDowning Street is considering whether plans to replace key disability benefits for under-25s with work and training should be extended to older age groups, according to the Guardian. The move risks reigniting Labour tensions over welfare changes.\n\nSource: Guardian | Image: Pixabay\nUK Daily Briefing | 13 November, 17:50\n\n#BreakingNews #Welfare #Labour",
+  "images": [
+    "output-en/2026-11-13/breaking-175049.jpg"
+  ],
+  "story_image": "output-en/2026-11-13/breaking-175049-story.jpg",
+  "history_keys": [
+    "no10consideringexpandingunder25sbenefitsoverhaultoolderagegroups"
+  ],
+  "published": false
+}
