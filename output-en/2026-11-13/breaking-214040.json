@@ -1,0 +1,32 @@
+{
+  "type": "breaking",
+  "created_at": "2026-11-13T21:40:40.832223+00:00",
+  "item": {
+    "ref": 9,
+    "emoji": "⚖️",
+    "title": "Probation officers in England and Wales vote for industrial action",
+    "body": "Members of the Napo union backed overtime restrictions and other action short of a strike over pay and workloads. The vote deals a blow to government plans to release thousands of prisoners early to tackle overcrowding.",
+    "source": "Guardian",
+    "photo_query": "UK prison exterior",
+    "person": "",
+    "person_role": "",
+    "category": "gundem",
+    "photo": {
+      "id": "pb:6968472",
+      "provider": "Pixabay",
+      "query": "UK prison exterior",
+      "photographer": "wal_172619",
+      "page": "https://pixabay.com/photos/jail-barbed-wire-prison-6968472/",
+      "fallback": false
+    }
+  },
+  "caption": "🔴 BREAKING | ⚖️ Probation officers in England and Wales vote for industrial action\n\nMembers of the Napo union backed overtime restrictions and other action short of a strike over pay and workloads. The vote deals a blow to government plans to release thousands of prisoners early to tackle overcrowding.\n\nSource: Guardian | Image: Pixabay\nUK Daily Briefing | 13 November, 21:40\n\n#BreakingNews #StrikeAction #Justice",
+  "images": [
+    "output-en/2026-11-13/breaking-214040.jpg"
+  ],
+  "story_image": "output-en/2026-11-13/breaking-214040-story.jpg",
+  "history_keys": [
+    "probationofficersinenglandandwalesvoteforstrikeactionoverpayandworkloads"
+  ],
+  "published": false
+}
