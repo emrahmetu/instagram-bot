@@ -1,0 +1,32 @@
+{
+  "type": "breaking",
+  "created_at": "2026-11-13T14:43:54.662363+00:00",
+  "item": {
+    "ref": 8,
+    "emoji": "💧",
+    "title": "Dŵr Cymru Welsh Water tarihinin en büyük su projesi için başvuru yaptı",
+    "body": "Dŵr Cymru Welsh Water, tarihinin en büyük su altyapı projesi için planlama başvurularını sundu. 600 milyon sterlinlik proje, Merthyr Tydfil ve Bannau Brycheiniog National Park'taki arıtma tesislerini modernize etmeyi hedefliyor.",
+    "source": "Nation.Cymru",
+    "photo_query": "Welsh Water infrastructure facility Wales",
+    "person": "",
+    "person_role": "",
+    "category": "gundem",
+    "photo": {
+      "id": "pb:4952834",
+      "provider": "Pixabay",
+      "query": "Welsh Water infrastructure facility Wales",
+      "photographer": "Squirrel_photos",
+      "page": "https://pixabay.com/photos/bridge-underpass-water-pipe-4952834/",
+      "fallback": false
+    }
+  },
+  "caption": "🔴 SON DAKİKA | 💧 Dŵr Cymru Welsh Water tarihinin en büyük su projesi için başvuru yaptı\n\nDŵr Cymru Welsh Water, tarihinin en büyük su altyapı projesi için planlama başvurularını sundu. 600 milyon sterlinlik proje, Merthyr Tydfil ve Bannau Brycheiniog National Park'taki arıtma tesislerini modernize etmeyi hedefliyor.\n\nKaynak: Nation.Cymru | Görsel: Pixabay\nBirleşik Krallık Gündemi | 13 Kasım, 14:43\n\n#SonDakika #Galler #AltyapıProje",
+  "images": [
+    "output/2026-11-13/breaking-144354.jpg"
+  ],
+  "story_image": "output/2026-11-13/breaking-144354-story.jpg",
+  "history_keys": [
+    "plansforlargestwaterinfrastructureindŵrcymrushistoryrevealed"
+  ],
+  "published": false
+}
