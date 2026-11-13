@@ -1,0 +1,32 @@
+{
+  "type": "breaking",
+  "created_at": "2026-11-13T08:20:53.736454+00:00",
+  "item": {
+    "ref": 3,
+    "emoji": "🌐",
+    "title": "Microsoft küresel kesintinin siber saldırıdan kaynaklanmadığını açıkladı",
+    "body": "Microsoft, küresel çaptaki kesintiye siber güvenlik olayının yol açmadığını duyurdu. Ancak sorunu gidermek için yürütülen çalışmalar şu ana kadar büyük ölçüde sonuç vermedi.",
+    "source": "BBC",
+    "photo_query": "Microsoft Teams Outlook app",
+    "person": "",
+    "person_role": "",
+    "category": "gundem",
+    "photo": {
+      "id": "pb:1488156",
+      "provider": "Pixabay",
+      "query": "Microsoft Teams Outlook app",
+      "photographer": "KeithJJ",
+      "page": "https://pixabay.com/photos/referee-american-football-team-1488156/",
+      "fallback": false
+    }
+  },
+  "caption": "🔴 SON DAKİKA | 🌐 Microsoft küresel kesintinin siber saldırıdan kaynaklanmadığını açıkladı\n\nMicrosoft, küresel çaptaki kesintiye siber güvenlik olayının yol açmadığını duyurdu. Ancak sorunu gidermek için yürütülen çalışmalar şu ana kadar büyük ölçüde sonuç vermedi.\n\nKaynak: BBC | Görsel: Pixabay\nBirleşik Krallık Gündemi | 13 Kasım, 08:20\n\n#SonDakika #MicrosoftOutage #TeamsDown",
+  "images": [
+    "output/2026-11-13/breaking-082053.jpg"
+  ],
+  "story_image": "output/2026-11-13/breaking-082053-story.jpg",
+  "history_keys": [
+    "whatweknowabouttheglobalmicrosoftoutage"
+  ],
+  "published": false
+}
