@@ -1,0 +1,32 @@
+{
+  "type": "breaking",
+  "created_at": "2026-11-13T11:50:54.676101+00:00",
+  "item": {
+    "ref": 3,
+    "emoji": "🏆",
+    "title": "England beat France to win wheelchair Rugby League World Cup",
+    "body": "England became back-to-back world champions, and champions for the third time, after beating France 50-38 in the wheelchair Rugby League World Cup final in Australia.",
+    "source": "BBC Sport",
+    "photo_query": "wheelchair rugby league ball",
+    "person": "",
+    "person_role": "",
+    "category": "spor",
+    "photo": {
+      "id": "pb:4556170",
+      "provider": "Pixabay",
+      "query": "wheelchair rugby league ball",
+      "photographer": "Mikkekylilt",
+      "page": "https://pixabay.com/photos/glass-ball-forest-nature-reflection-4556170/",
+      "fallback": false
+    }
+  },
+  "caption": "🔴 BREAKING | 🏆 England beat France to win wheelchair Rugby League World Cup\n\nEngland became back-to-back world champions, and champions for the third time, after beating France 50-38 in the wheelchair Rugby League World Cup final in Australia.\n\nSource: BBC Sport | Image: Pixabay\nUK Daily Briefing | 13 November, 11:50\n\n#BreakingNews #RugbyLeague #WorldCup #England",
+  "images": [
+    "output-en/2026-11-13/breaking-115054.jpg"
+  ],
+  "story_image": "output-en/2026-11-13/breaking-115054-story.jpg",
+  "history_keys": [
+    "englandbeatfrancetobecomebacktobackworldchampions"
+  ],
+  "published": false
+}
