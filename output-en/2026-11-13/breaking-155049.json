@@ -1,0 +1,32 @@
+{
+  "type": "breaking",
+  "created_at": "2026-11-13T15:50:49.263450+00:00",
+  "item": {
+    "ref": 10,
+    "emoji": "⚕️",
+    "title": "Around 100 health visitors set to end nine-month pay strike",
+    "body": "Around 100 health visitors are set to return to work on Monday 16 November after Unite and Cwm Taf Morgannwg University Health Board reached an agreement in principle to end a nine-month strike over pay grades.",
+    "source": "Nation.Cymru",
+    "photo_query": "NHS health visitor uniform",
+    "person": "",
+    "person_role": "",
+    "category": "saglik",
+    "photo": {
+      "id": "pb:1476764",
+      "provider": "Pixabay",
+      "query": "NHS health visitor uniform",
+      "photographer": "juliana-maria85",
+      "page": "https://pixabay.com/photos/nursing-nurse-health-1476764/",
+      "fallback": false
+    }
+  },
+  "caption": "🔴 BREAKING | ⚕️ Around 100 health visitors set to end nine-month pay strike\n\nAround 100 health visitors are set to return to work on Monday 16 November after Unite and Cwm Taf Morgannwg University Health Board reached an agreement in principle to end a nine-month strike over pay grades.\n\nSource: Nation.Cymru | Image: Pixabay\nUK Daily Briefing | 13 November, 15:50\n\n#BreakingNews #NHS #Wales #Strike",
+  "images": [
+    "output-en/2026-11-13/breaking-155049.jpg"
+  ],
+  "story_image": "output-en/2026-11-13/breaking-155049-story.jpg",
+  "history_keys": [
+    "healthvisitorstoreturntoworkafterninemonthstrikeoverpay"
+  ],
+  "published": false
+}
