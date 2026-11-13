@@ -1,0 +1,161 @@
+{
+  "date": "2026-11-13",
+  "caption": "🇬🇧 Birleşik Krallık Gündemi | 13 Kasım 2026, Cuma\n\n1. 🏠 Piddington yakınlarında sığınmacı merkezi onaylandı\nHome Office başvurusuna hızlı yol verildi ve Bicester yakınlarındaki eski askeri üssün 1.256 erkek barındırması planlanıyor.\n\n2. 🎨 Sahtekarlık soruşturması: göçmenler 'talent' vizesi almak için sahte sanat eserlerine kalk\nBBC'nin incelemesi, zengin göçmenlerin hızlı oturum izni almak için sahte sanat eserlerinin oluşturulmasını ve satışını sağlayan karmaşık bir dolandırıcılık ağını ortaya çıkardı.\n\n3. 🕵️ İran ajanları gazetecileri öldürmek için gözcülük yapmaktan suçlu bulundu\nMostafa Sepahvand ve Farhad Javadi Manesh, sosyal medya aracılığıyla kiralanarak Birleşik Krallık'taki gazetecileri hedefleyen İran istihbaratına yardım etmekten suçlu bulundu.\n\n4. 💷 Milburn raporu: 25 yaş altı bazı kişiler işsizlik yardımlarından muaf tutulabilir\nRadikal sosyal yardım reformu 25 yaş altı gençleri ana hastalık yardımlarından çıkarmayı öneriyordu.\n\n5. ⚽ Kane rekor Galler maçında gol atarak İngiltere'nin en çok maç oynayan oyuncusu oldu\nHarry Kane Wembley'de Hırvatistan karşısında 2-1 galibiyet getiren goli atarak İngiltere Erkekler Ulusal Takımı'nın en fazla maç oynayan oyuncusu oldu.\n\n6. 🎵 Duran Duran'ın davulcu Roger Taylor kulakçalma nedeniyle ayrılıyor\nRoger Taylor, durumu kötüleşen kulakçalma nedeniyle Duran Duran'dan ayrıldığını açıkladı.\n\n7. 🇪🇺 Başbakan: AB ile 'kazanan-kazanan' anlaşması mümkün\nAndy Burnham Dublin'de AB liderlerini ziyaret ederken, anlaşmanın 2016 Brexit oylamasında insanların düşündüğü şey gibi olabileceğini söyledi.\n\nKaynaklar: BBC, Guardian, Sky News. Haberler Türkçe özet olarak derlenmiştir. Görseller: Pixabay. Fotoğraflar: Bryan Berlin / CC BY-SA 4.0, Wikimedia Commons; Prime Minister's Office / OGL 3, Wikimedia Commons.\n\n#İngiltere #Londra #UKNews #BıçakTaşıma #Sığınmacı #Göç #SosyalYardım #HarryKane #Futbol #AB",
+  "images": [
+    "output/2026-11-13/00.jpg",
+    "output/2026-11-13/01.jpg",
+    "output/2026-11-13/02.jpg",
+    "output/2026-11-13/03.jpg",
+    "output/2026-11-13/04.jpg",
+    "output/2026-11-13/05.jpg",
+    "output/2026-11-13/06.jpg",
+    "output/2026-11-13/07.jpg"
+  ],
+  "story_image": "output/2026-11-13/story.jpg",
+  "items": [
+    {
+      "ref": 37,
+      "emoji": "🏠",
+      "title": "Piddington yakınlarında sığınmacı merkezi onaylandı",
+      "body": "Home Office başvurusuna hızlı yol verildi ve Bicester yakınlarındaki eski askeri üssün 1.256 erkek barındırması planlanıyor. Köy Brexit öncesi Birleşik Krallık'tan ayrılmak için oy kullanmıştı.",
+      "source": "BBC",
+      "photo_query": "UK military base entrance",
+      "person": "Angela Rayner",
+      "person_role": "politician",
+      "category": "goc",
+      "photo": {
+        "id": "pb:10512824",
+        "provider": "Pixabay",
+        "query": "UK military base entrance",
+        "photographer": "YaoMuyu",
+        "page": "https://pixabay.com/photos/nepal-abc-trek-annapurna-base-camp-10512824/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 44,
+      "emoji": "🎨",
+      "title": "Sahtekarlık soruşturması: göçmenler 'talent' vizesi almak için sahte sanat eserlerine kalk",
+      "body": "BBC'nin incelemesi, zengin göçmenlerin hızlı oturum izni almak için sahte sanat eserlerinin oluşturulmasını ve satışını sağlayan karmaşık bir dolandırıcılık ağını ortaya çıkardı. Operasyon İngiltere'deki vize sisteminin açıklarını gösteriyor.",
+      "source": "BBC",
+      "photo_query": "forged artwork forgery",
+      "person": "",
+      "person_role": "",
+      "category": "goc",
+      "photo": {
+        "id": "pb:7250695",
+        "provider": "Pixabay",
+        "query": "forged artwork forgery",
+        "photographer": "tiemaoanh",
+        "page": "https://pixabay.com/photos/artist-woman-painter-portrait-7250695/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 97,
+      "emoji": "🕵️",
+      "title": "İran ajanları gazetecileri öldürmek için gözcülük yapmaktan suçlu bulundu",
+      "body": "Mostafa Sepahvand ve Farhad Javadi Manesh, sosyal medya aracılığıyla kiralanarak Birleşik Krallık'taki gazetecileri hedefleyen İran istihbaratına yardım etmekten suçlu bulundu. Gözcülük faaliyetleri şiddetli saldırı planının parçasıydı.",
+      "source": "Guardian",
+      "photo_query": "UK court of justice",
+      "person": "",
+      "person_role": "",
+      "category": "guvenlik",
+      "photo": {
+        "id": "pb:3785581",
+        "provider": "Pixabay",
+        "query": "UK court of justice",
+        "photographer": "moritz320",
+        "page": "https://pixabay.com/photos/justitia-justice-jurisdiction-3785581/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 73,
+      "emoji": "💷",
+      "title": "Milburn raporu: 25 yaş altı bazı kişiler işsizlik yardımlarından muaf tutulabilir",
+      "body": "Radikal sosyal yardım reformu 25 yaş altı gençleri ana hastalık yardımlarından çıkarmayı öneriyordu. Şiddetli ihtiyaç duyanlar korunacak ancak diğerleri yerel fonlardan başvuru yapabilecek.",
+      "source": "BBC",
+      "photo_query": "pound sterling coins",
+      "person": "Alan Milburn",
+      "person_role": "politician",
+      "category": "ekonomi",
+      "photo": {
+        "id": "pb:19761",
+        "provider": "Pixabay",
+        "query": "pound sterling coins",
+        "photographer": "PublicDomainPictures",
+        "page": "https://pixabay.com/photos/coins-pounds-pound-money-currency-19761/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 105,
+      "emoji": "⚽",
+      "title": "Kane rekor Galler maçında gol atarak İngiltere'nin en çok maç oynayan oyuncusu oldu",
+      "body": "Harry Kane Wembley'de Hırvatistan karşısında 2-1 galibiyet getiren goli atarak İngiltere Erkekler Ulusal Takımı'nın en fazla maç oynayan oyuncusu oldu. Başarısı, uzun futbol kariyerinin doruk noktasını temsil ediyor.",
+      "source": "Sky News",
+      "photo_query": "Wembley Stadium football pitch",
+      "person": "Harry Kane",
+      "person_role": "footballer",
+      "category": "spor",
+      "photo": {
+        "id": "wm:Harry Kane England v Ghana 23 June 2026-219 (cropped).jpg",
+        "provider": "Wikimedia Commons",
+        "person": "Harry Kane",
+        "license": "CC BY-SA 4.0",
+        "photographer": "Bryan Berlin",
+        "page": "https://commons.wikimedia.org/wiki/File:Harry_Kane_England_v_Ghana_23_June_2026-219_(cropped).jpg",
+        "credit": "Bryan Berlin / CC BY-SA 4.0, Wikimedia Commons"
+      }
+    },
+    {
+      "ref": 109,
+      "emoji": "🎵",
+      "title": "Duran Duran'ın davulcu Roger Taylor kulakçalma nedeniyle ayrılıyor",
+      "body": "Roger Taylor, durumu kötüleşen kulakçalma nedeniyle Duran Duran'dan ayrıldığını açıkladı. 'Vücudum ve doktorlarımı dinlemek zorundayım' dedi Taylor.",
+      "source": "Guardian",
+      "photo_query": "Duran Duran concert stage",
+      "person": "Roger Taylor",
+      "person_role": "musician",
+      "category": "magazin",
+      "photo": {
+        "id": "pb:1784134",
+        "provider": "Pixabay",
+        "query": "Duran Duran concert stage",
+        "photographer": "ClickerHappy",
+        "page": "https://pixabay.com/photos/drum-kit-light-spotlight-rock-1784134/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 56,
+      "emoji": "🇪🇺",
+      "title": "Başbakan: AB ile 'kazanan-kazanan' anlaşması mümkün",
+      "body": "Andy Burnham Dublin'de AB liderlerini ziyaret ederken, anlaşmanın 2016 Brexit oylamasında insanların düşündüğü şey gibi olabileceğini söyledi. Yakında Brüksel'de müzakereler başlamaya hazırlanıyor.",
+      "source": "Guardian",
+      "photo_query": "British flag EU headquarters",
+      "person": "Andy Burnham",
+      "person_role": "politician",
+      "category": "siyaset",
+      "photo": {
+        "id": "wm:Prime Minister Andy Burnham portrait (cropped).jpg",
+        "provider": "Wikimedia Commons",
+        "person": "Andy Burnham",
+        "license": "OGL 3",
+        "photographer": "Prime Minister's Office",
+        "page": "https://commons.wikimedia.org/wiki/File:Prime_Minister_Andy_Burnham_portrait_(cropped).jpg",
+        "credit": "Prime Minister's Office / OGL 3, Wikimedia Commons"
+      }
+    }
+  ],
+  "history_keys": [
+    "asylumcentreonmilitarybasenearpiddingtonapproved",
+    "migrantsofferedhelptofakeartworkstogainuktalentvisasbbcinvestigationfinds",
+    "twomenfoundguiltyofhelpingirantrytoeliminateukbasedjournalists",
+    "someunder25sshouldgetfewerbenefitsmilburnreviewtosay",
+    "harrykanemarksrecordenglandcapwithagoalatwembley",
+    "durandurandrummerrogertaylorleavesbandduetotinnitus",
+    "burnhamsayswinwindealcanbeagreedbetweenukandeu"
+  ]
+}
