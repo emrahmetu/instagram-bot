@@ -1,0 +1,32 @@
+{
+  "type": "breaking",
+  "created_at": "2026-11-14T08:50:59.622371+00:00",
+  "item": {
+    "ref": 11,
+    "emoji": "💊",
+    "title": "Hundreds of children in England are prescribed weight-loss jabs",
+    "body": "Hundreds of children in England are receiving prescriptions for GLP-1 medications, including some under 12, the Guardian has found. Experts stress the need for specialist supervision and long-term monitoring. The drugs were first developed for type 2 diabetes.",
+    "source": "Guardian",
+    "photo_query": "NHS prescription medicine pills",
+    "person": "",
+    "person_role": "",
+    "category": "saglik",
+    "photo": {
+      "id": "pb:4878998",
+      "provider": "Pixabay",
+      "query": "NHS prescription medicine pills",
+      "photographer": "ds_30",
+      "page": "https://pixabay.com/photos/pill-healthcare-medicine-packing-4878998/",
+      "fallback": false
+    }
+  },
+  "caption": "🔴 BREAKING | 💊 Hundreds of children in England are prescribed weight-loss jabs\n\nHundreds of children in England are receiving prescriptions for GLP-1 medications, including some under 12, the Guardian has found. Experts stress the need for specialist supervision and long-term monitoring. The drugs were first developed for type 2 diabetes.\n\nSource: Guardian | Image: Pixabay\nUK Daily Briefing | 14 November, 08:50\n\n#BreakingNews #HealthPolicy #NHS",
+  "images": [
+    "output-en/2026-11-14/breaking-085059.jpg"
+  ],
+  "story_image": "output-en/2026-11-14/breaking-085059-story.jpg",
+  "history_keys": [
+    "hundredsofchildreninenglandprescribedweightlossjabsfiguresshow"
+  ],
+  "published": false
+}
