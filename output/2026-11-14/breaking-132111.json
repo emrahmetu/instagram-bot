@@ -1,0 +1,32 @@
+{
+  "type": "breaking",
+  "created_at": "2026-11-14T13:21:11.327176+00:00",
+  "item": {
+    "ref": 4,
+    "emoji": "❄️",
+    "title": "Birleşik Krallık'ta sıcaklık -6C'ye düştü, yeni soğuk hava uyarısı verildi",
+    "body": "Met Office, hafta sonu Birleşik Krallık'ın bazı bölgelerinde aralıklı yağmur, sulu kar ve yüksek kesimlerde kar yağışı görülebileceğini bildirdi. Sıcaklıklar -6C'ye kadar geriledi.",
+    "source": "The Independent",
+    "photo_query": "UK snow weather alert winter",
+    "person": "",
+    "person_role": "",
+    "category": "hava",
+    "photo": {
+      "id": "pb:10368046",
+      "provider": "Pixabay",
+      "query": "UK snow weather alert winter",
+      "photographer": "Wolfgang_Hasselmann",
+      "page": "https://pixabay.com/photos/reindeer-winter-snow-antlers-10368046/",
+      "fallback": false
+    }
+  },
+  "caption": "🔴 SON DAKİKA | ❄️ Birleşik Krallık'ta sıcaklık -6C'ye düştü, yeni soğuk hava uyarısı verildi\n\nMet Office, hafta sonu Birleşik Krallık'ın bazı bölgelerinde aralıklı yağmur, sulu kar ve yüksek kesimlerde kar yağışı görülebileceğini bildirdi. Sıcaklıklar -6C'ye kadar geriledi.\n\nKaynak: The Independent | Görsel: Pixabay\nBirleşik Krallık Gündemi | 14 Kasım, 13:21\n\n#SonDakika #SoğukHava #MetOffice",
+  "images": [
+    "output/2026-11-14/breaking-132111.jpg"
+  ],
+  "story_image": "output/2026-11-14/breaking-132111-story.jpg",
+  "history_keys": [
+    "temperaturesplungeto6cinukasnewcoldweatheralertissued"
+  ],
+  "published": false
+}
