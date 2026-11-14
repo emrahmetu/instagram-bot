@@ -1,0 +1,32 @@
+{
+  "type": "breaking",
+  "created_at": "2026-11-14T16:50:50.966570+00:00",
+  "item": {
+    "ref": 3,
+    "emoji": "🏉",
+    "title": "Wales beat New Zealand for the first time since 1953",
+    "body": "Wales beat New Zealand 35-28 in Cardiff, their first victory over them in 73 years. The win ended a wait that dated back to 1953 and led to astonishing scenes in the Welsh capital.",
+    "source": "BBC Sport",
+    "photo_query": "Principality Stadium Cardiff Wales",
+    "person": "",
+    "person_role": "",
+    "category": "spor",
+    "photo": {
+      "id": "pb:2072016",
+      "provider": "Pixabay",
+      "query": "Principality Stadium Cardiff Wales",
+      "photographer": "tom1068",
+      "page": "https://pixabay.com/photos/sculpture-monument-statue-landmark-2072016/",
+      "fallback": false
+    }
+  },
+  "caption": "🔴 BREAKING | 🏉 Wales beat New Zealand for the first time since 1953\n\nWales beat New Zealand 35-28 in Cardiff, their first victory over them in 73 years. The win ended a wait that dated back to 1953 and led to astonishing scenes in the Welsh capital.\n\nSource: BBC Sport | Image: Pixabay\nUK Daily Briefing | 14 November, 16:50\n\n#BreakingNews #WalesRugby #AllBlacks",
+  "images": [
+    "output-en/2026-11-14/breaking-165050.jpg"
+  ],
+  "story_image": "output-en/2026-11-14/breaking-165050-story.jpg",
+  "history_keys": [
+    "magnificentwalesbeatnewzealandforfirsttimesince1953"
+  ],
+  "published": false
+}
