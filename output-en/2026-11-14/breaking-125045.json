@@ -1,0 +1,32 @@
+{
+  "type": "breaking",
+  "created_at": "2026-11-14T12:50:45.605256+00:00",
+  "item": {
+    "ref": 3,
+    "emoji": "📈",
+    "title": "Bank of England will probably need to raise rates next month",
+    "body": "Chief economist Huw Pill says another rise will probably also be needed in early 2027, after rates went to 4% last month. An estimated 2.3 million homeowners must refinance next year, facing a sharp rise in mortgage payments.",
+    "source": "Guardian",
+    "photo_query": "Bank of England building London",
+    "person": "",
+    "person_role": "",
+    "category": "ekonomi",
+    "photo": {
+      "id": "pb:4834813",
+      "provider": "Pixabay",
+      "query": "Bank of England building London",
+      "photographer": "tonysell",
+      "page": "https://pixabay.com/photos/transport-subway-architecture-4834813/",
+      "fallback": false
+    }
+  },
+  "caption": "🔴 BREAKING | 📈 Bank of England will probably need to raise rates next month\n\nChief economist Huw Pill says another rise will probably also be needed in early 2027, after rates went to 4% last month. An estimated 2.3 million homeowners must refinance next year, facing a sharp rise in mortgage payments.\n\nSource: Guardian | Image: Pixabay\nUK Daily Briefing | 14 November, 12:50\n\n#BreakingNews #InterestRates #Economy #Mortgages",
+  "images": [
+    "output-en/2026-11-14/breaking-125045.jpg"
+  ],
+  "story_image": "output-en/2026-11-14/breaking-125045-story.jpg",
+  "history_keys": [
+    "interestrateriseslikelyincomingmonthsbankofenglandschiefeconomistsays"
+  ],
+  "published": false
+}
