@@ -1,0 +1,32 @@
+{
+  "type": "breaking",
+  "created_at": "2026-11-14T08:21:14.815548+00:00",
+  "item": {
+    "ref": 4,
+    "emoji": "⚠️",
+    "title": "İngiltere'de yüzlerce çocuğa kilo verme iğnesi reçete edildi",
+    "body": "The Guardian'ın ortaya çıkardığı verilere göre İngiltere'de, bazıları 12 yaşın altında olan yüzlerce çocuğa GLP-1 ilaçları reçete ediliyor. İlaçlar başlangıçta tip 2 diyabetli hastaların kan şekerini kontrol etmesi için geliştirildi. Uzmanlar, uzman gözetimi ve uzun vadeli takibin şart olduğunu vurguluyor.",
+    "source": "Guardian",
+    "photo_query": "NHS prescription medication children",
+    "person": "",
+    "person_role": "",
+    "category": "saglik",
+    "photo": {
+      "id": "pb:1006808",
+      "provider": "Pixabay",
+      "query": "NHS prescription medication children",
+      "photographer": "frolicsomepl",
+      "page": "https://pixabay.com/photos/medicines-bow-cold-dose-illness-1006808/",
+      "fallback": false
+    }
+  },
+  "caption": "🔴 SON DAKİKA | ⚠️ İngiltere'de yüzlerce çocuğa kilo verme iğnesi reçete edildi\n\nThe Guardian'ın ortaya çıkardığı verilere göre İngiltere'de, bazıları 12 yaşın altında olan yüzlerce çocuğa GLP-1 ilaçları reçete ediliyor. İlaçlar başlangıçta tip 2 diyabetli hastaların kan şekerini kontrol etmesi için geliştirildi. Uzmanlar, uzman gözetimi ve uzun vadeli takibin şart olduğunu vurguluyor.\n\nKaynak: Guardian | Görsel: Pixabay\nBirleşik Krallık Gündemi | 14 Kasım, 08:21\n\n#SonDakika #Sağlık #İngiltere",
+  "images": [
+    "output/2026-11-14/breaking-082114.jpg"
+  ],
+  "story_image": "output/2026-11-14/breaking-082114-story.jpg",
+  "history_keys": [
+    "hundredsofchildreninenglandprescribedweightlossjabsfiguresshow"
+  ],
+  "published": false
+}
