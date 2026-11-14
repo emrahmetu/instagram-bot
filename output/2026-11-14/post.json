@@ -1,0 +1,162 @@
+{
+  "date": "2026-11-14",
+  "caption": "🇬🇧 Birleşik Krallık Gündemi | 14 Kasım 2026, Cumartesi\n\n1. 📋 Home Office, 26 yıldır İngiltere'de yaşayan kör Nijeryalı kadına \"Hindistan'a dön\" dedi\n67 yaşındaki Comfort 2000'de İngiltere'ye geldi, kısa süre sonra akut glokom yüzünden gözlerini kaybetti.\n\n2. 🚗 Eurotunnel'de havaalanı tarzı pasaport ve parmak izi kontrolü yapılacak\nAvrupa Komisyonu, Folkestone ve Calais'de kısa ve uzun vadeli kaosu önlemek için yeni sistemi kabul etti.\n\n3. ⚖️ İngiltere ve Galler'deki probation görevlileri grev için oy kullandı\nNapo üyeleri, ücret ve aşırı iş yükü nedeniyle fazla mesai kısıtlamasını ve grev dışındaki diğer eylemleri destekledi.\n\n4. 💷 Downing Street, 25 yaş altı sosyal yardım düzenlemesini yaşlılara da yaymayı düşünüyor\nGuardian'a göre Downing Street, engelli yardımlarını çalışma ve eğitimle değiştirme planını 25 yaş üstü gruplara da genişletmeyi değerlendiriyor.\n\n5. ⚠️ Home Office gibi davranan dolandırıcılara karşı rehber yayımlandı\nRehber, Home Office adına e-posta, telefon veya mektup gönderen kişilerle karşılaşanların neler yapması gerektiğini anlatıyor.\n\n6. 👑 Kral Charles, Croydon'daki pazar ziyaretinde esnafla gülüp şakalaştı\nGüney Londra'daki Croydon'u ziyaret eden Charles, pazarda esnafla sohbet etti.\n\n7. ⚽ John McGinn, İskoçya rekoruna altı gol uzaklıkta\nOrta saha oyuncusu McGinn, İskoçya formasıyla attığı 24 golle Hughie Gallacher'e yetişti.\n\nKaynaklar: Guardian, GOV.UK UKVI, Evening Standard, BBC Sport. Haberler Türkçe özet olarak derlenmiştir. Görseller: Pixabay. Fotoğraflar: Prime Minister's Office / OGL 3, Wikimedia Commons; White House / Public domain, Wikimedia Commons; Bryan Berlin / CC BY-SA 4.0, Wikimedia Commons.\n\n#İngiltere #Londra #UKNews #HomeOffice #BıçakSuçu #Göç #Visa #Eurotunnel #Probation #SosyalYardım #KralCharles #İskoçya",
+  "images": [
+    "output/2026-11-14/00.jpg",
+    "output/2026-11-14/01.jpg",
+    "output/2026-11-14/02.jpg",
+    "output/2026-11-14/03.jpg",
+    "output/2026-11-14/04.jpg",
+    "output/2026-11-14/05.jpg",
+    "output/2026-11-14/06.jpg",
+    "output/2026-11-14/07.jpg"
+  ],
+  "story_image": "output/2026-11-14/story.jpg",
+  "items": [
+    {
+      "ref": 40,
+      "emoji": "📋",
+      "title": "Home Office, 26 yıldır İngiltere'de yaşayan kör Nijeryalı kadına \"Hindistan'a dön\" dedi",
+      "body": "67 yaşındaki Comfort 2000'de İngiltere'ye geldi, kısa süre sonra akut glokom yüzünden gözlerini kaybetti. Home Office, yeni oturum kuralları kapsamında süresiz oturum izni (ILR) vermedi ve kadına güvenle Hindistan'a dönebileceğini söyledi.",
+      "source": "Guardian",
+      "photo_query": "UK Home Office building",
+      "person": "",
+      "person_role": "",
+      "category": "goc",
+      "photo": {
+        "id": "pb:9596809",
+        "provider": "Pixabay",
+        "query": "UK Home Office building",
+        "photographer": "wal_172619",
+        "page": "https://pixabay.com/photos/skyscrapers-city-office-building-9596809/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 31,
+      "emoji": "🚗",
+      "title": "Eurotunnel'de havaalanı tarzı pasaport ve parmak izi kontrolü yapılacak",
+      "body": "Avrupa Komisyonu, Folkestone ve Calais'de kısa ve uzun vadeli kaosu önlemek için yeni sistemi kabul etti. Eurotunnel'in sahibi Getlink, sürücüleri araçtan indirmeden havaalanı benzeri kontrol uygulamak istiyor.",
+      "source": "Guardian",
+      "photo_query": "Eurotunnel Folkestone channel",
+      "person": "",
+      "person_role": "",
+      "category": "goc",
+      "photo": {
+        "id": "pb:6652233",
+        "provider": "Pixabay",
+        "query": "Eurotunnel Folkestone channel",
+        "photographer": "dendoktoor",
+        "page": "https://pixabay.com/photos/boat-canal-travel-patrol-boat-6652233/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 77,
+      "emoji": "⚖️",
+      "title": "İngiltere ve Galler'deki probation görevlileri grev için oy kullandı",
+      "body": "Napo üyeleri, ücret ve aşırı iş yükü nedeniyle fazla mesai kısıtlamasını ve grev dışındaki diğer eylemleri destekledi. Karar, hükümetin binlerce mahkûmu erken serbest bırakma planına darbe vurdu.",
+      "source": "Guardian",
+      "photo_query": "UK court building justice",
+      "person": "",
+      "person_role": "",
+      "category": "siyaset",
+      "photo": {
+        "id": "pb:5293007",
+        "provider": "Pixabay",
+        "query": "UK court building justice",
+        "photographer": "Ezequiel_Octaviano",
+        "page": "https://pixabay.com/photos/legal-right-justice-law-of-nature-5293007/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 101,
+      "emoji": "💷",
+      "title": "Downing Street, 25 yaş altı sosyal yardım düzenlemesini yaşlılara da yaymayı düşünüyor",
+      "body": "Guardian'a göre Downing Street, engelli yardımlarını çalışma ve eğitimle değiştirme planını 25 yaş üstü gruplara da genişletmeyi değerlendiriyor. Adım, Labour içindeki sosyal yardım gerilimini yeniden körükleyebilir.",
+      "source": "Guardian",
+      "photo_query": "UK benefits welfare system",
+      "person": "Andy Burnham",
+      "person_role": "politician",
+      "category": "ekonomi",
+      "photo": {
+        "id": "wm:Prime Minister Andy Burnham portrait (cropped).jpg",
+        "provider": "Wikimedia Commons",
+        "person": "Andy Burnham",
+        "license": "OGL 3",
+        "photographer": "Prime Minister's Office",
+        "page": "https://commons.wikimedia.org/wiki/File:Prime_Minister_Andy_Burnham_portrait_(cropped).jpg",
+        "credit": "Prime Minister's Office / OGL 3, Wikimedia Commons"
+      }
+    },
+    {
+      "ref": 2,
+      "emoji": "⚠️",
+      "title": "Home Office gibi davranan dolandırıcılara karşı rehber yayımlandı",
+      "body": "Rehber, Home Office adına e-posta, telefon veya mektup gönderen kişilerle karşılaşanların neler yapması gerektiğini anlatıyor.",
+      "source": "GOV.UK UKVI",
+      "photo_query": "UK Home Office official letter",
+      "person": "",
+      "person_role": "",
+      "category": "guvenlik",
+      "photo": {
+        "id": "pb:1129156",
+        "provider": "Pixabay",
+        "query": "UK Home Office official letter",
+        "photographer": "janeb13",
+        "page": "https://pixabay.com/photos/barack-obama-official-portrait-1129156/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 81,
+      "emoji": "👑",
+      "title": "Kral Charles, Croydon'daki pazar ziyaretinde esnafla gülüp şakalaştı",
+      "body": "Güney Londra'daki Croydon'u ziyaret eden Charles, pazarda esnafla sohbet etti. BRIT School öğrencileri krala \"Yes boss!\" diye seslendi.",
+      "source": "Evening Standard",
+      "photo_query": "London market street traders",
+      "person": "Charles III",
+      "person_role": "royal",
+      "category": "kraliyet",
+      "photo": {
+        "id": "wm:King Charles III (July 2023).jpg",
+        "provider": "Wikimedia Commons",
+        "person": "Charles III",
+        "license": "Public domain",
+        "photographer": "White House",
+        "page": "https://commons.wikimedia.org/wiki/File:King_Charles_III_(July_2023).jpg",
+        "credit": "White House / Public domain, Wikimedia Commons"
+      }
+    },
+    {
+      "ref": 24,
+      "emoji": "⚽",
+      "title": "John McGinn, İskoçya rekoruna altı gol uzaklıkta",
+      "body": "Orta saha oyuncusu McGinn, İskoçya formasıyla attığı 24 golle Hughie Gallacher'e yetişti. Kenny Dalglish ve Denis Law'ın 30 gollük rekoruna ulaşmak için altı gole daha ihtiyacı var.",
+      "source": "BBC Sport",
+      "photo_query": "Scotland footballer national team",
+      "person": "John McGinn",
+      "person_role": "footballer",
+      "category": "spor",
+      "photo": {
+        "id": "wm:John McGinn Scotland v Bolivia 6 June 2026-3.jpg",
+        "provider": "Wikimedia Commons",
+        "person": "John McGinn",
+        "license": "CC BY-SA 4.0",
+        "photographer": "Bryan Berlin",
+        "page": "https://commons.wikimedia.org/wiki/File:John_McGinn_Scotland_v_Bolivia_6_June_2026-3.jpg",
+        "credit": "Bryan Berlin / CC BY-SA 4.0, Wikimedia Commons"
+      }
+    }
+  ],
+  "history_keys": [
+    "uktellsblindnigerianpensionertogohometoindia",
+    "ukeubreakthroughwillallowairportstylechecksateurotunneltoavoidborderchaos",
+    "probationofficersinenglandandwalesvotetostrikeoverpayandworkloads",
+    "no10consideringexpandingunder25sbenefitsoverhaultoolderagegroups",
+    "guidancefraudtricksandscams",
+    "kinglaughsandjokeswithtradersduringsouthlondonmarketvisit",
+    "sixgoalstogowillmcginncatchdalglishlaw"
+  ]
+}
