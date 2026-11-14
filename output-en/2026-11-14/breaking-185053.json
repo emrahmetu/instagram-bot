@@ -1,0 +1,32 @@
+{
+  "type": "breaking",
+  "created_at": "2026-11-14T18:50:53.245694+00:00",
+  "item": {
+    "ref": 2,
+    "emoji": "🏉",
+    "title": "Joseph scores record-equalling five tries as England rout Japan",
+    "body": "Will Joseph marked his return to the Test game after four years out with a record-equalling five tries as England tore through Japan.",
+    "source": "BBC Sport",
+    "photo_query": "England rugby team",
+    "person": "Will Joseph",
+    "person_role": "footballer",
+    "category": "spor",
+    "photo": {
+      "id": "pb:1430059",
+      "provider": "Pixabay",
+      "query": "England rugby team",
+      "photographer": "KeithJJ",
+      "page": "https://pixabay.com/photos/rugby-game-high-school-competition-1430059/",
+      "fallback": false
+    }
+  },
+  "caption": "🔴 BREAKING | 🏉 Joseph scores record-equalling five tries as England rout Japan\n\nWill Joseph marked his return to the Test game after four years out with a record-equalling five tries as England tore through Japan.\n\nSource: BBC Sport | Image: Pixabay\nUK Daily Briefing | 14 November, 18:50\n\n#BreakingNews #England #Rugby #TestMatch",
+  "images": [
+    "output-en/2026-11-14/breaking-185053.jpg"
+  ],
+  "story_image": "output-en/2026-11-14/breaking-185053-story.jpg",
+  "history_keys": [
+    "josephscoresrecordequallingfivetriesasenglandroutjapan"
+  ],
+  "published": false
+}
