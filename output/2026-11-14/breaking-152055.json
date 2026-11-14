@@ -1,0 +1,32 @@
+{
+  "type": "breaking",
+  "created_at": "2026-11-14T15:20:55.042189+00:00",
+  "item": {
+    "ref": 10,
+    "emoji": "⚖️",
+    "title": "Hükümet, probation çalışanlarına sunduğu maaş teklifini savundu",
+    "body": "Birleşik Krallık hükümeti, reddedilen maaş teklifini savundu. Napo üyeleri maaş ve iş yükü nedeniyle grev yapılması yönünde oy kullandı. Sendika, grev tehdidiyle teklifi geri çevirdi.",
+    "source": "Nation.Cymru",
+    "photo_query": "UK probation office workers",
+    "person": "",
+    "person_role": "",
+    "category": "gundem",
+    "photo": {
+      "id": "pb:2654",
+      "provider": "Pixabay",
+      "query": "UK probation office workers",
+      "photographer": "PublicDomainPictures",
+      "page": "https://pixabay.com/photos/the-gherkin-london-architecture-2654/",
+      "fallback": false
+    }
+  },
+  "caption": "🔴 SON DAKİKA | ⚖️ Hükümet, probation çalışanlarına sunduğu maaş teklifini savundu\n\nBirleşik Krallık hükümeti, reddedilen maaş teklifini savundu. Napo üyeleri maaş ve iş yükü nedeniyle grev yapılması yönünde oy kullandı. Sendika, grev tehdidiyle teklifi geri çevirdi.\n\nKaynak: Nation.Cymru | Görsel: Pixabay\nBirleşik Krallık Gündemi | 14 Kasım, 15:20\n\n#SonDakika #Grev #IsciHaklari",
+  "images": [
+    "output/2026-11-14/breaking-152055.jpg"
+  ],
+  "story_image": "output/2026-11-14/breaking-152055-story.jpg",
+  "history_keys": [
+    "ministersdefendpayofferforprobationworkersamidstrikethreat"
+  ],
+  "published": false
+}
