@@ -1,0 +1,181 @@
+{
+  "date": "2026-11-14",
+  "caption": "🇬🇧 UK Daily Briefing | Saturday, 14 November 2026\n\n1. 🏥 Global Microsoft outage disrupts hospitals, GPs and police across UK\nA global Microsoft outage hit vital UK services, leaving hospital staff resorting to paper records.\n\n2. ⚖️ Probation officers in England and Wales vote to strike over pay\nProbation officers voted to strike over pay and excessive workloads, dealing a blow to government plans to release thousands of prisoners early.\n\n3. 🏠 Home Office tells blind Nigerian pensioner she can go home to India\nComfort*, 67, who has lived in the UK for 26 years, was refused indefinite leave to remain under new Home Office settlement rules.\n\n4. ✈️ UK travellers may face disruption after US flights are grounded\nThe US Federal Aviation Administration halted all flights across America for several hours on Friday.\n\n5. 💷 Christmas market traders are asked why prices keep rising\nChristmas market food prices range from £8 bratwursts to £11 Yorkshire pudding wraps.\n\n6. 👥 Review author says young people should have legal job or training guarantee\nAlan Milburn told the BBC young people should have a legal guarantee of a job or training.\n\n7. 🛡️ US Air Force responds to suspected drone activity at RAF Lakenheath\nThe US Air Force said it responded to \"suspected unauthorised drone activity\" at the Suffolk airbase on Friday night.\n\n8. 👑 King jokes with traders and students during Croydon visit\nCharles laughed and joked with traders during a visit to a south London market.\n\nSources: Guardian, Evening Standard, BBC. Stories summarised from UK media reports. Images: Pixabay. Photos: White House / Public domain, Wikimedia Commons.\n\n#UKNews #Britain #MicrosoftOutage #NHS #ProbationStrike #Immigration #CostOfLiving #RoyalNews #Government #UKPolitics",
+  "images": [
+    "output-en/2026-11-14/00.jpg",
+    "output-en/2026-11-14/01.jpg",
+    "output-en/2026-11-14/02.jpg",
+    "output-en/2026-11-14/03.jpg",
+    "output-en/2026-11-14/04.jpg",
+    "output-en/2026-11-14/05.jpg",
+    "output-en/2026-11-14/06.jpg",
+    "output-en/2026-11-14/07.jpg",
+    "output-en/2026-11-14/08.jpg"
+  ],
+  "story_image": "output-en/2026-11-14/story.jpg",
+  "items": [
+    {
+      "ref": 99,
+      "emoji": "🏥",
+      "title": "Global Microsoft outage disrupts hospitals, GPs and police across UK",
+      "body": "A global Microsoft outage hit vital UK services, leaving hospital staff resorting to paper records. The disruption raised concerns about over-reliance on a small number of tech companies. People were warned of possible prescription delays.",
+      "source": "Guardian",
+      "photo_query": "NHS hospital building",
+      "person": "",
+      "person_role": "",
+      "category": "saglik",
+      "photo": {
+        "id": "pb:4881012",
+        "provider": "Pixabay",
+        "query": "NHS hospital building",
+        "photographer": "Leonhard_Niederwimmer",
+        "page": "https://pixabay.com/photos/hospital-de-sant-pau-barcelona-4881012/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 80,
+      "emoji": "⚖️",
+      "title": "Probation officers in England and Wales vote to strike over pay",
+      "body": "Probation officers voted to strike over pay and excessive workloads, dealing a blow to government plans to release thousands of prisoners early. Napo members backed overtime restrictions and other action short of a strike.",
+      "source": "Guardian",
+      "photo_query": "UK court building",
+      "person": "",
+      "person_role": "",
+      "category": "siyaset",
+      "photo": {
+        "id": "pb:7859500",
+        "provider": "Pixabay",
+        "query": "UK court building",
+        "photographer": "jjfs2005",
+        "page": "https://pixabay.com/photos/tennis-tennis-court-tennis-balls-7859500/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 43,
+      "emoji": "🏠",
+      "title": "Home Office tells blind Nigerian pensioner she can go home to India",
+      "body": "Comfort*, 67, who has lived in the UK for 26 years, was refused indefinite leave to remain under new Home Office settlement rules. She arrived in 2000 and went blind shortly afterwards due to acute glaucoma.",
+      "source": "Guardian",
+      "photo_query": "UK Home Office building",
+      "person": "",
+      "person_role": "",
+      "category": "goc",
+      "photo": {
+        "id": "pb:6675010",
+        "provider": "Pixabay",
+        "query": "UK Home Office building",
+        "photographer": "Javaistan",
+        "page": "https://pixabay.com/photos/empire-state-building-new-york-city-6675010/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 31,
+      "emoji": "✈️",
+      "title": "UK travellers may face disruption after US flights are grounded",
+      "body": "The US Federal Aviation Administration halted all flights across America for several hours on Friday. Disruption is possible for UK travellers.",
+      "source": "Evening Standard",
+      "photo_query": "UK airport terminal",
+      "person": "",
+      "person_role": "",
+      "category": "hava",
+      "photo": {
+        "id": "pb:10171039",
+        "provider": "Pixabay",
+        "query": "UK airport terminal",
+        "photographer": "bluext2",
+        "page": "https://pixabay.com/photos/man-portrait-airport-travel-10171039/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 32,
+      "emoji": "💷",
+      "title": "Christmas market traders are asked why prices keep rising",
+      "body": "Christmas market food prices range from £8 bratwursts to £11 Yorkshire pudding wraps. Traders have been asked why the cost of the markets is rising year on year.",
+      "source": "BBC",
+      "photo_query": "Christmas market stall",
+      "person": "",
+      "person_role": "",
+      "category": "ekonomi",
+      "photo": {
+        "id": "pb:7646767",
+        "provider": "Pixabay",
+        "query": "Christmas market stall",
+        "photographer": "Sunriseforever",
+        "page": "https://pixabay.com/photos/woman-fairy-lights-winter-new-year-7646767/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 44,
+      "emoji": "👥",
+      "title": "Review author says young people should have legal job or training guarantee",
+      "body": "Alan Milburn told the BBC young people should have a legal guarantee of a job or training. He also called for a radical shift in government spending away from benefits for young people.",
+      "source": "BBC",
+      "photo_query": "UK job centre",
+      "person": "",
+      "person_role": "",
+      "category": "siyaset",
+      "photo": {
+        "id": "pb:2523250",
+        "provider": "Pixabay",
+        "query": "UK job centre",
+        "photographer": "Alexas_Fotos",
+        "page": "https://pixabay.com/photos/mechanic-work-figure-fun-repair-2523250/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 66,
+      "emoji": "🛡️",
+      "title": "US Air Force responds to suspected drone activity at RAF Lakenheath",
+      "body": "The US Air Force said it responded to \"suspected unauthorised drone activity\" at the Suffolk airbase on Friday night. It said no personnel, aircraft or infrastructure were affected.",
+      "source": "Guardian",
+      "photo_query": "RAF airbase fence",
+      "person": "",
+      "person_role": "",
+      "category": "guvenlik",
+      "photo": {
+        "id": "pb:8220199",
+        "provider": "Pixabay",
+        "query": "RAF airbase fence",
+        "photographer": "pen_ash",
+        "page": "https://pixabay.com/photos/superb-fairywren-fairywren-wren-8220199/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 85,
+      "emoji": "👑",
+      "title": "King jokes with traders and students during Croydon visit",
+      "body": "Charles laughed and joked with traders during a visit to a south London market. BRIT School students told him \"yes boss!\" as he visited sites in Croydon.",
+      "source": "Evening Standard",
+      "photo_query": "London market traders",
+      "person": "Charles III",
+      "person_role": "royal",
+      "category": "kraliyet",
+      "photo": {
+        "id": "wm:King Charles III (July 2023).jpg",
+        "provider": "Wikimedia Commons",
+        "person": "Charles III",
+        "license": "Public domain",
+        "photographer": "White House",
+        "page": "https://commons.wikimedia.org/wiki/File:King_Charles_III_(July_2023).jpg",
+        "credit": "White House / Public domain, Wikimedia Commons"
+      }
+    }
+  ],
+  "history_keys": [
+    "microsoftoutagehitshospitalsgpsschoolsandpoliceacrossuk",
+    "probationofficersinenglandandwalesvotetostrikeoverpayandworkloads",
+    "uktellsblindnigerianpensionertogohometoindia",
+    "possibledisruptionexpectedforuktravellersafterflightsgroundedacrossus",
+    "whatdochristmasmarkettraderssayaboutrisingprices",
+    "youngpeopleshouldhavelegalguaranteetojobortrainingreviewauthortellsbbc",
+    "usairforcerespondstosuspecteddroneactivityatraflakenheath",
+    "kinglaughsandjokeswithtradersduringsouthlondonmarketvisit"
+  ]
+}
