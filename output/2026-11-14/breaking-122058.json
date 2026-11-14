@@ -1,0 +1,32 @@
+{
+  "type": "breaking",
+  "created_at": "2026-11-14T12:20:58.468747+00:00",
+  "item": {
+    "ref": 3,
+    "emoji": "📈",
+    "title": "Bank of England baş ekonomisti yeni faiz artışı sinyali verdi",
+    "body": "Bank of England'ın baş ekonomisti Huw Pill, enflasyonla mücadele için faizlerin önümüzdeki ay ve 2027 başında yeniden artırılmasının büyük olasılıkla gerekeceğini söyledi. Faiz geçen ay %4'e yükselmişti. Gelecek yıl kredisini yenilemesi gereken tahmini 2,3 milyon ev sahibinin ipotek ödemeleri sert artabilir.",
+    "source": "Guardian",
+    "photo_query": "Bank of England building London",
+    "person": "Huw Pill",
+    "person_role": "economist",
+    "category": "ekonomi",
+    "photo": {
+      "id": "pb:8878730",
+      "provider": "Pixabay",
+      "query": "Bank of England building London",
+      "photographer": "ELG21",
+      "page": "https://pixabay.com/photos/london-tower-clock-city-building-8878730/",
+      "fallback": false
+    }
+  },
+  "caption": "🔴 SON DAKİKA | 📈 Bank of England baş ekonomisti yeni faiz artışı sinyali verdi\n\nBank of England'ın baş ekonomisti Huw Pill, enflasyonla mücadele için faizlerin önümüzdeki ay ve 2027 başında yeniden artırılmasının büyük olasılıkla gerekeceğini söyledi. Faiz geçen ay %4'e yükselmişti. Gelecek yıl kredisini yenilemesi gereken tahmini 2,3 milyon ev sahibinin ipotek ödemeleri sert artabilir.\n\nKaynak: Guardian | Görsel: Pixabay\nBirleşik Krallık Gündemi | 14 Kasım, 12:20\n\n#SonDakika #FaizArtışı #Enflasyon",
+  "images": [
+    "output/2026-11-14/breaking-122058.jpg"
+  ],
+  "story_image": "output/2026-11-14/breaking-122058-story.jpg",
+  "history_keys": [
+    "interestrateriseslikelyincomingmonthsbankofenglandeconomistsays"
+  ],
+  "published": false
+}
