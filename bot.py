@@ -2308,5 +2308,11 @@ if __name__ == "__main__":
                 _annotate_error(e.code)
         raise
     except Exception as e:
+        # Anthropic aylık harcama limiti dolduysa saatlik kontroller (son dakika, rehber) her seferinde
+        # "run failed" maili atmasın: uyarı bırak, başarılı say. Günlük bülten yine hata verir (görünür kalsın).
+        if ("usage limits" in str(e) or "credit balance is too low" in str(e)) and \
+                len(sys.argv) > 1 and sys.argv[1] in ("breaking", "guide"):
+            print(f"::warning::Anthropic API limiti dolu, bu kontrol atlandı: {e}", flush=True)
+            sys.exit(0)
         _annotate_error(f"{type(e).__name__}: {e}")
         raise
