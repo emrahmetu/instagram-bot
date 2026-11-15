@@ -1,0 +1,181 @@
+{
+  "date": "2026-11-15",
+  "caption": "🇬🇧 UK Daily Briefing | Sunday, 15 November 2026\n\n1. 🏥 NHS England is on track to miss cancer target by 10,000 patients\nExperts warn nearly 10,000 more cancer patients in England will not be treated on time.\n\n2. ❄️ Cold health alerts are issued for parts of the UK until Thursday\nThe UK Health Security Agency has issued cold health alerts for the north-west, West Midlands and Yorkshire and the Humber.\n\n3. 🏘️ Cardiff Council plans to buy 148 flats to ease housing pressure\nThe council's cabinet will be asked on Thursday 19 November to approve buying 136 flats on City Road and 12 in Gabalfa.\n\n4. 💼 Young jobseekers describe stress and desperation of search for work\nIn the second in a Guardian series, four young Britons say job hunting has taken a toll on their mental and physical health.\n\n5. 📈 Bank of England's chief economist says more rate rises are needed\nHuw Pill has suggested he would vote for another quarter-point increase in December.\n\n6. ⚠️ Torture survivors may have been unlawfully sent to Sussex asylum camp\nAn undercover ITV documentary reports inadequate welfare checks for asylum seekers at a controversial ex-military base in East Sussex.\n\n7. 👑 Kate to return to major royal tours with Earthshot Prize trip to India\nThe visit will be Kate's first long-haul overseas trip since she announced her cancer diagnosis in March 2024.\n\n8. 🏉 Wales beat New Zealand for the first time in 73 years\nWales have beaten New Zealand for the first time in 73 years.\n\nSources: Guardian, Nation.Cymru, The Independent, Evening Standard, BBC Sport. Stories summarised from UK media reports. Images: Pixabay. Photos: Daniel Torok/White House / Public domain, Wikimedia Commons.\n\n#UKNews #Britain #NHS #ColdWeather #Housing #Jobs #Economy #Asylum #RoyalNews #WalesRugby",
+  "images": [
+    "output-en/2026-11-15/00.jpg",
+    "output-en/2026-11-15/01.jpg",
+    "output-en/2026-11-15/02.jpg",
+    "output-en/2026-11-15/03.jpg",
+    "output-en/2026-11-15/04.jpg",
+    "output-en/2026-11-15/05.jpg",
+    "output-en/2026-11-15/06.jpg",
+    "output-en/2026-11-15/07.jpg",
+    "output-en/2026-11-15/08.jpg"
+  ],
+  "story_image": "output-en/2026-11-15/story.jpg",
+  "items": [
+    {
+      "ref": 90,
+      "emoji": "🏥",
+      "title": "NHS England is on track to miss cancer target by 10,000 patients",
+      "body": "Experts warn nearly 10,000 more cancer patients in England will not be treated on time. Meeting the March 2027 goal would require 2,850 more patients a month to be treated within 62 days.",
+      "source": "Guardian",
+      "photo_query": "NHS hospital cancer ward",
+      "person": "",
+      "person_role": "",
+      "category": "saglik",
+      "photo": {
+        "id": "pb:5073825",
+        "provider": "Pixabay",
+        "query": "NHS hospital cancer ward",
+        "photographer": "ds_30",
+        "page": "https://pixabay.com/photos/open-cigarette-smoking-packing-5073825/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 91,
+      "emoji": "❄️",
+      "title": "Cold health alerts are issued for parts of the UK until Thursday",
+      "body": "The UK Health Security Agency has issued cold health alerts for the north-west, West Midlands and Yorkshire and the Humber. They run from 9pm on Sunday until 9am on Thursday. Vulnerable people face a threat from frosty conditions.",
+      "source": "Guardian",
+      "photo_query": "UK frost snow winter landscape",
+      "person": "",
+      "person_role": "",
+      "category": "hava",
+      "photo": {
+        "id": "pb:7677111",
+        "provider": "Pixabay",
+        "query": "UK frost snow winter landscape",
+        "photographer": "Leonhard_Niederwimmer",
+        "page": "https://pixabay.com/photos/winter-forest-snow-winter-frost-7677111/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 30,
+      "emoji": "🏘️",
+      "title": "Cardiff Council plans to buy 148 flats to ease housing pressure",
+      "body": "The council's cabinet will be asked on Thursday 19 November to approve buying 136 flats on City Road and 12 in Gabalfa. The social housing waiting list stands at about 9,600 households.",
+      "source": "Nation.Cymru",
+      "photo_query": "Cardiff residential apartments flats",
+      "person": "",
+      "person_role": "",
+      "category": "gundem",
+      "photo": {
+        "id": "pb:3854143",
+        "provider": "Pixabay",
+        "query": "Cardiff residential apartments flats",
+        "photographer": "timcela",
+        "page": "https://pixabay.com/photos/cardiff-cardiff-castle-castle-3854143/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 31,
+      "emoji": "💼",
+      "title": "Young jobseekers describe stress and desperation of search for work",
+      "body": "In the second in a Guardian series, four young Britons say job hunting has taken a toll on their mental and physical health. One says she developed ME/chronic fatigue syndrome, moved back in with her parents and is now housebound.",
+      "source": "Guardian",
+      "photo_query": "young person job interview desk",
+      "person": "",
+      "person_role": "",
+      "category": "gundem",
+      "photo": {
+        "id": "pb:2215071",
+        "provider": "Pixabay",
+        "query": "young person job interview desk",
+        "photographer": "JerzyGórecki",
+        "page": "https://pixabay.com/photos/girl-woman-portrait-face-young-2215071/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 88,
+      "emoji": "📈",
+      "title": "Bank of England's chief economist says more rate rises are needed",
+      "body": "Huw Pill has suggested he would vote for another quarter-point increase in December. He said further interest rate rises are needed to tackle inflation.",
+      "source": "The Independent",
+      "photo_query": "Bank of England building London",
+      "person": "",
+      "person_role": "",
+      "category": "ekonomi",
+      "photo": {
+        "id": "pb:5795695",
+        "provider": "Pixabay",
+        "query": "Bank of England building London",
+        "photographer": "lawlesscapture",
+        "page": "https://pixabay.com/photos/parliament-building-tower-bridge-5795695/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 115,
+      "emoji": "⚠️",
+      "title": "Torture survivors may have been unlawfully sent to Sussex asylum camp",
+      "body": "An undercover ITV documentary reports inadequate welfare checks for asylum seekers at a controversial ex-military base in East Sussex. It says torture survivors may have been placed there unlawfully. The site is run by a firm of billionaire Graham King.",
+      "source": "Guardian",
+      "photo_query": "UK military barracks accommodation",
+      "person": "",
+      "person_role": "",
+      "category": "goc",
+      "photo": {
+        "id": "pb:2555775",
+        "provider": "Pixabay",
+        "query": "UK military barracks accommodation",
+        "photographer": "alanbatt",
+        "page": "https://pixabay.com/photos/auschwitz-camp-holocaust-2555775/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 22,
+      "emoji": "👑",
+      "title": "Kate to return to major royal tours with Earthshot Prize trip to India",
+      "body": "The visit will be Kate's first long-haul overseas trip since she announced her cancer diagnosis in March 2024.",
+      "source": "Evening Standard",
+      "photo_query": "Princess of Wales royal tour",
+      "person": "Catherine, Princess of Wales",
+      "person_role": "royal",
+      "category": "kraliyet",
+      "photo": {
+        "id": "wm:Princess of Wales at State Banquet 2025-09-17 (0.75 crop).jpg",
+        "provider": "Wikimedia Commons",
+        "person": "Catherine, Princess of Wales",
+        "license": "Public domain",
+        "photographer": "Daniel Torok/White House",
+        "page": "https://commons.wikimedia.org/wiki/File:Princess_of_Wales_at_State_Banquet_2025-09-17_(0.75_crop).jpg",
+        "credit": "Daniel Torok/White House / Public domain, Wikimedia Commons"
+      }
+    },
+    {
+      "ref": 95,
+      "emoji": "🏉",
+      "title": "Wales beat New Zealand for the first time in 73 years",
+      "body": "Wales have beaten New Zealand for the first time in 73 years. Highlights of the match are available to watch.",
+      "source": "BBC Sport",
+      "photo_query": "Wales rugby Principality Stadium",
+      "person": "",
+      "person_role": "",
+      "category": "spor",
+      "photo": {
+        "id": "pb:5180297",
+        "provider": "Pixabay",
+        "query": "Wales rugby Principality Stadium",
+        "photographer": "yogendras31",
+        "page": "https://pixabay.com/photos/football-player-soccer-sport-ball-5180297/",
+        "fallback": false
+      }
+    }
+  ],
+  "history_keys": [
+    "nhsenglandontracktomisskeycancertreatmenttargetby10000patients",
+    "coldweatherhealthalertsissuedforpartsofukonsundaynight",
+    "councilplanstobuy148flatstoeasehousingpressure",
+    "imscaredaboutmyfutureyoungpeopleonthestressanddesperationofjobseeking",
+    "furtherinterestraterisesneededtotackleinflationbankofenglandschiefeconomistsays",
+    "torturesurvivorsmayhavebeensenttosussexasylumcampunlawfullydocumentaryreveals",
+    "katereturnstomajorroyaltourswithearthshotprizetriptoindia",
+    "highlightswalesbeatnewzealandforfirsttimein73years"
+  ]
+}
