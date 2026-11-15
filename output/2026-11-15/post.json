@@ -1,0 +1,160 @@
+{
+  "date": "2026-11-15",
+  "caption": "🇬🇧 Birleşik Krallık Gündemi | 15 Kasım 2026, Pazar\n\n1. 🏠 Oxfordshire'daki iltica merkezi planı çevre kirliliği nedeniyle eleştirildi\nHome Office, Campsfield House'a sığınmacı tutma tesislerini ek olarak tasarlamayı planladığını duyurdu.\n\n2. 🏥 Uzmanlar: NHS England kanser hedefini yaklaşık 10 bin hastayla kaçıracak\nUzmanlara göre hükümet hedeflerini tutturamayacak ve İngiltere'de yaklaşık 10 bin kanser hastası zamanında tedavi edilemeyecek.\n\n3. ❄️ Kuzey İngiltere'de soğuk hava uyarıları yayımlandı\nUK Health Security Agency, Kuzey Batı, Batı Midlands ve Yorkshire bölgelerinde pazar gecesi itibaren perşembe sabahına kadar geçerli olacak soğuk hava uyarıları yayımladı.\n\n4. 💷 Bank of England başekonomisti faiz artışlarının devam edeceğini söyledi\nBank of England'ın başekonomisti Huw Pill, Aralık ayında ve 2027'nin başlarında faiz oranlarının yükseltilmesi gerektiğini belirtti.\n\n5. 👑 Kate kraliçe, Hindistan'a uzun menzilli kraliyet turuna çıkıyor\nWilliam ve Kate, Dünya Görüntü Ödülü (Earthshot Prize) ziyaretinin parçası olarak Hindistan'a gidecek.\n\n6. 🏉 Galler, 73 yıllık hasreti bitirip All Blacks'i yendi\nGaller, Yeni Zelanda karşısında 73 yıldır süren galibiyet hasretine son verdi.\n\n7. 🇪🇺 Başbakan Burnham, Brexit'ten sonra kaybın daha fazla olduğunu söyledi\nBaşbakan Andy Burnham, Birleşik Krallık'ın AB'den ayrılmasından sonra \"kaybettiği şeyler kazandıklarından daha fazla\" olduğunu belirtti.\n\nKaynaklar: Guardian, Evening Standard, BBC Sport. Haberler Türkçe özet olarak derlenmiştir. Görseller: Pixabay. Fotoğraflar: Daniel Torok/White House / Public domain, Wikimedia Commons.\n\n#İngiltere #Londra #UKNews #BirleşikKrallık #İltica #NHS #RoyalNews #RugbyNews #Brexit #Güvenlik",
+  "images": [
+    "output/2026-11-15/00.jpg",
+    "output/2026-11-15/01.jpg",
+    "output/2026-11-15/02.jpg",
+    "output/2026-11-15/03.jpg",
+    "output/2026-11-15/04.jpg",
+    "output/2026-11-15/05.jpg",
+    "output/2026-11-15/06.jpg",
+    "output/2026-11-15/07.jpg"
+  ],
+  "story_image": "output/2026-11-15/story.jpg",
+  "items": [
+    {
+      "ref": 33,
+      "emoji": "🏠",
+      "title": "Oxfordshire'daki iltica merkezi planı çevre kirliliği nedeniyle eleştirildi",
+      "body": "Home Office, Campsfield House'a sığınmacı tutma tesislerini ek olarak tasarlamayı planladığını duyurdu. Thames Water şirketi, tesisler arıtma pompasının yanında olacağı için böcek sürülerine ve kötü kokularına maruz kalınacağını uyardı.",
+      "source": "Guardian",
+      "photo_query": "wastewater treatment facility UK",
+      "person": "",
+      "person_role": "",
+      "category": "goc",
+      "photo": {
+        "id": "pb:4565366",
+        "provider": "Pixabay",
+        "query": "wastewater treatment facility UK",
+        "photographer": "scoob_switzerland",
+        "page": "https://pixabay.com/photos/switzerland-water-4565366/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 86,
+      "emoji": "🏥",
+      "title": "Uzmanlar: NHS England kanser hedefini yaklaşık 10 bin hastayla kaçıracak",
+      "body": "Uzmanlara göre hükümet hedeflerini tutturamayacak ve İngiltere'de yaklaşık 10 bin kanser hastası zamanında tedavi edilemeyecek. Mart 2027 hedefi için 62 gün içinde ayda 2.850 hasta daha tedavi edilmesi gerekiyor.",
+      "source": "Guardian",
+      "photo_query": "NHS hospital cancer ward",
+      "person": "",
+      "person_role": "",
+      "category": "saglik",
+      "photo": {
+        "id": "pb:1704855",
+        "provider": "Pixabay",
+        "query": "NHS hospital cancer ward",
+        "photographer": "com329329",
+        "page": "https://pixabay.com/photos/x-ray-medical-treatment-arm-doctor-1704855/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 87,
+      "emoji": "❄️",
+      "title": "Kuzey İngiltere'de soğuk hava uyarıları yayımlandı",
+      "body": "UK Health Security Agency, Kuzey Batı, Batı Midlands ve Yorkshire bölgelerinde pazar gecesi itibaren perşembe sabahına kadar geçerli olacak soğuk hava uyarıları yayımladı. Sıcaklıklar eksi 6 dereceye kadar düşebilecek.",
+      "source": "Guardian",
+      "photo_query": "UK winter frost weather",
+      "person": "",
+      "person_role": "",
+      "category": "hava",
+      "photo": {
+        "id": "pb:5942468",
+        "provider": "Pixabay",
+        "query": "UK winter frost weather",
+        "photographer": "susnpics",
+        "page": "https://pixabay.com/photos/hills-winter-sunset-snow-trees-5942468/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 108,
+      "emoji": "💷",
+      "title": "Bank of England başekonomisti faiz artışlarının devam edeceğini söyledi",
+      "body": "Bank of England'ın başekonomisti Huw Pill, Aralık ayında ve 2027'nin başlarında faiz oranlarının yükseltilmesi gerektiğini belirtti. Yaklaşık 2,3 milyon ev sahibi ipotek yenilemeleri sırasında daha yüksek ödemelerle karşı karşıya kalacak.",
+      "source": "Guardian",
+      "photo_query": "pound sterling interest rates",
+      "person": "Huw Pill",
+      "person_role": "economist",
+      "category": "ekonomi",
+      "photo": {
+        "id": "pb:8450635",
+        "provider": "Pixabay",
+        "query": "pound sterling interest rates",
+        "photographer": "aunguyen_vn",
+        "page": "https://pixabay.com/photos/coins-economy-economy-exchange-rate-8450635/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 18,
+      "emoji": "👑",
+      "title": "Kate kraliçe, Hindistan'a uzun menzilli kraliyet turuna çıkıyor",
+      "body": "William ve Kate, Dünya Görüntü Ödülü (Earthshot Prize) ziyaretinin parçası olarak Hindistan'a gidecek. Bu, Kate'in Mart 2024'te kanser teşhisini duyurduktan sonra ilk uzun havalimanı seyahati olacak.",
+      "source": "Evening Standard",
+      "photo_query": "British royal tour India",
+      "person": "Catherine, Princess of Wales",
+      "person_role": "royal",
+      "category": "kraliyet",
+      "photo": {
+        "id": "wm:Princess of Wales at State Banquet 2025-09-17 (0.75 crop).jpg",
+        "provider": "Wikimedia Commons",
+        "person": "Catherine, Princess of Wales",
+        "license": "Public domain",
+        "photographer": "Daniel Torok/White House",
+        "page": "https://commons.wikimedia.org/wiki/File:Princess_of_Wales_at_State_Banquet_2025-09-17_(0.75_crop).jpg",
+        "credit": "Daniel Torok/White House / Public domain, Wikimedia Commons"
+      }
+    },
+    {
+      "ref": 71,
+      "emoji": "🏉",
+      "title": "Galler, 73 yıllık hasreti bitirip All Blacks'i yendi",
+      "body": "Galler, Yeni Zelanda karşısında 73 yıldır süren galibiyet hasretine son verdi. Zafer, Galler'in gelmiş geçmiş en büyük başarısı olarak övülüyor.",
+      "source": "BBC Sport",
+      "photo_query": "Wales rugby Principality Stadium",
+      "person": "",
+      "person_role": "",
+      "category": "spor",
+      "photo": {
+        "id": "pb:1367079",
+        "provider": "Pixabay",
+        "query": "Wales rugby Principality Stadium",
+        "photographer": "paolo92",
+        "page": "https://pixabay.com/photos/rugby-sport-ball-grass-leisure-1367079/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 104,
+      "emoji": "🇪🇺",
+      "title": "Başbakan Burnham, Brexit'ten sonra kaybın daha fazla olduğunu söyledi",
+      "body": "Başbakan Andy Burnham, Birleşik Krallık'ın AB'den ayrılmasından sonra \"kaybettiği şeyler kazandıklarından daha fazla\" olduğunu belirtti. Burnham, Muhafazakar Partisi'ni AB ile tüm köprüleri \"yıklamakla\" suçladı.",
+      "source": "Guardian",
+      "photo_query": "British EU flag relationship",
+      "person": "Andy Burnham",
+      "person_role": "politician",
+      "category": "siyaset",
+      "photo": {
+        "id": "pb:636016",
+        "provider": "Pixabay",
+        "query": "British EU flag relationship",
+        "photographer": "CatsWithGlasses",
+        "page": "https://pixabay.com/photos/flag-union-jack-hand-british-636016/",
+        "fallback": false
+      }
+    }
+  ],
+  "history_keys": [
+    "plannedasylumseekerdetentioncentrenexttooxfordshiresewageworkscriticised",
+    "nhsenglandontracktomisskeycancertreatmenttargetby10000patients",
+    "coldweatherhealthalertsissuedforpartsofukonsundaynight",
+    "interestrateriseslikelyincomingmonthsbankofenglandschiefeconomistsays",
+    "katereturnstomajorroyaltourswithearthshotprizetriptoindia",
+    "oneofthegreatestwinswalesstunallblackstogofromnohoperstoheroes",
+    "andyburnhamsaysukhaslostmorethanwegainedthroughbrexit"
+  ]
+}
