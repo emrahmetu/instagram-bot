@@ -1,0 +1,32 @@
+{
+  "type": "breaking",
+  "created_at": "2026-11-17T19:51:03.690585+00:00",
+  "item": {
+    "ref": 2,
+    "emoji": "🕵️",
+    "title": "US soldier arrested over Russia spy suspicion handed to US military",
+    "body": "Counterterror police arrested the US army officer in the UK on suspicion of spying for Russia. He has since been taken into custody by the US military. Police said they \"will act swiftly and robustly\" when espionage is suspected.",
+    "source": "The Independent",
+    "photo_query": "Metropolitan Police building London",
+    "person": "",
+    "person_role": "",
+    "category": "guvenlik",
+    "photo": {
+      "id": "pb:943939",
+      "provider": "Pixabay",
+      "query": "Metropolitan Police building London",
+      "photographer": "KatarzynaBruderGulcz",
+      "page": "https://pixabay.com/photos/london-horse-animals-animal-943939/",
+      "fallback": false
+    }
+  },
+  "caption": "🔴 BREAKING | 🕵️ US soldier arrested over Russia spy suspicion handed to US military\n\nCounterterror police arrested the US army officer in the UK on suspicion of spying for Russia. He has since been taken into custody by the US military. Police said they \"will act swiftly and robustly\" when espionage is suspected.\n\nSource: The Independent | Image: Pixabay\nUK Daily Briefing | 17 November, 19:51\n\n#BreakingNews #Espionage #NationalSecurity",
+  "images": [
+    "output-en/2026-11-17/breaking-195103.jpg"
+  ],
+  "story_image": "output-en/2026-11-17/breaking-195103-story.jpg",
+  "history_keys": [
+    "americansoldierarrestedinukonsuspicionofspyingforrussiatakenintocustodybyusmilitary"
+  ],
+  "published": false
+}
