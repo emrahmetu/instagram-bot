@@ -1,0 +1,32 @@
+{
+  "type": "breaking",
+  "created_at": "2026-11-17T15:51:12.454825+00:00",
+  "item": {
+    "ref": 5,
+    "emoji": "👥",
+    "title": "Government backs Milburn report on new welfare system for young people",
+    "body": "Ministers have promised an entirely new welfare system for young people after backing Alan Milburn's 278-page report. They promised spending cuts next year to help pay for the proposals. The prime minister called it a 'watershed moment'.",
+    "source": "Guardian",
+    "photo_query": "Westminster Parliament building",
+    "person": "",
+    "person_role": "",
+    "category": "gundem",
+    "photo": {
+      "id": "pb:10333108",
+      "provider": "Pixabay",
+      "query": "Westminster Parliament building",
+      "photographer": "detait",
+      "page": "https://pixabay.com/photos/budapest-parliament-hungarian-10333108/",
+      "fallback": false
+    }
+  },
+  "caption": "🔴 BREAKING | 👥 Government backs Milburn report on new welfare system for young people\n\nMinisters have promised an entirely new welfare system for young people after backing Alan Milburn's 278-page report. They promised spending cuts next year to help pay for the proposals. The prime minister called it a 'watershed moment'.\n\nSource: Guardian | Image: Pixabay\nUK Daily Briefing | 17 November, 15:51\n\n#BreakingNews #UKWelfare #YoungPeople",
+  "images": [
+    "output-en/2026-11-17/breaking-155112.jpg"
+  ],
+  "story_image": "output-en/2026-11-17/breaking-155112-story.jpg",
+  "history_keys": [
+    "ministersvowtocreatenewwelfaresystemforyoungpeopleastheybackmilburnreport"
+  ],
+  "published": false
+}
