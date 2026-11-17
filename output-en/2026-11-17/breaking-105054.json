@@ -1,0 +1,32 @@
+{
+  "type": "breaking",
+  "created_at": "2026-11-17T10:50:54.859360+00:00",
+  "item": {
+    "ref": 4,
+    "emoji": "🌍",
+    "title": "UK announces new sanctions against West Bank settlement firms",
+    "body": "The UK has announced new sanctions on firms building illegal Israeli settlements in the occupied West Bank. Foreign secretary Ed Miliband had previously pledged to respond to the expansion of the settlements.",
+    "source": "The Independent",
+    "photo_query": "UK Foreign Office Westminster",
+    "person": "Ed Miliband",
+    "person_role": "politician",
+    "category": "guvenlik",
+    "photo": {
+      "id": "pb:4582466",
+      "provider": "Pixabay",
+      "query": "UK Foreign Office Westminster",
+      "photographer": "analogicus",
+      "page": "https://pixabay.com/photos/big-ben-england-london-clock-tower-4582466/",
+      "fallback": false
+    }
+  },
+  "caption": "🔴 BREAKING | 🌍 UK announces new sanctions against West Bank settlement firms\n\nThe UK has announced new sanctions on firms building illegal Israeli settlements in the occupied West Bank. Foreign secretary Ed Miliband had previously pledged to respond to the expansion of the settlements.\n\nSource: The Independent | Image: Pixabay\nUK Daily Briefing | 17 November, 10:50\n\n#BreakingNews #Israel #Palestine #UKPolitics",
+  "images": [
+    "output-en/2026-11-17/breaking-105054.jpg"
+  ],
+  "story_image": "output-en/2026-11-17/breaking-105054-story.jpg",
+  "history_keys": [
+    "ukannouncesnewsanctionsagainstfirmsbuildingwestbanksettlements"
+  ],
+  "published": false
+}
