@@ -1,0 +1,32 @@
+{
+  "type": "breaking",
+  "created_at": "2026-11-17T17:50:54.382640+00:00",
+  "item": {
+    "ref": 17,
+    "emoji": "🚀",
+    "title": "UK will send 1,000 missiles to Ukraine this winter",
+    "body": "The missiles are intended to help Ukraine defend itself against Russia. The funding forms part of the overall £500 million military package announced in the Budget.",
+    "source": "The Independent",
+    "photo_query": "British military missiles launcher",
+    "person": "",
+    "person_role": "",
+    "category": "guvenlik",
+    "photo": {
+      "id": "pb:7894285",
+      "provider": "Pixabay",
+      "query": "British military missiles launcher",
+      "photographer": "Sunriseforever",
+      "page": "https://pixabay.com/photos/the-second-world-war-military-uniform-7894285/",
+      "fallback": false
+    }
+  },
+  "caption": "🔴 BREAKING | 🚀 UK will send 1,000 missiles to Ukraine this winter\n\nThe missiles are intended to help Ukraine defend itself against Russia. The funding forms part of the overall £500 million military package announced in the Budget.\n\nSource: The Independent | Image: Pixabay\nUK Daily Briefing | 17 November, 17:50\n\n#BreakingNews #Ukraine #Defence",
+  "images": [
+    "output-en/2026-11-17/breaking-175054.jpg"
+  ],
+  "story_image": "output-en/2026-11-17/breaking-175054-story.jpg",
+  "history_keys": [
+    "uktosendukraine1000missilestohelpdefenditselffromrussiathiswinter"
+  ],
+  "published": false
+}
