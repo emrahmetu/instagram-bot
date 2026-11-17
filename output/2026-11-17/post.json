@@ -1,0 +1,181 @@
+{
+  "date": "2026-11-17",
+  "caption": "🇬🇧 Birleşik Krallık Gündemi | 17 Kasım 2026, Salı\n\n1. 🛂 Home Office üç yeni mülteci sponsorluk rotası başlattı\nHome Office, adlandırılmış topluluk sponsorluğu, mülteci öğrenci ve mülteci çalışan programlarını içeren yeni göç rotalarının rehberliğini yayınladı.\n\n2. ⚖️ Reddedilen sığınmacılar beş günlük bildirim süresi olmadan sınır dışı edilebilecek\nHome Office, resmi temyiz sürecini tamamlamış sığınmacıları beş günlük bildirim yapılmadan derhal çıkarmaya izin veren yasa değişikliği planlıyor.\n\n3. 🏥 Ruanda'da UK vizesi başvuruları için tüberküloz test kliniklerine rehberlik\nUKVI, Ruanda'da UK vizesi başvurusu yapan kişiler için tüberküloz (TB) test klinikleri hakkında rehberlik yayınladı.\n\n4. 💼 Milburn işsiz gençler için 1 milyona çıkabilecek yardım planı açıklayacak\nAlan Milburn, eğitimde, istihdamda veya eğitimde olmayan (Neet) gençleri işe almaya teşvik etmek için 3.000 sterlin işveren teşviki önermeyi içeren bir plan sunacak.\n\n5. 📊 İşsizlik oranı beklenmedik şekilde %4,6'ya düştü\nUK işsizlik oranı %4,6'ya düştü ve ücret artışı Eylül ayında %3,5'e geriledi.\n\n6. ❄️ Met Office kar uyarısı, Salı sabahı ulaşımda aksamaya neden olabilir\nKuzey İngiltere ve güney İskoçya'daki tepelerde kar, Salı sabahı ulaşımda aksamaya neden olabilir.\n\n7. 👑 William, Hindistan'da Kate ile birlikte elektrikli otobüsü kullandı\nGaller Prensi William, Mumbai'de bir kıyı sahnesinde Kate ile birlikte elektrikli otobüsün direksiyonuna geçti ve bunu 'harika' olarak değerlendirdi.\n\n8. 🎬 İngiltere'deki oyuncular yapay zeka dijital kopyaları üzerinde daha fazla hak elde edecek\nEquity sendikası tarafından güvence altına alınan yeni anlaşma, oyuncuların dijital kopyaları kullanıldığında ödeme ve onay hakları veriyor.\n\nKaynaklar: Free Movement, BBC, GOV.UK UKVI, The Independent, Guardian, Evening Standard. Haberler Türkçe özet olarak derlenmiştir. Görseller: Pixabay. Fotoğraflar: UK Government / OGL 3, Wikimedia Commons.\n\n#İngiltere #Londra #UKNews #Göç #Vize #Sığınmacı #İstihdam #Hava #Kraliyet #William #Ekonomi #YapayZeka",
+  "images": [
+    "output/2026-11-17/00.jpg",
+    "output/2026-11-17/01.jpg",
+    "output/2026-11-17/02.jpg",
+    "output/2026-11-17/03.jpg",
+    "output/2026-11-17/04.jpg",
+    "output/2026-11-17/05.jpg",
+    "output/2026-11-17/06.jpg",
+    "output/2026-11-17/07.jpg",
+    "output/2026-11-17/08.jpg"
+  ],
+  "story_image": "output/2026-11-17/story.jpg",
+  "items": [
+    {
+      "ref": 2,
+      "emoji": "🛂",
+      "title": "Home Office üç yeni mülteci sponsorluk rotası başlattı",
+      "body": "Home Office, adlandırılmış topluluk sponsorluğu, mülteci öğrenci ve mülteci çalışan programlarını içeren yeni göç rotalarının rehberliğini yayınladı. Rotalar Kasım 2025 iltica politikası açıklamasında duyurulmuştu.",
+      "source": "Free Movement",
+      "photo_query": "UK visa refugee sponsorship",
+      "person": "",
+      "person_role": "",
+      "category": "goc",
+      "photo": {
+        "id": "pb:7920625",
+        "provider": "Pixabay",
+        "query": "UK visa refugee sponsorship",
+        "photographer": "JeanetteAtherton",
+        "page": "https://pixabay.com/photos/refugee-help-support-children-kid-7920625/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 34,
+      "emoji": "⚖️",
+      "title": "Reddedilen sığınmacılar beş günlük bildirim süresi olmadan sınır dışı edilebilecek",
+      "body": "Home Office, resmi temyiz sürecini tamamlamış sığınmacıları beş günlük bildirim yapılmadan derhal çıkarmaya izin veren yasa değişikliği planlıyor. Mülteci yardım kuruluşları kararı 'sıkıntı verici' olarak nitelendiriyor.",
+      "source": "BBC",
+      "photo_query": "Home Office UK immigration notice",
+      "person": "",
+      "person_role": "",
+      "category": "goc",
+      "photo": {
+        "id": "pb:5243232",
+        "provider": "Pixabay",
+        "query": "Home Office UK immigration notice",
+        "photographer": "viarami",
+        "page": "https://pixabay.com/photos/home-office-office-at-home-5243232/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 4,
+      "emoji": "🏥",
+      "title": "Ruanda'da UK vizesi başvuruları için tüberküloz test kliniklerine rehberlik",
+      "body": "UKVI, Ruanda'da UK vizesi başvurusu yapan kişiler için tüberküloz (TB) test klinikleri hakkında rehberlik yayınladı. Test, viza başvurusunun bir parçası olarak gerekli.",
+      "source": "GOV.UK UKVI",
+      "photo_query": "UK visa medical test clinic",
+      "person": "",
+      "person_role": "",
+      "category": "goc",
+      "photo": {
+        "id": "pb:2725065",
+        "provider": "Pixabay",
+        "query": "UK visa medical test clinic",
+        "photographer": "whitesession",
+        "page": "https://pixabay.com/photos/vaccination-injection-healthcare-2725065/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 9,
+      "emoji": "💼",
+      "title": "Milburn işsiz gençler için 1 milyona çıkabilecek yardım planı açıklayacak",
+      "body": "Alan Milburn, eğitimde, istihdamda veya eğitimde olmayan (Neet) gençleri işe almaya teşvik etmek için 3.000 sterlin işveren teşviki önermeyi içeren bir plan sunacak. Hükümet bu kriz ile başa çıkmaya çalışıyor.",
+      "source": "The Independent",
+      "photo_query": "young people UK employment training",
+      "person": "Alan Milburn",
+      "person_role": "politician",
+      "category": "ekonomi",
+      "photo": {
+        "id": "wm:Alan Milburn official portrait (cropped).jpg",
+        "provider": "Wikimedia Commons",
+        "person": "Alan Milburn",
+        "license": "OGL 3",
+        "photographer": "UK Government",
+        "page": "https://commons.wikimedia.org/wiki/File:Alan_Milburn_official_portrait_(cropped).jpg",
+        "credit": "UK Government / OGL 3, Wikimedia Commons"
+      }
+    },
+    {
+      "ref": 31,
+      "emoji": "📊",
+      "title": "İşsizlik oranı beklenmedik şekilde %4,6'ya düştü",
+      "body": "UK işsizlik oranı %4,6'ya düştü ve ücret artışı Eylül ayında %3,5'e geriledi. Hükümet, gençler arasında artan işsizlikle başa çıkmak için Milburn raporunu yayınlamaya hazırlanıyor.",
+      "source": "Guardian",
+      "photo_query": "UK unemployment statistics office",
+      "person": "",
+      "person_role": "",
+      "category": "ekonomi",
+      "photo": {
+        "id": "pb:593748",
+        "provider": "Pixabay",
+        "query": "UK unemployment statistics office",
+        "photographer": "geralt",
+        "page": "https://pixabay.com/photos/stop-bus-stop-traffic-signs-593748/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 32,
+      "emoji": "❄️",
+      "title": "Met Office kar uyarısı, Salı sabahı ulaşımda aksamaya neden olabilir",
+      "body": "Kuzey İngiltere ve güney İskoçya'daki tepelerde kar, Salı sabahı ulaşımda aksamaya neden olabilir. Met Office sarı uyarı yayınladı.",
+      "source": "BBC",
+      "photo_query": "Met Office weather warning snow UK",
+      "person": "",
+      "person_role": "",
+      "category": "hava",
+      "photo": {
+        "id": "pb:69338",
+        "provider": "Pixabay",
+        "query": "Met Office weather warning snow UK",
+        "photographer": "stux",
+        "page": "https://pixabay.com/photos/traffic-light-red-winter-snow-69338/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 36,
+      "emoji": "👑",
+      "title": "William, Hindistan'da Kate ile birlikte elektrikli otobüsü kullandı",
+      "body": "Galler Prensi William, Mumbai'de bir kıyı sahnesinde Kate ile birlikte elektrikli otobüsün direksiyonuna geçti ve bunu 'harika' olarak değerlendirdi. İkili Earthshot ödülleri etkinliğine katılmakta.",
+      "source": "Evening Standard",
+      "photo_query": "Prince William electric rickshaw India",
+      "person": "William",
+      "person_role": "royal",
+      "category": "kraliyet",
+      "photo": {
+        "id": "pb:7200162",
+        "provider": "Pixabay",
+        "query": "Prince William electric rickshaw India",
+        "photographer": "17144709",
+        "page": "https://pixabay.com/photos/man-newspaper-car-auto-driver-7200162/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 15,
+      "emoji": "🎬",
+      "title": "İngiltere'deki oyuncular yapay zeka dijital kopyaları üzerinde daha fazla hak elde edecek",
+      "body": "Equity sendikası tarafından güvence altına alınan yeni anlaşma, oyuncuların dijital kopyaları kullanıldığında ödeme ve onay hakları veriyor. Anlaşma, yapay zeka kullanımı üzerine yeni korumalar sağlıyor.",
+      "source": "Guardian",
+      "photo_query": "British actors Equity union AI digital replicas",
+      "person": "",
+      "person_role": "",
+      "category": "magazin",
+      "photo": {
+        "id": "pb:1932164",
+        "provider": "Pixabay",
+        "query": "British actors Equity union AI digital replicas",
+        "photographer": "Peggy_Marco",
+        "page": "https://pixabay.com/photos/london-taxi-o2-vodafone-1932164/",
+        "fallback": false
+      }
+    }
+  ],
+  "history_keys": [
+    "whatarethenewrefugeesponsorshiproutesandhowwilltheywork",
+    "governmenttoremovefailedasylumseekerswithoutfivedaynoticeperiod",
+    "guidancerwandatuberculosistestclinicsforaukvisa",
+    "neetslatestmilburntounveilplantoshakeupbenefitsfor1millionunemployedyoungpeople",
+    "ukunemploymentunexpectedlyeasesto46asgovernmentpreparestoreleasemilburnreport",
+    "metofficeyellowwarninginplaceassnowcoulddisrupttuesdaymorningtravel",
+    "williamgetsbehindwheelofrickshawwithkateaheadofearthshotawards",
+    "actorsinuktogetmorerightsovertheirdigitalreplicasindealonaiprotections"
+  ]
+}
