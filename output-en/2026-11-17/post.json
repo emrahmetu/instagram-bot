@@ -1,0 +1,180 @@
+{
+  "date": "2026-11-17",
+  "caption": "🇬🇧 UK Daily Briefing | Tuesday, 17 November 2026\n\n1. 💼 Milburn set to unveil plan to shake up benefits for young jobless\nProposals for 1 million unemployed young people include a £3,000 incentive for employers to hire those not in education, employment or training (Neets).\n\n2. 📊 UK unemployment unexpectedly eases to 4.6% as wage growth slows\nWage growth fell to 3.5% in September.\n\n3. ❄️ Met Office yellow warning in place as snow may disrupt travel\nSnow could disrupt Tuesday morning travel in the hills of northern England and southern Scotland, with some transport disruption possible.\n\n4. 🚨 Government plans to remove failed asylum seekers without notice period\nUnder the changes, immigration officers would no longer need to give five working days' notice before beginning the removal process for failed asylum seekers.\n\n5. 💔 Imperial Brands to axe up to 4,600 jobs as it uses more AI\nThe owner of JPS, Golden Virginia, Blu vapes and Rizla has launched a cost-cutting drive.\n\n6. 🎬 UK actors are to get more rights over digital replicas in AI deal\nThe Equity union has secured an agreement with TV and film producers giving actors rights over payment and consent when digital replicas are used.\n\n7. 🚔 Police chiefs warn officers are retreating from streets amid funding crisis\nPolice chiefs say officers are 'retreating from streets' because of a severe funding crisis.\n\n8. 👑 William takes control of electric rickshaw in Mumbai ahead of Earthshot awards\nThe Prince of Wales drove the electric vehicle on a waterfront promenade in Mumbai, India, with Kate, and declared it 'brilliant'.\n\nSources: The Independent, Guardian, BBC, Evening Standard. Stories summarised from UK media reports. Images: Pixabay.\n\n#UKNews #YouthEmployment #Economy #Weather #Immigration #Jobs #Britain #Politics #RoyalFamily #UKJobs",
+  "images": [
+    "output-en/2026-11-17/00.jpg",
+    "output-en/2026-11-17/01.jpg",
+    "output-en/2026-11-17/02.jpg",
+    "output-en/2026-11-17/03.jpg",
+    "output-en/2026-11-17/04.jpg",
+    "output-en/2026-11-17/05.jpg",
+    "output-en/2026-11-17/06.jpg",
+    "output-en/2026-11-17/07.jpg",
+    "output-en/2026-11-17/08.jpg"
+  ],
+  "story_image": "output-en/2026-11-17/story.jpg",
+  "items": [
+    {
+      "ref": 9,
+      "emoji": "💼",
+      "title": "Milburn set to unveil plan to shake up benefits for young jobless",
+      "body": "Proposals for 1 million unemployed young people include a £3,000 incentive for employers to hire those not in education, employment or training (Neets).",
+      "source": "The Independent",
+      "photo_query": "young person job interview",
+      "person": "",
+      "person_role": "",
+      "category": "siyaset",
+      "photo": {
+        "id": "pb:3070556",
+        "provider": "Pixabay",
+        "query": "young person job interview",
+        "photographer": "Gromovataya",
+        "page": "https://pixabay.com/photos/portrait-fashion-woman-people-3070556/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 31,
+      "emoji": "📊",
+      "title": "UK unemployment unexpectedly eases to 4.6% as wage growth slows",
+      "body": "Wage growth fell to 3.5% in September. The government is preparing to release the Milburn report, a major review of the youth jobs crisis, as ministers examine how to get young people into work.",
+      "source": "Guardian",
+      "photo_query": "pound sterling coins economy",
+      "person": "",
+      "person_role": "",
+      "category": "ekonomi",
+      "photo": {
+        "id": "pb:870764",
+        "provider": "Pixabay",
+        "query": "pound sterling coins economy",
+        "photographer": "Bru-nO",
+        "page": "https://pixabay.com/photos/euro-money-finance-save-up-cent-870764/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 32,
+      "emoji": "❄️",
+      "title": "Met Office yellow warning in place as snow may disrupt travel",
+      "body": "Snow could disrupt Tuesday morning travel in the hills of northern England and southern Scotland, with some transport disruption possible.",
+      "source": "BBC",
+      "photo_query": "UK snow weather winter",
+      "person": "",
+      "person_role": "",
+      "category": "hava",
+      "photo": {
+        "id": "pb:10368046",
+        "provider": "Pixabay",
+        "query": "UK snow weather winter",
+        "photographer": "Wolfgang_Hasselmann",
+        "page": "https://pixabay.com/photos/reindeer-winter-snow-antlers-10368046/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 34,
+      "emoji": "🚨",
+      "title": "Government plans to remove failed asylum seekers without notice period",
+      "body": "Under the changes, immigration officers would no longer need to give five working days' notice before beginning the removal process for failed asylum seekers.",
+      "source": "The Independent",
+      "photo_query": "Home Office UK government building",
+      "person": "",
+      "person_role": "",
+      "category": "goc",
+      "photo": {
+        "id": "pb:4588073",
+        "provider": "Pixabay",
+        "query": "Home Office UK government building",
+        "photographer": "St33lv0ll",
+        "page": "https://pixabay.com/photos/berlin-architecture-building-4588073/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 14,
+      "emoji": "💔",
+      "title": "Imperial Brands to axe up to 4,600 jobs as it uses more AI",
+      "body": "The owner of JPS, Golden Virginia, Blu vapes and Rizla has launched a cost-cutting drive. The Bristol-based company said 2,100 roles would go globally this year, with further cuts planned.",
+      "source": "Guardian",
+      "photo_query": "factory business UK",
+      "person": "",
+      "person_role": "",
+      "category": "ekonomi",
+      "photo": {
+        "id": "pb:2893844",
+        "provider": "Pixabay",
+        "query": "factory business UK",
+        "photographer": "igorovsyannykov",
+        "page": "https://pixabay.com/photos/architecture-building-business-2893844/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 15,
+      "emoji": "🎬",
+      "title": "UK actors are to get more rights over digital replicas in AI deal",
+      "body": "The Equity union has secured an agreement with TV and film producers giving actors rights over payment and consent when digital replicas are used. It follows a growing on-set backlash.",
+      "source": "Guardian",
+      "photo_query": "film camera television studio",
+      "person": "",
+      "person_role": "",
+      "category": "magazin",
+      "photo": {
+        "id": "pb:7699765",
+        "provider": "Pixabay",
+        "query": "film camera television studio",
+        "photographer": "mariya_m",
+        "page": "https://pixabay.com/photos/camera-vintage-camera-film-camera-7699765/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 23,
+      "emoji": "🚔",
+      "title": "Police chiefs warn officers are retreating from streets amid funding crisis",
+      "body": "Police chiefs say officers are 'retreating from streets' because of a severe funding crisis. One chief said nine forces are currently requesting exceptional financial support (EFS) from central government.",
+      "source": "The Independent",
+      "photo_query": "British police officer uniform",
+      "person": "",
+      "person_role": "",
+      "category": "guvenlik",
+      "photo": {
+        "id": "pb:2585928",
+        "provider": "Pixabay",
+        "query": "British police officer uniform",
+        "photographer": "terimakasih0",
+        "page": "https://pixabay.com/photos/policeman-officer-police-law-2585928/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 36,
+      "emoji": "👑",
+      "title": "William takes control of electric rickshaw in Mumbai ahead of Earthshot awards",
+      "body": "The Prince of Wales drove the electric vehicle on a waterfront promenade in Mumbai, India, with Kate, and declared it 'brilliant'. The visit came ahead of the Earthshot awards.",
+      "source": "Evening Standard",
+      "photo_query": "Prince William Kate electric vehicle",
+      "person": "William, Prince of Wales",
+      "person_role": "royal",
+      "category": "kraliyet",
+      "photo": {
+        "id": "pb:5864037",
+        "provider": "Pixabay",
+        "query": "Prince William Kate electric vehicle",
+        "photographer": "SSidde",
+        "page": "https://pixabay.com/photos/car-electric-car-charging-station-5864037/",
+        "fallback": false
+      }
+    }
+  ],
+  "history_keys": [
+    "neetslatestmilburntounveilplantoshakeupbenefitsfor1millionunemployedyoungpeople",
+    "ukunemploymentunexpectedlyeasesto46asgovernmentpreparestoreleasemilburnreport",
+    "metofficeyellowwarninginplaceassnowcoulddisrupttuesdaymorningtravel",
+    "governmenttoremovefailedasylumseekerswithoutfivedaynoticeperiod",
+    "tobaccogroupimperialbrandstoaxeupto4600jobsasitusesmoreai",
+    "actorsinuktogetmorerightsovertheirdigitalreplicasindealonaiprotections",
+    "policechiefswarnofficersretreatingfromstreetsduetoseverefundingcrisis",
+    "williamgetsbehindwheelofrickshawwithkateaheadofearthshotawards"
+  ]
+}
