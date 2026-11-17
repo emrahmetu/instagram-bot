@@ -1,0 +1,32 @@
+{
+  "type": "breaking",
+  "created_at": "2026-11-17T15:21:33.020395+00:00",
+  "item": {
+    "ref": 7,
+    "emoji": "🛡️",
+    "title": "Home Office, dolandırılan göçmen işçileri modern kölelik mağduru sayabilecek",
+    "body": "Home Office, hukuki mücadelenin ardından politikasını değiştirdi. Finansal olarak sömürülen göçmen işçiler artık modern kölelik mağduru sayılabilecek. Değişiklik, Birleşik Krallık'ta olmayan bir iş için bir aracıya 22.000 sterlin kaptıran Pakistanlı bakım işçisi Ali'nin açtığı davayla gündeme geldi.",
+    "source": "Guardian",
+    "photo_query": "Home Office UK building",
+    "person": "",
+    "person_role": "",
+    "category": "goc",
+    "photo": {
+      "id": "pb:10436218",
+      "provider": "Pixabay",
+      "query": "Home Office UK building",
+      "photographer": "SzekeresZoltanPhoto",
+      "page": "https://pixabay.com/photos/modern-architecture-urban-view-10436218/",
+      "fallback": false
+    }
+  },
+  "caption": "🔴 SON DAKİKA | 🛡️ Home Office, dolandırılan göçmen işçileri modern kölelik mağduru sayabilecek\n\nHome Office, hukuki mücadelenin ardından politikasını değiştirdi. Finansal olarak sömürülen göçmen işçiler artık modern kölelik mağduru sayılabilecek. Değişiklik, Birleşik Krallık'ta olmayan bir iş için bir aracıya 22.000 sterlin kaptıran Pakistanlı bakım işçisi Ali'nin açtığı davayla gündeme geldi.\n\nKaynak: Guardian | Görsel: Pixabay\nBirleşik Krallık Gündemi | 17 Kasım, 15:21\n\n#SonDakika #GoçmenişçiHaklari #ModernkölelikMağdurları",
+  "images": [
+    "output/2026-11-17/breaking-152133.jpg"
+  ],
+  "story_image": "output/2026-11-17/breaking-152133-story.jpg",
+  "history_keys": [
+    "scammedmigrantworkersinuktobeconsideredpossiblevictimsofmodernslavery"
+  ],
+  "published": false
+}
