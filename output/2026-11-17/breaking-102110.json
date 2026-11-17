@@ -1,0 +1,32 @@
+{
+  "type": "breaking",
+  "created_at": "2026-11-17T10:21:10.065312+00:00",
+  "item": {
+    "ref": 22,
+    "emoji": "💼",
+    "title": "Imperial Brands yapay zekayı artırıp 4.600'e kadar işi kaldıracak",
+    "body": "Davidoff sigaraları ve Blu vapes'in sahibi Bristol merkezli Imperial Brands, yapay zeka ve diğer teknolojileri daha çok kullanarak maliyetleri kısacak. Şirket, 4.600'e kadar işi kaldıracak. Bu yıl dünya genelinde 2.100 pozisyon kapanacak.",
+    "source": "Guardian",
+    "photo_query": "Imperial Brands tobacco factory",
+    "person": "",
+    "person_role": "",
+    "category": "gundem",
+    "photo": {
+      "id": "pb:5096390",
+      "provider": "Pixabay",
+      "query": "Imperial Brands tobacco factory",
+      "photographer": "ds_30",
+      "page": "https://pixabay.com/photos/open-cigarette-smoking-packing-5096390/",
+      "fallback": false
+    }
+  },
+  "caption": "🔴 SON DAKİKA | 💼 Imperial Brands yapay zekayı artırıp 4.600'e kadar işi kaldıracak\n\nDavidoff sigaraları ve Blu vapes'in sahibi Bristol merkezli Imperial Brands, yapay zeka ve diğer teknolojileri daha çok kullanarak maliyetleri kısacak. Şirket, 4.600'e kadar işi kaldıracak. Bu yıl dünya genelinde 2.100 pozisyon kapanacak.\n\nKaynak: Guardian | Görsel: Pixabay\nBirleşik Krallık Gündemi | 17 Kasım, 10:21\n\n#SonDakika #İş #İptalEtme",
+  "images": [
+    "output/2026-11-17/breaking-102110.jpg"
+  ],
+  "story_image": "output/2026-11-17/breaking-102110-story.jpg",
+  "history_keys": [
+    "tobaccogroupimperialbrandstoaxeupto4600jobsasitusesmoreai"
+  ],
+  "published": false
+}
