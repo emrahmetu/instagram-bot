@@ -1,0 +1,32 @@
+{
+  "type": "breaking",
+  "created_at": "2026-11-17T09:50:52.674662+00:00",
+  "item": {
+    "ref": 18,
+    "emoji": "📊",
+    "title": "UK unemployment rate unexpectedly drops as job vacancies fall further",
+    "body": "The UK unemployment rate has unexpectedly dropped, while job vacancies have fallen further. The ONS director of economic statistics said it was a 'mixed picture overall'.",
+    "source": "The Independent",
+    "photo_query": "UK unemployment statistics chart",
+    "person": "",
+    "person_role": "",
+    "category": "ekonomi",
+    "photo": {
+      "id": "pb:5146203",
+      "provider": "Pixabay",
+      "query": "UK unemployment statistics chart",
+      "photographer": "ds_30",
+      "page": "https://pixabay.com/photos/diagrams-graphs-charts-trading-5146203/",
+      "fallback": false
+    }
+  },
+  "caption": "🔴 BREAKING | 📊 UK unemployment rate unexpectedly drops as job vacancies fall further\n\nThe UK unemployment rate has unexpectedly dropped, while job vacancies have fallen further. The ONS director of economic statistics said it was a 'mixed picture overall'.\n\nSource: The Independent | Image: Pixabay\nUK Daily Briefing | 17 November, 09:50\n\n#BreakingNews #UKEconomy #Employment",
+  "images": [
+    "output-en/2026-11-17/breaking-095052.jpg"
+  ],
+  "story_image": "output-en/2026-11-17/breaking-095052-story.jpg",
+  "history_keys": [
+    "ukunemploymentrateunexpectedlydropsasjobvacanciesfallfurther"
+  ],
+  "published": false
+}
