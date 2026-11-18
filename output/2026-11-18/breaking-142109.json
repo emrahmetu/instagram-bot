@@ -1,0 +1,33 @@
+{
+  "type": "breaking",
+  "created_at": "2026-11-18T14:21:09.230362+00:00",
+  "item": {
+    "ref": 16,
+    "emoji": "📋",
+    "title": "Milburn raporu çok iddialı, Burnham zamana karşı yarışıyor",
+    "body": "270 sayfalık Milburn raporu, NEET'leri (ne okulda ne de işte olan gençler) işe döndürmek için sosyal yardım sisteminde kapsamlı reform istiyor. Cleo Watson ve Helen MacNamara'ya göre Burnham için artık zaman daralıyor.",
+    "source": "The Independent",
+    "photo_query": "NEET youth unemployment UK",
+    "person": "Andy Burnham",
+    "person_role": "politician",
+    "category": "gundem",
+    "photo": {
+      "id": "wm:Prime Minister Andy Burnham portrait (cropped).jpg",
+      "provider": "Wikimedia Commons",
+      "person": "Andy Burnham",
+      "license": "OGL 3",
+      "photographer": "Prime Minister's Office",
+      "page": "https://commons.wikimedia.org/wiki/File:Prime_Minister_Andy_Burnham_portrait_(cropped).jpg",
+      "credit": "Prime Minister's Office / OGL 3, Wikimedia Commons"
+    }
+  },
+  "caption": "🔴 SON DAKİKA | 📋 Milburn raporu çok iddialı, Burnham zamana karşı yarışıyor\n\n270 sayfalık Milburn raporu, NEET'leri (ne okulda ne de işte olan gençler) işe döndürmek için sosyal yardım sisteminde kapsamlı reform istiyor. Cleo Watson ve Helen MacNamara'ya göre Burnham için artık zaman daralıyor.\n\nKaynak: The Independent | Görsel: Prime Minister's Office / OGL 3, Wikimedia Commons\nBirleşik Krallık Gündemi | 18 Kasım, 14:21\n\n#SonDakika #NEETler #Milburn #İşsizlik",
+  "images": [
+    "output/2026-11-18/breaking-142109.jpg"
+  ],
+  "story_image": "output/2026-11-18/breaking-142109-story.jpg",
+  "history_keys": [
+    "milburnreportisstaggeringlyambitiousburnhamnowfacesaraceagainsttime"
+  ],
+  "published": false
+}
