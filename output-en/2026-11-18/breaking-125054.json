@@ -1,0 +1,32 @@
+{
+  "type": "breaking",
+  "created_at": "2026-11-18T12:50:54.558720+00:00",
+  "item": {
+    "ref": 6,
+    "emoji": "⚖️",
+    "title": "Immigration and Asylum Bill passes third reading in Commons",
+    "body": "The Immigration and Asylum Bill, which underpins the Home Secretary's immigration reforms, has passed its third reading in the House of Commons. It is the latest hurdle the legislation has cleared.",
+    "source": "GOV.UK Home Office",
+    "photo_query": "House of Commons chamber",
+    "person": "",
+    "person_role": "",
+    "category": "siyaset",
+    "photo": {
+      "id": "pb:95364",
+      "provider": "Pixabay",
+      "query": "House of Commons chamber",
+      "photographer": "bogdanchr",
+      "page": "https://pixabay.com/photos/butterfly-insect-nature-common-blue-95364/",
+      "fallback": false
+    }
+  },
+  "caption": "🔴 BREAKING | ⚖️ Immigration and Asylum Bill passes third reading in Commons\n\nThe Immigration and Asylum Bill, which underpins the Home Secretary's immigration reforms, has passed its third reading in the House of Commons. It is the latest hurdle the legislation has cleared.\n\nSource: GOV.UK Home Office | Image: Pixabay\nUK Daily Briefing | 18 November, 12:50\n\n#BreakingNews #Immigration #Politics",
+  "images": [
+    "output-en/2026-11-18/breaking-125054.jpg"
+  ],
+  "story_image": "output-en/2026-11-18/breaking-125054-story.jpg",
+  "history_keys": [
+    "homesecretaryslandmarkimmigrationreformsclearlatesthurdle"
+  ],
+  "published": false
+}
