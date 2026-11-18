@@ -1,0 +1,33 @@
+{
+  "type": "breaking",
+  "created_at": "2026-11-18T12:21:02.758281+00:00",
+  "item": {
+    "ref": 3,
+    "emoji": "⚖️",
+    "title": "Immigration and Asylum Bill, House of Commons'ta üçüncü okumayı geçti",
+    "body": "İçişleri Bakanı'nın önemli göç reformlarını içeren Immigration and Asylum Bill, House of Commons'ta (Avam Kamarası) üçüncü okumadan geçti. Tasarı böylece bir engeli daha aştı.",
+    "source": "GOV.UK Home Office",
+    "photo_query": "Westminster Parliament House of Commons",
+    "person": "Shabana Mahmood",
+    "person_role": "politician",
+    "category": "goc",
+    "photo": {
+      "id": "wm:Shabana Mahmood Official Cabinet Portrait, September 2025 (cropped).jpg",
+      "provider": "Wikimedia Commons",
+      "person": "Shabana Mahmood",
+      "license": "OGL 3",
+      "photographer": "Lauren Hurley / No 10 Downing Street",
+      "page": "https://commons.wikimedia.org/wiki/File:Shabana_Mahmood_Official_Cabinet_Portrait,_September_2025_(cropped).jpg",
+      "credit": "Lauren Hurley / No 10 Downing Street / OGL 3, Wikimedia Commons"
+    }
+  },
+  "caption": "🔴 SON DAKİKA | ⚖️ Immigration and Asylum Bill, House of Commons'ta üçüncü okumayı geçti\n\nİçişleri Bakanı'nın önemli göç reformlarını içeren Immigration and Asylum Bill, House of Commons'ta (Avam Kamarası) üçüncü okumadan geçti. Tasarı böylece bir engeli daha aştı.\n\nKaynak: GOV.UK Home Office | Görsel: Lauren Hurley / No 10 Downing Street / OGL 3, Wikimedia Commons\nBirleşik Krallık Gündemi | 18 Kasım, 12:21\n\n#SonDakika #GöçReformu #İngiltere",
+  "images": [
+    "output/2026-11-18/breaking-122102.jpg"
+  ],
+  "story_image": "output/2026-11-18/breaking-122102-story.jpg",
+  "history_keys": [
+    "homesecretaryslandmarkimmigrationreformsclearlatesthurdle"
+  ],
+  "published": false
+}
