@@ -1,0 +1,32 @@
+{
+  "type": "breaking",
+  "created_at": "2026-11-18T10:50:55.129129+00:00",
+  "item": {
+    "ref": 12,
+    "emoji": "⚡",
+    "title": "Energy bills are forecast to rise by £443 a year from January",
+    "body": "Fresh forecasts suggest household energy bills will jump by 26% in January, adding £443 a year. Inflation is likely to keep rising as a result.",
+    "source": "BBC",
+    "photo_query": "UK energy meter bills",
+    "person": "",
+    "person_role": "",
+    "category": "ekonomi",
+    "photo": {
+      "id": "pb:7367963",
+      "provider": "Pixabay",
+      "query": "UK energy meter bills",
+      "photographer": "ZuuFotor",
+      "page": "https://pixabay.com/photos/windmill-wind-turbine-clouds-sky-7367963/",
+      "fallback": false
+    }
+  },
+  "caption": "🔴 BREAKING | ⚡ Energy bills are forecast to rise by £443 a year from January\n\nFresh forecasts suggest household energy bills will jump by 26% in January, adding £443 a year. Inflation is likely to keep rising as a result.\n\nSource: BBC | Image: Pixabay\nUK Daily Briefing | 18 November, 10:50\n\n#BreakingNews #EnergyBills #Inflation #CostOfLiving",
+  "images": [
+    "output-en/2026-11-18/breaking-105055.jpg"
+  ],
+  "story_image": "output-en/2026-11-18/breaking-105055-story.jpg",
+  "history_keys": [
+    "energybillsforecasttogoupby443ayearfromjanuaryasukinflationrisesagain"
+  ],
+  "published": false
+}
