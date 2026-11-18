@@ -1,0 +1,181 @@
+{
+  "date": "2026-11-18",
+  "caption": "🇬🇧 UK Daily Briefing | Wednesday, 18 November 2026\n\n1. 📈 UK inflation rises to 3.6%, its highest level in a year\nHigher household energy bills and fuel costs have hit consumers since the war in Iran began in February.\n\n2. 💼 Burnham promises to 'move quickly' on Milburn report on Neets\nThe prime minister told the BBC he wants to get 'stuck in' after the Milburn report proposed wide-ranging changes to help unemployed young people.\n\n3. 🏥 NHS in England records over 3,000 snooping incidents in five years\nPatient campaign groups and regulators called the figures 'deeply concerning'. They said the breaches distress patients and families and erode trust in the health service.\n\n4. 📱 Ten teams will study social media ban's effect on youth mental health\nTen research teams will look at how well teenagers are coping without social media, in the largest British study of the ban's effect on youth mental health.\n\n5. 🛂 Home Office publishes guidance on three new refugee sponsorship routes\nThe routes are named community sponsorship, refugee study and refugee work. They were first announced in the November 2025 asylum policy statement, Restoring Order and Control. Lead sponsor guidance was also published.\n\n6. 🍽️ Supplies are critically low at 40% of food banks, Trussell warns\nUK food banks are facing critically low levels of donations as they prepare for winter, according to a new report.\n\n7. 🚗 UK would probably miss climate targets if EV sales rules are weakened\nAnalysis by the Climate Change Committee suggests the mooted move to let more petrol and diesel vehicles be sold would blow a hole in the plan to reach net zero by 2050.\n\n8. 🎵 Harry Styles, Sam Fender and Billie Eilish will headline Glastonbury 2027\nThe festival will return after a fallow year with a pop-heavy line-up, led by Harry Styles and Cher.\n\nSources: The Independent, BBC, Guardian, Free Movement, Sky News. Stories summarised from UK media reports. Images: Pixabay. Photos: Raph_PH / CC BY 2.0, Wikimedia Commons.\n\n#UKNews #Inflation #CostOfLiving #Youth #NHS #MentalHealth #Refugees #FoodBanks #Climate #Glastonbury",
+  "images": [
+    "output-en/2026-11-18/00.jpg",
+    "output-en/2026-11-18/01.jpg",
+    "output-en/2026-11-18/02.jpg",
+    "output-en/2026-11-18/03.jpg",
+    "output-en/2026-11-18/04.jpg",
+    "output-en/2026-11-18/05.jpg",
+    "output-en/2026-11-18/06.jpg",
+    "output-en/2026-11-18/07.jpg",
+    "output-en/2026-11-18/08.jpg"
+  ],
+  "story_image": "output-en/2026-11-18/story.jpg",
+  "items": [
+    {
+      "ref": 23,
+      "emoji": "📈",
+      "title": "UK inflation rises to 3.6%, its highest level in a year",
+      "body": "Higher household energy bills and fuel costs have hit consumers since the war in Iran began in February.",
+      "source": "The Independent",
+      "photo_query": "pound sterling coins petrol pump",
+      "person": "",
+      "person_role": "",
+      "category": "ekonomi",
+      "photo": {
+        "id": "pb:7615046",
+        "provider": "Pixabay",
+        "query": "pound sterling coins petrol pump",
+        "photographer": "Jakob_schlothane",
+        "page": "https://pixabay.com/photos/gas-station-gas-pump-retro-petrol-7615046/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 53,
+      "emoji": "💼",
+      "title": "Burnham promises to 'move quickly' on Milburn report on Neets",
+      "body": "The prime minister told the BBC he wants to get 'stuck in' after the Milburn report proposed wide-ranging changes to help unemployed young people.",
+      "source": "BBC",
+      "photo_query": "UK government buildings Westminster",
+      "person": "Keir Starmer",
+      "person_role": "politician",
+      "category": "siyaset",
+      "photo": {
+        "id": "pb:1484952",
+        "provider": "Pixabay",
+        "query": "UK government buildings Westminster",
+        "photographer": "dgazdik",
+        "page": "https://pixabay.com/photos/big-ben-elizabeth-tower-1484952/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 50,
+      "emoji": "🏥",
+      "title": "NHS in England records over 3,000 snooping incidents in five years",
+      "body": "Patient campaign groups and regulators called the figures 'deeply concerning'. They said the breaches distress patients and families and erode trust in the health service.",
+      "source": "Guardian",
+      "photo_query": "NHS hospital entrance sign",
+      "person": "",
+      "person_role": "",
+      "category": "saglik",
+      "photo": {
+        "id": "pb:7660735",
+        "provider": "Pixabay",
+        "query": "NHS hospital entrance sign",
+        "photographer": "analogicus",
+        "page": "https://pixabay.com/photos/door-front-door-open-door-knocker-7660735/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 72,
+      "emoji": "📱",
+      "title": "Ten teams will study social media ban's effect on youth mental health",
+      "body": "Ten research teams will look at how well teenagers are coping without social media, in the largest British study of the ban's effect on youth mental health.",
+      "source": "BBC",
+      "photo_query": "smartphone social media apps screen",
+      "person": "",
+      "person_role": "",
+      "category": "saglik",
+      "photo": {
+        "id": "pb:2616651",
+        "provider": "Pixabay",
+        "query": "smartphone social media apps screen",
+        "photographer": "StockSnap",
+        "page": "https://pixabay.com/photos/linkedin-app-mobile-smartphone-2616651/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 15,
+      "emoji": "🛂",
+      "title": "Home Office publishes guidance on three new refugee sponsorship routes",
+      "body": "The routes are named community sponsorship, refugee study and refugee work. They were first announced in the November 2025 asylum policy statement, Restoring Order and Control. Lead sponsor guidance was also published.",
+      "source": "Free Movement",
+      "photo_query": "UK visa stamp passport",
+      "person": "",
+      "person_role": "",
+      "category": "goc",
+      "photo": {
+        "id": "pb:4943161",
+        "provider": "Pixabay",
+        "query": "UK visa stamp passport",
+        "photographer": "va703b",
+        "page": "https://pixabay.com/photos/envelope-letter-gift-4943161/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 76,
+      "emoji": "🍽️",
+      "title": "Supplies are critically low at 40% of food banks, Trussell warns",
+      "body": "UK food banks are facing critically low levels of donations as they prepare for winter, according to a new report.",
+      "source": "Sky News",
+      "photo_query": "food bank donations supplies",
+      "person": "",
+      "person_role": "",
+      "category": "gundem",
+      "photo": {
+        "id": "pb:7660080",
+        "provider": "Pixabay",
+        "query": "food bank donations supplies",
+        "photographer": "tiemaoanh",
+        "page": "https://pixabay.com/photos/green-leaves-cakes-snack-top-view-7660080/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 81,
+      "emoji": "🚗",
+      "title": "UK would probably miss climate targets if EV sales rules are weakened",
+      "body": "Analysis by the Climate Change Committee suggests the mooted move to let more petrol and diesel vehicles be sold would blow a hole in the plan to reach net zero by 2050.",
+      "source": "Guardian",
+      "photo_query": "electric car charging station",
+      "person": "",
+      "person_role": "",
+      "category": "hava",
+      "photo": {
+        "id": "pb:4077303",
+        "provider": "Pixabay",
+        "query": "electric car charging station",
+        "photographer": "Ralphs_Fotos",
+        "page": "https://pixabay.com/photos/loading-column-charging-station-4077303/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 19,
+      "emoji": "🎵",
+      "title": "Harry Styles, Sam Fender and Billie Eilish will headline Glastonbury 2027",
+      "body": "The festival will return after a fallow year with a pop-heavy line-up, led by Harry Styles and Cher.",
+      "source": "BBC",
+      "photo_query": "Glastonbury Festival stage",
+      "person": "Harry Styles",
+      "person_role": "singer",
+      "category": "magazin",
+      "photo": {
+        "id": "wm:HarryStylesWembley170623 (14 of 93) (52982076132) (cropped).jpg",
+        "provider": "Wikimedia Commons",
+        "person": "Harry Styles",
+        "license": "CC BY 2.0",
+        "photographer": "Raph_PH",
+        "page": "https://commons.wikimedia.org/wiki/File:HarryStylesWembley170623_(14_of_93)_(52982076132)_(cropped).jpg",
+        "credit": "Raph_PH / CC BY 2.0, Wikimedia Commons"
+      }
+    }
+  ],
+  "history_keys": [
+    "ukinflationrisesto36amidenergybillhikesthehighestlevelinayear",
+    "burnhampromisestomovequicklyonneetsreport",
+    "deeplyconcerningnhsinenglandreportsmorethan3000incidentsofstaffsnoopingonpatientsrecords",
+    "largestbritishstudytochecksocialmediabanseffectonyouthmentalhealth",
+    "whatarethenewrefugeesponsorshiproutesandhowwilltheywork",
+    "suppliescriticallylowat40offoodbankstrussellwarns",
+    "ukwillmissclimatetargetsifitweakensevsalesrulesadviserswarn",
+    "harrystylessamfenderandbillieeilishtoheadlineglastonbury2027"
+  ]
+}
