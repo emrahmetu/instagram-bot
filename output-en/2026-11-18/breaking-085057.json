@@ -1,0 +1,32 @@
+{
+  "type": "breaking",
+  "created_at": "2026-11-18T08:50:57.624881+00:00",
+  "item": {
+    "ref": 4,
+    "emoji": "📊",
+    "title": "Higher petrol and diesel prices push UK inflation to 3.6%",
+    "body": "There are also signs that inflation is affecting the wider economy, with the cost of raw materials and of goods leaving factories both climbing.",
+    "source": "BBC",
+    "photo_query": "UK petrol station pump",
+    "person": "",
+    "person_role": "",
+    "category": "ekonomi",
+    "photo": {
+      "id": "pb:7615045",
+      "provider": "Pixabay",
+      "query": "UK petrol station pump",
+      "photographer": "Jakob_schlothane",
+      "page": "https://pixabay.com/photos/gas-station-gas-pump-retro-petrol-7615045/",
+      "fallback": false
+    }
+  },
+  "caption": "🔴 BREAKING | 📊 Higher petrol and diesel prices push UK inflation to 3.6%\n\nThere are also signs that inflation is affecting the wider economy, with the cost of raw materials and of goods leaving factories both climbing.\n\nSource: BBC | Image: Pixabay\nUK Daily Briefing | 18 November, 08:50\n\n#BreakingNews #Inflation #Economy",
+  "images": [
+    "output-en/2026-11-18/breaking-085057.jpg"
+  ],
+  "story_image": "output-en/2026-11-18/breaking-085057-story.jpg",
+  "history_keys": [
+    "higherpetrolanddieselpricespushukinflationto36"
+  ],
+  "published": false
+}
