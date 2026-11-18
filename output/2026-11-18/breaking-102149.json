@@ -1,0 +1,32 @@
+{
+  "type": "breaking",
+  "created_at": "2026-11-18T10:21:49.294169+00:00",
+  "item": {
+    "ref": 6,
+    "emoji": "⚡",
+    "title": "Enerji faturalarının ocakta %26 artması bekleniyor",
+    "body": "Yeni tahminlere göre hanelerin enerji faturaları ocakta %26 artabilir. Bu, yıllık faturalara 443 sterlin ek yük getirecek. Enflasyonun Birleşik Krallık'ta yükselmeyi sürdürmesi bekleniyor.",
+    "source": "BBC",
+    "photo_query": "British gas meter energy bills",
+    "person": "",
+    "person_role": "",
+    "category": "ekonomi",
+    "photo": {
+      "id": "pb:7276242",
+      "provider": "Pixabay",
+      "query": "British gas meter energy bills",
+      "photographer": "Alexandra_Koch",
+      "page": "https://pixabay.com/photos/gas-pipeline-stop-gas-stop-tube-7276242/",
+      "fallback": false
+    }
+  },
+  "caption": "🔴 SON DAKİKA | ⚡ Enerji faturalarının ocakta %26 artması bekleniyor\n\nYeni tahminlere göre hanelerin enerji faturaları ocakta %26 artabilir. Bu, yıllık faturalara 443 sterlin ek yük getirecek. Enflasyonun Birleşik Krallık'ta yükselmeyi sürdürmesi bekleniyor.\n\nKaynak: BBC | Görsel: Pixabay\nBirleşik Krallık Gündemi | 18 Kasım, 10:21\n\n#SonDakika #EnerjiZaması #Ofgem",
+  "images": [
+    "output/2026-11-18/breaking-102149.jpg"
+  ],
+  "story_image": "output/2026-11-18/breaking-102149-story.jpg",
+  "history_keys": [
+    "energybillsforecasttogoupby443ayearfromjanuaryasukinflationrisesagain"
+  ],
+  "published": false
+}
