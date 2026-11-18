@@ -1,0 +1,182 @@
+{
+  "date": "2026-11-18",
+  "caption": "🇬🇧 Birleşik Krallık Gündemi | 18 Kasım 2026, Çarşamba\n\n1. ⚖️ Mahkeme, sığınmacının güvenilirliğini sorgulamayan kararı iptal etti\nCourt of Appeal, First-tier Tribunal'ın sığınmacının tarama görüşmesini açıklayan mektubun önemli kısımlarını göz ardı ettiğini gerekçe göstererek olumsuz güvenilirlik kararının geçersiz olduğuna hükmetti.\n\n2. 🏢 Sponsor lisansı iptalinde aile üyesi gizlendiği için karar onaylandı\nCourt of Appeal, bir petrol istasyonunun sponsor lisansı iptal kararını onayladı.\n\n3. 🌍 İngiltere-AB gençlik programı 2030'a kadar tam yürürlüğe girmeyebilir\nBrexit sonrası İngiltere-AB gençlik hareketlilik programının tam olarak 2030'a kadar yürürlüğe girmeyeceği öne sürüldü.\n\n4. 📈 İngiltere'de enflasyon %3,6'ya yükseldi, enerji ve yakıt maliyetleri arttı\nEkim ayında hanelerin enerji faturası ve yakıt masrafları artması sonucu İngiltere'de enflasyon bir yılın en yüksek seviyesi olan %3,6'ya çıktı.\n\n5. 🏥 NHS'de beş yılda 3 bin civarında gizli hasta kaydı erişim olayı kaydedildi\nİngiltere'deki NHS, personelin hasta tıbbi kayıtlarına uygunsuz şekilde eriştiği 3 binin üzerinde olayı kaydetti.\n\n6. 👮 İçişleri Bakanı polis liderliğini güçlendirmek için hızlı eğitim programı başlatacak\nShabana Mahmood, İngiltere ve Galler'deki polis güçlerinin üst seviyesindeki standartları \"açıkça yetersiz\" bularak 200 kişi yılda superintendent düzeyine eğitilmesi planını açıklayacak.\n\n7. 🚗 İngiltere elektrikli araç kurallarını zayıflatırsa iklim hedeflerini kaçıracak\nClimate Change Committee, elektrikli otomobil satış kurallarının zayıflatılmasının hükümetin 2050'ye kadar sıfır karbon net hedefini kaçırmasına neden olacağını uyardı.\n\n8. 🎵 Harry Styles, Sam Fender ve Billie Eilish, Glastonbury 2027'nin başlıca isimlerini oluştur\nGlastonbury Festivali bir yıl sonra geri dönecek ve pop-ağırlıklı bir program sunacak.\n\nKaynaklar: Free Movement, Guardian, The Independent, BBC. Haberler Türkçe özet olarak derlenmiştir. Görseller: Pixabay. Fotoğraflar: Prime Minister's Office / OGL 3, Wikimedia Commons; Raph_PH / CC BY 2.0, Wikimedia Commons.\n\n#İngiltere #UKNews #SığınmaHaklarıVeGöç #Enflasyon #Ekonomi #NHS #Polis #İklimHedefleri #Glastonbury2027 #BritanyaHaberleri",
+  "images": [
+    "output/2026-11-18/00.jpg",
+    "output/2026-11-18/01.jpg",
+    "output/2026-11-18/02.jpg",
+    "output/2026-11-18/03.jpg",
+    "output/2026-11-18/04.jpg",
+    "output/2026-11-18/05.jpg",
+    "output/2026-11-18/06.jpg",
+    "output/2026-11-18/07.jpg",
+    "output/2026-11-18/08.jpg"
+  ],
+  "story_image": "output/2026-11-18/story.jpg",
+  "items": [
+    {
+      "ref": 1,
+      "emoji": "⚖️",
+      "title": "Mahkeme, sığınmacının güvenilirliğini sorgulamayan kararı iptal etti",
+      "body": "Court of Appeal, First-tier Tribunal'ın sığınmacının tarama görüşmesini açıklayan mektubun önemli kısımlarını göz ardı ettiğini gerekçe göstererek olumsuz güvenilirlik kararının geçersiz olduğuna hükmetti. Bu başarısızlık, sığınmacının siyasi faaliyetleri ve geri dönüş riski hakkındaki bulguları da zayıflattı.",
+      "source": "Free Movement",
+      "photo_query": "UK court justice law",
+      "person": "",
+      "person_role": "",
+      "category": "goc",
+      "photo": {
+        "id": "pb:1161139",
+        "provider": "Pixabay",
+        "query": "UK court justice law",
+        "photographer": "garten-gg",
+        "page": "https://pixabay.com/photos/paragraph-attorney-judge-process-1161139/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 14,
+      "emoji": "🏢",
+      "title": "Sponsor lisansı iptalinde aile üyesi gizlendiği için karar onaylandı",
+      "body": "Court of Appeal, bir petrol istasyonunun sponsor lisansı iptal kararını onayladı. Home Office, ilişkisini ifşa etmeden aile üyesine sponsorluk sertifikası verdiği için lisansı geri almıştı.",
+      "source": "Free Movement",
+      "photo_query": "petrol station UK business",
+      "person": "",
+      "person_role": "",
+      "category": "goc",
+      "photo": {
+        "id": "pb:8719776",
+        "provider": "Pixabay",
+        "query": "petrol station UK business",
+        "photographer": "Engin_Akyurt",
+        "page": "https://pixabay.com/photos/gasoline-car-fuel-pump-vehicle-8719776/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 94,
+      "emoji": "🌍",
+      "title": "İngiltere-AB gençlik programı 2030'a kadar tam yürürlüğe girmeyebilir",
+      "body": "Brexit sonrası İngiltere-AB gençlik hareketlilik programının tam olarak 2030'a kadar yürürlüğe girmeyeceği öne sürüldü. Anlaşmanın Cuma günkü zirvede prensipte onaylanması bekleniyor, ancak daha zor maddeler altı ay ertelenebilir. 30 yaş altı gençlerin gelecek yıldan itibaren çalışma ve okuma hayali gecikebilir.",
+      "source": "Guardian",
+      "photo_query": "British passport European flag",
+      "person": "Andy Burnham",
+      "person_role": "politician",
+      "category": "goc",
+      "photo": {
+        "id": "wm:Prime Minister Andy Burnham portrait (cropped).jpg",
+        "provider": "Wikimedia Commons",
+        "person": "Andy Burnham",
+        "license": "OGL 3",
+        "photographer": "Prime Minister's Office",
+        "page": "https://commons.wikimedia.org/wiki/File:Prime_Minister_Andy_Burnham_portrait_(cropped).jpg",
+        "credit": "Prime Minister's Office / OGL 3, Wikimedia Commons"
+      }
+    },
+    {
+      "ref": 19,
+      "emoji": "📈",
+      "title": "İngiltere'de enflasyon %3,6'ya yükseldi, enerji ve yakıt maliyetleri arttı",
+      "body": "Ekim ayında hanelerin enerji faturası ve yakıt masrafları artması sonucu İngiltere'de enflasyon bir yılın en yüksek seviyesi olan %3,6'ya çıktı. Iran'daki savaş nedeniyle petrol fiyatları rekor seviyelere ulaştı.",
+      "source": "The Independent",
+      "photo_query": "pound sterling coins inflation",
+      "person": "",
+      "person_role": "",
+      "category": "ekonomi",
+      "photo": {
+        "id": "pb:7246831",
+        "provider": "Pixabay",
+        "query": "pound sterling coins inflation",
+        "photographer": "Alexandra_Koch",
+        "page": "https://pixabay.com/photos/inflation-euro-devaluation-fire-7246831/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 46,
+      "emoji": "🏥",
+      "title": "NHS'de beş yılda 3 bin civarında gizli hasta kaydı erişim olayı kaydedildi",
+      "body": "İngiltere'deki NHS, personelin hasta tıbbi kayıtlarına uygunsuz şekilde eriştiği 3 binin üzerinde olayı kaydetti. Hasta dernekleri ve düzenleyiciler bu bulguları \"çok endişe verici\" olarak değerlendirdi ve NHS'ne olan güveni zayıflattığını söyledi.",
+      "source": "Guardian",
+      "photo_query": "NHS ambulance medical records",
+      "person": "",
+      "person_role": "",
+      "category": "saglik",
+      "photo": {
+        "id": "pb:5981935",
+        "provider": "Pixabay",
+        "query": "NHS ambulance medical records",
+        "photographer": "valerushka_kay",
+        "page": "https://pixabay.com/photos/coronavirus-paramedic-5981935/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 76,
+      "emoji": "👮",
+      "title": "İçişleri Bakanı polis liderliğini güçlendirmek için hızlı eğitim programı başlatacak",
+      "body": "Shabana Mahmood, İngiltere ve Galler'deki polis güçlerinin üst seviyesindeki standartları \"açıkça yetersiz\" bularak 200 kişi yılda superintendent düzeyine eğitilmesi planını açıklayacak. Yeni rehberlikle polis tarafsızlığını güçlendirmeyi hedefliyor.",
+      "source": "Guardian",
+      "photo_query": "Metropolitan Police London",
+      "person": "Shabana Mahmood",
+      "person_role": "politician",
+      "category": "guvenlik",
+      "photo": {
+        "id": "pb:2893844",
+        "provider": "Pixabay",
+        "query": "Metropolitan Police London",
+        "photographer": "igorovsyannykov",
+        "page": "https://pixabay.com/photos/architecture-building-business-2893844/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 77,
+      "emoji": "🚗",
+      "title": "İngiltere elektrikli araç kurallarını zayıflatırsa iklim hedeflerini kaçıracak",
+      "body": "Climate Change Committee, elektrikli otomobil satış kurallarının zayıflatılmasının hükümetin 2050'ye kadar sıfır karbon net hedefini kaçırmasına neden olacağını uyardı. İçten yanmalı motora sahip araç satışlarında izin verilen artış plana büyük zarar verecek.",
+      "source": "Guardian",
+      "photo_query": "electric vehicle charging UK",
+      "person": "",
+      "person_role": "",
+      "category": "gundem",
+      "photo": {
+        "id": "pb:5864037",
+        "provider": "Pixabay",
+        "query": "electric vehicle charging UK",
+        "photographer": "SSidde",
+        "page": "https://pixabay.com/photos/car-electric-car-charging-station-5864037/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 15,
+      "emoji": "🎵",
+      "title": "Harry Styles, Sam Fender ve Billie Eilish, Glastonbury 2027'nin başlıca isimlerini oluştur",
+      "body": "Glastonbury Festivali bir yıl sonra geri dönecek ve pop-ağırlıklı bir program sunacak. Harry Styles ve Cher etkinliğin başlıca isimleri olacak.",
+      "source": "BBC",
+      "photo_query": "Glastonbury Festival stage UK",
+      "person": "Harry Styles",
+      "person_role": "singer",
+      "category": "magazin",
+      "photo": {
+        "id": "wm:HarryStylesWembley170623 (14 of 93) (52982076132) (cropped).jpg",
+        "provider": "Wikimedia Commons",
+        "person": "Harry Styles",
+        "license": "CC BY 2.0",
+        "photographer": "Raph_PH",
+        "page": "https://commons.wikimedia.org/wiki/File:HarryStylesWembley170623_(14_of_93)_(52982076132)_(cropped).jpg",
+        "credit": "Raph_PH / CC BY 2.0, Wikimedia Commons"
+      }
+    }
+  ],
+  "history_keys": [
+    "adversecredibilityfindingunsafeaftertribunaloverlookedasyluminterviewclarifications",
+    "courtofappealreinstateslicencerevocationdecisionoverundisclosedfamilymember",
+    "newukeuyouthmobilityschememaynotfullylaunchuntil2030",
+    "ukinflationrisesto36amidenergybillhikesthehighestlevelinayear",
+    "deeplyconcerningnhsinenglandreportsmorethan3000incidentsofstaffsnoopingonpatientsrecords",
+    "shabanamahmoodtolaunchfasttracktrainingtoimprovepoliceleadership",
+    "ukwillmissclimatetargetsifitweakensevsalesrulesadviserswarn",
+    "harrystylessamfenderandbillieeilishtoheadlineglastonbury2027"
+  ]
+}
