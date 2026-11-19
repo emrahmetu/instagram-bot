@@ -1,0 +1,181 @@
+{
+  "date": "2026-11-19",
+  "caption": "🇬🇧 Birleşik Krallık Gündemi | 19 Kasım 2026, Perşembe\n\n1. ⚖️ Mahkemeler artık işverenin ödeme gücünü de dikkate alabilecek\nHome Office, 2026'nın ilk yarısında yaklaşık 75 milyon sterlin tutarında 1.200'den fazla yasa dışı çalışma cezası verdi.\n\n2. 📊 Home Office Eylül 2026'da biten yılın göç istatistiklerini yayımladı\nİstatistikler, Birleşik Krallık'a gelenleri, ikamet uzatmalarını, vatandaşlığı, iltica başvurularını, gözaltıları ve geri gönderilenleri kapsıyor.\n\n3. 👮 İngiltere ve Galler'de yaklaşık 200 Local Police Command kurulacak\nİçişleri Bakanı, gündelik suçlarla mücadele için İngiltere ve Galler genelinde yaklaşık 200 yeni Local Police Command oluşturulacağını APCC/NPCC zirvesinde açıkladı.\n\n4. 🛒 İçişleri Bakanı mağaza hırsızlığına karşı yoğun mücadele başlattı\nYeni program, ülkedeki en çok suç işleyen yaklaşık 500 perakende suçlusunu hedef alıyor.\n\n5. 💼 Migration Advisory Committee Innovator Founder vizesinin kaldırılmasını önerdi\nKomite, Innovator Founder route'unun işlemediğini, kaldırılması ya da kapsamlı biçimde değiştirilmesi gerektiğini belirtti.\n\n6. 🏠 İngiltere ve Galler'de \"feodal\" leasehold sisteminin kaldırılması planlanıyor\nÖnerilen Commonhold and Leasehold Reform Bill, ground rent'i (arsa kirası) 250 sterlinle sınırlandırmayı da içeriyor.\n\n7. 👑 Prens Harry, gerekirse orduya yeniden katılacağını söyledi\nSussex Dükü, Rusya tehdidine dikkat çekti.\n\n8. ⚽ BBC'nin ilk Yılın Erkek Futbolcusu ödülü için oylama başladı\nJude Bellingham, Harry Kane, Kylian Mbappe, Rodri ve Lamine Yamal, BBC Men's Footballer of the Year ödülünün kısa listesinde yer alıyor.\n\nKaynaklar: Free Movement, GOV.UK Home Office, Guardian, BBC, BBC Sport. Haberler Türkçe özet olarak derlenmiştir. Görseller: Pixabay. Fotoğraflar: Bryan Berlin / CC BY-SA 4.0, Wikimedia Commons.\n\n#İngiltere #Londra #UKNews #Göç #Viza #İşveren #Polis #Emlak #PrensHarry #Futbol",
+  "images": [
+    "output/2026-11-19/00.jpg",
+    "output/2026-11-19/01.jpg",
+    "output/2026-11-19/02.jpg",
+    "output/2026-11-19/03.jpg",
+    "output/2026-11-19/04.jpg",
+    "output/2026-11-19/05.jpg",
+    "output/2026-11-19/06.jpg",
+    "output/2026-11-19/07.jpg",
+    "output/2026-11-19/08.jpg"
+  ],
+  "story_image": "output/2026-11-19/story.jpg",
+  "items": [
+    {
+      "ref": 1,
+      "emoji": "⚖️",
+      "title": "Mahkemeler artık işverenin ödeme gücünü de dikkate alabilecek",
+      "body": "Home Office, 2026'nın ilk yarısında yaklaşık 75 milyon sterlin tutarında 1.200'den fazla yasa dışı çalışma cezası verdi. Cezalara itiraz eden işverenler için mahkemeler artık daha geniş hafifletici nedenleri değerlendirebilecek.",
+      "source": "Free Movement",
+      "photo_query": "UK court justice law",
+      "person": "",
+      "person_role": "",
+      "category": "goc",
+      "photo": {
+        "id": "pb:2723660",
+        "provider": "Pixabay",
+        "query": "UK court justice law",
+        "photographer": "BunteAufnahmen",
+        "page": "https://pixabay.com/photos/justitia-justice-blindness-libra-2723660/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 2,
+      "emoji": "📊",
+      "title": "Home Office Eylül 2026'da biten yılın göç istatistiklerini yayımladı",
+      "body": "İstatistikler, Birleşik Krallık'a gelenleri, ikamet uzatmalarını, vatandaşlığı, iltica başvurularını, gözaltıları ve geri gönderilenleri kapsıyor. Resmi veriler üç ayda bir yayımlanıyor.",
+      "source": "GOV.UK Home Office",
+      "photo_query": "UK immigration statistics data",
+      "person": "",
+      "person_role": "",
+      "category": "goc",
+      "photo": {
+        "id": "pb:10292503",
+        "provider": "Pixabay",
+        "query": "UK immigration statistics data",
+        "photographer": "signatech01",
+        "page": "https://pixabay.com/photos/data-analysis-presentation-graphs-10292503/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 4,
+      "emoji": "👮",
+      "title": "İngiltere ve Galler'de yaklaşık 200 Local Police Command kurulacak",
+      "body": "İçişleri Bakanı, gündelik suçlarla mücadele için İngiltere ve Galler genelinde yaklaşık 200 yeni Local Police Command oluşturulacağını APCC/NPCC zirvesinde açıkladı.",
+      "source": "GOV.UK Home Office",
+      "photo_query": "UK police patrol England",
+      "person": "Shabana Mahmood",
+      "person_role": "politician",
+      "category": "guvenlik",
+      "photo": {
+        "id": "pb:6962409",
+        "provider": "Pixabay",
+        "query": "UK police patrol England",
+        "photographer": "NoeNei",
+        "page": "https://pixabay.com/photos/security-police-luxembourg-6962409/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 5,
+      "emoji": "🛒",
+      "title": "İçişleri Bakanı mağaza hırsızlığına karşı yoğun mücadele başlattı",
+      "body": "Yeni program, ülkedeki en çok suç işleyen yaklaşık 500 perakende suçlusunu hedef alıyor.",
+      "source": "GOV.UK Home Office",
+      "photo_query": "UK retail theft store security",
+      "person": "",
+      "person_role": "",
+      "category": "guvenlik",
+      "photo": {
+        "id": "pb:1561307",
+        "provider": "Pixabay",
+        "query": "UK retail theft store security",
+        "photographer": "mgmguvenlik",
+        "page": "https://pixabay.com/photos/alarm-sticker-mgm-product-protection-1561307/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 9,
+      "emoji": "💼",
+      "title": "Migration Advisory Committee Innovator Founder vizesinin kaldırılmasını önerdi",
+      "body": "Komite, Innovator Founder route'unun işlemediğini, kaldırılması ya da kapsamlı biçimde değiştirilmesi gerektiğini belirtti. Global Talent route'unun genel olarak iyi çalıştığı, yalnızca küçük değişiklikler gerektirdiği kaydedildi.",
+      "source": "Free Movement",
+      "photo_query": "UK business visa entrepreneurship",
+      "person": "",
+      "person_role": "",
+      "category": "goc",
+      "photo": {
+        "id": "pb:2530814",
+        "provider": "Pixabay",
+        "query": "UK business visa entrepreneurship",
+        "photographer": "geralt",
+        "page": "https://pixabay.com/photos/passport-id-entry-exit-2530814/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 68,
+      "emoji": "🏠",
+      "title": "İngiltere ve Galler'de \"feodal\" leasehold sisteminin kaldırılması planlanıyor",
+      "body": "Önerilen Commonhold and Leasehold Reform Bill, ground rent'i (arsa kirası) 250 sterlinle sınırlandırmayı da içeriyor.",
+      "source": "Guardian",
+      "photo_query": "UK property lease house building",
+      "person": "Matthew Pennycook",
+      "person_role": "politician",
+      "category": "ekonomi",
+      "photo": {
+        "id": "pb:7518551",
+        "provider": "Pixabay",
+        "query": "UK property lease house building",
+        "photographer": "pixel2013",
+        "page": "https://pixabay.com/photos/crane-houses-architecture-cologne-7518551/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 108,
+      "emoji": "👑",
+      "title": "Prens Harry, gerekirse orduya yeniden katılacağını söyledi",
+      "body": "Sussex Dükü, Rusya tehdidine dikkat çekti. Gerekirse insanların ülkeleri için yeniden görev almaya hazır olması gerektiğini söyledi.",
+      "source": "BBC",
+      "photo_query": "Prince Harry military uniform",
+      "person": "Harry",
+      "person_role": "royal",
+      "category": "kraliyet",
+      "photo": {
+        "id": "pb:7939601",
+        "provider": "Pixabay",
+        "query": "Prince Harry military uniform",
+        "photographer": "Sunriseforever",
+        "page": "https://pixabay.com/photos/military-uniform-military-woman-7939601/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 44,
+      "emoji": "⚽",
+      "title": "BBC'nin ilk Yılın Erkek Futbolcusu ödülü için oylama başladı",
+      "body": "Jude Bellingham, Harry Kane, Kylian Mbappe, Rodri ve Lamine Yamal, BBC Men's Footballer of the Year ödülünün kısa listesinde yer alıyor.",
+      "source": "BBC Sport",
+      "photo_query": "football players Premier League",
+      "person": "Jude Bellingham",
+      "person_role": "footballer",
+      "category": "spor",
+      "photo": {
+        "id": "wm:Jude Bellingham England v Ghana 23 June 2026-061 (cropped).jpg",
+        "provider": "Wikimedia Commons",
+        "person": "Jude Bellingham",
+        "license": "CC BY-SA 4.0",
+        "photographer": "Bryan Berlin",
+        "page": "https://commons.wikimedia.org/wiki/File:Jude_Bellingham_England_v_Ghana_23_June_2026-061_(cropped).jpg",
+        "credit": "Bryan Berlin / CC BY-SA 4.0, Wikimedia Commons"
+      }
+    }
+  ],
+  "history_keys": [
+    "reliefforemployersappealingcivilpenaltynoticesascourtscannowweighwidermitigation",
+    "accreditedofficialstatisticsimmigrationsystemstatisticsyearendingseptember2026",
+    "localpolicecommandscreatedtotackleeverydaycrime",
+    "homesecretarylaunchesintensiveefforttotackleshoptheft",
+    "macsaysinnovatorfounderrouteisperformingpoorlyenoughtojustifyabolition",
+    "feudalleaseholdsystemsettobescrappedinenglandandwales",
+    "princeharrysayshewouldrejoinarmyashewarnsofrussiathreat",
+    "voteforthefirstbbcmensfootballeroftheyear"
+  ]
+}
