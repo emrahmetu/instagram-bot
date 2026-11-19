@@ -1,0 +1,32 @@
+{
+  "type": "breaking",
+  "created_at": "2026-11-19T09:20:59.871045+00:00",
+  "item": {
+    "ref": 9,
+    "emoji": "🏠",
+    "title": "İngiltere ve Galler'de leasehold sisteminin kaldırılması planlanıyor",
+    "body": "Önerilen Commonhold and Leasehold Reform Bill ile İngiltere ve Galler'de leasehold sisteminin kaldırılması öngörülüyor. Tasarı ayrıca ground rent'i (arsa kirası) 250 sterlinle sınırlayacak.",
+    "source": "BBC",
+    "photo_query": "English terraced houses leasehold",
+    "person": "",
+    "person_role": "",
+    "category": "gundem",
+    "photo": {
+      "id": "pb:486174",
+      "provider": "Pixabay",
+      "query": "Manchester city",
+      "photographer": "ok-james",
+      "page": "https://pixabay.com/photos/sculpture-football-people-486174/",
+      "fallback": true
+    }
+  },
+  "caption": "🔴 SON DAKİKA | 🏠 İngiltere ve Galler'de leasehold sisteminin kaldırılması planlanıyor\n\nÖnerilen Commonhold and Leasehold Reform Bill ile İngiltere ve Galler'de leasehold sisteminin kaldırılması öngörülüyor. Tasarı ayrıca ground rent'i (arsa kirası) 250 sterlinle sınırlayacak.\n\nKaynak: BBC | Görsel: Pixabay\nBirleşik Krallık Gündemi | 19 Kasım, 09:20\n\n#SonDakika #KiraSistemi #GündemiHaberler",
+  "images": [
+    "output/2026-11-19/breaking-092059.jpg"
+  ],
+  "story_image": "output/2026-11-19/breaking-092059-story.jpg",
+  "history_keys": [
+    "leaseholdsystemsettobescrappedinenglandandwales"
+  ],
+  "published": false
+}
