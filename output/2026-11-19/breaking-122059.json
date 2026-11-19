@@ -1,0 +1,32 @@
+{
+  "type": "breaking",
+  "created_at": "2026-11-19T12:20:59.956458+00:00",
+  "item": {
+    "ref": 2,
+    "emoji": "🦠",
+    "title": "Soruşturma: Covid-19 ilk dönemde neredeyse kontrolsüz yayıldı",
+    "body": "Covid-19 soruşturması, pandeminin ilk aşamalarında virüsün neredeyse kontrolsüz yayılmasına izin verildiğini ortaya koydu. Soruşturmaya göre İngiltere, test, izleme ve izolasyon sistemini hayata geçirmeye hazırlıklı değildi.",
+    "source": "The Independent",
+    "photo_query": "UK border control COVID",
+    "person": "",
+    "person_role": "",
+    "category": "saglik",
+    "photo": {
+      "id": "pb:5174667",
+      "provider": "Pixabay",
+      "query": "UK border control COVID",
+      "photographer": "TF3000",
+      "page": "https://pixabay.com/photos/border-corona-austria-bavaria-5174667/",
+      "fallback": false
+    }
+  },
+  "caption": "🔴 SON DAKİKA | 🦠 Soruşturma: Covid-19 ilk dönemde neredeyse kontrolsüz yayıldı\n\nCovid-19 soruşturması, pandeminin ilk aşamalarında virüsün neredeyse kontrolsüz yayılmasına izin verildiğini ortaya koydu. Soruşturmaya göre İngiltere, test, izleme ve izolasyon sistemini hayata geçirmeye hazırlıklı değildi.\n\nKaynak: The Independent | Görsel: Pixabay\nBirleşik Krallık Gündemi | 19 Kasım, 12:20\n\n#SonDakika #COVID19 #İngiltere",
+  "images": [
+    "output/2026-11-19/breaking-122059.jpg"
+  ],
+  "story_image": "output/2026-11-19/breaking-122059-story.jpg",
+  "history_keys": [
+    "covid19allowedtospreadvirtuallyuncheckedinearlystagesofpandemicinquiryfinds"
+  ],
+  "published": false
+}
