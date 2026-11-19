@@ -1147,7 +1147,29 @@ def query_keywords(query):
     return words | {w[:-1] for w in words if w.endswith("s") and len(w) > 4}
 
 
-def photo_search(query, orientation="landscape"):
+UK_PLACE_WORDS = {"london", "england", "english", "uk", "britain", "british", "scotland", "scottish", "wales", "welsh",
+                  "edinburgh", "manchester", "cardiff", "belfast", "westminster", "thames", "brighton", "liverpool",
+                  "birmingham", "glasgow", "oxford", "cambridge", "cotswolds", "highlands", "cornwall", "devon"}
+UK_PLACE_PHRASES = ("big ben", "tower bridge", "union jack", "united kingdom", "great britain", "houses of parliament")
+
+
+def _relevant(text, query, fallback=False):
+    """Fotoğraf etiketleri/açıklaması aramayla gerçekten örtüşüyor mu?
+    Konu araması: ayırt edici kelimelerden en az 2'si (tek kelimeyse 1'i) geçmeli.
+    Yedek (genel İngiltere) araması: etiketlerde mutlaka bir İngiltere yer adı geçmeli."""
+    words = set(re.findall(r"[a-z]+", (text or "").lower()))
+    words |= {w[:-1] for w in words if w.endswith("s") and len(w) > 4}
+    if fallback:
+        low = (text or "").lower()
+        return bool(words & UK_PLACE_WORDS) or any(p in low for p in UK_PLACE_PHRASES)
+    base = {w for w in re.findall(r"[a-z]+", (query or "").lower()) if w not in GENERIC_PHOTO_WORDS and len(w) > 2}
+    if not base:
+        return True
+    hit = sum(1 for w in base if w in words or (w.endswith("s") and w[:-1] in words))
+    return hit >= min(2, len(base))
+
+
+def photo_search(query, orientation="landscape", fallback=False):
     """Ortak biçimde sonuç döndürür: [{'id','url','photographer','page'}]."""
     prov = photo_provider()
     if not prov or not query:
@@ -1158,9 +1180,7 @@ def photo_search(query, orientation="landscape"):
             "orientation": "vertical" if orientation == "portrait" else "horizontal",
             "safesearch": "true", "per_page": 15, "lang": "en"})
         hits = [h for h in (data or {}).get("hits", []) if h.get("largeImageURL") or h.get("webformatURL")]
-        keys = query_keywords(query)
-        if keys:   # alakasız sonuçları ele: etiketlerde arama kelimelerinden en az biri geçmeli
-            hits = [h for h in hits if keys & set(re.findall(r"[a-z]+", (h.get("tags") or "").lower()))]
+        hits = [h for h in hits if _relevant(h.get("tags"), query, fallback)]   # alakasızları ele
         return [{"id": f"pb:{h['id']}", "url": h.get("largeImageURL") or h.get("webformatURL"),
                  "photographer": h.get("user"), "page": h.get("pageURL")} for h in hits]
     data = _get_json("Pexels", "https://api.pexels.com/v1/search",
@@ -1168,6 +1188,8 @@ def photo_search(query, orientation="landscape"):
                      headers={"Authorization": os.environ["PEXELS_API_KEY"].strip()})
     out = []
     for p in (data or {}).get("photos", []):
+        if not _relevant(p.get("alt"), query, fallback):
+            continue
         src = p.get("src", {})
         out.append({"id": str(p["id"]), "url": src.get("large2x") or src.get("large") or src.get("original"),
                     "photographer": p.get("photographer"), "page": p.get("url")})
@@ -1271,7 +1293,8 @@ def photo_for(it, used, orientation="portrait"):
     queries = [q for q in [it.get("photo_query")] if q] + random.sample(UK_FALLBACK_QUERIES, 3)
     combos = [(q, o) for q in queries for o in (["portrait", "landscape"] if orientation == "portrait" else [orientation])]
     for q, o in combos:
-        candidates = [p for p in photo_search(q, o) if p["id"] not in used and p.get("url")]
+        candidates = [p for p in photo_search(q, o, fallback=(q != it.get("photo_query")))
+                      if p["id"] not in used and p.get("url")]
         random.shuffle(candidates)
         for p in candidates[:3]:
             im = load_photo(p["url"])
