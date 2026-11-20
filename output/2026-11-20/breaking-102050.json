@@ -1,0 +1,33 @@
+{
+  "type": "breaking",
+  "created_at": "2026-11-20T10:20:50.253937+00:00",
+  "item": {
+    "ref": 6,
+    "emoji": "🎓",
+    "title": "Harç anlaşmazlığı Burnham'ın AB anlaşmasını tehlikeye sokuyor",
+    "body": "AB, üye ülkelerden gelip Birleşik Krallık'ta okuyan öğrencilerin ödediği harçların yerli lisans öğrencileriyle aynı seviyeye indirilmesini istiyor. Bu talep nedeniyle Burnham'ın AB anlaşmasının tehlikede olduğu belirtiliyor.",
+    "source": "The Independent",
+    "photo_query": "Westminster Parliament London",
+    "person": "Andy Burnham",
+    "person_role": "politician",
+    "category": "gundem",
+    "photo": {
+      "id": "wm:Prime Minister Andy Burnham portrait (cropped).jpg",
+      "provider": "Wikimedia Commons",
+      "person": "Andy Burnham",
+      "license": "OGL 3",
+      "photographer": "Prime Minister's Office",
+      "page": "https://commons.wikimedia.org/wiki/File:Prime_Minister_Andy_Burnham_portrait_(cropped).jpg",
+      "credit": "Prime Minister's Office / OGL 3, Wikimedia Commons"
+    }
+  },
+  "caption": "🔴 SON DAKİKA | 🎓 Harç anlaşmazlığı Burnham'ın AB anlaşmasını tehlikeye sokuyor\n\nAB, üye ülkelerden gelip Birleşik Krallık'ta okuyan öğrencilerin ödediği harçların yerli lisans öğrencileriyle aynı seviyeye indirilmesini istiyor. Bu talep nedeniyle Burnham'ın AB anlaşmasının tehlikede olduğu belirtiliyor.\n\nKaynak: The Independent | Görsel: Prime Minister's Office / OGL 3, Wikimedia Commons\nBirleşik Krallık Gündemi | 20 Kasım, 10:20\n\n#SonDakika #Brexit #ABİlişkileri",
+  "images": [
+    "output/2026-11-20/breaking-102050.jpg"
+  ],
+  "story_image": "output/2026-11-20/breaking-102050-story.jpg",
+  "history_keys": [
+    "euuksummitliveburnhamseudealunderthreatintuitionfeesdispute"
+  ],
+  "published": false
+}
