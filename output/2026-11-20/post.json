@@ -1,0 +1,182 @@
+{
+  "date": "2026-11-20",
+  "caption": "🇬🇧 Birleşik Krallık Gündemi | 20 Kasım 2026, Cuma\n\n1. 🛡️ Göçmenler ev içi şiddet mağduru olarak oturum izni için başvurabilir\nEv içi şiddet, kişinin haklarının ciddi biçimde ihlal edilmesi anlamına geliyor. Göçmenler, Birleşik Krallık'taki belirsiz statüleri nedeniyle yardım istemekte çekingen davranabiliyor. Rehber, mağdurların izin için nasıl başvurabileceğini anlatıyor.\n\n2. 🏨 Sekiz iltica oteli daha kapatıldı\nBirleşik Krallık genelinde sekiz iltica oteli daha kapatıldı. Haberde, yapılan reformların yerel topluluklar üzerindeki baskıyı hafiflettiği belirtiliyor.\n\n3. ✈️ Birleşik Krallık ile AB'nin genç hareketlilik programında anlaşması bekleniyor\nBBC'nin öğrendiğine göre programın cuma günkü Birleşik Krallık-AB zirvesinde onaylanması bekleniyor. Gıda ticareti ve karbon emisyonlarına ilişkin yeni anlaşmalar da masada.\n\n4. 🤝 Yeni AB-Birleşik Krallık anlaşmasının 'İrlanda Denizi sınırı' etkisini azaltması bekleniyo\nAnlaşmanın, Andy Burnham ile Ursula von der Leyen'in Brüksel'de yapacağı görüşmede onaylanması bekleniyor.\n\n5. 💷 Ankete göre yaşam maliyeti 'büyük ölçüde' arttı\nAnkete katılanların üçte ikisinden fazlası yaşam maliyetindeki artışı fark ettiğini söyledi.\n\n6. 📱 Met Police yüz tanıma pilot uygulamasında rızasız fotoğraf çekebilecek\nLondra'da polis memurları, yeni yüz tanıma pilot uygulaması kapsamında cep telefonlarıyla şüphelilerin fotoğrafını rızaları olmadan çekip kimliklerini belirleyebilecek.\n\n7. 👑 William ve Kate, Hindistan gezisinin ardından 'tam bir takım' olarak anılıyor\nPrenses, Hindistan ziyaretine son anda eklendi ve kanser teşhisini açıklamasından sonraki ilk uzun mesafeli yurt dışı gezisinde William'a eşlik etti.\n\n8. 🎬 Star Wars aktörü Galce Luke Skywalker'ı seslendirmekten heyecan duyuyor\n1977 yapımı klasik film ilk kez Galce'ye dublaj yapıldı. Dublajda çok sayıda tanınmış isim yer alıyor.\n\nKaynaklar: Free Movement, GOV.UK Home Office, BBC, Sky News, Evening Standard. Haberler Türkçe özet olarak derlenmiştir. Görseller: Pixabay. Fotoğraflar: Prime Minister's Office / OGL 3, Wikimedia Commons.\n\n#İngiltere #Londra #UKNews #Göç #VizePolitikası #KraliYle #YaşamMaliyeti #Güvenlik #ABİlişkileri #Siyaset #BrükseldanHaber #KültürSanat",
+  "images": [
+    "output/2026-11-20/00.jpg",
+    "output/2026-11-20/01.jpg",
+    "output/2026-11-20/02.jpg",
+    "output/2026-11-20/03.jpg",
+    "output/2026-11-20/04.jpg",
+    "output/2026-11-20/05.jpg",
+    "output/2026-11-20/06.jpg",
+    "output/2026-11-20/07.jpg",
+    "output/2026-11-20/08.jpg"
+  ],
+  "story_image": "output/2026-11-20/story.jpg",
+  "items": [
+    {
+      "ref": 1,
+      "emoji": "🛡️",
+      "title": "Göçmenler ev içi şiddet mağduru olarak oturum izni için başvurabilir",
+      "body": "Ev içi şiddet, kişinin haklarının ciddi biçimde ihlal edilmesi anlamına geliyor. Göçmenler, Birleşik Krallık'taki belirsiz statüleri nedeniyle yardım istemekte çekingen davranabiliyor. Rehber, mağdurların izin için nasıl başvurabileceğini anlatıyor.",
+      "source": "Free Movement",
+      "photo_query": "domestic abuse helpline support",
+      "person": "",
+      "person_role": "",
+      "category": "goc",
+      "photo": {
+        "id": "pb:2500661",
+        "provider": "Pixabay",
+        "query": "Cardiff Wales",
+        "photographer": "TimHill",
+        "page": "https://pixabay.com/photos/sunrise-blue-hour-coast-blue-2500661/",
+        "fallback": true
+      }
+    },
+    {
+      "ref": 2,
+      "emoji": "🏨",
+      "title": "Sekiz iltica oteli daha kapatıldı",
+      "body": "Birleşik Krallık genelinde sekiz iltica oteli daha kapatıldı. Haberde, yapılan reformların yerel topluluklar üzerindeki baskıyı hafiflettiği belirtiliyor.",
+      "source": "GOV.UK Home Office",
+      "photo_query": "UK asylum hotel building",
+      "person": "",
+      "person_role": "",
+      "category": "goc",
+      "photo": {
+        "id": "pb:2361250",
+        "provider": "Pixabay",
+        "query": "Big Ben London",
+        "photographer": "12019",
+        "page": "https://pixabay.com/photos/london-england-great-britain-2361250/",
+        "fallback": true
+      }
+    },
+    {
+      "ref": 36,
+      "emoji": "✈️",
+      "title": "Birleşik Krallık ile AB'nin genç hareketlilik programında anlaşması bekleniyor",
+      "body": "BBC'nin öğrendiğine göre programın cuma günkü Birleşik Krallık-AB zirvesinde onaylanması bekleniyor. Gıda ticareti ve karbon emisyonlarına ilişkin yeni anlaşmalar da masada.",
+      "source": "BBC",
+      "photo_query": "UK EU flag summit meeting",
+      "person": "Andy Burnham",
+      "person_role": "politician",
+      "category": "goc",
+      "photo": {
+        "id": "wm:Prime Minister Andy Burnham portrait (cropped).jpg",
+        "provider": "Wikimedia Commons",
+        "person": "Andy Burnham",
+        "license": "OGL 3",
+        "photographer": "Prime Minister's Office",
+        "page": "https://commons.wikimedia.org/wiki/File:Prime_Minister_Andy_Burnham_portrait_(cropped).jpg",
+        "credit": "Prime Minister's Office / OGL 3, Wikimedia Commons"
+      }
+    },
+    {
+      "ref": 48,
+      "emoji": "🤝",
+      "title": "Yeni AB-Birleşik Krallık anlaşmasının 'İrlanda Denizi sınırı' etkisini azaltması bekleniyo",
+      "body": "Anlaşmanın, Andy Burnham ile Ursula von der Leyen'in Brüksel'de yapacağı görüşmede onaylanması bekleniyor.",
+      "source": "BBC",
+      "photo_query": "Irish Sea border customs checkpoint",
+      "person": "Andy Burnham",
+      "person_role": "politician",
+      "category": "siyaset",
+      "photo": {
+        "id": "wm:Prime Minister Andy Burnham portrait (cropped).jpg",
+        "provider": "Wikimedia Commons",
+        "person": "Andy Burnham",
+        "license": "OGL 3",
+        "photographer": "Prime Minister's Office",
+        "page": "https://commons.wikimedia.org/wiki/File:Prime_Minister_Andy_Burnham_portrait_(cropped).jpg",
+        "credit": "Prime Minister's Office / OGL 3, Wikimedia Commons"
+      }
+    },
+    {
+      "ref": 54,
+      "emoji": "💷",
+      "title": "Ankete göre yaşam maliyeti 'büyük ölçüde' arttı",
+      "body": "Ankete katılanların üçte ikisinden fazlası yaşam maliyetindeki artışı fark ettiğini söyledi.",
+      "source": "BBC",
+      "photo_query": "pound sterling coins supermarket",
+      "person": "",
+      "person_role": "",
+      "category": "ekonomi",
+      "photo": {
+        "id": "pb:18162",
+        "provider": "Pixabay",
+        "query": "pound sterling coins supermarket",
+        "photographer": "PublicDomainPictures",
+        "page": "https://pixabay.com/photos/business-cash-coin-concept-credit-18162/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 75,
+      "emoji": "📱",
+      "title": "Met Police yüz tanıma pilot uygulamasında rızasız fotoğraf çekebilecek",
+      "body": "Londra'da polis memurları, yeni yüz tanıma pilot uygulaması kapsamında cep telefonlarıyla şüphelilerin fotoğrafını rızaları olmadan çekip kimliklerini belirleyebilecek.",
+      "source": "Sky News",
+      "photo_query": "facial recognition technology police",
+      "person": "",
+      "person_role": "",
+      "category": "guvenlik",
+      "photo": {
+        "id": "pb:5946820",
+        "provider": "Pixabay",
+        "query": "facial recognition technology police",
+        "photographer": "Tumisu",
+        "page": "https://pixabay.com/photos/man-face-facial-recognition-5946820/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 102,
+      "emoji": "👑",
+      "title": "William ve Kate, Hindistan gezisinin ardından 'tam bir takım' olarak anılıyor",
+      "body": "Prenses, Hindistan ziyaretine son anda eklendi ve kanser teşhisini açıklamasından sonraki ilk uzun mesafeli yurt dışı gezisinde William'a eşlik etti.",
+      "source": "Evening Standard",
+      "photo_query": "Prince William Princess Kate India visit",
+      "person": "William, Prince of Wales",
+      "person_role": "royal",
+      "category": "kraliyet",
+      "photo": {
+        "id": "pb:2907216",
+        "provider": "Pixabay",
+        "query": "Prince William Princess Kate India visit",
+        "photographer": "tuttuman",
+        "page": "https://pixabay.com/photos/alaska-prince-william-sound-scenery-2907216/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 119,
+      "emoji": "🎬",
+      "title": "Star Wars aktörü Galce Luke Skywalker'ı seslendirmekten heyecan duyuyor",
+      "body": "1977 yapımı klasik film ilk kez Galce'ye dublaj yapıldı. Dublajda çok sayıda tanınmış isim yer alıyor.",
+      "source": "BBC",
+      "photo_query": "Star Wars film premiere Cardiff red carpet",
+      "person": "",
+      "person_role": "",
+      "category": "magazin",
+      "photo": {
+        "id": "pb:8504392",
+        "provider": "Pixabay",
+        "query": "Star Wars film premiere Cardiff red carpet",
+        "photographer": "Mylene2401",
+        "page": "https://pixabay.com/photos/leaves-poinsettia-plant-8504392/",
+        "fallback": false
+      }
+    }
+  ],
+  "history_keys": [
+    "howtoapplyforleavetoremainasavictimofdomesticabuse",
+    "moreasylumhotelsclosedasreformseasepressureoncommunities",
+    "ukandeutoagreeyouthmobilityschemebbcunderstands",
+    "neweuukdealshouldreduceirishseaborderimpact",
+    "surveyrevealsmajorincreaseincostofliving",
+    "metpolicecanphotographpeoplewithoutconsentinfacialrecognitionpilot",
+    "williamandkateverymuchateamafterearthshotprizetriptoindia",
+    "starwarsactorthrilledtovoicethewelshlukeskywalker"
+  ]
+}
