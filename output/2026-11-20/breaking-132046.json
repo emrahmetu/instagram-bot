@@ -1,0 +1,32 @@
+{
+  "type": "breaking",
+  "created_at": "2026-11-20T13:20:46.280397+00:00",
+  "item": {
+    "ref": 32,
+    "emoji": "🏥",
+    "title": "Kuzey İrlanda'da resident doctors 24 saatlik greve gidiyor",
+    "body": "Kuzey İrlanda'daki resident doctors, ücret anlaşmazlığı nedeniyle greve çıkıyor. 24 saatlik grev cuma sabahı saat 07:00'de başlayacak, cumartesi 21 Kasım sabahı saat 07:00'de sona erecek.",
+    "source": "The Independent",
+    "photo_query": "Northern Ireland hospital strike NHS",
+    "person": "",
+    "person_role": "",
+    "category": "saglik",
+    "photo": {
+      "id": "pb:450963",
+      "provider": "Pixabay",
+      "query": "Northern Ireland hospital strike NHS",
+      "photographer": "purplegillian",
+      "page": "https://pixabay.com/photos/eyeshadow-makeup-cosmetics-450963/",
+      "fallback": false
+    }
+  },
+  "caption": "🔴 SON DAKİKA | 🏥 Kuzey İrlanda'da resident doctors 24 saatlik greve gidiyor\n\nKuzey İrlanda'daki resident doctors, ücret anlaşmazlığı nedeniyle greve çıkıyor. 24 saatlik grev cuma sabahı saat 07:00'de başlayacak, cumartesi 21 Kasım sabahı saat 07:00'de sona erecek.\n\nKaynak: The Independent | Görsel: Pixabay\nBirleşik Krallık Gündemi | 20 Kasım, 13:20\n\n#SonDakika #NHS #Grev",
+  "images": [
+    "output/2026-11-20/breaking-132046.jpg"
+  ],
+  "story_image": "output/2026-11-20/breaking-132046-story.jpg",
+  "history_keys": [
+    "residentdoctorsstrikeacrossnorthernirelandoverpaydispute"
+  ],
+  "published": false
+}
