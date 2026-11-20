@@ -1,0 +1,33 @@
+{
+  "type": "breaking",
+  "created_at": "2026-11-20T11:20:50.922372+00:00",
+  "item": {
+    "ref": 4,
+    "emoji": "🤝",
+    "title": "Burnham, Brüksel'le tarihî bir Brexit sıfırlama anlaşması elde etti",
+    "body": "EU-UK Summit'i canlı takip edilirken Andy Burnham'ın Brüksel'le tarihî bir anlaşma sağladığı bildirildi. Burnham, Birleşik Krallık'ın AB ile gelecekteki ilişkisi üzerine ulusal çapta bir tartışma başlatmaya hazırlanıyor.",
+    "source": "The Independent",
+    "photo_query": "Brussels EU Commission building",
+    "person": "Andy Burnham",
+    "person_role": "politician",
+    "category": "siyaset",
+    "photo": {
+      "id": "wm:Prime Minister Andy Burnham portrait (cropped).jpg",
+      "provider": "Wikimedia Commons",
+      "person": "Andy Burnham",
+      "license": "OGL 3",
+      "photographer": "Prime Minister's Office",
+      "page": "https://commons.wikimedia.org/wiki/File:Prime_Minister_Andy_Burnham_portrait_(cropped).jpg",
+      "credit": "Prime Minister's Office / OGL 3, Wikimedia Commons"
+    }
+  },
+  "caption": "🔴 SON DAKİKA | 🤝 Burnham, Brüksel'le tarihî bir Brexit sıfırlama anlaşması elde etti\n\nEU-UK Summit'i canlı takip edilirken Andy Burnham'ın Brüksel'le tarihî bir anlaşma sağladığı bildirildi. Burnham, Birleşik Krallık'ın AB ile gelecekteki ilişkisi üzerine ulusal çapta bir tartışma başlatmaya hazırlanıyor.\n\nKaynak: The Independent | Görsel: Prime Minister's Office / OGL 3, Wikimedia Commons\nBirleşik Krallık Gündemi | 20 Kasım, 11:20\n\n#SonDakika #AB #Brexit",
+  "images": [
+    "output/2026-11-20/breaking-112050.jpg"
+  ],
+  "story_image": "output/2026-11-20/breaking-112050-story.jpg",
+  "history_keys": [
+    "euuksummitliveburnhamsecureshistoricbrexitresetdealwithbrussels"
+  ],
+  "published": false
+}
