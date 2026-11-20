@@ -1,0 +1,32 @@
+{
+  "type": "breaking",
+  "created_at": "2026-11-20T08:20:46.670249+00:00",
+  "item": {
+    "ref": 5,
+    "emoji": "🇪🇺",
+    "title": "İngiltere her yıl 100 bin genç Avrupalıyı kabul etmeye hazırlanıyor",
+    "body": "İngiltere, gençlik mobilite programı kapsamında her yıl 100 bin genç Avrupalının ülkeye gelmesine izin vermeye hazırlanıyor. Burnham ise kritik zirve öncesinde İngiltere ile Avrupa'nın \"birlikte daha güçlü\" olduğunu söyledi.",
+    "source": "The Independent",
+    "photo_query": "Brussels EU summit",
+    "person": "",
+    "person_role": "",
+    "category": "goc",
+    "photo": {
+      "id": "pb:70933",
+      "provider": "Pixabay",
+      "query": "British countryside",
+      "photographer": "PublicDomainPictures",
+      "page": "https://pixabay.com/photos/old-phone-booth-traditions-70933/",
+      "fallback": true
+    }
+  },
+  "caption": "🔴 SON DAKİKA | 🇪🇺 İngiltere her yıl 100 bin genç Avrupalıyı kabul etmeye hazırlanıyor\n\nİngiltere, gençlik mobilite programı kapsamında her yıl 100 bin genç Avrupalının ülkeye gelmesine izin vermeye hazırlanıyor. Burnham ise kritik zirve öncesinde İngiltere ile Avrupa'nın \"birlikte daha güçlü\" olduğunu söyledi.\n\nKaynak: The Independent | Görsel: Pixabay\nBirleşik Krallık Gündemi | 20 Kasım, 08:20\n\n#SonDakika #GöçPolitikası #BritanyaAvrupa",
+  "images": [
+    "output/2026-11-20/breaking-082046.jpg"
+  ],
+  "story_image": "output/2026-11-20/breaking-082046-story.jpg",
+  "history_keys": [
+    "politicsliveburnhamsaysukandeuropearestrongertogetheraheadofcrunchsummit"
+  ],
+  "published": false
+}
