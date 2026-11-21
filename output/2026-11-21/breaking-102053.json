@@ -1,0 +1,33 @@
+{
+  "type": "breaking",
+  "created_at": "2026-11-21T10:20:53.481636+00:00",
+  "item": {
+    "ref": 4,
+    "emoji": "🇪🇺",
+    "title": "Miliband: AB'ye yeniden katılma seçeneği masada olabilir",
+    "body": "Dışişleri Bakanı Ed Miliband, Andy Burnham ile Avrupalı liderler arasında Brüksel'deki gayriresmi görüşmelerde AB'ye yeniden katılmanın konuşulabileceğini söyledi. Miliband, Başbakan'ın ticaret ve gençlere yönelik anlaşmalarda uzlaşmasının ardından \"tüm seçeneklerin\" ele alınacağını belirtti.",
+    "source": "Guardian",
+    "photo_query": "EU flag Brussels negotiations",
+    "person": "Andy Burnham",
+    "person_role": "politician",
+    "category": "siyaset",
+    "photo": {
+      "id": "wm:Prime Minister Andy Burnham portrait (cropped).jpg",
+      "provider": "Wikimedia Commons",
+      "person": "Andy Burnham",
+      "license": "OGL 3",
+      "photographer": "Prime Minister's Office",
+      "page": "https://commons.wikimedia.org/wiki/File:Prime_Minister_Andy_Burnham_portrait_(cropped).jpg",
+      "credit": "Prime Minister's Office / OGL 3, Wikimedia Commons"
+    }
+  },
+  "caption": "🔴 SON DAKİKA | 🇪🇺 Miliband: AB'ye yeniden katılma seçeneği masada olabilir\n\nDışişleri Bakanı Ed Miliband, Andy Burnham ile Avrupalı liderler arasında Brüksel'deki gayriresmi görüşmelerde AB'ye yeniden katılmanın konuşulabileceğini söyledi. Miliband, Başbakan'ın ticaret ve gençlere yönelik anlaşmalarda uzlaşmasının ardından \"tüm seçeneklerin\" ele alınacağını belirtti.\n\nKaynak: Guardian | Görsel: Prime Minister's Office / OGL 3, Wikimedia Commons\nBirleşik Krallık Gündemi | 21 Kasım, 10:20\n\n#SonDakika #AB #İngiltere #Ticaret",
+  "images": [
+    "output/2026-11-21/breaking-102053.jpg"
+  ],
+  "story_image": "output/2026-11-21/breaking-102053-story.jpg",
+  "history_keys": [
+    "rejoiningeuonthetableasukstrikesdealsontradeandyoungpeople"
+  ],
+  "published": false
+}
