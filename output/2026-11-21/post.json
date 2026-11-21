@@ -1,0 +1,183 @@
+{
+  "date": "2026-11-21",
+  "caption": "🇬🇧 Birleşik Krallık Gündemi | 21 Kasım 2026, Cumartesi\n\n1. ⚖️ AB Seçim Sistemi Davasında Mahkeme Hükümetin Temyizini Kabul Etti\nCourt of Appeal, Slovak uyruklu bir kişinin EU Settlement Scheme kapsamında sınır dışı edilmesi davasında Hükümetin temyizini kabul etti.\n\n2. 👤 Migration Advisory Committee'nin Yeni Başkanı Atandı\nProfessor Jackline Wahba OBE, Migration Advisory Committee (MAC) başkanlığına atanmıştır.\n\n3. 🤝 Burnham, AB ile Daha Yakın İlişkiler İçin Yeni Anlaşmaya İmza Attı\nBaşbakan Andy Burnham, AB ile İngiltere arasında gıda ihracatı, emisyon ticareti ve gençlik değişim programını kapsayan anlaşmayı imzalamıştır.\n\n4. 👮 İngiltere ve Galler'de 200 Yeni Yerel Polis Komutanlığı Kurulacak\nHome Secretary, NPCC/APCC Zirvesi'nde İngiltere ve Galler'de yaklaşık 200 yeni Local Police Commands kurulacağını duyurmuştur.\n\n5. ❄️ İngiltere'de Kış Aylarının En Düşük Sıcaklıkları Ölçüldü\nCuma gecesi birçok bölgede sıcaklıklar donum altına düşmüştür.\n\n6. ⚽ İngiltere Kaptan Harry Kane Birkaç Ayı Sakatlıkla Geçirecek\nEngland kaptan Harry Kane, sol ayağında bağ yırtması nedeniyle önümüzdeki birkaç ay sahalardan uzak kalacağı beklenmektedir.\n\n7. 🥊 Lauren Price Galeştirme Şampiyonluğunu Kazanarak Tarih Yazdı\nGalezli boksör Lauren Price, Michaela Kotaskova'yı puanla yenerek Galler'in ilk undisputed dünya şampiyonu oldu.\n\n8. ⚽ Ben White'ın İspanya Karşısında Zaferle Dönüşü Başarıya Ulaştı\nEngland savunmacısı Ben White, dünya şampiyonları İspanya'ya karşı oynadığı maçta üçüncü golü atarak karşılaştığı zorlukları geride bıraktı.\n\nKaynaklar: Free Movement, GOV.UK Home Office, BBC, Sky News, BBC Sport. Haberler Türkçe özet olarak derlenmiştir. Görseller: Pixabay. Fotoğraflar: Prime Minister's Office / OGL 3, Wikimedia Commons; Bryan Berlin / CC BY-SA 4.0, Wikimedia Commons; National Lottery Good Causes / CC BY 3.0, Wikimedia Commons.\n\n#İngiltere #UKNews #Londra #Göç #AB #İskoçya #Spor #FootballNews #İngiltereHaber #UKPolice",
+  "images": [
+    "output/2026-11-21/00.jpg",
+    "output/2026-11-21/01.jpg",
+    "output/2026-11-21/02.jpg",
+    "output/2026-11-21/03.jpg",
+    "output/2026-11-21/04.jpg",
+    "output/2026-11-21/05.jpg",
+    "output/2026-11-21/06.jpg",
+    "output/2026-11-21/07.jpg",
+    "output/2026-11-21/08.jpg"
+  ],
+  "story_image": "output/2026-11-21/story.jpg",
+  "items": [
+    {
+      "ref": 10,
+      "emoji": "⚖️",
+      "title": "AB Seçim Sistemi Davasında Mahkeme Hükümetin Temyizini Kabul Etti",
+      "body": "Court of Appeal, Slovak uyruklu bir kişinin EU Settlement Scheme kapsamında sınır dışı edilmesi davasında Hükümetin temyizini kabul etti. Mahkeme, ilk derece mahkemesinin silah ruhsatına ilişkin mahkumiyetleri gözden kaçırdığını tespit etti.",
+      "source": "Free Movement",
+      "photo_query": "UK court justice law",
+      "person": "",
+      "person_role": "",
+      "category": "goc",
+      "photo": {
+        "id": "pb:7499921",
+        "provider": "Pixabay",
+        "query": "UK court justice law",
+        "photographer": "sergeitokmakov",
+        "page": "https://pixabay.com/photos/gavel-justice-judge-courtroom-7499921/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 11,
+      "emoji": "👤",
+      "title": "Migration Advisory Committee'nin Yeni Başkanı Atandı",
+      "body": "Professor Jackline Wahba OBE, Migration Advisory Committee (MAC) başkanlığına atanmıştır. Home Secretary atamayı açıkça karşılamıştır.",
+      "source": "GOV.UK Home Office",
+      "photo_query": "UK government office",
+      "person": "",
+      "person_role": "",
+      "category": "goc",
+      "photo": {
+        "id": "pb:5843520",
+        "provider": "Pixabay",
+        "query": "UK government office",
+        "photographer": "greenwoodroyalist",
+        "page": "https://pixabay.com/photos/general-land-office-building-5843520/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 99,
+      "emoji": "🤝",
+      "title": "Burnham, AB ile Daha Yakın İlişkiler İçin Yeni Anlaşmaya İmza Attı",
+      "body": "Başbakan Andy Burnham, AB ile İngiltere arasında gıda ihracatı, emisyon ticareti ve gençlik değişim programını kapsayan anlaşmayı imzalamıştır. Anlaşma, Brexit sonrası en kapsamlı ticari anlaşmadır.",
+      "source": "BBC",
+      "photo_query": "UK EU flag agreement",
+      "person": "Andy Burnham",
+      "person_role": "politician",
+      "category": "siyaset",
+      "photo": {
+        "id": "wm:Prime Minister Andy Burnham portrait (cropped).jpg",
+        "provider": "Wikimedia Commons",
+        "person": "Andy Burnham",
+        "license": "OGL 3",
+        "photographer": "Prime Minister's Office",
+        "page": "https://commons.wikimedia.org/wiki/File:Prime_Minister_Andy_Burnham_portrait_(cropped).jpg",
+        "credit": "Prime Minister's Office / OGL 3, Wikimedia Commons"
+      }
+    },
+    {
+      "ref": 14,
+      "emoji": "👮",
+      "title": "İngiltere ve Galler'de 200 Yeni Yerel Polis Komutanlığı Kurulacak",
+      "body": "Home Secretary, NPCC/APCC Zirvesi'nde İngiltere ve Galler'de yaklaşık 200 yeni Local Police Commands kurulacağını duyurmuştur. Proje, polis kapasite ve tepkiselliğini artırmayı hedeflemektedir.",
+      "source": "GOV.UK Home Office",
+      "photo_query": "British police officer uniform",
+      "person": "",
+      "person_role": "",
+      "category": "guvenlik",
+      "photo": {
+        "id": "pb:2527300",
+        "provider": "Pixabay",
+        "query": "British police officer uniform",
+        "photographer": "Alexas_Fotos",
+        "page": "https://pixabay.com/photos/figure-police-fun-funny-uniform-2527300/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 33,
+      "emoji": "❄️",
+      "title": "İngiltere'de Kış Aylarının En Düşük Sıcaklıkları Ölçüldü",
+      "body": "Cuma gecesi birçok bölgede sıcaklıklar donum altına düşmüştür. Soğuk hava uyarısı yürürlükte olmaya devam etmektedir.",
+      "source": "BBC",
+      "photo_query": "snow frost UK landscape",
+      "person": "",
+      "person_role": "",
+      "category": "hava",
+      "photo": {
+        "id": "pb:270160",
+        "provider": "Pixabay",
+        "query": "snow frost UK landscape",
+        "photographer": "cocoparisienne",
+        "page": "https://pixabay.com/photos/winter-snow-forest-winter-magic-270160/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 44,
+      "emoji": "⚽",
+      "title": "İngiltere Kaptan Harry Kane Birkaç Ayı Sakatlıkla Geçirecek",
+      "body": "England kaptan Harry Kane, sol ayağında bağ yırtması nedeniyle önümüzdeki birkaç ay sahalardan uzak kalacağı beklenmektedir. İnjury, Kane'in sezon başında karşılaştığı ikinci önemli sakatlıktır.",
+      "source": "Sky News",
+      "photo_query": "England football player kit",
+      "person": "Harry Kane",
+      "person_role": "footballer",
+      "category": "spor",
+      "photo": {
+        "id": "wm:Harry Kane England v Ghana 23 June 2026-219 (cropped).jpg",
+        "provider": "Wikimedia Commons",
+        "person": "Harry Kane",
+        "license": "CC BY-SA 4.0",
+        "photographer": "Bryan Berlin",
+        "page": "https://commons.wikimedia.org/wiki/File:Harry_Kane_England_v_Ghana_23_June_2026-219_(cropped).jpg",
+        "credit": "Bryan Berlin / CC BY-SA 4.0, Wikimedia Commons"
+      }
+    },
+    {
+      "ref": 54,
+      "emoji": "🥊",
+      "title": "Lauren Price Galeştirme Şampiyonluğunu Kazanarak Tarih Yazdı",
+      "body": "Galezli boksör Lauren Price, Michaela Kotaskova'yı puanla yenerek Galler'in ilk undisputed dünya şampiyonu oldu. Price, daha önce birden fazla başlı kuruluş tarafından tanınan başlıklara sahipti.",
+      "source": "BBC Sport",
+      "photo_query": "boxing champion belt trophy",
+      "person": "Lauren Price",
+      "person_role": "athlete",
+      "category": "spor",
+      "photo": {
+        "id": "wm:Lauren Price in 2021.png",
+        "provider": "Wikimedia Commons",
+        "person": "Lauren Price",
+        "license": "CC BY 3.0",
+        "photographer": "National Lottery Good Causes",
+        "page": "https://commons.wikimedia.org/wiki/File:Lauren_Price_in_2021.png",
+        "credit": "National Lottery Good Causes / CC BY 3.0, Wikimedia Commons"
+      }
+    },
+    {
+      "ref": 36,
+      "emoji": "⚽",
+      "title": "Ben White'ın İspanya Karşısında Zaferle Dönüşü Başarıya Ulaştı",
+      "body": "England savunmacısı Ben White, dünya şampiyonları İspanya'ya karşı oynadığı maçta üçüncü golü atarak karşılaştığı zorlukları geride bıraktı. Atılan bu gol, maçı belirleyici olmuştur.",
+      "source": "BBC Sport",
+      "photo_query": "England football match celebration",
+      "person": "Ben White",
+      "person_role": "footballer",
+      "category": "spor",
+      "photo": {
+        "id": "pb:3404569",
+        "provider": "Pixabay",
+        "query": "England football match celebration",
+        "photographer": "hairmann",
+        "page": "https://pixabay.com/photos/football-world-champion-world-cup-3404569/",
+        "fallback": false
+      }
+    }
+  ],
+  "history_keys": [
+    "tribunaloverlookedfirearmsconvictionsineusettlementschemedeportationappeal",
+    "homesecretarywelcomesnewmigrationadvisorycommitteechair",
+    "uktoexploreevenclosertieswitheuafteragreeingdealsaysburnham",
+    "homesecretarysspeechtonpccapccsummit2026",
+    "coldalertsinforceasukseeslowestovernighttemperaturesofautumn",
+    "englandcaptainharrykaneoutinjuredfornextfewmonths",
+    "pricebeatskotaskovatobecomeundisputedchampion",
+    "jeersinjuriesanddoubterswhitesjourneybacktothetop"
+  ]
+}
