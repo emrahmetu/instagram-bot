@@ -1,0 +1,33 @@
+{
+  "type": "breaking",
+  "created_at": "2026-11-21T13:20:49.144131+00:00",
+  "item": {
+    "ref": 9,
+    "emoji": "👑",
+    "title": "Catherine, BBC belgeselinde kanserin kendisini değiştirdiğini anlattı",
+    "body": "Catherine, BBC'deki belgeselde kanserin kendisini nasıl değiştirdiğini açıkça anlattı. Belgeselde \"Kanser teşhisinin insanda değiştirdiği çok daha derin bir taraf var\" dedi.",
+    "source": "BBC",
+    "photo_query": "Catherine Princess Wales portrait",
+    "person": "Catherine, Princess of Wales",
+    "person_role": "royal",
+    "category": "kraliyet",
+    "photo": {
+      "id": "wm:Princess of Wales at State Banquet 2025-09-17 (0.75 crop).jpg",
+      "provider": "Wikimedia Commons",
+      "person": "Catherine, Princess of Wales",
+      "license": "Public domain",
+      "photographer": "Daniel Torok/White House",
+      "page": "https://commons.wikimedia.org/wiki/File:Princess_of_Wales_at_State_Banquet_2025-09-17_(0.75_crop).jpg",
+      "credit": "Daniel Torok/White House / Public domain, Wikimedia Commons"
+    }
+  },
+  "caption": "🔴 SON DAKİKA | 👑 Catherine, BBC belgeselinde kanserin kendisini değiştirdiğini anlattı\n\nCatherine, BBC'deki belgeselde kanserin kendisini nasıl değiştirdiğini açıkça anlattı. Belgeselde \"Kanser teşhisinin insanda değiştirdiği çok daha derin bir taraf var\" dedi.\n\nKaynak: BBC | Görsel: Daniel Torok/White House / Public domain, Wikimedia Commons\nBirleşik Krallık Gündemi | 21 Kasım, 13:20\n\n#SonDakika #PrinseseCatherine #BBC",
+  "images": [
+    "output/2026-11-21/breaking-132049.jpg"
+  ],
+  "story_image": "output/2026-11-21/breaking-132049-story.jpg",
+  "history_keys": [
+    "catherinetalksopenlyabouthowcancerchangedherindocumentaryonbbc"
+  ],
+  "published": false
+}
