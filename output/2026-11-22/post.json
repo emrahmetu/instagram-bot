@@ -1,0 +1,184 @@
+{
+  "date": "2026-11-22",
+  "caption": "🇬🇧 Birleşik Krallık Gündemi | 22 Kasım 2026, Pazar\n\n1. 🏴󠁧󠁢󠁷 Başbakan Burnham, Galler'in daha fazla yetki talebini reddetti\nBaşbakan Andy Burnham, First Minister Rhun ap Iorwerth'e yazdığı mektupta Galler'in bazı alanlarda daha fazla yetki isteğini reddetti.\n\n2. 🇪🇺 Burnham, AB ile gelecekteki ilişkiyi önümüzdeki 12 ayda masaya yatıracak\nBaşbakan Andy Burnham, Cuma günü Brüksel'de yaptığı konuşmada önümüzdeki 12 ayı AB ile Birleşik Krallık arasındaki gelecekteki ilişkiye dair fikirleri 'beyin fırtınası' yaparak geçireceklerini söyledi.\n\n3. ⚕️ NHS, hipertansiyon kaynaklı hastane yatışlarındaki artış için uyarı yaptı\nNHS, yüksek tansiyon nedeniyle hastaneye yatışlardaki 'endişe verici' artışa dikkat çekti.\n\n4. ⛈️ Met Office, güneybatı İngiltere için hava durumu uyarısı yayınladı\nMet Office, Devon ve Cornwall üzerinden yavaş ilerleyen bir yağmur kuşağı geçeceği uyarısı yaptı.\n\n5. 👑 Galler Prensesi, kanser tanısının etkisini BBC belgeselinde anlattı\nGaller Prensesi Catherine (44), bu ay yayınlanacak 30 dakikalık BBC belgeseli Heal'in fragmanında kanser tanısının etkisini anlatıyor.\n\n6. 🏉 İngiltere, Yeni Zelanda'yı 25 puan farkla yenerek rekor kırdı\nİngiltere, üç kez dünya şampiyonu olan Yeni Zelanda'yı 25 puan farkla yendi.\n\n7. ⚽ Leeds United, Chelsea'yi Stamford Bridge'de 4-1 yendi\nLeeds United, Noah Okafor'un iki golüyle Chelsea deplasmanında 4-1 kazandı.\n\n8. 🏎️ Verstappen, Ferrari'lerin çarpıştığı Las Vegas Grand Prix'sini kazandı\nRed Bull'dan Max Verstappen, 34 kez liderin değiştiği olağanüstü Las Vegas Grand Prix'sini kazandı.\n\nKaynaklar: Nation.Cymru, The Independent, Guardian, BBC Sport. Haberler Türkçe özet olarak derlenmiştir. Görseller: Pixabay. Fotoğraflar: Prime Minister's Office / OGL 3, Wikimedia Commons; Daniel Torok/White House / Public domain, Wikimedia Commons; Steffen Prößdorf / CC BY-SA 4.0, Wikimedia Commons.\n\n#İngiltere #UKNews #Londra #Galler #Siyaset #Sağlık #Ragbi #Futbol #Formula1 #BritishNews",
+  "images": [
+    "output/2026-11-22/00.jpg",
+    "output/2026-11-22/01.jpg",
+    "output/2026-11-22/02.jpg",
+    "output/2026-11-22/03.jpg",
+    "output/2026-11-22/04.jpg",
+    "output/2026-11-22/05.jpg",
+    "output/2026-11-22/06.jpg",
+    "output/2026-11-22/07.jpg",
+    "output/2026-11-22/08.jpg"
+  ],
+  "story_image": "output/2026-11-22/story.jpg",
+  "items": [
+    {
+      "ref": 12,
+      "emoji": "🏴󠁧󠁢󠁷",
+      "title": "Başbakan Burnham, Galler'in daha fazla yetki talebini reddetti",
+      "body": "Başbakan Andy Burnham, First Minister Rhun ap Iorwerth'e yazdığı mektupta Galler'in bazı alanlarda daha fazla yetki isteğini reddetti. Burnham, Westminster'ın bu kararların Birleşik Krallık düzeyinde kalması gerektiğini savundu.",
+      "source": "Nation.Cymru",
+      "photo_query": "Westminster Parliament building",
+      "person": "Andy Burnham",
+      "person_role": "politician",
+      "category": "siyaset",
+      "photo": {
+        "id": "wm:Prime Minister Andy Burnham portrait (cropped).jpg",
+        "provider": "Wikimedia Commons",
+        "person": "Andy Burnham",
+        "license": "OGL 3",
+        "photographer": "Prime Minister's Office",
+        "page": "https://commons.wikimedia.org/wiki/File:Prime_Minister_Andy_Burnham_portrait_(cropped).jpg",
+        "credit": "Prime Minister's Office / OGL 3, Wikimedia Commons"
+      }
+    },
+    {
+      "ref": 102,
+      "emoji": "🇪🇺",
+      "title": "Burnham, AB ile gelecekteki ilişkiyi önümüzdeki 12 ayda masaya yatıracak",
+      "body": "Başbakan Andy Burnham, Cuma günü Brüksel'de yaptığı konuşmada önümüzdeki 12 ayı AB ile Birleşik Krallık arasındaki gelecekteki ilişkiye dair fikirleri 'beyin fırtınası' yaparak geçireceklerini söyledi. Anketler, kamuoyunun Brexit'e karşı döndüğünü gösteriyor.",
+      "source": "The Independent",
+      "photo_query": "Brussels EU Parliament building",
+      "person": "Andy Burnham",
+      "person_role": "politician",
+      "category": "siyaset",
+      "photo": {
+        "id": "wm:Prime Minister Andy Burnham portrait (cropped).jpg",
+        "provider": "Wikimedia Commons",
+        "person": "Andy Burnham",
+        "license": "OGL 3",
+        "photographer": "Prime Minister's Office",
+        "page": "https://commons.wikimedia.org/wiki/File:Prime_Minister_Andy_Burnham_portrait_(cropped).jpg",
+        "credit": "Prime Minister's Office / OGL 3, Wikimedia Commons"
+      }
+    },
+    {
+      "ref": 96,
+      "emoji": "⚕️",
+      "title": "NHS, hipertansiyon kaynaklı hastane yatışlarındaki artış için uyarı yaptı",
+      "body": "NHS, yüksek tansiyon nedeniyle hastaneye yatışlardaki 'endişe verici' artışa dikkat çekti. Kadınların yüksek tansiyon nedeniyle hastaneye yatış sayısı erkeklere göre üçte bir oranında daha fazla oldu.",
+      "source": "The Independent",
+      "photo_query": "NHS hospital entrance",
+      "person": "",
+      "person_role": "",
+      "category": "saglik",
+      "photo": {
+        "id": "pb:3212502",
+        "provider": "Pixabay",
+        "query": "NHS hospital entrance",
+        "photographer": "Tama66",
+        "page": "https://pixabay.com/photos/lost-places-clinic-building-3212502/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 114,
+      "emoji": "⛈️",
+      "title": "Met Office, güneybatı İngiltere için hava durumu uyarısı yayınladı",
+      "body": "Met Office, Devon ve Cornwall üzerinden yavaş ilerleyen bir yağmur kuşağı geçeceği uyarısı yaptı. Pazar günü Dartmoor'a 100 mm'den fazla yağış düşmesi bekleniyor. Bölgede sel uyarıları var, elektrik kesintisi riski bulunuyor.",
+      "source": "Guardian",
+      "photo_query": "UK weather warning storm",
+      "person": "",
+      "person_role": "",
+      "category": "hava",
+      "photo": {
+        "id": "pb:5312344",
+        "provider": "Pixabay",
+        "query": "UK weather warning storm",
+        "photographer": "BarneyElo",
+        "page": "https://pixabay.com/photos/railing-rain-wet-nature-drops-5312344/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 115,
+      "emoji": "👑",
+      "title": "Galler Prensesi, kanser tanısının etkisini BBC belgeselinde anlattı",
+      "body": "Galler Prensesi Catherine (44), bu ay yayınlanacak 30 dakikalık BBC belgeseli Heal'in fragmanında kanser tanısının etkisini anlatıyor. Catherine, 'Kanser sizi değiştiriyor. Bedeninizi, fiziksel olarak değiştiriyor' diyor.",
+      "source": "Guardian",
+      "photo_query": "Catherine Princess of Wales",
+      "person": "Catherine, Princess of Wales",
+      "person_role": "royal",
+      "category": "kraliyet",
+      "photo": {
+        "id": "wm:Princess of Wales at State Banquet 2025-09-17 (0.75 crop).jpg",
+        "provider": "Wikimedia Commons",
+        "person": "Catherine, Princess of Wales",
+        "license": "Public domain",
+        "photographer": "Daniel Torok/White House",
+        "page": "https://commons.wikimedia.org/wiki/File:Princess_of_Wales_at_State_Banquet_2025-09-17_(0.75_crop).jpg",
+        "credit": "Daniel Torok/White House / Public domain, Wikimedia Commons"
+      }
+    },
+    {
+      "ref": 106,
+      "emoji": "🏉",
+      "title": "İngiltere, Yeni Zelanda'yı 25 puan farkla yenerek rekor kırdı",
+      "body": "İngiltere, üç kez dünya şampiyonu olan Yeni Zelanda'yı 25 puan farkla yendi. All Blacks, bir hafta önce de Galler'e yenilmişti.",
+      "source": "BBC Sport",
+      "photo_query": "England rugby team Allianz Stadium",
+      "person": "",
+      "person_role": "",
+      "category": "spor",
+      "photo": {
+        "id": "pb:5180297",
+        "provider": "Pixabay",
+        "query": "England rugby team Allianz Stadium",
+        "photographer": "yogendras31",
+        "page": "https://pixabay.com/photos/football-player-soccer-sport-ball-5180297/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 78,
+      "emoji": "⚽",
+      "title": "Leeds United, Chelsea'yi Stamford Bridge'de 4-1 yendi",
+      "body": "Leeds United, Noah Okafor'un iki golüyle Chelsea deplasmanında 4-1 kazandı. Bu, Leeds'in 1999'dan bu yana Stamford Bridge'deki ilk galibiyeti oldu. Leeds, Premier League'de altıncı sıraya yükseldi.",
+      "source": "BBC Sport",
+      "photo_query": "Stamford Bridge Chelsea stadium",
+      "person": "",
+      "person_role": "",
+      "category": "spor",
+      "photo": {
+        "id": "pb:3244604",
+        "provider": "Pixabay",
+        "query": "Stamford Bridge Chelsea stadium",
+        "photographer": "cmolens",
+        "page": "https://pixabay.com/photos/bridge-sky-architecture-steel-3244604/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 29,
+      "emoji": "🏎️",
+      "title": "Verstappen, Ferrari'lerin çarpıştığı Las Vegas Grand Prix'sini kazandı",
+      "body": "Red Bull'dan Max Verstappen, 34 kez liderin değiştiği olağanüstü Las Vegas Grand Prix'sini kazandı. Yarışta Ferrari pilotları bir kez daha birbiriyle çarpıştı.",
+      "source": "BBC Sport",
+      "photo_query": "Las Vegas Formula 1 Grand Prix",
+      "person": "Max Verstappen",
+      "person_role": "racing driver",
+      "category": "spor",
+      "photo": {
+        "id": "wm:2024-08-25 Motorsport, Formel 1, Großer Preis der Niederlande 2024 STP 3973 by Stepro (portrait cropped).jpg",
+        "provider": "Wikimedia Commons",
+        "person": "Max Verstappen",
+        "license": "CC BY-SA 4.0",
+        "photographer": "Steffen Prößdorf",
+        "page": "https://commons.wikimedia.org/wiki/File:2024-08-25_Motorsport,_Formel_1,_Gro%C3%9Fer_Preis_der_Niederlande_2024_STP_3973_by_Stepro_(portrait_cropped).jpg",
+        "credit": "Steffen Prößdorf / CC BY-SA 4.0, Wikimedia Commons"
+      }
+    }
+  ],
+  "history_keys": [
+    "themenwhocouldbreaktheunionhaveburnhamandkinnockbecomeitsunlikelyarchitects",
+    "britainswaybacktoeuropepollsshowtidehasdecisivelyturnedagainstbrexit",
+    "nhsissueswarningoveralarmingriseofhypertensionhospitaladmissions",
+    "coldgiveswaytoraininpartsofukasweatherwarningissuedforsouthwestengland",
+    "princessofwalesspeaksaboutimpactofcancerdiagnosisinbbcfilmheal",
+    "englandbeatnewzealandbyrecordmargin",
+    "leedsdominatechelseaforfirststamfordbridgewinsince1999",
+    "verstappenwinsextraordinaryraceasferrariscollide"
+  ]
+}
