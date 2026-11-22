@@ -27,6 +27,10 @@ jobs:
   breaking:
     runs-on: ubuntu-latest
     timeout-minutes: 15
+    env:
+      BOT_LANG: en                    # @emresterling artık İngilizce yayın yapıyor (22 Kasım 2026)
+      BOT_OUT_DIR: output             # kayıtlar eskisi gibi output/ klasöründe (aynı gün tekrar paylaşım olmasın)
+      BRAND_HANDLE: "@emresterling"
     steps:
       - uses: actions/checkout@v5
 
@@ -65,7 +69,7 @@ jobs:
         env:
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
           IG_USER_ID: ${{ secrets.IG_USER_ID }}
-          EXPECTED_IG_USERNAME: ${{ vars.EXPECTED_IG_USERNAME }}
+          EXPECTED_IG_USERNAME: ${{ vars.EXPECTED_IG_USERNAME || 'emresterling' }}
           IMAGE_BASE_URL: https://raw.githubusercontent.com/${{ github.repository }}/${{ steps.push.outputs.sha }}
           DRY_RUN: ${{ (github.event_name == 'workflow_dispatch' && inputs.dry_run) && '1' || '0' }}
         run: python bot.py breaking-publish

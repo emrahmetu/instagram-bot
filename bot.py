@@ -42,7 +42,8 @@ TZ = ZoneInfo("Europe/London")
 # İki hesap aynı depoda çalışır; her dilin kayıtları ve görselleri ayrı klasördedir.
 LANG = os.environ.get("BOT_LANG", "tr").strip().lower()
 EN = LANG == "en"
-OUT_ROOT = Path("output-en" if EN else "output")
+# BOT_OUT_DIR: kayıt klasörünü elle seçmek için (ör. @emresterling İngilizce yayın yaparken "output" kalsın).
+OUT_ROOT = Path(os.environ.get("BOT_OUT_DIR") or ("output-en" if EN else "output"))
 
 
 def L(tr, en):
@@ -1904,6 +1905,13 @@ GUIDE_CATEGORIES = [                 # (GOV.UK yolu, kart etiketi, kategori reng
     ("visas-immigration", "VİZE VE GÖÇ", "goc"),
     ("working", "ÇALIŞMA HAYATI", "guvenlik"),
 ]
+if EN:
+    _GUIDE_EN = {"benefits": "BENEFITS", "births-deaths-marriages": "BIRTHS, DEATHS, MARRIAGES",
+                 "childcare-parenting": "CHILDCARE AND PARENTING", "citizenship": "CITIZENSHIP",
+                 "driving": "DRIVING AND TRANSPORT", "education": "EDUCATION", "employing-people": "EMPLOYING PEOPLE",
+                 "housing-local-services": "HOUSING AND LOCAL SERVICES", "tax": "TAX", "abroad": "LIVING ABROAD",
+                 "visas-immigration": "VISAS AND IMMIGRATION", "working": "WORK"}
+    GUIDE_CATEGORIES = [(s_, _GUIDE_EN[s_], c_) for s_, _, c_ in GUIDE_CATEGORIES]
 GOVUK = "https://www.gov.uk"
 GUIDE_FORMATS = {"guide", "answer", "transaction", "simple_smart_answer", "local_transaction", "place", "calculator"}
 
@@ -1994,17 +2002,42 @@ Kurallar:
   "warning":"..."}],
  "hashtags":["#İngiltere","..."]}
 hashtags: 8-12 adet, ilgili Türkçe ve İngilizce etiketler."""
+if EN:
+    GUIDE_PROMPT = """You are an editor creating INFOGRAPHIC content for an English-language Instagram account about life in the UK.
+You will be given two official guide texts taken from GOV.UK. For each guide, prepare the content for two infographic cards.
+
+Rules:
+- Use ONLY information in the GOV.UK text provided. Never invent figures, dates, fees or conditions; if it is not in the text, leave it out.
+- Infographic style: short, clear, scannable phrases. Full sentences not required; each bullet at most 55 characters.
+- "key_fact": the single most striking figure/fact in the text (e.g. "£4,000", "8 weeks", "age 18"); "value" at most 12 characters,
+  "label" at most 70 characters. If the text has no suitable figure, set key_fact to null.
+- "sections": EXACTLY 4 boxes. Each has "icon" (one of: kim, sart, para, sure, belge, bilgi, basvuru, ev, iletisim,
+  hukuk, saglik, seyahat — these are fixed icon keys, keep them as written), "heading" (at most 28 characters) and 2-3 "points" (each at most 55 characters).
+  Suitable headings: What is it?, Who can get it?, Eligibility, How much?, How long?, Documents needed, Watch out.
+- "steps": how to apply / what to do, 3-5 steps; each with "heading" (at most 32 characters) and "text" (at most 100 characters).
+  If the text does not describe a process, derive sensible ordered steps from the GOV.UK information, without inventing facts.
+- "warning": one important thing the reader should know (at most 140 characters) or null.
+- "title": at most 60 characters, engaging but not sensational. "summary": 2-3 sentences for the caption.
+- Plain British English. Do not give legal advice.
+
+Output ONLY JSON:
+{"guides":[{"title":"...","summary":"...","key_fact":{"value":"...","label":"..."},
+  "sections":[{"icon":"kim","heading":"...","points":["...","..."]}, ... 4 items],
+  "steps":[{"heading":"...","text":"..."}, ...],
+  "warning":"..."}],
+ "hashtags":["#UK","..."]}
+hashtags: 8-12 relevant English hashtags."""
 GUIDE_PROMPT += "\n\n" + TERMS
 
 
 def summarize_guides(guides, label):
     import anthropic
 
-    blocks = "\n\n".join(f"### REHBER {i + 1}: {g['title']} ({g['url']})\nAlt başlık: {g['sub_title']}\n"
+    blocks = "\n\n".join(f"### {L('REHBER', 'GUIDE')} {i + 1}: {g['title']} ({g['url']})\nAlt başlık: {g['sub_title']}\n"
                          f"Açıklama: {g['description']}\n\n{g['text']}" for i, g in enumerate(guides))
     msg = anthropic.Anthropic().messages.create(
         model=WRITER_MODEL, max_tokens=4000, system=GUIDE_PROMPT + "\n\n" + STYLE,
-        messages=[{"role": "user", "content": f"Bugünün kategorisi: {label}\n\n{blocks}"}],
+        messages=[{"role": "user", "content": L("Bugünün kategorisi", "Today's category") + f": {label}\n\n{blocks}"}],
     )
     return parse_json("".join(b.text for b in msg.content if getattr(b, "type", "") == "text"))
 
@@ -2021,10 +2054,10 @@ def render_guide_cover(gs, label, color, day, path):
     img, d = base_canvas(color)
     max_w = W - 2 * MARGIN
     y = 110
-    x = chip(d, MARGIN, y, "GÜNÜN REHBERİ", INK, size=28)
+    x = chip(d, MARGIN, y, L("GÜNÜN REHBERİ", "GUIDE OF THE DAY"), INK, size=28)
     chip(d, x + 14, y, label, color, size=28)
     y += 100
-    fnt, lines, lh = fit_text(d, "İngiltere'de Bilmeniz Gerekenler", "bold", max_w, 260, 88, 56, 1.12)
+    fnt, lines, lh = fit_text(d, L("İngiltere'de Bilmeniz Gerekenler", "What You Need to Know in the UK"), "bold", max_w, 260, 88, 56, 1.12)
     y = draw_lines(d, MARGIN, y, lines, fnt, lh, INK) + 40
     d.rounded_rectangle([MARGIN, y, MARGIN + 140, y + 8], radius=4, fill=color)
     y += 60
@@ -2034,7 +2067,7 @@ def render_guide_cover(gs, label, color, day, path):
         y = draw_lines(d, MARGIN + 90, y, lines, fnt, lh, INK) + 14
         sf = font("regular", 30)
         y = draw_lines(d, MARGIN + 90, y, wrap(d, no_emoji(g["summary"]), sf, max_w - 90)[:3], sf, 42, BODY) + 44
-    footer(d, "Kaydırın  ›   Kaynak: GOV.UK")
+    footer(d, L("Kaydırın  ›   Kaynak: GOV.UK", "Swipe  ›   Source: GOV.UK"))
     img.save(path, "JPEG", quality=92, optimize=True)
 
 
@@ -2046,12 +2079,16 @@ def title_tr(s):
 
 
 def build_guide_caption(gs, tags, label, day):
-    parts = [f"📘 Günün Rehberi | {title_tr(label)} | {day.day} {MONTHS_TR[day.month - 1]} {day.year}", ""]
+    if EN:
+        parts = [f"📘 Guide of the Day | {label.title().replace(' And ', ' and ')} | {day.day} {MONTHS_EN[day.month - 1]} {day.year}", ""]
+    else:
+        parts = [f"📘 Günün Rehberi | {title_tr(label)} | {day.day} {MONTHS_TR[day.month - 1]} {day.year}", ""]
     for i, g in enumerate(gs, 1):
-        parts += [f"{i}. {g['title']}", g["summary"], f"Kaynak: {g['url']}", ""]
+        parts += [f"{i}. {g['title']}", g["summary"], L("Kaynak: ", "Source: ") + g["url"], ""]
     provs = sorted({g["photo"].get("provider", "Pexels") for g in gs if g.get("photo")})
-    parts.append("Bilgiler GOV.UK'den derlenmiştir (Open Government Licence). Kişisel durumunuz için resmi sayfayı kontrol edin."
-                 + (f" Görseller: {', '.join(provs)}." if provs else ""))
+    parts.append(L("Bilgiler GOV.UK'den derlenmiştir (Open Government Licence). Kişisel durumunuz için resmi sayfayı kontrol edin.",
+                   "Information compiled from GOV.UK (Open Government Licence). Check the official page for your own circumstances.")
+                 + (L(" Görseller: ", " Images: ") + ", ".join(provs) + "." if provs else ""))
     parts += ["", " ".join(tags[:30])]
     return "\n".join(parts)[:CAPTION_LIMIT].strip()
 
@@ -2099,7 +2136,7 @@ def info_header(d, color, page, total, chip_text):
 
 def render_info_overview(g, gi, label, color, page, total, path):
     img, d = base_canvas(color)
-    y = info_header(d, color, page, total, f"REHBER {gi} · {label}")
+    y = info_header(d, color, page, total, f"{L('REHBER', 'GUIDE')} {gi} · {label}")
     max_w = W - 2 * MARGIN
     f, lines, lh = fit_lines(d, g["title"], "bold", max_w, 2, 54, 38)
     y = draw_lines(d, MARGIN, y, lines, f, lh, INK) + 22
@@ -2149,13 +2186,13 @@ def render_info_overview(g, gi, label, color, page, total, path):
                 d.text((bx + 56, py), ln, font=fp, fill=BODY)
                 py += plh
             py += 10
-    footer(d, "Kaynak: GOV.UK")
+    footer(d, L("Kaynak: GOV.UK", "Source: GOV.UK"))
     img.save(path, "JPEG", quality=92, optimize=True)
 
 
 def render_info_steps(g, gi, label, color, page, total, url, path):
     img, d = base_canvas(color)
-    y = info_header(d, color, page, total, f"NASIL YAPILIR? · REHBER {gi}")
+    y = info_header(d, color, page, total, L(f"NASIL YAPILIR? · REHBER {gi}", f"HOW TO DO IT · GUIDE {gi}"))
     max_w = W - 2 * MARGIN
     f, lines, lh = fit_lines(d, g["title"], "bold", max_w, 2, 46, 34)
     y = draw_lines(d, MARGIN, y, lines, f, lh, INK) + 30
@@ -2191,13 +2228,13 @@ def render_info_steps(g, gi, label, color, page, total, url, path):
         icon_circle(d, MARGIN + 56, wy + warn_h / 2, 28, "uyari", BREAKING)
         draw_lines(d, MARGIN + 110, wy + (warn_h - wlh * len(wl)) / 2, wl, fw, wlh, INK)
     short = url.replace("https://www.", "")
-    footer(d, f"Ayrıntılar: {short}"[:48])
+    footer(d, (L("Ayrıntılar: ", "Details: ") + short)[:48])
     img.save(path, "JPEG", quality=92, optimize=True)
 
 
 def cmd_guide(args):
-    if EN:
-        log("Rehber postları yalnızca Türkçe hesap için; İngilizce hesapta atlanıyor.")
+    if EN and os.environ.get("GUIDE_EN", "1") != "1":
+        log("İngilizce rehber kapalı (GUIDE_EN=0), atlanıyor.")
         return
     day = today_london()
     out = OUT_ROOT / day.isoformat() / "rehber"
@@ -2229,7 +2266,7 @@ def cmd_guide(args):
         if len(secs) < 2 or len(steps) < 2:
             log(f"[rehber] Eksik içerik, atlandı: {item['title']}")
             continue
-        if is_sensitive(alltext) or not is_turkish(alltext):
+        if is_sensitive(alltext) or (not EN and not is_turkish(alltext)):
             log(f"[rehber] Dil ya da içerik kontrolünden geçmedi, atlandı: {item['title']}")
             continue
         gs.append(item)
