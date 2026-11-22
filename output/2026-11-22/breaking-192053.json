@@ -1,0 +1,32 @@
+{
+  "type": "breaking",
+  "created_at": "2026-11-22T19:20:53.329477+00:00",
+  "item": {
+    "ref": 5,
+    "emoji": "🏥",
+    "title": "Thirty-one NHS trusts in England warn of 'unpalatable' cuts",
+    "body": "Dozens of hospitals in England are so short of money they may not be able to continue caring for patients, the Guardian has revealed. Thirty-one trusts have warned that NHS cost-cutting demands threaten their ability to function normally.",
+    "source": "Guardian",
+    "photo_query": "NHS hospital entrance",
+    "person": "",
+    "person_role": "",
+    "category": "saglik",
+    "photo": {
+      "id": "pb:7990047",
+      "provider": "Pixabay",
+      "query": "Union Jack flag",
+      "photographer": "jacek_herbut",
+      "page": "https://pixabay.com/photos/street-photography-hat-adult-7990047/",
+      "fallback": true
+    }
+  },
+  "caption": "🔴 BREAKING | 🏥 Thirty-one NHS trusts in England warn of 'unpalatable' cuts\n\nDozens of hospitals in England are so short of money they may not be able to continue caring for patients, the Guardian has revealed. Thirty-one trusts have warned that NHS cost-cutting demands threaten their ability to function normally.\n\nSource: Guardian | Image: Pixabay\nUK Daily Briefing | 22 November, 19:20\n\n#BreakingNews #NHS #HealthcareUK",
+  "images": [
+    "output/2026-11-22/breaking-192053.jpg"
+  ],
+  "story_image": "output/2026-11-22/breaking-192053-story.jpg",
+  "history_keys": [
+    "nhssavingsdriveleaveshospitalsinenglandfacingunpalatablecuts"
+  ],
+  "published": false
+}
