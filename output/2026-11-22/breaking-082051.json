@@ -1,0 +1,32 @@
+{
+  "type": "breaking",
+  "created_at": "2026-11-22T08:20:51.975130+00:00",
+  "item": {
+    "ref": 4,
+    "emoji": "🚇",
+    "title": "Tube sürücülerinin 24 saatlik grev dizisi birkaç gün içinde başlaması bekleniyor",
+    "body": "Tube sürücülerinin bir dizi 24 saatlik grevden ilkine birkaç gün içinde başlaması bekleniyor. Kaynakta grevlerin tam takvimi de yer alıyor.",
+    "source": "Metro",
+    "photo_query": "London Underground Tube train station",
+    "person": "",
+    "person_role": "",
+    "category": "gundem",
+    "photo": {
+      "id": "pb:661383",
+      "provider": "Pixabay",
+      "query": "London Underground Tube train station",
+      "photographer": "joakant",
+      "page": "https://pixabay.com/photos/london-tube-subway-public-transport-661383/",
+      "fallback": false
+    }
+  },
+  "caption": "🔴 SON DAKİKA | 🚇 Tube sürücülerinin 24 saatlik grev dizisi birkaç gün içinde başlaması bekleniyor\n\nTube sürücülerinin bir dizi 24 saatlik grevden ilkine birkaç gün içinde başlaması bekleniyor. Kaynakta grevlerin tam takvimi de yer alıyor.\n\nKaynak: Metro | Görsel: Pixabay\nBirleşik Krallık Gündemi | 22 Kasım, 08:20\n\n#SonDakika #LondraMeta #Grev",
+  "images": [
+    "output/2026-11-22/breaking-082051.jpg"
+  ],
+  "story_image": "output/2026-11-22/breaking-082051-story.jpg",
+  "history_keys": [
+    "fulllistofupcomingtubestrikesasmajorwalkouttostartindays"
+  ],
+  "published": false
+}
