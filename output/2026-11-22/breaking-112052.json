@@ -1,0 +1,32 @@
+{
+  "type": "breaking",
+  "created_at": "2026-11-22T11:20:52.027527+00:00",
+  "item": {
+    "ref": 5,
+    "emoji": "🤝",
+    "title": "İngiliz üreticiler AB ile yapılan gıda anlaşmasını memnuniyetle karşıladı",
+    "body": "İngiliz üreticiler, Birleşik Krallık ile AB arasındaki anlaşmayı genel olarak olumlu karşıladı. Anlaşma gıda, bitki ve hayvan ürünlerindeki fiziki kontrollerin büyük bölümünü kaldırmayı hedefliyor. SPS anlaşmasının ihracatçılara yarar sağlaması bekleniyor. İhracatçılar uygulamanın uzun sürmesinden şikâyetçi.",
+    "source": "Guardian",
+    "photo_query": "UK EU trade agreement",
+    "person": "",
+    "person_role": "",
+    "category": "gundem",
+    "photo": {
+      "id": "pb:2998302",
+      "provider": "Pixabay",
+      "query": "UK EU trade agreement",
+      "photographer": "Tumisu",
+      "page": "https://pixabay.com/photos/handshake-business-hand-2998302/",
+      "fallback": false
+    }
+  },
+  "caption": "🔴 SON DAKİKA | 🤝 İngiliz üreticiler AB ile yapılan gıda anlaşmasını memnuniyetle karşıladı\n\nİngiliz üreticiler, Birleşik Krallık ile AB arasındaki anlaşmayı genel olarak olumlu karşıladı. Anlaşma gıda, bitki ve hayvan ürünlerindeki fiziki kontrollerin büyük bölümünü kaldırmayı hedefliyor. SPS anlaşmasının ihracatçılara yarar sağlaması bekleniyor. İhracatçılar uygulamanın uzun sürmesinden şikâyetçi.\n\nKaynak: Guardian | Görsel: Pixabay\nBirleşik Krallık Gündemi | 22 Kasım, 11:20\n\n#SonDakika #AB #Ticaret #İhracat",
+  "images": [
+    "output/2026-11-22/breaking-112052.jpg"
+  ],
+  "story_image": "output/2026-11-22/breaking-112052-story.jpg",
+  "history_keys": [
+    "ukeufooddealhailedbybritishfirmswereprettyalignedanyway"
+  ],
+  "published": false
+}
