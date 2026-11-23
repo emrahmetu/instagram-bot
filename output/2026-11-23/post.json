@@ -1,0 +1,180 @@
+{
+  "date": "2026-11-23",
+  "caption": "🇬🇧 UK Daily Briefing | Monday, 23 November 2026\n\n1. 🤝 PM to tell MPs EU deal is a 'choice between a broken status quo or change'\nThe prime minister will tell MPs the deal agreed on Friday is a \"landmark\" agreement that could make the next decade \"much better\".\n\n2. 🏠 Rents in Britain forecast to rise about twice as fast as buying costs\nHamptons predicts rents on newly agreed lets will grow by 14.2%, as shrinking supply pushes up costs for tenants. Renting is expected to rise about twice as fast as buying until at least 2029.\n\n3. 💷 Disability minister to recommend 'fundamental overhaul' of PIP assessments\nSir Stephen Timms says he will recommend major reforms to the personal independence payment (PIP). A report is due to say assessments need a \"fundamental overhaul\".\n\n4. ⚰️ Bereaved families are falling into debt as funeral costs outpace state aid\nState help with funeral costs no longer covers even half a typical funeral director's fee, leaving families borrowing money or forgoing a service with mourners. MPs are set to discuss bereavement support.\n\n5. 🏥 NHS launches world's largest trial of AI to spot breast cancer earlier\nResearchers will test the technology in breast cancer screening, which could ease pressure on the NHS.\n\n6. 🛒 Poundland has days to find a buyer or face administration\nPoundland has a matter of days to find a buyer or it could collapse into administration.\n\n7. ⚠️ Co-op Live evacuated after 'unknown substance' let off in crowd\nOne person was taken to hospital after a major incident was declared during a performance by US rapper Don Toliver at the Manchester venue.\n\n8. ⚽ Fifa set to confirm UK as host of 2035 Women's World Cup\nFifa is set to confirm on Monday that the UK will host the 2035 Women's World Cup, the first football World Cup in the UK since 1966.\n\nSources: BBC, Guardian, BBC Sport. Stories summarised from UK media reports. Images: Pixabay.\n\n#UKNews #Britain #Politics #CostOfLiving #NHS #Economy #Football #Manchester #RentalMarket #Disability",
+  "images": [
+    "output/2026-11-23/00.jpg",
+    "output/2026-11-23/01.jpg",
+    "output/2026-11-23/02.jpg",
+    "output/2026-11-23/03.jpg",
+    "output/2026-11-23/04.jpg",
+    "output/2026-11-23/05.jpg",
+    "output/2026-11-23/06.jpg",
+    "output/2026-11-23/07.jpg",
+    "output/2026-11-23/08.jpg"
+  ],
+  "story_image": "output/2026-11-23/story.jpg",
+  "items": [
+    {
+      "ref": 14,
+      "emoji": "🤝",
+      "title": "PM to tell MPs EU deal is a 'choice between a broken status quo or change'",
+      "body": "The prime minister will tell MPs the deal agreed on Friday is a \"landmark\" agreement that could make the next decade \"much better\".",
+      "source": "BBC",
+      "photo_query": "Westminster Parliament building",
+      "person": "Keir Starmer",
+      "person_role": "politician",
+      "category": "siyaset",
+      "photo": {
+        "id": "pb:66499",
+        "provider": "Pixabay",
+        "query": "Westminster Parliament building",
+        "photographer": "tobatoppers",
+        "page": "https://pixabay.com/photos/big-ben-london-tower-building-66499/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 35,
+      "emoji": "🏠",
+      "title": "Rents in Britain forecast to rise about twice as fast as buying costs",
+      "body": "Hamptons predicts rents on newly agreed lets will grow by 14.2%, as shrinking supply pushes up costs for tenants. Renting is expected to rise about twice as fast as buying until at least 2029.",
+      "source": "Guardian",
+      "photo_query": "pound sterling coins",
+      "person": "",
+      "person_role": "",
+      "category": "ekonomi",
+      "photo": {
+        "id": "pb:163811",
+        "provider": "Pixabay",
+        "query": "pound sterling coins",
+        "photographer": "PublicDomainPictures",
+        "page": "https://pixabay.com/photos/background-british-budget-business-163811/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 44,
+      "emoji": "💷",
+      "title": "Disability minister to recommend 'fundamental overhaul' of PIP assessments",
+      "body": "Sir Stephen Timms says he will recommend major reforms to the personal independence payment (PIP). A report is due to say assessments need a \"fundamental overhaul\".",
+      "source": "BBC",
+      "photo_query": "NHS sign hospital",
+      "person": "Stephen Timms",
+      "person_role": "politician",
+      "category": "saglik",
+      "photo": {
+        "id": "pb:1745442",
+        "provider": "Pixabay",
+        "query": "NHS sign hospital",
+        "photographer": "paulbr75",
+        "page": "https://pixabay.com/photos/patient-pickup-sign-symbol-hospital-1745442/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 26,
+      "emoji": "⚰️",
+      "title": "Bereaved families are falling into debt as funeral costs outpace state aid",
+      "body": "State help with funeral costs no longer covers even half a typical funeral director's fee, leaving families borrowing money or forgoing a service with mourners. MPs are set to discuss bereavement support.",
+      "source": "Guardian",
+      "photo_query": "flowers grave memorial",
+      "person": "",
+      "person_role": "",
+      "category": "gundem",
+      "photo": {
+        "id": "pb:4653166",
+        "provider": "Pixabay",
+        "query": "flowers grave memorial",
+        "photographer": "fietzfotos",
+        "page": "https://pixabay.com/photos/cemetery-tombstone-grave-graveyard-4653166/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 51,
+      "emoji": "🏥",
+      "title": "NHS launches world's largest trial of AI to spot breast cancer earlier",
+      "body": "Researchers will test the technology in breast cancer screening, which could ease pressure on the NHS.",
+      "source": "BBC",
+      "photo_query": "NHS ambulance",
+      "person": "",
+      "person_role": "",
+      "category": "saglik",
+      "photo": {
+        "id": "pb:458368",
+        "provider": "Pixabay",
+        "query": "Brighton seafront",
+        "photographer": "hurk",
+        "page": "https://pixabay.com/photos/synagogue-architecture-church-458368/",
+        "fallback": true
+      }
+    },
+    {
+      "ref": 12,
+      "emoji": "🛒",
+      "title": "Poundland has days to find a buyer or face administration",
+      "body": "Poundland has a matter of days to find a buyer or it could collapse into administration.",
+      "source": "BBC",
+      "photo_query": "high street shop storefront",
+      "person": "",
+      "person_role": "",
+      "category": "ekonomi",
+      "photo": {
+        "id": "pb:2072016",
+        "provider": "Pixabay",
+        "query": "Cardiff Wales",
+        "photographer": "tom1068",
+        "page": "https://pixabay.com/photos/sculpture-monument-statue-landmark-2072016/",
+        "fallback": true
+      }
+    },
+    {
+      "ref": 43,
+      "emoji": "⚠️",
+      "title": "Co-op Live evacuated after 'unknown substance' let off in crowd",
+      "body": "One person was taken to hospital after a major incident was declared during a performance by US rapper Don Toliver at the Manchester venue.",
+      "source": "BBC",
+      "photo_query": "Manchester arena concert hall",
+      "person": "",
+      "person_role": "",
+      "category": "guvenlik",
+      "photo": {
+        "id": "pb:1499124",
+        "provider": "Pixabay",
+        "query": "Manchester arena concert hall",
+        "photographer": "photovicky",
+        "page": "https://pixabay.com/photos/iceland-reykjavik-harpa-1499124/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 68,
+      "emoji": "⚽",
+      "title": "Fifa set to confirm UK as host of 2035 Women's World Cup",
+      "body": "Fifa is set to confirm on Monday that the UK will host the 2035 Women's World Cup, the first football World Cup in the UK since 1966.",
+      "source": "BBC Sport",
+      "photo_query": "football pitch grass stadium",
+      "person": "",
+      "person_role": "",
+      "category": "spor",
+      "photo": {
+        "id": "pb:1525534",
+        "provider": "Pixabay",
+        "query": "football pitch grass stadium",
+        "photographer": "voltamax",
+        "page": "https://pixabay.com/photos/stadium-soccer-santiago-grass-1525534/",
+        "fallback": false
+      }
+    }
+  ],
+  "history_keys": [
+    "burnhamtotellmpslandmarkeudealcouldmakenextdecademuchbetter",
+    "costofrentinginbritaintorisetwiceasfastasbuyingamidshortageofproperties",
+    "pipassessmentsneedfundamentaloverhaulreporttosay",
+    "grievingfamiliesgettingintodebtanddoingwithoutmemorialsduetobenefitfreezes",
+    "canaispotbreastcancerearliernhslaunchesworldslargesttrialtofindout",
+    "poundlandisfacingcollapsewhatsgonewrong",
+    "manchesterscoopliveevacuatedafterunknownsubstanceletoffincrowd",
+    "fifatoconfirmukashostfor2035womensworldcup"
+  ]
+}
