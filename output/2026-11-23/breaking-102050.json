@@ -1,0 +1,32 @@
+{
+  "type": "breaking",
+  "created_at": "2026-11-23T10:20:50.540354+00:00",
+  "item": {
+    "ref": 4,
+    "emoji": "📉",
+    "title": "Capita chief executive steps down after pension payment failures",
+    "body": "Capita chief executive Adolfo Hernandez has agreed with the board to step down with immediate effect. He admitted the firm has \"not delivered\" for retired civil servants waiting for pension payments. Its shares have plunged 67%.",
+    "source": "Guardian",
+    "photo_query": "Capita office building UK",
+    "person": "Adolfo Hernandez",
+    "person_role": "businessman",
+    "category": "ekonomi",
+    "photo": {
+      "id": "pb:5710648",
+      "provider": "Pixabay",
+      "query": "Manchester city",
+      "photographer": "swindelljl",
+      "page": "https://pixabay.com/photos/flower-daffodil-white-flower-petals-5710648/",
+      "fallback": true
+    }
+  },
+  "caption": "🔴 BREAKING | 📉 Capita chief executive steps down after pension payment failures\n\nCapita chief executive Adolfo Hernandez has agreed with the board to step down with immediate effect. He admitted the firm has \"not delivered\" for retired civil servants waiting for pension payments. Its shares have plunged 67%.\n\nSource: Guardian | Image: Pixabay\nUK Daily Briefing | 23 November, 10:20\n\n#BreakingNews #Capita #CivilServicePensions",
+  "images": [
+    "output/2026-11-23/breaking-102050.jpg"
+  ],
+  "story_image": "output/2026-11-23/breaking-102050-story.jpg",
+  "history_keys": [
+    "capitabossexitsandsharescrashaftercivilservicepensionsfailures"
+  ],
+  "published": false
+}
