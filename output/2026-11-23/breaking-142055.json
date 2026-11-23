@@ -1,0 +1,32 @@
+{
+  "type": "breaking",
+  "created_at": "2026-11-23T14:20:55.071348+00:00",
+  "item": {
+    "ref": 9,
+    "emoji": "🏛️",
+    "title": "Natural England and Environment Agency could be abolished",
+    "body": "Louise Haigh announced plans to reform quangos, or quasi-autonomous non-governmental organisations, in a speech to the CBI. Natural England and the Environment Agency could be abolished as part of a quango cull.",
+    "source": "The Independent",
+    "photo_query": "Natural England office building",
+    "person": "Louise Haigh",
+    "person_role": "politician",
+    "category": "gundem",
+    "photo": {
+      "id": "pb:2580408",
+      "provider": "Pixabay",
+      "query": "Brighton seafront",
+      "photographer": "Claire_J_",
+      "page": "https://pixabay.com/photos/brighton-wheel-england-fun-2580408/",
+      "fallback": true
+    }
+  },
+  "caption": "🔴 BREAKING | 🏛️ Natural England and Environment Agency could be abolished\n\nLouise Haigh announced plans to reform quangos, or quasi-autonomous non-governmental organisations, in a speech to the CBI. Natural England and the Environment Agency could be abolished as part of a quango cull.\n\nSource: The Independent | Image: Pixabay\nUK Daily Briefing | 23 November, 14:20\n\n#BreakingNews #Environment #Government",
+  "images": [
+    "output/2026-11-23/breaking-142055.jpg"
+  ],
+  "story_image": "output/2026-11-23/breaking-142055-story.jpg",
+  "history_keys": [
+    "naturalenglandandenvironmentagencycouldbeabolishedinquangocull"
+  ],
+  "published": false
+}
