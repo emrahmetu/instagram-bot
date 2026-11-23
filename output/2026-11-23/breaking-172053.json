@@ -1,0 +1,32 @@
+{
+  "type": "breaking",
+  "created_at": "2026-11-23T17:20:53.611935+00:00",
+  "item": {
+    "ref": 20,
+    "emoji": "⚠️",
+    "title": "Met Office issues yellow weather warning for heavy rain and flooding",
+    "body": "The Met Office has issued a yellow weather warning for heavy rain and flooding in parts of the UK. The warning will be in place on Tuesday.",
+    "source": "The Independent",
+    "photo_query": "UK weather warning storm",
+    "person": "",
+    "person_role": "",
+    "category": "hava",
+    "photo": {
+      "id": "pb:8029038",
+      "provider": "Pixabay",
+      "query": "UK weather warning storm",
+      "photographer": "ELG21",
+      "page": "https://pixabay.com/photos/clouds-sky-atmosphere-cloudscape-8029038/",
+      "fallback": false
+    }
+  },
+  "caption": "🔴 BREAKING | ⚠️ Met Office issues yellow weather warning for heavy rain and flooding\n\nThe Met Office has issued a yellow weather warning for heavy rain and flooding in parts of the UK. The warning will be in place on Tuesday.\n\nSource: The Independent | Image: Pixabay\nUK Daily Briefing | 23 November, 17:20\n\n#BreakingNews #WeatherWarning #UKWeather",
+  "images": [
+    "output/2026-11-23/breaking-172053.jpg"
+  ],
+  "story_image": "output/2026-11-23/breaking-172053-story.jpg",
+  "history_keys": [
+    "metofficeissuesyellowweatherwarningwithheavyrainandfloodingtohitpartsofuk"
+  ],
+  "published": false
+}
