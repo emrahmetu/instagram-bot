@@ -1,0 +1,32 @@
+{
+  "type": "breaking",
+  "created_at": "2026-11-24T17:56:48.726060+00:00",
+  "item": {
+    "ref": 9,
+    "emoji": "🚇",
+    "title": "London Tube strike will go ahead after talks collapse",
+    "body": "A strike on the London Underground will go ahead after talks on Tuesday failed to resolve a dispute over a four-day working week.",
+    "source": "BBC",
+    "photo_query": "London Underground Tube train",
+    "person": "",
+    "person_role": "",
+    "category": "gundem",
+    "photo": {
+      "id": "pb:5115906",
+      "provider": "Pixabay",
+      "query": "London Underground Tube train",
+      "photographer": "alibon05",
+      "page": "https://pixabay.com/photos/train-transit-railway-rail-journey-5115906/",
+      "fallback": false
+    }
+  },
+  "caption": "🔴 BREAKING | 🚇 London Tube strike will go ahead after talks collapse\n\nA strike on the London Underground will go ahead after talks on Tuesday failed to resolve a dispute over a four-day working week.\n\nSource: BBC | Image: Pixabay\nUK Daily Briefing | 24 November, 17:56\n\n#BreakingNews #LondonTube #Strike",
+  "images": [
+    "output/2026-11-24/breaking-175648.jpg"
+  ],
+  "story_image": "output/2026-11-24/breaking-175648-story.jpg",
+  "history_keys": [
+    "londontubestriketogoaheadaftertalkstoresolvedisputecollapse"
+  ],
+  "published": false
+}
