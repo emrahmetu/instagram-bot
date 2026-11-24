@@ -1,0 +1,32 @@
+{
+  "type": "breaking",
+  "created_at": "2026-11-24T14:20:53.986909+00:00",
+  "item": {
+    "ref": 9,
+    "emoji": "🚨",
+    "title": "MI5 warns UK defence companies of Russian attacks on staff",
+    "body": "British businesses are being told their own staff are at risk of Russian attacks and that they must improve security. The warnings are being given in an unprecedented series of emergency briefings this week.",
+    "source": "The Independent",
+    "photo_query": "UK defence factory security",
+    "person": "",
+    "person_role": "",
+    "category": "guvenlik",
+    "photo": {
+      "id": "pb:1575185",
+      "provider": "Pixabay",
+      "query": "Union Jack flag",
+      "photographer": "pixel2013",
+      "page": "https://pixabay.com/photos/mannequin-puppet-decoration-head-1575185/",
+      "fallback": true
+    }
+  },
+  "caption": "🔴 BREAKING | 🚨 MI5 warns UK defence companies of Russian attacks on staff\n\nBritish businesses are being told their own staff are at risk of Russian attacks and that they must improve security. The warnings are being given in an unprecedented series of emergency briefings this week.\n\nSource: The Independent | Image: Pixabay\nUK Daily Briefing | 24 November, 14:20\n\n#BreakingNews #Security #Russia",
+  "images": [
+    "output/2026-11-24/breaking-142053.jpg"
+  ],
+  "story_image": "output/2026-11-24/breaking-142053-story.jpg",
+  "history_keys": [
+    "mi5issuesurgentwarningtoukdefencecompaniesoverrussianattacks"
+  ],
+  "published": false
+}
