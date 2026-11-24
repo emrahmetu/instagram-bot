@@ -1,0 +1,181 @@
+{
+  "date": "2026-11-24",
+  "caption": "🇬🇧 UK Daily Briefing | Tuesday, 24 November 2026\n\n1. 🏚️ Nearly four million people in destitution across UK, study suggests\nNew research suggests about 3.8 million people struggled to access basic necessities last year. The number of people in destitution across the UK is at a record level.\n\n2. ♿ Benefits review to recommend quicker Pip payments for some disabled people\nThe Timms review will recommend that people with severe conditions should not need to be reassessed to receive Personal Independence Payment (Pip).\n\n3. ❄️ Snow is forecast for UK as London temperatures set to hover around 0C\nTemperatures in the capital will hover around 0C later this week. London is set to get colder, with snow forecast across the UK.\n\n4. 🔪 Met Police make more than 260 arrests and confiscate 500 knives\nThe force's focus on reducing knife crime led to a 16.6% reduction in knife-enabled robbery over the last 12 months.\n\n5. ⚖️ Victims are failed at every step of justice system, report warns\nA major new report has warned that victims of crime are being failed at every step of the criminal justice system.\n\n6. 💼 Workplace conflict costs employers £51 billion a year, data shows\nResearch from Acas shows that 14 million employees across the UK experienced conflict at work in 2025.\n\n7. 🏥 NHS staff face dismissal if they snoop on patient files\nNHS chief executive Sir Jim Mackey urged health leaders to ensure staff complete the training to \"finally stamp out this shocking behaviour\".\n\n8. 👑 Catherine talks about 'mortality' in clip from upcoming BBC documentary\nThe Princess of Wales talks about her cancer journey in a new clip from the upcoming BBC documentary Heal.\n\nSources: Sky News, BBC, Evening Standard, The Independent. Stories summarised from UK media reports. Images: Pixabay. Photos: Daniel Torok/White House / Public domain, Wikimedia Commons.\n\n#UKNews #Britain #CostOfLiving #CriminalJustice #NHS #RoyalNews #Weather #KnifeControl #WorkplaceRights #DisabilitySupport",
+  "images": [
+    "output/2026-11-24/00.jpg",
+    "output/2026-11-24/01.jpg",
+    "output/2026-11-24/02.jpg",
+    "output/2026-11-24/03.jpg",
+    "output/2026-11-24/04.jpg",
+    "output/2026-11-24/05.jpg",
+    "output/2026-11-24/06.jpg",
+    "output/2026-11-24/07.jpg",
+    "output/2026-11-24/08.jpg"
+  ],
+  "story_image": "output/2026-11-24/story.jpg",
+  "items": [
+    {
+      "ref": 36,
+      "emoji": "🏚️",
+      "title": "Nearly four million people in destitution across UK, study suggests",
+      "body": "New research suggests about 3.8 million people struggled to access basic necessities last year. The number of people in destitution across the UK is at a record level.",
+      "source": "Sky News",
+      "photo_query": "UK homeless shelter food bank",
+      "person": "",
+      "person_role": "",
+      "category": "ekonomi",
+      "photo": {
+        "id": "pb:2754333",
+        "provider": "Pixabay",
+        "query": "UK homeless shelter food bank",
+        "photographer": "Mimzy",
+        "page": "https://pixabay.com/photos/shelter-cat-cage-adoption-homeless-2754333/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 40,
+      "emoji": "♿",
+      "title": "Benefits review to recommend quicker Pip payments for some disabled people",
+      "body": "The Timms review will recommend that people with severe conditions should not need to be reassessed to receive Personal Independence Payment (Pip).",
+      "source": "BBC",
+      "photo_query": "UK disability support wheelchair",
+      "person": "",
+      "person_role": "",
+      "category": "saglik",
+      "photo": {
+        "id": "pb:2814628",
+        "provider": "Pixabay",
+        "query": "UK disability support wheelchair",
+        "photographer": "anaterate",
+        "page": "https://pixabay.com/photos/wheelchair-users-wheelchair-2814628/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 11,
+      "emoji": "❄️",
+      "title": "Snow is forecast for UK as London temperatures set to hover around 0C",
+      "body": "Temperatures in the capital will hover around 0C later this week. London is set to get colder, with snow forecast across the UK.",
+      "source": "Evening Standard",
+      "photo_query": "London snow frost Big Ben",
+      "person": "",
+      "person_role": "",
+      "category": "hava",
+      "photo": {
+        "id": "pb:2777023",
+        "provider": "Pixabay",
+        "query": "London snow frost Big Ben",
+        "photographer": "margodeco",
+        "page": "https://pixabay.com/photos/london-england-travels-2777023/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 14,
+      "emoji": "🔪",
+      "title": "Met Police make more than 260 arrests and confiscate 500 knives",
+      "body": "The force's focus on reducing knife crime led to a 16.6% reduction in knife-enabled robbery over the last 12 months.",
+      "source": "Evening Standard",
+      "photo_query": "Metropolitan Police UK officer uniform",
+      "person": "",
+      "person_role": "",
+      "category": "guvenlik",
+      "photo": {
+        "id": "pb:6653407",
+        "provider": "Pixabay",
+        "query": "Metropolitan Police UK officer uniform",
+        "photographer": "Icsilviu",
+        "page": "https://pixabay.com/photos/officer-security-watch-the-sidewalk-6653407/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 38,
+      "emoji": "⚖️",
+      "title": "Victims are failed at every step of justice system, report warns",
+      "body": "A major new report has warned that victims of crime are being failed at every step of the criminal justice system.",
+      "source": "Sky News",
+      "photo_query": "UK court justice building",
+      "person": "",
+      "person_role": "",
+      "category": "guvenlik",
+      "photo": {
+        "id": "pb:1648944",
+        "provider": "Pixabay",
+        "query": "UK court justice building",
+        "photographer": "StevovoB",
+        "page": "https://pixabay.com/photos/the-royal-courts-of-justice-london-1648944/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 50,
+      "emoji": "💼",
+      "title": "Workplace conflict costs employers £51 billion a year, data shows",
+      "body": "Research from Acas shows that 14 million employees across the UK experienced conflict at work in 2025.",
+      "source": "The Independent",
+      "photo_query": "UK office workers business meeting",
+      "person": "",
+      "person_role": "",
+      "category": "ekonomi",
+      "photo": {
+        "id": "pb:779590",
+        "provider": "Pixabay",
+        "query": "UK office workers business meeting",
+        "photographer": "462634",
+        "page": "https://pixabay.com/photos/consultant-office-business-finance-779590/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 51,
+      "emoji": "🏥",
+      "title": "NHS staff face dismissal if they snoop on patient files",
+      "body": "NHS chief executive Sir Jim Mackey urged health leaders to ensure staff complete the training to \"finally stamp out this shocking behaviour\".",
+      "source": "The Independent",
+      "photo_query": "NHS hospital staff medical records",
+      "person": "Jim Mackey",
+      "person_role": "executive",
+      "category": "saglik",
+      "photo": {
+        "id": "pb:10203933",
+        "provider": "Pixabay",
+        "query": "NHS hospital staff medical records",
+        "photographer": "photostockeditor",
+        "page": "https://pixabay.com/photos/nurse-health-hospital-medical-10203933/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 63,
+      "emoji": "👑",
+      "title": "Catherine talks about 'mortality' in clip from upcoming BBC documentary",
+      "body": "The Princess of Wales talks about her cancer journey in a new clip from the upcoming BBC documentary Heal.",
+      "source": "BBC",
+      "photo_query": "royal palace Windsor",
+      "person": "Catherine, Princess of Wales",
+      "person_role": "royal",
+      "category": "kraliyet",
+      "photo": {
+        "id": "wm:Princess of Wales at State Banquet 2025-09-17 (0.75 crop).jpg",
+        "provider": "Wikimedia Commons",
+        "person": "Catherine, Princess of Wales",
+        "license": "Public domain",
+        "photographer": "Daniel Torok/White House",
+        "page": "https://commons.wikimedia.org/wiki/File:Princess_of_Wales_at_State_Banquet_2025-09-17_(0.75_crop).jpg",
+        "credit": "Daniel Torok/White House / Public domain, Wikimedia Commons"
+      }
+    }
+  ],
+  "history_keys": [
+    "nearlyfourmillionindestitutionacrossukstudysuggests",
+    "benefitsreviewtosuggestquickerpaymentforsomedisabledpeople",
+    "londonfreezesagainanditssettogetcolderassnowforecastforuk",
+    "metpolicemakemorethan260arrestsandconfiscate500knivesincrackdown",
+    "victimsfailedateverystepofcriminaljusticesystemreport",
+    "workplaceconflictcostsemployers51billionayearnewdatashows",
+    "nhsstafffacedismissaliftheysnooponpatientfilestheyhavenobusinessseeing",
+    "lifeisnotinfinitecatherinetalksaboutmortalityinnewdocumentaryclip"
+  ]
+}
