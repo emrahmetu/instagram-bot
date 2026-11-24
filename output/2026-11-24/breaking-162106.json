@@ -1,0 +1,32 @@
+{
+  "type": "breaking",
+  "created_at": "2026-11-24T16:21:06.006625+00:00",
+  "item": {
+    "ref": 17,
+    "emoji": "⚡",
+    "title": "Ofgem expected to raise price cap by 26%, adding £443 to average bill",
+    "body": "Ofgem is predicted to raise the energy price cap by 26% from January. Analysts expect the average annual household energy bill to rise by £443 from the start of 2027.",
+    "source": "The Independent",
+    "photo_query": "UK energy meter home",
+    "person": "",
+    "person_role": "",
+    "category": "ekonomi",
+    "photo": {
+      "id": "pb:96512",
+      "provider": "Pixabay",
+      "query": "UK energy meter home",
+      "photographer": "biker_becca",
+      "page": "https://pixabay.com/photos/meter-kilo-watt-hours-amps-antique-96512/",
+      "fallback": false
+    }
+  },
+  "caption": "🔴 BREAKING | ⚡ Ofgem expected to raise price cap by 26%, adding £443 to average bill\n\nOfgem is predicted to raise the energy price cap by 26% from January. Analysts expect the average annual household energy bill to rise by £443 from the start of 2027.\n\nSource: The Independent | Image: Pixabay\nUK Daily Briefing | 24 November, 16:21\n\n#BreakingNews #EnergyCrisis #PriceCap",
+  "images": [
+    "output/2026-11-24/breaking-162106.jpg"
+  ],
+  "story_image": "output/2026-11-24/breaking-162106-story.jpg",
+  "history_keys": [
+    "energybillssettosoarasofgempredictedtoraisepricecapby26fromjanuary"
+  ],
+  "published": false
+}
