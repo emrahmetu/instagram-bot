@@ -1,4 +1,4 @@
-name: Instagram EN Günlük Paylaşım (@emresterlin)
+name: Instagram Günlük Paylaşım (@emresterlin, Türkçe)
 
 on:
   schedule:
@@ -31,7 +31,9 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 20
     env:
-      BOT_LANG: en            # İngilizce hesap: kayıtlar output-en/ klasöründe
+      BOT_LANG: tr            # @emresterlin artık Türkçe paylaşıyor (25 Kasım 2026)
+      BOT_OUT_DIR: output-en  # bu hesabın kayıtları ayrı klasörde kalır
+      BRAND_HANDLE: "@emresterlin"
     steps:
       - uses: actions/checkout@v5
 
@@ -70,7 +72,7 @@ jobs:
         env:
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN_EN || secrets.IG_ACCESS_TOKEN }}
           IG_USER_ID: ${{ secrets.IG_USER_ID_EN }}
-          EXPECTED_IG_USERNAME: ${{ vars.EXPECTED_IG_USERNAME_EN }}
+          EXPECTED_IG_USERNAME: ${{ vars.EXPECTED_IG_USERNAME_EN || 'emresterlin' }}
           IMAGE_BASE_URL: https://raw.githubusercontent.com/${{ github.repository }}/${{ steps.push.outputs.sha }}
           DRY_RUN: ${{ (github.event_name == 'workflow_dispatch' && inputs.dry_run) && '1' || '0' }}
           FORCE: ${{ (github.event_name == 'workflow_dispatch' && inputs.force) && '1' || '0' }}

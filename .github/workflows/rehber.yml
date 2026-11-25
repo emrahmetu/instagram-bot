@@ -1,4 +1,4 @@
-name: Instagram GOV.UK Rehber
+name: Instagram GOV.UK Rehber (@emresterlin, Türkçe)
 
 on:
   schedule:
@@ -23,7 +23,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: instagram-post
+  group: instagram-post-en
   cancel-in-progress: false
 
 jobs:
@@ -31,9 +31,9 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 20
     env:
-      BOT_LANG: en                    # @emresterling artık İngilizce yayın yapıyor (22 Kasım 2026)
-      BOT_OUT_DIR: output             # kayıtlar eskisi gibi output/ klasöründe (aynı gün tekrar paylaşım olmasın)
-      BRAND_HANDLE: "@emresterling"
+      BOT_LANG: tr            # @emresterlin artık Türkçe paylaşıyor (25 Kasım 2026)
+      BOT_OUT_DIR: output-en  # bu hesabın kayıtları ayrı klasörde kalır
+      BRAND_HANDLE: "@emresterlin"
     steps:
       - uses: actions/checkout@v5
 
@@ -59,7 +59,7 @@ jobs:
         run: |
           git config user.name "instagram-bot"
           git config user.email "instagram-bot@users.noreply.github.com"
-          git add output
+          mkdir -p output-en && git add output-en
           if git diff --cached --quiet; then
             echo "Yeni dosya yok."
           else
@@ -70,9 +70,9 @@ jobs:
 
       - name: Instagram'a yayınla
         env:
-          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
-          IG_USER_ID: ${{ secrets.IG_USER_ID }}
-          EXPECTED_IG_USERNAME: ${{ vars.EXPECTED_IG_USERNAME || 'emresterling' }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN_EN || secrets.IG_ACCESS_TOKEN }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID_EN }}
+          EXPECTED_IG_USERNAME: ${{ vars.EXPECTED_IG_USERNAME_EN || 'emresterlin' }}
           IMAGE_BASE_URL: https://raw.githubusercontent.com/${{ github.repository }}/${{ steps.push.outputs.sha }}
           DRY_RUN: ${{ (github.event_name == 'workflow_dispatch' && inputs.dry_run) && '1' || '0' }}
           FORCE: ${{ (github.event_name == 'workflow_dispatch' && inputs.force) && '1' || '0' }}
@@ -81,7 +81,7 @@ jobs:
       - name: Yayın kaydını sakla (aynı gün iki kez paylaşmasın)
         if: always()
         run: |
-          git add output
+          mkdir -p output-en && git add output-en
           if ! git diff --cached --quiet; then
             git commit -q -m "Rehber yayın kaydı $(date -u +%F)"
             for i in 1 2 3; do if git pull --rebase -X theirs -q origin "${GITHUB_REF_NAME}" && git push -q; then ok=1; break; fi; git rebase --abort 2>/dev/null || true; sleep 5; done; [ "$ok" = 1 ] || exit 1
