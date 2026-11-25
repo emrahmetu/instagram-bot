@@ -1,0 +1,32 @@
+{
+  "type": "breaking",
+  "created_at": "2026-11-25T08:20:57.710201+00:00",
+  "item": {
+    "ref": 3,
+    "emoji": "⚡",
+    "title": "Energy bills set to rise by £443 a year as price cap increases",
+    "body": "Energy bills are set to rise by £443 a year as the energy price cap goes up again. The increase will leave the cap at its highest level in four years.",
+    "source": "The Independent",
+    "photo_query": "UK electricity meter",
+    "person": "",
+    "person_role": "",
+    "category": "ekonomi",
+    "photo": {
+      "id": "pb:4850058",
+      "provider": "Pixabay",
+      "query": "UK electricity meter",
+      "photographer": "ds_30",
+      "page": "https://pixabay.com/photos/measurement-light-energy-fuel-4850058/",
+      "fallback": false
+    }
+  },
+  "caption": "🔴 BREAKING | ⚡ Energy bills set to rise by £443 a year as price cap increases\n\nEnergy bills are set to rise by £443 a year as the energy price cap goes up again. The increase will leave the cap at its highest level in four years.\n\nSource: The Independent | Image: Pixabay\nUK Daily Briefing | 25 November, 08:20\n\n#BreakingNews #EnergyBills #CostOfLiving",
+  "images": [
+    "output/2026-11-25/breaking-082057.jpg"
+  ],
+  "story_image": "output/2026-11-25/breaking-082057-story.jpg",
+  "history_keys": [
+    "energybillstosoarby443ayearasenergypricecaprisesagain"
+  ],
+  "published": false
+}
