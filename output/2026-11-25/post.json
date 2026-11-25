@@ -1,0 +1,181 @@
+{
+  "date": "2026-11-25",
+  "caption": "🇬🇧 UK Daily Briefing | Wednesday, 25 November 2026\n\n1. ⚡ Energy bills are to rise by 26% from January\nA household using a typical amount of energy would see its annual bill rise from £1,723 to £2,166 if this level was sustained for a year.\n\n2. 💷 Government-commissioned disability benefit review calls for closer link with costs\nA government-commissioned report calls for a \"rebalancing\" of the amount paid to different disability benefit claimants, linking it more closely to their costs.\n\n3. 🔪 Government to take forward plans for knife seller licensing scheme\nThe planned scheme would cover businesses and private sellers of knives, with the aim of keeping dangerous weapons off the streets.\n\n4. 📊 Study finds widespread misperceptions on immigration among the public\nA new study found a widespread lack of knowledge of the actual level, scale and nature of immigration to the UK.\n\n5. 🏛️ Burnham confirms independent panel on health legacy of Cold War nuclear tests\nThe prime minister says a Hillsborough-style independent panel will examine the health legacy of Britain's Cold War-era atomic programme. He says nuclear test veterans will get the full truth.\n\n6. 🌡️ Record 5,200 heat-linked deaths are estimated in England this year\nThe UK Health Security Agency says this year's number of deaths is twice that of the previous record year.\n\n7. 🚔 Report finds racism, misogyny and homophobia remain in the Met\nA new report has found institutional racism, misogyny and homophobia still exist in the Metropolitan Police, three years after a damning review.\n\n8. 💰 Millions of people will receive a £100 energy payment from January\nAn explainer sets out whether people will get the £100 energy payment and when it will arrive. Millions are due to receive it from January.\n\nSources: BBC, GOV.UK Home Office, Sky News. Stories summarised from UK media reports. Images: Pixabay. Photos: Prime Minister's Office / OGL 3, Wikimedia Commons.\n\n#UKNews #EnergyBills #CostOfLiving #Benefits #Immigration #Politics #Health #NHS #MetPolice #Britain",
+  "images": [
+    "output/2026-11-25/00.jpg",
+    "output/2026-11-25/01.jpg",
+    "output/2026-11-25/02.jpg",
+    "output/2026-11-25/03.jpg",
+    "output/2026-11-25/04.jpg",
+    "output/2026-11-25/05.jpg",
+    "output/2026-11-25/06.jpg",
+    "output/2026-11-25/07.jpg",
+    "output/2026-11-25/08.jpg"
+  ],
+  "story_image": "output/2026-11-25/story.jpg",
+  "items": [
+    {
+      "ref": 24,
+      "emoji": "⚡",
+      "title": "Energy bills are to rise by 26% from January",
+      "body": "A household using a typical amount of energy would see its annual bill rise from £1,723 to £2,166 if this level was sustained for a year.",
+      "source": "BBC",
+      "photo_query": "pound sterling coins energy meter",
+      "person": "",
+      "person_role": "",
+      "category": "ekonomi",
+      "photo": {
+        "id": "pb:5229752",
+        "provider": "Pixabay",
+        "query": "pound sterling coins energy meter",
+        "photographer": "jillrose999",
+        "page": "https://pixabay.com/photos/electric-meter-electricity-meter-5229752/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 88,
+      "emoji": "💷",
+      "title": "Government-commissioned disability benefit review calls for closer link with costs",
+      "body": "A government-commissioned report calls for a \"rebalancing\" of the amount paid to different disability benefit claimants, linking it more closely to their costs.",
+      "source": "BBC",
+      "photo_query": "UK benefits paperwork documents",
+      "person": "",
+      "person_role": "",
+      "category": "saglik",
+      "photo": {
+        "id": "pb:7091494",
+        "provider": "Pixabay",
+        "query": "UK benefits paperwork documents",
+        "photographer": "LUNEMax",
+        "page": "https://pixabay.com/photos/smart-phone-documents-paperwork-7091494/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 2,
+      "emoji": "🔪",
+      "title": "Government to take forward plans for knife seller licensing scheme",
+      "body": "The planned scheme would cover businesses and private sellers of knives, with the aim of keeping dangerous weapons off the streets.",
+      "source": "GOV.UK Home Office",
+      "photo_query": "Home Office UK government building",
+      "person": "",
+      "person_role": "",
+      "category": "guvenlik",
+      "photo": {
+        "id": "pb:5517744",
+        "provider": "Pixabay",
+        "query": "Home Office UK government building",
+        "photographer": "ricardorv30",
+        "page": "https://pixabay.com/photos/workplace-workspace-home-office-5517744/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 49,
+      "emoji": "📊",
+      "title": "Study finds widespread misperceptions on immigration among the public",
+      "body": "A new study found a widespread lack of knowledge of the actual level, scale and nature of immigration to the UK.",
+      "source": "Sky News",
+      "photo_query": "UK passport border control",
+      "person": "",
+      "person_role": "",
+      "category": "goc",
+      "photo": {
+        "id": "pb:2660087",
+        "provider": "Pixabay",
+        "query": "UK passport border control",
+        "photographer": "Tama66",
+        "page": "https://pixabay.com/photos/border-control-customs-id-control-2660087/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 73,
+      "emoji": "🏛️",
+      "title": "Burnham confirms independent panel on health legacy of Cold War nuclear tests",
+      "body": "The prime minister says a Hillsborough-style independent panel will examine the health legacy of Britain's Cold War-era atomic programme. He says nuclear test veterans will get the full truth.",
+      "source": "BBC",
+      "photo_query": "Westminster Parliament UK government",
+      "person": "Keir Starmer",
+      "person_role": "politician",
+      "category": "siyaset",
+      "photo": {
+        "id": "wm:Prime Minister Keir Starmer Portrait (cropped).jpg",
+        "provider": "Wikimedia Commons",
+        "person": "Keir Starmer",
+        "license": "OGL 3",
+        "photographer": "Prime Minister's Office",
+        "page": "https://commons.wikimedia.org/wiki/File:Prime_Minister_Keir_Starmer_Portrait_(cropped).jpg",
+        "credit": "Prime Minister's Office / OGL 3, Wikimedia Commons"
+      }
+    },
+    {
+      "ref": 119,
+      "emoji": "🌡️",
+      "title": "Record 5,200 heat-linked deaths are estimated in England this year",
+      "body": "The UK Health Security Agency says this year's number of deaths is twice that of the previous record year.",
+      "source": "BBC",
+      "photo_query": "NHS ambulance medical emergency",
+      "person": "",
+      "person_role": "",
+      "category": "saglik",
+      "photo": {
+        "id": "pb:7415928",
+        "provider": "Pixabay",
+        "query": "NHS ambulance medical emergency",
+        "photographer": "neelam279",
+        "page": "https://pixabay.com/photos/rescue-service-ambulance-7415928/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 46,
+      "emoji": "🚔",
+      "title": "Report finds racism, misogyny and homophobia remain in the Met",
+      "body": "A new report has found institutional racism, misogyny and homophobia still exist in the Metropolitan Police, three years after a damning review.",
+      "source": "BBC",
+      "photo_query": "Metropolitan Police Met force emblem",
+      "person": "",
+      "person_role": "",
+      "category": "guvenlik",
+      "photo": {
+        "id": "pb:772262",
+        "provider": "Pixabay",
+        "query": "Metropolitan Police Met force emblem",
+        "photographer": "littlepepper",
+        "page": "https://pixabay.com/photos/rappel-reverse-rappel-commission-772262/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 86,
+      "emoji": "💰",
+      "title": "Millions of people will receive a £100 energy payment from January",
+      "body": "An explainer sets out whether people will get the £100 energy payment and when it will arrive. Millions are due to receive it from January.",
+      "source": "BBC",
+      "photo_query": "UK bank account money transfer",
+      "person": "",
+      "person_role": "",
+      "category": "ekonomi",
+      "photo": {
+        "id": "pb:4644779",
+        "provider": "Pixabay",
+        "query": "UK bank account money transfer",
+        "photographer": "Sandra-Gabriel",
+        "page": "https://pixabay.com/photos/dollars-money-bank-saving-4644779/",
+        "fallback": false
+      }
+    }
+  ],
+  "history_keys": [
+    "energybillstoriseby26fromjanuary",
+    "disabilitybenefitreviewcallsforcloserlinkwithclaimantcosts",
+    "worldleadinglicensingschemeforknifesellers",
+    "misperceptionsonimmigrationwidespreadamongpublicstudyfinds",
+    "nucleartestveteranswillgetfulltruthsaysburnhamasheconfirmsindependentpanel",
+    "record5200heatlinkeddeathsestimatedinenglandthisyear",
+    "racismmisogynyandhomophobiaremaininmetforcereportfinds",
+    "willigetthe100energypaymentandwhenwillireceiveit"
+  ]
+}
