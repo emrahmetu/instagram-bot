@@ -1,0 +1,32 @@
+{
+  "type": "breaking",
+  "created_at": "2026-11-25T10:20:59.906628+00:00",
+  "item": {
+    "ref": 1,
+    "emoji": "👑",
+    "title": "Men are charged with trespass at Prince and Princess of Wales's home",
+    "body": "Men have been charged with trespass at the home of the Prince and Princess of Wales. The charges follow a call to police about reports of suspicious activity on the Sandringham estate.",
+    "source": "BBC",
+    "photo_query": "Anmer Hall Norfolk estate",
+    "person": "William, Prince of Wales",
+    "person_role": "royal",
+    "category": "gundem",
+    "photo": {
+      "id": "pb:123052",
+      "provider": "Pixabay",
+      "query": "Anmer Hall Norfolk estate",
+      "photographer": "12019",
+      "page": "https://pixabay.com/photos/norfolk-england-holkham-hall-123052/",
+      "fallback": false
+    }
+  },
+  "caption": "🔴 BREAKING | 👑 Men are charged with trespass at Prince and Princess of Wales's home\n\nMen have been charged with trespass at the home of the Prince and Princess of Wales. The charges follow a call to police about reports of suspicious activity on the Sandringham estate.\n\nSource: BBC | Image: Pixabay\nUK Daily Briefing | 25 November, 10:20\n\n#BreakingNews #RoyalNews #Norfolk",
+  "images": [
+    "output/2026-11-25/breaking-102059.jpg"
+  ],
+  "story_image": "output/2026-11-25/breaking-102059-story.jpg",
+  "history_keys": [
+    "menchargedwithtrespassatprinceandprincessofwalesshome"
+  ],
+  "published": false
+}
