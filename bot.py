@@ -301,7 +301,7 @@ STYLE = """Türkçe yazım ve üslup (bir Türk okurun doğal bulacağı dil):
   Kötü: "İşçi vizesi sisteminde sponsor lisansı iptallerinin etkisi"  /  İyi: "Sponsor lisansı iptalleri vizeli çalışanları zor durumda bırakıyor"
   Kötü: "Çakılara Yer Yok kampanyası"  /  İyi: "Londra'da bıçak taşımaya karşı yeni kampanya başladı"
 - Zaman doğru olsun: henüz olmamış şeyi olmuş gibi yazma ("açıklanacak", "planlanıyor", "bekleniyor" ile "açıkladı" farkına dikkat).
-- Birimler: "mph" = "saatte ... mil" (ASLA kilometreye çevirme, ASLA "milyon" yazma). "£" = "... sterlin". "bn" = milyar, "m" = milyon.
+- Birimler: "mph" = "saatte ... mil" (ASLA kilometreye çevirme, ASLA "milyon" yazma). "£" işaretini rakamın önünde koru: "£2.166", "£5 milyar" ("sterlin" kelimesini ASLA yazma). "bn" = milyar, "m" = milyon.
   Yüzdeleri yazıyla değil "%" işaretiyle yaz: "%75", "%3,9" ("yüzde 75" YAZMA).
   Sayıları kaynaktaki değerle birebir aynı yaz; yuvarlama ya da tahmin yapma. Ondalık için virgül kullan (3,5).
 - Kişilerin unvanını YALNIZCA kaynakta yazıyorsa kullan; kendi bilginden unvan ekleme (görevler değişmiş olabilir).
@@ -323,8 +323,8 @@ Kurallar:
 - Öncelik sırası: göç/vize, yaşam maliyeti/vergi/sosyal yardım/emeklilik, siyaset, sağlık/NHS, ekonomi/iş, güvenlik, sonra ilgi çekici haberler.
 - Listenin sonuna, varsa 1-2 ilgi çekici spor, magazin ya da kraliyet haberi ekle (ör. İngiliz takımlarının ve milli takımların önemli maçları, büyük transferler, tanınmış İngiliz isimlerle ilgili önemli gelişmeler, kraliyet ailesinin resmi açıklamaları ve ziyaretleri).
 - Şunları SEÇME: cinsel suçlar ve cinsel suç iddiaları, çocuk istismarı, intihar/kendine zarar, bireysel cinayet ve şiddet ayrıntıları, doğrulanmamış dedikodu ve söylentiler, diyet/zayıflama.
-- Aynı olayı iki kez yazma.
-- Dil sade, tarafsız, haber dili. Para birimini "sterlin" ya da "£" ile yaz.
+- Aynı olayı iki kez yazma; aynı konunun farklı kaynaklardan gelen haberlerini (ör. iki ayrı enerji faturası haberi) tek maddede ver.
+- Dil sade, tarafsız, haber dili. Para birimini rakamın önünde "£" işaretiyle yaz (ör. £500); "sterlin" kelimesini kullanma.
 - category: haberin kategorisi; şunlardan BİRİ: goc, ekonomi, siyaset, saglik, guvenlik, hava, spor, magazin, kraliyet, dunya, gundem.
 - photo_query: haberi temsil eden, GÖRSEL OLARAK ÇARPICI bir MEKÂN ya da NESNE fotoğrafı için İngilizce arama terimi. İngiltere'ye özgü olsun ki başka ülkelerin binası, bayrağı ya da pasaportu çıkmasın (ör. "Big Ben Westminster", "British passport", "NHS ambulance", "London red bus", "pound sterling coins", "Union Jack"). Gerçek kişilerin adını, yüzü ön planda olan insanları, şiddet ya da suç içeren görselleri arama.
 - person: Haber ağırlıklı olarak TANINMIŞ bir kamu figürüyle (siyasetçi, kraliyet ailesi üyesi, ünlü, sporcu, büyük şirket yöneticisi) ilgiliyse kişinin İngilizce Wikipedia sayfasındaki adı (ör. "Keir Starmer", "Harry Kane", "Charles III"); person_role: tek kelimelik İngilizce rolü (politician, royal, footballer, singer, actor, businessman...). Sıradan kişiler, suç zanlıları, mağdurlar ve mahkeme haberleri için ikisini de boş bırak ("").
