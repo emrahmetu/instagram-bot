@@ -1,0 +1,160 @@
+{
+  "date": "2026-11-25",
+  "caption": "🇬🇧 Birleşik Krallık Gündemi | 25 Kasım 2026, Çarşamba\n\n1. 📱 Home Office ve mobil operatörler dolandırıcılığa karşı iş birliğini artırdı\nMilyarlarca dolandırıcılık amaçlı çağrı ve mesaj engellendi. Hükümet ve Birleşik Krallık'ın en büyük mobil operatörleri suçlulara karşı güçlerini birleştirdi.\n\n2. 🔪 Hükümet bıçak satıcıları için lisans planını ilerletiyor\nYeni lisans sistemi bıçak satan işletmeleri ve bireysel satıcıları kapsayacak. Amaç, tehlikeli silahları sokaklardan uzak tutmak.\n\n3. 🛡️ Ev içi şiddet mağdurları için yeni koruma önlemleri yarın başlıyor\nEv içi şiddet koruma bildirimleri ve koruma emirleri yarından itibaren İngiltere ve Galler genelinde uygulanmaya başlayacak. Hükümet bunları şimdiye kadarki en güçlü korumalar olarak tanımlıyor.\n\n4. ⚡ Enerji faturaları yıllık 2.166 sterline çıkacak\nGaz fiyatlarındaki artış nedeniyle fiyat tavanı (price cap) dört yılın en yüksek seviyesine yükselecek.\n\n5. 💷 Enerji faturaları Ocak'tan itibaren %26 artacak\nTipik enerji tüketen bir hanenin yıllık faturası, bu seviye bir yıl boyunca sürerse 1.723 sterlinden 2.166 sterline çıkacak. Artışın nedeni gaz fiyatlarındaki yükseliş.\n\n6. ⚽ Raheem Sterling'e tehlikeli sürüşten ertelenmiş hapis cezası verildi\nRaheem Sterling çarşamba günü 12 ay hapis cezasına çarptırıldı. Ceza 18 ay süreyle ertelendi.\n\n7. 🏉 Beauden Barrett, Bristol Bears ile anlaşmaya yaklaştı\nYeni Zelandalı rugby efsanesi Beauden Barrett'ın Bristol Bears'a katılmak için anlaşmaya yaklaştığı belirtildi. Transfer gerçekleşirse Prem tarihinin en dikkat çekici transferlerinden biri olacak.\n\nKaynaklar: GOV.UK Home Office, The Independent, BBC, BBC Sport. Haberler Türkçe özet olarak derlenmiştir. Görseller: Pixabay. Fotoğraflar: Stefano Delfrate / CC BY-SA 2.0, Wikimedia Commons.\n\n#İngiltere #Londra #UKNews #İngilizHaber #Güvenlik #Enerji #Ekonomi #Spor #BritishNews #Westminster",
+  "images": [
+    "output-en/2026-11-25/00.jpg",
+    "output-en/2026-11-25/01.jpg",
+    "output-en/2026-11-25/02.jpg",
+    "output-en/2026-11-25/03.jpg",
+    "output-en/2026-11-25/04.jpg",
+    "output-en/2026-11-25/05.jpg",
+    "output-en/2026-11-25/06.jpg",
+    "output-en/2026-11-25/07.jpg"
+  ],
+  "story_image": "output-en/2026-11-25/story.jpg",
+  "items": [
+    {
+      "ref": 7,
+      "emoji": "📱",
+      "title": "Home Office ve mobil operatörler dolandırıcılığa karşı iş birliğini artırdı",
+      "body": "Milyarlarca dolandırıcılık amaçlı çağrı ve mesaj engellendi. Hükümet ve Birleşik Krallık'ın en büyük mobil operatörleri suçlulara karşı güçlerini birleştirdi.",
+      "source": "GOV.UK Home Office",
+      "photo_query": "mobile phone fraud prevention",
+      "person": "",
+      "person_role": "",
+      "category": "guvenlik",
+      "photo": {
+        "id": "pb:10558884",
+        "provider": "Pixabay",
+        "query": "mobile phone fraud prevention",
+        "photographer": "MAILAI",
+        "page": "https://pixabay.com/photos/woman-portrait-smartphone-10558884/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 22,
+      "emoji": "🔪",
+      "title": "Hükümet bıçak satıcıları için lisans planını ilerletiyor",
+      "body": "Yeni lisans sistemi bıçak satan işletmeleri ve bireysel satıcıları kapsayacak. Amaç, tehlikeli silahları sokaklardan uzak tutmak.",
+      "source": "GOV.UK Home Office",
+      "photo_query": "UK knife crackdown street safety",
+      "person": "",
+      "person_role": "",
+      "category": "guvenlik",
+      "photo": {
+        "id": "pb:5579622",
+        "provider": "Pixabay",
+        "query": "London red bus",
+        "photographer": "mariamza",
+        "page": "https://pixabay.com/photos/big-ben-building-architecture-5579622/",
+        "fallback": true
+      }
+    },
+    {
+      "ref": 27,
+      "emoji": "🛡️",
+      "title": "Ev içi şiddet mağdurları için yeni koruma önlemleri yarın başlıyor",
+      "body": "Ev içi şiddet koruma bildirimleri ve koruma emirleri yarından itibaren İngiltere ve Galler genelinde uygulanmaya başlayacak. Hükümet bunları şimdiye kadarki en güçlü korumalar olarak tanımlıyor.",
+      "source": "GOV.UK Home Office",
+      "photo_query": "domestic abuse protection services UK",
+      "person": "",
+      "person_role": "",
+      "category": "guvenlik",
+      "photo": {
+        "id": "pb:5283608",
+        "provider": "Pixabay",
+        "query": "domestic abuse protection services UK",
+        "photographer": "viarami",
+        "page": "https://pixabay.com/photos/violence-against-women-5283608/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 55,
+      "emoji": "⚡",
+      "title": "Enerji faturaları yıllık 2.166 sterline çıkacak",
+      "body": "Gaz fiyatlarındaki artış nedeniyle fiyat tavanı (price cap) dört yılın en yüksek seviyesine yükselecek.",
+      "source": "The Independent",
+      "photo_query": "UK heating bills winter energy",
+      "person": "",
+      "person_role": "",
+      "category": "ekonomi",
+      "photo": {
+        "id": "pb:6928682",
+        "provider": "Pixabay",
+        "query": "UK heating bills winter energy",
+        "photographer": "LTapsaH",
+        "page": "https://pixabay.com/photos/heating-center-winter-factory-smoke-6928682/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 59,
+      "emoji": "💷",
+      "title": "Enerji faturaları Ocak'tan itibaren %26 artacak",
+      "body": "Tipik enerji tüketen bir hanenin yıllık faturası, bu seviye bir yıl boyunca sürerse 1.723 sterlinden 2.166 sterline çıkacak. Artışın nedeni gaz fiyatlarındaki yükseliş.",
+      "source": "BBC",
+      "photo_query": "pound sterling energy bills increase",
+      "person": "",
+      "person_role": "",
+      "category": "ekonomi",
+      "photo": {
+        "id": "pb:2391239",
+        "provider": "Pixabay",
+        "query": "pound sterling energy bills increase",
+        "photographer": "frycyk01",
+        "page": "https://pixabay.com/photos/pounds-money-cash-register-2391239/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 56,
+      "emoji": "⚽",
+      "title": "Raheem Sterling'e tehlikeli sürüşten ertelenmiş hapis cezası verildi",
+      "body": "Raheem Sterling çarşamba günü 12 ay hapis cezasına çarptırıldı. Ceza 18 ay süreyle ertelendi.",
+      "source": "BBC Sport",
+      "photo_query": "England footballer driving ban court",
+      "person": "Raheem Sterling",
+      "person_role": "footballer",
+      "category": "spor",
+      "photo": {
+        "id": "pb:5018613",
+        "provider": "Pixabay",
+        "query": "Scottish highlands",
+        "photographer": "Alicia_Chant",
+        "page": "https://pixabay.com/photos/landscape-scotland-sheep-nature-5018613/",
+        "fallback": true
+      }
+    },
+    {
+      "ref": 60,
+      "emoji": "🏉",
+      "title": "Beauden Barrett, Bristol Bears ile anlaşmaya yaklaştı",
+      "body": "Yeni Zelandalı rugby efsanesi Beauden Barrett'ın Bristol Bears'a katılmak için anlaşmaya yaklaştığı belirtildi. Transfer gerçekleşirse Prem tarihinin en dikkat çekici transferlerinden biri olacak.",
+      "source": "BBC Sport",
+      "photo_query": "rugby union Bristol Bears transfer",
+      "person": "Beauden Barrett",
+      "person_role": "footballer",
+      "category": "spor",
+      "photo": {
+        "id": "wm:Beaudy 2021.jpg",
+        "provider": "Wikimedia Commons",
+        "person": "Beauden Barrett",
+        "license": "CC BY-SA 2.0",
+        "photographer": "Stefano Delfrate",
+        "page": "https://commons.wikimedia.org/wiki/File:Beaudy_2021.jpg",
+        "credit": "Stefano Delfrate / CC BY-SA 2.0, Wikimedia Commons"
+      }
+    }
+  ],
+  "history_keys": [
+    "homeofficeandmobilenetworksdialupthefightagainstfraud",
+    "worldleadinglicensingschemeforknifesellers",
+    "strongesteverprotectionsfordomesticabusevictimsrolledout",
+    "energybillstosoarto2166ayearasgaspricessurge",
+    "energybillstoriseby26fromjanuaryaftergaspricessurge",
+    "sterlinggivensuspendedsentencefordangerousdriving",
+    "allblacksgreatbeaudenbarrettclosetobristolmove"
+  ]
+}
