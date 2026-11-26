@@ -1,0 +1,32 @@
+{
+  "type": "breaking",
+  "created_at": "2026-11-26T17:22:24.386926+00:00",
+  "item": {
+    "ref": 7,
+    "emoji": "📊",
+    "title": "Burnham: Birleşik Krallık'ta net göç artık yeterince kontrol altında",
+    "body": "Burnham, Birleşik Krallık'ta net göçün artık 'yeterli' düzeyde kontrol altında olduğunu söyledi. Yıllık net göç 77.000'e geriledi. Korona pandemisi hariç tutulursa bu, bu yüzyılın en düşük seviyesi.",
+    "source": "BBC",
+    "photo_query": "UK immigration office statistics",
+    "person": "",
+    "person_role": "",
+    "category": "goc",
+    "photo": {
+      "id": "pb:2860753",
+      "provider": "Pixabay",
+      "query": "UK immigration office statistics",
+      "photographer": "6689062",
+      "page": "https://pixabay.com/photos/financial-analytics-blur-business-2860753/",
+      "fallback": false
+    }
+  },
+  "caption": "🔴 SON DAKİKA | 📊 Burnham: Birleşik Krallık'ta net göç artık yeterince kontrol altında\n\nBurnham, Birleşik Krallık'ta net göçün artık 'yeterli' düzeyde kontrol altında olduğunu söyledi. Yıllık net göç 77.000'e geriledi. Korona pandemisi hariç tutulursa bu, bu yüzyılın en düşük seviyesi.\n\nKaynak: BBC | Görsel: Pixabay\nBirleşik Krallık Gündemi | 26 Kasım, 17:22\n\n#SonDakika #Göç #İngiltere",
+  "images": [
+    "output-en/2026-11-26/breaking-172224.jpg"
+  ],
+  "story_image": "output-en/2026-11-26/breaking-172224-story.jpg",
+  "history_keys": [
+    "burnhamsaysuknetmigrationnowundersufficientcontrol"
+  ],
+  "published": false
+}
