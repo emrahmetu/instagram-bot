@@ -1,0 +1,159 @@
+{
+  "date": "2026-11-26",
+  "caption": "🇬🇧 Birleşik Krallık Gündemi | 26 Kasım 2026, Perşembe\n\n1. 🚨 Home Office ve mobil operatörler dolandırıcılığa karşı güçlerini birleştirdi\nHome Office (İçişleri Bakanlığı) ile Britanya'nın en büyük mobil operatörleri suçlulara karşı iş birliği yapıyor. Bu iş birliği kapsamında milyarlarca sahte arama ve mesaj engellendi.\n\n2. 🔪 Hükümet bıçak satıcıları için yeni bir lisans sistemi getirecek\nHükümet, bıçak satan işletmeleri ve bireysel satıcıları kapsayan yeni bir lisans sistemi için hazırlıklarını sürdürecek. Amaç, tehlikeli silahları sokaklardan uzak tutmak.\n\n3. 🛡️ Ev içi şiddet mağdurları için yeni koruma kararları yarın başlıyor\nDomestic abuse protection notices ve domestic abuse protection orders yarından itibaren İngiltere ve Galler'de uygulanmaya başlanacak. Hükümet bunları ev içi şiddet mağdurları için şimdiye kadarki en güçlü korumalar olarak tanımlıyor.\n\n4. 💼 Poundland iflas koruması istedi, 11.000 iş risk altında\nİndirim zinciri Poundland, sahipleri alıcı bulamayınca administration sürecine girdi. Zincirde çalışan 11.000 kişinin işi tehlikede.\n\n5. 🤝 Yeni İngiltere-AB anlaşmasında 10 yıllık fesih maddesi bulunuyor\nBBC'nin öğrendiğine göre yeni İngiltere-AB anlaşmasında 10 yıllık bir fesih maddesi yer alıyor. Antlaşmaların metni, anlaşmanın büyük bölümünü yürürlüğe sokacak yasayla birlikte bu öğleden sonra yayımlanacak.\n\n6. 🏥 NHS, kayıtlardaki en yoğun kış öncesinde alarm veriyor\nSağlık yöneticileri, NHS'in rekor düzeyde yoğun bir kışta altından kalkamayabileceği uyarısında bulundu. Yöneticilere göre bakımı hastanelerden topluma kaydırma planları \"tehlikeli ölçüde geç\" geldi.\n\n7. 🚆 Londra Metrosu'nda grev başlıyor, iş dünyası \"büyük zarar\" uyarısı yaptı\nRMT üyeleri, dört günlük çalışma haftası anlaşmazlığında görüşmeler sonuçsuz kalınca saat 12.00'de greve çıkacak. Bir iş dünyası lideri grevlerin \"büyük zarar\" vereceğini söyledi.\n\nKaynaklar: GOV.UK Home Office, BBC, The Independent. Haberler Türkçe özet olarak derlenmiştir. Görseller: Pixabay.\n\n#İngiltere #UKNews #Londra #Güvenlik #NHS #Ekonomi #İşiniş #BritishNews #Politika #Türkler #İngiltereHaberleri",
+  "images": [
+    "output-en/2026-11-26/00.jpg",
+    "output-en/2026-11-26/01.jpg",
+    "output-en/2026-11-26/02.jpg",
+    "output-en/2026-11-26/03.jpg",
+    "output-en/2026-11-26/04.jpg",
+    "output-en/2026-11-26/05.jpg",
+    "output-en/2026-11-26/06.jpg",
+    "output-en/2026-11-26/07.jpg"
+  ],
+  "story_image": "output-en/2026-11-26/story.jpg",
+  "items": [
+    {
+      "ref": 8,
+      "emoji": "🚨",
+      "title": "Home Office ve mobil operatörler dolandırıcılığa karşı güçlerini birleştirdi",
+      "body": "Home Office (İçişleri Bakanlığı) ile Britanya'nın en büyük mobil operatörleri suçlulara karşı iş birliği yapıyor. Bu iş birliği kapsamında milyarlarca sahte arama ve mesaj engellendi.",
+      "source": "GOV.UK Home Office",
+      "photo_query": "mobile phone security fraud",
+      "person": "",
+      "person_role": "",
+      "category": "guvenlik",
+      "photo": {
+        "id": "pb:569515",
+        "provider": "Pixabay",
+        "query": "mobile phone security fraud",
+        "photographer": "geralt",
+        "page": "https://pixabay.com/photos/screen-smartphone-mobile-phone-569515/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 23,
+      "emoji": "🔪",
+      "title": "Hükümet bıçak satıcıları için yeni bir lisans sistemi getirecek",
+      "body": "Hükümet, bıçak satan işletmeleri ve bireysel satıcıları kapsayan yeni bir lisans sistemi için hazırlıklarını sürdürecek. Amaç, tehlikeli silahları sokaklardan uzak tutmak.",
+      "source": "GOV.UK Home Office",
+      "photo_query": "knife weapon street safety UK",
+      "person": "",
+      "person_role": "",
+      "category": "guvenlik",
+      "photo": {
+        "id": "pb:5587739",
+        "provider": "Pixabay",
+        "query": "knife weapon street safety UK",
+        "photographer": "Mikewildadventure",
+        "page": "https://pixabay.com/photos/karambit-knife-weapon-5587739/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 28,
+      "emoji": "🛡️",
+      "title": "Ev içi şiddet mağdurları için yeni koruma kararları yarın başlıyor",
+      "body": "Domestic abuse protection notices ve domestic abuse protection orders yarından itibaren İngiltere ve Galler'de uygulanmaya başlanacak. Hükümet bunları ev içi şiddet mağdurları için şimdiye kadarki en güçlü korumalar olarak tanımlıyor.",
+      "source": "GOV.UK Home Office",
+      "photo_query": "domestic violence support protection",
+      "person": "",
+      "person_role": "",
+      "category": "saglik",
+      "photo": {
+        "id": "pb:1169348",
+        "provider": "Pixabay",
+        "query": "domestic violence support protection",
+        "photographer": "Alexas_Fotos",
+        "page": "https://pixabay.com/photos/violence-against-women-1169348/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 38,
+      "emoji": "💼",
+      "title": "Poundland iflas koruması istedi, 11.000 iş risk altında",
+      "body": "İndirim zinciri Poundland, sahipleri alıcı bulamayınca administration sürecine girdi. Zincirde çalışan 11.000 kişinin işi tehlikede.",
+      "source": "BBC",
+      "photo_query": "Poundland discount store UK",
+      "person": "",
+      "person_role": "",
+      "category": "ekonomi",
+      "photo": {
+        "id": "pb:4503802",
+        "provider": "Pixabay",
+        "query": "London taxi",
+        "photographer": "JohnKelly1972",
+        "page": "https://pixabay.com/photos/phone-booth-london-red-british-4503802/",
+        "fallback": true
+      }
+    },
+    {
+      "ref": 39,
+      "emoji": "🤝",
+      "title": "Yeni İngiltere-AB anlaşmasında 10 yıllık fesih maddesi bulunuyor",
+      "body": "BBC'nin öğrendiğine göre yeni İngiltere-AB anlaşmasında 10 yıllık bir fesih maddesi yer alıyor. Antlaşmaların metni, anlaşmanın büyük bölümünü yürürlüğe sokacak yasayla birlikte bu öğleden sonra yayımlanacak.",
+      "source": "BBC",
+      "photo_query": "UK EU treaty flag agreement",
+      "person": "",
+      "person_role": "",
+      "category": "politika",
+      "photo": {
+        "id": "pb:2287186",
+        "provider": "Pixabay",
+        "query": "British countryside",
+        "photographer": "pixelsteve",
+        "page": "https://pixabay.com/photos/broadway-tower-monument-landmark-2287186/",
+        "fallback": true
+      }
+    },
+    {
+      "ref": 78,
+      "emoji": "🏥",
+      "title": "NHS, kayıtlardaki en yoğun kış öncesinde alarm veriyor",
+      "body": "Sağlık yöneticileri, NHS'in rekor düzeyde yoğun bir kışta altından kalkamayabileceği uyarısında bulundu. Yöneticilere göre bakımı hastanelerden topluma kaydırma planları \"tehlikeli ölçüde geç\" geldi.",
+      "source": "The Independent",
+      "photo_query": "NHS hospital ambulance emergency",
+      "person": "",
+      "person_role": "",
+      "category": "saglik",
+      "photo": {
+        "id": "pb:3398296",
+        "provider": "Pixabay",
+        "query": "NHS hospital ambulance emergency",
+        "photographer": "LMoonlight",
+        "page": "https://pixabay.com/photos/ambulance-asb-emergency-call-3398296/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 83,
+      "emoji": "🚆",
+      "title": "Londra Metrosu'nda grev başlıyor, iş dünyası \"büyük zarar\" uyarısı yaptı",
+      "body": "RMT üyeleri, dört günlük çalışma haftası anlaşmazlığında görüşmeler sonuçsuz kalınca saat 12.00'de greve çıkacak. Bir iş dünyası lideri grevlerin \"büyük zarar\" vereceğini söyledi.",
+      "source": "The Independent",
+      "photo_query": "London Underground Tube strike",
+      "person": "",
+      "person_role": "",
+      "category": "ekonomi",
+      "photo": {
+        "id": "pb:4225009",
+        "provider": "Pixabay",
+        "query": "London Underground Tube strike",
+        "photographer": "pixki27",
+        "page": "https://pixabay.com/photos/underground-london-metro-subway-4225009/",
+        "fallback": false
+      }
+    }
+  ],
+  "history_keys": [
+    "homeofficeandmobilenetworksdialupthefightagainstfraud",
+    "worldleadinglicensingschemeforknifesellers",
+    "strongesteverprotectionsfordomesticabusevictimsrolledout",
+    "poundlandcollapsesputting11000jobsatrisk",
+    "newukeutreatyhas10yearterminationclausebbcunderstands",
+    "nhsfacingoverwhelmwithbusiestwinteronrecordexpected",
+    "londontubestrikessettobeginasbusinessleadercallsthemhugelydamaging"
+  ]
+}
