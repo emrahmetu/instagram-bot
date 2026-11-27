@@ -1,0 +1,32 @@
+{
+  "type": "breaking",
+  "created_at": "2026-11-27T17:00:46.905102+00:00",
+  "item": {
+    "ref": 20,
+    "emoji": "⚡",
+    "title": "Milyonlarca hanede enerji faturaları Ocak'ta %26 artacak",
+    "body": "Milyonlarca hanede enerji faturaları Ocak ayında %26 artacak. Artışın nedeni, İran savaşının tetiklediği gaz fiyatlarındaki sert yükseliş.",
+    "source": "BBC",
+    "photo_query": "energy bills UK meter",
+    "person": "",
+    "person_role": "",
+    "category": "ekonomi",
+    "photo": {
+      "id": "pb:5229752",
+      "provider": "Pixabay",
+      "query": "energy bills UK meter",
+      "photographer": "jillrose999",
+      "page": "https://pixabay.com/photos/electric-meter-electricity-meter-5229752/",
+      "fallback": false
+    }
+  },
+  "caption": "🔴 SON DAKİKA | ⚡ Milyonlarca hanede enerji faturaları Ocak'ta %26 artacak\n\nMilyonlarca hanede enerji faturaları Ocak ayında %26 artacak. Artışın nedeni, İran savaşının tetiklediği gaz fiyatlarındaki sert yükseliş.\n\nKaynak: BBC | Görsel: Pixabay\nBirleşik Krallık Gündemi | 27 Kasım, 17:00\n\n#SonDakika #EnerjiKriziUK #Ocak2027",
+  "images": [
+    "output-en/2026-11-27/breaking-170046.jpg"
+  ],
+  "story_image": "output-en/2026-11-27/breaking-170046-story.jpg",
+  "history_keys": [
+    "willnewenergyfixescostmoreinjanuary"
+  ],
+  "published": false
+}
