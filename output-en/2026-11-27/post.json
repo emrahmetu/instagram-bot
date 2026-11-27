@@ -1,0 +1,159 @@
+{
+  "date": "2026-11-27",
+  "caption": "🇬🇧 Birleşik Krallık Gündemi | 27 Kasım 2026, Cuma\n\n1. 📊 Birleşik Krallık'a net göç 1997'den bu yana en düşük seviyeye indi\nOffice for National Statistics verilerine göre Haziran 2026'da biten yılda Birleşik Krallık'a net göç 77.000'e geriledi.\n\n2. ✅ Hükümet göç sisteminde iki yılda önemli ilerleme kaydetti\nHome Office yayınladığı verilere göre göçü azaltma, küçük tekne geçişlerini durdurmak ve sığınmacı basıncını hafifletme konusunda iki yılda kayda değer başarı elde etmiştir.\n\n3. 🏨 Rapor: Sığınmacılara çalışma izni verisi otel kapanışlarını hızlandırabilir\nFuture Governance Forum ve UCL Policy Lab ortaklaşa hazırlanan rapora göre, talep başvurusundan altı ay sonra sığınmacılara çalışma yapma izni verilmesi hükümetin sığınmacı otellerini kapatma vaadini gerçekleştirmesine yardımcı olabilir.\n\n4. 🤒 NHS'ye uyarı: Hastanelerde grip vakalarında 'korkunç bir artış' yaşanıyor\nNHS, hastane yatışlarının artması üzerine grip bulaşan risk altındaki kişileri mümkün olan en kısa sürede aşılatılmaya çağırmıştır.\n\n5. 💷 Bankalar hükümetin vergi artışını müşterilere yansıtabilir\nBank of England başkanı milyar sterlin tutarındaki vergi artışının bankaların bunu müşterilere aktarabileceği ve kredi faizlerini yükselteceği ya da tasarruf oranlarını düşürebileceği konusunda uyardı.\n\n6. 🎾 İngiltere Davis Kupası yarı finaline 2019'dan sonra ilk kez yükseldi\nHenry Patten ve Neal Skupski'nin Almanya'ya karşı kazandığı karşılıklı maçla İngiltere Davis Kupası yarı finallerine adını yazdırdı.\n\n7. 👑 Kate yaratıcılığın iyileştirici gücünü göstermek için çizim yaptı\nGaller Prensesi, Berwickshire'daki Hugo Burge Vakfı'nı ziyaret ederek yaratıcılığın sağlık üzerine olumlu etkilerini vurgulasa kömür çizimi yaptığı görüldü.\n\nKaynaklar: Free Movement, GOV.UK Home Office, BBC, The Independent, BBC Sport, Evening Standard. Haberler Türkçe özet olarak derlenmiştir. Görseller: Pixabay.\n\n#İngiltere #UKNews #Göç #NetMigration #NHS #GripeKarşı #DavisCup #UKEconomics #BankaVergileri #SağlıkHaberleri",
+  "images": [
+    "output-en/2026-11-27/00.jpg",
+    "output-en/2026-11-27/01.jpg",
+    "output-en/2026-11-27/02.jpg",
+    "output-en/2026-11-27/03.jpg",
+    "output-en/2026-11-27/04.jpg",
+    "output-en/2026-11-27/05.jpg",
+    "output-en/2026-11-27/06.jpg",
+    "output-en/2026-11-27/07.jpg"
+  ],
+  "story_image": "output-en/2026-11-27/story.jpg",
+  "items": [
+    {
+      "ref": 9,
+      "emoji": "📊",
+      "title": "Birleşik Krallık'a net göç 1997'den bu yana en düşük seviyeye indi",
+      "body": "Office for National Statistics verilerine göre Haziran 2026'da biten yılda Birleşik Krallık'a net göç 77.000'e geriledi. Covid yılları hariç tutulursa bu rakam için 1997'ye gitmek gerekiyor. Net göç, bir önceki yıl 204.000'di.",
+      "source": "Free Movement",
+      "photo_query": "UK immigration statistics chart",
+      "person": "",
+      "person_role": "",
+      "category": "goc",
+      "photo": {
+        "id": "pb:3265840",
+        "provider": "Pixabay",
+        "query": "UK immigration statistics chart",
+        "photographer": "Tumisu",
+        "page": "https://pixabay.com/photos/analytics-charts-business-woman-3265840/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 3,
+      "emoji": "✅",
+      "title": "Hükümet göç sisteminde iki yılda önemli ilerleme kaydetti",
+      "body": "Home Office yayınladığı verilere göre göçü azaltma, küçük tekne geçişlerini durdurmak ve sığınmacı basıncını hafifletme konusunda iki yılda kayda değer başarı elde etmiştir. İadeler de artırılmıştır.",
+      "source": "GOV.UK Home Office",
+      "photo_query": "UK border control statistics",
+      "person": "",
+      "person_role": "",
+      "category": "goc",
+      "photo": {
+        "id": "pb:2559349",
+        "provider": "Pixabay",
+        "query": "UK border control statistics",
+        "photographer": "AKrebs60",
+        "page": "https://pixabay.com/photos/customs-control-border-control-cop-2559349/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 24,
+      "emoji": "🏨",
+      "title": "Rapor: Sığınmacılara çalışma izni verisi otel kapanışlarını hızlandırabilir",
+      "body": "Future Governance Forum ve UCL Policy Lab ortaklaşa hazırlanan rapora göre, talep başvurusundan altı ay sonra sığınmacılara çalışma yapma izni verilmesi hükümetin sığınmacı otellerini kapatma vaadini gerçekleştirmesine yardımcı olabilir.",
+      "source": "Free Movement",
+      "photo_query": "UK asylum seekers work",
+      "person": "",
+      "person_role": "",
+      "category": "goc",
+      "photo": {
+        "id": "pb:5678997",
+        "provider": "Pixabay",
+        "query": "UK asylum seekers work",
+        "photographer": "magnetme",
+        "page": "https://pixabay.com/photos/woman-office-business-communication-5678997/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 38,
+      "emoji": "🤒",
+      "title": "NHS'ye uyarı: Hastanelerde grip vakalarında 'korkunç bir artış' yaşanıyor",
+      "body": "NHS, hastane yatışlarının artması üzerine grip bulaşan risk altındaki kişileri mümkün olan en kısa sürede aşılatılmaya çağırmıştır. Sağlık görevlileri durumu 'korkunç' olarak nitelemektedir.",
+      "source": "BBC",
+      "photo_query": "NHS hospital flu prevention",
+      "person": "",
+      "person_role": "",
+      "category": "saglik",
+      "photo": {
+        "id": "pb:698980",
+        "provider": "Pixabay",
+        "query": "NHS hospital flu prevention",
+        "photographer": "Mojpe",
+        "page": "https://pixabay.com/photos/woman-blowing-nose-allergy-sickness-698980/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 89,
+      "emoji": "💷",
+      "title": "Bankalar hükümetin vergi artışını müşterilere yansıtabilir",
+      "body": "Bank of England başkanı milyar sterlin tutarındaki vergi artışının bankaların bunu müşterilere aktarabileceği ve kredi faizlerini yükselteceği ya da tasarruf oranlarını düşürebileceği konusunda uyardı.",
+      "source": "The Independent",
+      "photo_query": "UK bank mortgage rates",
+      "person": "",
+      "person_role": "",
+      "category": "ekonomi",
+      "photo": {
+        "id": "pb:2724248",
+        "provider": "Pixabay",
+        "query": "UK bank mortgage rates",
+        "photographer": "nattanan23",
+        "page": "https://pixabay.com/photos/money-home-coin-investment-2724248/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 113,
+      "emoji": "🎾",
+      "title": "İngiltere Davis Kupası yarı finaline 2019'dan sonra ilk kez yükseldi",
+      "body": "Henry Patten ve Neal Skupski'nin Almanya'ya karşı kazandığı karşılıklı maçla İngiltere Davis Kupası yarı finallerine adını yazdırdı. Bu, 2019'dan sonra ilk kez yarı finale çıkmasıdır.",
+      "source": "BBC Sport",
+      "photo_query": "Davis Cup tennis match",
+      "person": "",
+      "person_role": "",
+      "category": "spor",
+      "photo": {
+        "id": "pb:5782686",
+        "provider": "Pixabay",
+        "query": "Davis Cup tennis match",
+        "photographer": "hansmarkutt",
+        "page": "https://pixabay.com/photos/tennis-ball-players-atheletes-5782686/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 117,
+      "emoji": "👑",
+      "title": "Kate yaratıcılığın iyileştirici gücünü göstermek için çizim yaptı",
+      "body": "Galler Prensesi, Berwickshire'daki Hugo Burge Vakfı'nı ziyaret ederek yaratıcılığın sağlık üzerine olumlu etkilerini vurgulasa kömür çizimi yaptığı görüldü.",
+      "source": "Evening Standard",
+      "photo_query": "Kate Princess Wales foundation visit",
+      "person": "",
+      "person_role": "",
+      "category": "kraliyet",
+      "photo": {
+        "id": "pb:1055054",
+        "provider": "Pixabay",
+        "query": "Westminster London",
+        "photographer": "luxstorm",
+        "page": "https://pixabay.com/photos/london-bus-big-ben-parliament-bridge-1055054/",
+        "fallback": true
+      }
+    }
+  ],
+  "history_keys": [
+    "latestimmigrationstatisticslowestrecordednetmigrationsince1997",
+    "howthegovernmenthasgrippedthemigrationsystemin6charts",
+    "workingwhilewaitingreportfindsaquickerandfairerwaytocloseasylumhotels",
+    "nhsbosswarnsofhorriblespikeinfluashospitaladmissionssurge",
+    "banksmaypass15bntaxhikeontocustomersbankofenglandchiefwarns",
+    "gbwindecidertoreachdaviscupsemifinals",
+    "katecelebrateshealingpowerofcreativityasshetriescharcoaldrawing"
+  ]
+}
