@@ -1,0 +1,181 @@
+{
+  "date": "2026-11-28",
+  "caption": "🇬🇧 Birleşik Krallık Gündemi | 28 Kasım 2026, Cumartesi\n\n1. 👩‍⚖️ Kadınlara yönelik şiddetle mücadeleye 100 milyona yakın £ ayrıldı\nHükümet, kadınlara ve kızlara yönelik şiddetle mücadele için yaklaşık 100 milyon £ ek kaynak ayırdı.\n\n2. ⚖️ Israrlı takip yasalarında on yılı aşkın sürenin en büyük değişikliği geliyor\nPolis ve savcılara, yeni ve bağımsız israrlı takip suçu kapsamında failler hakkında daha güçlü yetkiler verilecek.\n\n3. ⚠️ Siber olay nedeniyle milyonlarca kişi sosyal yardım ve emeklilik hizmetlerine erişemedi\nDepartment for Work and Pensions (DWP), bazı hizmetlerini önlem olarak çevrimdışı bıraktığını açıkladı.\n\n4. 📚 Öğrenci vizesi için lisanslı sponsor kuruluşların listesi yayımlandı\nStudent ve Child Student vize kategorilerinde göçmen öğrencilere sponsor olmaya yetkili kurumların listesi yayımlandı.\n\n5. 💼 Çalışma vizesi için lisanslı sponsor kuruluşların listesi yayımlandı\nWorker ve Temporary Worker göçmenlik kategorilerinde çalışanlara sponsor olmaya yetkili kuruluşların listesi yayımlandı.\n\n6. 💉 Grip vakalarındaki sert artışın ardından çocuklara aşı çağrısı yapıldı\nİngiltere genelinde 6.000'den fazla eczane, ilk kez binlerce çocuğa grip aşısı yapıyor.\n\n7. 🏪 Poundland, ABD'li sahiplerinin kurtarma anlaşması sağlayamaması üzerine idari yönetime gir\nİndirimli ürün zinciri Poundland, ABD'li sahiplerinin kurtarma anlaşması sağlayamaması üzerine administration sürecine girdi.\n\n8. 👑 Galler Prensesi Kate, yeni belgeselde çocukların sesli mesajlarıyla gözyaşlarına boğuldu\nGaller Prensesi, kanser sürecini anlattığı yeni belgeselde çocuklarından gelen sesli mesajları dinlerken duygulandı.\n\nKaynaklar: GOV.UK Home Office, BBC, GOV.UK UKVI, Sky News. Haberler Türkçe özet olarak derlenmiştir. Görseller: Pixabay. Fotoğraflar: Daniel Torok/White House / Public domain, Wikimedia Commons.\n\n#İngiltere #UKNews #Londra #BirleşikKrallık #GöçVizesi #NHS #DWP #KadınlarınGüvenliği #İngiltereHaberleri #İşçiVizesi #Siber #KraliyetAilesi",
+  "images": [
+    "output-en/2026-11-28/00.jpg",
+    "output-en/2026-11-28/01.jpg",
+    "output-en/2026-11-28/02.jpg",
+    "output-en/2026-11-28/03.jpg",
+    "output-en/2026-11-28/04.jpg",
+    "output-en/2026-11-28/05.jpg",
+    "output-en/2026-11-28/06.jpg",
+    "output-en/2026-11-28/07.jpg",
+    "output-en/2026-11-28/08.jpg"
+  ],
+  "story_image": "output-en/2026-11-28/story.jpg",
+  "items": [
+    {
+      "ref": 4,
+      "emoji": "👩‍⚖️",
+      "title": "Kadınlara yönelik şiddetle mücadeleye 100 milyona yakın £ ayrıldı",
+      "body": "Hükümet, kadınlara ve kızlara yönelik şiddetle mücadele için yaklaşık 100 milyon £ ek kaynak ayırdı. Fonun 70 milyon £'dan fazlası davranış değişikliği programlarına, 23 milyon £'dan fazlası ise yardım hatlarına ve destek hizmetlerine gidecek.",
+      "source": "GOV.UK Home Office",
+      "photo_query": "violence against women support centre",
+      "person": "",
+      "person_role": "",
+      "category": "guvenlik",
+      "photo": {
+        "id": "pb:2322774",
+        "provider": "Pixabay",
+        "query": "violence against women support centre",
+        "photographer": "Engin_Akyurt",
+        "page": "https://pixabay.com/photos/rope-model-hands-woman-fiction-2322774/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 12,
+      "emoji": "⚖️",
+      "title": "Israrlı takip yasalarında on yılı aşkın sürenin en büyük değişikliği geliyor",
+      "body": "Polis ve savcılara, yeni ve bağımsız israrlı takip suçu kapsamında failler hakkında daha güçlü yetkiler verilecek. Düzenleme, bu suçla mücadeleyi güçlendirmeyi hedefliyor.",
+      "source": "GOV.UK Home Office",
+      "photo_query": "UK law court justice scales",
+      "person": "",
+      "person_role": "",
+      "category": "guvenlik",
+      "photo": {
+        "id": "pb:3785581",
+        "provider": "Pixabay",
+        "query": "UK law court justice scales",
+        "photographer": "moritz320",
+        "page": "https://pixabay.com/photos/justitia-justice-jurisdiction-3785581/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 76,
+      "emoji": "⚠️",
+      "title": "Siber olay nedeniyle milyonlarca kişi sosyal yardım ve emeklilik hizmetlerine erişemedi",
+      "body": "Department for Work and Pensions (DWP), bazı hizmetlerini önlem olarak çevrimdışı bıraktığını açıkladı. Milyonlarca kişi, sosyal yardım ve emeklilik hizmetlerine erişim sorunu yaşıyor.",
+      "source": "BBC",
+      "photo_query": "government building cyber security",
+      "person": "",
+      "person_role": "",
+      "category": "ekonomi",
+      "photo": {
+        "id": "pb:1591018",
+        "provider": "Pixabay",
+        "query": "government building cyber security",
+        "photographer": "TheDigitalWay",
+        "page": "https://pixabay.com/photos/computer-security-padlock-hacker-1591018/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 7,
+      "emoji": "📚",
+      "title": "Öğrenci vizesi için lisanslı sponsor kuruluşların listesi yayımlandı",
+      "body": "Student ve Child Student vize kategorilerinde göçmen öğrencilere sponsor olmaya yetkili kurumların listesi yayımlandı. Liste, lisanslı sponsor kurumları gösteriyor.",
+      "source": "GOV.UK UKVI",
+      "photo_query": "UK university campus building",
+      "person": "",
+      "person_role": "",
+      "category": "goc",
+      "photo": {
+        "id": "pb:1908785",
+        "provider": "Pixabay",
+        "query": "UK university campus building",
+        "photographer": "12019",
+        "page": "https://pixabay.com/photos/university-of-adelaide-australia-1908785/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 8,
+      "emoji": "💼",
+      "title": "Çalışma vizesi için lisanslı sponsor kuruluşların listesi yayımlandı",
+      "body": "Worker ve Temporary Worker göçmenlik kategorilerinde çalışanlara sponsor olmaya yetkili kuruluşların listesi yayımlandı. Liste, lisanslı sponsor kuruluşları gösteriyor.",
+      "source": "GOV.UK UKVI",
+      "photo_query": "UK work visa passport",
+      "person": "",
+      "person_role": "",
+      "category": "goc",
+      "photo": {
+        "id": "pb:2642172",
+        "provider": "Pixabay",
+        "query": "UK work visa passport",
+        "photographer": "cytis",
+        "page": "https://pixabay.com/photos/passport-flag-travel-visa-2642172/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 43,
+      "emoji": "💉",
+      "title": "Grip vakalarındaki sert artışın ardından çocuklara aşı çağrısı yapıldı",
+      "body": "İngiltere genelinde 6.000'den fazla eczane, ilk kez binlerce çocuğa grip aşısı yapıyor. Yetkililer, vakalardaki \"korkunç artış\" nedeniyle çocukların aşılanması çağrısında bulundu.",
+      "source": "Sky News",
+      "photo_query": "NHS vaccination pharmacy",
+      "person": "",
+      "person_role": "",
+      "category": "saglik",
+      "photo": {
+        "id": "pb:417786",
+        "provider": "Pixabay",
+        "query": "NHS vaccination pharmacy",
+        "photographer": "PhotoLizM",
+        "page": "https://pixabay.com/photos/syringe-healthcare-needle-medicine-417786/",
+        "fallback": false
+      }
+    },
+    {
+      "ref": 44,
+      "emoji": "🏪",
+      "title": "Poundland, ABD'li sahiplerinin kurtarma anlaşması sağlayamaması üzerine idari yönetime gir",
+      "body": "İndirimli ürün zinciri Poundland, ABD'li sahiplerinin kurtarma anlaşması sağlayamaması üzerine administration sürecine girdi. Müşteriler ve çalışanlar, zincirin kaybedilmesinden endişe ediyor.",
+      "source": "BBC",
+      "photo_query": "Poundland store discount retail",
+      "person": "",
+      "person_role": "",
+      "category": "ekonomi",
+      "photo": {
+        "id": "pb:1481830",
+        "provider": "Pixabay",
+        "query": "London underground",
+        "photographer": "reidy68",
+        "page": "https://pixabay.com/photos/double-exposure-underground-london-1481830/",
+        "fallback": true
+      }
+    },
+    {
+      "ref": 62,
+      "emoji": "👑",
+      "title": "Galler Prensesi Kate, yeni belgeselde çocukların sesli mesajlarıyla gözyaşlarına boğuldu",
+      "body": "Galler Prensesi, kanser sürecini anlattığı yeni belgeselde çocuklarından gelen sesli mesajları dinlerken duygulandı. Prenses, hastalığın ve teşhisin kendisini nasıl değiştirdiğini de anlattı.",
+      "source": "Sky News",
+      "photo_query": "Three Peaks Challenge mountain hiking",
+      "person": "Catherine, Princess of Wales",
+      "person_role": "royal",
+      "category": "kraliyet",
+      "photo": {
+        "id": "wm:Princess of Wales at State Banquet 2025-09-17 (0.75 crop).jpg",
+        "provider": "Wikimedia Commons",
+        "person": "Catherine, Princess of Wales",
+        "license": "Public domain",
+        "photographer": "Daniel Torok/White House",
+        "page": "https://commons.wikimedia.org/wiki/File:Princess_of_Wales_at_State_Banquet_2025-09-17_(0.75_crop).jpg",
+        "credit": "Daniel Torok/White House / Public domain, Wikimedia Commons"
+      }
+    }
+  ],
+  "history_keys": [
+    "nearly100millionboosttotackleviolenceagainstwomenandgirls",
+    "biggestshakeupofstalkinglawsinoveradecade",
+    "millionsloseaccesstobenefitsandpensionsservicesaftercyberincident",
+    "guidanceregisteroflicensedsponsorsstudents",
+    "guidanceregisteroflicensedsponsorsworkers",
+    "childrenurgedtogetfluvaccineafterhorriblespikeincases",
+    "idontknowwhatiddowithoutitwhyshoppersandstafffearlosingpoundland",
+    "katemovedtotearsbychildrensvoicemessagesinnewdocumentaryaboutcancerjourney"
+  ]
+}
